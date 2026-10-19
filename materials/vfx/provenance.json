@@ -1,0 +1,15 @@
+{
+  "flame": {
+    "url": "/materials/vfx/cs2-candle-flame.png",
+    "bytes": 25854,
+    "sha256": "5e39346aec2f60b4b043f0550ee3783a9fc79b5be88f8fe0230684c49dfcdda8",
+    "columns": 8,
+    "rows": 4,
+    "frames": 25,
+    "secondsPerFrame": 0.05,
+    "source": "CS2 Ancient candle flame atlas (not the Molotov particle system)",
+    "sourceMaterial": "materials/models/props/de_aztec/hr_aztec/aztec_lighting/aztec_lighting_candle_flame_01.vmat",
+    "sourceArchiveSHA256": "571dfcf021100d9f48a4af27365b890e7b8000e97975cef99690cb7e4b7fd679",
+    "clientVersion": "2000933"
+  }
+}

@@ -9,3 +9,6 @@ f26bf46f9a07c02f3bdc38ba11ac7cbd176f7434f67c64c7bde938efbf748581  ARENA-1.11-bet
 
 #1.12 is distributed in GitHub Releases
 ca4cbf39167421f7f24bb09483f920d3aee9b8d10050f58e3628b2a57fd89980  ARENA-1.12-beta.apk
+
+#1.13 is distributed in GitHub Releases
+f0d5bdd4049fb17d2ef6072cffeebcf04ad669f295b7d2851b8a68f620fc0aca  ARENA-1.13-beta.apk
