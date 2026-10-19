@@ -1,0 +1,37 @@
+{
+  "file": "ARENA-1.13-beta.apk",
+  "bytes": 364414858,
+  "sha256": "f0d5bdd4049fb17d2ef6072cffeebcf04ad669f295b7d2851b8a68f620fc0aca",
+  "parts": [
+    {
+      "file": "part-001.bin",
+      "bytes": 83886080,
+      "sha256": "9759de19a6a127376fa0e6347c1a4764b2ce02917b933e5a99451cf69efd9b64"
+    },
+    {
+      "file": "part-002.bin",
+      "bytes": 83886080,
+      "sha256": "3b56dae7f8dc0f666fd79f014b44757170f87faaf64a05082d7f67c8768f2555"
+    },
+    {
+      "file": "part-003.bin",
+      "bytes": 83886080,
+      "sha256": "e58eb9eb5074fcff278c91884f4401ea246e19ced96dcb8cd59a79e2416ec9dd"
+    },
+    {
+      "file": "part-004.bin",
+      "bytes": 83886080,
+      "sha256": "f4d7c7277b11b1f7289218bb5f6cc95192a4840fcad219b8cbda808830ae71dd"
+    },
+    {
+      "file": "part-005.bin",
+      "bytes": 28870538,
+      "sha256": "4d204879d6b8a675662565738dd85b63771ed9f7967e840156862344eaa0b89d"
+    }
+  ],
+  "tool": {
+    "file": "ARENA-CS2-vfx-tools-v1.zip",
+    "bytes": 11811,
+    "sha256": "b7e5c22b11efb8b7a07d3621f88aa9ba5c9747b06b50c77c3e3549e48f414e79"
+  }
+}
