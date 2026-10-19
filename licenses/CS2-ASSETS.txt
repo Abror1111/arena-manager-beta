@@ -23,3 +23,10 @@ blended source radar. This is not a claim of exact Source2 renderer parity.
 
 Awpy code: MIT, Copyright (c)2020-2026 Peter Xenopoulos, see awpy.txt.
 Awpy-data scripts: MIT, Copyright (c)2025 Peter Xenopoulos, see awpy-data.txt.
+
+CT SAS and T Phoenix additionally use user-exported original CS2 agents, skin
+weights, skeletons and66 selected world animation clips per agent. Original
+third-person vertices are retained; first-person arms and empty animation helper
+meshes are excluded. Original albedo is resized/WebP95 encoded; normal/ORM maps
+are omitted. Source and mobile checksums are in /agents/provenance.json. These
+models and animations are Valve game assets, not MIT-licensed ARENA artwork.

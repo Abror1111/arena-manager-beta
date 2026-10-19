@@ -1,0 +1,29 @@
+{
+  "clientVersion": "2000933",
+  "sourceArchiveSHA256": "abf815652d0e274c837de6c83adb625e562964a8be1e3a5fdb03440b0910edf9",
+  "agents": [
+    {
+      "side": "CT",
+      "sourceResource": "agents/models/ctm_sas/ctm_sas.vmdl_c",
+      "sourceGLBSHA256": "e08369a85d70b84989ea0bb88e4a235fb31a00919c2498d940c318cf1d765e43",
+      "mobileSHA256": "81951fcffd3ce6614461c75847e4bc5592e6556bdae54ac1dadb56158350c607",
+      "mobileBytes": 5292956,
+      "sourceClips": 2091,
+      "mobileClips": 66,
+      "triangles": 18452,
+      "skinWeightsAndGeometryPreserved": true
+    },
+    {
+      "side": "T",
+      "sourceResource": "agents/models/tm_phoenix/tm_phoenix.vmdl_c",
+      "sourceGLBSHA256": "dcaa9f8b1b5201f355bad6a7e2526afa8126b09e4ba6556ca45d117f77c701b3",
+      "mobileSHA256": "c7ed794db601431f6ee222bce44ca10119de0b86bc8496e5a21135daee6a1991",
+      "mobileBytes": 5576764,
+      "sourceClips": 2091,
+      "mobileClips": 66,
+      "triangles": 17715,
+      "skinWeightsAndGeometryPreserved": true
+    }
+  ],
+  "rights": "Original CS2/Valve assets; not MIT."
+}
