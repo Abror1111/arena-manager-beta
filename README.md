@@ -1,6 +1,6 @@
 # arena-manager-beta
 
-# ARENA Manager 1.06 beta
+# ARENA Manager 1.07 beta
 
 Static beta game and signed Android APK. This repository is independent of the live csgo-keys bot.
 
@@ -12,3 +12,5 @@ Publishing and the public URL must be verified after deployment; local validatio
 Android 8+; install over the existing ARENA beta to retain saves. PC and Android career saves are separate.
 Dust II uses a mobile-optimized source visual model; ten other maps retain their previous appearance.
 Asset and software license notices are under `licenses/`. These notices do not transfer asset rights.
+
+1.07: separate static/automatic/pinned-player cameras, stable automatic shots and slow oblique arcs. Following an actor no longer slices ordinary map geometry. Lower floors retain explicit boundaries. Mobile balanced/sharp/battery pixel budgets and antialiasing are available in Buyruqlar. Source visual assets, navigation and saved career schema remain unchanged. Physical device FPS is not yet measured.
