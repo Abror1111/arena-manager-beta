@@ -1,0 +1,464 @@
+{
+  "release": "2000933",
+  "repository": "https://github.com/pnxenopoulos/awpy-data",
+  "manifest": {
+    "artifacts": {
+      "geometry.zip": {
+        "bytes": 56674290,
+        "sha256": "e1730a90200a2bacffe6d0d1984d31dc038c52faae91366564403a59b9e9e7f5"
+      },
+      "images.zip": {
+        "bytes": 2876805,
+        "sha256": "6a6533e28b8b9da40060d542c942886b5b5b18b086de0e0648f81fb73f9c2c9f"
+      },
+      "navs.zip": {
+        "bytes": 8432990,
+        "sha256": "0ec2e51f27306c95553c64e76e8c767942ab54229c90ed1000701090263cb7bd"
+      }
+    },
+    "buildid": "25966348",
+    "client_version": "2000933",
+    "generated_at": "2026-10-16T05:51:35.259214+00:00",
+    "maps": [
+      "ar_baggage",
+      "ar_pool_day",
+      "ar_shoots",
+      "ar_shoots_night",
+      "cs_italy",
+      "cs_office",
+      "cs_shelter",
+      "de_ancient",
+      "de_ancient_night",
+      "de_anubis",
+      "de_boulder",
+      "de_cache",
+      "de_debris",
+      "de_dust2",
+      "de_eldorado",
+      "de_fachwerk",
+      "de_inferno",
+      "de_mirage",
+      "de_nuke",
+      "de_overpass",
+      "de_poseidon",
+      "de_train",
+      "de_vertigo",
+      "rush_001"
+    ],
+    "patch_version": "1.41.9.1",
+    "release_key": "2000933",
+    "server_version": "2000933",
+    "source_revision": "11133601",
+    "version_date": "Oct 15 2026",
+    "version_time": "10:15:52"
+  },
+  "maps": {
+    "dust2": {
+      "source": "de_dust2",
+      "sites": [
+        {
+          "x": 45.1312,
+          "z": 9.7469,
+          "y": 3.4312,
+          "area": 1785,
+          "label": "A"
+        },
+        {
+          "x": 11.75,
+          "z": 7.025,
+          "y": 2.3167,
+          "area": 2064,
+          "label": "B"
+        }
+      ],
+      "spawns": [
+        {
+          "x": 21.5719,
+          "z": 50.3734,
+          "y": 3.7375,
+          "area": 368
+        },
+        {
+          "x": 32.0391,
+          "z": 11.7203,
+          "y": 1.875,
+          "area": 1382
+        }
+      ],
+      "meshTriangles": 229653,
+      "meshVertices": 114999,
+      "meshSHA256": "4581718aca653e6f578063fb91d93d5e5c31302f4adeb253fbc3677c5e78af3d",
+      "navAreas": 2242
+    },
+    "mirage": {
+      "source": "de_mirage",
+      "sites": [
+        {
+          "x": 35.4125,
+          "z": 48.5249,
+          "y": 2.4,
+          "area": 2071,
+          "label": "A"
+        },
+        {
+          "x": 14.6656,
+          "z": 17.9468,
+          "y": 2.65,
+          "area": 1837,
+          "label": "B"
+        }
+      ],
+      "spawns": [
+        {
+          "x": 56.7945,
+          "z": 22.8874,
+          "y": 2.55,
+          "area": 899
+        },
+        {
+          "x": 19.1281,
+          "z": 44.1031,
+          "y": 1.3125,
+          "area": 2351
+        }
+      ],
+      "meshTriangles": 72803,
+      "meshVertices": 43582,
+      "meshSHA256": "d20d1ab697916f12dd5f9d8a65a89ba50e204c196efdbebe9913e55024021ce0",
+      "navAreas": 2544
+    },
+    "inferno": {
+      "source": "de_inferno",
+      "sites": [
+        {
+          "x": 50.3688,
+          "z": 42.2375,
+          "y": 3.0417,
+          "area": 1439,
+          "label": "A"
+        },
+        {
+          "x": 30.1062,
+          "z": 14.2625,
+          "y": 3.35,
+          "area": 2055,
+          "label": "B"
+        }
+      ],
+      "spawns": [
+        {
+          "x": 6.3125,
+          "z": 42.325,
+          "y": 0.25,
+          "area": 1157
+        },
+        {
+          "x": 55.6625,
+          "z": 22.5719,
+          "y": 2.7375,
+          "area": 2297
+        }
+      ],
+      "meshTriangles": 527634,
+      "meshVertices": 271938,
+      "meshSHA256": "7fbe2711ba52eaa97e838fc3bd0620fea516835973665f866cdf440ce4e63926",
+      "navAreas": 2738
+    },
+    "nuke": {
+      "source": "de_nuke",
+      "sites": [
+        {
+          "x": 51.6375,
+          "z": 45.6188,
+          "y": 4.65,
+          "area": 798,
+          "label": "A"
+        },
+        {
+          "x": 51.8125,
+          "z": 49.825,
+          "y": 0.225,
+          "area": 1461,
+          "label": "B"
+        }
+      ],
+      "spawns": [
+        {
+          "x": 18.3562,
+          "z": 49.5344,
+          "y": 4.65,
+          "area": 2395
+        },
+        {
+          "x": 72.8938,
+          "z": 41.8906,
+          "y": 5.4833,
+          "area": 2514
+        }
+      ],
+      "meshTriangles": 87029,
+      "meshVertices": 44252,
+      "meshSHA256": "c62dce1f57115866d27dc54d7d23c106fe84f3a8090af684f24c92f09dea8677",
+      "navAreas": 3040
+    },
+    "train": {
+      "source": "de_train",
+      "sites": [
+        {
+          "x": 27.9125,
+          "z": 23.9172,
+          "y": 1.75,
+          "area": 31,
+          "label": "A"
+        },
+        {
+          "x": 29.3562,
+          "z": 41.95,
+          "y": 1.0,
+          "area": 1169,
+          "label": "B"
+        }
+      ],
+      "spawns": [
+        {
+          "x": 7.9187,
+          "z": 9.0563,
+          "y": 2.275,
+          "area": 2025
+        },
+        {
+          "x": 49.325,
+          "z": 31.0281,
+          "y": 1.4813,
+          "area": 1667
+        }
+      ],
+      "meshTriangles": 409278,
+      "meshVertices": 199750,
+      "meshSHA256": "c472cba8d848648e9e50df30923ded0c36519efa2678164cd7b12dd728094038",
+      "navAreas": 2154
+    },
+    "ancient": {
+      "source": "de_ancient",
+      "sites": [
+        {
+          "x": 19.9156,
+          "z": 16.2997,
+          "y": 2.9125,
+          "area": 913,
+          "label": "A"
+        },
+        {
+          "x": 48.6406,
+          "z": 26.6966,
+          "y": 3.8625,
+          "area": 397,
+          "label": "B"
+        }
+      ],
+      "spawns": [
+        {
+          "x": 30.8125,
+          "z": 55.3075,
+          "y": 0.1958,
+          "area": 1883
+        },
+        {
+          "x": 32.1195,
+          "z": 8.7294,
+          "y": 2.525,
+          "area": 783
+        }
+      ],
+      "meshTriangles": 451869,
+      "meshVertices": 192025,
+      "meshSHA256": "d7cb70cbaeba2f7024342e40a1133f32616bd9c30d6fc8c13d30b7ad6457b830",
+      "navAreas": 1969
+    },
+    "ancient-night": {
+      "source": "de_ancient_night",
+      "sites": [
+        {
+          "x": 19.9156,
+          "z": 16.2997,
+          "y": 2.9125,
+          "area": 918,
+          "label": "A"
+        },
+        {
+          "x": 48.6406,
+          "z": 26.6966,
+          "y": 3.8625,
+          "area": 397,
+          "label": "B"
+        }
+      ],
+      "spawns": [
+        {
+          "x": 30.8125,
+          "z": 55.3075,
+          "y": 0.1958,
+          "area": 1897
+        },
+        {
+          "x": 32.1195,
+          "z": 8.7294,
+          "y": 2.525,
+          "area": 788
+        }
+      ],
+      "meshTriangles": 452697,
+      "meshVertices": 192493,
+      "meshSHA256": "bd427bf7982383ab1975c788aa8d1eddaf5ddde50ab33e6f7ed061d50676f68c",
+      "navAreas": 1983
+    },
+    "anubis": {
+      "source": "de_anubis",
+      "sites": [
+        {
+          "x": 48.5798,
+          "z": 15.2922,
+          "y": 1.25,
+          "area": 2180,
+          "label": "A"
+        },
+        {
+          "x": 21.6689,
+          "z": 31.6188,
+          "y": 2.375,
+          "area": 891,
+          "label": "B"
+        }
+      ],
+      "spawns": [
+        {
+          "x": 31.9064,
+          "z": 59.8,
+          "y": 2.3875,
+          "area": 1131
+        },
+        {
+          "x": 28.3657,
+          "z": 14.4062,
+          "y": 2.6917,
+          "area": 2038
+        }
+      ],
+      "meshTriangles": 358230,
+      "meshVertices": 181815,
+      "meshSHA256": "9021ec997d95b8a7132cc1082fa83b0c2b90ab5341d4e61b7b77da3361fe2cc8",
+      "navAreas": 2633
+    },
+    "overpass": {
+      "source": "de_overpass",
+      "sites": [
+        {
+          "x": 32.0906,
+          "z": 13.5922,
+          "y": 6.2,
+          "area": 1658,
+          "label": "A"
+        },
+        {
+          "x": 45.7812,
+          "z": 21.0438,
+          "y": 1.525,
+          "area": 521,
+          "label": "B"
+        }
+      ],
+      "spawns": [
+        {
+          "x": 41.0,
+          "z": 62.1375,
+          "y": 3.825,
+          "area": 3113
+        },
+        {
+          "x": 29.2562,
+          "z": 5.375,
+          "y": 6.3,
+          "area": 2278
+        }
+      ],
+      "meshTriangles": 241938,
+      "meshVertices": 130214,
+      "meshSHA256": "9916b9a1156e833b54aca86f2a4b8ebfba68f051293c0c1243a9286c3c6668a8",
+      "navAreas": 3938
+    },
+    "vertigo": {
+      "source": "de_vertigo",
+      "sites": [
+        {
+          "x": 35.9125,
+          "z": 29.9938,
+          "y": 4.275,
+          "area": 1171,
+          "label": "A"
+        },
+        {
+          "x": 12.2594,
+          "z": 11.8406,
+          "y": 3.9,
+          "area": 1981,
+          "label": "B"
+        }
+      ],
+      "spawns": [
+        {
+          "x": 19.5562,
+          "z": 38.6141,
+          "y": 0.05,
+          "area": 315
+        },
+        {
+          "x": 28.2531,
+          "z": 12.7688,
+          "y": 3.65,
+          "area": 1022
+        }
+      ],
+      "meshTriangles": 62116,
+      "meshVertices": 36266,
+      "meshSHA256": "de3fbe8cc6ed00f23b621b14ef1ef261c38ee26b6602ea62ddc841437e30a764",
+      "navAreas": 2105
+    },
+    "cache": {
+      "source": "de_cache",
+      "sites": [
+        {
+          "x": 22.4614,
+          "z": 18.9672,
+          "y": 1.275,
+          "area": 1619,
+          "label": "A"
+        },
+        {
+          "x": 24.525,
+          "z": 56.4562,
+          "y": 0.975,
+          "area": 949,
+          "label": "B"
+        }
+      ],
+      "spawns": [
+        {
+          "x": 61.8,
+          "z": 41.1625,
+          "y": 0.35,
+          "area": 2174
+        },
+        {
+          "x": 5.4906,
+          "z": 31.225,
+          "y": 0.4,
+          "area": 1403
+        }
+      ],
+      "meshTriangles": 330142,
+      "meshVertices": 172011,
+      "meshSHA256": "c63fcaa358a68405890207ee90f3f820322d52d973baf2c7546562b857d4ad7b",
+      "navAreas": 2209
+    }
+  }
+}

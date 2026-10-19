@@ -1,0 +1,1 @@
+Original ARENA procedural color/height atlas and leaf cutouts. Created by scripts/make-materials.py. These are NOT CS2/Valve textures. Atlas tiles: plaster, stone, sheet-metal, timber, terracotta, concrete, paving, grass. Alpha encodes surface height; leaf alpha encodes silhouette.

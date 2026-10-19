@@ -1,0 +1,25 @@
+The CS2 radar images, navigation data, collision geometry and overview transforms
+are Valve Corporation game assets, extracted and published by awpy-data.
+They are not covered by the MIT licenses for the extraction/query scripts.
+This noncommercial prototype is not affiliated with or endorsed by Valve.
+No Esports Manager 2026 assets or player portraits are included.
+
+Source: https://github.com/pnxenopoulos/awpy-data/releases/tag/2000933
+CS2 ClientVersion 2000933, patch1.41.9.1, Steam build25966348.
+Archive SHA256 values and per-map derived mesh checksums: /cs2/provenance.json.
+Dust II additionally contains the user-exported original Source2Viewer20.1 visual
+scene derived into a mobile GLB, with original albedo textures. Other ten maps
+retain the decimated collision export. Original asset rights remain with Valve
+or the respective map owner; these assets are not MIT licensed.
+A/B and spawn annotations were inspected on the original radars, then resolved
+onto valid reachable navigation polygons; they are not extracted entity data.
+The nav-derived eye-height visibility table is sampled at area centroids and
+is an approximation for moving players. Source mesh/nav files remain separate
+from saved career snapshots. Dust II mobile geometry is simplified, instance tints are preserved in vertex
+colors, albedo textures resized/WebP encoded, and normal/ORM maps omitted.
+Original engine effect cards and compiler brushes are excluded. Source2 shaders
+and lighting are approximated in glTF. Other maps use procedural materials and
+blended source radar. This is not a claim of exact Source2 renderer parity.
+
+Awpy code: MIT, Copyright (c)2020-2026 Peter Xenopoulos, see awpy.txt.
+Awpy-data scripts: MIT, Copyright (c)2025 Peter Xenopoulos, see awpy-data.txt.
