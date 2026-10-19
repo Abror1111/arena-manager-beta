@@ -1,3 +1,5 @@
+# arena-manager-beta
+
 # ARENA Manager 1.06 beta
 
 Static beta game and signed Android APK. This repository is independent of the live csgo-keys bot.
