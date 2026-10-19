@@ -1,0 +1,308 @@
+{
+  "release": "2000933",
+  "coordinateSystem": "source2viewer-y-up-meters",
+  "rights": "Original CS2 / Valve and respective map-owner assets; supplied by the user. Not licensed under MIT.",
+  "maps": {
+    "dust2": {
+      "url": "/visuals/dust2/mobile.glb",
+      "sha256": "dcb806df8bed30e2b90edf6791af7d4de4e3cbe20d3c8eba4c61e6c048198c58",
+      "sourceMap": "de_dust2",
+      "release": "2000933",
+      "coordinateSystem": "source2viewer-y-up-meters",
+      "materials": 245,
+      "images": 243,
+      "bytes": 38266876,
+      "profile": "mobile-balanced",
+      "sourceSHA256": "ce24aced8ca050dde99d963129b369adccb6081d9df8aa26df3f19a1c93b2209",
+      "derivation": "Existing verified 1.06 mobile derivation retained; surroundings refreshed in1.11."
+    },
+    "mirage": {
+      "url": "/visuals/mirage/mobile-e273d62242e1.glb",
+      "sha256": "e273d62242e1ba76fc4183312c08ee853fdb428862e3ca8b76f35ad8bc577185",
+      "sourceMap": "de_mirage",
+      "release": "2000933",
+      "coordinateSystem": "source2viewer-y-up-meters",
+      "materials": 350,
+      "images": 342,
+      "bytes": 25218428,
+      "profile": "mobile-balanced",
+      "sourceSHA256": "96ff543936629805d1760a8b1b7975e1004b5101a88cf35acf532db6064e56d6",
+      "archiveSHA256": "3c4a22ecb845cd75e0ce11a3ffb6eea869073778f712b330c45acc35f7e2f322",
+      "geometry": {
+        "ratio": 0.24,
+        "error": 0.003,
+        "lockBorder": true,
+        "compression": "EXT_meshopt_compression",
+        "tintsBaked": true
+      },
+      "textures": {
+        "format": "webp",
+        "quality": 90,
+        "maximum": 512,
+        "rareMaximum": 256,
+        "heroMaximum": 1024,
+        "normalMaps": false
+      },
+      "triangles": 841233,
+      "decodedTextureMipBytes": 183347784,
+      "originalArchivePreserved": true,
+      "navigationUnchanged": true
+    },
+    "vertigo": {
+      "url": "/visuals/vertigo/mobile-c282b53ff98c.glb",
+      "sha256": "c282b53ff98c4b4207279494a1276302b63638ac6f67f2731c033ba1175b489b",
+      "sourceMap": "de_vertigo",
+      "release": "2000933",
+      "coordinateSystem": "source2viewer-y-up-meters",
+      "materials": 175,
+      "images": 167,
+      "bytes": 21790760,
+      "profile": "mobile-balanced",
+      "sourceSHA256": "2c6b93bce1483925bd3afa56cf364845b5d99800ec45431231504b7310950b56",
+      "archiveSHA256": "b6efc963fdf2ae99a9589ccd16eb0190e9aa8ad1c44593c8919e33494f4de35d",
+      "geometry": {
+        "ratio": 0.24,
+        "error": 0.003,
+        "lockBorder": true,
+        "compression": "EXT_meshopt_compression",
+        "tintsBaked": true
+      },
+      "textures": {
+        "format": "webp",
+        "quality": 90,
+        "maximum": 512,
+        "rareMaximum": 256,
+        "heroMaximum": 1024,
+        "normalMaps": false
+      },
+      "triangles": 1108315,
+      "decodedTextureMipBytes": 143305436,
+      "originalArchivePreserved": true,
+      "navigationUnchanged": true
+    },
+    "nuke": {
+      "url": "/visuals/nuke/mobile-2d6f76628042.glb",
+      "sha256": "2d6f766280425a6a2b9252b1ddaea9d3e8a5f87a197313cdbc47cfce7a301f1c",
+      "sourceMap": "de_nuke",
+      "release": "2000933",
+      "coordinateSystem": "source2viewer-y-up-meters",
+      "materials": 240,
+      "images": 228,
+      "bytes": 38083164,
+      "profile": "mobile-balanced",
+      "sourceSHA256": "655cbea1d15dc6bd6472cbcdf92d527cd065de3d6e5f53e614ebc3be28775eb9",
+      "archiveSHA256": "5e4f88a474221639cbd6adb504250acda85d2ec80f6a6fb87fb12f369ba3a8ea",
+      "geometry": {
+        "ratio": 0.24,
+        "error": 0.003,
+        "lockBorder": true,
+        "compression": "EXT_meshopt_compression",
+        "tintsBaked": true
+      },
+      "textures": {
+        "format": "webp",
+        "quality": 90,
+        "maximum": 512,
+        "rareMaximum": 256,
+        "heroMaximum": 1024,
+        "normalMaps": false
+      },
+      "triangles": 2201743,
+      "decodedTextureMipBytes": 142759736,
+      "originalArchivePreserved": true,
+      "navigationUnchanged": true
+    },
+    "anubis": {
+      "url": "/visuals/anubis/mobile-7e4059ab80c0.glb",
+      "sha256": "7e4059ab80c0abe303ceeaa00619b02a17e5602e51122df65f634346e7a7050b",
+      "sourceMap": "de_anubis",
+      "release": "2000933",
+      "coordinateSystem": "source2viewer-y-up-meters",
+      "materials": 218,
+      "images": 214,
+      "bytes": 37701836,
+      "profile": "mobile-balanced",
+      "sourceSHA256": "eeac63cf9ab52280995cf1e81a65355f341c8c526a2b1de67f5359e31a5d1f11",
+      "archiveSHA256": "f62d15675d0e53b51b05177cd5fa6607b529f50e486897e46c6294b45da9c71e",
+      "geometry": {
+        "ratio": 0.24,
+        "error": 0.003,
+        "lockBorder": true,
+        "compression": "EXT_meshopt_compression",
+        "tintsBaked": true
+      },
+      "textures": {
+        "format": "webp",
+        "quality": 90,
+        "maximum": 512,
+        "rareMaximum": 256,
+        "heroMaximum": 1024,
+        "normalMaps": false
+      },
+      "triangles": 1753291,
+      "decodedTextureMipBytes": 163468696,
+      "originalArchivePreserved": true,
+      "navigationUnchanged": true
+    },
+    "ancient": {
+      "url": "/visuals/ancient/mobile-0a9e959de285.glb",
+      "sha256": "0a9e959de285e07b66435d9912eb5e65a7b7c9d8a670c50a114712cefc56567c",
+      "sourceMap": "de_ancient",
+      "release": "2000933",
+      "coordinateSystem": "source2viewer-y-up-meters",
+      "materials": 107,
+      "images": 104,
+      "bytes": 57682160,
+      "profile": "mobile-balanced",
+      "sourceSHA256": "379fd248a5a6268edbbeecb8eb5d3a3a6c775e0091d55f783ee1f42410c854e4",
+      "archiveSHA256": "571dfcf021100d9f48a4af27365b890e7b8000e97975cef99690cb7e4b7fd679",
+      "geometry": {
+        "ratio": 0.1,
+        "error": 0.008,
+        "lockBorder": true,
+        "compression": "EXT_meshopt_compression",
+        "tintsBaked": true
+      },
+      "textures": {
+        "format": "webp",
+        "quality": 90,
+        "maximum": 512,
+        "rareMaximum": 256,
+        "heroMaximum": 1024,
+        "normalMaps": false
+      },
+      "triangles": 2589992,
+      "decodedTextureMipBytes": 137188640,
+      "originalArchivePreserved": true,
+      "navigationUnchanged": true
+    },
+    "inferno": {
+      "url": "/visuals/inferno/mobile-ca3c0b380096.glb",
+      "sha256": "ca3c0b3800964427bfece7c6c6b8f323edf85a42087bdb5f9aa70c68c5392e98",
+      "sourceMap": "de_inferno",
+      "release": "2000933",
+      "coordinateSystem": "source2viewer-y-up-meters",
+      "materials": 269,
+      "images": 266,
+      "bytes": 60196316,
+      "profile": "mobile-balanced",
+      "sourceSHA256": "d15cbdd7deefdef39bfa02d11bdefe41d8f8b9398495033bcafa93ef7af4e059",
+      "archiveSHA256": "ba991a393f23874a47b3601e2a340d05399928cb61b2da628a1813180111b259",
+      "geometry": {
+        "ratio": 0.1,
+        "error": 0.008,
+        "lockBorder": true,
+        "compression": "EXT_meshopt_compression",
+        "tintsBaked": true
+      },
+      "textures": {
+        "format": "webp",
+        "quality": 90,
+        "maximum": 512,
+        "rareMaximum": 256,
+        "heroMaximum": 1024,
+        "normalMaps": false
+      },
+      "triangles": 2837452,
+      "decodedTextureMipBytes": 202070496,
+      "originalArchivePreserved": true,
+      "navigationUnchanged": true
+    },
+    "overpass": {
+      "url": "/visuals/overpass/mobile-785fc044b181.glb",
+      "sha256": "785fc044b1811010ad2455204f7ede4b0f2cf41de7bd13a484f3af641f29c357",
+      "sourceMap": "de_overpass",
+      "release": "2000933",
+      "coordinateSystem": "source2viewer-y-up-meters",
+      "materials": 391,
+      "images": 384,
+      "bytes": 48610220,
+      "profile": "mobile-balanced",
+      "sourceSHA256": "028436241e9d8bc46141f21accd03e3b7690e9e3ecbc522d0ae7c647bebccf51",
+      "archiveSHA256": "51e450e0be91140a114a599d4c5260f16eec0dd227b2f928705cb4b77a315c39",
+      "geometry": {
+        "ratio": 0.24,
+        "error": 0.003,
+        "lockBorder": true,
+        "compression": "EXT_meshopt_compression",
+        "tintsBaked": true
+      },
+      "textures": {
+        "format": "webp",
+        "quality": 90,
+        "maximum": 512,
+        "rareMaximum": 256,
+        "heroMaximum": 1024,
+        "normalMaps": false
+      },
+      "triangles": 2227838,
+      "decodedTextureMipBytes": 214510312,
+      "originalArchivePreserved": true,
+      "navigationUnchanged": true
+    },
+    "cache": {
+      "url": "/visuals/cache/mobile-00e1eeb1e826.glb",
+      "sha256": "00e1eeb1e826c48446fa9d4223f47d804c6e0bd14908b04446d6430e75dbc1bf",
+      "sourceMap": "de_cache",
+      "release": "2000933",
+      "coordinateSystem": "source2viewer-y-up-meters",
+      "materials": 168,
+      "images": 161,
+      "bytes": 44929996,
+      "profile": "mobile-balanced",
+      "sourceSHA256": "5f4616baa3fc7bd70b09b760e9c8f43e8e902f62acc9f350f8e8aea8588791f0",
+      "archiveSHA256": "9684ad1b23d89d95a8d0a03d5842225ac131c8c85967d647015924e818384a0c",
+      "geometry": {
+        "ratio": 0.24,
+        "error": 0.003,
+        "lockBorder": true,
+        "compression": "EXT_meshopt_compression",
+        "tintsBaked": true
+      },
+      "textures": {
+        "format": "webp",
+        "quality": 90,
+        "maximum": 512,
+        "rareMaximum": 256,
+        "heroMaximum": 1024,
+        "normalMaps": false
+      },
+      "triangles": 2052718,
+      "decodedTextureMipBytes": 157144596,
+      "originalArchivePreserved": true,
+      "navigationUnchanged": true
+    },
+    "train": {
+      "url": "/visuals/train/mobile-7b0270d5d2b5.glb",
+      "sha256": "7b0270d5d2b599008651d87a29d646f0772ea0fb7cf2ced3d9c778717c5d555d",
+      "sourceMap": "de_train",
+      "release": "2000933",
+      "coordinateSystem": "source2viewer-y-up-meters",
+      "materials": 294,
+      "images": 278,
+      "bytes": 61406132,
+      "profile": "mobile-balanced",
+      "sourceSHA256": "6437370085458e26330491dd5efeefa4a6ccfab9d3f3cdafdadad5288ccd40e1",
+      "archiveSHA256": "8e42eb0816cc5dec6ecc19cc8db75b309a1e73c9e6e6388e4d8292f8b24c8221",
+      "geometry": {
+        "ratio": 0.1,
+        "error": 0.008,
+        "lockBorder": true,
+        "compression": "EXT_meshopt_compression",
+        "tintsBaked": true
+      },
+      "textures": {
+        "format": "webp",
+        "quality": 90,
+        "maximum": 512,
+        "rareMaximum": 256,
+        "heroMaximum": 1024,
+        "normalMaps": false
+      },
+      "triangles": 3038687,
+      "decodedTextureMipBytes": 172550832,
+      "originalArchivePreserved": true,
+      "navigationUnchanged": true
+    }
+  }
+}

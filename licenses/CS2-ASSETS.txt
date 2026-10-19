@@ -30,3 +30,5 @@ third-person vertices are retained; first-person arms and empty animation helper
 meshes are excluded. Original albedo is resized/WebP95 encoded; normal/ORM maps
 are omitted. Source and mobile checksums are in /agents/provenance.json. These
 models and animations are Valve game assets, not MIT-licensed ARENA artwork.
+
+ARENA1.11: genuine scenes for Mirage, Vertigo, Nuke, Anubis, Ancient, Inferno, Overpass, Cache and Train were exported from the user's installed CS2 client2000933 with Source2Viewer-CLI20.1. Original map-owner/Valve ownership applies. Source archives are preserved separately; mobile geometry and original albedo textures are derived, not Source2 shader replicas. Dust II retains its earlier verified mobile scene. See visuals/provenance.json. Ancient Night still uses its separate source navigation and simplified collision presentation.

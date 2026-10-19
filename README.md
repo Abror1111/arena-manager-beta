@@ -1,22 +1,9 @@
-# arena-manager-beta
+# ARENA Manager1.11 beta
 
-# ARENA Manager 1.10 beta
+[Play on PC or phone](https://abror1111.github.io/arena-manager-beta/?v=111) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.11-beta/ARENA-1.11-beta.apk) · [Download page](https://abror1111.github.io/arena-manager-beta/download.html)
 
-Static beta game and signed Android APK. This repository is independent of the live csgo-keys bot.
+Ten authentic mobile map scenes, sparse themed surroundings, visual loading and a persistent browser map library. The APK includes all maps for offline play. SAS/Phoenix source animations and existing club/5v5 careers are retained. Install over1.10 to keep your club. Ancient Night retains source navigation and simplified3D.
 
-This deployment is prepared for a GitHub project repository named `arena-manager-beta`.
-In GitHub repository Settings > Pages select Deploy from a branch, branch `main`, folder `/ (root)`, then Save.
-The published game URL will have `/arena-manager-beta/` in its path. The APK page is `download.html`.
-Publishing and the public URL must be verified after deployment; local validation alone does not establish publication.
+The tested APK is distributed through GitHub Releases because it exceeds GitHub's normal per-file Git limit. Its SHA256 is `f26bf46f9a07c02f3bdc38ba11ac7cbd176f7434f67c64c7bde938efbf748581`, size 364255555 bytes, versionCode112, appID `uz.arena.tactics.beta`, same upgrade signer as1.10.
 
-Android 8+; install over the existing ARENA beta to retain saves. PC and Android career saves are separate.
-Dust II uses a mobile-optimized source visual model; ten other maps retain their previous appearance.
-Asset and software license notices are under `licenses/`. These notices do not transfer asset rights.
-
-1.07: separate static/automatic/pinned-player cameras, stable automatic shots and slow oblique arcs. Following an actor no longer slices ordinary map geometry. Lower floors retain explicit boundaries. Mobile balanced/sharp/battery pixel budgets and antialiasing are available in Buyruqlar. Source visual assets, navigation and saved career schema remain unchanged. Physical device FPS is not yet measured.
-
-1.08: continuous themed outer terrain retained after Dust II model loading; local vector portraits and weapon/utility/camera icons; unified club and observer UI; screen-space player names avoid overlap. Navigation, source GLB bytes and saved careers are unchanged.
-
-1.09: reactive sight/report-based tactical AI, map control and retakes, finite bursts and cover/reloads, directional flash, distinct original equipment models and soft sprite VFX. Existing source map geometry and careers retained; legacy active rounds upgrade their AI next round.
-
-1.10: user-exported authentic SAS/Phoenix skinned bodies and66 source world clips per side; map-scale-aware locomotion, source reload/utility/C4 poses, independent skeletons, original weapons attached to hands; source geometry retained, WebP albedo. Existing map assets and careers retained.
+Original map/agent ownership remains with Valve and respective map owners. See licenses/CS2-ASSETS.txt, visuals/provenance.json and agents/provenance.json. No csgo-keys bot files are included.
