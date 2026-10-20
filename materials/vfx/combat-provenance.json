@@ -1,0 +1,1325 @@
+{
+  "schema": 2,
+  "clientVersion": "2000933",
+  "archive": "ARENA-CS2-VFX-20261020-040808.zip",
+  "archiveSHA256": "4f381e1edc6f95233f9112e50c1d1198488cab7b136333d241ab59a0c58dac3e",
+  "adapter": "ARENA sprite atlas; not the native Source2 particle engine",
+  "flashCaveat": "Original flash particle references missing aircraft_blue.vtex; uses exported HE flare with flash color/lifetime.",
+  "files": {
+    "assets/particles/inferno_fx/molotov_groundfire_main.vpcf": {
+      "bytes": 4350,
+      "sha256": "c2c96a1cb6971fbe60b2bf2a923d3253d1b4c09d9285bcca002152a35ba1fbc0"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character.mks": {
+      "bytes": 5888,
+      "sha256": "0255c44d30dac3f9ce25bd0f0efd716ed4b9330edd18c164a2f4f3c016f2cb23"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq0_0.png": {
+      "bytes": 9467,
+      "sha256": "601e65162dbf6ba433144180bacb3ca3e544ab163fc51e3fd7bf78c32ce6e881"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq0_1.png": {
+      "bytes": 13123,
+      "sha256": "4e074fe257558f33b9d9819b34878003e70a259bd1abd4c6ef3acd976384a3b4"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq0_2.png": {
+      "bytes": 15991,
+      "sha256": "8b632110932396ed619bebc61862e1ebf5311b1e4aeabd0f3f6de4791add308d"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq0_3.png": {
+      "bytes": 19082,
+      "sha256": "c69331bd2e13a18615957a9d6dce47f4de36baae69a008d66c2de366351d21e6"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq0_4.png": {
+      "bytes": 19376,
+      "sha256": "da44b6c17b92954773047283d2570e9af5faaebd2a9d665ae6c6b7c98fa7f66a"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq0_5.png": {
+      "bytes": 19927,
+      "sha256": "56592292e8e989cc67b4660b26c99ed2651cb6eaac46bcf7c273be7b62d682e9"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq0_6.png": {
+      "bytes": 18465,
+      "sha256": "1c1473db6de8a6b12ac604ede14e52f1dcd7b1cb9fb05a5851a76f4c71a51852"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq0_7.png": {
+      "bytes": 15043,
+      "sha256": "92f55ef77d3d2359eefb4b2e531a4e51b4ea753bdda1c485fd4c621c59ab24ee"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq0_8.png": {
+      "bytes": 10977,
+      "sha256": "a642351441f3481c3c99a74d12e0c62c0f668766a45638d6f0688f34cf47e110"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq0_9.png": {
+      "bytes": 6803,
+      "sha256": "1992ee988942b4349ae83be07ea13f9e156041540284fd5cb9bbddff2fbbefc4"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq0_10.png": {
+      "bytes": 2414,
+      "sha256": "045e6af977c786e5daa8e489d33b7bb5bbf22bfe102a46ae34da0a4cfd862a9d"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq0_11.png": {
+      "bytes": 5188,
+      "sha256": "051bc66544b51fd51e92cde117c2a5891c8868b3b14e617e7a638c76751a1bac"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq1_0.png": {
+      "bytes": 10500,
+      "sha256": "0038399ca9dc9c6984aa45a1e53d4a3b1fec8ff99faaaea427bbfc8bcab19081"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq1_1.png": {
+      "bytes": 13679,
+      "sha256": "35fa1f736b5cc4f5398446a977bebebc7c3e7573509eea5197998cacd08002bb"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq1_2.png": {
+      "bytes": 17906,
+      "sha256": "da8f6aeb46030ca5a66e2f930d202668a8a26fecfeee1225b3e1e3044d3bb770"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq1_3.png": {
+      "bytes": 19591,
+      "sha256": "e1d144c1dff4e3d3dba0827252a34643038aac5235a8d24e63626a71c21e9a04"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq1_4.png": {
+      "bytes": 20872,
+      "sha256": "dc6930c5ea10428103725ebbd58846ee6f8cc78a064b4649f553b674967744a4"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq1_5.png": {
+      "bytes": 21289,
+      "sha256": "8b4bc309cd6072b728b3e1ba49fc75429e035a14155a3037e6c3258d9e7329ee"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq1_6.png": {
+      "bytes": 17984,
+      "sha256": "4fdc26e613456cb66e4c3c0c14b7fb7a712e5187d81132686e1c6af7bf4b5cbb"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq1_7.png": {
+      "bytes": 10524,
+      "sha256": "43782f24bcf06c4dbad30fa49e548713c3bc2f66161fe8a255d122df67e0edad"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq1_8.png": {
+      "bytes": 4450,
+      "sha256": "ccc63f5b88faa075dcc8b9ace36149543cc94d25fb0207798c951f3d3fcbfc2e"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq1_9.png": {
+      "bytes": 2742,
+      "sha256": "e5819e9b7a7c60e5dffc5d93afd0078c448d3bed6c11fa980a0f37f66579f1f2"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq1_10.png": {
+      "bytes": 1114,
+      "sha256": "cd52477156620acde7dd4a012c852a9870d6e067d4c32182348d8ced225a3970"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq2_0.png": {
+      "bytes": 8423,
+      "sha256": "39ee43cb30b687a4b58e4765cfc06948df06001db9924e2dcebeddde52218982"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq2_1.png": {
+      "bytes": 11842,
+      "sha256": "37794e6892ca9b5481bd7e582399227441e74e5861c76b8b53aef146fdd267ac"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq2_2.png": {
+      "bytes": 15618,
+      "sha256": "2c35e481bea3f95668a5a4f6714957d4f9b6816a6e89abe8ccf71cd5b20aacab"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq2_3.png": {
+      "bytes": 17269,
+      "sha256": "3f2b37e78b43470fc4e81a47c5ab2a14f46e7f96bf0f4c3c2746a5e12af94d9f"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq2_4.png": {
+      "bytes": 20367,
+      "sha256": "7b1c30ad354be507789c73909075da047443a9d81f40a89f488a1b26dae06af5"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq2_5.png": {
+      "bytes": 20972,
+      "sha256": "e126afd733437690719eab39543a9311d12a29e2a4727ac839d5edbfbc94a35f"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq2_6.png": {
+      "bytes": 20087,
+      "sha256": "35c366a24c473649fb0d9989b481edd5e196f464f7fd71fe91c1fb735d82fd1b"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq2_7.png": {
+      "bytes": 17958,
+      "sha256": "3b45ed9c280aefb762762953c4214bfe7aec96d0f744f01eae718ae17e08d8e1"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq2_8.png": {
+      "bytes": 12739,
+      "sha256": "690ca17b057f579fb186ab0da4246912e0e6abaa87f4d5984994f54b1e51bdb1"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq2_9.png": {
+      "bytes": 6526,
+      "sha256": "b31f8d2bf106f9302d22873d9b5947caaae5283e583c3d93b9177e836dcb2b39"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq2_10.png": {
+      "bytes": 3005,
+      "sha256": "aebb09f03adf348ea7213a0781560c89675dc5c38126d232155219b2738e40ac"
+    },
+    "assets/materials/particle/fire_burning_character/fire_burning_character_seq2_11.png": {
+      "bytes": 1049,
+      "sha256": "69afc37c282e82f4e1d297bab810dd86582fe0a17387ab08bf33fb17fe120133"
+    },
+    "assets/particles/inferno_fx/molotov_groundfire_main_fancy.vpcf": {
+      "bytes": 74374,
+      "sha256": "f8e3adbf50bb33d782ddb4f5aa704a79c4a9aefa357a0c9cafe3438ae0bbba1a"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b.mks": {
+      "bytes": 5082,
+      "sha256": "84a98e928fb0d29ffa616b2b7c33dea59b58c453f012912dfa01819efe7563d3"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_0.png": {
+      "bytes": 3673,
+      "sha256": "a41b04c316d7a9b3fc2d2c99271df12d6a676c95446d9593854b5810fff37835"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_1.png": {
+      "bytes": 5315,
+      "sha256": "d595d2cb779f13ed7d4ac30c130692b61bf47f4bf788c7364d2b48e1908decf2"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_2.png": {
+      "bytes": 7200,
+      "sha256": "f85b18560121c5f9b622ba4e67d71f648158ec6b5118510c569c1f3dc5fd09a6"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_3.png": {
+      "bytes": 9609,
+      "sha256": "0d84b197b0f8343c0fae39fd45b1510b1bba9a93efb14684e79dab37be438e43"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_4.png": {
+      "bytes": 11542,
+      "sha256": "4347b7fc18e95a4faa555b39233c5301c53b1f4636599f38eb33944327d9e6c2"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_5.png": {
+      "bytes": 13757,
+      "sha256": "fce55917f9d734faaa1785da21036245e6d2bc2bbec3217be66bad787548bb32"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_6.png": {
+      "bytes": 15721,
+      "sha256": "381421ba2d72fdd50f0a7db83754eb54887a9322909e46491de6e9e3bd412d17"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_7.png": {
+      "bytes": 18025,
+      "sha256": "a4676c27b4178e153d6d0ed9cffb86db78d5db7ee7f262479e9b6a75fc42ab05"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_8.png": {
+      "bytes": 20696,
+      "sha256": "30880116b87e0264d1fe2fcc3353f85adcee36213bf0a726aedbb138cce2f4eb"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_9.png": {
+      "bytes": 22793,
+      "sha256": "ea46280d26b9307b10b2343911a733281ac682f943e4ac588a1094ea7fd816ca"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_10.png": {
+      "bytes": 24441,
+      "sha256": "5a5b83a94c735927e551e82b11b334b9959bbcaf4ecee386d3846de48b94df73"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_11.png": {
+      "bytes": 26777,
+      "sha256": "7a26c613ad786d9aac1f4d04915efa624bb842bfcb03816dd821534ff5f27fcb"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_12.png": {
+      "bytes": 28499,
+      "sha256": "da224eae99241004bd8d17631cf8d48b4ae68782cea761aec24ab5066ab47a9b"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_13.png": {
+      "bytes": 29888,
+      "sha256": "2c251850cc22333ce15545b784104d894a86800b9184b1bbbde1b16e11ff2edd"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_14.png": {
+      "bytes": 30752,
+      "sha256": "8ab4e4f0cc703ba811d63b26907cc4c4bee31dcb87925302ca1436a5465da9da"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_15.png": {
+      "bytes": 30620,
+      "sha256": "4d8d3dbe4944e495773906ee997df8e33f3998b23eaad13084785932a624cdd9"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_16.png": {
+      "bytes": 31355,
+      "sha256": "3b945570e2154432cbafad11f227c1de81659424512ff2be75580cc4884dd17c"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_17.png": {
+      "bytes": 30666,
+      "sha256": "20bc7d38e8a41e3e9b1cb4117b2ca0e2b8b2e1b22206346eb930deedcb993fae"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_18.png": {
+      "bytes": 30718,
+      "sha256": "54892b7cc9d3eacf0f810e9663575b79c67014bae2c167ab7bfb487a2b3361fd"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_19.png": {
+      "bytes": 30809,
+      "sha256": "d1264b8b099f7901a81941f601a448954f13d42c81a73d4acbe4a7e81e820951"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_20.png": {
+      "bytes": 29643,
+      "sha256": "ad6460f438742d1d06310188f9de89e8a0cfb52e2911a12381a90f57ab64e630"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_21.png": {
+      "bytes": 27892,
+      "sha256": "a0b7e5cdf32ced3a32393f92671934bc612c37f05c019758fd3bcd72e1d4cd8c"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_22.png": {
+      "bytes": 26746,
+      "sha256": "46ec33b23bfeda351d46dbbacca4b50e97a3cee00caa7f11afde79dfdbd4b9c7"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_23.png": {
+      "bytes": 25943,
+      "sha256": "218fa298a6d77e06594d9a58da919f0dae258ace31b981e400b5493f1c15f4c0"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_24.png": {
+      "bytes": 25643,
+      "sha256": "12b16f854948fd3d037d6813b7569c3baeda6dea2f5dcda0aaa45581b93d83b4"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_25.png": {
+      "bytes": 24563,
+      "sha256": "c10f2a37d826cecb3125ee312db211e69f6efc9f6a3dcecdeca64517b126c1ef"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_26.png": {
+      "bytes": 22318,
+      "sha256": "10d4f6fad820a252efd047cff1296575d50c7c26525e06674522cb5d242cf02b"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_27.png": {
+      "bytes": 19080,
+      "sha256": "dcf428702673fb307c318b7a8e2fa43967804431d1a01f49b353094d604cff51"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_28.png": {
+      "bytes": 15588,
+      "sha256": "64e7d221ee19fa216d516924894b8bc29657ba5a36f4a867171679d74bdb0434"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_29.png": {
+      "bytes": 10463,
+      "sha256": "975f1847dd86b85d191f094f68e9ed221e8e0ad057e0ac007f8c9e349dbe9c4a"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_30.png": {
+      "bytes": 6608,
+      "sha256": "d546e653d315e2c467942b5be5ba8d92528ef494c54b4b152ef39bcb086e5d24"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq0_31.png": {
+      "bytes": 7045,
+      "sha256": "f94e56af8fb55adb6527602f5707982ca176c809709e478dde7a9afd8657dff1"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_0.png": {
+      "bytes": 3257,
+      "sha256": "215826db1316e9e99334326996fb1eea73c5c07a46437f7f6e90a1f3901c426b"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_1.png": {
+      "bytes": 4356,
+      "sha256": "61724e298f654f27069ef0109bfc66f7caa7c30b4f93befc74544edd50a08f0f"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_2.png": {
+      "bytes": 5623,
+      "sha256": "74d4caeb1377d628fb645828014651c7c4f6e1e3a729961f926b9ff39950ef58"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_3.png": {
+      "bytes": 6949,
+      "sha256": "e2c1207c67ce73aaec4917ff9cb1690cd579db08fab1564260f734a556953caa"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_4.png": {
+      "bytes": 8333,
+      "sha256": "39748c89c0b533ed2da633e8ce43cf9165f941272e14d70266db677655399fab"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_5.png": {
+      "bytes": 9594,
+      "sha256": "011b01d738cf4c54785aa4425fe67047ba7a5c498cdf7129009678ead2337939"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_6.png": {
+      "bytes": 11133,
+      "sha256": "b48d08c6714db1434a4eb49cb60d976e93c48f99d67166d5be33a6c348f154aa"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_7.png": {
+      "bytes": 12560,
+      "sha256": "534115274c3afd042ec58ad93ec1f118bdd3e59cfcb7e3316c88f8cea526f1b4"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_8.png": {
+      "bytes": 13952,
+      "sha256": "717f07e4242598efd3d6cfe197c71cbde9083141f36031b62d329b122df2b2bc"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_9.png": {
+      "bytes": 15208,
+      "sha256": "c4fee72152047e0c14debc4696c8e7417aaf7b0bc8ab3eaf7f937d2cfd9dd522"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_10.png": {
+      "bytes": 16371,
+      "sha256": "5260bf41ad15db0e356f75b15f50b45358c15e734d52cc76dd781d62fa6faadd"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_11.png": {
+      "bytes": 17339,
+      "sha256": "1f1f81334e8f2d3d37295c8aa06fb70e94f804cba65abc592d4abdb89b2467b4"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_12.png": {
+      "bytes": 17966,
+      "sha256": "0c38dd69ca3f8bd0552d33363f3d101a729ae6efb52da289a9f0099ea8f77f05"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_13.png": {
+      "bytes": 19233,
+      "sha256": "8d6d8d77850603c616b3d4d34ee830f28cd25aa4373c78360e27b8d0ce742b63"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_14.png": {
+      "bytes": 20255,
+      "sha256": "5b739479b49e0f26dccdb8f1ca9f2fe989bc82eefb0448c9ff398412ad08e190"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_15.png": {
+      "bytes": 21482,
+      "sha256": "9273af8e428bc7371d10a68883c46d22668eedd08075de51a47283f3aef7b90b"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_16.png": {
+      "bytes": 21975,
+      "sha256": "88ae9681eec0bf290eaab6375a6246be171af568c7aea7bbc43de14b91ae50b8"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_17.png": {
+      "bytes": 22970,
+      "sha256": "7c5c08a3b3fd94d1b9d660d3ca79893430c9314d99d99fd1713566d28a598118"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_18.png": {
+      "bytes": 23955,
+      "sha256": "ee9f6faf9f575e71e1809b89e80b353f1d0061c4f86d2a4904fe3a8b74b6d0df"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_19.png": {
+      "bytes": 23816,
+      "sha256": "c9d04ecd2f3b9645b8cd20a7f937470b8e750e281e6ca1399c486894b3d13bbe"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_20.png": {
+      "bytes": 24256,
+      "sha256": "5f4c988311760c0134053cea93d2d4cc64355a1f9efa76e6b588ae64d5712169"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_21.png": {
+      "bytes": 24475,
+      "sha256": "12d8d022ba749ec203ece763721bf1bd4b75eff27cc66786766191cce233e061"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_22.png": {
+      "bytes": 24817,
+      "sha256": "a5b5f2893e3a8e825a91c2aa94189e30147b0649e03285212ba485d45324bba0"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_23.png": {
+      "bytes": 24476,
+      "sha256": "4ac793ec7a8b1fd42017a250366bea09c78dc706ae3efe5260b7dd72d032fa79"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_24.png": {
+      "bytes": 24285,
+      "sha256": "13990912c016dc289903a11626eb3f6a9ff31a20a243e7d6c811b91665fdf747"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_25.png": {
+      "bytes": 23382,
+      "sha256": "10157c23b41f697e32e88739f4148c040dd5edd4fa9bebf5130b2d3df7723bc5"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_26.png": {
+      "bytes": 22761,
+      "sha256": "9b3dad8c4e3d7d5577ddbad06e55534f5a2e2a66300d6e43ef1f7807cc2c8b06"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_27.png": {
+      "bytes": 21014,
+      "sha256": "8b8018e3af6f30ea2bb2bd2b91e3080e42b57688a0e5c388611d8253142a81fb"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_28.png": {
+      "bytes": 18282,
+      "sha256": "3f13a5206bcebfe7adf735231b817ce27d900f995b546934509f22a89b0cd767"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_29.png": {
+      "bytes": 15885,
+      "sha256": "2ddeaa1ef84eb0769469e632df58aa4d00f9631c8a9fbb6f7da25abb796d6433"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_30.png": {
+      "bytes": 13555,
+      "sha256": "85d1f0e97bc590ff589ebc5fcbe8787c7100450a8453141ecd7bdab7f81ad10d"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_31.png": {
+      "bytes": 11188,
+      "sha256": "821abb693a01cc98e919be0de160248df454937c53948431dad27b1a689f35bf"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq1_32.png": {
+      "bytes": 9474,
+      "sha256": "2f0dc381aba5e9e4dccfab68ac85651ea03d4c387f6bac930ccc2074cff410bb"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_0.png": {
+      "bytes": 3654,
+      "sha256": "880f51862fe7bae8ddfb60b9058e02c3fa888a4e812e02f0b4466c1e4510729d"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_1.png": {
+      "bytes": 5216,
+      "sha256": "bc79bf9166e6d19b350042fe17bea32b6d7a6bd52003009bd6b1b21860211d10"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_2.png": {
+      "bytes": 7090,
+      "sha256": "286dd939d16ce0aab0657b74a771862ddaf25fd928608245b0ca88bd34cdf987"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_3.png": {
+      "bytes": 9092,
+      "sha256": "050e5c23a1679d19c2a1fbbb4f8e2c6306a6140fb09e6a03d1667587504ddd80"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_4.png": {
+      "bytes": 10996,
+      "sha256": "0e145e84c543d6c40bf33eb6714a6d6157092f51480368d5ca46730811f0b946"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_5.png": {
+      "bytes": 12775,
+      "sha256": "98e5a7a884c27c113ebf2685e28f188cc05cb9700955eae3a4d910d2b64e2744"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_6.png": {
+      "bytes": 14849,
+      "sha256": "d18c2f339b7359dbdd19c2e80f05918e65f77fb9506298e318d9cd4c970b0ac7"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_7.png": {
+      "bytes": 16131,
+      "sha256": "773f2b2c8e3a37fcb263a299879eefb9552f705b2bcd98aeb5aba2d5274c71c0"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_8.png": {
+      "bytes": 17069,
+      "sha256": "9587dc6b1d5733ef3c8c2f012c8c7edd222e11b4c682d06dcbd63b1f2178d3a7"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_9.png": {
+      "bytes": 18491,
+      "sha256": "d865ee20ac68585752787a59108023099728574406ab3325510d90d1baafd5a3"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_10.png": {
+      "bytes": 19882,
+      "sha256": "ea1a032b44893ae433b1a98cfc86af7c005c78b606830684bcd3310743a46c5c"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_11.png": {
+      "bytes": 21285,
+      "sha256": "dc3485a301e803cb81a6c78f1a3783c764acf79f411240bd814da032a176f989"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_12.png": {
+      "bytes": 22261,
+      "sha256": "261cb2e66a608ecdf5d9c78361a09ce093756c01ffd8223cb7fc0f7134bd1b81"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_13.png": {
+      "bytes": 23125,
+      "sha256": "7b35f14affd224567fa56bd9db7edded17db22c4708af69093b35556a99b42d4"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_14.png": {
+      "bytes": 24452,
+      "sha256": "952bd5bfe31eef8bee83919fb66285d2f811b67ec19fbdf7eefca7871f57905c"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_15.png": {
+      "bytes": 25055,
+      "sha256": "0dcfc326564ab6cef6df4cb1596f7016e3c67dab4f933759f705e9be0721835d"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_16.png": {
+      "bytes": 26583,
+      "sha256": "4935114a34cd91396737f06577a8e068efb4c573e3316323eece546996624ddd"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_17.png": {
+      "bytes": 27596,
+      "sha256": "48e4317c13a304e08455e5a26eb0af75fea6789306754451d1b92a2819ce289b"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_18.png": {
+      "bytes": 28535,
+      "sha256": "eadea1370c53d4d0288387d805cbe8ed1f69134b1ec2666341d5ea22d41217ac"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_19.png": {
+      "bytes": 29996,
+      "sha256": "2fb8b18071d96df502e5922c818115786b48cab8ca082e13dfe31f60c1813541"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_20.png": {
+      "bytes": 31234,
+      "sha256": "f3f036e76867b668080a594229a6679f532a4fea0509fabeac8ee34cd2012913"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_21.png": {
+      "bytes": 31309,
+      "sha256": "653479eb362d7c4ca771d8489c7c54aa7ecfcefdeaebc72e2d3ce6eebd79fc14"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_22.png": {
+      "bytes": 30447,
+      "sha256": "f5aeea2874d15b461732bb36d481ff05330499ffdec2b461c6082b0743aba216"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_23.png": {
+      "bytes": 29357,
+      "sha256": "cd80e1aa4567c063f896e86af2f7aa27dcdcfe0349aad01dc800378f684204dc"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_24.png": {
+      "bytes": 28258,
+      "sha256": "c30e12cee196fca447d6016a8d02f56002fd7160be261e12fec5ced4b7ac70c9"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_25.png": {
+      "bytes": 26733,
+      "sha256": "4497e67fdebe314f8f11820368b1e318d1af9beeacbcedba607e309938c4e2a0"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_26.png": {
+      "bytes": 24385,
+      "sha256": "3a6b3b4233a96eb4375a0a5cad71dd4fde18378f2601a2f8b7900dc9fede5aa5"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_27.png": {
+      "bytes": 22263,
+      "sha256": "7c2ad3946a79efc1a5f641954d3f9b508d75344d81bb25c2a55bcfcfda362de6"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_28.png": {
+      "bytes": 20442,
+      "sha256": "7318fa51674e28e4baee3a402729a3dfea28ed03c78beaa083d75fc5f573db4c"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_29.png": {
+      "bytes": 16523,
+      "sha256": "e8f6bada375a9b4fd6248951908354b55c890ccab3260cfd12adbc04fe4fbe1e"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_30.png": {
+      "bytes": 13605,
+      "sha256": "eab6953f849f7adf27b0a4585599db633edb1f795986c080131e761080f79f9f"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_31.png": {
+      "bytes": 10917,
+      "sha256": "c214773eb11f4110776687386ac99099299640beb9517d7440dd6aa9696473ed"
+    },
+    "assets/materials/particle/fire_small_sim/fire_small_sim_b_seq2_32.png": {
+      "bytes": 8205,
+      "sha256": "6e161786689fdffc2658815912b5d19669956b4de50c44c148f0e6b07e176133"
+    },
+    "assets/particles/explosions_fx/explosion_c4_smoke_core.vpcf": {
+      "bytes": 91043,
+      "sha256": "a25ff56d8e240d8f174ccf1fd195fc6ba9cc3a36c8ec8c88a3fb424c307cd223"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame.mks": {
+      "bytes": 3628,
+      "sha256": "e2777196494b5305327b0f11175478e4cdd18c61e8c4c0475c1382ade111f1fb"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_0.png": {
+      "bytes": 18152,
+      "sha256": "1e4d8854c9ee55b51e43d70b622e166a018a07dc41c793ff9d1af8de840ec11b"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_1.png": {
+      "bytes": 18566,
+      "sha256": "626f6dbe438a65e0c87ec2f6079313b39197936e5b34e5cce059ccb191b480e3"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_2.png": {
+      "bytes": 19833,
+      "sha256": "06fdfc7886ec0c26bbb35099e733a2560fa1ebeb17ac05932c00d1e66a593867"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_3.png": {
+      "bytes": 20821,
+      "sha256": "292973164bf39aa6eaf2b43b3ca4e3137ca4c3677189f91dacd60b6757a3cb8b"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_4.png": {
+      "bytes": 21563,
+      "sha256": "bcb8098fd1b6ba8ecd62f1e4b04ca967e7940a0ae3b213eb357b614feedb2120"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_5.png": {
+      "bytes": 22276,
+      "sha256": "857a8f6d5f0d686ee08a10ef790a7e592ef7d2822629f1ade8efa0f7e528e9df"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_6.png": {
+      "bytes": 22956,
+      "sha256": "7e4abb56e748611e020a8d9b322cee3957b83a1b8bac403fe7d498fe0f675448"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_7.png": {
+      "bytes": 24123,
+      "sha256": "32443f250bcbb06ffb37d757953cfbd815835d1b417de829a20478283d418a8f"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_8.png": {
+      "bytes": 23841,
+      "sha256": "cd258bb636a87477860df054d156554b595bae310fc0dcc443c081a7f9929cfc"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_9.png": {
+      "bytes": 22015,
+      "sha256": "96744de72130505b601c88d65bdbdb90c3083fe80f5095a8eb062f22f208f20d"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_10.png": {
+      "bytes": 19805,
+      "sha256": "69fdfa894ce28281df96d0a39afa43fbfce726a0707f4ed42d0a294576aaf2c0"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_11.png": {
+      "bytes": 17331,
+      "sha256": "b15f595248594173dcdad4bdfb004e97045b3cb0a146a00e242e9f461e4389e0"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_12.png": {
+      "bytes": 13975,
+      "sha256": "70f28659c42471235c6dc8a284c4294f2ee6d556b9392fd195bd90005fe6061d"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_13.png": {
+      "bytes": 9572,
+      "sha256": "b58ac7b43ff4ed9aca3d3de2926fc2a302b2bca1a1dea4435e602859853ddcd9"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_14.png": {
+      "bytes": 5305,
+      "sha256": "994d0c8a38c7522dc572035404c7352d7428cf4f603b54aaf7a27c33d65b6c9c"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq0_15.png": {
+      "bytes": 870,
+      "sha256": "4db35744921d0466caf53061367e98b5924946e26b03268bf5b0aab51458711c"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_0.png": {
+      "bytes": 16500,
+      "sha256": "e5bdcbe804c9d3389c1afc5364cc25cb6f5baa47be20fb8b13f580c618237b45"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_1.png": {
+      "bytes": 16970,
+      "sha256": "6f459a8d92566c2e35139c1fbd8e441cac42f5f51a31e99384d315f5d49f053a"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_2.png": {
+      "bytes": 18184,
+      "sha256": "9dbdf67e081b1384627b240e2945d097cb37f0fd4649a5a54e0a88637c6ca863"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_3.png": {
+      "bytes": 19623,
+      "sha256": "3c2f1306e3bf974a23836090918bd21d760c0d85fdaad5aa1bd8fe8a4b9d01b0"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_4.png": {
+      "bytes": 20552,
+      "sha256": "4ef28f8f9cba965ffd1cb911cea37035b3ef829f672ef6cfbac2c2e7aa124c4f"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_5.png": {
+      "bytes": 20729,
+      "sha256": "2228a9e70a85c27d30699e6c2ce19dc8edf30833f77fec0a74007a9492dc9535"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_6.png": {
+      "bytes": 20498,
+      "sha256": "e8fbb424ed8b973bfbb0ecac4badd19b6747874ba655c38eb0bc7d326e2adb1d"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_7.png": {
+      "bytes": 19762,
+      "sha256": "edee3fb915fae3c43f4e920d6f5328a157881d9ae11ae82f0a8adfcc9aff1197"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_8.png": {
+      "bytes": 18947,
+      "sha256": "c7e88b03f4d2b1a2da3de1db2453f2968348182051b85efa725013d6ac65782f"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_9.png": {
+      "bytes": 17238,
+      "sha256": "aa16bf22c4384b700d3037082489c1fede00b5e6857a65c7f3abfc4249ed7734"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_10.png": {
+      "bytes": 15364,
+      "sha256": "e5487c0c1d07256971343c6f9d4232d9bac155600130b3e032471af199818d5f"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_11.png": {
+      "bytes": 12673,
+      "sha256": "840d8e2b706fcbd97560c960027ca21b79d7c27e9fe1e658dd05cf5a579cb6b0"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_12.png": {
+      "bytes": 10049,
+      "sha256": "448a0f544a6932df4692fb9a296a77494a4c924b02e7e4751d420e885acc5ddd"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_13.png": {
+      "bytes": 6482,
+      "sha256": "c96c06d65901b22a998a7549a5e2ff17755e6446c1fa6596f04d17ac3568da0d"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_14.png": {
+      "bytes": 3464,
+      "sha256": "012e840a45267c8966b46aff5b1b95c6057a5f605ea703c4170eb349d9f424bd"
+    },
+    "assets/materials/particle/explosion_fireballs/flame/explosion_fireball_large_01_flame_seq1_15.png": {
+      "bytes": 870,
+      "sha256": "4db35744921d0466caf53061367e98b5924946e26b03268bf5b0aab51458711c"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke.mks": {
+      "bytes": 7144,
+      "sha256": "9efb90350fd4cf3ee4f9aa0c3e2356a638a1e259c7f6bd56127840d4022fa594"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_0.png": {
+      "bytes": 30848,
+      "sha256": "f899d2c6ff594153abeebf4e9e6bf93c07c5f4d95e65cead864ef8382453dbb2"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_1.png": {
+      "bytes": 30711,
+      "sha256": "13b6075afe13c91606a9a9f75e5ed14f29b9315d409c2810e6b212dd7e7e7605"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_2.png": {
+      "bytes": 32018,
+      "sha256": "73dfefda3b47dc6c0329fd9c553459d3b8f5b3fc67809542edf0b7dbd7d60c41"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_3.png": {
+      "bytes": 33000,
+      "sha256": "663048ada84472953f968deb98cf89dcdb8cd84e355fa41a2805642af3db0559"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_4.png": {
+      "bytes": 34190,
+      "sha256": "1bb5543039146456d57c9999be959453ae31732fbea013d708e33eedf657b651"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_5.png": {
+      "bytes": 35466,
+      "sha256": "5b39f5c78ae98be32be4bb7bbebeea132e70d15ea87bb6e348939c3ae0a68843"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_6.png": {
+      "bytes": 36366,
+      "sha256": "ff7dfd76e637e0c6bfd2bf8808340f42ace7c0d291ec76822cc5264da2c6e726"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_7.png": {
+      "bytes": 36866,
+      "sha256": "b93fc9d31cb408ebf89eca58b1b82fd62101db111bb431c585ee6782bad69402"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_8.png": {
+      "bytes": 37296,
+      "sha256": "e3fd49ce944e3768cec8defe65435f8a24119aec36f50ba65a47877e22464bb3"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_9.png": {
+      "bytes": 37985,
+      "sha256": "e31b824b341ecc7846c31a6c0b2306c8b9764d95b135b1478e7c3d80c815c1a0"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_10.png": {
+      "bytes": 38406,
+      "sha256": "5ee94f2cedff5bb900320022f9914e6bf864c3c1a862e0f6e9e9e01d57afb929"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_11.png": {
+      "bytes": 38706,
+      "sha256": "0d2f0bd27ce81eca011f7eba64fe6039d6e17316758246755014e78735bde054"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_12.png": {
+      "bytes": 39399,
+      "sha256": "f39edbd2f815036ca7cfc3ad6f0bc712210c918be96e06762b622a1fcb5ddd19"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_13.png": {
+      "bytes": 39906,
+      "sha256": "392ccd0969bf51d6e2ad4d9c5d10ee8e52442f0d2d3f807737f7205bff00eb1c"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_14.png": {
+      "bytes": 40819,
+      "sha256": "e45671c7f2effe7ad39d2ab3f8e3ed21da72a3dbd209150e309a6433a6faeeff"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_15.png": {
+      "bytes": 41264,
+      "sha256": "f01504369f5842e0fdb492c7d244f066fa307f70017b811863e4b0b1233c8d5d"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_16.png": {
+      "bytes": 41634,
+      "sha256": "f6750ce20ef8d5116d3cce838b4e8e3132485fb8dcf8d54e37516742285a40ef"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_17.png": {
+      "bytes": 41758,
+      "sha256": "6659284c6b4af9505b360b519ed383df34dc76b886664509996c09276b9f6ea0"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_18.png": {
+      "bytes": 41665,
+      "sha256": "8eb17f2b7f39a921db81c62ba268b54589c3e129127dfca95f67724f4f3f38a5"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_19.png": {
+      "bytes": 41344,
+      "sha256": "c0d84b6c05a17258ca34bc126b62d7b7732eb4d8eaf17754c8d5b5fcb9b6b51c"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_20.png": {
+      "bytes": 40786,
+      "sha256": "af65503847c6651755dd4b9e4f65c091c68b16b748741bed2b95cbc186e27964"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_21.png": {
+      "bytes": 39905,
+      "sha256": "ee4f362b612b3266b2a70521433dcf881c657819b6425cfc1be66e5a8be46d70"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_22.png": {
+      "bytes": 38574,
+      "sha256": "63ed21f41a5da750a5d9996329b1d61a740f1c138fa340f924d95759cff8e290"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_23.png": {
+      "bytes": 36738,
+      "sha256": "35af35c3b8ec6a41446947039bafddaf8574cc8bbb427640ae62ffb0cee5ee65"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_24.png": {
+      "bytes": 34670,
+      "sha256": "fe8cc35c7cf2e2f2aca6c31280e8edb6996491d8fbf8d128357d087f88c463c4"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_25.png": {
+      "bytes": 32527,
+      "sha256": "6e607a3e9a0627f1ac9337435494ad63d71a6546718dd1557a889465f84de69c"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_26.png": {
+      "bytes": 29628,
+      "sha256": "b779c9462c249ae024b078590621c0cbb70105b3467c40ad60d5775f1d0237df"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_27.png": {
+      "bytes": 26763,
+      "sha256": "5b36c2c00b01d30b802568cc26f21f985e146596ebf7a48e44f51ffeb1c40962"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_28.png": {
+      "bytes": 24101,
+      "sha256": "1cd3c01e93be2641f10df1267d3916056ddd8d1778ea0e9b2b999ef2158c8ce8"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_29.png": {
+      "bytes": 21348,
+      "sha256": "6779afbddf660b074229e6b9ba8f0b852030ef7bf2917a5dfbdec21b7bb5d5a5"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_30.png": {
+      "bytes": 18876,
+      "sha256": "bea10e71ef4e475f7e3c0fb762fad5a701267d5b86db27de0295809435094ffd"
+    },
+    "assets/materials/particle/explosion_fireballs/smoke/explosion_fireball_large_01_smoke_seq0_31.png": {
+      "bytes": 16404,
+      "sha256": "751cffe12dd5050d1187bf5752f79032f6439f33cbeea632bc058edf8c5d039c"
+    },
+    "assets/particles/explosions_fx/explosion_child_dust03a.vpcf": {
+      "bytes": 2938,
+      "sha256": "615ddffa9807bd451e2853cd56a74d2b119975be807d90f784aadf25f35fbb21"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods.mks": {
+      "bytes": 11063,
+      "sha256": "0a0cc4c352b5b2e8613e3572ef2eb9085777f0dac65ea6996ed833e9d2a0ecde"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_0.png": {
+      "bytes": 13202,
+      "sha256": "fe5e37f6ff3a0964ab1a0869d557812fef2a4a4820fdacf81f3ad18d3be835be"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_1.png": {
+      "bytes": 13056,
+      "sha256": "0ff4d5249c74f3f34863522cf2dd2b6f2e4424f22caa719cd87d51c795160fc4"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_2.png": {
+      "bytes": 43888,
+      "sha256": "6c0d5a4421a64373c6ff3c61c3d9204aaa2f8d5d56810df1924ab4a12ec741db"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_3.png": {
+      "bytes": 38566,
+      "sha256": "98a54918dbfa636a66ab3eeed8f2446a10512c8f9a3e1d90be8e09fc54fd27ee"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_4.png": {
+      "bytes": 32905,
+      "sha256": "ffdbe8cf029deb3611888ba19920fc86680bf1d6988c38b6b306c6f914c69c5f"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_5.png": {
+      "bytes": 33049,
+      "sha256": "687fc3048112f4b4d7d83c09b5ae6ea606ab75fb7540f1ebdfb6c5c70eed78cd"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_6.png": {
+      "bytes": 35074,
+      "sha256": "56931c9d1b343081d19571cb87747e0ab451f89fb4980df9f1cfc4d5958980f7"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_7.png": {
+      "bytes": 35888,
+      "sha256": "15cc7c50d601492485956f1f25f3035d74d7c3da5b8c1ff4c69ee264d1c80148"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_8.png": {
+      "bytes": 29461,
+      "sha256": "bf0df00076e39098eb253e45fb757dc25ba6afafa504cf10ed0996f72a974f1b"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_9.png": {
+      "bytes": 34007,
+      "sha256": "5a124ad61f20eeb5199e66619cf44d82275bd875cac2bf2ea06ab83f34b6d4b4"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_10.png": {
+      "bytes": 16582,
+      "sha256": "63ba71ec7dcae7a8d916655ec631ef764c62c0c3f973065ab3f130d51071cfd3"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_11.png": {
+      "bytes": 13084,
+      "sha256": "d767d9e44eeaeba23c6592bbd8ce2da32703ec7d3b3f6e0a920f60af9a639b67"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_12.png": {
+      "bytes": 13189,
+      "sha256": "829a310a71fb6c7b2a2b6e22fc1a9ad651a28140f624333fcec1f17175e8489c"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_13.png": {
+      "bytes": 17696,
+      "sha256": "77b3e419eb9ec4f49111d8db664f4778a3de643c555a40c727df0e004c619409"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_14.png": {
+      "bytes": 16962,
+      "sha256": "9198cc73307f1f5af85945a5e120f8d48add4e2fed4fa33429ff2d6ac9171d7d"
+    },
+    "assets/materials/particle/vistasmokev1/vistasmokev1_emods_seq0_15.png": {
+      "bytes": 16023,
+      "sha256": "3f2ec17b40903706556e26d13db13c1aaf2a07ea71d4fbf17b9be073ae3269f0"
+    },
+    "assets/particles/explosions_fx/explosion_flashbang.vpcf": {
+      "bytes": 13500,
+      "sha256": "33d19118d99664d26322ef03a89dfd631b10bb9b2991906c75ea2995917313a1"
+    },
+    "assets/materials/particle/particle_flares/particle_flare_004b_mod.png": {
+      "bytes": 14701,
+      "sha256": "f9ada4a0d4d60220f7c20dc971cf187db730eef8c7f544aa7636123b74b80f82"
+    },
+    "assets/particles/explosions_fx/explosion_c4_core04c_1k.vpcf": {
+      "bytes": 3492,
+      "sha256": "5f24605f10172ddbba6705d31ebd196a31f4570eed287abf177df15a4a209919"
+    },
+    "assets/materials/sprites/flare_sprite_01.png": {
+      "bytes": 30105,
+      "sha256": "e5147c9a11baf97f0c0adb1c2797167498ba86ab48a72f4ed199eb670a5647ac"
+    },
+    "assets/materials/decals/scorch1_projected_triplanar.vmat": {
+      "bytes": 467,
+      "sha256": "38fc392672c1b6cfbf664e90be193530df3eb02f7410cfa52420a4cadb69569b"
+    },
+    "assets/materials/decals/scorch1_color_tga_46cbff9b.png": {
+      "bytes": 12210,
+      "sha256": "4104fc15b01a39269de14cb6db06d19b3cfa748223a61481890854b08fbaa18d"
+    }
+  },
+  "sprites": {
+    "flame": [
+      {
+        "canvas": [
+          77,
+          170
+        ],
+        "packed": [
+          56,
+          124
+        ],
+        "anchor": "bottom",
+        "frames": [
+          "fire_burning_character_seq0_0.png",
+          "fire_burning_character_seq0_1.png",
+          "fire_burning_character_seq0_2.png",
+          "fire_burning_character_seq0_3.png",
+          "fire_burning_character_seq0_4.png",
+          "fire_burning_character_seq0_5.png",
+          "fire_burning_character_seq0_6.png",
+          "fire_burning_character_seq0_7.png",
+          "fire_burning_character_seq0_8.png",
+          "fire_burning_character_seq0_9.png",
+          "fire_burning_character_seq0_10.png",
+          "fire_burning_character_seq0_11.png"
+        ]
+      },
+      {
+        "canvas": [
+          106,
+          170
+        ],
+        "packed": [
+          77,
+          124
+        ],
+        "anchor": "bottom",
+        "frames": [
+          "fire_burning_character_seq1_0.png",
+          "fire_burning_character_seq1_1.png",
+          "fire_burning_character_seq1_2.png",
+          "fire_burning_character_seq1_3.png",
+          "fire_burning_character_seq1_4.png",
+          "fire_burning_character_seq1_5.png",
+          "fire_burning_character_seq1_6.png",
+          "fire_burning_character_seq1_7.png",
+          "fire_burning_character_seq1_8.png",
+          "fire_burning_character_seq1_9.png",
+          "fire_burning_character_seq1_10.png"
+        ]
+      },
+      {
+        "canvas": [
+          100,
+          170
+        ],
+        "packed": [
+          73,
+          124
+        ],
+        "anchor": "bottom",
+        "frames": [
+          "fire_burning_character_seq2_0.png",
+          "fire_burning_character_seq2_1.png",
+          "fire_burning_character_seq2_2.png",
+          "fire_burning_character_seq2_3.png",
+          "fire_burning_character_seq2_4.png",
+          "fire_burning_character_seq2_5.png",
+          "fire_burning_character_seq2_6.png",
+          "fire_burning_character_seq2_7.png",
+          "fire_burning_character_seq2_8.png",
+          "fire_burning_character_seq2_9.png",
+          "fire_burning_character_seq2_10.png",
+          "fire_burning_character_seq2_11.png"
+        ]
+      }
+    ],
+    "groundFire": [
+      {
+        "canvas": [
+          151,
+          141
+        ],
+        "packed": [
+          124,
+          116
+        ],
+        "anchor": "center",
+        "frames": [
+          "fire_small_sim_b_seq0_0.png",
+          "fire_small_sim_b_seq0_1.png",
+          "fire_small_sim_b_seq0_2.png",
+          "fire_small_sim_b_seq0_3.png",
+          "fire_small_sim_b_seq0_4.png",
+          "fire_small_sim_b_seq0_5.png",
+          "fire_small_sim_b_seq0_6.png",
+          "fire_small_sim_b_seq0_7.png",
+          "fire_small_sim_b_seq0_8.png",
+          "fire_small_sim_b_seq0_9.png",
+          "fire_small_sim_b_seq0_10.png",
+          "fire_small_sim_b_seq0_11.png",
+          "fire_small_sim_b_seq0_12.png",
+          "fire_small_sim_b_seq0_13.png",
+          "fire_small_sim_b_seq0_14.png",
+          "fire_small_sim_b_seq0_15.png",
+          "fire_small_sim_b_seq0_16.png",
+          "fire_small_sim_b_seq0_17.png",
+          "fire_small_sim_b_seq0_18.png",
+          "fire_small_sim_b_seq0_19.png",
+          "fire_small_sim_b_seq0_20.png",
+          "fire_small_sim_b_seq0_21.png",
+          "fire_small_sim_b_seq0_22.png",
+          "fire_small_sim_b_seq0_23.png",
+          "fire_small_sim_b_seq0_24.png",
+          "fire_small_sim_b_seq0_25.png",
+          "fire_small_sim_b_seq0_26.png",
+          "fire_small_sim_b_seq0_27.png",
+          "fire_small_sim_b_seq0_28.png",
+          "fire_small_sim_b_seq0_29.png",
+          "fire_small_sim_b_seq0_30.png",
+          "fire_small_sim_b_seq0_31.png"
+        ]
+      },
+      {
+        "canvas": [
+          138,
+          164
+        ],
+        "packed": [
+          104,
+          124
+        ],
+        "anchor": "center",
+        "frames": [
+          "fire_small_sim_b_seq1_0.png",
+          "fire_small_sim_b_seq1_1.png",
+          "fire_small_sim_b_seq1_2.png",
+          "fire_small_sim_b_seq1_3.png",
+          "fire_small_sim_b_seq1_4.png",
+          "fire_small_sim_b_seq1_5.png",
+          "fire_small_sim_b_seq1_6.png",
+          "fire_small_sim_b_seq1_7.png",
+          "fire_small_sim_b_seq1_8.png",
+          "fire_small_sim_b_seq1_9.png",
+          "fire_small_sim_b_seq1_10.png",
+          "fire_small_sim_b_seq1_11.png",
+          "fire_small_sim_b_seq1_12.png",
+          "fire_small_sim_b_seq1_13.png",
+          "fire_small_sim_b_seq1_14.png",
+          "fire_small_sim_b_seq1_15.png",
+          "fire_small_sim_b_seq1_16.png",
+          "fire_small_sim_b_seq1_17.png",
+          "fire_small_sim_b_seq1_18.png",
+          "fire_small_sim_b_seq1_19.png",
+          "fire_small_sim_b_seq1_20.png",
+          "fire_small_sim_b_seq1_21.png",
+          "fire_small_sim_b_seq1_22.png",
+          "fire_small_sim_b_seq1_23.png",
+          "fire_small_sim_b_seq1_24.png",
+          "fire_small_sim_b_seq1_25.png",
+          "fire_small_sim_b_seq1_26.png",
+          "fire_small_sim_b_seq1_27.png",
+          "fire_small_sim_b_seq1_28.png",
+          "fire_small_sim_b_seq1_29.png",
+          "fire_small_sim_b_seq1_30.png",
+          "fire_small_sim_b_seq1_31.png",
+          "fire_small_sim_b_seq1_32.png"
+        ]
+      },
+      {
+        "canvas": [
+          185,
+          122
+        ],
+        "packed": [
+          124,
+          82
+        ],
+        "anchor": "center",
+        "frames": [
+          "fire_small_sim_b_seq2_0.png",
+          "fire_small_sim_b_seq2_1.png",
+          "fire_small_sim_b_seq2_2.png",
+          "fire_small_sim_b_seq2_3.png",
+          "fire_small_sim_b_seq2_4.png",
+          "fire_small_sim_b_seq2_5.png",
+          "fire_small_sim_b_seq2_6.png",
+          "fire_small_sim_b_seq2_7.png",
+          "fire_small_sim_b_seq2_8.png",
+          "fire_small_sim_b_seq2_9.png",
+          "fire_small_sim_b_seq2_10.png",
+          "fire_small_sim_b_seq2_11.png",
+          "fire_small_sim_b_seq2_12.png",
+          "fire_small_sim_b_seq2_13.png",
+          "fire_small_sim_b_seq2_14.png",
+          "fire_small_sim_b_seq2_15.png",
+          "fire_small_sim_b_seq2_16.png",
+          "fire_small_sim_b_seq2_17.png",
+          "fire_small_sim_b_seq2_18.png",
+          "fire_small_sim_b_seq2_19.png",
+          "fire_small_sim_b_seq2_20.png",
+          "fire_small_sim_b_seq2_21.png",
+          "fire_small_sim_b_seq2_22.png",
+          "fire_small_sim_b_seq2_23.png",
+          "fire_small_sim_b_seq2_24.png",
+          "fire_small_sim_b_seq2_25.png",
+          "fire_small_sim_b_seq2_26.png",
+          "fire_small_sim_b_seq2_27.png",
+          "fire_small_sim_b_seq2_28.png",
+          "fire_small_sim_b_seq2_29.png",
+          "fire_small_sim_b_seq2_30.png",
+          "fire_small_sim_b_seq2_31.png",
+          "fire_small_sim_b_seq2_32.png"
+        ]
+      }
+    ],
+    "blast": [
+      {
+        "canvas": [
+          256,
+          256
+        ],
+        "packed": [
+          124,
+          124
+        ],
+        "anchor": "center",
+        "frames": [
+          "explosion_fireball_large_01_flame_seq0_0.png",
+          "explosion_fireball_large_01_flame_seq0_1.png",
+          "explosion_fireball_large_01_flame_seq0_2.png",
+          "explosion_fireball_large_01_flame_seq0_3.png",
+          "explosion_fireball_large_01_flame_seq0_4.png",
+          "explosion_fireball_large_01_flame_seq0_5.png",
+          "explosion_fireball_large_01_flame_seq0_6.png",
+          "explosion_fireball_large_01_flame_seq0_7.png",
+          "explosion_fireball_large_01_flame_seq0_8.png",
+          "explosion_fireball_large_01_flame_seq0_9.png",
+          "explosion_fireball_large_01_flame_seq0_10.png",
+          "explosion_fireball_large_01_flame_seq0_11.png",
+          "explosion_fireball_large_01_flame_seq0_12.png",
+          "explosion_fireball_large_01_flame_seq0_13.png",
+          "explosion_fireball_large_01_flame_seq0_14.png",
+          "explosion_fireball_large_01_flame_seq0_15.png"
+        ]
+      },
+      {
+        "canvas": [
+          256,
+          256
+        ],
+        "packed": [
+          124,
+          124
+        ],
+        "anchor": "center",
+        "frames": [
+          "explosion_fireball_large_01_flame_seq1_0.png",
+          "explosion_fireball_large_01_flame_seq1_1.png",
+          "explosion_fireball_large_01_flame_seq1_2.png",
+          "explosion_fireball_large_01_flame_seq1_3.png",
+          "explosion_fireball_large_01_flame_seq1_4.png",
+          "explosion_fireball_large_01_flame_seq1_5.png",
+          "explosion_fireball_large_01_flame_seq1_6.png",
+          "explosion_fireball_large_01_flame_seq1_7.png",
+          "explosion_fireball_large_01_flame_seq1_8.png",
+          "explosion_fireball_large_01_flame_seq1_9.png",
+          "explosion_fireball_large_01_flame_seq1_10.png",
+          "explosion_fireball_large_01_flame_seq1_11.png",
+          "explosion_fireball_large_01_flame_seq1_12.png",
+          "explosion_fireball_large_01_flame_seq1_13.png",
+          "explosion_fireball_large_01_flame_seq1_14.png",
+          "explosion_fireball_large_01_flame_seq1_15.png"
+        ]
+      }
+    ],
+    "smoke": [
+      {
+        "canvas": [
+          218,
+          209
+        ],
+        "packed": [
+          124,
+          119
+        ],
+        "anchor": "center",
+        "frames": [
+          "explosion_fireball_large_01_smoke_seq0_0.png",
+          "explosion_fireball_large_01_smoke_seq0_1.png",
+          "explosion_fireball_large_01_smoke_seq0_2.png",
+          "explosion_fireball_large_01_smoke_seq0_3.png",
+          "explosion_fireball_large_01_smoke_seq0_4.png",
+          "explosion_fireball_large_01_smoke_seq0_5.png",
+          "explosion_fireball_large_01_smoke_seq0_6.png",
+          "explosion_fireball_large_01_smoke_seq0_7.png",
+          "explosion_fireball_large_01_smoke_seq0_8.png",
+          "explosion_fireball_large_01_smoke_seq0_9.png",
+          "explosion_fireball_large_01_smoke_seq0_10.png",
+          "explosion_fireball_large_01_smoke_seq0_11.png",
+          "explosion_fireball_large_01_smoke_seq0_12.png",
+          "explosion_fireball_large_01_smoke_seq0_13.png",
+          "explosion_fireball_large_01_smoke_seq0_14.png",
+          "explosion_fireball_large_01_smoke_seq0_15.png",
+          "explosion_fireball_large_01_smoke_seq0_16.png",
+          "explosion_fireball_large_01_smoke_seq0_17.png",
+          "explosion_fireball_large_01_smoke_seq0_18.png",
+          "explosion_fireball_large_01_smoke_seq0_19.png",
+          "explosion_fireball_large_01_smoke_seq0_20.png",
+          "explosion_fireball_large_01_smoke_seq0_21.png",
+          "explosion_fireball_large_01_smoke_seq0_22.png",
+          "explosion_fireball_large_01_smoke_seq0_23.png",
+          "explosion_fireball_large_01_smoke_seq0_24.png",
+          "explosion_fireball_large_01_smoke_seq0_25.png",
+          "explosion_fireball_large_01_smoke_seq0_26.png",
+          "explosion_fireball_large_01_smoke_seq0_27.png",
+          "explosion_fireball_large_01_smoke_seq0_28.png",
+          "explosion_fireball_large_01_smoke_seq0_29.png",
+          "explosion_fireball_large_01_smoke_seq0_30.png",
+          "explosion_fireball_large_01_smoke_seq0_31.png"
+        ]
+      }
+    ],
+    "dust": [
+      {
+        "canvas": [
+          140,
+          148
+        ],
+        "packed": [
+          117,
+          124
+        ],
+        "anchor": "center",
+        "frames": [
+          "vistasmokev1_emods_seq0_0.png",
+          "vistasmokev1_emods_seq0_1.png",
+          "vistasmokev1_emods_seq0_2.png",
+          "vistasmokev1_emods_seq0_3.png",
+          "vistasmokev1_emods_seq0_4.png",
+          "vistasmokev1_emods_seq0_5.png",
+          "vistasmokev1_emods_seq0_6.png",
+          "vistasmokev1_emods_seq0_7.png",
+          "vistasmokev1_emods_seq0_8.png",
+          "vistasmokev1_emods_seq0_9.png",
+          "vistasmokev1_emods_seq0_10.png",
+          "vistasmokev1_emods_seq0_11.png",
+          "vistasmokev1_emods_seq0_12.png",
+          "vistasmokev1_emods_seq0_13.png",
+          "vistasmokev1_emods_seq0_14.png",
+          "vistasmokev1_emods_seq0_15.png"
+        ]
+      }
+    ],
+    "flash": [
+      {
+        "canvas": [
+          128,
+          128
+        ],
+        "packed": [
+          124,
+          124
+        ],
+        "anchor": "center",
+        "frames": [
+          "particle_flare_004b_mod.png"
+        ]
+      }
+    ],
+    "flare": [
+      {
+        "canvas": [
+          256,
+          256
+        ],
+        "packed": [
+          124,
+          124
+        ],
+        "anchor": "center",
+        "frames": [
+          "flare_sprite_01.png"
+        ]
+      }
+    ],
+    "scorch": [
+      {
+        "canvas": [
+          128,
+          128
+        ],
+        "packed": [
+          124,
+          124
+        ],
+        "anchor": "center",
+        "frames": [
+          "scorch1_color_tga_46cbff9b.png"
+        ]
+      }
+    ]
+  }
+}
