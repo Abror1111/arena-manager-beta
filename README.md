@@ -1,9 +1,15 @@
-# ARENA Manager 1.14 beta
+# ARENA Manager 1.15 beta
 
-[Play on PC or phone](https://abror1111.github.io/arena-manager-beta/?v=114) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.14-beta/ARENA-1.14-beta.apk) · [Download page](https://abror1111.github.io/arena-manager-beta/download.html)
+[Play on PC or phone](https://abror1111.github.io/arena-manager-beta/?v=115) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.15-beta/ARENA-1.15-beta.apk) · [Download page](https://abror1111.github.io/arena-manager-beta/download.html)
 
-216 genuine CS2 particle frames for Molotov flames/ground fire, blast fireballs/smoke, HE dust, flares and scorch, packed into one bounded mobile atlas. Flash uses an exported flare substitute because the referenced aircraft_blue texture is absent. Floor-aware fire and bounded volumetric smoke remain. Smoke extinguishes fire; HE/C4 temporarily clear smoke. These are ARENA approximations, not the native Source2 particle system. The 36 weapon/equipment profiles, training armory and source-map prop physics remain. Ten authentic mobile map scenes and persistent verified downloads remain. The APK includes all maps for offline play. SAS/Phoenix source animations and existing club/5v5 careers are retained. Install over 1.13 to keep your club. Ancient Night retains source navigation and simplified 3D.
+Agents establish separate positions by role, keep space on navigable routes and evade visible incoming grenades. Experience affects reaction time; earlier site outcomes inform later balanced plans. A selected CT defuses while teammates cover. This is a seeded, reactive local simulation.
 
-The tested APK is distributed through GitHub Releases because it exceeds GitHub's normal per-file Git limit. Its SHA256 is `5f02a239be71cb5cda7c765283307f3766e161a6fecf8b2289c21fb93b3a0a1c`, size 369570748 bytes, versionCode 115, appID `uz.arena.tactics.beta`, same upgrade signer as 1.10.
+The HUD shows MR12 halftime, MR3 overtime, remaining rounds and victory targets. Smoke follows team colors through side swaps. Weapons, armor, grenades and kits cost match cash; survivors retain equipment, rich teammates can fund a rifle, and loss rewards escalate. Choose the next-round buy policy in the command panel. [Match rules and economy](TACTICS-AND-ECONOMY.md).
 
-Original map/agent ownership remains with Valve and respective map owners. See licenses/CS2-ASSETS.txt, visuals/provenance.json and agents/provenance.json. No csgo-keys bot files are included.
+Ten authentic mobile map scenes, source navigation for eleven maps, SAS/Phoenix animations, the training armory and adapted CS2 effects remain. Ancient Night retains simplified 3D. The APK includes all maps for offline play. Install over the existing app to keep your club. Existing saved rounds retain their current AI until the next round; career schema 2 is unchanged.
+
+Validation: 85 Node tests and 31 Python tests, a complete simulated match, all eleven source navigation maps, phone/PC observer and VFX checks, project-prefix/offline web behavior, all 68 embedded assets, V2 signature, 16K alignment and upgrade signer. Physical Android GPU performance is not measured in the cloud.
+
+APK: 369578504 bytes, versionCode 116, app ID `uz.arena.tactics.beta`, same upgrade signer as 1.10. SHA256: `e4bccd213287c2051bd782266179055e68c9b5025cbd62b15133e1239a07b785`. Distributed through GitHub Releases because it exceeds GitHub's per-file Git limit.
+
+Original CS2 assets belong to Valve and respective map owners. See licenses/CS2-ASSETS.txt, visuals/provenance.json, agents/provenance.json and materials/vfx/combat-provenance.json. The native Source2 engine is not included. No csgo-keys bot files are included.
