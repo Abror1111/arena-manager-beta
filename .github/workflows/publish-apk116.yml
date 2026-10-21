@@ -1,0 +1,49 @@
+name: Publish ARENA 1.16 APK
+on:
+  push:
+    branches: [arena-116-delivery]
+    paths: ['_apk116/**']
+permissions:
+  contents: write
+concurrency:
+  group: arena-116-apk
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Reassemble and verify the tested APK
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,re
+          from pathlib import Path
+          folder=Path('_apk116');m=json.loads((folder/'manifest.json').read_text())
+          assert m['file']=='ARENA-1.16-beta.apk' and len(m['parts'])<=10
+          whole=hashlib.sha256();size=0
+          with Path(m['file']).open('wb') as out:
+            for i,p in enumerate(m['parts'],1):
+              assert p['file']==f'part-{i:03d}.bin'
+              h=hashlib.sha256();n=0
+              with (folder/p['file']).open('rb') as f:
+                for b in iter(lambda:f.read(1024*1024),b''):
+                  h.update(b);whole.update(b);out.write(b);size+=len(b);n+=len(b)
+              assert h.hexdigest()==p['sha256'] and n==p['bytes']
+          assert size==m['bytes'] and whole.hexdigest()==m['sha256']
+          Path('SHA256-1.16.txt').write_text(m['sha256']+'  '+m['file']+'\n')
+          print('Verified tested APK:',size,'bytes',whole.hexdigest())
+          PY
+      - name: Publish a single downloadable APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view arena-1.16-beta --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            mkdir previous-release
+            gh release download arena-1.16-beta --repo "$GITHUB_REPOSITORY" --pattern ARENA-1.16-beta.apk --dir previous-release
+            cmp ARENA-1.16-beta.apk previous-release/ARENA-1.16-beta.apk
+          else
+            gh release create arena-1.16-beta ARENA-1.16-beta.apk SHA256-1.16.txt --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "ARENA Manager 1.16 beta" --notes-file _apk116/NOTES.md --prerelease
+          fi
