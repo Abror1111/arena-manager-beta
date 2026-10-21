@@ -1,11 +1,11 @@
-# ARENA Manager1.18 beta
+# ARENA Manager1.19 beta
 
-[Play on PC or phone](https://abror1111.github.io/arena-manager-beta/?v=118) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.18-beta/ARENA-1.18-beta.apk) · [Download page](https://abror1111.github.io/arena-manager-beta/download.html)
+[Play on PC or phone](https://abror1111.github.io/arena-manager-beta/?v=119) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.19-beta/ARENA-1.19-beta.apk) · [Download page](https://abror1111.github.io/arena-manager-beta/download.html)
 
-31 verified original CS2 effect cues (28 weapon shots, footstep, grenade throw and impact) and2 C4 music cues (planted/countdown) now work automatically, without per-device ZIP import. Separate persistent music/effect levels, bounded mixer and offline verified downloads. Menu/result music and original explosions were not present in the supplied export; missing effects retain procedural fallback. [Details and provenance](AUDIO-AUTOMATIC.md).
+Detailed C4 with LCD/keypad/cables/blinking LED, distinct HE/flash/smoke/Molotov/incendiary geometry, planting/defusing display and grenade trails.43 genuine pinned CS2 equipment SVGs replace generic weapon/utility silhouettes. Source-derived water triangles on Anubis,Ancient,Inferno,Nuke and Train gain a lightweight animated shader and bounded splash rings. Modestly brighter map lighting, authoritative-step interpolation, facing arrows and the selected player's queued route improve readability. [Provenance and limits](VISUAL-UPGRADE.md).
 
-The user-supplied archive SHA256 is28380f5e4d14866109129e9f9112129134a92f340d0971dda2e1ea6c70c2a7c1. All180 source file hashes were verified. Runtime recordings total1303606 bytes. Assets belong to Valve/respective owners.
+These3D utility models and water shading are recreations; original icon vectors and extracted water geometry have separate provenance. Original GLBs/textures/navigation and historical asset URLs are retained. Stable navigation chunk and verified shared VFX/icon downloads support reuse and offline play. Existing31 original effects/2 C4 music cues, manager/career/economy/tactics, source agents and map viewer remain. Ancient Night is still simplified.
 
-Existing club management, source maps/agents,5v5 tactics, economy, free map viewer, VFX and C4 aftermath remain. Original maps, navigation JSON, VFX atlas bytes and every old published asset URL are preserved. Production navigation is losslessly compressed in JS; the existing atlas image is reused. Ancient Night still simplified. Install over the previous app to retain your club. Physical Android audio/GPU behavior is not measured by browser emulation.
+Install over the previous app; do not uninstall first. Assets belong to Valve/respective owners; icon license and pinned provenance are included. Physical Android performance is not measured by browser emulation.
 
-APK SHA256:`841b696c5e922fe46c4c6c753f472cdecf20518e88e5f3b94388c71ae6190a43`,367654682 bytes,versionCode119,appID`uz.arena.tactics.beta`,same upgrade signer as1.10. No csgo-keys bot files included.
+APK SHA256:`717797aca776ef9d9480a8d1cd726ec71b61013ff208b36223ce12f33d54eecb`,367906071 bytes,versionCode120,appID`uz.arena.tactics.beta`,same upgrade signer as1.10. No bot files included.

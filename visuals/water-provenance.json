@@ -1,0 +1,52 @@
+{
+  "version": "1.19",
+  "method": "Original csgo_water_fancy.vfx triangles, node transforms and source-to-nav alignment; runtime material overlay only. No map/nav changes.",
+  "maps": [
+    {
+      "map": "anubis",
+      "archive": "ARENA-anubis-CS2-visuals.zip",
+      "surfaces": 2,
+      "triangles": 981,
+      "sourceMaterials": [
+        "materials/anubis/anubis_water_coast.vmat",
+        "materials/anubis/anubis_water_canal.vmat"
+      ]
+    },
+    {
+      "map": "ancient",
+      "archive": "ARENA-ancient-CS2-visuals.zip",
+      "surfaces": 1,
+      "triangles": 473,
+      "sourceMaterials": [
+        "materials/de_aztec/hr_aztec/hr_aztec_water_shallow.vmat"
+      ]
+    },
+    {
+      "map": "inferno",
+      "archive": "ARENA-inferno-CS2-visuals.zip",
+      "surfaces": 1,
+      "triangles": 34,
+      "sourceMaterials": [
+        "materials/liquids/inferno_fountain.vmat"
+      ]
+    },
+    {
+      "map": "nuke",
+      "archive": "ARENA-nuke-CS2-visuals.zip",
+      "surfaces": 1,
+      "triangles": 29,
+      "sourceMaterials": [
+        "materials/liquids/nuke_water.vmat"
+      ]
+    },
+    {
+      "map": "train",
+      "archive": "ARENA-train-CS2-visuals.zip",
+      "surfaces": 1,
+      "triangles": 142,
+      "sourceMaterials": [
+        "materials/liquids/water_train_chemical_spill.vmat"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "repository": "https://github.com/Juknum/counter-strike-icons",
+  "commit": "b198fd2cbe58274c0826fdf299e1c17783335bde",
+  "rights": "Icon assets belong to Valve; upstream assets are community/informational, not covered by tooling MIT license.",
+  "files": {
+    "ak": {
+      "url": "/icons/cs2/ak47.svg",
+      "sha256": "d0f98522d69a90d2dae644e29e114e9520ec7186e0cd462f1541ab0ef3289bfe",
+      "bytes": 3651,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/ak47.svg"
+    },
+    "m4": {
+      "url": "/icons/cs2/m4a1.svg",
+      "sha256": "4e80e247608b65016e4606c00f49d55492a0f1dc34e71a6b7c7ca88d27cdc650",
+      "bytes": 4866,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/m4a1.svg"
+    },
+    "m4a1s": {
+      "url": "/icons/cs2/m4a1_silencer.svg",
+      "sha256": "3565857c155b80c0d2289454c1f63c231994229b3e4b347ab594e67203f65035",
+      "bytes": 5427,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/m4a1_silencer.svg"
+    },
+    "glock": {
+      "url": "/icons/cs2/glock.svg",
+      "sha256": "0ca4c81b4888d84e54e699cc4831a69992005e246dc24ffb9aa52cade6133692",
+      "bytes": 3280,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/glock.svg"
+    },
+    "usp": {
+      "url": "/icons/cs2/usp_silencer.svg",
+      "sha256": "6f2693049050b883cbabeac89437fbcb8504520ec779156d4f7877e077ec3d7c",
+      "bytes": 3179,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/usp_silencer.svg"
+    },
+    "p2000": {
+      "url": "/icons/cs2/hkp2000.svg",
+      "sha256": "66fe96c04579615f3491d662770511785d57557c2bcc21ac81dddfc0ba65238a",
+      "bytes": 3037,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/hkp2000.svg"
+    },
+    "dual": {
+      "url": "/icons/cs2/elite.svg",
+      "sha256": "f8e43a50d1b21bc30843c61b543bd965d108010d5f4998e6ffa44a9f96b3630f",
+      "bytes": 9169,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/elite.svg"
+    },
+    "mp5": {
+      "url": "/icons/cs2/mp5sd.svg",
+      "sha256": "293459424fa4f707e2633db6e25897f34a12795bee702fc6caaf5e83902593d2",
+      "bytes": 3442,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/mp5sd.svg"
+    },
+    "deagle": {
+      "url": "/icons/cs2/deagle.svg",
+      "sha256": "5ab139d7151ceaa530deb352a08146ce625ce5a9f0fcf1b8554c57c42999b950",
+      "bytes": 3982,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/deagle.svg"
+    },
+    "r8": {
+      "url": "/icons/cs2/revolver.svg",
+      "sha256": "e0c5ba5ba7b0cdad3b775dd345ec7cb34243346fb84645e2e17ea8a39194a855",
+      "bytes": 5642,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/revolver.svg"
+    },
+    "galil": {
+      "url": "/icons/cs2/galilar.svg",
+      "sha256": "935b679077b5a6ea4264e66541260fb905a058f5b999e82191b79e1d94452c56",
+      "bytes": 6185,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/galilar.svg"
+    },
+    "sg553": {
+      "url": "/icons/cs2/sg556.svg",
+      "sha256": "6c0105235017802611d302d11bac4bdf9e83e9edeb6b5d91bbf449052128d3f3",
+      "bytes": 29311,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/sg556.svg"
+    },
+    "cz75": {
+      "url": "/icons/cs2/cz75a.svg",
+      "sha256": "bc0fdaf5d7806adca94a9d4224d73d4819a6966ec989570682ffa62febcff89b",
+      "bytes": 4960,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/cz75a.svg"
+    },
+    "knife": {
+      "url": "/icons/cs2/knife.svg",
+      "sha256": "865edd79e600f5812dbaf910438af1f4ca2fb74a75fa815cc00d95802de25185",
+      "bytes": 3574,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/knife.svg"
+    },
+    "zeus": {
+      "url": "/icons/cs2/taser.svg",
+      "sha256": "a3e119853a03ebbb0267ff7721246c5ae5132dd6b325ec21d74638dc72a7b7ec",
+      "bytes": 3241,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/taser.svg"
+    },
+    "awp": {
+      "url": "/icons/cs2/awp.svg",
+      "sha256": "21e1c6ccbef3a93bc5e984587fa97a0de64417646a48a789864d0e5731a625d6",
+      "bytes": 4893,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/awp.svg"
+    },
+    "aug": {
+      "url": "/icons/cs2/aug.svg",
+      "sha256": "145aa54e61b616544e86ec895ba303c7a6480a197c6176a07265f5f234b5bc52",
+      "bytes": 5169,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/aug.svg"
+    },
+    "famas": {
+      "url": "/icons/cs2/famas.svg",
+      "sha256": "ba5d5bed81d8efd6fcd049d8400c5a78a587a9f62f0585910b4cff593d8030ec",
+      "bytes": 5408,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/famas.svg"
+    },
+    "ssg08": {
+      "url": "/icons/cs2/ssg08.svg",
+      "sha256": "82bbb1b093f405a26f87c2e85d07909267814f117ce7a9035ef4ee3e23fd2ced",
+      "bytes": 35995,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/ssg08.svg"
+    },
+    "scar20": {
+      "url": "/icons/cs2/scar20.svg",
+      "sha256": "177b6a4490be9a2d456f9cc933ae7aa14b7ff6d7fb858473fb7cae019a790b0e",
+      "bytes": 38689,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/scar20.svg"
+    },
+    "g3sg1": {
+      "url": "/icons/cs2/g3sg1.svg",
+      "sha256": "a4806843e5010f9cdf6349b58998a976703ec65d44b0862ddaf78673609d583a",
+      "bytes": 8549,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/g3sg1.svg"
+    },
+    "nova": {
+      "url": "/icons/cs2/nova.svg",
+      "sha256": "9a2d5e7db9dcf0211a588d73f6dbbfbff22d79d0a858bb8cc34b6de5302c6467",
+      "bytes": 30902,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/nova.svg"
+    },
+    "xm1014": {
+      "url": "/icons/cs2/xm1014.svg",
+      "sha256": "ec202a1ccdda27830262f764ac741eba5349211eb72776e4f8e65e78ec0ccea5",
+      "bytes": 5837,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/xm1014.svg"
+    },
+    "mag7": {
+      "url": "/icons/cs2/mag7.svg",
+      "sha256": "6c6324b36f5ba9512ea32334222f4a84e4c8f00efe3e7bd0bcd32aeacd5ea272",
+      "bytes": 31103,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/mag7.svg"
+    },
+    "sawedoff": {
+      "url": "/icons/cs2/sawedoff.svg",
+      "sha256": "45a3f55fa526d6948033d99a50cd965b7ecfa6c3eb810785f3d74ffb5556b061",
+      "bytes": 25783,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/sawedoff.svg"
+    },
+    "m249": {
+      "url": "/icons/cs2/m249.svg",
+      "sha256": "7c1b49390f87bdf8ce3f4b1fa0f54ef058b42b52ece09c6e4da92b5cd5f49787",
+      "bytes": 7542,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/m249.svg"
+    },
+    "negev": {
+      "url": "/icons/cs2/negev.svg",
+      "sha256": "743eccc4dace49146e82a68c1dcd333a9b5be30aa08aba3c86db7fca9a360dc0",
+      "bytes": 45244,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/negev.svg"
+    },
+    "bizon": {
+      "url": "/icons/cs2/bizon.svg",
+      "sha256": "ae6259ba48323e132d37a2df13d162101898c35b3a1873e1b8913c8c193f9905",
+      "bytes": 54273,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/bizon.svg"
+    },
+    "p90": {
+      "url": "/icons/cs2/p90.svg",
+      "sha256": "13d3a3fa692b16c280f08cceba7bad8bf89225526a70e9be10a00cd0c64c4057",
+      "bytes": 4631,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/p90.svg"
+    },
+    "mp7": {
+      "url": "/icons/cs2/mp7.svg",
+      "sha256": "21d90992afa8a726542e861a4dfb07a154a36a06c875d3096709944a85768813",
+      "bytes": 37144,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/mp7.svg"
+    },
+    "mp9": {
+      "url": "/icons/cs2/mp9.svg",
+      "sha256": "6e62964b1ebe9e50c2584a771e24eaa4c6f63fc5204648c3d178fb81a938c799",
+      "bytes": 23824,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/mp9.svg"
+    },
+    "mac10": {
+      "url": "/icons/cs2/mac10.svg",
+      "sha256": "2aafac43011b01bf92f05729bacd09dc939ed492b06e3b6f0a4c33b200d37362",
+      "bytes": 4613,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/mac10.svg"
+    },
+    "ump45": {
+      "url": "/icons/cs2/ump45.svg",
+      "sha256": "db234c16c85e5f7aa81821cdd41303857783673ca96792072c9ba51205108124",
+      "bytes": 8739,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/ump45.svg"
+    },
+    "p250": {
+      "url": "/icons/cs2/p250.svg",
+      "sha256": "df86b3b3a4f2168610dfcde2796577f9aaa4049ad23f9b7cca60b8d78c4ee0ea",
+      "bytes": 20482,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/p250.svg"
+    },
+    "fiveseven": {
+      "url": "/icons/cs2/fiveseven.svg",
+      "sha256": "7b9aa3b6fdb84329a43e537dff69275b224d548cbd73e7eb1272fa973322dcda",
+      "bytes": 3356,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/fiveseven.svg"
+    },
+    "tec9": {
+      "url": "/icons/cs2/tec9.svg",
+      "sha256": "dce734f0a08b42aa6ebb7946d1c3653823c4c70da99d05f2b23afa6ba80b27a6",
+      "bytes": 27681,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/tec9.svg"
+    },
+    "he": {
+      "url": "/icons/cs2/hegrenade.svg",
+      "sha256": "8c33330ea8db7626d62fd6cd60139e2242be9e4b5adde54a5d43a967c462e479",
+      "bytes": 51280,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/hegrenade.svg"
+    },
+    "smoke": {
+      "url": "/icons/cs2/smokegrenade.svg",
+      "sha256": "fdf505befaa9d3dbf04d27204088b93e5941ba62ed8744e9675c907aa69056f9",
+      "bytes": 1052,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/smokegrenade.svg"
+    },
+    "flash": {
+      "url": "/icons/cs2/flashbang.svg",
+      "sha256": "bccb65a3452c6695a342654566510e6f20352d4449740ad477c2a4eeea3d3645",
+      "bytes": 1422,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/flashbang.svg"
+    },
+    "fire": {
+      "url": "/icons/cs2/molotov.svg",
+      "sha256": "bb4b5a04eefa1f4cbe7312969a09d2dc70dd2c2cc02b9938fa8e48c0ea4a2a4d",
+      "bytes": 3013,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/molotov.svg"
+    },
+    "incendiary": {
+      "url": "/icons/cs2/incgrenade.svg",
+      "sha256": "7c87dec72d1c0c622ba248fa88a6cd75f91671086a995e6a72201c9404a205d2",
+      "bytes": 13524,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/incgrenade.svg"
+    },
+    "c4": {
+      "url": "/icons/cs2/c4.svg",
+      "sha256": "4ccfa5c0b98f54e3815f92779814d5ef3ddb6f01d2f3ccebd049372efb2ee310",
+      "bytes": 6534,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/c4.svg"
+    },
+    "kit": {
+      "url": "/icons/cs2/defuser.svg",
+      "sha256": "9810a89c92279b7eeeb1837d16a0a9a7a782114fb8e23aeb5d48872146bdf3be",
+      "bytes": 4912,
+      "source": "https://raw.githubusercontent.com/Juknum/counter-strike-icons/b198fd2cbe58274c0826fdf299e1c17783335bde/cs2/panorama/images/icons/equipment/defuser.svg"
+    }
+  }
+}
