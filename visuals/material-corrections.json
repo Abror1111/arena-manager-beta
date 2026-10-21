@@ -1,0 +1,280 @@
+{
+  "version": "1.17",
+  "reason": "Source2 foliage/cloth vertex channels encode wind/AO masks, not RGB tint. Mode1 was already stripped during mobile derivation; preserve ordinary material colors, map binaries, textures and navigation.",
+  "maps": [
+    {
+      "map": "dust2",
+      "renderCorrections": 4,
+      "materials": [
+        {
+          "texture": "dust_awning_fabric_01_color_psd_e88d4599.vtex",
+          "source": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        },
+        {
+          "texture": "dust_awning_fabric_ripped_01_color_psd_789780ed.vtex",
+          "source": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_ripped_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "dust_patio_umbrella_color_psd_6e45e3a.vtex",
+          "source": "materials/models/props/de_dust/hr_dust/dust_patio_set/dust_patio_umbrella_color.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        },
+        {
+          "texture": "olive_bark_01_color_psd_6af689a3.vtex",
+          "source": "materials/models/props/de_dust/hr_dust/foliage/olive_bark_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        }
+      ]
+    },
+    {
+      "map": "mirage",
+      "renderCorrections": 5,
+      "materials": [
+        {
+          "texture": "bomb_site_tarp_color_psd_5b206a94.vtex",
+          "source": "materials/models/props/de_mirage/bomb_site_tarp/bomb_site_tarp.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "tarp_a_diffuse_color_psd_d56f5734.vtex",
+          "source": "materials/models/props/de_mirage/tarp_a/tarp_a_diffuse.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "urban_trees_branches02_color_psd_f5545695.vtex",
+          "source": "materials/models/props_foliage/urban_trees_branches02_mip0.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "urban_trees_branches03_color_psd_edc612b9.vtex",
+          "source": "materials/models/props_foliage/urban_trees_branches03.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "urban_trees_branches03_color_psd_f505931f.vtex",
+          "source": "materials/models/props_foliage/urban_trees_branches03_small.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        }
+      ]
+    },
+    {
+      "map": "vertigo",
+      "renderCorrections": 0,
+      "materials": []
+    },
+    {
+      "map": "nuke",
+      "renderCorrections": 0,
+      "materials": []
+    },
+    {
+      "map": "anubis",
+      "renderCorrections": 10,
+      "materials": [
+        {
+          "texture": "awning_color_psd_32af8926.vtex",
+          "source": "materials/anubis/models/buildings/awning.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        },
+        {
+          "texture": "banner_color_psd_11506beb.vtex",
+          "source": "materials/anubis/models/unique/banner.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        },
+        {
+          "texture": "clothes_b_color_psd_e58a9482.vtex",
+          "source": "materials/models/props/de_inferno/hr_i/clothes_a/clothes_b_color.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        },
+        {
+          "texture": "dust_awning_fabric_01_color_psd_e88d4599.vtex",
+          "source": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        },
+        {
+          "texture": "dust_awning_fabric_ripped_01_color_psd_789780ed.vtex",
+          "source": "materials/models/props/de_dust/hr_dust/dust_awnings/dust_awning_fabric_ripped_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "dust_patio_umbrella_color_psd_6e45e3a.vtex",
+          "source": "materials/models/props/de_dust/hr_dust/dust_patio_set/dust_patio_umbrella_color.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        },
+        {
+          "texture": "ivy01_color_psd_ec30644b.vtex",
+          "source": "materials/anubis/models/foliage/ivy01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        },
+        {
+          "texture": "lily_flower_color_psd_40bc7a9a.vtex",
+          "source": "materials/models/props/de_inferno/hr_i/lily_pad/lily_flower.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        },
+        {
+          "texture": "lily_pad_color_psd_4f16cadf.vtex",
+          "source": "materials/anubis/models/foliage/lily_pad.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        },
+        {
+          "texture": "venice_museum_table_color_psd_8d9540c4.vtex",
+          "source": "materials/models/props/de_venice/venice_museum/venice_museum_table_color.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        }
+      ]
+    },
+    {
+      "map": "ancient",
+      "renderCorrections": 3,
+      "materials": [
+        {
+          "texture": "ancient_skybox_underbrush_cards_01_color_tga_f3b1a375.vtex",
+          "source": "materials/models/props/de_ancient/ancient_skybox/ancient_skybox_underbrush_cards_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "hr_ancient_fern_01_color_tga_5e142ba7.vtex",
+          "source": "materials/models/props/de_ancient/ancient_foliage/hr_ancient_fern_01_nomotion.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "hr_aztec_yucca_01_color_psd_7e162f1c.vtex",
+          "source": "materials/models/props/de_ancient/ancient_foliage/hr_ancient_yucca_01_nomotion.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        }
+      ]
+    },
+    {
+      "map": "inferno",
+      "renderCorrections": 4,
+      "materials": [
+        {
+          "texture": "background_foliage_grass_01_color_tga_364e0990.vtex",
+          "source": "models/foliage/background/background_foliage_grass_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "background_foliage_tree_01_color_tga_f9cc8a8e.vtex",
+          "source": "models/foliage/background/background_foliage_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "flag_kit_01_color_tga_7867a0c8.vtex",
+          "source": "models/generic/flagkit_01/flagkit_01_animated.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        },
+        {
+          "texture": "italy_hanging_clothes_1_color_psd_14a6add4.vtex",
+          "source": "models/cs_italy/props/clothing/italy_hanging_clothes_1.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        }
+      ]
+    },
+    {
+      "map": "overpass",
+      "renderCorrections": 2,
+      "materials": [
+        {
+          "texture": "overpass_patio_umbrella_01_psd_89a5df85.vtex",
+          "source": "materials/de_overpass/props/umbrella/overpass_patio_umbrella_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 2
+        },
+        {
+          "texture": "urban_trees_branches03_color_psd_edc612b9.vtex",
+          "source": "materials/models/props_foliage/urban_trees_branches03.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        }
+      ]
+    },
+    {
+      "map": "cache",
+      "renderCorrections": 6,
+      "materials": [
+        {
+          "texture": "chainlink_fence_wire_002_color_psd_5ff34e46.vtex",
+          "source": "materials/models/props/de_nuke/hr_nuke/chainlink_fence_001/chainlink_fence_wire_002b.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "tree_poplar_adult_trunk_01_color_psd_6846ff0d.vtex",
+          "source": "models/foliage/trees/poplar/tree_poplar_adult_trunk_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "tree_poplar_adult_trunk_02_color_psd_f693d097.vtex",
+          "source": "models/foliage/trees/poplar/tree_poplar_adult_trunk_02.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "tree_poplar_bark_color_psd_e8ea02eb.vtex",
+          "source": "models/foliage/trees/poplar/tree_poplar_bark.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "tree_poplar_juvenile_trunk_01_color_psd_24097d83.vtex",
+          "source": "models/foliage/trees/poplar/tree_poplar_juvenile_trunk_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "tree_poplar_mature_trunk_01_color_psd_6f46e5f2.vtex",
+          "source": "models/foliage/trees/poplar/tree_poplar_mature_trunk_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        }
+      ]
+    },
+    {
+      "map": "train",
+      "renderCorrections": 2,
+      "materials": [
+        {
+          "texture": "sumac_tree_bark_01_color_tga_d4242532.vtex",
+          "source": "models/foliage/trees/sumac_poison_tree/sumac_tree_bark_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        },
+        {
+          "texture": "sumac_tree_leaves_01_color_tga_1340b891.vtex",
+          "source": "models/foliage/trees/sumac_poison_tree/sumac_tree_leaves_01.vmat",
+          "shader": "csgo_foliage.vfx",
+          "windMode": 0
+        }
+      ]
+    }
+  ]
+}

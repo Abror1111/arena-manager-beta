@@ -21,3 +21,6 @@ e4bccd213287c2051bd782266179055e68c9b5025cbd62b15133e1239a07b785  ARENA-1.15-bet
 
 #1.16 is distributed in GitHub Releases
 50263588190e786e2fd995ebdd48f96afcec68d7813ccba0c59f097ab74b634d  ARENA-1.16-beta.apk
+
+#1.17 is distributed in GitHub Releases
+2aa54390f70644aca0b21bab92f081813ebe7c101493876eb85f724b246ffc85  ARENA-1.17-beta.apk
