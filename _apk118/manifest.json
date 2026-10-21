@@ -1,0 +1,32 @@
+{
+  "file": "ARENA-1.18-beta.apk",
+  "bytes": 367654682,
+  "sha256": "841b696c5e922fe46c4c6c753f472cdecf20518e88e5f3b94388c71ae6190a43",
+  "parts": [
+    {
+      "file": "part-001.bin",
+      "bytes": 83886080,
+      "sha256": "78fc479873381c7eb0b0287dc2787fe15ca8e76daaaa9b349c136426f8b1316a"
+    },
+    {
+      "file": "part-002.bin",
+      "bytes": 83886080,
+      "sha256": "324b57565b56d4503ad8f40f0a8d95bfc73191f251ce721a75d845875fdbca96"
+    },
+    {
+      "file": "part-003.bin",
+      "bytes": 83886080,
+      "sha256": "8e6def62210ff694d59e4c2b60e3e4e6f2aa4ce9e36b1d56dd669ec1af6c49cc"
+    },
+    {
+      "file": "part-004.bin",
+      "bytes": 83886080,
+      "sha256": "2c6a107d2fcc1f586776a39a206217979bf96701d3178a06b4717fd687a550f7"
+    },
+    {
+      "file": "part-005.bin",
+      "bytes": 32110362,
+      "sha256": "d5ab8b041df72bbce1604192ed8e96437543eabf710f1633eae81dca31828b0e"
+    }
+  ]
+}

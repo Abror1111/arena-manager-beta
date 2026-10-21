@@ -1,0 +1,15 @@
+# ARENA 1.18 — automatic original CS2 audio
+
+The game bundles31 original effect cues (28 weapon shots, footsteps, grenade throw and impact) and2 original music cues (bomb planted and last10 seconds), automatically available in the Android APK. The web version verifies/downloads clips on first use and reuses the verified device cache. No per-device ZIP import is required.
+
+Source: user-exported `ARENA-CS2-AUDIO-20261021-170900.zip`, CS2 client2000934, Source2Viewer CLI20.1. Archive SHA256:28380f5e4d14866109129e9f9112129134a92f340d0971dda2e1ea6c70c2a7c1. All180 source recordings were checked against the archive manifest. Selected recordings are converted locally into33 Ogg clips totalling1303606 bytes. Each runtime entry retains its source filename and original hash. Original ZIP is preserved outside the app; no synthetic validation fixtures are shipped as CS2 assets.
+
+The archive does not include menu/result music, actual HE/C4 explosion recordings, complete reloads or shots for every weapon. Those effect cues retain the existing procedural fallback; missing music stays silent. C4 planted/countdown music belongs to the exported3kliksphilip music kit. No other music kit was downloaded or represented as part of this export. Assets remain owned by Valve and respective owners.
+
+Effects use distance/pan attenuation, a limiter, a14-phone/22-PC voice budget and a24MiB decoded-buffer budget. Music uses verified compressed Blob URLs, so long stereo tracks do not allocate large decoded PCM buffers. It follows bomb state, fades when cues change, and stops on pause/background/exit. The five-second explosion aftermath suppresses premature result music. Settings has separate persistent effects/music volumes. Existing optional local imports still override supported effects, independently of club saves.
+
+Navigation source JSON, original ten GLBs/textures, source VFX atlas bytes, career schema2/key and Android upgrade signer remain unchanged. Production builds losslessly compress the navigation JSON representation and reuse the already published VFX atlas image instead of embedding another copy in each JS release. All eleven decoded navigation datasets are checked for exact equality, and existing public asset URLs are retained.
+
+Validation reports live under /workspace/shared/arena-118-checks: Node tests, source SHA checks, real supplied audio playback on phone/PC browser sizes, streaming planted/countdown music, bounded voices, map/VFX offline reopen, prefix/offline hosting and native APK/signature/upgrade checks. Browser emulation is not a measurement of physical Android audio or GPU behavior.
+
+Install over the existing ARENA app to keep your club. Do not uninstall first.
