@@ -1,11 +1,13 @@
-# ARENA Manager1.21 beta
+# ARENA Manager 1.22 beta
 
-[Play on PC or phone](https://abror1111.github.io/arena-manager-beta/?v=121) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.21-beta/ARENA-1.21-beta.apk) · [Download page](https://abror1111.github.io/arena-manager-beta/download.html)
+[Play on PC or phone](https://abror1111.github.io/arena-manager-beta/?v=122) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.22-beta/ARENA-1.22-beta.apk) · [Download page](https://abror1111.github.io/arena-manager-beta/download.html)
 
-32 original CS2 effects preload before combat, retry failed loads and use verified original PCM compatibility copies when Ogg is unsupported. MAG-7 sound routing is corrected; gunshots take priority over ambient tails. Settings now has an audible original-recording test and battle audio shows readiness. Native media MIME types and trusted-app playback policy are corrected. A continuous ground apron follows the source playable perimeter and matches distant ground UVs, replacing raised rectangular exterior bands without changing navigation. Existing water, equipment, career and source geometry remain. [Provenance and limits](VISUAL-UPGRADE.md).
+56 original CS2 effects, reload and ambient recordings plus the two original C4 music cues. Separately attributed ARENA effects and menu/battle/result compositions cover gaps in the supplied export; weapon auditions identify CS2 versus ARENA. Combat music ducks during shots. Original pitch and PCM compatibility are retained. [Audio details](AUDIO-AUTOMATIC.md).
 
-These3D utility models and water shading are recreations; original icon vectors and extracted water geometry have separate provenance. Original GLBs/textures/navigation and historical asset URLs are retained. Stable navigation chunk and verified shared VFX/icon downloads support reuse and offline play. Existing32 original effects/2 C4 music cues, manager/career/economy/tactics, source agents and map viewer remain. Ancient Night is still simplified.
+All eleven settings receive detailed, instanced map-specific scenery: quarters, tiled villages, factories, wagons, ruins, park buildings and skyline. Materials reuse compatible original source textures. Safe corner pockets and 20 source-collision roof details fill selected non-playable areas; interior details follow floor clipping. The continuous apron now follows complete navigation polygons. Original ten mobile GLBs, navigation, agents, water/equipment features and career schema are unchanged. Ancient Night is simplified. This is not a 1:1 CS2 recreation, nor a claim that every interior void has been filled. [Visual details and limits](VISUAL-UPGRADE.md).
 
-Install over the previous app; do not uninstall first. Assets belong to Valve/respective owners; icon license and pinned provenance are included. Physical Android performance is not measured by browser emulation.
+[Updated read-only CS2 audio exporter for Windows PC](tools/ARENA-CS2-audio-complete-1.22.zip) prioritizes shots, C4/utility actions and default menu/result tracks over repeated variants. It contains scripts, no Valve assets. The user must supply new original recordings for missing authentic cues.
 
-APK SHA256:`38689d3abb3cd5f40e5492003bdbb70113523eae7df5e8cd97b4bfb57521f085`,372164697 bytes,versionCode122,appID`uz.arena.tactics.beta`,same upgrade signer as1.10. No bot files included.
+Install over the existing app; do not uninstall first. Package ID `uz.arena.tactics.beta`, versionCode 123, same upgrade signer as 1.10. APK 376503315 bytes; SHA256 `221bb48a6775b33ea8f4626401fa7eaafd8e7c23e5b5a16bb79d6ccc56ad1bdc`.
+
+Browser, offline, source-provenance and package checks are documented; physical Android performance/output is not measured in Chromium. Source assets belong to Valve/respective owners. The working case bot is outside this project and is unchanged.
