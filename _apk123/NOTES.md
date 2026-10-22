@@ -1,0 +1,15 @@
+# ARENA Manager 1.23 beta
+
+The floating appearance and mismatched outer ground are addressed structurally. A new terrain layer fills the complete map domain rather than only a convex perimeter strip. Original navigation faces have an exact backing 0.09 units below their original XYZ coordinates. Polygon-clipped terrain fills the remaining non-playable ground, with local heights tied to nearby routes and visible source surfaces. The distant plane has an opening under the map, so it cannot cover basement or other low routes.
+
+Inferno now uses the original stone paving and terracotta roof material; ground and added buildings reuse suitable source materials. Uniform rows of perimeter buildings are replaced by deterministic, irregular placements only where a read-only raster of original visible geometry is empty and complete footprints clear navigation. Building plinths reach the local ground rather than leaving exposed gaps. Original geometry and floor heights are not moved. The previous blanket camera cut also removed exterior roofs. A compact route-height mask now limits source cutaways to playable corridors, retaining full exterior buildings and cutting at local route elevations so lower streets remain visible. Upper/lower floor switching remains available.
+
+All eleven layouts have compact, content-addressed terrain payloads. Vertigo receives a supporting building volume below the lowest playable floor and a lower city ground. Interior floor backing follows the existing floor-cut camera plane. The source ten mobile GLBs, source textures/navigation, agents, game mechanics and career schema remain intact. Ancient Night still has a simplified source representation. Added scenery and terrain are ARENA reconstructions, not a claim of 1:1 CS2 map geometry or all possible visible holes being eliminated.
+
+Validation checks the actual compressed terrain meshes: the whole domain has ground, interpolated terrain does not cross navigation footprints, every backing vertex retains its exact source position minus the height offset, and added model footprints clear navigation. All eleven views are rendered on a landscape phone viewport. Physical Android performance needs a device test.
+
+Audio remains the verified 1.22 set until the newly supplied archive can be retrieved: 56 original effects/reload/ambient recordings, two original C4 music cues and separately identified ARENA additions. The uploaded ARENA-CS2-AUDIO-20261022-234140.zip exceeds the available 32 MiB attachment-transfer limit; a downloadable release URL is needed to integrate it. No substitute archive is described as the new upload.
+
+Install over the existing app to keep the club. Package ID and upgrade signing identity remain. The working case bot is outside this project and is unchanged. Source game assets belong to Valve/respective owners; new terrain, scenery kits and authored sounds are separate recreations.
+
+Install over the existing ARENA app to keep your club. Do not uninstall first.
