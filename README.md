@@ -1,13 +1,13 @@
-# ARENA Manager 1.22 beta
+# ARENA Manager 1.23 beta
 
-[Play on PC or phone](https://abror1111.github.io/arena-manager-beta/?v=122) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.22-beta/ARENA-1.22-beta.apk) · [Download page](https://abror1111.github.io/arena-manager-beta/download.html)
+[Web / PC](https://abror1111.github.io/arena-manager-beta/?v=123) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.23-beta/ARENA-1.23-beta.apk) · [Download page](download.html)
 
-56 original CS2 effects, reload and ambient recordings plus the two original C4 music cues. Separately attributed ARENA effects and menu/battle/result compositions cover gaps in the supplied export; weapon auditions identify CS2 versus ARENA. Combat music ducks during shots. Original pitch and PCM compatibility are retained. [Audio details](AUDIO-AUTOMATIC.md).
+The render terrain now fills the map interior as well as the perimeter. Exact source navigation faces receive backing 0.09 units lower; polygon-clipped terrain fills non-playable gaps. Ground uses local grades and appropriate original paving textures. The distant plane has a central opening so it cannot cover low routes. Inferno uses its source stone and terracotta materials; irregular source-empty placements replace perimeter rows. Vertigo has an underlying building support and lower city ground. Route-height cutaways preserve full original exterior roofs while keeping lower streets visible; lower-floor selection is retained.
 
-All eleven settings receive detailed, instanced map-specific scenery: quarters, tiled villages, factories, wagons, ruins, park buildings and skyline. Materials reuse compatible original source textures. Safe corner pockets and 20 source-collision roof details fill selected non-playable areas; interior details follow floor clipping. The continuous apron now follows complete navigation polygons. Original ten mobile GLBs, navigation, agents, water/equipment features and career schema are unchanged. Ancient Night is simplified. This is not a 1:1 CS2 recreation, nor a claim that every interior void has been filled. [Visual details and limits](VISUAL-UPGRADE.md).
+All eleven layouts have verified compact terrain payloads. Source geometry, navigation, agents and career data are preserved. Original ten mobile GLBs remain unchanged; Ancient Night is simplified. Terrain/scenery additions are ARENA reconstructions. [Details and limits](VISUAL-UPGRADE.md).
 
-[Updated read-only CS2 audio exporter for Windows PC](tools/ARENA-CS2-audio-complete-1.22.zip) prioritizes shots, C4/utility actions and default menu/result tracks over repeated variants. It contains scripts, no Valve assets. The user must supply new original recordings for missing authentic cues.
+125 Node tests, compressed-mesh coverage/nav-safety checks, eleven rendered phone views, static/auto/player cameras and native package verification. Physical Android performance is not measured in browser emulation.
 
-Install over the existing app; do not uninstall first. Package ID `uz.arena.tactics.beta`, versionCode 123, same upgrade signer as 1.10. APK 376503315 bytes; SHA256 `221bb48a6775b33ea8f4626401fa7eaafd8e7c23e5b5a16bb79d6ccc56ad1bdc`.
+Audio is unchanged from 1.22: 56 original effects/reload/ambient clips, two original C4 cues, and separately attributed ARENA additions. The new 20261022 source archive has not been integrated because its downloadable URL is still needed. [Audio provenance](AUDIO-AUTOMATIC.md).
 
-Browser, offline, source-provenance and package checks are documented; physical Android performance/output is not measured in Chromium. Source assets belong to Valve/respective owners. The working case bot is outside this project and is unchanged.
+Install over the previous app, without uninstalling, to retain the club. App ID `uz.arena.tactics.beta`, versionCode 124, same upgrade signer as 1.10. APK 377620423 bytes, SHA256 `dfbfbc0ea8d7fb710c8d8e02c20adc4b782e0accfd98f53f55ce2dffe2757591`. Source assets belong to Valve/respective owners. The case bot is unchanged.

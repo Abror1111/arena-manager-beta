@@ -1,0 +1,81 @@
+{
+  "generator": "scripts/bake-terrain.py 1.23",
+  "type": "ARENA derived render terrain, not original CS2 terrain meshes",
+  "navigationUnchanged": true,
+  "gapClearance": 0.75,
+  "maps": {
+    "inferno": {
+      "navigationSHA256": "7515fe0677d7480d2859d6243a26a15e00cfa71cca9bd70d2217ec36f3459dda",
+      "sourceVisualSHA256": "ca3c0b3800964427bfece7c6c6b8f323edf85a42087bdb5f9aa70c68c5392e98",
+      "derivedPayloadSHA256": "d8be516bdde810ad68dc0221d8be8b041277e3f55bd0dc8c0b6e1e13e34502e5",
+      "routeMaskSHA256": "24bdf76ec09beb96c3f03667244fcb92905553ef310349441d02f0ff079d75ab"
+    },
+    "dust2": {
+      "navigationSHA256": "72d0765026d68f3061c4150168fbfa02f2e43fa3733d8249d06e6bb512a9daef",
+      "sourceVisualSHA256": "dcb806df8bed30e2b90edf6791af7d4de4e3cbe20d3c8eba4c61e6c048198c58",
+      "derivedPayloadSHA256": "3cfca817152335707d914b6e3d5613b67b1a1bcd604f20591659f92c4ca1512c",
+      "routeMaskSHA256": "b1a6ba5069d766980cea848c3e3e3132c701c431840bc430e1cf02f99f9a4388"
+    },
+    "mirage": {
+      "navigationSHA256": "31366611072c1e2f76884774c9a11b1d5c7a6337087f689dd0b3575d7859b273",
+      "sourceVisualSHA256": "e273d62242e1ba76fc4183312c08ee853fdb428862e3ca8b76f35ad8bc577185",
+      "derivedPayloadSHA256": "f3c4f32ce48e59a06e9d5d03a6d680a95b69088b2f4f34867966e5318536fa6d",
+      "routeMaskSHA256": "1a73f586adb1da8bc431cc1e1207ec092ea0a469a35386af5a4c1b4362c37ec4"
+    },
+    "nuke": {
+      "navigationSHA256": "a16ae396467d12b02271a659cafbc4a643299a5c21f8aa57aa7df36ec317dba8",
+      "sourceVisualSHA256": "2d6f766280425a6a2b9252b1ddaea9d3e8a5f87a197313cdbc47cfce7a301f1c",
+      "derivedPayloadSHA256": "e97bd1ed72a489416f25b691ad7e8e59fcc4811a83a4f63414d74cb1a79fc615",
+      "routeMaskSHA256": "4aac42818c1eab4b9c413bcd0dc7a2db58dec0d69de01bed95aa3ccedd0ffe33"
+    },
+    "train": {
+      "navigationSHA256": "7fd055f255d2fb30ac0fd591f0d55b21a245dbc7072125b9c524a00579b6efc5",
+      "sourceVisualSHA256": "7b0270d5d2b599008651d87a29d646f0772ea0fb7cf2ced3d9c778717c5d555d",
+      "derivedPayloadSHA256": "235adeea3922835815f44ee47a020dd137da0034f3e226428865832602a3cd63",
+      "routeMaskSHA256": "f1c33479babc100876821076916f24b95f67ef6da9015cd9cb1af08bbdac4f54"
+    },
+    "ancient": {
+      "navigationSHA256": "d20f50c6d8d124bbc1fce88cebd3406c902b09d42c4157e7bb2876b71cb1631c",
+      "sourceVisualSHA256": "0a9e959de285e07b66435d9912eb5e65a7b7c9d8a670c50a114712cefc56567c",
+      "derivedPayloadSHA256": "e7e0fcd1bee96b92591cfe5bfd4a190b7fe2bdc3769c068cac58bb3709154c0c",
+      "routeMaskSHA256": "22b5b1b45f05ebe30ab6ec3ac93c83384a2d4a9f5d1bfcb0e6d989fe2d3f2f14"
+    },
+    "ancient-night": {
+      "navigationSHA256": "a65d2ca4696bf7171227f9e617d977d52230fb987c2cfb459ca6aace945fd17e",
+      "sourceVisualSHA256": "original-collision",
+      "derivedPayloadSHA256": "50f031bb9fedbd994b9b32f38f4eaa14d297b5b581fdcc78dce126fe7f9ec43d",
+      "routeMaskSHA256": "d482e5ccf07b100a1ac375abbc1615f8f346b4414474e87034c6636d76042ceb"
+    },
+    "anubis": {
+      "navigationSHA256": "94dfe4a0f2deab3c257bd605330812fd6a8a9bbf05935242db72e2bd323fbba8",
+      "sourceVisualSHA256": "7e4059ab80c0abe303ceeaa00619b02a17e5602e51122df65f634346e7a7050b",
+      "derivedPayloadSHA256": "b26a5c0440ebadb8aaa1531a601a81eee67c29b43ea3feea5745382080fce786",
+      "routeMaskSHA256": "b2abe3f04a32a6263faf631e7fb7f5bbe398b13e0deb93bd74defe349e75570d"
+    },
+    "overpass": {
+      "navigationSHA256": "3cbd09bb2b9e0a048a460e49f52941672ad3b874ab662d341c7775e7d76af32a",
+      "sourceVisualSHA256": "785fc044b1811010ad2455204f7ede4b0f2cf41de7bd13a484f3af641f29c357",
+      "derivedPayloadSHA256": "66075927afe6c339df9ffc62b8e3cf0e47aee56328df97021a12d0befc42ce39",
+      "routeMaskSHA256": "1c970f8a74efce0cb67d024a04dacb9ee891dca694328bb9b9840854d8da8991"
+    },
+    "vertigo": {
+      "navigationSHA256": "bec0ca98442330e7f77af7c0fafa19c9c3a79af013b5fbc24fa0531e4af1abe5",
+      "sourceVisualSHA256": "c282b53ff98c4b4207279494a1276302b63638ac6f67f2731c033ba1175b489b",
+      "derivedPayloadSHA256": "1aea3978b98829d5ff0747ca82a857a7b94317f18d5be0af6e50bb3025d9bc9c",
+      "routeMaskSHA256": "752d101428fc64c4082bd51c6fbe2c74eb2727902387128689c0ae00827f6e08"
+    },
+    "cache": {
+      "navigationSHA256": "00ae8684ec327dc9bcfc3d9b2652ce6f4a255301bfc74fed8de052e74d0de925",
+      "sourceVisualSHA256": "00e1eeb1e826c48446fa9d4223f47d804c6e0bd14908b04446d6430e75dbc1bf",
+      "derivedPayloadSHA256": "58dffd7d5e40ee9a44f922da2b8de0f97ec5d47e6ca75d14043685a3c9b8fa69",
+      "routeMaskSHA256": "09a13d711a883e873001252df1d9b0f29de17978e57ed958c9d443115a2d0c6d"
+    }
+  },
+  "generators": [
+    "scripts/bake-terrain.py 1.23",
+    "scripts/bake-route-mask.py 1.23",
+    "scripts/source-coverage.mjs 1.23"
+  ],
+  "sourceCoverage": "Full original visual surfaces, including exterior roofs; read-only raster",
+  "routeCutaway": "Original material shader clips only above source navigation; exterior roofs are retained; original source files unchanged"
+}
