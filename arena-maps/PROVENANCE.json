@@ -1,0 +1,131 @@
+{
+  "revision": "arena-original-126",
+  "scope": "Map layouts, navigation, terrain, collision, architecture, texture patterns, previews and surrounding scenery",
+  "authorship": "ARENA original code-authored assets",
+  "thirdPartyMapInputs": [],
+  "stableLegacyKeys": "Used solely for club save compatibility; do not identify CS2 layouts.",
+  "excludedFromScope": "Existing CS2 agent models, weapon icons, VFX textures and audio remain third-party materials; this does not certify rights for the whole game.",
+  "maps": [
+    {
+      "key": "dust2",
+      "name": "Dune Courtyard",
+      "originalId": "dune-courtyard",
+      "revision": "arena-original-126",
+      "geometry": "src/original-world.js",
+      "layout": "src/original-maps.js",
+      "navigationPolygons": 277,
+      "layoutSHA256": "0cf25e94e7ab43fabf7da77e1a4a811587bd5af479c81b459d39225b95ac7e60",
+      "thirdPartyMapInputs": []
+    },
+    {
+      "key": "mirage",
+      "name": "Azure Arcade",
+      "originalId": "azure-arcade",
+      "revision": "arena-original-126",
+      "geometry": "src/original-world.js",
+      "layout": "src/original-maps.js",
+      "navigationPolygons": 273,
+      "layoutSHA256": "e4e6c4689670710f789c8359d5942ec568bbbee26bb7812ccf11d7086c90737f",
+      "thirdPartyMapInputs": []
+    },
+    {
+      "key": "inferno",
+      "name": "Amber Terraces",
+      "originalId": "amber-terraces",
+      "revision": "arena-original-126",
+      "geometry": "src/original-world.js",
+      "layout": "src/original-maps.js",
+      "navigationPolygons": 273,
+      "layoutSHA256": "9ad526b1413c0b771191d39500b0593f3e7e7ef1623fb8c56d6724a9204e53f8",
+      "thirdPartyMapInputs": []
+    },
+    {
+      "key": "nuke",
+      "name": "Tidal Works",
+      "originalId": "tidal-works",
+      "revision": "arena-original-126",
+      "geometry": "src/original-world.js",
+      "layout": "src/original-maps.js",
+      "navigationPolygons": 272,
+      "layoutSHA256": "d6cee8b8fd4006e881fbd6526d21f09184d9972df6f7ec7b80ff92718dd7b54c",
+      "thirdPartyMapInputs": []
+    },
+    {
+      "key": "train",
+      "name": "Copper Depot",
+      "originalId": "copper-depot",
+      "revision": "arena-original-126",
+      "geometry": "src/original-world.js",
+      "layout": "src/original-maps.js",
+      "navigationPolygons": 271,
+      "layoutSHA256": "0e3dc632dc2368a28ba1110ba1190ee63a0324a74ca078b2c8346d4d370c78e7",
+      "thirdPartyMapInputs": []
+    },
+    {
+      "key": "ancient",
+      "name": "Fern Sanctuary",
+      "originalId": "fern-sanctuary",
+      "revision": "arena-original-126",
+      "geometry": "src/original-world.js",
+      "layout": "src/original-maps.js",
+      "navigationPolygons": 268,
+      "layoutSHA256": "9560bb9de284da3b7fb2249b6484d11aa9ac81db8f4a466453426129d501bdf5",
+      "thirdPartyMapInputs": []
+    },
+    {
+      "key": "ancient-night",
+      "name": "Moonlit Sanctuary",
+      "originalId": "moonlit-sanctuary",
+      "revision": "arena-original-126",
+      "geometry": "src/original-world.js",
+      "layout": "src/original-maps.js",
+      "navigationPolygons": 271,
+      "layoutSHA256": "143bd06c458884b363596bb23115d774ee21c75d83f5ebbec798119f21918d29",
+      "thirdPartyMapInputs": []
+    },
+    {
+      "key": "anubis",
+      "name": "Reed Quarter",
+      "originalId": "reed-quarter",
+      "revision": "arena-original-126",
+      "geometry": "src/original-world.js",
+      "layout": "src/original-maps.js",
+      "navigationPolygons": 275,
+      "layoutSHA256": "075c9069cda4f14ebd73bea4715105863a3733b5aaf5312fb95e0e21bc00846c",
+      "thirdPartyMapInputs": []
+    },
+    {
+      "key": "overpass",
+      "name": "Linden Promenade",
+      "originalId": "linden-promenade",
+      "revision": "arena-original-126",
+      "geometry": "src/original-world.js",
+      "layout": "src/original-maps.js",
+      "navigationPolygons": 276,
+      "layoutSHA256": "b3cdc7e12540c9bd5aa9ccfbed1a7b54d813c937baf84cbd76b014414ec78d97",
+      "thirdPartyMapInputs": []
+    },
+    {
+      "key": "vertigo",
+      "name": "Skyline Gardens",
+      "originalId": "skyline-gardens",
+      "revision": "arena-original-126",
+      "geometry": "src/original-world.js",
+      "layout": "src/original-maps.js",
+      "navigationPolygons": 270,
+      "layoutSHA256": "79c6f55378fb4e3f5891c93f2265e6618dac368df06d1c68ef9540a06ae2c18b",
+      "thirdPartyMapInputs": []
+    },
+    {
+      "key": "cache",
+      "name": "Foundry Courtyard",
+      "originalId": "foundry-courtyard",
+      "revision": "arena-original-126",
+      "geometry": "src/original-world.js",
+      "layout": "src/original-maps.js",
+      "navigationPolygons": 272,
+      "layoutSHA256": "7178102496532b32a1b9fbb23fac494f5f9b76bb27044d66575e75f0e8657426",
+      "thirdPartyMapInputs": []
+    }
+  ]
+}

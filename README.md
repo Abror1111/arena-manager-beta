@@ -1,13 +1,13 @@
-# ARENA Manager 1.25 beta
+# ARENA Manager 1.26 beta — Original Maps
 
-[Web / PC](https://abror1111.github.io/arena-manager-beta/?v=125) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.25-beta/ARENA-1.25-beta.apk) · [Original model gallery](arena-art-125.html)
+[Play on web / PC](https://abror1111.github.io/arena-manager-beta/?v=126) · [Android APK, 28 MB](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.26-beta/ARENA-1.26-beta.apk)
 
-Eleven original ARENA architecture kits replace the previous surroundings treatment. 137 new courtyard groups fill verified ground pockets; variants add gardens, pergolas, kiosks, solar equipment and stone gardens. New scenery uses project-authored geometry, procedural surfaces and foliage, without copied source-game materials. Eleven self-contained colour-only GLB kits are available in the gallery. [Scope and details](VISUAL-UPGRADE.md).
+Eleven ARENA-authored beta maps replace the source-game map dependency: independent layouts, navigation, terrain, collision, architecture, texture patterns, water and surroundings. The app generates these maps locally. Original map downloads, radar images, terrain rasters and GLBs from CS2 are excluded from the active bundle. Historical public asset URLs and original exports remain preserved.
 
-New footprints clear source navigation by at least0.95 units, avoid existing models/water and follow flat source ground or supported terrain. Original navigation, career, source base geometry and the1.24 audio set remain. Ancient Night remains simplified.
+[Map details and scope](VISUAL-UPGRADE.md) · [Authoring](ORIGINAL-MAPS.md) · [Provenance](arena-maps/PROVENANCE.json)
 
-These original additions do not establish legal clearance for the remaining CS2 base maps/layouts, textures, agents, audio or names. Replacing those with independent assets/designs is a separate stage.
+Existing source-game agents, weapon icons, VFX textures and audio remain third-party assets. Map originality does not establish rights for the rest of the game. These new layouts need further playtesting and balance work.
 
-Validation includes129 Node tests, model footprint and placement tests, eleven rendered phone views, static/auto/player cameras, real original audio playback and project-prefix/offline reopening, plus exact native assets/signature checks. Physical Android performance remains unmeasured.
+Old active rounds restart once on new geometry, retaining score, round number, club money and player stats; current-version saves resume normally. Back up the club before updating, then install over the old app without uninstalling. VersionCode127; same upgrade signer. APK 27876351 bytes; SHA256 `a0efc02e38ec160bae1158db34da15d44b25acde7203b589229d7d7d5dfbd99e`.
 
-Install over the old app without uninstalling. App ID`uz.arena.tactics.beta`, versionCode126, same signer. APK 384003683 bytes, SHA256`bf14bff0614ef827e1308b3b7a6f31925a3dedc33199df0f0c5644c1f5ce5e4a`. The separate case bot is unchanged.
+Verification covers132 Node tests, all11 rendered phone views, static/auto/player cameras, actual audio playback and offline reopening on phone and PC emulation, plus native assets, signature and alignment. Physical Android performance has not been measured. The separate case bot is unchanged.
