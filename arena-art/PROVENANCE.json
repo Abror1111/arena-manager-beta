@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "assetType": "arena-original-scenery",
+  "authorship": "New ARENA procedural architecture and model assemblies",
+  "thirdPartyModelOrTextureInputs": [],
+  "maps": 11,
+  "sourceInputs": {
+    "src/backdrop-prefabs.js": "57912f6b027e57a10c1a8d660561420422e1a6204f70be0a48979bb143261f75",
+    "src/original-districts.json": "ea586d6153bce20bf98ba0a9fc8777944899e313871b438190a13036565e5431",
+    "scripts/bake-original-districts.py": "6a16d35a584ef82dc703d55b4f47fc12bf716875879ec1b56f5bca39e70a851b",
+    "public/materials/surfaces.png": "90b71f9b992545303385d0b5f1924aa818d33abc9250c8fd1ecc0219db4dc068",
+    "public/materials/leaves.png": "1b27d24b20fe838e72dc54417a30d6c6047954081119decdf9b26cb04a9616b4",
+    "scripts/render-original-kits125.mjs": "95d3feb78301a9fa48bbe3f126e2db3262d56b852d2b3c3af056ab68030d4db6"
+  },
+  "placement": "Current source geometry/navigation are consulted for safe placement only. Existing CS2 base geometry, layouts, agents and audio are outside this original-scenery declaration.",
+  "legalScope": "Original added geometry/materials do not establish clearance for the remaining game assets or names."
+}

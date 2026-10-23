@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "origin": "ARENA original colour-only architecture assemblies; no Valve meshes or textures",
+  "renderNote": "Studio thumbnails use simplified solid foliage to show the original geometry separately from source maps. Gameplay uses the same assemblies with project-authored materials and leaf cards.",
+  "assets": [
+    {
+      "id": "dust2",
+      "name": "Dune Courtyard",
+      "url": "arena-art/125/dust2.glb",
+      "bytes": 32040,
+      "sha256": "ef6883a6be3b72b6f0d93b40e13c5a05351d2c103f01471e0f56f81ad8ca6c0c"
+    },
+    {
+      "id": "mirage",
+      "name": "Azure Arcade",
+      "url": "arena-art/125/mirage.glb",
+      "bytes": 33352,
+      "sha256": "8c133474da1cf8d94c4f12177bc4cb9fabba2367f720410dfff1da53e40e2bd1"
+    },
+    {
+      "id": "inferno",
+      "name": "Amber Terraces",
+      "url": "arena-art/125/inferno.glb",
+      "bytes": 32544,
+      "sha256": "38a9cc1dd150c733f1b3feb359b088a3f34727449669e20ffa1bc78b58b0c344"
+    },
+    {
+      "id": "nuke",
+      "name": "Tidal Works",
+      "url": "arena-art/125/nuke.glb",
+      "bytes": 33604,
+      "sha256": "d135bcf925599a1b910d39d231ae00be86197ad53adc5fafc5395629efe45e51"
+    },
+    {
+      "id": "train",
+      "name": "Copper Depot",
+      "url": "arena-art/125/train.glb",
+      "bytes": 32576,
+      "sha256": "e85c7d9a1b2d10f0793a5339ee9f7a0183d1d269c831fd6cc034216a2fdba9fc"
+    },
+    {
+      "id": "ancient",
+      "name": "Fern Sanctuary",
+      "url": "arena-art/125/ancient.glb",
+      "bytes": 30512,
+      "sha256": "bafd209b5364352369d8059df909e22cdc4556f3a0fbdafdbd6ad5b47316fe10"
+    },
+    {
+      "id": "ancient-night",
+      "name": "Moonlit Sanctuary",
+      "url": "arena-art/125/ancient-night.glb",
+      "bytes": 33024,
+      "sha256": "f1d74c1d4226844c88b2b547f174042734b86de209e9c678b435d4a880ee75c0"
+    },
+    {
+      "id": "anubis",
+      "name": "Reed Quarter",
+      "url": "arena-art/125/anubis.glb",
+      "bytes": 32704,
+      "sha256": "2456169d33839865607d23a8a6cdd6810b807bb935797d70fee46ccc08e6ea6a"
+    },
+    {
+      "id": "overpass",
+      "name": "Linden Promenade",
+      "url": "arena-art/125/overpass.glb",
+      "bytes": 31420,
+      "sha256": "da00cf8eeb670bf2331befad53bc12b15db49c1945fe5c01c96e73083cff66b8"
+    },
+    {
+      "id": "vertigo",
+      "name": "Skyline Gardens",
+      "url": "arena-art/125/vertigo.glb",
+      "bytes": 36828,
+      "sha256": "0e23a730bab531ae025cf363906dd77067af79ffeac910a41a86082a0d49d5e0"
+    },
+    {
+      "id": "cache",
+      "name": "Foundry Courtyard",
+      "url": "arena-art/125/cache.glb",
+      "bytes": 32196,
+      "sha256": "a788ed43bcfda355c9851feb400cf9fd93ebe7ff4e3aacda5dad868d06828451"
+    }
+  ]
+}

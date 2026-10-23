@@ -1,13 +1,13 @@
-# ARENA Manager 1.24 beta
+# ARENA Manager 1.25 beta
 
-[Web / PC](https://abror1111.github.io/arena-manager-beta/?v=124) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.24-beta/ARENA-1.24-beta.apk) · [Download page](download.html)
+[Web / PC](https://abror1111.github.io/arena-manager-beta/?v=125) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.25-beta/ARENA-1.25-beta.apk) · [Original model gallery](arena-art-125.html)
 
-The new user CS2 export is integrated: 75 original effects/reload/ambient cues and four original Valve music cues. Original C4/HE, molotov, flash, smoke, planting, four additional weapon shots and nine reload cues replace/extend the previous set. Original menu and MVP music are wired; the menu uses a documented 119.5-second excerpt. Settings can audition weapon and utility recordings. [Audio provenance and remaining ARENA cues](AUDIO-AUTOMATIC.md).
+Eleven original ARENA architecture kits replace the previous surroundings treatment. 137 new courtyard groups fill verified ground pockets; variants add gardens, pergolas, kiosks, solar equipment and stone gardens. New scenery uses project-authored geometry, procedural surfaces and foliage, without copied source-game materials. Eleven self-contained colour-only GLB kits are available in the gallery. [Scope and details](VISUAL-UPGRADE.md).
 
-Effects decode at 32kHz with a 24MiB buffer budget (about 16.2MiB in browser measurements); new effects have PCM compatibility copies. Critical explosions win a voice under saturated gunfire. Legacy personal radio/physics misclassifications cannot override correctly bundled explosion cues. Music is streamed separately. Existing source recordings and public asset URLs are retained.
+New footprints clear source navigation by at least0.95 units, avoid existing models/water and follow flat source ground or supported terrain. Original navigation, career, source base geometry and the1.24 audio set remain. Ancient Night remains simplified.
 
-The 1.23 map ground and route-cutaway fixes remain, with unchanged source map/career/terrain data. Eleven layouts, ten authentic source mobile GLBs and simplified Ancient Night remain. Terrain/scenery additions are ARENA reconstructions. [Details](VISUAL-UPGRADE.md).
+These original additions do not establish legal clearance for the remaining CS2 base maps/layouts, textures, agents, audio or names. Replacing those with independent assets/designs is a separate stage.
 
-Validation includes 128 Node tests, actual decoded source hashes and measured audio output, original utility event routing, menu/MVP/C4 music, PCM codec compatibility, project-prefix/offline reopening, and exact APK assets/signature checks. Physical Android output/performance is not established by emulation.
+Validation includes129 Node tests, model footprint and placement tests, eleven rendered phone views, static/auto/player cameras, real original audio playback and project-prefix/offline reopening, plus exact native assets/signature checks. Physical Android performance remains unmeasured.
 
-Install over the old app without uninstalling. App ID `uz.arena.tactics.beta`, versionCode125, same upgrade signer. APK 383459041 bytes, SHA256 `f53c136d58f9bba45e05d6755b680d6ca4009e63fd281dfefa954de9475bfa35`. Original assets belong to Valve/respective owners; authored recordings have separate provenance. The separate case bot remains untouched.
+Install over the old app without uninstalling. App ID`uz.arena.tactics.beta`, versionCode126, same signer. APK 384003683 bytes, SHA256`bf14bff0614ef827e1308b3b7a6f31925a3dedc33199df0f0c5644c1f5ce5e4a`. The separate case bot is unchanged.
