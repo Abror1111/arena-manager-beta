@@ -1,13 +1,13 @@
-# ARENA Manager 1.23 beta
+# ARENA Manager 1.24 beta
 
-[Web / PC](https://abror1111.github.io/arena-manager-beta/?v=123) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.23-beta/ARENA-1.23-beta.apk) · [Download page](download.html)
+[Web / PC](https://abror1111.github.io/arena-manager-beta/?v=124) · [Android APK](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.24-beta/ARENA-1.24-beta.apk) · [Download page](download.html)
 
-The render terrain now fills the map interior as well as the perimeter. Exact source navigation faces receive backing 0.09 units lower; polygon-clipped terrain fills non-playable gaps. Ground uses local grades and appropriate original paving textures. The distant plane has a central opening so it cannot cover low routes. Inferno uses its source stone and terracotta materials; irregular source-empty placements replace perimeter rows. Vertigo has an underlying building support and lower city ground. Route-height cutaways preserve full original exterior roofs while keeping lower streets visible; lower-floor selection is retained.
+The new user CS2 export is integrated: 75 original effects/reload/ambient cues and four original Valve music cues. Original C4/HE, molotov, flash, smoke, planting, four additional weapon shots and nine reload cues replace/extend the previous set. Original menu and MVP music are wired; the menu uses a documented 119.5-second excerpt. Settings can audition weapon and utility recordings. [Audio provenance and remaining ARENA cues](AUDIO-AUTOMATIC.md).
 
-All eleven layouts have verified compact terrain payloads. Source geometry, navigation, agents and career data are preserved. Original ten mobile GLBs remain unchanged; Ancient Night is simplified. Terrain/scenery additions are ARENA reconstructions. [Details and limits](VISUAL-UPGRADE.md).
+Effects decode at 32kHz with a 24MiB buffer budget (about 16.2MiB in browser measurements); new effects have PCM compatibility copies. Critical explosions win a voice under saturated gunfire. Legacy personal radio/physics misclassifications cannot override correctly bundled explosion cues. Music is streamed separately. Existing source recordings and public asset URLs are retained.
 
-125 Node tests, compressed-mesh coverage/nav-safety checks, eleven rendered phone views, static/auto/player cameras and native package verification. Physical Android performance is not measured in browser emulation.
+The 1.23 map ground and route-cutaway fixes remain, with unchanged source map/career/terrain data. Eleven layouts, ten authentic source mobile GLBs and simplified Ancient Night remain. Terrain/scenery additions are ARENA reconstructions. [Details](VISUAL-UPGRADE.md).
 
-Audio is unchanged from 1.22: 56 original effects/reload/ambient clips, two original C4 cues, and separately attributed ARENA additions. The new 20261022 source archive has not been integrated because its downloadable URL is still needed. [Audio provenance](AUDIO-AUTOMATIC.md).
+Validation includes 128 Node tests, actual decoded source hashes and measured audio output, original utility event routing, menu/MVP/C4 music, PCM codec compatibility, project-prefix/offline reopening, and exact APK assets/signature checks. Physical Android output/performance is not established by emulation.
 
-Install over the previous app, without uninstalling, to retain the club. App ID `uz.arena.tactics.beta`, versionCode 124, same upgrade signer as 1.10. APK 377620423 bytes, SHA256 `dfbfbc0ea8d7fb710c8d8e02c20adc4b782e0accfd98f53f55ce2dffe2757591`. Source assets belong to Valve/respective owners. The case bot is unchanged.
+Install over the old app without uninstalling. App ID `uz.arena.tactics.beta`, versionCode125, same upgrade signer. APK 383459041 bytes, SHA256 `f53c136d58f9bba45e05d6755b680d6ca4009e63fd281dfefa954de9475bfa35`. Original assets belong to Valve/respective owners; authored recordings have separate provenance. The separate case bot remains untouched.
