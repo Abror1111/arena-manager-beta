@@ -1,0 +1,12 @@
+{
+  "file": "ARENA-1.26-beta.apk",
+  "bytes": 27876351,
+  "sha256": "a0efc02e38ec160bae1158db34da15d44b25acde7203b589229d7d7d5dfbd99e",
+  "parts": [
+    {
+      "file": "part-001.bin",
+      "bytes": 27876351,
+      "sha256": "a0efc02e38ec160bae1158db34da15d44b25acde7203b589229d7d7d5dfbd99e"
+    }
+  ]
+}
