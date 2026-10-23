@@ -1,13 +1,13 @@
-# ARENA Manager 1.26 beta — Original Maps
+# ARENA Manager1.27 beta — CS2 maps restored
 
-[Play on web / PC](https://abror1111.github.io/arena-manager-beta/?v=126) · [Android APK, 28 MB](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.26-beta/ARENA-1.26-beta.apk)
+[Web / PC](https://abror1111.github.io/arena-manager-beta/?v=127) · [Android APK, 385 MB](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.27-beta/ARENA-1.27-beta.apk)
 
-Eleven ARENA-authored beta maps replace the source-game map dependency: independent layouts, navigation, terrain, collision, architecture, texture patterns, water and surroundings. The app generates these maps locally. Original map downloads, radar images, terrain rasters and GLBs from CS2 are excluded from the active bundle. Historical public asset URLs and original exports remain preserved.
+The selectable maps return to the verified1.25 CS2 reference set: Dust II, Mirage, Inferno, Nuke, Train, Ancient, Ancient Night, Anubis, Overpass, Vertigo and Cache. Ten source textured GLBs and the existing simplified Ancient Night view are restored. Map geometry, textures, navigation, terrain and rendering match1.25 exactly. Source audio and previous scenery additions remain.
 
-[Map details and scope](VISUAL-UPGRADE.md) · [Authoring](ORIGINAL-MAPS.md) · [Provenance](arena-maps/PROVENANCE.json)
+The original ARENA1.26 variant remains archived. It is no longer the active map set. Source-game assets retain their ownership; this restoration does not establish distribution rights.
 
-Existing source-game agents, weapon icons, VFX textures and audio remain third-party assets. Map originality does not establish rights for the rest of the game. These new layouts need further playtesting and balance work.
+Install over the existing app without uninstalling. VersionCode128 and the same signer support updating from1.26. Club money, score, round number and player stats remain; an active1.26 original-map round restarts once on its restored CS2 counterpart. Existing source-map saves resume normally.
 
-Old active rounds restart once on new geometry, retaining score, round number, club money and player stats; current-version saves resume normally. Back up the club before updating, then install over the old app without uninstalling. VersionCode127; same upgrade signer. APK 27876351 bytes; SHA256 `a0efc02e38ec160bae1158db34da15d44b25acde7203b589229d7d7d5dfbd99e`.
+[Details](VISUAL-UPGRADE.md). Verification includes132 Node tests, real1.26 snapshots from all11 maps, exact source assets, native contents/signature/alignment, camera and project-prefix/offline browser checks. Physical Android performance has not been measured. The separate case bot is unchanged.
 
-Verification covers132 Node tests, all11 rendered phone views, static/auto/player cameras, actual audio playback and offline reopening on phone and PC emulation, plus native assets, signature and alignment. Physical Android performance has not been measured. The separate case bot is unchanged.
+APK 384004323 bytes; SHA256 `88387ad81eba284187888f7ffd9a5cb9c4090edd8fd32dcf478f21ae8997d52e`.

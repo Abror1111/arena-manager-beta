@@ -1,51 +1,41 @@
-# ARENA Originals — 1.26 beta
+# ARENA Manager1.27 — CS2 map restoration
 
-The eleven playable maps now use ARENA-authored layouts, navigation, collision,
-terrain, buildings, procedural texture patterns, water and surrounding scenery.
-No exported CS2 map model, radar, material, terrain raster or navigation dataset
-is loaded by this version. Existing exports and historical releases are retained
-separately; they are excluded from the new APK and active map download list.
+The playable map selection returns to the1.25 CS2 reference maps: Dust II,
+Mirage, Inferno, Nuke, Train, Ancient, Ancient Night, Anubis, Overpass, Vertigo
+and Cache. Ten exported textured GLBs and the existing simplified Ancient Night
+view are restored with their source navigation, radar, terrain, water, collision
+and surroundings. Map and texture files match the verified1.25 version exactly.
+This is a restoration, not a claim that every original CS2 asset is reproduced.
 
-- Dune Courtyard: warm courtyard district and shaded architecture.
-- Azure Arcade: pale plaster, blue accents and rooftop arcades.
-- Amber Terraces: terracotta buildings and pergolas.
-- Tidal Works: a compact energy campus with solar structures.
-- Copper Depot: copper and timber service buildings.
-- Fern Sanctuary: planted stone courtyards in a green setting.
-- Moonlit Sanctuary: an independent night layout with illuminated garden details.
-- Reed Quarter: sandstone river architecture and a shallow rill.
-- Linden Promenade: green urban blocks and a water garden.
-- Skyline Gardens: a grounded urban test arena with solar garden structures.
-- Foundry Courtyard: workshop architecture and equipment.
+The original ARENA layouts from1.26 are no longer the active maps. That variant
+remains preserved separately with its source snapshot and signed APK.
 
-Each layout has two bombsites, ten valid spawns, connected routes, cover,
-continuous ramps and its own arrangements. These are original beta arenas,
-not reproductions of the CS2 maps or finished competitive balance designs.
-Buildings have closed backs and foundations. Continuous terrain reaches beyond
-the perimeter, with sparse trees, rocks and matching architecture. Instancing
-keeps repeated scenery in shared draw calls. Static, automatic action and
-individual player cameras retain their existing angled overhead controls.
+Source-game agents, weapon icons, VFX and the integrated audio set remain.
+Static, automatic action and individual-player cameras use the previous angled
+overhead views, including the Nuke floor controls. The1.25 original scenery
+kits and verified terrain infill are retained around the CS2 base maps.
 
-Original maps are generated locally from the app code, rather than downloading
-large source-game map GLBs. Maps, radar previews and provenance are under
-`arena-maps/`; `PROVENANCE.json` records each independent layout hash.
-Legacy internal keys are retained only for club save compatibility; they do not
-identify the old layouts. A saved active round from an old layout restarts once
-on the new geometry, retaining its round number, score, club funds and player
-stats. New-version matches resume normally. Back up the club before updating.
+## Updating from1.26
 
-## Scope of originality
+The Android app keeps the same package and upgrade signer, with versionCode128.
+Install over the existing app, without uninstalling, to keep the club.
+A saved active1.26 original-map round restarts once on the corresponding restored
+CS2 map. Round number, score, player stats, club money and player funds remain.
+Already completed rounds/results stay completed. Existing CS2-version saves
+resume normally; they are not restarted.
 
-This change covers maps only. Existing exported CS2 agents, weapon UI icons,
-VFX textures and audio are still third-party assets. They have not been made
-original or licensed by changing the maps. Full independent commercial release
-requires replacing or separately securing rights for those assets as well.
-Original exports and prior signed APKs remain preserved.
+All maps are inside the APK, so the download is approximately384 MB again.
+The web version caches maps as they are used; the map library can prepare them
+in advance. Original exports and historical public URLs remain preserved.
 
-## Verification
+## Validation and scope
 
-Route, collision, movement, C4, economy, deterministic save, migration, audio,
-map provenance and rendering checks cover the new maps. Mobile browser
-emulation and PC browser tests do not substitute for physical Android
-performance measurements. Install the APK over the existing app without
-uninstalling to retain the club.
+Verification covers132 Node tests, including real1.26 match snapshots from all
+11 maps and a real saved club. All ten GLBs, source navigation, terrain and
+rendering modules match1.25. Mobile and PC browser checks cover the restored
+views, camera controls, actual supplied audio playback and offline reopening.
+Native contents, upgrade signer and APK alignment are verified. Physical
+Android performance is not measured by those browser checks.
+
+Existing CS2 assets retain their original ownership; reverting the maps does
+not make them original ARENA assets or establish distribution rights.

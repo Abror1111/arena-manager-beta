@@ -1,6 +1,6 @@
 // Binary models use the verified asset cache. This worker keeps only the app
 // shell and small images, so the browser can reopen the club without a network.
-const SHELL='arena-shell-1.26';
+const SHELL='arena-shell-1.27';
 const base=new URL('./',self.registration.scope),index=new URL('index.html',base).href;
 self.addEventListener('install',event=>event.waitUntil((async()=>{
  const cache=await caches.open(SHELL),response=await fetch(index,{cache:'reload'});if(!response.ok)throw Error('Shell unavailable');
