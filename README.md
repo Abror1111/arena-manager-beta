@@ -1,15 +1,13 @@
-# ARENA Manager1.28 beta — architectural detail and source PBR
+# ARENA Manager 1.29 beta — scenery completion pass
 
-[Web / PC](https://abror1111.github.io/arena-manager-beta/?v=128) · [Android APK, 393 MB](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.28-beta/ARENA-1.28-beta.apk)
+[Web / PC](https://abror1111.github.io/arena-manager-beta/?v=129) · [Android APK, 393 MB](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.29-beta/ARENA-1.29-beta.apk)
 
-All11 selectable maps use a Blender-authored detail library with44 models: curved roof channels, arches, bevelled masonry, window frames, balconies, bent pipes, vents, railcar bogies and multi-storey facades. Original CS2 base geometry, navigation and collision remain. Selected genuine source normal/roughness maps and up-to1024px colors are restored from preserved supplied exports. Source vertex tints are retained when matching the new geometry to map materials.
+The supplied CS2 base scenes and 1.28 architectural/PBR pass remain. Four shared Blender scenery meshes add branched trees, curved palms, eroded rock clusters and slatted pallet crates. The new catalog has 44 objects (four types in eleven palettes) sharing four mesh datablocks. All eleven maps actually place the new scenery inside previously validated non-walkable pockets, preserving their position, height, rotation and footprints.
 
-Ancient Night uses the supplied Ancient visual with identical coordinates, its own night nav/collision/route mask and night lighting. It is a shared-geometry variant, not a separate supplied night visual export. Shared files are cached once; map preparation includes terrain, route masks, detail models and PBR textures. The original1.26 ARENA variant and historical public files remain preserved.
+Outer ground now derives its transition tone from the actual source paving. Selected masked materials retain their original color/alpha and regain their genuine source normal/roughness maps. Both detail libraries are cached once and bundled in the APK; whole-instance floor switching remains. Original source map geometry, navigation, collision and audio remain unchanged. Ancient Night still shares Ancient geometry with its own night navigation and lighting.
 
-[Changes and scope](VISUAL-UPGRADE.md) · [Blender/source pipeline](DETAIL-PIPELINE128.md). This is an architectural/material pass over source scenes, not eleven newly hand-modeled finished1:1 replicas. Source-game assets retain their original ownership.
+[Scope and limits](VISUAL-UPGRADE.md) · [New Blender pipeline](SCENERY-PIPELINE129.md) · [Previous architecture pipeline](DETAIL-PIPELINE128.md).
 
-Install over the existing app without uninstalling. VersionCode129 and the same signer preserve club and match saves. Verification includes138 Node tests,44 compressed model bounds/UV checks,11 map renders, static/auto/player cameras, source textures, offline cache reopening and exact native assets/signature. Physical Android FPS/memory remains unmeasured. The separate case bot is unchanged.
+This completes a bounded scenery pass, not every production task or a handmade 1:1 rebuild of every CS2 object. Source-game assets retain their original ownership. Physical Android performance remains unmeasured. Install over the existing app without uninstalling; versionCode130 and the same signer preserve saves. Historical public binaries and asset URLs remain preserved. The separate case bot is unchanged.
 
-APK 392136366 bytes; SHA256 `11dd5e8d8beebbfc8ffeaf49ae68078df68cb05d03cd55540f84ddce37cbcf37`.
-
-[Editable Blender detail catalog](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.28-beta/ARENA-Blender-details-1.28.zip) —44 architectural modules.
+APK 392311592 bytes; SHA256 `0ad1116f1ebf894d5fae146e816c2363220963ea50b4e0e75498a3baca521437`.

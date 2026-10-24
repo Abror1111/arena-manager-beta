@@ -1,3 +1,24 @@
+# ARENA Manager 1.29 — scenery and surface completion pass
+
+The 1.28 architectural/source-PBR pass below is retained. Version 1.29 adds four
+shared, detailed Blender scenery meshes with 11 map palettes: branched trees,
+curved palms, eroded rock clusters and slatted pallet crates. The catalog has
+44 objects sharing four mesh datablocks; these are reusable models, not 44 unique
+handmade designs. All 11 maps actually use the new set in existing validated
+non-walkable pockets. Source geometry, navigation and collision are unchanged.
+
+Outer terrain transitions now sample the map's own paving tone. Selected masked
+surfaces keep their original base color/alpha and regain genuine source normal
+and roughness maps. Both detail libraries are cached once and included in the APK.
+Whole-instance floor switching is retained. Original source audio is preserved.
+
+[Scenery pipeline and limits](SCENERY-PIPELINE129.md). This completes the bounded
+scenery pass, not every possible production task or a manual remake of all CS2
+objects. Ancient Night retains the shared Ancient scene. Physical Android
+performance remains to be measured on a device.
+
+---
+
 # ARENA Manager1.28 — CS2 architectural detail pass
 
 This version keeps the supplied CS2 map layouts, navigation, collision and base
