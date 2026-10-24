@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "builder": "Blender4.3.2",
+  "source": "scripts/build-landmarks130.py",
+  "sourceMapGeometryModified": false,
+  "geometryOrigin": "Eleven distinct ARENA architectural landmark meshes, fitted to source map settings and validated pockets",
+  "models": [
+    {
+      "map": "dust2",
+      "kind": "landmark",
+      "node": "dust2__landmark",
+      "catalog": [
+        0,
+        0
+      ],
+      "bounds": [
+        -1.524999976158142,
+        -1.350000023841858,
+        0,
+        1.524999976158142,
+        1.350000023841858,
+        2.7099997997283936
+      ],
+      "triangles": 2286
+    },
+    {
+      "map": "mirage",
+      "kind": "landmark",
+      "node": "mirage__landmark",
+      "catalog": [
+        5,
+        0
+      ],
+      "bounds": [
+        -1.524999976158142,
+        -1.350000023841858,
+        0,
+        1.524999976158142,
+        1.350000023841858,
+        1.739598035812378
+      ],
+      "triangles": 2624
+    },
+    {
+      "map": "inferno",
+      "kind": "landmark",
+      "node": "inferno__landmark",
+      "catalog": [
+        10,
+        0
+      ],
+      "bounds": [
+        -1.524999976158142,
+        -1.350000023841858,
+        0,
+        1.524999976158142,
+        1.350000023841858,
+        3.1037087440490723
+      ],
+      "triangles": 3174
+    },
+    {
+      "map": "nuke",
+      "kind": "landmark",
+      "node": "nuke__landmark",
+      "catalog": [
+        15,
+        0
+      ],
+      "bounds": [
+        -1.524999976158142,
+        -1.350000023841858,
+        0,
+        1.524999976158142,
+        1.350000023841858,
+        2.140000104904175
+      ],
+      "triangles": 1976
+    },
+    {
+      "map": "train",
+      "kind": "landmark",
+      "node": "train__landmark",
+      "catalog": [
+        20,
+        0
+      ],
+      "bounds": [
+        -1.524999976158142,
+        -1.350000023841858,
+        0,
+        1.524999976158142,
+        1.350000023841858,
+        2.2350001335144043
+      ],
+      "triangles": 1044
+    },
+    {
+      "map": "ancient",
+      "kind": "landmark",
+      "node": "ancient__landmark",
+      "catalog": [
+        25,
+        0
+      ],
+      "bounds": [
+        -1.5268529653549194,
+        -1.350000023841858,
+        0,
+        1.524999976158142,
+        1.350000023841858,
+        2.325000047683716
+      ],
+      "triangles": 1950
+    },
+    {
+      "map": "ancient-night",
+      "kind": "landmark",
+      "node": "ancient_night__landmark",
+      "catalog": [
+        30,
+        0
+      ],
+      "bounds": [
+        -1.524999976158142,
+        -1.350000023841858,
+        0,
+        1.524999976158142,
+        1.350000023841858,
+        2.4800000190734863
+      ],
+      "triangles": 2572
+    },
+    {
+      "map": "anubis",
+      "kind": "landmark",
+      "node": "anubis__landmark",
+      "catalog": [
+        35,
+        0
+      ],
+      "bounds": [
+        -1.524999976158142,
+        -1.350000023841858,
+        0,
+        1.524999976158142,
+        1.350000023841858,
+        2.700000047683716
+      ],
+      "triangles": 1776
+    },
+    {
+      "map": "overpass",
+      "kind": "landmark",
+      "node": "overpass__landmark",
+      "catalog": [
+        40,
+        0
+      ],
+      "bounds": [
+        -1.524999976158142,
+        -1.350000023841858,
+        0,
+        1.524999976158142,
+        1.350000023841858,
+        2.188997268676758
+      ],
+      "triangles": 1318
+    },
+    {
+      "map": "vertigo",
+      "kind": "landmark",
+      "node": "vertigo__landmark",
+      "catalog": [
+        45,
+        0
+      ],
+      "bounds": [
+        -1.524999976158142,
+        -1.350000023841858,
+        0,
+        1.524999976158142,
+        1.350000023841858,
+        2.977707624435425
+      ],
+      "triangles": 1158
+    },
+    {
+      "map": "cache",
+      "kind": "landmark",
+      "node": "cache__landmark",
+      "catalog": [
+        50,
+        0
+      ],
+      "bounds": [
+        -1.524999976158142,
+        -1.350000023841858,
+        0,
+        1.524999976158142,
+        1.350000023841858,
+        2.0046162605285645
+      ],
+      "triangles": 2022
+    }
+  ],
+  "library": {
+    "url": "/landmarks130/landmarks.glb",
+    "bytes": 587196,
+    "sha256": "7547257e3967569ecd91fedf65a6259b35b53aaeaef361777966117ae17a203c",
+    "compression": "EXT_meshopt_compression"
+  }
+}

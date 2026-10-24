@@ -1,3 +1,24 @@
+# ARENA Manager 1.30 — closed observer walls and eleven architecture edits
+
+Every map has new capped 3D wall geometry derived from actual source collision,
+with exact navigation and source prop exclusion, plus its own distinct edited
+Blender landmark. No base source GLB, navigation or gameplay collision is changed.
+There are new wall sides, upward caps and real beveled coping, rather than only
+extra trees or a color adjustment. Generic pocket modules are replaced with
+map-specific arches, terraces, roof channels, pipework and lattice structures.
+
+Actual animated actor silhouettes show occluded bodies in team color; visible
+skins remain unchanged through a stencil veto. Portrait pins, lower-floor markers
+and wider overview framing keep positions readable at angled views. Color and
+shadow shaders use matching route cutaways, including the global lower-floor cut.
+
+[Geometry, map-by-map edits, visibility and limits](OBSERVER-PIPELINE130.md).
+Source CS2 scenes remain supplied game assets. Ancient Night still shares the
+Ancient scene. The editable Blender file contains eleven new modules, not entire
+manually rebuilt maps. Physical Android performance remains unmeasured.
+
+---
+
 # ARENA Manager 1.29 — scenery and surface completion pass
 
 The 1.28 architectural/source-PBR pass below is retained. Version 1.29 adds four

@@ -1,13 +1,15 @@
-# ARENA Manager 1.29 beta — scenery completion pass
+# ARENA Manager 1.30 beta — closed walls and eleven map architecture edits
 
-[Web / PC](https://abror1111.github.io/arena-manager-beta/?v=129) · [Android APK, 393 MB](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.29-beta/ARENA-1.29-beta.apk)
+[Web / PC](https://abror1111.github.io/arena-manager-beta/?v=130) · [Android APK, 400 MB](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.30-beta/ARENA-1.30-beta.apk)
 
-The supplied CS2 base scenes and 1.28 architectural/PBR pass remain. Four shared Blender scenery meshes add branched trees, curved palms, eroded rock clusters and slatted pallet crates. The new catalog has 44 objects (four types in eleven palettes) sharing four mesh datablocks. All eleven maps actually place the new scenery inside previously validated non-walkable pockets, preserving their position, height, rotation and footprints.
+Thin/open observer walls and hidden actors are addressed with actual new 3D geometry: 7,335 closed wall solids, source-derived wall cross-sections, beveled coping and eleven distinct Blender architecture modules. Every map gets its own edited landmark. Existing validated pockets, walkable lanes and source prop exclusions are retained. Supplied base GLBs, navigation and gameplay collision stay byte-identical.
 
-Outer ground now derives its transition tone from the actual source paving. Selected masked materials retain their original color/alpha and regain their genuine source normal/roughness maps. Both detail libraries are cached once and bundled in the APK; whole-instance floor switching remains. Original source map geometry, navigation, collision and audio remain unchanged. Ancient Night still shares Ancient geometry with its own night navigation and lighting.
+Actual animated occluded bodies show in team color. A stencil veto keeps normally visible skins unchanged, with shared geometry and bones. Portrait pins stay close to actors; a lower-floor indicator, wider framing and separate auto-action/player cameras improve readability. Color and shadow shaders use matching cutaways, including the global lower-floor operation. Hidden ceilings no longer leave the revealed rooms in shadow.
 
-[Scope and limits](VISUAL-UPGRADE.md) · [New Blender pipeline](SCENERY-PIPELINE129.md) · [Previous architecture pipeline](DETAIL-PIPELINE128.md).
+[Map-by-map geometry and visibility](OBSERVER-PIPELINE130.md) · [Changes and scope](VISUAL-UPGRADE.md). New geometry and source textures are cached once and bundled in the APK. The previous architecture, source PBR and original audio remain. Ancient Night still shares the supplied Ancient visual. The new editable Blender source contains eleven modules, not complete source maps. Source-game assets retain their original ownership.
 
-This completes a bounded scenery pass, not every production task or a handmade 1:1 rebuild of every CS2 object. Source-game assets retain their original ownership. Physical Android performance remains unmeasured. Install over the existing app without uninstalling; versionCode130 and the same signer preserve saves. Historical public binaries and asset URLs remain preserved. The separate case bot is unchanged.
+150 Node tests passed, with decoded geometry/UV/footprint checks, source hashes, real cap/bevel normals, skin-sharing and shader regression coverage. Actual WebGL pixels verify four observer angles, occluded-body visibility and unchanged visible colors. All eleven maps were rendered in static/auto/player modes and available lower floors. A final portrait-layout correction was additionally checked on phone/PC at the project prefix, with source recordings and offline reopening. Physical Android performance remains unmeasured.
 
-APK 392311592 bytes; SHA256 `0ad1116f1ebf894d5fae146e816c2363220963ea50b4e0e75498a3baca521437`.
+Install over the existing app without uninstalling; versionCode131 and the same signer preserve saves. Historical public binaries and immutable asset URLs remain preserved. The separate case bot is unchanged.
+
+APK 399893992 bytes; SHA256 `be9935fcaf89537961a0da56cedbda98c5de151ffdd6646b852c718a5e8ef8a5`.

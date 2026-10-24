@@ -1,0 +1,167 @@
+{
+  "ancient-night": {
+    "url": "/observer130/ancient-night-walls-b002a9cfd5df1297.bin",
+    "bytes": 609434,
+    "sha256": "b002a9cfd5df1297f476b5a54db63f619f466ea4c90348130e57d91b0e45f875",
+    "triangles": 33222,
+    "solids": 737,
+    "sourceNavSHA256": "a65d2ca4696bf7171227f9e617d977d52230fb987c2cfb459ca6aace945fd17e",
+    "sourceCollisionSHA256": "bd427bf7982383ab1975c788aa8d1eddaf5ddde50ab33e6f7ed061d50676f68c",
+    "navOverlapArea": 0.0,
+    "basis": "Exact source collision cross-sections, nav and prop exclusion; closed low observer walls",
+    "groups": [
+      49476,
+      50190
+    ]
+  },
+  "ancient": {
+    "url": "/observer130/ancient-walls-48fea1356e19a7a7.bin",
+    "bytes": 602172,
+    "sha256": "48fea1356e19a7a73bc87d50e3434a29ba56ccb5a3c7d06eefc79b14d69a4233",
+    "triangles": 32794,
+    "solids": 730,
+    "sourceNavSHA256": "d20f50c6d8d124bbc1fce88cebd3406c902b09d42c4157e7bb2876b71cb1631c",
+    "sourceCollisionSHA256": "d7cb70cbaeba2f7024342e40a1133f32616bd9c30d6fc8c13d30b7ad6457b830",
+    "navOverlapArea": 0.0,
+    "basis": "Exact source collision cross-sections, nav and prop exclusion; closed low observer walls",
+    "groups": [
+      48762,
+      49620
+    ]
+  },
+  "anubis": {
+    "url": "/observer130/anubis-walls-748d0976133a4b88.bin",
+    "bytes": 996455,
+    "sha256": "748d0976133a4b8895d749e2474d27645d0eaee192a22a7fce73679518895828",
+    "triangles": 53824,
+    "solids": 738,
+    "sourceNavSHA256": "94dfe4a0f2deab3c257bd605330812fd6a8a9bbf05935242db72e2bd323fbba8",
+    "sourceCollisionSHA256": "9021ec997d95b8a7132cc1082fa83b0c2b90ab5341d4e61b7b77da3361fe2cc8",
+    "navOverlapArea": 0.0,
+    "basis": "Exact source collision cross-sections, nav and prop exclusion; closed low observer walls",
+    "groups": [
+      80019,
+      81453
+    ]
+  },
+  "cache": {
+    "url": "/observer130/cache-walls-1e429a26e15aaa7f.bin",
+    "bytes": 634311,
+    "sha256": "1e429a26e15aaa7fefd39bb6165964bf881c15ce56c6d49ded8021811e933a35",
+    "triangles": 34361,
+    "solids": 688,
+    "sourceNavSHA256": "00ae8684ec327dc9bcfc3d9b2652ce6f4a255301bfc74fed8de052e74d0de925",
+    "sourceCollisionSHA256": "c63fcaa358a68405890207ee90f3f820322d52d973baf2c7546562b857d4ad7b",
+    "navOverlapArea": 0.0,
+    "basis": "Exact source collision cross-sections, nav and prop exclusion; closed low observer walls",
+    "groups": [
+      50901,
+      52182
+    ]
+  },
+  "dust2": {
+    "url": "/observer130/dust2-walls-b8b1aead7ffd496b.bin",
+    "bytes": 818205,
+    "sha256": "b8b1aead7ffd496b7789999c5cb7ebe11090d3f87b1d6a01968921a9c1b491c4",
+    "triangles": 44697,
+    "solids": 681,
+    "sourceNavSHA256": "72d0765026d68f3061c4150168fbfa02f2e43fa3733d8249d06e6bb512a9daef",
+    "sourceCollisionSHA256": "4581718aca653e6f578063fb91d93d5e5c31302f4adeb253fbc3677c5e78af3d",
+    "navOverlapArea": 0.0,
+    "basis": "Exact source collision cross-sections, nav and prop exclusion; closed low observer walls",
+    "groups": [
+      66492,
+      67599
+    ]
+  },
+  "inferno": {
+    "url": "/observer130/inferno-walls-7da8b0e9a5061c25.bin",
+    "bytes": 1301461,
+    "sha256": "7da8b0e9a5061c2569c6e3857eaa9134655d7dd87d0be37135212ae2bdc3c068",
+    "triangles": 71448,
+    "solids": 1018,
+    "sourceNavSHA256": "7515fe0677d7480d2859d6243a26a15e00cfa71cca9bd70d2217ec36f3459dda",
+    "sourceCollisionSHA256": "7fbe2711ba52eaa97e838fc3bd0620fea516835973665f866cdf440ce4e63926",
+    "navOverlapArea": 0.0,
+    "basis": "Exact source collision cross-sections, nav and prop exclusion; closed low observer walls",
+    "groups": [
+      105867,
+      108477
+    ]
+  },
+  "mirage": {
+    "url": "/observer130/mirage-walls-9d4cc188d512447a.bin",
+    "bytes": 673291,
+    "sha256": "9d4cc188d512447ac5b7589ce643b7f6785e9fa5a6a795e4d4923727b0d5456c",
+    "triangles": 38162,
+    "solids": 687,
+    "sourceNavSHA256": "31366611072c1e2f76884774c9a11b1d5c7a6337087f689dd0b3575d7859b273",
+    "sourceCollisionSHA256": "d20d1ab697916f12dd5f9d8a65a89ba50e204c196efdbebe9913e55024021ce0",
+    "navOverlapArea": 0.0,
+    "basis": "Exact source collision cross-sections, nav and prop exclusion; closed low observer walls",
+    "groups": [
+      56868,
+      57618
+    ]
+  },
+  "nuke": {
+    "url": "/observer130/nuke-walls-de5b7dd4f99903b6.bin",
+    "bytes": 513048,
+    "sha256": "de5b7dd4f99903b632d316dc1b156cfb86eb1037a2e83409a54549dae47b02c1",
+    "triangles": 28630,
+    "solids": 545,
+    "sourceNavSHA256": "a16ae396467d12b02271a659cafbc4a643299a5c21f8aa57aa7df36ec317dba8",
+    "sourceCollisionSHA256": "c62dce1f57115866d27dc54d7d23c106fe84f3a8090af684f24c92f09dea8677",
+    "navOverlapArea": 0.0,
+    "basis": "Exact source collision cross-sections, nav and prop exclusion; closed low observer walls",
+    "groups": [
+      42648,
+      43242
+    ]
+  },
+  "overpass": {
+    "url": "/observer130/overpass-walls-7e350130f5f10e92.bin",
+    "bytes": 630857,
+    "sha256": "7e350130f5f10e924629dd95c59f30a27b7d8bf8e7968ee04ea32b2c79d6c546",
+    "triangles": 32725,
+    "solids": 613,
+    "sourceNavSHA256": "3cbd09bb2b9e0a048a460e49f52941672ad3b874ab662d341c7775e7d76af32a",
+    "sourceCollisionSHA256": "9916b9a1156e833b54aca86f2a4b8ebfba68f051293c0c1243a9286c3c6668a8",
+    "navOverlapArea": 0.0,
+    "basis": "Exact source collision cross-sections, nav and prop exclusion; closed low observer walls",
+    "groups": [
+      48780,
+      49395
+    ]
+  },
+  "train": {
+    "url": "/observer130/train-walls-9831edc8605d901d.bin",
+    "bytes": 824504,
+    "sha256": "9831edc8605d901d7d7aa842f749052aa57ac910677d027b41a44098865ed046",
+    "triangles": 43877,
+    "solids": 559,
+    "sourceNavSHA256": "7fd055f255d2fb30ac0fd591f0d55b21a245dbc7072125b9c524a00579b6efc5",
+    "sourceCollisionSHA256": "c472cba8d848648e9e50df30923ded0c36519efa2678164cd7b12dd728094038",
+    "navOverlapArea": 0.0,
+    "basis": "Exact source collision cross-sections, nav and prop exclusion; closed low observer walls",
+    "groups": [
+      65091,
+      66540
+    ]
+  },
+  "vertigo": {
+    "url": "/observer130/vertigo-walls-e6c3c249fd6880c9.bin",
+    "bytes": 491349,
+    "sha256": "e6c3c249fd6880c9b1683269c2a39876e663a7ae0c43660caa2d156a960be94c",
+    "triangles": 26739,
+    "solids": 339,
+    "sourceNavSHA256": "bec0ca98442330e7f77af7c0fafa19c9c3a79af013b5fbc24fa0531e4af1abe5",
+    "sourceCollisionSHA256": "de3fbe8cc6ed00f23b621b14ef1ef261c38ee26b6602ea62ddc841437e30a764",
+    "navOverlapArea": 0.0,
+    "basis": "Exact source collision cross-sections, nav and prop exclusion; closed low observer walls",
+    "groups": [
+      40215,
+      40002
+    ]
+  }
+}
