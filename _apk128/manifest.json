@@ -1,0 +1,37 @@
+{
+  "file": "ARENA-1.28-beta.apk",
+  "bytes": 392136366,
+  "sha256": "11dd5e8d8beebbfc8ffeaf49ae68078df68cb05d03cd55540f84ddce37cbcf37",
+  "parts": [
+    {
+      "file": "part-001.bin",
+      "bytes": 83886080,
+      "sha256": "556c78b06db2f447e7dee3cc31e586952858cb7006e01466a54779755aa39021"
+    },
+    {
+      "file": "part-002.bin",
+      "bytes": 83886080,
+      "sha256": "c06c91d6e2a8972ed310ca9aba5bea322afea1cdabb5769eb20af6f89d457a33"
+    },
+    {
+      "file": "part-003.bin",
+      "bytes": 83886080,
+      "sha256": "53eecef7a294e6389012a1d805ccd4b58406b6ca77a5ed56af47e892e75021b3"
+    },
+    {
+      "file": "part-004.bin",
+      "bytes": 83886080,
+      "sha256": "f69b6813dd5a612e04efa97343636eb01eb1f24ad8c1ee81657cc922afa8617c"
+    },
+    {
+      "file": "part-005.bin",
+      "bytes": 56592046,
+      "sha256": "a6934517017d6c4da9cf7437cfa07ac6e4628c486f1f6ad5c8fe188c787b2270"
+    }
+  ],
+  "blenderSource": {
+    "file": "ARENA-Blender-details-1.28.zip",
+    "bytes": 2072174,
+    "sha256": "45fae26ea64d636f1d37120f829fa5cd75e56b42592c7d6ef6ed8054fed5d6ec"
+  }
+}
