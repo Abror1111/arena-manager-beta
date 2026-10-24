@@ -54,3 +54,6 @@ a0efc02e38ec160bae1158db34da15d44b25acde7203b589229d7d7d5dfbd99e  ARENA-1.26-bet
 
 #1.27 distributed in GitHub Releases
 88387ad81eba284187888f7ffd9a5cb9c4090edd8fd32dcf478f21ae8997d52e  ARENA-1.27-beta.apk
+
+#1.28 distributed in GitHub Releases
+11dd5e8d8beebbfc8ffeaf49ae68078df68cb05d03cd55540f84ddce37cbcf37  ARENA-1.28-beta.apk

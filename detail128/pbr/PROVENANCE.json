@@ -1,0 +1,1845 @@
+{
+  "schema": 1,
+  "origin": "supplied CS2 export PBR textures",
+  "maps": {
+    "dust2": [
+      {
+        "texture": "hr_dust_asphalt_06_color_psd_153a7cd9.vtex",
+        "usageVertices": 2562,
+        "source": "/workspace/.arena-tools/original-visuals/dust2/maps/de_dust2.glb",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/1618c079736feaafa484.webp",
+            "bytes": 215562,
+            "sha256": "1618c079736feaafa484bfcbc78fb18db405bbe2bc65afc2701ddd0eef4545dc",
+            "sourceImage": "hr_dust_asphalt_06_color_psd_153a7cd9.vtex",
+            "sourceImageSHA256": "dc1d93fc05196db0bca196264fd8241787084d0a4a7abdb74c6dfac4b3c8fdc5",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/2ce11b1857cb9894cb31.webp",
+            "bytes": 53880,
+            "sha256": "2ce11b1857cb9894cb31409be7528e1a07b11390118eb550d9fd75487854bb61",
+            "sourceImage": "hr_dust_asphalt_06_normal_psd_bfbfdbf5.vtex",
+            "sourceImageSHA256": "d5f726a9603a28898d74d9e3d1f400c63468d1482a4300f74a75d88424a6f2fa",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/ba041e7ef5cbfd93428f.webp",
+            "bytes": 1080,
+            "sha256": "ba041e7ef5cbfd93428ff9e46a42b85de6cac385d39c1746c1a4abf1219a52c6",
+            "sourceImage": "hr_dust_asphalt_06_normal_psd_bfbfdbf5_orm_3872646711.png",
+            "sourceImageSHA256": "472b6dffdeee557958420da648521f7b88eced7ff70199ebede551517966686f",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "dust_mudbrick_edges_color_psd_5ae3def2.vtex",
+        "usageVertices": 43522,
+        "source": "/workspace/.arena-tools/original-visuals/dust2/maps/de_dust2.glb",
+        "textures": {
+          "roughness": {
+            "url": "/detail128/pbr/cedde34b3b4459d4869d.webp",
+            "bytes": 56,
+            "sha256": "cedde34b3b4459d4869d760859bf7039ccb95f54cb582c6e4c6b2453291a6508",
+            "sourceImage": "default_ao_tga_559f1ac6_orm_2299316178.png",
+            "sourceImageSHA256": "7c075ebb51aa696a17f4deaecf65a7b2b116384b4d3407f81f6e5359d45f25e0",
+            "sourceSize": [
+              1024,
+              2048
+            ],
+            "size": [
+              128,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "baseColor": {
+            "url": "/detail128/pbr/f71902dfb545aa48ba70.webp",
+            "bytes": 144760,
+            "sha256": "f71902dfb545aa48ba7044fc32c128f53908685d72b779515240c8dd413454af",
+            "sourceImage": "dust_mudbrick_edges_color_psd_5ae3def2.vtex",
+            "sourceImageSHA256": "aa84e6dab187bd93574850cd62ff86d7e9965ca9af647bd899789eb9000aa331",
+            "sourceSize": [
+              1024,
+              2048
+            ],
+            "size": [
+              512,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/223f89f97526b936b3c9.webp",
+            "bytes": 45518,
+            "sha256": "223f89f97526b936b3c95122e55d1368fc8d8ed56a0f7ff2a7c118b194d73efa",
+            "sourceImage": "dust_mudbrick_edges_normal_tga_d02f1382.vtex",
+            "sourceImageSHA256": "0dfb3448c8db3f3e62573831328e7713f4226417be726470e5522933485b7b78",
+            "sourceSize": [
+              1024,
+              2048
+            ],
+            "size": [
+              128,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "dust_terracotta_color_psd_29266c7.vtex",
+        "usageVertices": 5967,
+        "source": "/workspace/.arena-tools/original-visuals/dust2/maps/de_dust2.glb",
+        "textures": {
+          "roughness": {
+            "url": "/detail128/pbr/b57bf1ac2bd73879202d.webp",
+            "bytes": 38,
+            "sha256": "b57bf1ac2bd73879202d138106cec37ae2ab603bbb1c8dc73c9544b9a463fbad",
+            "sourceImage": "default_ao_tga_559f1ac6_orm_1782683688.png",
+            "sourceImageSHA256": "4d67d65767c5e950d0fb1a699964b96119edaef361087ca0ab1ee257c6706905",
+            "sourceSize": [
+              1,
+              1
+            ],
+            "size": [
+              1,
+              1
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/de80baf800e9f704562a.webp",
+            "bytes": 38,
+            "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14",
+            "sourceImage": "default_normal_tga_7be39f77.vtex",
+            "sourceImageSHA256": "c9c25b8c7b6088cbe5102eacbd1c8557d9ceb77727766a42a3aa22a084f76a9c",
+            "sourceSize": [
+              1,
+              1
+            ],
+            "size": [
+              1,
+              1
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "baseColor": {
+            "url": "/detail128/pbr/fe25e1e530be2372a86a.webp",
+            "bytes": 13306,
+            "sha256": "fe25e1e530be2372a86ac5c178f51c0780ab7478d01a62159cce29aae36d5215",
+            "sourceImage": "dust_terracotta_color_psd_29266c7.vtex",
+            "sourceImageSHA256": "3e30f160063f97cb945668fb2ff4f539dbd18c1873146fa800125b88a0b66f9c",
+            "sourceSize": [
+              256,
+              256
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      }
+    ],
+    "mirage": [
+      {
+        "texture": "brick_ext_04_color_psd_549131f3.vtex",
+        "usageVertices": 17292,
+        "source": "/workspace/.arena-tools/incoming-map-release/3c4a22ecb845cd75e0ce11a3ffb6eea869073778f712b330c45acc35f7e2f322/ARENA-mirage-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/a18dad907e959af0e817.webp",
+            "bytes": 105944,
+            "sha256": "a18dad907e959af0e8174662da1cbce130ca4ddcdd9370a4c864dfe51db5a9c2",
+            "sourceImage": "brick_ext_04_color_psd_549131f3.vtex",
+            "sourceImageSHA256": "007864666fb6db5c8941f37b128270f6ff4528c657e6c6eca0d188793faa404a",
+            "sourceSize": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/c27477d8cb3ef2c348eb.webp",
+            "bytes": 58426,
+            "sha256": "c27477d8cb3ef2c348eb60fe69ed85b6ad036bb2d3e8e0b1fa395fee3ccbc6e1",
+            "sourceImage": "brick_ext_04_normal_psd_abcd0d45.vtex",
+            "sourceImageSHA256": "5f7a86d42990c29726440785bbbbdde193f493e95e9917b8cc24282b0a431f54",
+            "sourceSize": [
+              512,
+              512
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/8c57f8ed694d50b4e09f.webp",
+            "bytes": 1340,
+            "sha256": "8c57f8ed694d50b4e09f09a20bcf3a68991bea31304a8ba54894a0bbfe750652",
+            "sourceImage": "brick_ext_04_normal_psd_abcd0d45_orm_113773345.png",
+            "sourceImageSHA256": "71013d83a5fffc8491259dceb9014c55d3d93e4273102ff5c8b19a742920d3b5",
+            "sourceSize": [
+              512,
+              512
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "rooftopcluster06a_color_psd_406c079d.vtex",
+        "usageVertices": 1897,
+        "source": "/workspace/.arena-tools/incoming-map-release/3c4a22ecb845cd75e0ce11a3ffb6eea869073778f712b330c45acc35f7e2f322/ARENA-mirage-CS2-visuals.zip",
+        "textures": {
+          "roughness": {
+            "url": "/detail128/pbr/b57bf1ac2bd73879202d.webp",
+            "bytes": 38,
+            "sha256": "b57bf1ac2bd73879202d138106cec37ae2ab603bbb1c8dc73c9544b9a463fbad",
+            "sourceImage": "default_ao_tga_559f1ac6_orm_3117042692.png",
+            "sourceImageSHA256": "4d67d65767c5e950d0fb1a699964b96119edaef361087ca0ab1ee257c6706905",
+            "sourceSize": [
+              1,
+              1
+            ],
+            "size": [
+              1,
+              1
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/de80baf800e9f704562a.webp",
+            "bytes": 38,
+            "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14",
+            "sourceImage": "default_normal_tga_7be39f77.vtex",
+            "sourceImageSHA256": "c9c25b8c7b6088cbe5102eacbd1c8557d9ceb77727766a42a3aa22a084f76a9c",
+            "sourceSize": [
+              1,
+              1
+            ],
+            "size": [
+              1,
+              1
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "baseColor": {
+            "url": "/detail128/pbr/cdf823a4f80c283b2dac.webp",
+            "bytes": 29718,
+            "sha256": "cdf823a4f80c283b2dac32039991259f9ad58dac5800bf6a008051841c9dcdae",
+            "sourceImage": "rooftopcluster06a_color_psd_406c079d.vtex",
+            "sourceImageSHA256": "61f45fe4aa12cf1999a8d2a4c1052b5d774282a7b590930579379f156d4eb278",
+            "sourceSize": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "woodfloor005a_color_psd_3032f38e.vtex",
+        "usageVertices": 5327,
+        "source": "/workspace/.arena-tools/incoming-map-release/3c4a22ecb845cd75e0ce11a3ffb6eea869073778f712b330c45acc35f7e2f322/ARENA-mirage-CS2-visuals.zip",
+        "textures": {
+          "roughness": {
+            "url": "/detail128/pbr/b57bf1ac2bd73879202d.webp",
+            "bytes": 38,
+            "sha256": "b57bf1ac2bd73879202d138106cec37ae2ab603bbb1c8dc73c9544b9a463fbad",
+            "sourceImage": "default_ao_tga_559f1ac6_orm_3386094931.png",
+            "sourceImageSHA256": "4d67d65767c5e950d0fb1a699964b96119edaef361087ca0ab1ee257c6706905",
+            "sourceSize": [
+              1,
+              1
+            ],
+            "size": [
+              1,
+              1
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/de80baf800e9f704562a.webp",
+            "bytes": 38,
+            "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14",
+            "sourceImage": "default_normal_tga_7be39f77.vtex",
+            "sourceImageSHA256": "c9c25b8c7b6088cbe5102eacbd1c8557d9ceb77727766a42a3aa22a084f76a9c",
+            "sourceSize": [
+              1,
+              1
+            ],
+            "size": [
+              1,
+              1
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "baseColor": {
+            "url": "/detail128/pbr/f920b7205bd873a3794d.webp",
+            "bytes": 110536,
+            "sha256": "f920b7205bd873a3794db0c29be22f52e40f90c81e2f1c6c7408b0baf65490ea",
+            "sourceImage": "woodfloor005a_color_psd_3032f38e.vtex",
+            "sourceImageSHA256": "381a689aeaf5d5ae2b9dde984828c4717372c51ad81d7ff11cc0af2d856173c8",
+            "sourceSize": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      }
+    ],
+    "vertigo": [
+      {
+        "texture": "floor_grinder_color_psd_5045a1d1.vtex",
+        "usageVertices": 8940,
+        "source": "/workspace/.arena-tools/incoming-map-release/b6efc963fdf2ae99a9589ccd16eb0190e9aa8ad1c44593c8919e33494f4de35d/ARENA-vertigo-CS2-visuals.zip",
+        "textures": {
+          "roughness": {
+            "url": "/detail128/pbr/ad497ba7731add37a0e6.webp",
+            "bytes": 21528,
+            "sha256": "ad497ba7731add37a0e63ed8d0b15355b1c5a45fa07233fa3997eedce1aadbe9",
+            "sourceImage": "default_ao_tga_559f1ac6_orm_1602647731.png",
+            "sourceImageSHA256": "31e091cbc54d2b87994afd29112b73865a41702ab9e19789cfb8dd5ad56df4b9",
+            "sourceSize": [
+              512,
+              512
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "baseColor": {
+            "url": "/detail128/pbr/9643d545028a340dbf68.webp",
+            "bytes": 91644,
+            "sha256": "9643d545028a340dbf684cd8fc28afc24bb0eacfbb2107b78ac619daae07f093",
+            "sourceImage": "floor_grinder_color_psd_5045a1d1.vtex",
+            "sourceImageSHA256": "140aa34afe2fb6d0e1acf399781e1e4374acea0f24173c1351ba8ffa18ac5995",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/e56a4d120a5a5b1afcb9.webp",
+            "bytes": 42160,
+            "sha256": "e56a4d120a5a5b1afcb95da67158dbfbb4cf52bd32b762cbfb3b929fabfc8e42",
+            "sourceImage": "floor_grinder_normal_psd_fda7e16d.vtex",
+            "sourceImageSHA256": "15e54f48cdafd0fad347da946eb4a8adc96b62a9cff5f34129857e5429d8f45d",
+            "sourceSize": [
+              512,
+              512
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "nuke_roof_ac_box_color_psd_220dee33.vtex",
+        "usageVertices": 3736,
+        "source": "/workspace/.arena-tools/incoming-map-release/b6efc963fdf2ae99a9589ccd16eb0190e9aa8ad1c44593c8919e33494f4de35d/ARENA-vertigo-CS2-visuals.zip",
+        "textures": {
+          "roughness": {
+            "url": "/detail128/pbr/2a05348140980b0ba732.webp",
+            "bytes": 28942,
+            "sha256": "2a05348140980b0ba73240272dfc763a0a7eed5b33d8264f9e245a2327968fb3",
+            "sourceImage": "nuke_roof_ac_box_ao_psd_bfe97014_orm_2952129287.png",
+            "sourceImageSHA256": "930ffd2e4954d0d2e6ecebbf47480fb570816d80e6c27c66121905a29de21321",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "baseColor": {
+            "url": "/detail128/pbr/1352071915d8727a301a.webp",
+            "bytes": 87566,
+            "sha256": "1352071915d8727a301a891d10e0b01e79fbee60d4b6b487751fa53e188fe22e",
+            "sourceImage": "nuke_roof_ac_box_color_psd_220dee33.vtex",
+            "sourceImageSHA256": "4fd0a1129669f710a6569b9fa22293e9211d9c6cee4273d2c42fd159ad31c8ce",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/c41dea2c96d9a343060b.webp",
+            "bytes": 21828,
+            "sha256": "c41dea2c96d9a343060b688b046520d997173b1fbe69e03675d8e90f7c0ac765",
+            "sourceImage": "nuke_roof_ac_box_normal_psd_f8e2a346.vtex",
+            "sourceImageSHA256": "f4495ca7243be22cbdb33128a50749ceb11653fb0efc491c06157c3960566a7d",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "vertigo_concretewallb_color_psd_f20f93de.vtex",
+        "usageVertices": 10394,
+        "source": "/workspace/.arena-tools/incoming-map-release/b6efc963fdf2ae99a9589ccd16eb0190e9aa8ad1c44593c8919e33494f4de35d/ARENA-vertigo-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/6d0c4caacd1cbed4f7c2.webp",
+            "bytes": 311154,
+            "sha256": "6d0c4caacd1cbed4f7c2523e36e27613a8e9beab7bea4701eda5d40071589f4f",
+            "sourceImage": "vertigo_concretewallb_color_psd_f20f93de.vtex",
+            "sourceImageSHA256": "e93ec118e2b281ccceab8d7b7d64da7a9d31c01fc61c03b5c596e4086c8b68f7",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/bc6c1985affe5962a58e.webp",
+            "bytes": 30562,
+            "sha256": "bc6c1985affe5962a58e080a4e631e58138eb5827200262818531f439756cb17",
+            "sourceImage": "vertigo_concretewallb_color_psd_f20f93de_orm_2963995697.png",
+            "sourceImageSHA256": "5a69225d7c46e6ec0047f9cb983278bd8b6391d32e208d61c9e4b7628d68b897",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/2990303894435d03934b.webp",
+            "bytes": 47300,
+            "sha256": "2990303894435d03934b98363514c11713d6f123338da89d2cc0d8484e9a4797",
+            "sourceImage": "vertigo_concretewallb_normal_psd_980f7ac4.vtex",
+            "sourceImageSHA256": "66880b311d7b31a9ce01b9c1a7b0e53a355c5e9736f50deb3b5a5c48a3cec4cc",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      }
+    ],
+    "nuke": [
+      {
+        "texture": "concrete_wall_001b_color_psd_d864f705.vtex",
+        "usageVertices": 5542,
+        "source": "/workspace/.arena-tools/incoming-map-release/5e4f88a474221639cbd6adb504250acda85d2ec80f6a6fb87fb12f369ba3a8ea/ARENA-nuke-CS2-visuals.zip",
+        "textures": {
+          "roughness": {
+            "url": "/detail128/pbr/a8872468aec92407a818.webp",
+            "bytes": 23160,
+            "sha256": "a8872468aec92407a8184dff9f9acf442395bf460e74803bb57effbdd903f705",
+            "sourceImage": "concrete_wall_001b_ao_psd_b3567614_orm_613700049.png",
+            "sourceImageSHA256": "5fb18c4e621c8541bad89ae8e19e9745a31eebcc891c7ef42def2d36818b5cf8",
+            "sourceSize": [
+              4096,
+              2048
+            ],
+            "size": [
+              256,
+              128
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "baseColor": {
+            "url": "/detail128/pbr/4eca05e147b7997bd4e6.webp",
+            "bytes": 38516,
+            "sha256": "4eca05e147b7997bd4e6d210dee77240280e4cb18dc246fddccfa82acc11d4a2",
+            "sourceImage": "concrete_wall_001b_color_psd_d864f705.vtex",
+            "sourceImageSHA256": "0500138404f1605887a7a6c2b69862b818c0eb9b345fd0eea4a55b754324ccf2",
+            "sourceSize": [
+              4096,
+              2048
+            ],
+            "size": [
+              1024,
+              512
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/13358a34b0855769d41c.webp",
+            "bytes": 27948,
+            "sha256": "13358a34b0855769d41cc7054ff3e2713957331cc76dda1a96aa4862c4776fe3",
+            "sourceImage": "concrete_wall_001b_normal_psd_d49b78c8.vtex",
+            "sourceImageSHA256": "574331d15c88c9ba64df5806b02dcaeb53b1ea42f59fca0e327ec5e4b7493670",
+            "sourceSize": [
+              4096,
+              2048
+            ],
+            "size": [
+              256,
+              128
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "nuke_roof_ac_fan_low01_color_psd_9304c508.vtex",
+        "usageVertices": 2383,
+        "source": "/workspace/.arena-tools/incoming-map-release/5e4f88a474221639cbd6adb504250acda85d2ec80f6a6fb87fb12f369ba3a8ea/ARENA-nuke-CS2-visuals.zip",
+        "textures": {
+          "roughness": {
+            "url": "/detail128/pbr/ee06cd37224970c77484.webp",
+            "bytes": 24980,
+            "sha256": "ee06cd37224970c7748400435263e97e737d50f5a7039fbaba97642b3601837c",
+            "sourceImage": "default_ao_tga_559f1ac6_orm_1377406371.png",
+            "sourceImageSHA256": "63bcae1d9bac4b06db5b135370cfdf8aa1071e7db55282178df8d1fe332d92fa",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "baseColor": {
+            "url": "/detail128/pbr/681c8dd8eb4a0c2e04fa.webp",
+            "bytes": 91102,
+            "sha256": "681c8dd8eb4a0c2e04fa5d56cf55342601519e307a22db6179e47c4d2f9bf73d",
+            "sourceImage": "nuke_roof_ac_fan_low01_color_psd_9304c508.vtex",
+            "sourceImageSHA256": "3a21371af3f1e474777415d5efd379d722372d6518f97b11c987364a82ae6bc5",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/ee4a32d359906fea53ff.webp",
+            "bytes": 96,
+            "sha256": "ee4a32d359906fea53ff5b423016737fed3bee1ac9692f50b622711b8ea27532",
+            "sourceImage": "nuke_roof_ac_fan_low01_color_rough_tga_786d70e4.vtex",
+            "sourceImageSHA256": "010462926db01c32cf64a1209b687b21f637155a7d08a65bda203253fd74befb",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "power_outlet_campground_color_psd_db3c084d.vtex",
+        "usageVertices": 22272,
+        "source": "/workspace/.arena-tools/incoming-map-release/5e4f88a474221639cbd6adb504250acda85d2ec80f6a6fb87fb12f369ba3a8ea/ARENA-nuke-CS2-visuals.zip",
+        "textures": {
+          "roughness": {
+            "url": "/detail128/pbr/c04d0da302cc2c9765db.webp",
+            "bytes": 38,
+            "sha256": "c04d0da302cc2c9765db0128233df9c75c48fa7dbe47a7d538293a74b82314f1",
+            "sourceImage": "default_metal_tga_af1d7118_orm_2569932402.png",
+            "sourceImageSHA256": "d6c61241bbeca655b92f3b26d627b7ae3a1b13dd6967de0fbd533987ff1a0e14",
+            "sourceSize": [
+              1,
+              1
+            ],
+            "size": [
+              1,
+              1
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "baseColor": {
+            "url": "/detail128/pbr/6e9f2053d83caa3d301b.webp",
+            "bytes": 16274,
+            "sha256": "6e9f2053d83caa3d301b2e5d65594bd47b1be0ae4a77b7cc725bfd2bb95e8f85",
+            "sourceImage": "power_outlet_campground_color_psd_db3c084d.vtex",
+            "sourceImageSHA256": "4b9bf34ea0f4ad15d228f3180254a17cd8d54d8530191ee7e352425eac705799",
+            "sourceSize": [
+              256,
+              256
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/de80baf800e9f704562a.webp",
+            "bytes": 38,
+            "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14",
+            "sourceImage": "power_outlet_campground_vmat_g_tnormal_2984f4a9.vtex",
+            "sourceImageSHA256": "c9c25b8c7b6088cbe5102eacbd1c8557d9ceb77727766a42a3aa22a084f76a9c",
+            "sourceSize": [
+              1,
+              1
+            ],
+            "size": [
+              1,
+              1
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      }
+    ],
+    "anubis": [
+      {
+        "texture": "dust_rooftop_01_color_psd_b6cfde23.vtex",
+        "usageVertices": 4609,
+        "source": "/workspace/.arena-tools/incoming-map-release/f62d15675d0e53b51b05177cd5fa6607b529f50e486897e46c6294b45da9c71e/ARENA-anubis-CS2-visuals.zip",
+        "textures": {
+          "roughness": {
+            "url": "/detail128/pbr/b57bf1ac2bd73879202d.webp",
+            "bytes": 38,
+            "sha256": "b57bf1ac2bd73879202d138106cec37ae2ab603bbb1c8dc73c9544b9a463fbad",
+            "sourceImage": "default_ao_tga_559f1ac6_orm_1303574302.png",
+            "sourceImageSHA256": "4d67d65767c5e950d0fb1a699964b96119edaef361087ca0ab1ee257c6706905",
+            "sourceSize": [
+              1,
+              1
+            ],
+            "size": [
+              1,
+              1
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/de80baf800e9f704562a.webp",
+            "bytes": 38,
+            "sha256": "de80baf800e9f704562a5fdb39defe927c97a43c0c3f7fdba70082247c87ae14",
+            "sourceImage": "default_normal_tga_7be39f77.vtex",
+            "sourceImageSHA256": "c9c25b8c7b6088cbe5102eacbd1c8557d9ceb77727766a42a3aa22a084f76a9c",
+            "sourceSize": [
+              1,
+              1
+            ],
+            "size": [
+              1,
+              1
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "baseColor": {
+            "url": "/detail128/pbr/685e1f8608fca2438dec.webp",
+            "bytes": 216552,
+            "sha256": "685e1f8608fca2438decb0256dfd30acad844ba8a0f982d7cd094d16f2bfccfd",
+            "sourceImage": "dust_rooftop_01_color_psd_b6cfde23.vtex",
+            "sourceImageSHA256": "e081541ee3ce0759798eadad14d9ff9917d483bb08130034a8ff019a6744ff2b",
+            "sourceSize": [
+              1024,
+              512
+            ],
+            "size": [
+              1024,
+              512
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "hr_stone_ground01_color_psd_9cc7c4d5.vtex",
+        "usageVertices": 4620,
+        "source": "/workspace/.arena-tools/incoming-map-release/f62d15675d0e53b51b05177cd5fa6607b529f50e486897e46c6294b45da9c71e/ARENA-anubis-CS2-visuals.zip",
+        "textures": {
+          "normal": {
+            "url": "/detail128/pbr/30c717a12232938fd635.webp",
+            "bytes": 94068,
+            "sha256": "30c717a12232938fd635fa7f041be5081cf7b8b28f3b2e4de13bf72cdf97fd84",
+            "sourceImage": "hr_dust_stone_ground_01_normal_psd_506ad5fa.vtex",
+            "sourceImageSHA256": "948a804d41ee61e5972c5182f4e016905c2becb5d5aedb62be27753a3c14ed82",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/39c58d4c06e14fa427fb.webp",
+            "bytes": 47174,
+            "sha256": "39c58d4c06e14fa427fbbef7da9b3a199f9db5320f44646f503ae747ef0be3a2",
+            "sourceImage": "hr_stone_ground01_ao_psd_e6e880c2_orm_1963880298.png",
+            "sourceImageSHA256": "16937e349a758890e9cae866c44d6d390b2906f3409c402efdc8d00178b13cf7",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "baseColor": {
+            "url": "/detail128/pbr/0338b20331163fb7e841.webp",
+            "bytes": 129300,
+            "sha256": "0338b20331163fb7e8411d6dfae29a7111bab412e5388a77090ee18e99a6bbd1",
+            "sourceImage": "hr_stone_ground01_color_psd_9cc7c4d5.vtex",
+            "sourceImageSHA256": "8d9a5e81ca42249d2d798764ae31955ff8478c2f98fc825be89fbb802a996547",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "mudbrick02_color_tga_800722b0.vtex",
+        "usageVertices": 12424,
+        "source": "/workspace/.arena-tools/incoming-map-release/f62d15675d0e53b51b05177cd5fa6607b529f50e486897e46c6294b45da9c71e/ARENA-anubis-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/c8fb85f956e7de8e4eec.webp",
+            "bytes": 354092,
+            "sha256": "c8fb85f956e7de8e4eec0ad9a10178df6a03a6b796fc15de0ffb21d78d374d35",
+            "sourceImage": "mudbrick02_color_tga_800722b0.vtex",
+            "sourceImageSHA256": "4b0f194c4b55337bb2abcc6951c9e068940c065b4f806cf6955698caf652519a",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/45ff9a6aa01db8cc0d72.webp",
+            "bytes": 143206,
+            "sha256": "45ff9a6aa01db8cc0d728d4d36626d3d30efe53e21fc635bbded7ab19a93b95b",
+            "sourceImage": "mudbrick02_nrm_normal_tga_7db9f90b.vtex",
+            "sourceImageSHA256": "b1aa1f8a18d47b10e2ca37bc5ac506f05db108a2a9d9fa260bc29b09ca3524e1",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/0e095e48c31121ee28b2.webp",
+            "bytes": 4012,
+            "sha256": "0e095e48c31121ee28b281301c164fd958fc72d0c42731fb79bd29a09b77b723",
+            "sourceImage": "mudbrick02_nrm_normal_tga_7db9f90b_orm_3087433743.png",
+            "sourceImageSHA256": "4db41b7d231d066489711499dfc5d4b6f5fbbd131cf7e5f893c1dafd4da67de6",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      }
+    ],
+    "ancient": [
+      {
+        "texture": "hr_ancient_ground_mud_03_color_tga_bf752c5f.vtex",
+        "usageVertices": 6590,
+        "source": "/workspace/.arena-tools/incoming-map-release/571dfcf021100d9f48a4af27365b890e7b8000e97975cef99690cb7e4b7fd679/ARENA-ancient-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/9441a68eda384339ebb1.webp",
+            "bytes": 281708,
+            "sha256": "9441a68eda384339ebb19c0f5ce11e09142935633a17a062644681b1ce86f61c",
+            "sourceImage": "hr_ancient_ground_mud_03_color_tga_bf752c5f.vtex",
+            "sourceImageSHA256": "329de644245b2685792594fad2b92ba50e583de5eb777fdd39abee81ac1e713b",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/d6182d615400d704c68c.webp",
+            "bytes": 37606,
+            "sha256": "d6182d615400d704c68c78c2bf765790e7f67299520db4cb8a7d66f22eab023d",
+            "sourceImage": "hr_ancient_ground_mud_03_color_tga_bf752c5f_orm_2011538283.png",
+            "sourceImageSHA256": "bcc06e38d2959a0cd4c565ccf6ac1db4e4a4f7aeab1051efdaaa5faced3cac83",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/33515cc5a60335b9121d.webp",
+            "bytes": 121388,
+            "sha256": "33515cc5a60335b9121d485056b2e214e0aabf3b369c71165b64fc9329b5be41",
+            "sourceImage": "hr_ancient_ground_mud_03_normal_tga_566c80a9.vtex",
+            "sourceImageSHA256": "3488cf37caf35df15d807775aefaebb6a46570e6538dd82d9d6c13fe1a6a60d4",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "hr_ancient_roof_stone_01_grey_color_tga_c34a1a7.vtex",
+        "usageVertices": 1593,
+        "source": "/workspace/.arena-tools/incoming-map-release/571dfcf021100d9f48a4af27365b890e7b8000e97975cef99690cb7e4b7fd679/ARENA-ancient-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/4d8369c823429712ee51.webp",
+            "bytes": 364656,
+            "sha256": "4d8369c823429712ee513848bb985b46ae5967ed2c6bf0cfb2a1a1973ea9fc85",
+            "sourceImage": "hr_ancient_roof_stone_01_grey_color_tga_c34a1a7.vtex",
+            "sourceImageSHA256": "97f7cd0469d7cfb4cccb3d705f1394ba72bd9fadf8f5ffdd814b80f1923b1ae6",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/c89779a2c647ee430181.webp",
+            "bytes": 50496,
+            "sha256": "c89779a2c647ee4301813d1b05eb14905987ee1827df17cc3dd1071501f6cd1e",
+            "sourceImage": "hr_ancient_roof_stone_01_grey_color_tga_c34a1a7_orm_2232525598.png",
+            "sourceImageSHA256": "e9617b7efdbf4d43e8f235e5692aa3e7f62e67917a30ad99d9e8ac00bddba6d6",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/b00c3bb0983906eaa1a3.webp",
+            "bytes": 126990,
+            "sha256": "b00c3bb0983906eaa1a331cca297d70b3fa4054eb8c97b5f0bb51b8e2696bc48",
+            "sourceImage": "hr_ancient_roof_stone_01_grey_normal_tga_a121a87c.vtex",
+            "sourceImageSHA256": "9b8d3277447d80255bfb48431ceeb4647f2e4585103320f0194d796b6be89e8d",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "hr_ancient_wall_01_individual_bricks_grey_color_tga_b0702ca8.vtex",
+        "usageVertices": 590080,
+        "source": "/workspace/.arena-tools/incoming-map-release/571dfcf021100d9f48a4af27365b890e7b8000e97975cef99690cb7e4b7fd679/ARENA-ancient-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/48d17818b0c8a5789510.webp",
+            "bytes": 434106,
+            "sha256": "48d17818b0c8a57895101e4c277947636a8b01b94c2d943c33afb93fef06b854",
+            "sourceImage": "hr_ancient_wall_01_individual_bricks_grey_color_tga_b0702ca8.vtex",
+            "sourceImageSHA256": "bb5daab1263a6121291ed9bf7e1c5dfbbf001f82ef302952eff09db946b210e7",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/74161103ef5319a7e61b.webp",
+            "bytes": 44500,
+            "sha256": "74161103ef5319a7e61b4ef08a6a83b5ac9f38c2acef291397f670d7b105c0d0",
+            "sourceImage": "hr_ancient_wall_01_individual_bricks_grey_color_tga_b0702ca8_orm_121057958.png",
+            "sourceImageSHA256": "ddba5e734681be4c8ef9eafc1e0ee10faa565535d0f96dc66afc7c2f97620453",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/2b67e8ddddf1a07f164a.webp",
+            "bytes": 107610,
+            "sha256": "2b67e8ddddf1a07f164a1c0c1f199f06aacc35c72eb35097f6ce3fc75d9bf78f",
+            "sourceImage": "hr_ancient_wall_01_individual_bricks_grey_normal_tga_ad206598.vtex",
+            "sourceImageSHA256": "6e34b632187c820810427f1faf0c9efdc6b47e702e9f140e8587194c6a0d4f1b",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      }
+    ],
+    "inferno": [
+      {
+        "texture": "plaster_facade_01_color_tga_8dd9ce15.vtex",
+        "usageVertices": 79668,
+        "source": "/workspace/.arena-tools/incoming-map-release/ba991a393f23874a47b3601e2a340d05399928cb61b2da628a1813180111b259/ARENA-inferno-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/fae2603d60837050e847.webp",
+            "bytes": 197716,
+            "sha256": "fae2603d60837050e847fccaa51fd9e10044163fa14a943b517ca71f7e23a43e",
+            "sourceImage": "plaster_facade_01_color_tga_8dd9ce15.vtex",
+            "sourceImageSHA256": "36a5eb2aff3b86354dcc74d429862fc862b234dccbf6514356a985409fb290f5",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/a02aca4a1281ad7ce056.webp",
+            "bytes": 21722,
+            "sha256": "a02aca4a1281ad7ce0563104bd0c8ea7152c3036fa6c72ddb5e2f02fee84dc1c",
+            "sourceImage": "plaster_facade_01_color_tga_8dd9ce15_orm_376072742.png",
+            "sourceImageSHA256": "4d06e31b9fc074c0c755692c8e3a6cba12c3a798b12f85b5d8f4e8c1d80542ac",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/020dff6135ba29304503.webp",
+            "bytes": 87412,
+            "sha256": "020dff6135ba2930450301beb7e1874fe5ebc47ba2a434ffe382a5decd1184c7",
+            "sourceImage": "plaster_facade_01_normal_tga_e2723027.vtex",
+            "sourceImageSHA256": "da8cc1bb72f60941080fb2819ad8932f2d7ac7de26e7c7eee6a46d023489ea7f",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "ground_leaves_1_color_psd_3bdf70c1.vtex",
+        "usageVertices": 8266,
+        "source": "/workspace/.arena-tools/incoming-map-release/ba991a393f23874a47b3601e2a340d05399928cb61b2da628a1813180111b259/ARENA-inferno-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/af2c395e5747b92639e3.webp",
+            "bytes": 108002,
+            "sha256": "af2c395e5747b92639e34a26496c8f6b9f02862079b24816f665b121f2e730cc",
+            "sourceImage": "ground_leaves_1_color_psd_3bdf70c1.vtex",
+            "sourceImageSHA256": "ce1aad4c26ad21aa0a89155fb7dbfbbb02611daa931c331e7a97975d624a1583",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/31741d1c3051cfa214b7.webp",
+            "bytes": 88716,
+            "sha256": "31741d1c3051cfa214b7db4fbde9c21b054f0d71552c5c7bcb7f905f3b9dd11e",
+            "sourceImage": "ground_leaves_1_normal_tga_f8723777.vtex",
+            "sourceImageSHA256": "ae46a74bae733d2444eae001b25c7c639116f7cf0fb2204a01258780fac383f4",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/9811b3fbfe78310e342d.webp",
+            "bytes": 21650,
+            "sha256": "9811b3fbfe78310e342d99a3b32a484c195f38cfa35842d08fc0767b45c9e7f5",
+            "sourceImage": "ground_leaves_1_normal_tga_f8723777_orm_2700823267.png",
+            "sourceImageSHA256": "7d82712baf3cca9f1eaa1ae96929d8f59227b69baffde9bbed9a5de45fd7e085",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "roofkit01_shingles_01_color_tga_358b3d0c.vtex",
+        "usageVertices": 17329,
+        "source": "/workspace/.arena-tools/incoming-map-release/ba991a393f23874a47b3601e2a340d05399928cb61b2da628a1813180111b259/ARENA-inferno-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/6e66fdc86a0426539435.webp",
+            "bytes": 323996,
+            "sha256": "6e66fdc86a0426539435e6217b5c35b860a7ffc567a4b3a834c367e2e0401975",
+            "sourceImage": "roofkit01_shingles_01_color_tga_358b3d0c.vtex",
+            "sourceImageSHA256": "ae1786844aeed45a1d2964bdcc22b8918e114ea5ad9258075d31995eb2b6e477",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/dacd7b9dd3152c63d443.webp",
+            "bytes": 37532,
+            "sha256": "dacd7b9dd3152c63d443fc1c5fc53dac41bff35645443f39ad0250fdbee79ec2",
+            "sourceImage": "roofkit01_shingles_01_color_tga_358b3d0c_orm_794446320.png",
+            "sourceImageSHA256": "2e771cc2f86eed98f5d54c97a6e4a2ce61cd33c86483fa432cb793a504babb05",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/dbc04a16ae2cbe3d422a.webp",
+            "bytes": 89438,
+            "sha256": "dbc04a16ae2cbe3d422a74eb59f32c3e5157fc0cb7828602cb667460e7b29fda",
+            "sourceImage": "roofkit01_shingles_01_normal_tga_7f0cf2b0.vtex",
+            "sourceImageSHA256": "6795fb19f27ad3c3d664e57df6c486375b4e608af272bf1ea6ae45d56ea5287d",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      }
+    ],
+    "overpass": [
+      {
+        "texture": "plaster_1a_hs_color_tga_d1cb9b66.vtex",
+        "usageVertices": 3565,
+        "source": "/workspace/.arena-tools/incoming-map-release/51e450e0be91140a114a599d4c5260f16eec0dd227b2f928705cb4b77a315c39/ARENA-overpass-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/148ac7a2094184e06862.webp",
+            "bytes": 108668,
+            "sha256": "148ac7a2094184e06862b410cfa254660da75858121891074faadebf112affde",
+            "sourceImage": "plaster_1a_hs_color_tga_d1cb9b66.vtex",
+            "sourceImageSHA256": "b14aba85cc2f86e021b94ebdb7390ebddac9aec26f3d173090114b7fb6572c39",
+            "sourceSize": [
+              2048,
+              1024
+            ],
+            "size": [
+              1024,
+              512
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/e7044f68a18404281b2c.webp",
+            "bytes": 21994,
+            "sha256": "e7044f68a18404281b2c48d28e23bec3eb42ab9a299a1b31ccf0c91df789da87",
+            "sourceImage": "plaster_1a_hs_color_tga_d1cb9b66_orm_3692138862.png",
+            "sourceImageSHA256": "9f4f8e40856d92aed3c405364fd8433d06505356029b2c3c50a8c55c95c4bc7f",
+            "sourceSize": [
+              2048,
+              1024
+            ],
+            "size": [
+              256,
+              128
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/6c7acc9a92f001e61c01.webp",
+            "bytes": 21142,
+            "sha256": "6c7acc9a92f001e61c0176f52709d9a5b62a7e0aad33632bae655451a0fe9706",
+            "sourceImage": "plaster_1a_hs_normal_tga_5149e134.vtex",
+            "sourceImageSHA256": "9f55608a26f5a631d9b95288b4b5aa930ec75892945c4c400236ee98d6f9022f",
+            "sourceSize": [
+              2048,
+              1024
+            ],
+            "size": [
+              256,
+              128
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "ground_leaves_1_color_psd_3bdf70c1.vtex",
+        "usageVertices": 59552,
+        "source": "/workspace/.arena-tools/incoming-map-release/51e450e0be91140a114a599d4c5260f16eec0dd227b2f928705cb4b77a315c39/ARENA-overpass-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/af2c395e5747b92639e3.webp",
+            "bytes": 108002,
+            "sha256": "af2c395e5747b92639e34a26496c8f6b9f02862079b24816f665b121f2e730cc",
+            "sourceImage": "ground_leaves_1_color_psd_3bdf70c1.vtex",
+            "sourceImageSHA256": "ce1aad4c26ad21aa0a89155fb7dbfbbb02611daa931c331e7a97975d624a1583",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/31741d1c3051cfa214b7.webp",
+            "bytes": 88716,
+            "sha256": "31741d1c3051cfa214b7db4fbde9c21b054f0d71552c5c7bcb7f905f3b9dd11e",
+            "sourceImage": "ground_leaves_1_normal_tga_f8723777.vtex",
+            "sourceImageSHA256": "ae46a74bae733d2444eae001b25c7c639116f7cf0fb2204a01258780fac383f4",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/9811b3fbfe78310e342d.webp",
+            "bytes": 21650,
+            "sha256": "9811b3fbfe78310e342d99a3b32a484c195f38cfa35842d08fc0767b45c9e7f5",
+            "sourceImage": "ground_leaves_1_normal_tga_f8723777_orm_2700823267.png",
+            "sourceImageSHA256": "7d82712baf3cca9f1eaa1ae96929d8f59227b69baffde9bbed9a5de45fd7e085",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "nuke_roof_ac_box_color_psd_220dee33.vtex",
+        "usageVertices": 1902,
+        "source": "/workspace/.arena-tools/incoming-map-release/51e450e0be91140a114a599d4c5260f16eec0dd227b2f928705cb4b77a315c39/ARENA-overpass-CS2-visuals.zip",
+        "textures": {
+          "roughness": {
+            "url": "/detail128/pbr/2a05348140980b0ba732.webp",
+            "bytes": 28942,
+            "sha256": "2a05348140980b0ba73240272dfc763a0a7eed5b33d8264f9e245a2327968fb3",
+            "sourceImage": "nuke_roof_ac_box_ao_psd_bfe97014_orm_2952129287.png",
+            "sourceImageSHA256": "930ffd2e4954d0d2e6ecebbf47480fb570816d80e6c27c66121905a29de21321",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "baseColor": {
+            "url": "/detail128/pbr/1352071915d8727a301a.webp",
+            "bytes": 87566,
+            "sha256": "1352071915d8727a301a891d10e0b01e79fbee60d4b6b487751fa53e188fe22e",
+            "sourceImage": "nuke_roof_ac_box_color_psd_220dee33.vtex",
+            "sourceImageSHA256": "4fd0a1129669f710a6569b9fa22293e9211d9c6cee4273d2c42fd159ad31c8ce",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/c41dea2c96d9a343060b.webp",
+            "bytes": 21828,
+            "sha256": "c41dea2c96d9a343060b688b046520d997173b1fbe69e03675d8e90f7c0ac765",
+            "sourceImage": "nuke_roof_ac_box_normal_psd_f8e2a346.vtex",
+            "sourceImageSHA256": "f4495ca7243be22cbdb33128a50749ceb11653fb0efc491c06157c3960566a7d",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      }
+    ],
+    "cache": [
+      {
+        "texture": "asphalt_003_color_psd_4c96738d.vtex",
+        "usageVertices": 1675,
+        "source": "/workspace/.arena-tools/incoming-map-release/9684ad1b23d89d95a8d0a03d5842225ac131c8c85967d647015924e818384a0c/ARENA-cache-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/872df7de3177e31856a0.webp",
+            "bytes": 318814,
+            "sha256": "872df7de3177e31856a062194ef69bdc6696fe6efe2e3235a0fcbf34b321b8b1",
+            "sourceImage": "asphalt_003_color_psd_4c96738d.vtex",
+            "sourceImageSHA256": "a53b35a9616267904033f48d0f87ee6e06f01116f5a882da38308e0b9f83c055",
+            "sourceSize": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/38db185bb5cee32d762d.webp",
+            "bytes": 46886,
+            "sha256": "38db185bb5cee32d762d4c34198a0063874e6fbdbed8774a82d8f6365ebaac14",
+            "sourceImage": "asphalt_003_color_psd_4c96738d_orm_3892234372.png",
+            "sourceImageSHA256": "4db02f7bc32f1c9ae086f297808bef5c6957fe875964eefc1bfdbedced6522bb",
+            "sourceSize": [
+              4096,
+              4096
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/0c55139a59b991073b43.webp",
+            "bytes": 105008,
+            "sha256": "0c55139a59b991073b4349635f7864162678f4ce3c5297a8a44260640b8b8da7",
+            "sourceImage": "asphalt_003_normal_psd_57d5a9fa.vtex",
+            "sourceImageSHA256": "bd95607d7e28bf4f476260009c3275bb3502b80039f68eab95902022b51a373e",
+            "sourceSize": [
+              4096,
+              4096
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "shifer_corrugated_roof_tile_001_color_psd_d78abace.vtex",
+        "usageVertices": 6489,
+        "source": "/workspace/.arena-tools/incoming-map-release/9684ad1b23d89d95a8d0a03d5842225ac131c8c85967d647015924e818384a0c/ARENA-cache-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/6d3b04a4dc9fbd1c822a.webp",
+            "bytes": 161230,
+            "sha256": "6d3b04a4dc9fbd1c822a68d6e0563b6e31ae771999a8074253c2476088292858",
+            "sourceImage": "shifer_corrugated_roof_tile_001_color_psd_d78abace.vtex",
+            "sourceImageSHA256": "84ebc7ffff48c1535e660fd698d9ddb570ca0006437cd54328a46cb5128156d3",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/6bbd18a6ff3f952a8c45.webp",
+            "bytes": 44530,
+            "sha256": "6bbd18a6ff3f952a8c4568850a4002fb94e6f75d1eb75b98499e7711e86a3954",
+            "sourceImage": "shifer_corrugated_roof_tile_001_color_psd_d78abace_orm_1897883098.png",
+            "sourceImageSHA256": "a8f9013ad5a6ee6ff0acd8ee8cf1b1f4c6acb2a9f48b384f7dd963bb68cf5081",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/cdffeecfb64bceb5b103.webp",
+            "bytes": 60044,
+            "sha256": "cdffeecfb64bceb5b103a8a3cb75b40dd6dfe3c1972c7d956cbf81a509a6d87c",
+            "sourceImage": "shifer_corrugated_roof_tile_001_normal_psd_a94947fa.vtex",
+            "sourceImageSHA256": "78ba2c58ac889fb46d8c74441d54fcd6b767c2b87407568aeded1aa4c96c713c",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "wall_tile_stone_001_color_psd_9f4a4ac1.vtex",
+        "usageVertices": 25444,
+        "source": "/workspace/.arena-tools/incoming-map-release/9684ad1b23d89d95a8d0a03d5842225ac131c8c85967d647015924e818384a0c/ARENA-cache-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/9c51718d74edba504690.webp",
+            "bytes": 196956,
+            "sha256": "9c51718d74edba504690db4a9529803b202162015976a4cbbaeb324ef5ca2dda",
+            "sourceImage": "wall_tile_stone_001_color_psd_9f4a4ac1.vtex",
+            "sourceImageSHA256": "9b0ec3dcc21c0a063996e6f7445af0bd9c5181c69f190c9813edcf4f58775426",
+            "sourceSize": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/0cf264ec9695bcf6b9a3.webp",
+            "bytes": 34508,
+            "sha256": "0cf264ec9695bcf6b9a38ab6b04ad569f5f8c5d4c0de3aeaffb90972fd7d0169",
+            "sourceImage": "wall_tile_stone_001_color_psd_9f4a4ac1_orm_401284669.png",
+            "sourceImageSHA256": "a001451a13891f5adc737954f9721c36bbac6be23cc0c46234af3c779ffd1134",
+            "sourceSize": [
+              4096,
+              4096
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/0eef9e64df4bb86fe707.webp",
+            "bytes": 95028,
+            "sha256": "0eef9e64df4bb86fe707cd6df9e79bd8de5efe6dd46fb294d3c5aba51c70dd0d",
+            "sourceImage": "wall_tile_stone_001_normal_psd_dc157d06.vtex",
+            "sourceImageSHA256": "a25f47392a024a758abe38c24a37cefbeb1eec932f00ef480c0c6a25a1aba623",
+            "sourceSize": [
+              4096,
+              4096
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      }
+    ],
+    "train": [
+      {
+        "texture": "train_roof_gutters_color_psd_6be1795.vtex",
+        "usageVertices": 50356,
+        "source": "/workspace/.arena-tools/incoming-map-release/8e42eb0816cc5dec6ecc19cc8db75b309a1e73c9e6e6388e4d8292f8b24c8221/ARENA-train-CS2-visuals.zip",
+        "textures": {
+          "roughness": {
+            "url": "/detail128/pbr/316ffbac19c36499e605.webp",
+            "bytes": 16198,
+            "sha256": "316ffbac19c36499e605b44fd39ee1e96f520fb722b685bfbf9238cc856a2680",
+            "sourceImage": "default_height_tga_821f45e2_orm_3379572805.png",
+            "sourceImageSHA256": "d0039ad8f36afb1e33f605f1862b00a03cf8d9ce062ba07e42864ce0b9b418a9",
+            "sourceSize": [
+              2048,
+              4096
+            ],
+            "size": [
+              128,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "baseColor": {
+            "url": "/detail128/pbr/009c4aa60e7bc1fb9bec.webp",
+            "bytes": 117374,
+            "sha256": "009c4aa60e7bc1fb9becf16a57e2842309c6503064b0969ad9828e159bab0ec0",
+            "sourceImage": "train_roof_gutters_color_psd_6be1795.vtex",
+            "sourceImageSHA256": "45694d37ec660d975af5c62c6e17511b94e5e4278c67122eceeff6ee2624c53d",
+            "sourceSize": [
+              2048,
+              4096
+            ],
+            "size": [
+              512,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/794d0953f47673d8a9f1.webp",
+            "bytes": 28500,
+            "sha256": "794d0953f47673d8a9f158df13533edeee6a6233b4f23599c44f6ffb0f6f4f8b",
+            "sourceImage": "train_roof_gutters_normal_psd_43b1591d.vtex",
+            "sourceImageSHA256": "b909283e96deb3bfb2e3e2789f798fa9b358cb5aca5c4766c7604fcea9ce75a6",
+            "sourceSize": [
+              1024,
+              2048
+            ],
+            "size": [
+              128,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "train_floor_concrete_01_color_psd_434e032a.vtex",
+        "usageVertices": 16676,
+        "source": "/workspace/.arena-tools/incoming-map-release/8e42eb0816cc5dec6ecc19cc8db75b309a1e73c9e6e6388e4d8292f8b24c8221/ARENA-train-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/59355f4c76f606a69002.webp",
+            "bytes": 182160,
+            "sha256": "59355f4c76f606a69002fef155b247c66e2ae9bafd13b3f3050ca0849e533cc4",
+            "sourceImage": "train_floor_concrete_01_color_psd_434e032a.vtex",
+            "sourceImageSHA256": "f0951d2f4b558ef06e60ab836310d92bbd39eea2ff11ecc2eb2e50ac930d4b43",
+            "sourceSize": [
+              4096,
+              2048
+            ],
+            "size": [
+              1024,
+              512
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/cd453d4aec1898596847.webp",
+            "bytes": 20574,
+            "sha256": "cd453d4aec189859684758f737c95c15f767cbf9ab48285cfc19cf35dfacebed",
+            "sourceImage": "train_floor_concrete_01_color_psd_434e032a_orm_3986289504.png",
+            "sourceImageSHA256": "859016dca464dc34afa6a7c26bcaacf275daed797560a73ea0b6af74ff940434",
+            "sourceSize": [
+              4096,
+              2048
+            ],
+            "size": [
+              256,
+              128
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/01016945116bf3de907d.webp",
+            "bytes": 41636,
+            "sha256": "01016945116bf3de907df2b61e52ea2ddba5cc12f477d5d839672f73d69bf4bc",
+            "sourceImage": "train_floor_concrete_01_normal_psd_e74a771c.vtex",
+            "sourceImageSHA256": "8ad48d1491ecbe05e741b295322ce71ecd7cfa82df7f5ab476bc2b9eeec723d4",
+            "sourceSize": [
+              2048,
+              1024
+            ],
+            "size": [
+              256,
+              128
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "train_wall_brick_01_includes_color_psd_514083fd.vtex",
+        "usageVertices": 164017,
+        "source": "/workspace/.arena-tools/incoming-map-release/8e42eb0816cc5dec6ecc19cc8db75b309a1e73c9e6e6388e4d8292f8b24c8221/ARENA-train-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/8af4412fbe10460999d8.webp",
+            "bytes": 355786,
+            "sha256": "8af4412fbe10460999d81ff2e4dc99274a2c8b28355cf11d8c5c7b410a107039",
+            "sourceImage": "train_wall_brick_01_includes_color_psd_514083fd.vtex",
+            "sourceImageSHA256": "2c951f5ba0139b3ef07664aad270489461e9f307c0a90a804235f8a2bdb33d6b",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/051a986de03640703f65.webp",
+            "bytes": 46228,
+            "sha256": "051a986de03640703f654d3daf46c8ed6fcd96959edd45fccaab48cc8bfcf6b4",
+            "sourceImage": "train_wall_brick_01_includes_color_psd_514083fd_orm_324474426.png",
+            "sourceImageSHA256": "7d71ba29ae75dae4ca92947ddb3c3b869cdc404bf0fc22ebb30d6e5b229af2a4",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/8661b2ed72680ac8995b.webp",
+            "bytes": 107798,
+            "sha256": "8661b2ed72680ac8995bcbb01c134eb993cac39f3b8e981e956248158063a9d9",
+            "sourceImage": "train_wall_brick_01_includes_normal_psd_da89022f.vtex",
+            "sourceImageSHA256": "b5828202d6aaa73fb850e2e5162b4b11958e46e29d6784a36b160178d9f2cf31",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      }
+    ],
+    "ancient-night": [
+      {
+        "texture": "hr_ancient_ground_mud_03_color_tga_bf752c5f.vtex",
+        "usageVertices": 6590,
+        "source": "/workspace/.arena-tools/incoming-map-release/571dfcf021100d9f48a4af27365b890e7b8000e97975cef99690cb7e4b7fd679/ARENA-ancient-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/9441a68eda384339ebb1.webp",
+            "bytes": 281708,
+            "sha256": "9441a68eda384339ebb19c0f5ce11e09142935633a17a062644681b1ce86f61c",
+            "sourceImage": "hr_ancient_ground_mud_03_color_tga_bf752c5f.vtex",
+            "sourceImageSHA256": "329de644245b2685792594fad2b92ba50e583de5eb777fdd39abee81ac1e713b",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/d6182d615400d704c68c.webp",
+            "bytes": 37606,
+            "sha256": "d6182d615400d704c68c78c2bf765790e7f67299520db4cb8a7d66f22eab023d",
+            "sourceImage": "hr_ancient_ground_mud_03_color_tga_bf752c5f_orm_2011538283.png",
+            "sourceImageSHA256": "bcc06e38d2959a0cd4c565ccf6ac1db4e4a4f7aeab1051efdaaa5faced3cac83",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/33515cc5a60335b9121d.webp",
+            "bytes": 121388,
+            "sha256": "33515cc5a60335b9121d485056b2e214e0aabf3b369c71165b64fc9329b5be41",
+            "sourceImage": "hr_ancient_ground_mud_03_normal_tga_566c80a9.vtex",
+            "sourceImageSHA256": "3488cf37caf35df15d807775aefaebb6a46570e6538dd82d9d6c13fe1a6a60d4",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "hr_ancient_roof_stone_01_grey_color_tga_c34a1a7.vtex",
+        "usageVertices": 1593,
+        "source": "/workspace/.arena-tools/incoming-map-release/571dfcf021100d9f48a4af27365b890e7b8000e97975cef99690cb7e4b7fd679/ARENA-ancient-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/4d8369c823429712ee51.webp",
+            "bytes": 364656,
+            "sha256": "4d8369c823429712ee513848bb985b46ae5967ed2c6bf0cfb2a1a1973ea9fc85",
+            "sourceImage": "hr_ancient_roof_stone_01_grey_color_tga_c34a1a7.vtex",
+            "sourceImageSHA256": "97f7cd0469d7cfb4cccb3d705f1394ba72bd9fadf8f5ffdd814b80f1923b1ae6",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/c89779a2c647ee430181.webp",
+            "bytes": 50496,
+            "sha256": "c89779a2c647ee4301813d1b05eb14905987ee1827df17cc3dd1071501f6cd1e",
+            "sourceImage": "hr_ancient_roof_stone_01_grey_color_tga_c34a1a7_orm_2232525598.png",
+            "sourceImageSHA256": "e9617b7efdbf4d43e8f235e5692aa3e7f62e67917a30ad99d9e8ac00bddba6d6",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/b00c3bb0983906eaa1a3.webp",
+            "bytes": 126990,
+            "sha256": "b00c3bb0983906eaa1a331cca297d70b3fa4054eb8c97b5f0bb51b8e2696bc48",
+            "sourceImage": "hr_ancient_roof_stone_01_grey_normal_tga_a121a87c.vtex",
+            "sourceImageSHA256": "9b8d3277447d80255bfb48431ceeb4647f2e4585103320f0194d796b6be89e8d",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      },
+      {
+        "texture": "hr_ancient_wall_01_individual_bricks_grey_color_tga_b0702ca8.vtex",
+        "usageVertices": 590080,
+        "source": "/workspace/.arena-tools/incoming-map-release/571dfcf021100d9f48a4af27365b890e7b8000e97975cef99690cb7e4b7fd679/ARENA-ancient-CS2-visuals.zip",
+        "textures": {
+          "baseColor": {
+            "url": "/detail128/pbr/48d17818b0c8a5789510.webp",
+            "bytes": 434106,
+            "sha256": "48d17818b0c8a57895101e4c277947636a8b01b94c2d943c33afb93fef06b854",
+            "sourceImage": "hr_ancient_wall_01_individual_bricks_grey_color_tga_b0702ca8.vtex",
+            "sourceImageSHA256": "bb5daab1263a6121291ed9bf7e1c5dfbbf001f82ef302952eff09db946b210e7",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "roughness": {
+            "url": "/detail128/pbr/74161103ef5319a7e61b.webp",
+            "bytes": 44500,
+            "sha256": "74161103ef5319a7e61b4ef08a6a83b5ac9f38c2acef291397f670d7b105c0d0",
+            "sourceImage": "hr_ancient_wall_01_individual_bricks_grey_color_tga_b0702ca8_orm_121057958.png",
+            "sourceImageSHA256": "ddba5e734681be4c8ef9eafc1e0ee10faa565535d0f96dc66afc7c2f97620453",
+            "sourceSize": [
+              2048,
+              2048
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          },
+          "normal": {
+            "url": "/detail128/pbr/2b67e8ddddf1a07f164a.webp",
+            "bytes": 107610,
+            "sha256": "2b67e8ddddf1a07f164a1c0c1f199f06aacc35c72eb35097f6ce3fc75d9bf78f",
+            "sourceImage": "hr_ancient_wall_01_individual_bricks_grey_normal_tga_ad206598.vtex",
+            "sourceImageSHA256": "6e34b632187c820810427f1faf0c9efdc6b47e702e9f140e8587194c6a0d4f1b",
+            "sourceSize": [
+              1024,
+              1024
+            ],
+            "size": [
+              256,
+              256
+            ],
+            "adaptation": "WebP runtime copy; source retained"
+          }
+        }
+      }
+    ]
+  },
+  "sourceArchivesPreserved": true,
+  "totalUniqueBytes": 7349710
+}

@@ -1,13 +1,15 @@
-# ARENA Manager1.27 beta — CS2 maps restored
+# ARENA Manager1.28 beta — architectural detail and source PBR
 
-[Web / PC](https://abror1111.github.io/arena-manager-beta/?v=127) · [Android APK, 385 MB](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.27-beta/ARENA-1.27-beta.apk)
+[Web / PC](https://abror1111.github.io/arena-manager-beta/?v=128) · [Android APK, 393 MB](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.28-beta/ARENA-1.28-beta.apk)
 
-The selectable maps return to the verified1.25 CS2 reference set: Dust II, Mirage, Inferno, Nuke, Train, Ancient, Ancient Night, Anubis, Overpass, Vertigo and Cache. Ten source textured GLBs and the existing simplified Ancient Night view are restored. Map geometry, textures, navigation, terrain and rendering match1.25 exactly. Source audio and previous scenery additions remain.
+All11 selectable maps use a Blender-authored detail library with44 models: curved roof channels, arches, bevelled masonry, window frames, balconies, bent pipes, vents, railcar bogies and multi-storey facades. Original CS2 base geometry, navigation and collision remain. Selected genuine source normal/roughness maps and up-to1024px colors are restored from preserved supplied exports. Source vertex tints are retained when matching the new geometry to map materials.
 
-The original ARENA1.26 variant remains archived. It is no longer the active map set. Source-game assets retain their ownership; this restoration does not establish distribution rights.
+Ancient Night uses the supplied Ancient visual with identical coordinates, its own night nav/collision/route mask and night lighting. It is a shared-geometry variant, not a separate supplied night visual export. Shared files are cached once; map preparation includes terrain, route masks, detail models and PBR textures. The original1.26 ARENA variant and historical public files remain preserved.
 
-Install over the existing app without uninstalling. VersionCode128 and the same signer support updating from1.26. Club money, score, round number and player stats remain; an active1.26 original-map round restarts once on its restored CS2 counterpart. Existing source-map saves resume normally.
+[Changes and scope](VISUAL-UPGRADE.md) · [Blender/source pipeline](DETAIL-PIPELINE128.md). This is an architectural/material pass over source scenes, not eleven newly hand-modeled finished1:1 replicas. Source-game assets retain their original ownership.
 
-[Details](VISUAL-UPGRADE.md). Verification includes132 Node tests, real1.26 snapshots from all11 maps, exact source assets, native contents/signature/alignment, camera and project-prefix/offline browser checks. Physical Android performance has not been measured. The separate case bot is unchanged.
+Install over the existing app without uninstalling. VersionCode129 and the same signer preserve club and match saves. Verification includes138 Node tests,44 compressed model bounds/UV checks,11 map renders, static/auto/player cameras, source textures, offline cache reopening and exact native assets/signature. Physical Android FPS/memory remains unmeasured. The separate case bot is unchanged.
 
-APK 384004323 bytes; SHA256 `88387ad81eba284187888f7ffd9a5cb9c4090edd8fd32dcf478f21ae8997d52e`.
+APK 392136366 bytes; SHA256 `11dd5e8d8beebbfc8ffeaf49ae68078df68cb05d03cd55540f84ddce37cbcf37`.
+
+[Editable Blender detail catalog](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.28-beta/ARENA-Blender-details-1.28.zip) —44 architectural modules.
