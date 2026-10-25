@@ -1,0 +1,116 @@
+{
+  "revision": 132,
+  "origin": "Exact new terrain and transformed architectural triangles, independent of renderer or camera",
+  "maps": {
+    "dust2": {
+      "url": "/environment132/dust2-solid-fca1ec5f1a52.cmesh",
+      "localUrl": "/environment132/dust2-solid-fca1ec5f1a52.cmesh",
+      "bytes": 1669608,
+      "sha256": "fca1ec5f1a52f319899e6d63c3e4c03c11badda15bff23a1cd7b949a72764b66",
+      "triangles": 169378,
+      "trimBaseBelow": -0.29000000000000004,
+      "baseSHA256": "3f6635b136c4561e147dcd94b7dd3e14ad40227b9f360e3071dec1eb8cd697a9",
+      "geometryRevision": 132
+    },
+    "mirage": {
+      "url": "/environment132/mirage-solid-3cecef5d4423.cmesh",
+      "localUrl": "/environment132/mirage-solid-3cecef5d4423.cmesh",
+      "bytes": 1611509,
+      "sha256": "3cecef5d442370ec8d37057d1a529bab82ecc8436788da62343ae0461315b226",
+      "triangles": 164150,
+      "trimBaseBelow": -0.16500000000000004,
+      "baseSHA256": "f03fe3103b5fa8642eb3ef96140b1e5d5d3766b51399ca84349424491b92aaa3",
+      "geometryRevision": 132
+    },
+    "inferno": {
+      "url": "/environment132/inferno-solid-ed6aa0780132.cmesh",
+      "localUrl": "/environment132/inferno-solid-ed6aa0780132.cmesh",
+      "bytes": 1026310,
+      "sha256": "ed6aa0780132062097001769341c50bb160621f8a5fca2d3059f6f5be94710e8",
+      "triangles": 113302,
+      "trimBaseBelow": -0.06500000000000002,
+      "baseSHA256": "0c9740daff09ffe4b0c4a88ef033a2b3dc93b93df4c0756a1d154c89ebe376eb",
+      "geometryRevision": 132
+    },
+    "nuke": {
+      "url": "/environment132/nuke-solid-114e4201ac48.cmesh",
+      "localUrl": "/environment132/nuke-solid-114e4201ac48.cmesh",
+      "bytes": 1291936,
+      "sha256": "114e4201ac486ffd4c370e18e06e414d6f47a157bae4c7ba31c1532cda51eae8",
+      "triangles": 168270,
+      "trimBaseBelow": -0.06500000000000002,
+      "baseSHA256": "9d180f533d7ea30f8a935e611db2fa9f6470ee6dd40b0b54d17b9c4f937c4d29",
+      "geometryRevision": 132
+    },
+    "train": {
+      "url": "/environment132/train-solid-167c7577b4f4.cmesh",
+      "localUrl": "/environment132/train-solid-167c7577b4f4.cmesh",
+      "bytes": 1338875,
+      "sha256": "167c7577b4f41e8f84bd3e544198eaf264c1ab55ca653a06348f5b57a9665d42",
+      "triangles": 169748,
+      "trimBaseBelow": -0.16500000000000004,
+      "baseSHA256": "f0f5ebcf168a2b4aabc255155d9df628e5aa704a756a7a9b595220a7e693143a",
+      "geometryRevision": 132
+    },
+    "ancient": {
+      "url": "/environment132/ancient-solid-29e7d3c5d2c5.cmesh",
+      "localUrl": "/environment132/ancient-solid-29e7d3c5d2c5.cmesh",
+      "bytes": 1375950,
+      "sha256": "29e7d3c5d2c50b2dfc58628a0ee14871801bd30b6da42616602af26eb2328e05",
+      "triangles": 149316,
+      "trimBaseBelow": -0.1775,
+      "baseSHA256": "9b8fddb5044237f774ea1667728522936d96b1e25e9e14bda62ddcc65619b6bb",
+      "geometryRevision": 132
+    },
+    "ancient-night": {
+      "url": "/environment132/ancient-night-solid-f28d3eb76f1a.cmesh",
+      "localUrl": "/environment132/ancient-night-solid-f28d3eb76f1a.cmesh",
+      "bytes": 1350180,
+      "sha256": "f28d3eb76f1ab53c01a715302bef85d3b147ad6adfca91b34d9be96664254329",
+      "triangles": 146740,
+      "trimBaseBelow": -0.1775,
+      "baseSHA256": "de2313022f9b409c6903499542ea46b03dcd9b86d6f97ec02d501c28934cbfd0",
+      "geometryRevision": 132
+    },
+    "anubis": {
+      "url": "/environment132/anubis-solid-543cc82b8098.cmesh",
+      "localUrl": "/environment132/anubis-solid-543cc82b8098.cmesh",
+      "bytes": 1335567,
+      "sha256": "543cc82b80988cb5727347ba2de962f0bdef87e48e599423fa7ef5962b9b54c3",
+      "triangles": 143164,
+      "trimBaseBelow": -0.19,
+      "baseSHA256": "e0296bcd953c3d07911401d0b61804def4385bd75fbb89ee164f0c67fb88951b",
+      "geometryRevision": 132
+    },
+    "overpass": {
+      "url": "/environment132/overpass-solid-193891394c6f.cmesh",
+      "localUrl": "/environment132/overpass-solid-193891394c6f.cmesh",
+      "bytes": 1492039,
+      "sha256": "193891394c6f4d17035df53e3ed4b9d11cef210eb343457387b1139d7c20da5a",
+      "triangles": 185928,
+      "trimBaseBelow": -0.115,
+      "baseSHA256": "0747a4b8fb611f4f4e3b7f9aaa99e1772da87cb2723e28618b3a84a6996b71a0",
+      "geometryRevision": 132
+    },
+    "vertigo": {
+      "url": "/environment132/vertigo-solid-fd20a0abd48e.cmesh",
+      "localUrl": "/environment132/vertigo-solid-fd20a0abd48e.cmesh",
+      "bytes": 1877919,
+      "sha256": "fd20a0abd48e1acbbf635ea0eee205ab11fb3f99fc36597ff59f6812702aeedd",
+      "triangles": 275010,
+      "trimBaseBelow": -0.16500000000000004,
+      "baseSHA256": "a6f7f642d2443e601748e9c22669af68f3a6196944731b38ebb1757f354217b0",
+      "geometryRevision": 132
+    },
+    "cache": {
+      "url": "/environment132/cache-solid-266e799ad9ff.cmesh",
+      "localUrl": "/environment132/cache-solid-266e799ad9ff.cmesh",
+      "bytes": 1362961,
+      "sha256": "266e799ad9ffa43ac72b061117cf718cf3939b7177122ab8cee24df431f97e47",
+      "triangles": 176334,
+      "trimBaseBelow": -0.19,
+      "baseSHA256": "8b568ee4a87a56b7702ce01cd5945ad4a8672505fd60c0f26823c47c9e34ab99",
+      "geometryRevision": 132
+    }
+  }
+}
