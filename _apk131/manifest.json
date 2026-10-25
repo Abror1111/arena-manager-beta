@@ -1,0 +1,22 @@
+{
+  "file": "ARENA-1.31-beta.apk",
+  "bytes": 95012684,
+  "sha256": "73da3ada24f5ac26055d3f7d5fcb90248e869335343793a3dd2da903280bfc4f",
+  "parts": [
+    {
+      "file": "part-001.bin",
+      "bytes": 83886080,
+      "sha256": "4bd4516f7e7137b286d5586a135d1576661ac9cdaac074230c753dd4e283731d"
+    },
+    {
+      "file": "part-002.bin",
+      "bytes": 11126604,
+      "sha256": "a6aab65fffcde98b870cc72ef57e03d708e3e7c2ced4bb258874baedc0a0536d"
+    }
+  ],
+  "blenderSource": {
+    "file": "ARENA-11-complete-maps-1.31.zip",
+    "bytes": 85414567,
+    "sha256": "dda203a8e2d8d66cc1f9f457475c33a1b8a5ae92b6c40b9a636ae0c45ba16cdb"
+  }
+}
