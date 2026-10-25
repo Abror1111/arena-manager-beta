@@ -67,3 +67,7 @@ be9935fcaf89537961a0da56cedbda98c5de151ffdd6646b852c718a5e8ef8a5  ARENA-1.30-bet
 #1.31 in GitHub Releases
 73da3ada24f5ac26055d3f7d5fcb90248e869335343793a3dd2da903280bfc4f  ARENA-1.31-beta.apk
 dda203a8e2d8d66cc1f9f457475c33a1b8a5ae92b6c40b9a636ae0c45ba16cdb  ARENA-11-complete-maps-1.31.zip
+
+#1.32 in GitHub Releases
+0915280150f10b735754c38f76dfcbbeba954dfcb073ff492f74bd2ec3454cbd  ARENA-1.32-beta.apk
+f4867865a9ae92150c465c1d1ad460d9e938996561f1fb556d131b31c102426f  ARENA-environment-kit-1.32.zip
