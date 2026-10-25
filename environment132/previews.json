@@ -1,0 +1,70 @@
+{
+  "maps": {
+    "dust2": {
+      "url": "/environment132/previews/dust2.webp",
+      "localUrl": "/environment132/previews/dust2.webp",
+      "bytes": 63378,
+      "sha256": "4ae621770250a264fd10c466120f3fc06ad1fc31d510ba2ecfa08926e8288716"
+    },
+    "anubis": {
+      "url": "/environment132/previews/anubis.webp",
+      "localUrl": "/environment132/previews/anubis.webp",
+      "bytes": 50834,
+      "sha256": "45862286e48ed8b1b739bf31914ddcf8a3f18907c72aa2b0b2204296e57ec395"
+    },
+    "overpass": {
+      "url": "/environment132/previews/overpass.webp",
+      "localUrl": "/environment132/previews/overpass.webp",
+      "bytes": 53134,
+      "sha256": "5323754f8c9168547978ffded19c43e131731223706d50911c85962b7f2ffd26"
+    },
+    "ancient": {
+      "url": "/environment132/previews/ancient.webp",
+      "localUrl": "/environment132/previews/ancient.webp",
+      "bytes": 51970,
+      "sha256": "edc5a3acd516d409f61e135b18c5bf326b104bb756eaec7621e58fdff113a531"
+    },
+    "train": {
+      "url": "/environment132/previews/train.webp",
+      "localUrl": "/environment132/previews/train.webp",
+      "bytes": 58316,
+      "sha256": "cc96885e9325fdf97a782f117b0a52371a72040992eef922ab19d84651247e63"
+    },
+    "ancient-night": {
+      "url": "/environment132/previews/ancient-night.webp",
+      "localUrl": "/environment132/previews/ancient-night.webp",
+      "bytes": 48384,
+      "sha256": "f520b4f9793e08375511d7db4a5beeee50e91e9eda40ef4fcfbe3a4a16c4bbf4"
+    },
+    "vertigo": {
+      "url": "/environment132/previews/vertigo.webp",
+      "localUrl": "/environment132/previews/vertigo.webp",
+      "bytes": 56466,
+      "sha256": "818314d5d27b98ece2aba3f51a6eaac242ba38b78f71105fbdd80e3d205193b6"
+    },
+    "nuke": {
+      "url": "/environment132/previews/nuke.webp",
+      "localUrl": "/environment132/previews/nuke.webp",
+      "bytes": 54716,
+      "sha256": "c0b0e894f400330d776d8d71ad3b5e7f543999d5b9b04e31b50aabf6f9aa8180"
+    },
+    "mirage": {
+      "url": "/environment132/previews/mirage.webp",
+      "localUrl": "/environment132/previews/mirage.webp",
+      "bytes": 70204,
+      "sha256": "7178c611687b75b0ec3829a33e3d917286ffc22520ea8a1175919d46513d6d6e"
+    },
+    "cache": {
+      "url": "/environment132/previews/cache.webp",
+      "localUrl": "/environment132/previews/cache.webp",
+      "bytes": 59090,
+      "sha256": "63a67cc7fec1055b66a5ce7ab5afc8a4ff3629698b5ecdcb24daea0296473a9e"
+    },
+    "inferno": {
+      "url": "/environment132/previews/inferno.webp",
+      "localUrl": "/environment132/previews/inferno.webp",
+      "bytes": 70612,
+      "sha256": "c11b00150763f3b0bab6cb81f5474c1a44ee88c1d6d74c8d1eef493fde175a06"
+    }
+  }
+}

@@ -1,0 +1,498 @@
+{
+  "origin": "ARENA mathematical materials: chipped stone, plaster, concrete, moss and aggregate",
+  "families": {
+    "desert": {
+      "wall": {
+        "color": {
+          "url": "/environment132/desert-wall-color.webp",
+          "localUrl": "/environment132/desert-wall-color.webp",
+          "bytes": 24076,
+          "sha256": "1ae922f420bf8e0d81a46c7299caacdae689812ec986b083f26bb7acf868f180"
+        },
+        "normal": {
+          "url": "/environment132/desert-wall-normal.webp",
+          "localUrl": "/environment132/desert-wall-normal.webp",
+          "bytes": 180710,
+          "sha256": "859420201465801081710f9b6591193a36de3c33b30b1b1f2f1f58908afcb00b"
+        },
+        "roughness": {
+          "url": "/environment132/desert-wall-roughness.webp",
+          "localUrl": "/environment132/desert-wall-roughness.webp",
+          "bytes": 14972,
+          "sha256": "713bec860733751c91ca2beb1e3773857e0dd9b038718ec04139fc5b95501f80"
+        }
+      },
+      "stone": {
+        "color": {
+          "url": "/environment132/desert-stone-color.webp",
+          "localUrl": "/environment132/desert-stone-color.webp",
+          "bytes": 15470,
+          "sha256": "5cdb23c9883c4b0f7e6ef9861feec046dbe934ad298e29dca63b4be6e6ff31bd"
+        },
+        "normal": {
+          "url": "/environment132/desert-stone-normal.webp",
+          "localUrl": "/environment132/desert-stone-normal.webp",
+          "bytes": 157500,
+          "sha256": "bb3f5aaef06d8bd9f884249d542c17f3a4456e5c0e3d145c67543f195bd736d9"
+        },
+        "roughness": {
+          "url": "/environment132/desert-stone-roughness.webp",
+          "localUrl": "/environment132/desert-stone-roughness.webp",
+          "bytes": 14886,
+          "sha256": "54d43ab858aff65dc82534fdcca6ca4f08df2cd99e1aa75706b61f98552c2f27"
+        }
+      },
+      "paving": {
+        "color": {
+          "url": "/environment132/desert-paving-color.webp",
+          "localUrl": "/environment132/desert-paving-color.webp",
+          "bytes": 46352,
+          "sha256": "3b93975fbcd15505c0ae229a8dcd9e12b5224f19e6cc75081fb055992911b3c3"
+        },
+        "normal": {
+          "url": "/environment132/desert-paving-normal.webp",
+          "localUrl": "/environment132/desert-paving-normal.webp",
+          "bytes": 157352,
+          "sha256": "5edd40932bbd242101c044800dbe6539bdd2e4a6c49c5dd4df11b2349b288cee"
+        },
+        "roughness": {
+          "url": "/environment132/desert-paving-roughness.webp",
+          "localUrl": "/environment132/desert-paving-roughness.webp",
+          "bytes": 14878,
+          "sha256": "6e72c7bf1ef014bec8794bd411a43a4692e71782c1d2dae98dbd0e8f80513f97"
+        }
+      },
+      "roof": {
+        "color": {
+          "url": "/environment132/desert-roof-color.webp",
+          "localUrl": "/environment132/desert-roof-color.webp",
+          "bytes": 13192,
+          "sha256": "ac22651d01ad69d609a3e414b915d872c044d0a0d7c0015c44c1211fb8e42be4"
+        },
+        "normal": {
+          "url": "/environment132/desert-roof-normal.webp",
+          "localUrl": "/environment132/desert-roof-normal.webp",
+          "bytes": 85590,
+          "sha256": "4cbffb0710e96894af40fe38e13a560b19b61bd10c7cc6d090b1bde3e43eaf80"
+        },
+        "roughness": {
+          "url": "/environment132/desert-roof-roughness.webp",
+          "localUrl": "/environment132/desert-roof-roughness.webp",
+          "bytes": 15084,
+          "sha256": "16d131e17b9557145ac6ad575128710cc7fbf67946c01fde6aadd2b250c9dc89"
+        }
+      }
+    },
+    "clay": {
+      "wall": {
+        "color": {
+          "url": "/environment132/clay-wall-color.webp",
+          "localUrl": "/environment132/clay-wall-color.webp",
+          "bytes": 26862,
+          "sha256": "53f439e531a3656c7009b18d951211dbd977db5eb4b3f0bfec248e9b1986682c"
+        },
+        "normal": {
+          "url": "/environment132/clay-wall-normal.webp",
+          "localUrl": "/environment132/clay-wall-normal.webp",
+          "bytes": 177704,
+          "sha256": "e208246edf51f669e3d82044c9b5a21c5c50ef669269ed3bf12492442e145fa2"
+        },
+        "roughness": {
+          "url": "/environment132/clay-wall-roughness.webp",
+          "localUrl": "/environment132/clay-wall-roughness.webp",
+          "bytes": 14920,
+          "sha256": "916a239a2ce7e523920c29280fbd39f9fb2aa5d42121641ed6f712ec40df0372"
+        }
+      },
+      "stone": {
+        "color": {
+          "url": "/environment132/clay-stone-color.webp",
+          "localUrl": "/environment132/clay-stone-color.webp",
+          "bytes": 15718,
+          "sha256": "cc19bbdb34a09d24ffc5c53b4d023f18a96f97f6f9b40412cac798cc5dd157e0"
+        },
+        "normal": {
+          "url": "/environment132/clay-stone-normal.webp",
+          "localUrl": "/environment132/clay-stone-normal.webp",
+          "bytes": 161068,
+          "sha256": "6363640fdcad82a4e4ac5c43850de404078e75001f13917a4f36256c29d7582d"
+        },
+        "roughness": {
+          "url": "/environment132/clay-stone-roughness.webp",
+          "localUrl": "/environment132/clay-stone-roughness.webp",
+          "bytes": 15054,
+          "sha256": "6ff229477208de0e4c64aa2fbd1f7ebc28014a255b79aa05ff941ddddcd823af"
+        }
+      },
+      "paving": {
+        "color": {
+          "url": "/environment132/clay-paving-color.webp",
+          "localUrl": "/environment132/clay-paving-color.webp",
+          "bytes": 45538,
+          "sha256": "1d328ad3da1c0dd5ffbd7c57b9fed71320283e8f78f08f8d76379cdef15d3d90"
+        },
+        "normal": {
+          "url": "/environment132/clay-paving-normal.webp",
+          "localUrl": "/environment132/clay-paving-normal.webp",
+          "bytes": 157924,
+          "sha256": "ab482140707b0aa7fa5f1090e14ac662bb4dbe75ca0a8cf92fd1d4553a989c84"
+        },
+        "roughness": {
+          "url": "/environment132/clay-paving-roughness.webp",
+          "localUrl": "/environment132/clay-paving-roughness.webp",
+          "bytes": 14986,
+          "sha256": "2b28efb89a363d467f52be0dc3daab48c90e662fedf94fa4fc5a06419ece7a4d"
+        }
+      },
+      "roof": {
+        "color": {
+          "url": "/environment132/clay-roof-color.webp",
+          "localUrl": "/environment132/clay-roof-color.webp",
+          "bytes": 15702,
+          "sha256": "57a1d0e382df00b726b4faef019751c31c6a9b453f4473e593919839c8bce6f4"
+        },
+        "normal": {
+          "url": "/environment132/clay-roof-normal.webp",
+          "localUrl": "/environment132/clay-roof-normal.webp",
+          "bytes": 103626,
+          "sha256": "807802df66cfc79e97bcf1967ea2c79df1ff642e4dec4be92f616ef3f317c272"
+        },
+        "roughness": {
+          "url": "/environment132/clay-roof-roughness.webp",
+          "localUrl": "/environment132/clay-roof-roughness.webp",
+          "bytes": 14998,
+          "sha256": "20e98d1bbbe8d7ba09717066bcfe75081e2fe909ca20c73a5e34f36750bb7d90"
+        }
+      }
+    },
+    "industry": {
+      "wall": {
+        "color": {
+          "url": "/environment132/industry-wall-color.webp",
+          "localUrl": "/environment132/industry-wall-color.webp",
+          "bytes": 12038,
+          "sha256": "7a04732effc83d28b4681b00d069583ead54272cbc0756399b9bf04a0b77f669"
+        },
+        "normal": {
+          "url": "/environment132/industry-wall-normal.webp",
+          "localUrl": "/environment132/industry-wall-normal.webp",
+          "bytes": 83442,
+          "sha256": "cdea5bd3884f43e84172bb117d41f9a3dfe89891f2d6c162570926b13a973496"
+        },
+        "roughness": {
+          "url": "/environment132/industry-wall-roughness.webp",
+          "localUrl": "/environment132/industry-wall-roughness.webp",
+          "bytes": 15178,
+          "sha256": "31e5e77afd1c079dd5135dd874f669f28669ac108173fd9d200f92d641ece5fb"
+        }
+      },
+      "stone": {
+        "color": {
+          "url": "/environment132/industry-stone-color.webp",
+          "localUrl": "/environment132/industry-stone-color.webp",
+          "bytes": 15744,
+          "sha256": "61b47ad51f95f1625c137f193fc2164148cb2cda3d0d906e5f0b25a7a021784b"
+        },
+        "normal": {
+          "url": "/environment132/industry-stone-normal.webp",
+          "localUrl": "/environment132/industry-stone-normal.webp",
+          "bytes": 159592,
+          "sha256": "051085943dcf6fef4f3b44d1cffc50ff26897f61394ada5250d9116f5d3e787b"
+        },
+        "roughness": {
+          "url": "/environment132/industry-stone-roughness.webp",
+          "localUrl": "/environment132/industry-stone-roughness.webp",
+          "bytes": 15036,
+          "sha256": "86000ef34fc3266f26ef0c030a48443ff0d09cc66e28e04e10793462ac5581bd"
+        }
+      },
+      "paving": {
+        "color": {
+          "url": "/environment132/industry-paving-color.webp",
+          "localUrl": "/environment132/industry-paving-color.webp",
+          "bytes": 40518,
+          "sha256": "a5308a16acf27f2130a2e33debce1a7adc9f180fa49109dc0f13dde2b95a3ae7"
+        },
+        "normal": {
+          "url": "/environment132/industry-paving-normal.webp",
+          "localUrl": "/environment132/industry-paving-normal.webp",
+          "bytes": 83780,
+          "sha256": "51ae13726fdba0ab4d3944862566d71a11157fe789a69179fb5c1f6fcdf93fff"
+        },
+        "roughness": {
+          "url": "/environment132/industry-paving-roughness.webp",
+          "localUrl": "/environment132/industry-paving-roughness.webp",
+          "bytes": 14918,
+          "sha256": "89b9c6ab46abc0ce9e381803241c272f3078991ad2632c7cd10b724a221c9c74"
+        }
+      },
+      "roof": {
+        "color": {
+          "url": "/environment132/industry-roof-color.webp",
+          "localUrl": "/environment132/industry-roof-color.webp",
+          "bytes": 11130,
+          "sha256": "bb1087c0d3db8357e1aa68339ef4626f3f4d4db97514b72e81d2af848ce7f5cf"
+        },
+        "normal": {
+          "url": "/environment132/industry-roof-normal.webp",
+          "localUrl": "/environment132/industry-roof-normal.webp",
+          "bytes": 47662,
+          "sha256": "18700d56c9745de31e9f59dd743a1b6946fa5a3f46b04e141fd9a4bb641497d2"
+        },
+        "roughness": {
+          "url": "/environment132/industry-roof-roughness.webp",
+          "localUrl": "/environment132/industry-roof-roughness.webp",
+          "bytes": 14792,
+          "sha256": "eaf79ec38a0e3813e5e263bcc3f687d6aec7e0c469a2dbe445c5394a4c628221"
+        }
+      }
+    },
+    "jungle": {
+      "wall": {
+        "color": {
+          "url": "/environment132/jungle-wall-color.webp",
+          "localUrl": "/environment132/jungle-wall-color.webp",
+          "bytes": 29858,
+          "sha256": "131d8d4dfee0e95b8d1cb0d647091275f2b9c1f15fd83bedc33f7f35ff55f171"
+        },
+        "normal": {
+          "url": "/environment132/jungle-wall-normal.webp",
+          "localUrl": "/environment132/jungle-wall-normal.webp",
+          "bytes": 165286,
+          "sha256": "641be6b60ee523a0e1ad1eeb844bf547d3e151f454f3162b16e443837f42ae64"
+        },
+        "roughness": {
+          "url": "/environment132/jungle-wall-roughness.webp",
+          "localUrl": "/environment132/jungle-wall-roughness.webp",
+          "bytes": 15004,
+          "sha256": "3d0b5f6f428af1582eaa34974638b034122fc0c2894030c58dda6ee32026f706"
+        }
+      },
+      "stone": {
+        "color": {
+          "url": "/environment132/jungle-stone-color.webp",
+          "localUrl": "/environment132/jungle-stone-color.webp",
+          "bytes": 24888,
+          "sha256": "a7beb83a1bf2f58260fadee2a04dcdddab47d36b29d93e531980aa289162cb5c"
+        },
+        "normal": {
+          "url": "/environment132/jungle-stone-normal.webp",
+          "localUrl": "/environment132/jungle-stone-normal.webp",
+          "bytes": 161100,
+          "sha256": "150be19b0e3ed5b962548878fc609c21c745c256d917cf44ea31f2efc81e6298"
+        },
+        "roughness": {
+          "url": "/environment132/jungle-stone-roughness.webp",
+          "localUrl": "/environment132/jungle-stone-roughness.webp",
+          "bytes": 15114,
+          "sha256": "5ca6c3809c7490da4b678c6c328cb3983594b416a903c9e0d8fd02ea110e37ee"
+        }
+      },
+      "paving": {
+        "color": {
+          "url": "/environment132/jungle-paving-color.webp",
+          "localUrl": "/environment132/jungle-paving-color.webp",
+          "bytes": 28496,
+          "sha256": "3b0cede83ae3f312106679a1f194982318b4d0145ad6306b7ba6cd197f46f739"
+        },
+        "normal": {
+          "url": "/environment132/jungle-paving-normal.webp",
+          "localUrl": "/environment132/jungle-paving-normal.webp",
+          "bytes": 166528,
+          "sha256": "22877a48ca0b98487369672a4f5e8f17aba2bc7e8b641f45d91af8504bcef0e7"
+        },
+        "roughness": {
+          "url": "/environment132/jungle-paving-roughness.webp",
+          "localUrl": "/environment132/jungle-paving-roughness.webp",
+          "bytes": 14948,
+          "sha256": "5e35e228d9a3dd778d2ac4be9826b60564ded0696a76e615ec6701b2267f7986"
+        }
+      },
+      "roof": {
+        "color": {
+          "url": "/environment132/jungle-roof-color.webp",
+          "localUrl": "/environment132/jungle-roof-color.webp",
+          "bytes": 20342,
+          "sha256": "05873ed40dcd4e3293b678490924f8fa46a92e650be92a68271898dd12c99ce4"
+        },
+        "normal": {
+          "url": "/environment132/jungle-roof-normal.webp",
+          "localUrl": "/environment132/jungle-roof-normal.webp",
+          "bytes": 102750,
+          "sha256": "34f6cf7caabcab9f26aabc5a9b2ff0dbffdb39df7a066fdfc1927217e6d2ce0a"
+        },
+        "roughness": {
+          "url": "/environment132/jungle-roof-roughness.webp",
+          "localUrl": "/environment132/jungle-roof-roughness.webp",
+          "bytes": 14874,
+          "sha256": "e9e03dc7a251f1c95d757eb2bdf8fecbded5b35d7db397f28f7d4df04368ff48"
+        }
+      }
+    },
+    "river": {
+      "wall": {
+        "color": {
+          "url": "/environment132/river-wall-color.webp",
+          "localUrl": "/environment132/river-wall-color.webp",
+          "bytes": 23454,
+          "sha256": "6569bbad451f93a3cd9ceb69daabb1e49394ea60978ea9179f8831acf3827ac5"
+        },
+        "normal": {
+          "url": "/environment132/river-wall-normal.webp",
+          "localUrl": "/environment132/river-wall-normal.webp",
+          "bytes": 179704,
+          "sha256": "59e87d5a856f878cf3fdc899f8cf43b620a89e16b4782d31efe139d83b538a68"
+        },
+        "roughness": {
+          "url": "/environment132/river-wall-roughness.webp",
+          "localUrl": "/environment132/river-wall-roughness.webp",
+          "bytes": 15026,
+          "sha256": "952b0f8cea72a5c899b324a2b0393eb88cdb8cd55433bd3fffe1ba172d46ce15"
+        }
+      },
+      "stone": {
+        "color": {
+          "url": "/environment132/river-stone-color.webp",
+          "localUrl": "/environment132/river-stone-color.webp",
+          "bytes": 20166,
+          "sha256": "fcd32b7989753e8cf843f635aa040f7f25fdfe828e7349313cee4c4b2a0b4a9e"
+        },
+        "normal": {
+          "url": "/environment132/river-stone-normal.webp",
+          "localUrl": "/environment132/river-stone-normal.webp",
+          "bytes": 160282,
+          "sha256": "3725c0250fead715dd4c8b4b3c7b74a5e942aaa925514913c151c95a498883ae"
+        },
+        "roughness": {
+          "url": "/environment132/river-stone-roughness.webp",
+          "localUrl": "/environment132/river-stone-roughness.webp",
+          "bytes": 15098,
+          "sha256": "5d2f6ea9c8ec69fea51ec6489dc26841e835153f574984853be814b6116bb44a"
+        }
+      },
+      "paving": {
+        "color": {
+          "url": "/environment132/river-paving-color.webp",
+          "localUrl": "/environment132/river-paving-color.webp",
+          "bytes": 45926,
+          "sha256": "3c24b27d37ba4f4982a62d96548f508cd7117838ffaca02ea3cac24527d0212f"
+        },
+        "normal": {
+          "url": "/environment132/river-paving-normal.webp",
+          "localUrl": "/environment132/river-paving-normal.webp",
+          "bytes": 157948,
+          "sha256": "d4d2b82cdae7eb540c5ca5997d52dff539f4d00ebe3515570a17a280fbea4068"
+        },
+        "roughness": {
+          "url": "/environment132/river-paving-roughness.webp",
+          "localUrl": "/environment132/river-paving-roughness.webp",
+          "bytes": 14914,
+          "sha256": "3f30585bc36482a7020bbdccbe3f5efed441df63e2329463574927d7e1f4dc1d"
+        }
+      },
+      "roof": {
+        "color": {
+          "url": "/environment132/river-roof-color.webp",
+          "localUrl": "/environment132/river-roof-color.webp",
+          "bytes": 13454,
+          "sha256": "c4bd3f1e3c9785a1af13130a85ef3f1d9fafb2c0ca665e02d053b6e6b36d5ee8"
+        },
+        "normal": {
+          "url": "/environment132/river-roof-normal.webp",
+          "localUrl": "/environment132/river-roof-normal.webp",
+          "bytes": 103438,
+          "sha256": "8005909c69b2440837b80b1cac02deea35d30fff6d3acd957d0b2cc5a151e936"
+        },
+        "roughness": {
+          "url": "/environment132/river-roof-roughness.webp",
+          "localUrl": "/environment132/river-roof-roughness.webp",
+          "bytes": 15074,
+          "sha256": "ed6d40f0fb455f7714ad5f654216dd7713e45daf3bf6d2376cc5a212f6761e3e"
+        }
+      }
+    },
+    "city": {
+      "wall": {
+        "color": {
+          "url": "/environment132/city-wall-color.webp",
+          "localUrl": "/environment132/city-wall-color.webp",
+          "bytes": 12160,
+          "sha256": "4e5aed09d9e51ad00f73dc5020e6806775d9c9ea4585c3e12ed0daaf4277755d"
+        },
+        "normal": {
+          "url": "/environment132/city-wall-normal.webp",
+          "localUrl": "/environment132/city-wall-normal.webp",
+          "bytes": 83536,
+          "sha256": "a7d5fbafa8143f37c444d51c16909fc1fc621689264b7907f2e06cae8a0f0d93"
+        },
+        "roughness": {
+          "url": "/environment132/city-wall-roughness.webp",
+          "localUrl": "/environment132/city-wall-roughness.webp",
+          "bytes": 15074,
+          "sha256": "ca749e65b5f44586df5d42a46a2399809fba8f626d821ff21786638c0df5f332"
+        }
+      },
+      "stone": {
+        "color": {
+          "url": "/environment132/city-stone-color.webp",
+          "localUrl": "/environment132/city-stone-color.webp",
+          "bytes": 15454,
+          "sha256": "82d37fa3f164db950f2998ad517cc0bd14b5002b908482f31462f4f1ad67cd46"
+        },
+        "normal": {
+          "url": "/environment132/city-stone-normal.webp",
+          "localUrl": "/environment132/city-stone-normal.webp",
+          "bytes": 156910,
+          "sha256": "57bf8d74e0e8d996a7e65e3e9f158c035e7fba4ff52c4f0aab28d7f764ce2a2e"
+        },
+        "roughness": {
+          "url": "/environment132/city-stone-roughness.webp",
+          "localUrl": "/environment132/city-stone-roughness.webp",
+          "bytes": 14852,
+          "sha256": "361c573b5df0979e246e1762dc2176ecc64f1d115b86f0060c3d046fc2e7aed7"
+        }
+      },
+      "paving": {
+        "color": {
+          "url": "/environment132/city-paving-color.webp",
+          "localUrl": "/environment132/city-paving-color.webp",
+          "bytes": 40616,
+          "sha256": "ef82c1854002efe8dc4573881604acf2c65843fe8a28cd77454ee616a6b30b69"
+        },
+        "normal": {
+          "url": "/environment132/city-paving-normal.webp",
+          "localUrl": "/environment132/city-paving-normal.webp",
+          "bytes": 83608,
+          "sha256": "4261614016e84760a8c665fd702af642cc9d79dd9b77ff041dc976d328c23003"
+        },
+        "roughness": {
+          "url": "/environment132/city-paving-roughness.webp",
+          "localUrl": "/environment132/city-paving-roughness.webp",
+          "bytes": 14908,
+          "sha256": "1c29d3ee0bc1723343d24bfc3b210f2136de2b099a0127b63ba99c102d6a6ab9"
+        }
+      },
+      "roof": {
+        "color": {
+          "url": "/environment132/city-roof-color.webp",
+          "localUrl": "/environment132/city-roof-color.webp",
+          "bytes": 13304,
+          "sha256": "c540b7a79d54f78fe110ee9e1ec202404d68aa505d500c2eee73414467156c3e"
+        },
+        "normal": {
+          "url": "/environment132/city-roof-normal.webp",
+          "localUrl": "/environment132/city-roof-normal.webp",
+          "bytes": 85668,
+          "sha256": "bb653b1eaf7dec7bc22b2cb57f6874f5a5acf878f2d731b64842fb4bfa0c5be3"
+        },
+        "roughness": {
+          "url": "/environment132/city-roof-roughness.webp",
+          "localUrl": "/environment132/city-roof-roughness.webp",
+          "bytes": 14922,
+          "sha256": "6ce81db2666566ed79665e81ee514dba80a74a40c5e8f112c2d720a97a482c11"
+        }
+      }
+    }
+  },
+  "generatorSHA256": "24dc843850966421cb4e0d80694b17becd04c25707251dc2fb4c8a913e8436d9"
+}
