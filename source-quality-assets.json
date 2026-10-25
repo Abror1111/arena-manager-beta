@@ -1,0 +1,89 @@
+{
+  "result": "passed",
+  "scope": "Original export visual review, not a new gameplay release",
+  "maps": [
+    {
+      "id": "dust2",
+      "source": "de_dust2",
+      "sha256": "dcb806df8bed30e2b90edf6791af7d4de4e3cbe20d3c8eba4c61e6c048198c58",
+      "bytes": 38266876,
+      "navigationAndElevationUnchanged": true
+    },
+    {
+      "id": "mirage",
+      "source": "de_mirage",
+      "sha256": "e273d62242e1ba76fc4183312c08ee853fdb428862e3ca8b76f35ad8bc577185",
+      "bytes": 25218428,
+      "navigationAndElevationUnchanged": true
+    },
+    {
+      "id": "vertigo",
+      "source": "de_vertigo",
+      "sha256": "c282b53ff98c4b4207279494a1276302b63638ac6f67f2731c033ba1175b489b",
+      "bytes": 21790760,
+      "navigationAndElevationUnchanged": true
+    },
+    {
+      "id": "nuke",
+      "source": "de_nuke",
+      "sha256": "2d6f766280425a6a2b9252b1ddaea9d3e8a5f87a197313cdbc47cfce7a301f1c",
+      "bytes": 38083164,
+      "navigationAndElevationUnchanged": true
+    },
+    {
+      "id": "anubis",
+      "source": "de_anubis",
+      "sha256": "7e4059ab80c0abe303ceeaa00619b02a17e5602e51122df65f634346e7a7050b",
+      "bytes": 37701836,
+      "navigationAndElevationUnchanged": true
+    },
+    {
+      "id": "ancient",
+      "source": "de_ancient",
+      "sha256": "0a9e959de285e07b66435d9912eb5e65a7b7c9d8a670c50a114712cefc56567c",
+      "bytes": 57682160,
+      "navigationAndElevationUnchanged": true
+    },
+    {
+      "id": "inferno",
+      "source": "de_inferno",
+      "sha256": "ca3c0b3800964427bfece7c6c6b8f323edf85a42087bdb5f9aa70c68c5392e98",
+      "bytes": 60196316,
+      "navigationAndElevationUnchanged": true
+    },
+    {
+      "id": "overpass",
+      "source": "de_overpass",
+      "sha256": "785fc044b1811010ad2455204f7ede4b0f2cf41de7bd13a484f3af641f29c357",
+      "bytes": 48610220,
+      "navigationAndElevationUnchanged": true
+    },
+    {
+      "id": "cache",
+      "source": "de_cache",
+      "sha256": "00e1eeb1e826c48446fa9d4223f47d804c6e0bd14908b04446d6430e75dbc1bf",
+      "bytes": 44929996,
+      "navigationAndElevationUnchanged": true
+    },
+    {
+      "id": "train",
+      "source": "de_train",
+      "sha256": "7b0270d5d2b599008651d87a29d646f0772ea0fb7cf2ced3d9c778717c5d555d",
+      "bytes": 61406132,
+      "navigationAndElevationUnchanged": true
+    },
+    {
+      "id": "ancient-night",
+      "source": "de_ancient",
+      "sha256": "0a9e959de285e07b66435d9912eb5e65a7b7c9d8a670c50a114712cefc56567c",
+      "bytes": 57682160,
+      "navigationAndElevationUnchanged": true
+    }
+  ],
+  "uniqueAssetFilesExact": 98,
+  "totalSourceBytes": 441358082,
+  "inventedBuildings": 0,
+  "inventedMaterialOverrides": 0,
+  "exportGeometryAndUVUnchanged": true,
+  "sourceAssetOwnership": "Valve and respective rights holders"
+}

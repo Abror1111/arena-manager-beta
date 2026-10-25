@@ -1,3 +1,5 @@
+[Original CS2 map visual review](https://abror1111.github.io/arena-manager-beta/quality.html?map=dust2) — supplied source models and textures, separate from the running 1.32 game. [Scope](SOURCE-QUALITY-REVIEW.md).
+
 # ARENA Manager 1.32 beta — detailed environments
 
 [Web / PC](https://abror1111.github.io/arena-manager-beta/?v=132) · [Android APK, 103 MB](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.32-beta/ARENA-1.32-beta.apk) · [Editable new detail kit](https://github.com/Abror1111/arena-manager-beta/releases/download/arena-1.32-beta/ARENA-environment-kit-1.32.zip) · [Classic 1.31](https://abror1111.github.io/arena-manager-beta/classic-1.31.html)
