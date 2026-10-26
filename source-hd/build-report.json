@@ -1,0 +1,8406 @@
+{
+  "result": "passed",
+  "sourceSHA256": "ce24aced8ca050dde99d963129b369adccb6081d9df8aa26df3f19a1c93b2209",
+  "sourceBytes": 336209164,
+  "sourceOriginalTriangles": 4546379,
+  "retainedSourceTriangles": 4541597,
+  "outputTriangles": 4541597,
+  "removedCompilerPrimitives": 15,
+  "removedEngineEffectPrimitives": 45,
+  "foliageWeightAttributes": 124,
+  "geometrySimplification": false,
+  "geometryQuantization": false,
+  "allGeometryAttributesLosslessRoundtrip": true,
+  "meshes": 780,
+  "materials": 684,
+  "textures": 556,
+  "textureRGBABytes": 443023384,
+  "textureRecords": [
+    {
+      "name": "hr_dust_trim_overlay_psd_92cba63e.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 49936
+    },
+    {
+      "name": "hr_dust_overlay_sign_03_color_psd_44180c6a.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 157822
+    },
+    {
+      "name": "default_normal_tga_7be61377.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1,
+        1
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 38
+    },
+    {
+      "name": "default_selfillum_tga_e58fcf1c.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1,
+        1
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 46
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2889892925.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1,
+        1
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 36
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3386094931.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1,
+        1
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 36
+    },
+    {
+      "name": "hr_dust_overlay_sign_01_color_psd_f45ae7ec.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 248062
+    },
+    {
+      "name": "hr_dust_overlay_sign_01_vmat_g_tlayer1ambientocclusion_9782fd5c_orm_2575120811.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1,
+        1
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 36
+    },
+    {
+      "name": "wall_stain001_color_psd_9c6b7b87.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 162198
+    },
+    {
+      "name": "hr_dust_overlay_sign_02_color_psd_4179acc6.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 212718
+    },
+    {
+      "name": "hr_dust_decal_road_striping_color_psd_3c1a7134.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 260942
+    },
+    {
+      "name": "hr_dust_decal_road_striping_normal_tga_e212d74c.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 71478
+    },
+    {
+      "name": "hr_dust_decal_road_striping_normal_tga_e212d74c_orm_2314378234.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 2906
+    },
+    {
+      "name": "dust_manhole_concrete_color_psd_b269b35b.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 154188
+    },
+    {
+      "name": "dust_manhole_concrete_normal_psd_825e3bf.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 14364
+    },
+    {
+      "name": "dust_manhole_concrete_normal_psd_825e3bf_orm_2436748332.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 2590
+    },
+    {
+      "name": "hr_dust_overlay_sign_05_color_psd_3e5db6b7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 127506
+    },
+    {
+      "name": "dust_panel_paint_patch_color_tga_3213628c.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 73466
+    },
+    {
+      "name": "hr_dust_decal_mudbrick_wear_01_color_psd_4a3a0ad0.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 135462
+    },
+    {
+      "name": "hr_dust_decal_mudbrick_wear_01_normal_tga_71ea4bfc.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 24948
+    },
+    {
+      "name": "hr_dust_decal_mudbrick_wear_01_normal_tga_71ea4bfc_orm_3747816243.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 764
+    },
+    {
+      "name": "bombsite_x_spray_color_psd_34b5fb84.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 93476
+    },
+    {
+      "name": "bombsite_x_spray_normal_psd_28f21001.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 39994
+    },
+    {
+      "name": "bombsite_x_spray_normal_psd_28f21001_orm_803633194.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 58
+    },
+    {
+      "name": "hr_dust_overlay_sign_04_color_psd_2825937b.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 64702
+    },
+    {
+      "name": "dust_garbage_dumpster_signage_color_tga_7818e5d7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 47988
+    },
+    {
+      "name": "dust_electric_panel_cover_color_tga_b372de09.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        64,
+        128
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "bytes": 2830
+    },
+    {
+      "name": "dust_electric_panel_cover_color_rough_tga_fd3f0d22.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        64,
+        128
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "bytes": 44
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2032159020.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        64,
+        128
+      ],
+      "size": [
+        64,
+        128
+      ],
+      "bytes": 2312
+    },
+    {
+      "name": "hr_dust_metal_trim_01_color_psd_1fc73036.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        256
+      ],
+      "size": [
+        512,
+        64
+      ],
+      "bytes": 9468
+    },
+    {
+      "name": "hr_dust_metal_trim_01_normal_psd_f059dcb2.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        256
+      ],
+      "size": [
+        256,
+        32
+      ],
+      "bytes": 1792
+    },
+    {
+      "name": "hr_dust_metal_trim_01_normal_psd_f059dcb2_orm_3521441051.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        256
+      ],
+      "size": [
+        256,
+        32
+      ],
+      "bytes": 58
+    },
+    {
+      "name": "hr_dust_asphalt_06_color_psd_153a7cd9.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 77444
+    },
+    {
+      "name": "hr_dust_asphalt_06_normal_psd_bfbfdbf5.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 43520
+    },
+    {
+      "name": "hr_dust_asphalt_06_normal_psd_bfbfdbf5_orm_3872646711.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1124
+    },
+    {
+      "name": "hr_dust_plaster_09_color_psd_99a0efd0.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 75720
+    },
+    {
+      "name": "hr_dust_plaster_05_normal_psd_32964e28.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 40188
+    },
+    {
+      "name": "hr_dust_plaster_05_normal_psd_32964e28_orm_598268079.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 9494
+    },
+    {
+      "name": "hr_dust_plaster_09b_color_psd_4b94e860.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 101734
+    },
+    {
+      "name": "hr_dust_plaster_09c_color_psd_f7d3dabd.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 94708
+    },
+    {
+      "name": "hr_dust_plaster_17_color_psd_e3c2fa8e.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 41418
+    },
+    {
+      "name": "hr_dust_plaster_17_normal_psd_58bdce.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 31888
+    },
+    {
+      "name": "hr_dust_plaster_17_normal_psd_58bdce_orm_2862003201.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 540
+    },
+    {
+      "name": "dust_mudbrick_edges_color_psd_5ae3def2.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        512,
+        1024
+      ],
+      "bytes": 218072
+    },
+    {
+      "name": "dust_mudbrick_edges_normal_tga_d02f1382.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 149692
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2765833804.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 776
+    },
+    {
+      "name": "hr_dust_plaster_18_color_psd_4100325a.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 55860
+    },
+    {
+      "name": "hr_dust_plaster_18_normal_psd_a25dc4f1.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 38970
+    },
+    {
+      "name": "hr_dust_plaster_18_normal_psd_a25dc4f1_orm_3246423516.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 62
+    },
+    {
+      "name": "hr_dust_plaster_18c_color_psd_c838b784.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 63396
+    },
+    {
+      "name": "hr_dust_breeze_block_01_color_psd_26bc55a.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 26956
+    },
+    {
+      "name": "hr_dust_breeze_block_01_normal_tga_6c93f71d.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 54110
+    },
+    {
+      "name": "hr_dust_breeze_block_01_normal_tga_6c93f71d_orm_3522687800.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 3136
+    },
+    {
+      "name": "dust_access_panel_03_color_psd_d796c737.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 34654
+    },
+    {
+      "name": "hr_dust_sidewalk01b_color_psd_f35591a1.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 86738
+    },
+    {
+      "name": "palm_bark_01_color_psd_69667e.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 488696
+    },
+    {
+      "name": "palm_bark_01_normal_psd_a61ea3b7.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 275902
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2210102583.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 15550
+    },
+    {
+      "name": "hr_dust_plaster_18b_color_psd_5b3997de.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 84104
+    },
+    {
+      "name": "dust_door_80x128_01_bars_color_tga_87687f5e.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 11842
+    },
+    {
+      "name": "dust_door_80x128_01_bars_normal_tga_d5e1c8d7.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 12742
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2948416153.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        128,
+        128
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 794
+    },
+    {
+      "name": "agave_plant_01_color_psd_333685f.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 128858
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1923040034.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1,
+        1
+      ],
+      "size": [
+        1,
+        1
+      ],
+      "bytes": 36
+    },
+    {
+      "name": "antenna_card_color_psd_75f7b6da.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 90650
+    },
+    {
+      "name": "crates_dishes_color_psd_2a63f9ca.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 111626
+    },
+    {
+      "name": "dust_300d_color_psd_9a165602.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 299386
+    },
+    {
+      "name": "dust_300d_mask_rough_tga_ea322e15.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 44
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_821733362.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 11696
+    },
+    {
+      "name": "dust_300d_wheel_color_psd_ed809751.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 73074
+    },
+    {
+      "name": "dust_300d_wheel_normal_psd_ff9e00e1.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 50270
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_955042919.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 11906
+    },
+    {
+      "name": "dust_ac_unit_color_psd_92b3d01.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 26868
+    },
+    {
+      "name": "dust_access_panel_01_color_psd_b5598448.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 37502
+    },
+    {
+      "name": "dust_access_panel_02_color_psd_1e3cad47.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 75234
+    },
+    {
+      "name": "dust_arch_01_color_tga_fb22148.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 116134
+    },
+    {
+      "name": "dust_arch_01_normal_tga_aed07b7d.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 58214
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3963457530.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 2076
+    },
+    {
+      "name": "dust_arch_01_pattern_color_psd_ca5f68de.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 39094
+    },
+    {
+      "name": "dust_arch_01_pattern_normal_tga_57450178.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 43848
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3159286874.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 1120
+    },
+    {
+      "name": "dust_arch_02_color_psd_ca8f99aa.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 94626
+    },
+    {
+      "name": "dust_arch_02_normal_psd_735a9842.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 61828
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2698715377.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 3340
+    },
+    {
+      "name": "dust_arch_03_color_tga_d6f18df2.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 105530
+    },
+    {
+      "name": "dust_arch_03_normal_tga_9836a216.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 66854
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_171204353.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1684
+    },
+    {
+      "name": "dust_awning_02_color_psd_2f32824b.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 476538
+    },
+    {
+      "name": "dust_awning_02_normal_tga_61660ed.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 65138
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3474259468.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1898
+    },
+    {
+      "name": "dust_awning_fabric_01_color_psd_e88d4599.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        1024
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 24004
+    },
+    {
+      "name": "dust_awning_fabric_01_normal_tga_3f1b9409.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 19196
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1323365508.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 782
+    },
+    {
+      "name": "dust_awning_fabric_frame_01_color_psd_74b2b17c.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        1024,
+        512
+      ],
+      "bytes": 253568
+    },
+    {
+      "name": "dust_awning_fabric_ripped_01_color_psd_789780ed.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        1024
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 66496
+    },
+    {
+      "name": "dust_awning_fabric_ripped_01_normal_tga_3ba54039.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 23436
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2392362252.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 860
+    },
+    {
+      "name": "dust_bicycle_color_psd_bfc90d7a.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 25652
+    },
+    {
+      "name": "dust_bicycle_tint_rough_tga_9f49a37b.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        128,
+        256
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 564
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_250477167.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        128,
+        256
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 10370
+    },
+    {
+      "name": "dust_breeze_blocks_01_color_psd_3acccac7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 395238
+    },
+    {
+      "name": "dust_breeze_blocks_01_normal_tga_40ad7456.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 193900
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_770125855.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 7720
+    },
+    {
+      "name": "dust_car_wreck_color_psd_3fb931c5.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 72730
+    },
+    {
+      "name": "dust_car_wreck_interior_color_psd_c2392e28.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 58374
+    },
+    {
+      "name": "dust_car_wreck_interior_normal_psd_f9d8da81.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 24008
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1182718421.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 750
+    },
+    {
+      "name": "dust_cart_cloth_color_psd_662536b8.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 83900
+    },
+    {
+      "name": "dust_cart_color_psd_847804a8.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        1024,
+        512
+      ],
+      "bytes": 153990
+    },
+    {
+      "name": "dust_ceiling_light_01_color_psd_bb39eaf3.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        128,
+        64
+      ],
+      "size": [
+        128,
+        64
+      ],
+      "bytes": 2982
+    },
+    {
+      "name": "dust_cell_tower_color_psd_25661be4.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 113234
+    },
+    {
+      "name": "dust_chainlink_fence_001_color_psd_f6c093f1.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 349748
+    },
+    {
+      "name": "dust_chainlink_fence_cover_001_color_psd_c922a0ad.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 95854
+    },
+    {
+      "name": "dust_chainlink_fence_wire_001_mip0_color_tga_5081421d.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 46712
+    },
+    {
+      "name": "dust_construction_site_01_color_psd_6a83384.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 70090
+    },
+    {
+      "name": "dust_construction_site_01_normal_tga_57a69f11.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 44066
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3435428131.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 1730
+    },
+    {
+      "name": "dust_curbs_001_color_psd_7314f1e8.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        512
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "bytes": 26470
+    },
+    {
+      "name": "dust_curbs_001_painted_color_psd_eadf6b61.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        512
+      ],
+      "size": [
+        1024,
+        256
+      ],
+      "bytes": 96236
+    },
+    {
+      "name": "concrete_10_normal_psd_d6a32d9f.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 337504
+    },
+    {
+      "name": "concrete_10_normal_psd_d6a32d9f_orm_102723445.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 130736
+    },
+    {
+      "name": "dust_detruis_sacks_02_color_psd_86dd2078.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 121444
+    },
+    {
+      "name": "dust_detruis_sacks_02_normal_psd_d8be7b82.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 288930
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1841734296.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 24886
+    },
+    {
+      "name": "dust_detruis_sacks_color_psd_ea7c8220.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 102776
+    },
+    {
+      "name": "dust_detruis_sacks_normal_psd_79e01735.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 38168
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2214636149.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 2952
+    },
+    {
+      "name": "dust_door_46x106_01_color_psd_bb1ca1b.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 22372
+    },
+    {
+      "name": "dust_door_46x106_01_normal_tga_f47b8530.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 15156
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1541566942.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 286
+    },
+    {
+      "name": "dust_door_46x106_02_color_psd_8e2d5aa0.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 35818
+    },
+    {
+      "name": "dust_door_46x106_02_normal_tga_b2ef72b8.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 18826
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1486511614.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 414
+    },
+    {
+      "name": "dust_door_46x106_03_color_psd_a36c4d9b.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 35406
+    },
+    {
+      "name": "dust_door_46x106_03_normal_tga_87b281a.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 18922
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3558615513.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 316
+    },
+    {
+      "name": "dust_door_46x106_04_color_psd_f5665b8.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 34420
+    },
+    {
+      "name": "dust_door_46x106_04_normal_tga_ce715fef.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 17728
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3072738233.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 448
+    },
+    {
+      "name": "dust_door_46x106_05_color_psd_73f554b.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 40918
+    },
+    {
+      "name": "dust_door_46x106_05_normal_tga_b37addec.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 21480
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3043269784.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 676
+    },
+    {
+      "name": "dust_door_46x106_06_color_psd_8beee1b1.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 37676
+    },
+    {
+      "name": "dust_door_46x106_06_normal_tga_f2a41ff1.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 78716
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_4065518755.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 1198
+    },
+    {
+      "name": "dust_door_46x106_06_colorb_color_psd_df303f3f.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        1024,
+        2048
+      ],
+      "bytes": 940518
+    },
+    {
+      "name": "dust_door_46x106_07_color_psd_89730f95.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 45570
+    },
+    {
+      "name": "dust_door_46x106_07_normal_tga_badaf49a.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 12150
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2510802086.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 228
+    },
+    {
+      "name": "dust_door_80x128_01_color_psd_6c6b8dc1.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 105400
+    },
+    {
+      "name": "dust_door_80x128_01_normal_tga_54cd980e.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 73446
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3447971382.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 974
+    },
+    {
+      "name": "dust_door_80x128_02_color_psd_4cd320db.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 119026
+    },
+    {
+      "name": "dust_door_80x128_02_normal_tga_ba2ceb9d.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 76252
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1087422006.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1154
+    },
+    {
+      "name": "dust_door_80x128_03_color_psd_628c05bb.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 102682
+    },
+    {
+      "name": "dust_door_80x128_03_normal_tga_11442ba7.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 48860
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1860434529.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 974
+    },
+    {
+      "name": "dust_door_80x128_04_color_psd_7f84ce17.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 95432
+    },
+    {
+      "name": "dust_door_80x128_04_normal_tga_752c096.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 72610
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3015017505.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1196
+    },
+    {
+      "name": "dust_door_80x128_04_frame_color_tga_923c675e.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 60946
+    },
+    {
+      "name": "dust_door_80x128_04_frame_normal_tga_2f927386.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 36570
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2296203675.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 744
+    },
+    {
+      "name": "dust_door_arch_01_color_psd_8c35fb8f.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        1024,
+        2048
+      ],
+      "bytes": 957872
+    },
+    {
+      "name": "dust_door_arch_01_normal_tga_26ec7b14.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 106150
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_800069376.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 2282
+    },
+    {
+      "name": "dust_doorframes_01_color_psd_c72ae82b.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 443944
+    },
+    {
+      "name": "dust_doorframes_01_normal_tga_b84da9b9.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 67092
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_131724074.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1168
+    },
+    {
+      "name": "dust_doorframes_02_color_psd_1899ebdd.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 95318
+    },
+    {
+      "name": "dust_doorframes_02_normal_tga_7788ae0b.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 47906
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_4207346658.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 904
+    },
+    {
+      "name": "dust_doorframes_03_color_psd_9a98f63.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 372436
+    },
+    {
+      "name": "dust_doorframes_03_normal_tga_dc11f7b3.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 60280
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_83897054.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1384
+    },
+    {
+      "name": "dust_electric_panel_color_psd_9bd01950.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 28938
+    },
+    {
+      "name": "dust_electrical_powerbox_color_psd_cbfbae75.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 98456
+    },
+    {
+      "name": "dust_electrical_powerbox_tint_rough_tga_b0f62700.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 464
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1011012818.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 25470
+    },
+    {
+      "name": "dust_flatbed_truck_color_psd_502df81f.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 65410
+    },
+    {
+      "name": "dust_flatbed_truck_mask_rough_tga_ff04f0a9.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 76
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2266492760.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 16072
+    },
+    {
+      "name": "dust_flatbed_truck_wheels_color_psd_c468dd1d.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 36134
+    },
+    {
+      "name": "dust_flatbed_truck_wheels_normal_psd_7be8fc1f.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 42610
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2392314039.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 9002
+    },
+    {
+      "name": "dust_garbage_container_color_psd_391c9fcd.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        1024
+      ],
+      "size": [
+        1024,
+        512
+      ],
+      "bytes": 88978
+    },
+    {
+      "name": "dust_garbage_dumpster_color_psd_e30ab3b6.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 70594
+    },
+    {
+      "name": "dust_garbage_dumpster_color_rough_psd_c7fe64f.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 160
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2156100911.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 30256
+    },
+    {
+      "name": "dust_grain_basket_color_psd_f12de1db.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 125060
+    },
+    {
+      "name": "dust_grain_basket_normal_psd_3e589d6c.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 101066
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2844410776.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 22256
+    },
+    {
+      "name": "dust_hanging_light_02_color_psd_5d9a2d2e.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        256
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "bytes": 27052
+    },
+    {
+      "name": "dust_hanging_light_02_normal_tga_12824507.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        128
+      ],
+      "size": [
+        256,
+        64
+      ],
+      "bytes": 11102
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3515317460.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        128
+      ],
+      "size": [
+        256,
+        64
+      ],
+      "bytes": 9526
+    },
+    {
+      "name": "dust_hanging_light_02_color_tga_45a48fdd.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        256
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "bytes": 29074
+    },
+    {
+      "name": "dust_hanging_light_02_color_selfillum_tga_34ed8907.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        256
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "bytes": 1060
+    },
+    {
+      "name": "dust_hotel_arch001_color_psd_dacb926f.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 44812
+    },
+    {
+      "name": "dust_hotel_arch001_normal_psd_381543b2.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 9820
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1999251777.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 372
+    },
+    {
+      "name": "dust_hr_oil_drum_color_psd_5cbba118.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 112944
+    },
+    {
+      "name": "dust_hr_oil_drum_normal_psd_13e08791.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 53460
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1274240160.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 33312
+    },
+    {
+      "name": "dust_kasbah_block_lifter_color_psd_ac90ecc6.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 85520
+    },
+    {
+      "name": "dust_kasbah_block_lifter_normal_tga_a93d454d.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 42470
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1257703532.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 1218
+    },
+    {
+      "name": "dust_kasbah_ceiling_color_psd_84097df2.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 101696
+    },
+    {
+      "name": "dust_kasbah_ceiling_normal_tga_5aaac840.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 73332
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3320510436.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1610
+    },
+    {
+      "name": "dust_kasbah_ladder_color_psd_4ae5a47d.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        512,
+        1024
+      ],
+      "bytes": 241048
+    },
+    {
+      "name": "dust_kasbah_ladder_normal_tga_21455576.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 107388
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2917356025.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 6036
+    },
+    {
+      "name": "dust_kasbah_mudbrick_piles_color_psd_8568df5a.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 541174
+    },
+    {
+      "name": "dust_kasbah_mudbrick_piles_normal_tga_9046f586.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 374512
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1230380158.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 12334
+    },
+    {
+      "name": "dust_kasbah_rock_wall_color_psd_b409098f.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 154464
+    },
+    {
+      "name": "dust_kasbah_rock_wall_normal_tga_116a96a1.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 328994
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_506985530.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 17298
+    },
+    {
+      "name": "dust_kasbah_rooftrim_01_color_psd_42110850.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 761352
+    },
+    {
+      "name": "dust_kasbah_rooftrim_01_normal_tga_5e2072f8.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 263846
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_416264860.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 18870
+    },
+    {
+      "name": "dust_kasbah_small_rocks_color_psd_471a7ae7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 419930
+    },
+    {
+      "name": "dust_kasbah_small_rocks_normal_tga_bd2d7c36.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 231442
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3968088051.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 10564
+    },
+    {
+      "name": "dust_kasbah_tarp_04_color_psd_cdeb6a3f.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 76688
+    },
+    {
+      "name": "dust_kasbah_tarp_04_normal_tga_1d18d3d5.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 54990
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1990102936.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 23236
+    },
+    {
+      "name": "dust_kasbah_window_insets_01_color_psd_704366f2.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 614468
+    },
+    {
+      "name": "dust_kasbah_window_insets_01_normal_tga_6e51205d.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 290996
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3005123858.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 19636
+    },
+    {
+      "name": "dust_kasbah_windows_01_color_psd_79e34ecd.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        512,
+        1024
+      ],
+      "bytes": 178430
+    },
+    {
+      "name": "dust_kasbah_windows_01_normal_tga_a4cdea1f.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 91020
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1938040093.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 2386
+    },
+    {
+      "name": "dust_kasbah_wood_forms_color_psd_36a7a9e0.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        512,
+        1024
+      ],
+      "bytes": 253616
+    },
+    {
+      "name": "dust_kasbah_wood_forms_normal_tga_78f9a74e.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 105354
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2673971070.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 2458
+    },
+    {
+      "name": "dust_kasbah_wood_planks_color_psd_9108b195.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        512,
+        1024
+      ],
+      "bytes": 274194
+    },
+    {
+      "name": "dust_kasbah_wood_planks_normal_tga_1c51acbb.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 182102
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_869367053.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 7424
+    },
+    {
+      "name": "dust_kasbah_wood_platform_color_psd_2bda54d1.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 459484
+    },
+    {
+      "name": "dust_kasbah_wood_platform_normal_tga_8d89d6fe.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 216396
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2677532322.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 14130
+    },
+    {
+      "name": "dust_laundry_pole_01_color_psd_853ef665.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        1024
+      ],
+      "size": [
+        128,
+        512
+      ],
+      "bytes": 30412
+    },
+    {
+      "name": "dust_laundry_pole_01_normal_tga_fcf2f63a.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        128,
+        512
+      ],
+      "size": [
+        64,
+        256
+      ],
+      "bytes": 14740
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3156143555.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        128,
+        512
+      ],
+      "size": [
+        64,
+        256
+      ],
+      "bytes": 340
+    },
+    {
+      "name": "dust_light_pole_02_color_psd_6d1f9327.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 51534
+    },
+    {
+      "name": "dust_light_pole_02_mask_rough_tga_d44c72a1.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 62
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3234695184.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 14172
+    },
+    {
+      "name": "dust_light_pole_color_psd_ed17edef.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 44742
+    },
+    {
+      "name": "dust_light_pole_mask_rough_tga_3835755.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 172
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_4165627046.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 16324
+    },
+    {
+      "name": "dust_metal_panels_01_color_psd_9eebf38.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 54278
+    },
+    {
+      "name": "dust_metal_panels_01_normal_tga_913c1ceb.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 32554
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3979345625.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 696
+    },
+    {
+      "name": "dust_metal_panels_01_rusty_alpha_color_psd_fae92f51.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 60570
+    },
+    {
+      "name": "dust_metal_panels_01_rusty_alpha_color_psd_5817110d.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 98454
+    },
+    {
+      "name": "dust_mudbrick_bombsite_gap_color_psd_fed3d9d7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 114210
+    },
+    {
+      "name": "dust_mudbrick_bombsite_gap_normal_tga_d76f1ee6.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 91502
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_365924821.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 3682
+    },
+    {
+      "name": "dust_mudbrick_crumbling_wall_color_psd_9b3b1d94.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        1024
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 51866
+    },
+    {
+      "name": "dust_mudbrick_crumbling_wall_normal_tga_2dd38e2c.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 52730
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2222663319.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 2740
+    },
+    {
+      "name": "dust_mudbrick_plaster_color_psd_5dfeb031.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 110322
+    },
+    {
+      "name": "dust_mudbrick_plaster_normal_tga_3135bebf.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 68362
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2382524162.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1622
+    },
+    {
+      "name": "hr_dust_mudbrick_plaster_rough_01_color_psd_62e66d87.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 195954
+    },
+    {
+      "name": "dust_mudbrick_transition_normal_tga_658319f0.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 77050
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_4083125100.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 3392
+    },
+    {
+      "name": "dust_ornate_lanterns_01_color_psd_643fcca4.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 189598
+    },
+    {
+      "name": "dust_ornate_lanterns_01_normal_tga_7ac78e41.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 76858
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3543367443.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 44640
+    },
+    {
+      "name": "dust_patio_chair_color_psd_f6618825.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 118492
+    },
+    {
+      "name": "dust_patio_chair_tint_rough_tga_1ec95229.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 136
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3731776728.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 18538
+    },
+    {
+      "name": "dust_patio_umbrella_color_psd_6e45e3a.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 71618
+    },
+    {
+      "name": "dust_patio_umbrella_tint_rough_tga_a8af58fe.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 96
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2954817682.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 9150
+    },
+    {
+      "name": "dust_pottery_color_psd_4b018c95.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 87494
+    },
+    {
+      "name": "dust_pottery_normal_psd_45babe84.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 51432
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_74405540.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 21584
+    },
+    {
+      "name": "dust_propane_cylinder_01_color_psd_6d58e372.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 29572
+    },
+    {
+      "name": "dust_propane_cylinder_01_tint_rough_tga_b4a6c7d1.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        128
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 118
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_248252738.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        128
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 8534
+    },
+    {
+      "name": "dust_propane_cylinder_02_color_psd_a8de1af7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 78584
+    },
+    {
+      "name": "dust_propane_cylinder_02_tint_rough_tga_daea3503.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 116
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_994069565.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 13396
+    },
+    {
+      "name": "dust_r5_color_psd_39048664.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        1024
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 37668
+    },
+    {
+      "name": "dust_r5_mask_rough_tga_19d6fa6a.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 78
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_642147303.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 9096
+    },
+    {
+      "name": "dust_restaurant_sign_02_color_psd_5fcd0ddb.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 107388
+    },
+    {
+      "name": "dust_restaurant_sign_02_mask_rough_tga_42da63c0.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 474
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1481771682.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 28656
+    },
+    {
+      "name": "dust_rollupdoor_frame_01_color_psd_508c65af.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 399688
+    },
+    {
+      "name": "dust_rollupdoor_frame_01_normal_tga_78d19de8.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 56206
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_35925117.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 1324
+    },
+    {
+      "name": "dust_rooftop_01_color_psd_b6cfde23.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 55936
+    },
+    {
+      "name": "dust_rooftop_shingles_color_psd_9e0e30d0.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 95154
+    },
+    {
+      "name": "dust_satellite_dish_color_psd_4821290f.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 39022
+    },
+    {
+      "name": "dust_shelf_01_color_psd_8a092135.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        1024
+      ],
+      "size": [
+        128,
+        512
+      ],
+      "bytes": 30122
+    },
+    {
+      "name": "dust_shipping_crate_01_painted_color_psd_43e62a4b.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 445100
+    },
+    {
+      "name": "dust_shipping_crate_01_wood_normal_tga_9a3f4f4c.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 58004
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2052125134.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 31848
+    },
+    {
+      "name": "dust_shipping_crate_01_wood_normal_tga_6d022dac.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 236088
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_633915803.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 7448
+    },
+    {
+      "name": "dust_shipping_crate_01_wood_color_psd_2067ad8e.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 388140
+    },
+    {
+      "name": "dust_shipping_crate_01_wood_normal_tga_c0e63af1.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 239620
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3524871987.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 114600
+    },
+    {
+      "name": "dust_shipping_crate_02_painted_color_psd_5ad3b955.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 416206
+    },
+    {
+      "name": "dust_shipping_crate_02_wood_normal_tga_5c6979f2.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 135014
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3184086649.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 106570
+    },
+    {
+      "name": "dust_shipping_crate_02_wood_color_psd_8022293a.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 340270
+    },
+    {
+      "name": "dust_shipping_crate_02_wood_normal_tga_cde58b27.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 124650
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_586523742.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 2552
+    },
+    {
+      "name": "dust_shipping_crate_tarp_01_color_psd_2a6933b6.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 58192
+    },
+    {
+      "name": "dust_shipping_crate_tarp_01_normal_tga_d96fad34.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 49558
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_230946436.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 23086
+    },
+    {
+      "name": "dust_shipping_crate_tarp_02_color_psd_3bee22c6.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 58660
+    },
+    {
+      "name": "dust_shipping_crate_tarp_02_normal_tga_b899fc33.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 44962
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3507562395.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 29886
+    },
+    {
+      "name": "dust_shop_sign_02_color_psd_cce5cd17.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 31704
+    },
+    {
+      "name": "dust_shop_sign_02_mask_rough_tga_54252018.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 308
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2340815135.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 19014
+    },
+    {
+      "name": "dust_terracotta_02_color_psd_fb17f7af.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 40652
+    },
+    {
+      "name": "dust_terracotta_03_color_psd_7dd267b2.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 36788
+    },
+    {
+      "name": "dust_terracotta_color_psd_29266c7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 21906
+    },
+    {
+      "name": "dust_trap_door_color_psd_14c2210b.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 105226
+    },
+    {
+      "name": "dust_trash_bag_02_color_psd_f70dd540.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 26958
+    },
+    {
+      "name": "dust_trash_bag_02_normal_psd_6d424a19.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 37488
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2716263947.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 8052
+    },
+    {
+      "name": "dust_trash_bag_color_psd_9be5cc5d.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 25182
+    },
+    {
+      "name": "dust_trash_bag_normal_tga_8ebc31e4.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 38500
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2760953575.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 5048
+    },
+    {
+      "name": "dust_vehicle_glass_opaque_color_psd_615258b1.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 47070
+    },
+    {
+      "name": "dust_vehicle_glass_opaque_mask_rough_psd_695492aa.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 158
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_93432994.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 28532
+    },
+    {
+      "name": "dust_arch_03_color_psd_5982627a.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 94132
+    },
+    {
+      "name": "dust_door_arch_01_color_tga_5c47c93c.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 57508
+    },
+    {
+      "name": "dust_wall_vents_01_color_psd_6ef61358.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 96220
+    },
+    {
+      "name": "dust_wall_vents_01_normal_tga_cd6dc5b9.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 52716
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3242788892.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 2504
+    },
+    {
+      "name": "dust_weeds_01_color_psd_75512acc.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 154696
+    },
+    {
+      "name": "dust_window_bars_metal_01_color_psd_db1f46ff.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 37808
+    },
+    {
+      "name": "dust_window_bars_metal_01_normal_tga_5691d15.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 54810
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3611678391.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 3590
+    },
+    {
+      "name": "dust_window_bars_metal_01_color_psd_f802efec.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 91094
+    },
+    {
+      "name": "dust_window_bars_metal_01_colorb_color_tga_9e2db58e.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 65292
+    },
+    {
+      "name": "dust_window_bars_metal_01_colorb_color_psd_4fef6888.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        512,
+        1024
+      ],
+      "bytes": 247836
+    },
+    {
+      "name": "dust_window_frame_stone_01_color_tga_576f2bb7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 171120
+    },
+    {
+      "name": "dust_window_frame_stone_01_normal_tga_344b1ea3.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 53754
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3159453125.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 884
+    },
+    {
+      "name": "dust_window_frame_stone_01_color_psd_a6b43a54.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 369752
+    },
+    {
+      "name": "dust_window_frame_wood_01_color_psd_a9d8a195.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        512,
+        1024
+      ],
+      "bytes": 185774
+    },
+    {
+      "name": "dust_window_frame_wood_01_normal_tga_1b9c2f7.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 136922
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1314629249.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 1906
+    },
+    {
+      "name": "dust_windows_01_color_psd_7cbc43f.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        1024,
+        512
+      ],
+      "bytes": 165214
+    },
+    {
+      "name": "dust_windows_01_normal_tga_86ae752c.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 10348
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3244570073.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 15436
+    },
+    {
+      "name": "dust_windows_low_color_psd_88092595.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 99296
+    },
+    {
+      "name": "dust_wire_attachments_01_color_psd_33718711.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 299052
+    },
+    {
+      "name": "dust_wire_attachments_01_normal_tga_6dfc1db.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 164414
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2200621407.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 6962
+    },
+    {
+      "name": "dust_wires_01_color_psd_50357cbe.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 278076
+    },
+    {
+      "name": "dust_wires_01_normal_tga_338262e1.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 133972
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_929861520.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 6712
+    },
+    {
+      "name": "dust_wood_pallet_color_psd_956938dc.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 119276
+    },
+    {
+      "name": "dust_wood_pallet_normal_tga_7bee11e8.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 51578
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_754524237.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1568
+    },
+    {
+      "name": "grape_leaves_01_color_psd_660252bb.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 108416
+    },
+    {
+      "name": "hr_dust_sidewalk01_color_psd_d0d4ec5a.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 86686
+    },
+    {
+      "name": "hr_dust_sidewalk01_normal_psd_b1bb4f61.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 60688
+    },
+    {
+      "name": "hr_dust_sidewalk01_normal_psd_b1bb4f61_orm_543537915.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 9260
+    },
+    {
+      "name": "hr_dust_floortile_03_color_psd_6e2e6189.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 115038
+    },
+    {
+      "name": "hr_dust_floortile_03_normal_tga_3adbd6d8.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 43858
+    },
+    {
+      "name": "hr_dust_floortile_03_normal_tga_3adbd6d8_orm_88368214.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 492
+    },
+    {
+      "name": "hr_dust_ground_dirt_rough_02_color_psd_1fef26ef.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 146518
+    },
+    {
+      "name": "hr_dust_ground_dirt_rough_02_normal_tga_b1208cb9.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 77244
+    },
+    {
+      "name": "hr_dust_ground_dirt_rough_02_normal_tga_b1208cb9_orm_2044268424.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1938
+    },
+    {
+      "name": "hr_dust_ground_dirt_rough_01_color_psd_a9b467d7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 154324
+    },
+    {
+      "name": "hr_dust_ground_dirt_rough_01_normal_tga_79d11f.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 46252
+    },
+    {
+      "name": "hr_dust_ground_dirt_rough_01_normal_tga_79d11f_orm_405171505.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 666
+    },
+    {
+      "name": "hr_dust_ground_stone_01_color_psd_38d17003.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 105434
+    },
+    {
+      "name": "hr_dust_ground_stone_01_normal_tga_6da5d93.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 82646
+    },
+    {
+      "name": "hr_dust_ground_stone_01_normal_tga_6da5d93_orm_3262721154.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 2526
+    },
+    {
+      "name": "hr_dust_mudbrick_plaster_rough_01_color_psd_aefd1156.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 118460
+    },
+    {
+      "name": "hr_dust_mudbrick_plaster_rough_01_normal_tga_81b10bbf.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 97992
+    },
+    {
+      "name": "hr_dust_mudbrick_plaster_rough_01_normal_tga_81b10bbf_orm_3109146199.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 4174
+    },
+    {
+      "name": "hr_dust_plaster_05b_color_psd_8b443cbf.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 61774
+    },
+    {
+      "name": "hr_dust_plaster_05c_color_psd_77224eec.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 63924
+    },
+    {
+      "name": "hr_dust_plaster_05_color_psd_c25bc3a3.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 59312
+    },
+    {
+      "name": "hr_dust_rollupdoor_metal_01_color_tga_6f061fcf.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 106314
+    },
+    {
+      "name": "hr_dust_rollupdoor_metal_01_normal_tga_9a62be5d.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 39558
+    },
+    {
+      "name": "hr_dust_rollupdoor_metal_01_normal_tga_9a62be5d_orm_3822223018.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 374
+    },
+    {
+      "name": "hr_dust_rollupdoor_metal_02_color_tga_3a34d796.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 112686
+    },
+    {
+      "name": "hr_dust_rollupdoor_metal_02_normal_tga_25ea6fad.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 39914
+    },
+    {
+      "name": "hr_dust_rollupdoor_metal_02_normal_tga_25ea6fad_orm_444473031.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 560
+    },
+    {
+      "name": "hr_dust_rollupdoor_metal_03_color_psd_b6c4d9f7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 112902
+    },
+    {
+      "name": "hr_dust_rollupdoor_metal_03_normal_tga_e5122722.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 38108
+    },
+    {
+      "name": "hr_dust_rollupdoor_metal_03_normal_tga_e5122722_orm_2726592154.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 2490
+    },
+    {
+      "name": "hr_dust_sand_02_color_psd_755e7eb9.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 106496
+    },
+    {
+      "name": "hr_dust_sand_02_normal_psd_ad4a73ca.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 83130
+    },
+    {
+      "name": "hr_dust_sand_02_normal_psd_ad4a73ca_orm_1001663041.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 2580
+    },
+    {
+      "name": "hr_dust_bracket001_color_psd_1fd3edc1.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 509116
+    },
+    {
+      "name": "hr_dust_bracket001_normal_psd_bad036e5.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 45256
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3189451888.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 6210
+    },
+    {
+      "name": "hr_dust_brick_ground_02_color_psd_ad854784.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 99468
+    },
+    {
+      "name": "hr_dust_brick_ground_02_normal_tga_ddebf549.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 54934
+    },
+    {
+      "name": "hr_dust_brick_ground_02_normal_tga_ddebf549_orm_68278592.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 35814
+    },
+    {
+      "name": "hr_dust_brick_ground_04_color_psd_b5d8334a.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 110204
+    },
+    {
+      "name": "hr_dust_brick_ground_04_normal_tga_e2990211.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 52510
+    },
+    {
+      "name": "hr_dust_brick_ground_04_normal_tga_e2990211_orm_1836652867.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1226
+    },
+    {
+      "name": "hr_dust_building_ornament_color_psd_785e9596.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 78916
+    },
+    {
+      "name": "hr_dust_concrete_02_color_psd_53d432d2.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 117150
+    },
+    {
+      "name": "hr_dust_concrete_04_color_psd_7570a74d.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 95104
+    },
+    {
+      "name": "hr_dust_kasbah_arch002_color_psd_22d37ba0.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 96458
+    },
+    {
+      "name": "hr_dust_kasbah_arch002_normal_psd_1d5c2baf.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 76566
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_578108523.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 9568
+    },
+    {
+      "name": "hr_dust_kasbah_arch003_color_psd_e77ad3a9.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 92676
+    },
+    {
+      "name": "hr_dust_kasbah_arch003_normal_psd_5f536b6a.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 61778
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1467443108.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 3640
+    },
+    {
+      "name": "hr_dust_kasbah_column001_color_psd_3516e5a3.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 94512
+    },
+    {
+      "name": "hr_dust_kasbah_column001_normal_psd_b8897a19.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 67008
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_906822122.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 7460
+    },
+    {
+      "name": "hr_dust_kasbah_merlon001_color_psd_89f67428.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 149392
+    },
+    {
+      "name": "hr_dust_kasbah_merlon001_normal_psd_6ec58d9.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 53484
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2287187647.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 7230
+    },
+    {
+      "name": "hr_dust_kasbah_merlon002_color_psd_d8c30d34.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 549624
+    },
+    {
+      "name": "hr_dust_kasbah_merlon002_normal_psd_df7ba653.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 281658
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_948435476.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 20348
+    },
+    {
+      "name": "hr_dust_kasbah_merlon003_color_psd_292aec2c.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 389426
+    },
+    {
+      "name": "hr_dust_kasbah_merlon003_normal_psd_563e45a5.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 51188
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2165506537.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 2764
+    },
+    {
+      "name": "hr_dust_kasbah_niche001_color_psd_409f1687.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 91546
+    },
+    {
+      "name": "hr_dust_kasbah_niche001_normal_psd_69322471.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 51932
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2950348359.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 2744
+    },
+    {
+      "name": "hr_dust_kasbah_stairs001_color_psd_5d182c89.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        1024
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 57304
+    },
+    {
+      "name": "hr_dust_kasbah_stairs001_normal_psd_93c14485.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        1024
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 32698
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1411814366.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        1024
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 1322
+    },
+    {
+      "name": "hr_dust_kasbah_stairs002_color_psd_ff21ab16.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 96484
+    },
+    {
+      "name": "hr_dust_kasbah_stairs002_normal_psd_ed6d04eb.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 33346
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1115756421.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 978
+    },
+    {
+      "name": "hr_dust_mudbrick_wall_plaster_smooth_01_color_tga_c628780e.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 113782
+    },
+    {
+      "name": "hr_dust_mudbrick_wall_plaster_smooth_01_normal_tga_b5d5ec14.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 56554
+    },
+    {
+      "name": "hr_dust_mudbrick_wall_plaster_smooth_01_normal_tga_b5d5ec14_orm_3173193943.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1814
+    },
+    {
+      "name": "hr_dust_plaster_06_color_psd_3b670aaf.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 77952
+    },
+    {
+      "name": "hr_dust_plaster_06_normal_psd_196bf20f.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 34584
+    },
+    {
+      "name": "hr_dust_plaster_06_normal_psd_196bf20f_orm_826823835.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 5396
+    },
+    {
+      "name": "hr_dust_plaster_06b_color_psd_d0ddc2ff.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 86664
+    },
+    {
+      "name": "hr_dust_plaster_06_normal_psd_b5317057.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 34468
+    },
+    {
+      "name": "hr_dust_plaster_06_normal_psd_b5317057_orm_3451009406.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 44
+    },
+    {
+      "name": "hr_dust_plaster_06c_color_psd_570be460.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 86828
+    },
+    {
+      "name": "hr_dust_plaster_11b_color_psd_633afb89.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 86464
+    },
+    {
+      "name": "hr_dust_plaster_12_color_psd_e7cfaa7d.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 96830
+    },
+    {
+      "name": "hr_dust_plaster_12_normal_tga_8a39d377.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 57224
+    },
+    {
+      "name": "hr_dust_plaster_12_normal_tga_8a39d377_orm_3100475117.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 1466
+    },
+    {
+      "name": "hr_dust_plaster_12b_color_psd_2c6dd5d7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 106076
+    },
+    {
+      "name": "hr_dust_plaster_12c_color_psd_56c5a53.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 110436
+    },
+    {
+      "name": "hr_dust_plaster_13b_color_psd_c1f11836.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 72628
+    },
+    {
+      "name": "hr_dust_plaster_15_color_psd_d9a670cc.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 83696
+    },
+    {
+      "name": "hr_dust_plaster_15b2_color_psd_289bd7b1.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 96978
+    },
+    {
+      "name": "hr_dust_plaster_15b_color_psd_c196e944.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 85902
+    },
+    {
+      "name": "hr_dust_plaster_15c_color_psd_d44a5db8.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 89298
+    },
+    {
+      "name": "hr_dust_plaster_17b_color_psd_5828bfdc.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 76436
+    },
+    {
+      "name": "hr_dust_plaster_17c_color_psd_fa95076f.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 68568
+    },
+    {
+      "name": "hr_dust_plaster_08_color_psd_189f8334.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 90402
+    },
+    {
+      "name": "hr_dust_plaster_08_normal_psd_4ec2a332.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 32484
+    },
+    {
+      "name": "hr_dust_plaster_08_normal_psd_4ec2a332_orm_1549117820.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 4714
+    },
+    {
+      "name": "hr_dust_plaster_08b_color_psd_c48a6736.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 86532
+    },
+    {
+      "name": "hr_dust_plaster_20b_color_psd_8e8dbb87.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 97910
+    },
+    {
+      "name": "hr_dust_plaster_20_normal_psd_8761a35e.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 84394
+    },
+    {
+      "name": "hr_dust_plaster_20_normal_psd_8761a35e_orm_355234724.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 6638
+    },
+    {
+      "name": "hr_dust_plaster_20_color_psd_edbb9ea3.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 92524
+    },
+    {
+      "name": "hr_dust_roof_trim001_color_psd_2c339568.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 374560
+    },
+    {
+      "name": "hr_dust_roof_trim001_normal_psd_95ad4e12.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 228030
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1828695359.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 7722
+    },
+    {
+      "name": "hr_dust_stairs001_color_psd_29c20c39.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        1024
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 43370
+    },
+    {
+      "name": "hr_dust_stairs001_normal_psd_1541fcbf.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        1024
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 27670
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_4164041530.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        1024
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 1070
+    },
+    {
+      "name": "hr_dust_stairs002_color_psd_b9a83ebd.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 93780
+    },
+    {
+      "name": "hr_dust_stairs002_normal_psd_c954de60.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 74322
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2719278121.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 16000
+    },
+    {
+      "name": "hr_dust_stairs003_color_psd_8f50421a.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 120886
+    },
+    {
+      "name": "hr_dust_stairs003_normal_psd_92a9faba.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 50310
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_285502384.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 702
+    },
+    {
+      "name": "hr_dust_stone_ground_01_color_psd_60cf381d.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 87656
+    },
+    {
+      "name": "hr_dust_stone_ground_01_normal_psd_fd77e83a.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 70730
+    },
+    {
+      "name": "hr_dust_stone_ground_01_normal_psd_fd77e83a_orm_3928850357.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 2536
+    },
+    {
+      "name": "hr_dust_tile_01_color_psd_8fa5e519.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 103332
+    },
+    {
+      "name": "hr_dust_tile_01_normal_psd_6222d113.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 76416
+    },
+    {
+      "name": "hr_dust_tile_01_normal_psd_6222d113_orm_1553094844.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 42604
+    },
+    {
+      "name": "hr_dust_tile_02_color_psd_3f539f25.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 130780
+    },
+    {
+      "name": "hr_dust_tile_03_color_psd_e0078021.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 151456
+    },
+    {
+      "name": "hr_dust_tile_03_normal_psd_f462f7f4.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 94200
+    },
+    {
+      "name": "hr_dust_tile_03_normal_psd_f462f7f4_orm_1357794392.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 10142
+    },
+    {
+      "name": "hr_dust_tire001_color_psd_1ef33bb8.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 24506
+    },
+    {
+      "name": "hr_dust_tire001_normal_psd_f8c4c139.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 25280
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_540462037.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 1502
+    },
+    {
+      "name": "hr_dust_wall_trim001_color_psd_47637529.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        2048,
+        2048
+      ],
+      "bytes": 1644998
+    },
+    {
+      "name": "hr_dust_wall_trim001_normal_psd_7bfedc72.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 63350
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1907670144.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 4588
+    },
+    {
+      "name": "metal_corrugated03b_color_tga_a2aaa5f5.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 94214
+    },
+    {
+      "name": "nuke_concrete_barrier_color_psd_2ab82dea.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 49538
+    },
+    {
+      "name": "nuke_concrete_barrier_rough_psd_af9cb2d5.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 104
+    },
+    {
+      "name": "nuke_concrete_barrier_ao_psd_6ff77244_orm_2954630743.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 16012
+    },
+    {
+      "name": "olive_bark_01_color_psd_6af689a3.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 189062
+    },
+    {
+      "name": "olive_branch_01_color_psd_203a55d5.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 137876
+    },
+    {
+      "name": "palm_frond_01_color_psd_84620c87.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 611728
+    },
+    {
+      "name": "palm_frond_01_normal_psd_a522c2c0.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 232724
+    },
+    {
+      "name": "palm_frond_01_normal_psd_a522c2c0_orm_2433717880.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 105826
+    },
+    {
+      "name": "power_pole_02_color_psd_b9c2c3c7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        2048
+      ],
+      "size": [
+        128,
+        512
+      ],
+      "bytes": 28920
+    },
+    {
+      "name": "power_pole_03_color_psd_f579d966.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 42466
+    },
+    {
+      "name": "power_pole_03_mask_rough_tga_af0b4a20.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        128,
+        256
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 356
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_2889103724.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        128,
+        256
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 11160
+    },
+    {
+      "name": "power_pole_color_psd_3094dac8.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        1024
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 43840
+    },
+    {
+      "name": "power_pole_insulators_color_psd_2db5df2.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 30696
+    },
+    {
+      "name": "power_pole_insulators_mask_rough_tga_5e797d8b.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        128
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 424
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1638976519.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        128
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 15364
+    },
+    {
+      "name": "sagebrush_01_color_psd_d5b0e1d7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 102356
+    },
+    {
+      "name": "satellite_dish_card_color_psd_b1e772f0.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        512
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "bytes": 31330
+    },
+    {
+      "name": "sign004_color_psd_1f57d1c8.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 38986
+    },
+    {
+      "name": "sign006_color_psd_fe22aad1.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 87720
+    },
+    {
+      "name": "sign_bracket001_color_psd_6d2ffdf3.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        2048
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 24848
+    },
+    {
+      "name": "sign_directional001_color_psd_15d9bdba.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 39464
+    },
+    {
+      "name": "sign_streets001_color_psd_d0f6e08a.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 69784
+    },
+    {
+      "name": "street_lamp_01_color_psd_20829c4f.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 14142
+    },
+    {
+      "name": "street_lamp_01_mask_rough_tga_b5d1a2ce.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 550
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3118339645.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 20682
+    },
+    {
+      "name": "street_lamp_02_color_psd_c59ed7f6.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 27854
+    },
+    {
+      "name": "street_lamp_02_mask_rough_tga_774de494.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        128,
+        256
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 224
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3949418205.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        128,
+        256
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "bytes": 9230
+    },
+    {
+      "name": "street_lamp_03_color_psd_579002cb.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        1024
+      ],
+      "size": [
+        128,
+        512
+      ],
+      "bytes": 13148
+    },
+    {
+      "name": "street_lamp_03_mask_rough_tga_1154c99a.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        128,
+        512
+      ],
+      "size": [
+        64,
+        256
+      ],
+      "bytes": 44
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3875886065.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        128,
+        512
+      ],
+      "size": [
+        64,
+        256
+      ],
+      "bytes": 3602
+    },
+    {
+      "name": "street_lantern_01_color_psd_55c0d0e.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 34298
+    },
+    {
+      "name": "street_lantern_01_mask_rough_tga_b03fb9f6.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 740
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3552209968.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 53208
+    },
+    {
+      "name": "street_lantern_02_color_psd_136d37a6.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 35788
+    },
+    {
+      "name": "street_lantern_02_normal_psd_da8d778a.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        256,
+        128
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 22116
+    },
+    {
+      "name": "street_lantern_02_ao_psd_bd8305af_orm_285388804.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        512
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 27590
+    },
+    {
+      "name": "street_lantern_03_color_psd_cf9c90d0.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        512,
+        256
+      ],
+      "bytes": 42828
+    },
+    {
+      "name": "street_lantern_03_color_rough_tga_7f9c3983.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 286
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_1838738377.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        512,
+        256
+      ],
+      "size": [
+        256,
+        128
+      ],
+      "bytes": 14940
+    },
+    {
+      "name": "sumac_01_color_psd_c0a41d34.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 232256
+    },
+    {
+      "name": "tarpkit_01_color_tga_18d62141.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 88454
+    },
+    {
+      "name": "tarpkit_01_normal_tga_664d5611.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 58588
+    },
+    {
+      "name": "tarpkit_01_color_tga_18d62141_orm_1588237424.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 49418
+    },
+    {
+      "name": "weeds_cressa_01_color_psd_6657f607.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 152646
+    },
+    {
+      "name": "wooden_fruit_crate_01_color_psd_8c92a3a7.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        256,
+        512
+      ],
+      "size": [
+        256,
+        512
+      ],
+      "bytes": 57848
+    },
+    {
+      "name": "zebra_grass_01_color_psd_a9fe0757.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 189558
+    },
+    {
+      "name": "dust_broken_building_color_psd_e12c99b3.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        256
+      ],
+      "size": [
+        512,
+        128
+      ],
+      "bytes": 30500
+    },
+    {
+      "name": "dust_broken_building_normal_psd_a2e6887f.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        256
+      ],
+      "size": [
+        256,
+        64
+      ],
+      "bytes": 10680
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_3064570056.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        256
+      ],
+      "size": [
+        256,
+        64
+      ],
+      "bytes": 1604
+    },
+    {
+      "name": "hr_dust_wood_ceiling01_color_psd_a09b2466.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        2048,
+        2048
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 130862
+    },
+    {
+      "name": "soccerball001_color_psd_b458144a.vtex",
+      "types": [
+        "color"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 35098
+    },
+    {
+      "name": "soccerball001_normal_psd_3d3051f8.vtex",
+      "types": [
+        "normal"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 28046
+    },
+    {
+      "name": "default_ao_tga_559f1ac6_orm_528607721.png",
+      "types": [
+        "orm"
+      ],
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 596
+    }
+  ],
+  "sourceLights": [
+    {
+      "type": "directional",
+      "color": [
+        1,
+        0.73046076,
+        0.5088813
+      ],
+      "intensity": 1707.5,
+      "worldMatrix": [
+        -0.7313536132789452,
+        -1.6533361196204676e-8,
+        0.6819984905296621,
+        0,
+        0.5224412165333622,
+        0.6427875852248616,
+        0.5602494527321633,
+        0,
+        -0.43838015947033837,
+        0.7660445572678367,
+        -0.4701050014961931,
+        0,
+        56.451256,
+        1.8288064,
+        -44.018814,
+        1
+      ]
+    }
+  ],
+  "decodedGLBBytes": 192068352,
+  "outputBytes": 159397686,
+  "sha256": "54e5326ed06349875372126aba7b49eea3fad144257769b4d164dfb751fd3d0a",
+  "parts": [
+    {
+      "file": "dust2-hd-part-1.bin",
+      "path": "/workspace/.arena-tools/source-hd-assets/dust2-hd-part-1.bin",
+      "bytes": 83886080,
+      "sha256": "9dfea9d9005c52c3adac586329919525a7fac796cb7483f7b67073d9082de5fa"
+    },
+    {
+      "file": "dust2-hd-part-2.bin",
+      "path": "/workspace/.arena-tools/source-hd-assets/dust2-hd-part-2.bin",
+      "bytes": 75511606,
+      "sha256": "3114a96239f5198d6400ecae87646652a727c4481d0215c812e506295519216c"
+    }
+  ]
+}
