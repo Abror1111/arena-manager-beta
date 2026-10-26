@@ -1,0 +1,61 @@
+{
+  "scope": "Dust II full source visual review; current game and APK unchanged",
+  "profile": {
+    "dust2": {
+      "asset": {
+        "encoding": "gzip-parts",
+        "bytes": 159397686,
+        "sha256": "54e5326ed06349875372126aba7b49eea3fad144257769b4d164dfb751fd3d0a",
+        "decodedGLBBytes": 192068352,
+        "parts": [
+          {
+            "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a4858f4d1ab4715eb6d07cb5da9549ce8d4da677/source-hd/dust2-hd-part-1.bin",
+            "bytes": 83886080,
+            "sha256": "9dfea9d9005c52c3adac586329919525a7fac796cb7483f7b67073d9082de5fa"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a4858f4d1ab4715eb6d07cb5da9549ce8d4da677/source-hd/dust2-hd-part-2.bin",
+            "bytes": 75511606,
+            "sha256": "3114a96239f5198d6400ecae87646652a727c4481d0215c812e506295519216c"
+          }
+        ]
+      },
+      "sourceLights": [
+        {
+          "type": "directional",
+          "color": [
+            1,
+            0.73046076,
+            0.5088813
+          ],
+          "intensity": 1707.5,
+          "worldMatrix": [
+            -0.7313536132789452,
+            -1.6533361196204676e-08,
+            0.6819984905296621,
+            0,
+            0.5224412165333622,
+            0.6427875852248616,
+            0.5602494527321633,
+            0,
+            -0.43838015947033837,
+            0.7660445572678367,
+            -0.4701050014961931,
+            0,
+            56.451256,
+            1.8288064,
+            -44.018814,
+            1
+          ]
+        }
+      ],
+      "triangles": 4541597,
+      "materials": 684,
+      "textures": 556,
+      "geometrySimplification": false,
+      "sourceSHA256": "ce24aced8ca050dde99d963129b369adccb6081d9df8aa26df3f19a1c93b2209"
+    }
+  },
+  "geometryRoundtripVerified": true,
+  "sourceUVAndAttributesLosslessAfterBatching": true
+}
