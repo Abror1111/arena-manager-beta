@@ -19,7 +19,7 @@
     "scope": "Source-derived exterior palm only; base map unchanged",
     "localUrl": "/context/source-palm.glb"
   },
-  "cameraPresets": 4,
+  "cameraPresets": 6,
   "cacheFidelity": {
     "result": "passed",
     "scope": "Identical compiled map with normal HDR-depth cache versus forced direct antialiased fallback; central source-city ROI excludes animated exterior",
@@ -35,6 +35,37 @@
       "top": 180,
       "width": 360,
       "height": 240
+    }
+  },
+  "cameraProfilesRestoreFullPose": true,
+  "referenceViews": [
+    "facades",
+    "streets"
+  ],
+  "solidBoundaryReturns": 1,
+  "totalExteriorPanels": 329,
+  "viewChecks": {
+    "phone": 6,
+    "pcHD": 6,
+    "interruptedOrbitReset": true
+  },
+  "boundaryValidation": {
+    "result": "passed",
+    "rearWallPanels": 328,
+    "solidBoundaryReturns": 1,
+    "totalPanels": 329,
+    "allSolidsClearOfPlayableFloors": true,
+    "sourceVisibleGeometryUnchanged": true,
+    "boundaryPlaneSourceBounds": {
+      "x": -44.21,
+      "z": [
+        26.93,
+        43.53
+      ],
+      "y": [
+        3.4,
+        12.8
+      ]
     }
   }
 }
