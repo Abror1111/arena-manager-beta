@@ -19,7 +19,7 @@
     "scope": "Source-derived exterior palm only; base map unchanged",
     "localUrl": "/context/source-palm.glb"
   },
-  "cameraPresets": 6,
+  "cameraPresets": 8,
   "cacheFidelity": {
     "result": "passed",
     "scope": "Identical compiled map with normal HDR-depth cache versus forced direct antialiased fallback; central source-city ROI excludes animated exterior",
@@ -82,8 +82,8 @@
     "allFootingsContinueSourceUV": true,
     "allGeometryFinite": true
   },
-  "closedPerimeterRooms": 3,
-  "fullSourcePlinths": 6,
+  "closedPerimeterRooms": 9,
+  "fullSourcePlinths": 9,
   "groundingMethod": "rendered-terrain-triangles",
   "palmRootAnchor": "lowest bark ring, corrected local pivot",
   "groundContactValidation": {
@@ -95,5 +95,90 @@
     "wallPanels": 414,
     "closedRooms": 3,
     "sourcePlinths": 6
+  },
+  "inspectionViews": [
+    "marked",
+    "coast"
+  ],
+  "markedTargetRepairs": {
+    "result": "passed",
+    "targets": [
+      {
+        "target": "image1-far-west-tower",
+        "parts": [
+          6
+        ],
+        "top": 5.062478,
+        "area": 15.87928327465404
+      },
+      {
+        "target": "image2-east-radio-facade",
+        "parts": [
+          3
+        ],
+        "top": 10.85,
+        "area": 32.074
+      },
+      {
+        "target": "image2-west-apartment-annex",
+        "parts": [
+          4
+        ],
+        "top": 12.65,
+        "area": 73.03199999999998
+      },
+      {
+        "target": "image3-white-curved-bay",
+        "parts": [
+          5
+        ],
+        "top": 8.82,
+        "area": 18.711552003435116
+      },
+      {
+        "target": "image3-brown-curved-building",
+        "parts": [
+          6
+        ],
+        "top": 7.25,
+        "area": 50.18563942232859
+      },
+      {
+        "target": "image3-northeast-high-wing",
+        "parts": [
+          7
+        ],
+        "top": 8.82,
+        "area": 64.98333539132267
+      },
+      {
+        "target": "image3-northeast-low-wing",
+        "parts": [
+          8
+        ],
+        "top": 7.22,
+        "area": 37.03054161491538
+      },
+      {
+        "target": "image3-patio-2.4",
+        "parts": [
+          7
+        ],
+        "top": 2.4019999999999997,
+        "area": 98.49995890000898
+      },
+      {
+        "target": "image3-patio-2.8",
+        "parts": [
+          8
+        ],
+        "top": 2.8019999999999996,
+        "area": 61.199973600002004
+      }
+    ],
+    "totalClosedRoomParts": 9,
+    "totalSourcePlinths": 9,
+    "markedTowerGroundFootprintCoversWholeBase": true,
+    "allNewVolumesClearOfPlayableFloors": true
   }
 }

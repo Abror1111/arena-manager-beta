@@ -6,7 +6,7 @@ A continuous source-sand terrain extends underneath the city and into low dunes.
 
 Missing exterior facades are reconstructed from actual roof edges and neighboring vertical source surfaces. Panels use the corresponding source plaster/brick/concrete textures, source color factors and measured UV density. Their bases extend into the new terrain. The original west perimeter plane also receives a solid return and a footing down into the terrain, closing its exposed edge and floating base. All new solids remain outside a guard around original playable floors. They close export openings; this does not claim every possible internal export defect is repaired.
 
-Six complete Dust II camera presets cover overview, front, side, rear, the marked exterior facades and a closer oblique street view. Each preset restores its target, zoom and angle, draining pending drag/pan damping first. A/B, spawn, drag/zoom and quarter-turn controls remain. Umumiy returns to the full overview. Other maps keep the four shared views. On narrow phones the camera strip scrolls horizontally. A `view=facades` or `view=streets` link opens the corresponding Dust II view directly.
+Eight complete Dust II camera presets cover overview, front, side, rear, the marked exterior facades and a closer oblique street view. Each preset restores its target, zoom and angle, draining pending drag/pan damping first. A/B, spawn, drag/zoom and quarter-turn controls remain. Umumiy returns to the full overview. The Chekka binolar and Sohil tomoni inspection views cover the latest annotated repairs. Other maps keep the four shared views. On narrow phones the camera strip scrolls horizontally. A `view=facades` or `view=streets` link opens the corresponding Dust II view directly.
 
 The large static world is captured at the canvas drawing-buffer resolution with multisample antialiasing, linear HDR color and depth. Gentle exterior animation renders over that depth, avoiding a full source-map redraw every idle frame. Camera, visibility and resize changes recapture the world. Devices lacking multisampled float color use a direct antialiased fallback. This is an optimization, not an increase in the mobile model's source resolution. Actual low-end Android performance still requires device testing.
 
@@ -17,3 +17,5 @@ This update is confined to the standalone quality review. Other ten map entries,
 The subsequent [perimeter shell and footing repair](PERIMETER-REPAIRS.md) also handles incomplete tower exports and existing walls that stopped above the terrain.
 
 [Complete facade rooms and exact ground contact](ROOMS-GROUNDING.md) replace remaining standing facade panels with closed volumes and correct root/foundation placement against the rendered terrain.
+
+[Repairs at the annotated locations](MARKED-REPAIRS.md) cover the separately identified far-west tower and the marked curved/windowed perimeter facades.
