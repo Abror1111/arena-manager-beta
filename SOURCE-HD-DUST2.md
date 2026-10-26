@@ -8,8 +8,10 @@ The HD scene retains original material factors, UV sets, tangent data and source
 
 The directional sun's orientation and color come from the source export. Light intensity is adapted to the web renderer; baked Source 2 lighting, reflection probes, shader-specific material layers and the in-game sky are not reproduced exactly. A fixed-camera check exposed shadow self-interference; calibrated shadow offsets remove the observed stripes while retaining cast shadows. Authored overlay materials receive a small depth offset rather than fighting the underlying surface.
 
-HD downloads 159,397,686 bytes in two individually SHA256-verified parts and caches them once. Desktop Dust II defaults to HD; touch devices default to the existing mobile model, with explicit HD selection available. Quality switches recreate the graphics canvas and release the old scene. Idle views stop drawing. Low-memory device performance has not been measured on physical hardware.
+HD downloads 159,397,686 bytes in two individually SHA256-verified parts and caches them once. Desktop Dust II defaults to HD; touch devices default to the existing mobile model, with explicit HD selection available. Quality switches recreate the graphics canvas and release the old scene. With the requested exterior animation, the static source scene is cached at full canvas resolution between camera or visibility changes, while small water, wind and foliage effects animate over its depth. Unsupported devices use direct antialiased rendering. Low-memory device performance has not been measured on physical hardware.
 
 This update concerns the separate map-review page. Other map entries still use their previous source-based mobile assets, and the running 1.32 game/APK and career saves remain unchanged. Full-detail Dust II must subsequently be integrated with its corresponding original collision, prop selections and navigation rather than the rebuilt131 collision.
 
 Reproducible derivation: `scripts/build-hd-dust2.mjs`, with the original supplied export and the separately installed glTF Transform/meshoptimizer/sharp tools. Public immutable asset commit and checksums are recorded alongside the validation receipts. All supplied CS2 assets remain the property of Valve and their respective owners.
+
+The annotated exterior and missing rear-wall work is documented in [Dust II context](DUST2-CONTEXT.md).

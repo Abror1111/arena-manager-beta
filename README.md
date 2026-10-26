@@ -1,3 +1,5 @@
+[Dust II — exterior and camera review](https://abror1111.github.io/arena-manager-beta/quality.html?map=dust2&detail=hd&v=context1) · [Mobile review](https://abror1111.github.io/arena-manager-beta/quality.html?map=dust2&detail=balanced&v=context1). Desert relief, one animated coast, sparse source palms, roof-derived missing rear facades and four oblique camera presets. [Scope and validation](DUST2-CONTEXT.md). This changes the separate review, not the 1.32 game/APK.
+
 [Dust II — full source HD review, 160 MB](https://abror1111.github.io/arena-manager-beta/quality.html?map=dust2&detail=hd&v=hd1) · [Mobile review](https://abror1111.github.io/arena-manager-beta/quality.html?map=dust2&detail=balanced&v=hd1). Full visible source geometry, original PBR and corrected shadows; [scope and limitations](SOURCE-HD-DUST2.md). This updates the separate review, not the 1.32 game/APK.
 
 [Original CS2 map visual review](https://abror1111.github.io/arena-manager-beta/quality.html?map=dust2) — supplied source models and textures, separate from the running 1.32 game. [Scope](SOURCE-QUALITY-REVIEW.md).

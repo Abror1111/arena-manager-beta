@@ -1,0 +1,40 @@
+{
+  "scope": "Dust II standalone visual review exterior, rear closures and camera presets; current game/APK unchanged",
+  "sourceGeometryUnchanged": true,
+  "fullSourceTriangles": 4541597,
+  "rearWallPanels": 328,
+  "playableGroundCheck": {
+    "result": "passed",
+    "samples": 22085,
+    "highestGroundAboveWalkFloor": -0.1799999237060539,
+    "violations": 0,
+    "examples": []
+  },
+  "palm": {
+    "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/c54f138be493645c1fc2854ee46fb1a4d4883633/context/source-palm.glb",
+    "bytes": 839060,
+    "sha256": "a78d83a3879f53bfbbb0cb1737fe35426eb09129129b2095b6494232b0b0c352",
+    "height": 5.037198256701231,
+    "triangles": 4089,
+    "scope": "Source-derived exterior palm only; base map unchanged",
+    "localUrl": "/context/source-palm.glb"
+  },
+  "cameraPresets": 4,
+  "cacheFidelity": {
+    "result": "passed",
+    "scope": "Identical compiled map with normal HDR-depth cache versus forced direct antialiased fallback; central source-city ROI excludes animated exterior",
+    "meanChannelDifference": 0.8857484567901235,
+    "interiorMeanChannelDifference": 0.10270004630810958,
+    "interiorSamples": 105813,
+    "edgeEnergyRatio": 1.002103682765994,
+    "antialiasingNote": "HDR sample resolve precedes tone mapping; direct canvas resolve follows tone mapping, so sharp edges can differ. Flat-surface color and edge energy checked separately.",
+    "channelsOver4Ratio": 0.06491126543209877,
+    "maxDifference": 46,
+    "region": {
+      "left": 300,
+      "top": 180,
+      "width": 360,
+      "height": 240
+    }
+  }
+}
