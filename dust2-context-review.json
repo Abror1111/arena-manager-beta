@@ -81,5 +81,19 @@
     "wallFootings": 85,
     "allFootingsContinueSourceUV": true,
     "allGeometryFinite": true
+  },
+  "closedPerimeterRooms": 3,
+  "fullSourcePlinths": 6,
+  "groundingMethod": "rendered-terrain-triangles",
+  "palmRootAnchor": "lowest bark ring, corrected local pivot",
+  "groundContactValidation": {
+    "result": "passed",
+    "independentThreeRaycastSamples": 441,
+    "maxSurfaceHeightError": 2.7422508708241367e-14,
+    "previousAnalyticHeightMismatch": 0.33837497543918627,
+    "worstBaseGap": -0.30000000000000004,
+    "wallPanels": 414,
+    "closedRooms": 3,
+    "sourcePlinths": 6
   }
 }

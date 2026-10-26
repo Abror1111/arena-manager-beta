@@ -15,3 +15,5 @@ New source-derived palm bytes are pinned to an immutable media commit and verifi
 This update is confined to the standalone quality review. Other ten map entries, the 1.32 game/APK, career saves and production bot are not changed. Source assets remain Valve/their respective owners' property. Source 2's complete renderer and baked lighting are not reproduced.
 
 The subsequent [perimeter shell and footing repair](PERIMETER-REPAIRS.md) also handles incomplete tower exports and existing walls that stopped above the terrain.
+
+[Complete facade rooms and exact ground contact](ROOMS-GROUNDING.md) replace remaining standing facade panels with closed volumes and correct root/foundation placement against the rendered terrain.
