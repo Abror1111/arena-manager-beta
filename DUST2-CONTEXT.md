@@ -13,3 +13,5 @@ The large static world is captured at the canvas drawing-buffer resolution with 
 New source-derived palm bytes are pinned to an immutable media commit and verified before use. Existing verified model caches remain. A network failure is reported with a retry action rather than silently substituting unrelated art.
 
 This update is confined to the standalone quality review. Other ten map entries, the 1.32 game/APK, career saves and production bot are not changed. Source assets remain Valve/their respective owners' property. Source 2's complete renderer and baked lighting are not reproduced.
+
+The subsequent [perimeter shell and footing repair](PERIMETER-REPAIRS.md) also handles incomplete tower exports and existing walls that stopped above the terrain.

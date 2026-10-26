@@ -43,7 +43,7 @@
     "streets"
   ],
   "solidBoundaryReturns": 1,
-  "totalExteriorPanels": 329,
+  "totalExteriorPanels": 414,
   "viewChecks": {
     "phone": 6,
     "pcHD": 6,
@@ -67,5 +67,19 @@
         12.8
       ]
     }
+  },
+  "sourceFootings": 85,
+  "towerShellPatches": 35,
+  "newShellTriangles": 819,
+  "repairedSourceTowers": 6,
+  "footingsContinueSourceUV": true,
+  "perimeterRepairValidation": {
+    "result": "passed",
+    "shellPatches": 35,
+    "shellTriangles": 819,
+    "minimumTriangleArea": 1.758254384959151e-07,
+    "wallFootings": 85,
+    "allFootingsContinueSourceUV": true,
+    "allGeometryFinite": true
   }
 }
