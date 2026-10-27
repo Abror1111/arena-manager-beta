@@ -23,3 +23,5 @@ The subsequent [perimeter shell and footing repair](PERIMETER-REPAIRS.md) also h
 [Coastal water, exterior life and four detailed facade compositions](COAST-LIFE.md) add reflections, transparent shallows, waves, birds, clouds and sparse desert planting. The new `Suv va sohil` inspection view is available as `view=water`.
 
 [Shoreward surf and 25 detailed exterior facade/side-return spans](EXTERIOR-DETAILS.md) add layered PBR finishes, rounded service pipes, stepped stonework and a more visible incoming/retreating shore wash.
+
+[Crafted exterior facade ornaments](FACADE-CRAFT.md) refine the same 25 spans with glazed geometric friezes, segmented door portals, lattice screens and curved iron balcony details. This pass preserves the prior map, water and camera behavior.
