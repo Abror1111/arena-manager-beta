@@ -1,0 +1,21 @@
+{
+  "result": "passed",
+  "managerScreenSizes": 23,
+  "managerScreenChecks": 184,
+  "matchSheetSizes": 29,
+  "foldPostures": 2,
+  "additionalDialogSizes": 7,
+  "verticalScrollOnly": [
+    "transfers",
+    "weapon-shop"
+  ],
+  "originalFictionalPortraits": 16,
+  "nodeTests": 43,
+  "existing11MapSourcesUnchanged": true,
+  "sourceCollisionRevision": 14,
+  "careerAndSavedMatchPreserved": true,
+  "productionPrefix": true,
+  "offlineSourceMapAgentsAndPortraits": true,
+  "physicalDeviceCertification": false,
+  "previousAPKUnchanged": true
+}

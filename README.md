@@ -1,3 +1,5 @@
+[Play Studio UI15](https://abror1111.github.io/arena-manager-beta/?v=ui15). Full-height mobile, tablet and foldable UI; horizontal pages; vertical scrolling only in transfers and the weapon shop. [Changes and validation](UI15.md).
+
 [Play with the 11 accepted maps](https://abror1111.github.io/arena-manager-beta/?v=maps14). The full game now uses the same source models and completed surroundings as the accepted map review. [Integration and validation](APPROVED-MAPS14.md).
 
 [Full game — mobile UI 13](https://abror1111.github.io/arena-manager-beta/?v=ui13). New startup, eight club sections and separate live-match camera, roster, command and arsenal panels. Responsive phone/tablet and foldable layouts. [Scope and checks](MOBILE-UI13.md).
