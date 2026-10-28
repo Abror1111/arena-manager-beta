@@ -17,5 +17,10 @@
   "productionPrefix": true,
   "offlineSourceMapAgentsAndPortraits": true,
   "physicalDeviceCertification": false,
-  "previousAPKUnchanged": true
+  "previousAPKUnchanged": true,
+  "portraitStyle": "anime",
+  "portraitRevision": "anime16",
+  "portraitAtlasSHA256": "959acbc1ec430f3d6cbc70aaa6a961d67033535e60183e0b1a8cded17760a5de",
+  "portraitScreenSizes": 3,
+  "offlineAnimePortraits": true
 }

@@ -1,3 +1,5 @@
+[Play with anime player portraits](https://abror1111.github.io/arena-manager-beta/?v=anime16). All 16 roster portraits now use anime artwork across transfers, squad and match HUD.
+
 [Play Studio UI15](https://abror1111.github.io/arena-manager-beta/?v=ui15). Full-height mobile, tablet and foldable UI; horizontal pages; vertical scrolling only in transfers and the weapon shop. [Changes and validation](UI15.md).
 
 [Play with the 11 accepted maps](https://abror1111.github.io/arena-manager-beta/?v=maps14). The full game now uses the same source models and completed surroundings as the accepted map review. [Integration and validation](APPROVED-MAPS14.md).
