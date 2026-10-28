@@ -1,3 +1,5 @@
+[Full game — mobile UI 13](https://abror1111.github.io/arena-manager-beta/?v=ui13). New startup, eight club sections and separate live-match camera, roster, command and arsenal panels. Responsive phone/tablet and foldable layouts. [Scope and checks](MOBILE-UI13.md).
+
 [Responsive map explorer — UI 12](https://abror1111.github.io/arena-manager-beta/quality.html?map=mirage&detail=balanced&view=overview&v=ui12). Phone sheets, searchable maps, tablet controls and hinge-aware foldable layouts. [Scope and validation](UI-RESPONSIVE.md).
 
 [Connected map surroundings — review 11](https://abror1111.github.io/arena-manager-beta/quality.html?map=inferno&detail=balanced&view=overview&v=worlds11) · [Inspect the surrounding district](https://abror1111.github.io/arena-manager-beta/quality.html?map=ancient&detail=balanced&view=surroundings&v=worlds11). The match-area overview is closer; every non-Dust entry now has a populated, themed backdrop. [Scope and validation](MAP-SURROUNDINGS.md).

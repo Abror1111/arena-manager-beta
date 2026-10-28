@@ -1,0 +1,29 @@
+{
+  "version": "ui13",
+  "scope": "Complete game web UI: launch, club menus and match HUD",
+  "validation": {
+    "managerViewports": 29,
+    "managerScreenChecks": 232,
+    "battleViewports": 29,
+    "foldPostures": [
+      "book",
+      "tabletop"
+    ],
+    "realWebGL": true,
+    "productionPrefix": true,
+    "offlineShellAndSave": true,
+    "focusAndSafeAreas": true,
+    "existingNodeTests": 56,
+    "careerSchemaAndKeyUnchanged": true,
+    "unchangedEngineAndDataFiles": 140,
+    "physicalDeviceTest": false,
+    "apkUnchanged": true
+  },
+  "retiredGeneratedBundle": {
+    "file": "assets/pages132-24a8b8b39c69.js",
+    "bytes": 1501202,
+    "sha256": "24a8b8b39c69e4ef68c40bb8e1096b74b2d8b02f6d0c7416733c2ac027fdca0e",
+    "liveReferences": [],
+    "recoverableGitCommit": "e00d4ecfcac4b5d5fb108f965b7bbaf29edb8792"
+  }
+}
