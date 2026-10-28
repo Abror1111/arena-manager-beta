@@ -1,0 +1,108 @@
+{
+  "version": "approved14",
+  "scope": "Accepted source scenes and completed surroundings connected to the main game",
+  "maps": [
+    {
+      "id": "dust2",
+      "sha256": "dcb806df8bed30e2b90edf6791af7d4de4e3cbe20d3c8eba4c61e6c048198c58",
+      "triangles": 1890136,
+      "districtBuildings": 0,
+      "districtTrees": 0,
+      "weather": "sand"
+    },
+    {
+      "id": "mirage",
+      "sha256": "e273d62242e1ba76fc4183312c08ee853fdb428862e3ca8b76f35ad8bc577185",
+      "triangles": 841233,
+      "districtBuildings": 13,
+      "districtTrees": 52,
+      "weather": "sand"
+    },
+    {
+      "id": "vertigo",
+      "sha256": "c282b53ff98c4b4207279494a1276302b63638ac6f67f2731c033ba1175b489b",
+      "triangles": 1108315,
+      "districtBuildings": 144,
+      "districtTrees": 0,
+      "weather": "cloud"
+    },
+    {
+      "id": "nuke",
+      "sha256": "2d6f766280425a6a2b9252b1ddaea9d3e8a5f87a197313cdbc47cfce7a301f1c",
+      "triangles": 2201743,
+      "districtBuildings": 8,
+      "districtTrees": 82,
+      "weather": "steam"
+    },
+    {
+      "id": "anubis",
+      "sha256": "7e4059ab80c0abe303ceeaa00619b02a17e5602e51122df65f634346e7a7050b",
+      "triangles": 1753291,
+      "districtBuildings": 5,
+      "districtTrees": 64,
+      "weather": "sand"
+    },
+    {
+      "id": "ancient",
+      "sha256": "0a9e959de285e07b66435d9912eb5e65a7b7c9d8a670c50a114712cefc56567c",
+      "triangles": 2589992,
+      "districtBuildings": 6,
+      "districtTrees": 125,
+      "weather": "mist"
+    },
+    {
+      "id": "inferno",
+      "sha256": "ca3c0b3800964427bfece7c6c6b8f323edf85a42087bdb5f9aa70c68c5392e98",
+      "triangles": 2837452,
+      "districtBuildings": 17,
+      "districtTrees": 72,
+      "weather": "pollen"
+    },
+    {
+      "id": "overpass",
+      "sha256": "785fc044b1811010ad2455204f7ede4b0f2cf41de7bd13a484f3af641f29c357",
+      "triangles": 2227838,
+      "districtBuildings": 10,
+      "districtTrees": 110,
+      "weather": "pollen"
+    },
+    {
+      "id": "cache",
+      "sha256": "00e1eeb1e826c48446fa9d4223f47d804c6e0bd14908b04446d6430e75dbc1bf",
+      "triangles": 2052718,
+      "districtBuildings": 14,
+      "districtTrees": 78,
+      "weather": "pollen"
+    },
+    {
+      "id": "train",
+      "sha256": "7b0270d5d2b599008651d87a29d646f0772ea0fb7cf2ced3d9c778717c5d555d",
+      "triangles": 3038687,
+      "districtBuildings": 9,
+      "districtTrees": 70,
+      "weather": "steam"
+    },
+    {
+      "id": "ancient-night",
+      "sha256": "0a9e959de285e07b66435d9912eb5e65a7b7c9d8a670c50a114712cefc56567c",
+      "triangles": 2589992,
+      "districtBuildings": 6,
+      "districtTrees": 125,
+      "weather": "fireflies"
+    }
+  ],
+  "validation": {
+    "acceptedMapEntries": 11,
+    "actualWebGLMatchEntries": 11,
+    "inspectionAndMatchSourceHashesMatch": true,
+    "sourceModelRequestsPerInspectionAndMatch": 1,
+    "sourceCollisionRevision": 14,
+    "nodeTests": 43,
+    "oldSaveRoundScoreAndClubPreserved": true,
+    "sourceObjectMigration": true,
+    "productionProjectPrefix": true,
+    "offlineCachedSourceResume": true,
+    "physicalDeviceTest": false,
+    "previousAPKUnchanged": true
+  }
+}

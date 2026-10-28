@@ -1,3 +1,5 @@
+[Play with the 11 accepted maps](https://abror1111.github.io/arena-manager-beta/?v=maps14). The full game now uses the same source models and completed surroundings as the accepted map review. [Integration and validation](APPROVED-MAPS14.md).
+
 [Full game — mobile UI 13](https://abror1111.github.io/arena-manager-beta/?v=ui13). New startup, eight club sections and separate live-match camera, roster, command and arsenal panels. Responsive phone/tablet and foldable layouts. [Scope and checks](MOBILE-UI13.md).
 
 [Responsive map explorer — UI 12](https://abror1111.github.io/arena-manager-beta/quality.html?map=mirage&detail=balanced&view=overview&v=ui12). Phone sheets, searchable maps, tablet controls and hinge-aware foldable layouts. [Scope and validation](UI-RESPONSIVE.md).
