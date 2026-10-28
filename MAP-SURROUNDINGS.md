@@ -1,34 +1,30 @@
-# Ten map surroundings — review 9
+# Source-map structural repairs — review 10
 
-The standalone map review now gives the other ten map entries their own authored exterior collar, continuous ground and architectural finish. The supplied source GLB, source UV and navigation files remain unchanged. Building material bindings are retained; the missing Anubis water shader is restored separately. Dust II craft8 is retained byte for byte in its environment, terrain, facade, water and cache modules.
+This update repairs the source cities in the standalone map-inspection page. It replaces the previous roof-rim strips and detached generic scenery with measured, closed source-wall volumes, actual floor-edge foundations, and ground heights fitted to the supplied source and navigation floors. The playable game, APK, service worker, production bot and career saves are outside this change.
 
-| Map | Identity | Measured roof-rim closures | Solid rear returns |
-| --- | --- | ---: | ---: |
-| ancient-night | Same supplied Ancient layout; moonlit palette, lanterns and fireflies | 64 | 0 |
-| ancient | Mossy temple masonry, buttress roots, broadleaf jungle, mist | 64 | 0 |
-| anubis | Sandstone sanctuary; columns, relief bands, palm/river edge | 5 | 6 |
-| cache | Weathered industrial warehouse; louvers, worn metal, birch trees | 120 | 0 |
-| inferno | Italian village; shutters, tile ridges, chimneys, cypress | 59 | 7 |
-| mirage | North African medina; lattice windows, carved bands, palms, sand drift | 120 | 4 |
-| nuke | Power-plant service architecture; flanged tanks, pipework, conifers, steam | 120 | 8 |
-| overpass | Urban park; masonry service buildings, bridge piers/railings, river edge | 120 | 2 |
-| train | Rail depot; tiled ridges and service gantries, sleepers, steel rails, steam | 120 | 3 |
-| vertigo | Existing elevated construction floor; deep city blocks and a trussed crane | 0 | 0 |
+| Map | Closed source volumes | Floor-edge supports | Exterior identity |
+| --- | ---: | ---: | --- |
+| Mirage | 136 | 855 | Source medina masonry, lattice details, native palms, sand collar and wind |
+| Vertigo | 1 tower base | — | A closed tower below the lowest match floor, glazed facades, skyline and moving clouds |
+| Nuke | 76 | 2,159 | Concrete and industrial siding, source asphalt, native beech, pipework and steam |
+| Anubis | 136 | 1,725 | Sandstone, palm bank, source sand and reflective water |
+| Ancient | 112 | 1,178 | Source stone and mud, native jungle foliage, carved bands and mist |
+| Inferno | 153 | 1,217 | Source plaster, tile roofs, shutters, native trees and drifting pollen |
+| Overpass | 94 | 1,597 | Park/service masonry, native broadleaf trees, earth and water edge |
+| Cache | 63 | 871 | Source brick, corrugated roofs, asphalt and native poplar vegetation |
+| Train | 116 | 1,911 | Source depot masonry, metal roofing, native trees, rails and steam |
+| Ancient Night | 112 | 1,178 | The same supplied Ancient layout with moonlight, lanterns and fireflies |
 
-Freestanding scenery occupies a collar beyond the measured source-export bounds. The vegetation geometry is checked vertex by vertex against those bounds; trunks are excluded from all reserved building, bridge, rail and tank anchors. Water-edge trees are accepted only on dry ground. Inspection cameras look inward from the selected exterior, so source roofs do not hide the new facade.
+Each reconstructed room has physical side and rear faces, a bottom and a roof. Its footprint follows measured source wall planes and is clipped away from all supplied navigation floors. Concave roof boundaries use constrained triangulation rather than a bounding rectangle. Source tree roots and measured water surfaces are kept clear; courtyard holes have physical inner walls as well as correctly cut roof faces. The new walls retain measured source texture coordinates and use the active map's own materials; projecting trim, windows, shutters, carved bands or service details are added only where there is adequate clearance.
 
-Every added building has a closed rear, side returns, a roof and a foundation. Source-derived room returns use measured vertical source planes; roof closures use measured horizontal source rims. Existing roofs and all playable floor levels are protected. New source-rim closure solids and decoration are generated only outside the union of all supplied navigation floors plus a 1.15-unit collar. Independent Shapely validation checks the measurements again against the actual reference nav polygons. Vertigo's supplied elevated base is retained; its street background is far below the match floor rather than filled with ground at player height.
+A 121 × 121 source-fitted ground grid replaces the previous single global floor height. The rendered terrain remains below every navigation level. Floor-edge supports extend down to the actual rendered terrain triangles; where their horizontal footprint crosses a route, the top stays at or below that route's floor. Vertigo retains its height above the street instead of raising terrain into the playable building. Anubis also has a separate, below-water bed for the western Nile extension, so unrelated land relief cannot appear as isolated humps through the river. The source model files, indices, UVs and navigation files are not rewritten.
 
-New details include projecting cornices, stone corner courses, individually built shutters and latticework, balcony rails, curved arch blocks, carved friezes, industrial louver blades, pipework, tank collars and ladders, tiled roof ridges, steel rails and sleepers, and branching trees with individually modeled leaves. Color, normal and roughness surfaces are generated locally from each map palette. An active map owns 768 KiB of base atlas pixels (before mipmaps); no new remote texture or model download is added.
+Added vegetation reuses bounded triangle subsets and alpha/PBR textures from the active source map, not the earlier generic triangular leaves. Source 2 foliage wind weights are excluded from the runtime color multiplier so affected vegetation no longer becomes a black silhouette. Root positions are measured against the rendered ground, with a small buried overlap. Wind animation is applied to the foliage layer. The supplied source contains vegetation cards on some maps; these remain source cards rather than newly acquired high-detail tree assets.
 
-The sun shadow camera now spans the measured source and scenery bounds, including the outer buildings and trees. Its direction and intensity are preserved. Independent projection checks place all 80 city-bound corners inside the actual Three.js shadow frustums. Dust II keeps its accepted lighting.
+Structural plans are content-addressed gzip assets (approximately 543 KiB across all ten entries). The existing verified asset store checks each download and caches it for reuse. Only the selected map's plan and runtime geometry are decoded. Geometry, materials, owned texture wrappers and vegetation instances are disposed on map switching. The source city is cached at drawing-buffer resolution; idle birds, clouds, particles, foliage and water animate over its depth buffer without repeatedly rendering the entire city.
 
-The full source scene is cached at the actual drawing-buffer resolution with HDR color and depth. Small dynamic layers animate vegetation, drifting particles, birds, clouds and, on Anubis/Overpass, transparent reflective water. A camera change refreshes source geometry and water reflections; idle ambient animation does not continually redraw the city. Source and new geometry retain real depth occlusion. Devices without the required HDR multisample support retain the direct antialiased renderer.
+Use **Fasadlar va muhit** to inspect a reconstructed source room. **Old tomondan**, **Yon tomondan** and **Orqa tomondan** show the city-ground joins. The route cutaway and lower-floor controls remain available. Source 2 lighting is adapted to this web renderer; identical Source 2 output is not claimed.
 
-Camera framing now accounts for measured source exterior bounds, authored scenery and building height. The new **Fasadlar va muhit** camera inspects the added architecture. The four general views, site/spawn buttons, routes and lower-floor controls remain available. Phone layout, two-finger zoom, map switching/disposal and portrait layout are checked in Chromium touch simulation; this is not a physical-device performance certification.
+Validation covers original source hashes, navigation clearance, concave roof coverage, physical ray intersections with room sides/roofs, ground raycasts and all supplied navigation vertices. Desktop and Chromium phone-touch simulation cover all ten entries, camera presets, route/lower-floor controls, map switching, portrait layout, pinch zoom and idle cache behavior. This is not a physical Android performance certification. Accepted Dust II environment/material/terrain/water/cache modules and its nine camera poses are preserved and regression-checked separately.
 
-Anubis's source material 15 contains 519 input triangles and was displayed as an untextured white surface. Its three measured horizontal water levels (approximately 0.3246, 1.0808 and 1.4254 world units) now have animated ripples, transmission, caustic detail and per-level planar reflections. Non-surface volume sides are suppressed. Original GLB data and its vertex/index/UV buffers are preserved; the replacement presentation meshes and temporary material bindings are owned by the environment and released/restored on disposal. The outer Nile continues beyond the rectangular export cut, with no doubled transparent join. Newly authored temples and palms occupy the dry eastern collar instead of the original water footprint.
-
-Ancient Night deliberately shares the supplied Ancient source geometry. It is a separately lit atmosphere variant, not a newly acquired tenth unique CS2 export.
-
-Scope: this is the map-inspection page. The production bot, current playable game entry, game service worker, APK and career saves are outside this change. Source assets remain attributed to Valve and their respective owners.
+Ancient Night deliberately shares the supplied Ancient source geometry. Source exports remain attributed to Valve and their respective owners; the new closure/foundation geometry is authored from the supplied measurements. These structural repairs do not certify that every decorative opening in the source exports has been rebuilt.
