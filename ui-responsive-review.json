@@ -1,0 +1,38 @@
+{
+  "version": "ui12",
+  "scope": "Standalone quality.html map inspection interface",
+  "validation": {
+    "responsiveViewports": 29,
+    "foldablePostures": [
+      "book",
+      "tabletop"
+    ],
+    "realWebGLMap": "mirage",
+    "realModelRequestsAcrossResize": 1,
+    "canvasPreservedAcrossResize": true,
+    "physicalDeviceTest": false,
+    "searchAndSelection": true,
+    "focusTrapAndRestoration": true,
+    "keyboardAndSafeAreas": true,
+    "touchPinch": {
+      "start": 1,
+      "end": 3.2
+    },
+    "engineAndAssetsUnchanged": true,
+    "changedExistingSourceFiles": [
+      "src/main.jsx",
+      "src/style.css"
+    ],
+    "newSourceFiles": [
+      "src/explorer.jsx",
+      "src/map-previews.json"
+    ]
+  },
+  "retiredGeneratedBundle": {
+    "file": "assets/quality-6287bf6429dc.js",
+    "bytes": 965903,
+    "sha256": "6287bf6429dc95069e9a131109685aa5d73c2aecf375459c217a27bd51ff6684",
+    "liveReferences": [],
+    "recoverableGitCommit": "e0e4e99a4a3943306efedf15c3a79dd257c05f2f"
+  }
+}
