@@ -1,3 +1,5 @@
+[Play the club economy beta](https://abror1111.github.io/arena-manager-beta/?v=economy17). Wallet history, sponsors, salaries, fixed-price cosmetic shop and one-time objectives, using in-game coins. [Economy rules and validation](ECONOMY17.md).
+
 [Play with anime player portraits](https://abror1111.github.io/arena-manager-beta/?v=anime16). All 16 roster portraits now use anime artwork across transfers, squad and match HUD.
 
 [Play Studio UI15](https://abror1111.github.io/arena-manager-beta/?v=ui15). Full-height mobile, tablet and foldable UI; horizontal pages; vertical scrolling only in transfers and the weapon shop. [Changes and validation](UI15.md).
