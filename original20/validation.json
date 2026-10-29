@@ -1,0 +1,51 @@
+{
+  "result": "passed",
+  "date": "2026-10-30",
+  "oldClubManagerAndBattleHUD": true,
+  "compiledCSSUnchanged": true,
+  "cssSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
+  "scope": "Isolated one-map original Sahil beta. Existing root club manager and 11 source maps unchanged.",
+  "managerSourceFilesPreserved": 869,
+  "originalMaps": 1,
+  "layoutViewports": 23,
+  "managerScreenChecks": 230,
+  "spawnSiteRoutes": 20,
+  "rigNodes": 20,
+  "operatorTriangles": 30816,
+  "motionCases": 10,
+  "plantedFootChecks": [
+    {
+      "name": "forward",
+      "maxSlip": 2.7755575615628914e-17,
+      "plantedSamples": 429
+    },
+    {
+      "name": "strafe",
+      "maxSlip": 5.551115123125783e-17,
+      "plantedSamples": 429
+    },
+    {
+      "name": "backward",
+      "maxSlip": 2.7755575615628914e-17,
+      "plantedSamples": 429
+    },
+    {
+      "name": "run",
+      "maxSlip": 5.551115123125783e-17,
+      "plantedSamples": 307
+    }
+  ],
+  "playerAndAutoCamera": true,
+  "offlineMatchResume": true,
+  "ownSaveKey": "arena-career-original20",
+  "legacyCareerAndRootCachesPreserved": true,
+  "audioEffectsReady": 26,
+  "authoredAudioTotal": 30,
+  "noSourceMediaRequests": true,
+  "pageErrors": 0,
+  "httpErrors": 0,
+  "oldAPKUnchanged": true,
+  "physicalDeviceTested": false,
+  "notMocap": true,
+  "noLegalClearanceClaim": true
+}

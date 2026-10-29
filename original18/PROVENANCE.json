@@ -1,7 +1,7 @@
 {
-  "version": "operators19",
-  "date": "2026-10-29",
-  "scene": "Sahil / Operator Lab",
+  "version": "motion20",
+  "date": "2026-10-30",
+  "scene": "Sahil",
   "media": "Procedurally authored ARENA geometry, canvas textures, articulated characters, shaders, particles and synthesized audio. No CS2 exported media or navigation imported.",
   "dependencies": [
     {
@@ -11,11 +11,11 @@
       "notice": "THIRD_PARTY_NOTICES.txt"
     }
   ],
-  "scope": "Independent visual showcase; not integrated into the manager. Staged event cycle, role-based destination scoring and an original 20-joint analytic IK operator rig; not motion-captured CS2 animation. No claim of final legal clearance.",
+  "scope": "Downloadable single-map visual showcase with first-demo UI. Online manager lives at ../original20/. Staged showcase event cycle; 20-joint analytic IK with world-anchored feet, not motion capture. No claim of final legal clearance.",
   "files": {
     "index.html": {
-      "bytes": 637304,
-      "sha256": "b067b97c3807940bc5921831cba36f02930fff5b0760c105a5017ac948c56e65"
+      "bytes": 637553,
+      "sha256": "ac54987213e530e9a8c9941eee13c604a71bc5b3636892918d26f45ab9a5ae4a"
     }
   }
 }

@@ -1,0 +1,10 @@
+{
+  "version": "motion20",
+  "date": "2026-10-30",
+  "scope": "One authored Sahil map, full old club manager and battle HUD, separate career; root11 maps unchanged",
+  "media": "No source-game exported media or navigation loaded. Original ARENA geometry, texture generation, analytic operators and effects. Existing original anime atlas and30 authored audio cues are shared parent assets.",
+  "motion": "20-joint rigid analytic IK, planted world-space stance anchors, eased turning and weapon-ready transitions. Not mocap.",
+  "uiCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
+  "saveKey": "arena-career-original20",
+  "legalClearanceClaim": false
+}

@@ -1,4 +1,4 @@
-const CACHE='arena-original-sahil18-operators19';
+const CACHE='arena-original-sahil18-motion20';
 const base=new URL('./',self.registration.scope),index=new URL('index.html',base).href;
 self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(CACHE);for(const name of ['index.html','THIRD_PARTY_NOTICES.txt','PROVENANCE.json']){const url=new URL(name,base);const response=await fetch(url,{cache:'reload'});if(!response.ok)throw Error('Showcase cache unavailable');await cache.put(url,response)}await self.skipWaiting()})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const key of await caches.keys())if(key.startsWith('arena-original-sahil18-')&&key!==CACHE)await caches.delete(key);await self.clients.claim()})()));
