@@ -1,0 +1,21 @@
+{
+  "version": "original18",
+  "date": "2026-10-29",
+  "scene": "Sahil",
+  "media": "Procedurally authored ARENA geometry, canvas textures, articulated characters, shaders, particles and synthesized audio. No CS2 exported media or navigation imported.",
+  "dependencies": [
+    {
+      "name": "three",
+      "version": "0.180.0",
+      "license": "MIT",
+      "notice": "THIRD_PARTY_NOTICES.txt"
+    }
+  ],
+  "scope": "Independent visual showcase; not integrated into the manager. Choreographed event cycle with independent grid navigation. No claim of final legal clearance.",
+  "files": {
+    "index.html": {
+      "bytes": 608853,
+      "sha256": "0e24e2f8c839717ca95c35622911ac1757ad186e5f15595ae0b2e404dc39ed56"
+    }
+  }
+}
