@@ -8,5 +8,9 @@
   "materialTexturesNotResized": true,
   "sourceOriginalUnchanged": true,
   "maxRelativeSimplificationError": 0.001,
-  "lockedBorders": false
+  "lockedBorders": false,
+  "originalImageCount": 243,
+  "optimizedImageCount": 243,
+  "allTextureImageBytesIdentical": true,
+  "remoteAssetSHA256Verified": true
 }
