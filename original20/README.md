@@ -1,23 +1,23 @@
-# ARENA motion21 — expanded Sahil, gulls, roofs and C4 fix
+# ARENA architecture22 — Sahil tactical old town
 
-The full old club-manager UI and battle HUD are preserved. Compiled CSS is byte-identical to the main game: 2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a. This is an isolated ONE-map original-media beta at /original20/?v=motion21. Main root game, existing 11 source maps, root saved career and previous APK are untouched.
+An isolated ONE-map original-media beta at /original20/?v=architecture22. The existing club manager, full battle HUD and compiled CSS are retained. Main root game, original 11-map release, legacy saved career, production bot and prior APK are untouched.
 
-## Changed behavior
+Sahil is rebuilt as a 120×88 metre tactical town (10,560 m²), 2.245× the previous 84×56 area. This is new authored architecture and navigation rather than a uniform scale transform or a 1:1 CS2 recreation.
 
-Sahil expands from 60×40 to 84×56 metres: 1.4× each axis, 1.96× area. Same authored footprints drive geometry and navigation; a covered connector, additional houses, street lanes, barriers and stepped A site shape the routes. All ten spawns can reach both sites. 21 building masses including the tower, not eleven remade maps or a 1:1 CS2 map.
+## Architecture and gameplay
 
-Roofs have real perimeter parapet/coping, access hatches, tanks, ventilation, satellite dishes or gable tiles, ridge caps and gutters. Removed the extra solid cap that covered the parapets and the old overlapping pyramid roof. Focused camera cutaway still reveals the selected player. Nine original white gulls now have bodies, necks, heads, eyes, yellow bills, forked tails and independently hinged wings with flap/glide phases.
+38 playfield building masses and 13 exterior context buildings, with modular L-shaped additions, a twin-tower mid gate, fort at raised A, B tower with cupola, arcaded covered market, roofs, parapets, tanks, shutters, satellite dishes, vents and proper stepped foundations. Background blocks, quay, palms and sea connect the town to its surroundings.
 
-Movement adds acceleration/braking, target-aware body rotation, pelvis weight transfer, gaze anticipation, terrain-aware foot IK, equipment draw/recovery and authored cubic hand-pose tracks for throwing and planting. Still a detailed rigid 20-joint analytic rig, not mocap, not a CS2 animation import, and not a claim of AAA parity.
+Three actual interior floor regions: two connected sections of an L-shaped B tunnel and the covered market. Open doorways, columns, arches, floors and ceilings share the same authored layout as the collision/navigation data. Existing map-view Routes control hides merged roof meshes, so passages can be inspected. Player/auto camera cutaway and original white articulated gulls remain.
 
-C4 plant completion clears the carrier and plant animation timer in both AI paths. The renderer shows held equipment only during actual live planting by the current carrier. A stale plant timer cannot display another bomb after planting, death or save restore. Only the placed bomb remains.
+A is at +2.45 m and has long/north, short/west and CT/south approaches. B has a +0.65 m yard with three stair entrances; tunnel floor is -0.75 m with entry/exit slopes. Foot navigation rejects retaining cliffs. Six named routes: A LONG, A SHORT, B TUNNEL, B MID, CT A and CT B. Names refer to the tactical sections, not a promise that the entire SHORT path is the globally shortest path.
 
-Existing original20 beta career namespace is retained. A saved active round from the smaller map restarts at the same round number, with score and funds retained, so players cannot resume inside a new building. Original21 snapshots resume normally including planted C4. Root legacy career and caches remain isolated.
+NPCs choose mapped lanes by role/site and follow waypoint queues; enemy reaction, grenades, cover, spacing, retake and C4 logic continue to take priority. Paths and nearby walls use authored metre coordinates. Grenades bounce off high/low floors and tunnel/market ceilings. C4 single-held/placed fix and analytic terrain-aware operators are preserved. No motion capture or source-game media imports.
 
-## Build and assets
+The original20 beta save namespace is retained. Active rounds from original20/original21 restart on the new map at the same round, score and funds; new original22 snapshots resume normally. Root career and caches remain separate.
 
-Node: npm install, npm test, npm run build. Optional ARENA_MANAGER_OUT sets output folder; ARENA_MODULE_RECEIPT sets module receipt. Serve the build at /original20/. Original ARENA ../ui15/anime-player-portraits.png and the 30 author-created ../audio/<hash>.(wav|mp3) cues remain shared parent dependencies (src/studio-audio.json). No source-game exported geometry, texture, animation, navigation, VFX, sound or icon files are loaded. This is provenance information, not legal clearance.
+## Build
 
-The scoped service worker preserves root caches. A versioned preview and new shell cache avoid loading the old district artwork. Archive contains all build-reachable sources, worker sources and tests; third-party license texts are in public/THIRD_PARTY_NOTICES.txt.
+Node: npm install; npm test; npm run build. ARENA_MANAGER_OUT optionally selects the build directory; ARENA_MODULE_RECEIPT selects the module receipt. Serve under /original20/. Shared parent files remain the original ARENA anime portrait atlas at ../ui15/anime-player-portraits.png and 30 authored cues under ../audio/<sha256>.(wav|mp3), described in src/studio-audio.json. No exported CS2 geometry, texture, nav, VFX, animation, icon or sound is loaded by this beta. This is provenance documentation, not legal clearance.
 
-Verification includes path reachability, rig constraints/foot contact, six roof variants, gull anatomy/pose, actual tactical-AI C4 completion and render visibility, earlier beta snapshot migration, mobile landscape emulation and offline resume. Physical-device performance has not been measured. See validation.json and verification/.
+Scoped shell cache v4 and versioned loading image preserve older root caches. Browser verification covers old UI, rendered full/route views, 3D match, C4 placement, player/auto camera, mobile landscape emulation and offline resume. Node tests check both sites from all ten spawns, all six route chains, height/cliff rules, indoor traversal, grenade floor/ceiling impacts, two 40-second AI scenarios, C4 and old-save migration. Physical-device performance has not been measured.

@@ -1,47 +1,138 @@
 {
   "result": "passed",
-  "version": "motion21",
+  "version": "architecture22",
   "date": "2026-10-30",
-  "oneMap": "Sahil",
+  "oneAuthoredMap": "Sahil",
   "mapMetres": [
+    120,
+    88
+  ],
+  "previousMapMetres": [
     84,
     56
   ],
-  "previousMapMetres": [
-    60,
-    40
+  "areaRatio": 2.2448979591836733,
+  "playfieldBuildingMasses": 38,
+  "contextBuildingMasses": 13,
+  "interiorFloorRegions": 3,
+  "heightRange": [
+    -0.75,
+    2.45
   ],
-  "axisScale": 1.4,
-  "areaRatio": 1.96,
-  "buildingMassesIncludingTower": 21,
+  "siteHeights": {
+    "A": 2.45,
+    "B": 0.65
+  },
   "allSpawnToBothSitesRoutes": 20,
-  "coveredConnector": true,
-  "gulls": 9,
-  "gullAnatomy": "White body, neck, head, eyes, bill, forked tail and two-stage articulated wings",
-  "roofVariants": 6,
-  "c4ActualAIPlantCompletion": true,
-  "heldC4WhilePlanting": 1,
-  "placedC4WhilePlanting": 0,
-  "heldC4AfterPlanting": 0,
-  "placedC4AfterPlanting": 1,
-  "stalePlantTimerCannotDuplicateC4": true,
+  "tacticalRoutes": [
+    {
+      "name": "A LONG",
+      "metres": 90
+    },
+    {
+      "name": "A SHORT",
+      "metres": 103
+    },
+    {
+      "name": "B TUNNEL",
+      "metres": 73
+    },
+    {
+      "name": "B MID",
+      "metres": 112
+    },
+    {
+      "name": "CT A",
+      "metres": 67
+    },
+    {
+      "name": "CT B",
+      "metres": 86
+    }
+  ],
+  "roleBasedLaneAssignment": true,
+  "waypointProgressSaved": true,
+  "cliffWalkRejected": true,
+  "heightAwareBulletCover": true,
+  "tunnelAndMarketCeilingGrenadeCollision": true,
+  "grenadeFloorCases": [
+    {
+      "floor": 2.45,
+      "restY": 2.555,
+      "bounces": 2
+    },
+    {
+      "floor": -0.75,
+      "restY": -0.6449999999999999,
+      "bounces": 2
+    }
+  ],
+  "fullAndRoutesRoofViews": true,
+  "roofTrianglesHiddenInRoutes": 34584,
+  "c4SingleHeldPlacedRetained": true,
   "offlinePlantedC4Resumes": true,
-  "oldSmallerMapSnapshotScoreAndFundsPreserved": true,
-  "originalBetaSaveKey": "arena-career-original20",
-  "rootCareerAndCachesUnchanged": true,
+  "old20And21RoundScoreAndFundsPreserved": true,
   "oldManagerAndBattleUI": true,
   "cssSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
-  "rigNodes": 20,
-  "originalOperatorTriangles": 30816,
-  "unevenGroundFootSamples": 421,
-  "equipmentRecoveryGripTested": true,
-  "naturalTacticalAIRunsOnMobileEmulator": true,
+  "rootCareerAndCachesPreserved": true,
+  "betaSaveKey": "arena-career-original20",
+  "originalOperators": 10,
+  "gulls": 9,
+  "two40SecondAIStrategyCases": [
+    {
+      "strategy": "a",
+      "phase": "live",
+      "assignedRoutes": [
+        "A SHORT",
+        "A LONG",
+        "CT A",
+        "CT B"
+      ],
+      "progress": [
+        7,
+        2,
+        6,
+        2,
+        3,
+        5,
+        8,
+        5,
+        4,
+        8
+      ],
+      "alive": 9
+    },
+    {
+      "strategy": "b",
+      "phase": "live",
+      "assignedRoutes": [
+        "B MID",
+        "B TUNNEL",
+        "CT A",
+        "CT B"
+      ],
+      "progress": [
+        4,
+        4,
+        3,
+        4,
+        4,
+        5,
+        7,
+        5,
+        5,
+        7
+      ],
+      "alive": 10
+    }
+  ],
+  "mobileBrowserEmulation": true,
   "mobileLandscapeNoPageOverflow": true,
-  "noSourceGameMediaRequests": true,
   "pageErrors": 0,
   "httpErrors": 0,
+  "noSourceGameMediaRequests": true,
+  "sourceGameExportedInputs": 0,
   "root11MapsAndOldAPKUnchanged": true,
   "physicalDeviceTested": false,
-  "animation": "Original rigid analytic IK plus layered authored keyframes; not mocap",
-  "scope": "Isolated original Sahil beta, not a replacement for the existing 11-map root game."
+  "scope": "One independently authored tactical Sahil map, inspired by competitive shooter lane/site architecture, not a 1:1 CS2 recreation."
 }

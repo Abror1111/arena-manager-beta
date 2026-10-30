@@ -1,5 +1,5 @@
 {
-  "version": "motion21",
+  "version": "architecture22",
   "date": "2026-10-30",
   "scope": "One authored Sahil map, full old club manager and battle HUD, separate career; root11 maps unchanged",
   "media": "No source-game exported media or navigation loaded. Original ARENA geometry, texture generation, analytic operators and effects. Existing original anime atlas and30 authored audio cues are shared parent assets.",
@@ -9,13 +9,22 @@
   "legalClearanceClaim": false,
   "map": {
     "name": "Sahil",
-    "width": 84,
-    "height": 56,
-    "areaVsPrevious": 1.96,
-    "authoredBuildingsIncludingTower": 21,
+    "width": 120,
+    "height": 88,
+    "areaVsPrevious": 2.2448979591836733,
+    "playableBuildingMasses": 38,
+    "contextBuildings": 13,
+    "indoorFloorRegions": 3,
+    "heightRange": [
+      -0.75,
+      2.45
+    ],
+    "authoredTacticalRoutes": 6,
     "sourceGameExportedInputs": 0
   },
   "c4": "State-driven single held/placed model; completion clears carrier and plant timer.",
   "ui": "Same original club manager and match HUD; compiled CSS unchanged.",
-  "storage": "Original20 beta save retained; old smaller-map rounds migrate safely. Root legacy career untouched."
+  "storage": "Original20 beta namespace retained; old20/21 active rounds migrate with score/funds. Root career untouched.",
+  "architecture": "Original authored coastal tactical town inspired by the long/mid/short/tunnel/site structure of competitive tactical shooters; not a 1:1 CS2 map.",
+  "navigation": "Shared authored world-metre footprint data, height-safe paths, explicit role-based route queues; no exported nav."
 }
