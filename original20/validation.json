@@ -1,497 +1,375 @@
 {
   "result": "passed",
-  "version": "elevation25",
+  "version": "ct26",
   "date": "2026-10-31",
-  "scope": "Sahil only: visible stepped elevation and retaining walls on the existing coastal plan; hand-authored Dust II-inspired lane and landmark arrangement with an exterior west coast; not a complete 1:1 source map. Root eleven-map game unchanged.",
+  "scope": "One Sahil map only: CT open street, A/Mid/B/Short route and gate correction, layered Short crossing and comfortable camera. Authored reference-inspired approximation, not a complete 1:1 source map. Root eleven-map release unchanged.",
   "layout": {
+    "saveMigration": {
+      "current26UpperFloorResumes": true,
+      "old25RoundScoreAndMoneyPreserved": true
+    },
     "result": "passed",
-    "mapMetres": [
-      120,
-      120
-    ],
-    "landmarkOrder": "B northwest, A northeast, CT north-centre, T south",
-    "irregularBuildingGroups": 15,
-    "outlineVertices": 54,
+    "ctOpenStreet": {
+      "x": 68.39999999999999,
+      "z": 25.2,
+      "y": 0.05
+    },
+    "tStreetRetained": true,
     "spawnSitePaths": 20,
     "routes": [
       {
         "id": "A LONG",
-        "metres": 136
+        "metres": 135
       },
       {
         "id": "A SHORT",
-        "metres": 130
+        "metres": 134
       },
       {
         "id": "B TUNNEL",
-        "metres": 122
+        "metres": 121
       },
       {
         "id": "B MID",
-        "metres": 126
+        "metres": 124
       },
       {
         "id": "CT A",
-        "metres": 33
+        "metres": 39
       },
       {
         "id": "CT B",
-        "metres": 51
+        "metres": 54
       }
     ],
-    "siteHeights": {
-      "A": 4.25,
-      "B": 1.05
-    },
-    "grenades": [
+    "doors": [
       {
-        "floor": 4.25,
-        "restY": 4.355000210320225
+        "id": "MID",
+        "plan": [
+          46.2,
+          36.2
+        ]
       },
       {
-        "floor": 1.05,
-        "restY": 1.1550002103202237
+        "id": "B",
+        "plan": [
+          25,
+          23
+        ]
       },
       {
-        "floor": 1.8,
-        "restY": 1.9050002103202237
+        "id": "LONG IN",
+        "plan": [
+          69,
+          65.5
+        ]
+      },
+      {
+        "id": "LONG OUT",
+        "plan": [
+          72,
+          54.8
+        ]
       }
     ],
-    "rounds": [
+    "flankingWallSegments": 10,
+    "upperAndLowerCrossingLevels": [
+      0.05,
+      4.25
+    ],
+    "noFloorTeleport": true,
+    "bridgeStopsShots": true,
+    "rampOrStairsNeededToChangeLevels": true,
+    "camera": [
       {
-        "strategy": "a",
-        "moved": 10,
-        "alive": 10,
-        "phase": "live"
+        "mode": "player",
+        "aspect": 2.16,
+        "span": 11.000241953072804
       },
       {
-        "strategy": "b",
-        "moved": 10,
-        "alive": 10,
-        "phase": "live"
+        "mode": "player",
+        "aspect": 1,
+        "span": 12.000274649433996
       },
       {
-        "strategy": "balanced",
-        "moved": 10,
-        "alive": 10,
-        "phase": "live"
+        "mode": "player",
+        "aspect": 0.46,
+        "span": 24.000486521854498
+      },
+      {
+        "mode": "auto",
+        "aspect": 2.16,
+        "span": 14.000340042156378
+      },
+      {
+        "mode": "auto",
+        "aspect": 1,
+        "span": 14.000340042156378
+      },
+      {
+        "mode": "auto",
+        "aspect": 0.46,
+        "span": 24.000486521854498
+      }
+    ],
+    "actualAgentTraversals": [
+      {
+        "route": "A SHORT",
+        "lowest": 2.323174231528475,
+        "highest": 4.25,
+        "samples": 1452
+      },
+      {
+        "route": "CT A",
+        "lowest": 0.05,
+        "highest": 4.25,
+        "samples": 436
+      },
+      {
+        "route": "A LONG",
+        "lowest": 3.2,
+        "highest": 4.25,
+        "samples": 1453
       }
     ],
     "fullRounds": [
       {
         "strategy": "a",
-        "shots": 334,
+        "shots": 330,
         "bomb": "exploded",
         "reason": "C4 portladi"
       },
       {
         "strategy": "b",
-        "shots": 138,
+        "shots": 282,
         "bomb": "exploded",
         "reason": "C4 portladi"
       }
-    ],
-    "c4SinglePlacement": true,
-    "old20Through23ScoreAndFundsPreserved": true,
-    "sourceGameNavOrMediaLoaded": false
+    ]
   },
-  "renderedFloors": [
-    {
-      "name": "B site",
-      "expected": 1.05,
-      "visible": 1.075
-    },
-    {
-      "name": "A site",
-      "expected": 4.25,
-      "visible": 4.275
-    },
-    {
-      "name": "T spawn",
-      "expected": 1.35,
-      "visible": 1.350000023841858
-    },
-    {
-      "name": "CT spawn",
-      "expected": 0.05,
-      "visible": 0.05000000074505806
-    },
-    {
-      "name": "Upper B tunnel",
-      "expected": 1.8,
-      "visible": 1.7999999523162842
-    },
-    {
-      "name": "Short",
-      "expected": 2.6,
-      "visible": 2.5999999046325684
-    },
-    {
-      "name": "Long ramp",
-      "expected": 2.15,
-      "visible": 2.1500062942504883
-    },
-    {
-      "name": "Lower tunnel",
-      "expected": -0.85,
-      "visible": -0.8500000238418579
-    },
-    {
-      "name": "CT Short stairs",
-      "expected": 1.7000000000000004,
-      "visible": 1.7000000476837158
-    },
-    {
-      "name": "A Short stairs",
-      "expected": 3.35,
-      "visible": 3.3499999046325684
-    },
-    {
-      "name": "South Short stairs",
-      "expected": 1.2500000000000002,
-      "visible": 1.25
-    },
-    {
-      "name": "short-south tread 0",
-      "expected": 0.05,
-      "visible": 0.05000000074505806
-    },
-    {
-      "name": "short-south tread 1",
-      "expected": 0.2,
-      "visible": 0.20000000298023224
-    },
-    {
-      "name": "short-south tread 2",
-      "expected": 0.35000000000000003,
-      "visible": 0.3499999940395355
-    },
-    {
-      "name": "short-south tread 3",
-      "expected": 0.5,
-      "visible": 0.5
-    },
-    {
-      "name": "short-south tread 4",
-      "expected": 0.6500000000000001,
-      "visible": 0.6499999761581421
-    },
-    {
-      "name": "short-south tread 5",
-      "expected": 0.8000000000000002,
-      "visible": 0.800000011920929
-    },
-    {
-      "name": "short-south tread 6",
-      "expected": 0.9500000000000001,
-      "visible": 0.949999988079071
-    },
-    {
-      "name": "short-south tread 7",
-      "expected": 1.1,
-      "visible": 1.100000023841858
-    },
-    {
-      "name": "short-south tread 8",
-      "expected": 1.2500000000000002,
-      "visible": 1.25
-    },
-    {
-      "name": "short-south tread 9",
-      "expected": 1.4000000000000001,
-      "visible": 1.399999976158142
-    },
-    {
-      "name": "short-south tread 10",
-      "expected": 1.5500000000000003,
-      "visible": 1.5499999523162842
-    },
-    {
-      "name": "short-south tread 11",
-      "expected": 1.7000000000000004,
-      "visible": 1.7000000476837158
-    },
-    {
-      "name": "short-south tread 12",
-      "expected": 1.85,
-      "visible": 1.850000023841858
-    },
-    {
-      "name": "short-south tread 13",
-      "expected": 2.0000000000000004,
-      "visible": 2
-    },
-    {
-      "name": "short-south tread 14",
-      "expected": 2.15,
-      "visible": 2.1500000953674316
-    },
-    {
-      "name": "short-south tread 15",
-      "expected": 2.3000000000000003,
-      "visible": 2.299999952316284
-    },
-    {
-      "name": "short-south tread 16",
-      "expected": 2.45,
-      "visible": 2.450000047683716
-    },
-    {
-      "name": "ct-short tread 0",
-      "expected": 0.05,
-      "visible": 0.05000000074505806
-    },
-    {
-      "name": "ct-short tread 1",
-      "expected": 0.2,
-      "visible": 0.20000000298023224
-    },
-    {
-      "name": "ct-short tread 2",
-      "expected": 0.35000000000000003,
-      "visible": 0.3499999940395355
-    },
-    {
-      "name": "ct-short tread 3",
-      "expected": 0.5,
-      "visible": 0.5
-    },
-    {
-      "name": "ct-short tread 4",
-      "expected": 0.6500000000000001,
-      "visible": 0.6499999761581421
-    },
-    {
-      "name": "ct-short tread 5",
-      "expected": 0.8000000000000002,
-      "visible": 0.800000011920929
-    },
-    {
-      "name": "ct-short tread 6",
-      "expected": 0.9500000000000001,
-      "visible": 0.949999988079071
-    },
-    {
-      "name": "ct-short tread 7",
-      "expected": 1.1,
-      "visible": 1.100000023841858
-    },
-    {
-      "name": "ct-short tread 8",
-      "expected": 1.2500000000000002,
-      "visible": 1.25
-    },
-    {
-      "name": "ct-short tread 9",
-      "expected": 1.4000000000000001,
-      "visible": 1.399999976158142
-    },
-    {
-      "name": "ct-short tread 10",
-      "expected": 1.5500000000000003,
-      "visible": 1.5499999523162842
-    },
-    {
-      "name": "ct-short tread 11",
-      "expected": 1.7000000000000004,
-      "visible": 1.7000000476837158
-    },
-    {
-      "name": "ct-short tread 12",
-      "expected": 1.85,
-      "visible": 1.850000023841858
-    },
-    {
-      "name": "ct-short tread 13",
-      "expected": 2.0000000000000004,
-      "visible": 2
-    },
-    {
-      "name": "ct-short tread 14",
-      "expected": 2.15,
-      "visible": 2.1500000953674316
-    },
-    {
-      "name": "ct-short tread 15",
-      "expected": 2.3000000000000003,
-      "visible": 2.299999952316284
-    },
-    {
-      "name": "ct-short tread 16",
-      "expected": 2.45,
-      "visible": 2.450000047683716
-    },
-    {
-      "name": "a-short tread 0",
-      "expected": 2.6,
-      "visible": 2.5999999046325684
-    },
-    {
-      "name": "a-short tread 1",
-      "expected": 2.75,
-      "visible": 2.75
-    },
-    {
-      "name": "a-short tread 2",
-      "expected": 2.9,
-      "visible": 2.9000000953674316
-    },
-    {
-      "name": "a-short tread 3",
-      "expected": 3.05,
-      "visible": 3.049999952316284
-    },
-    {
-      "name": "a-short tread 4",
-      "expected": 3.2,
-      "visible": 3.200000047683716
-    },
-    {
-      "name": "a-short tread 5",
-      "expected": 3.35,
-      "visible": 3.3499999046325684
-    },
-    {
-      "name": "a-short tread 6",
-      "expected": 3.5,
-      "visible": 3.5
-    },
-    {
-      "name": "a-short tread 7",
-      "expected": 3.65,
-      "visible": 3.6500000953674316
-    },
-    {
-      "name": "a-short tread 8",
-      "expected": 3.8,
-      "visible": 3.799999952316284
-    },
-    {
-      "name": "a-short tread 9",
-      "expected": 3.95,
-      "visible": 3.950000047683716
-    },
-    {
-      "name": "a-short tread 10",
-      "expected": 4.1,
-      "visible": 4.099999904632568
-    },
-    {
-      "name": "upper-to-lower tread 0",
-      "expected": 1.8,
-      "visible": 1.7999999523162842
-    },
-    {
-      "name": "upper-to-lower tread 1",
-      "expected": 1.6441176470588235,
-      "visible": 1.6441175937652588
-    },
-    {
-      "name": "upper-to-lower tread 2",
-      "expected": 1.488235294117647,
-      "visible": 1.4882352352142334
-    },
-    {
-      "name": "upper-to-lower tread 3",
-      "expected": 1.3323529411764707,
-      "visible": 1.3323529958724976
-    },
-    {
-      "name": "upper-to-lower tread 4",
-      "expected": 1.1764705882352942,
-      "visible": 1.1764706373214722
-    },
-    {
-      "name": "upper-to-lower tread 5",
-      "expected": 1.0205882352941176,
-      "visible": 1.0205882787704468
-    },
-    {
-      "name": "upper-to-lower tread 6",
-      "expected": 0.8647058823529413,
-      "visible": 0.8647058606147766
-    },
-    {
-      "name": "upper-to-lower tread 7",
-      "expected": 0.7088235294117646,
-      "visible": 0.7088235020637512
-    },
-    {
-      "name": "upper-to-lower tread 8",
-      "expected": 0.5529411764705883,
-      "visible": 0.5529412031173706
-    },
-    {
-      "name": "upper-to-lower tread 9",
-      "expected": 0.3970588235294119,
-      "visible": 0.3970588147640228
-    },
-    {
-      "name": "upper-to-lower tread 10",
-      "expected": 0.24117647058823533,
-      "visible": 0.24117647111415863
-    },
-    {
-      "name": "upper-to-lower tread 11",
-      "expected": 0.08529411764705896,
-      "visible": 0.08529412001371384
-    },
-    {
-      "name": "upper-to-lower tread 12",
-      "expected": -0.0705882352941174,
-      "visible": -0.07058823853731155
-    },
-    {
-      "name": "upper-to-lower tread 13",
-      "expected": -0.22647058823529398,
-      "visible": -0.22647058963775635
-    },
-    {
-      "name": "upper-to-lower tread 14",
-      "expected": -0.3823529411764708,
-      "visible": -0.38235294818878174
-    },
-    {
-      "name": "upper-to-lower tread 15",
-      "expected": -0.5382352941176471,
-      "visible": -0.5382353067398071
-    },
-    {
-      "name": "upper-to-lower tread 16",
-      "expected": -0.6941176470588235,
-      "visible": -0.6941176652908325
-    },
-    {
-      "name": "lower-mid tread 0",
-      "expected": -0.85,
-      "visible": -0.8500000238418579
-    },
-    {
-      "name": "lower-mid tread 1",
-      "expected": -0.7,
-      "visible": -0.699999988079071
-    },
-    {
-      "name": "lower-mid tread 2",
-      "expected": -0.55,
-      "visible": -0.550000011920929
-    },
-    {
-      "name": "lower-mid tread 3",
-      "expected": -0.39999999999999997,
-      "visible": -0.4000000059604644
-    },
-    {
-      "name": "lower-mid tread 4",
-      "expected": -0.25,
-      "visible": -0.25
-    },
-    {
-      "name": "lower-mid tread 5",
-      "expected": -0.09999999999999998,
-      "visible": -0.10000000149011612
-    }
-  ],
+  "renderedFloors": {
+    "result": "passed",
+    "cases": [
+      {
+        "name": "B site",
+        "expected": 1.8,
+        "visible": 1.825
+      },
+      {
+        "name": "A site",
+        "expected": 4.25,
+        "visible": 4.275
+      },
+      {
+        "name": "T street",
+        "expected": 3.2,
+        "visible": 3.200000047683716
+      },
+      {
+        "name": "Below Short crossing",
+        "expected": 0.05,
+        "visible": 0.05000000074505806
+      },
+      {
+        "name": "Short bridge deck",
+        "expected": 4.25,
+        "visible": 4.25
+      },
+      {
+        "name": "CT A ramp",
+        "expected": 2.4499999999999997,
+        "visible": 2.449993991851806
+      },
+      {
+        "name": "Short stairs",
+        "expected": 3.5,
+        "visible": 3.5
+      },
+      {
+        "name": "Mid gate",
+        "expected": 0.05,
+        "visible": 0.07000000029802322
+      },
+      {
+        "name": "B gate",
+        "expected": 1.8,
+        "visible": 1.8200000524520874
+      },
+      {
+        "name": "Long chamber",
+        "expected": 3.2,
+        "visible": 3.200000047683716
+      },
+      {
+        "name": "Long exit",
+        "expected": 3.2,
+        "visible": 3.200000047683716
+      },
+      {
+        "name": "short tread 0",
+        "expected": 2.6,
+        "visible": 2.5999999046325684
+      },
+      {
+        "name": "short tread 1",
+        "expected": 2.75,
+        "visible": 2.75
+      },
+      {
+        "name": "short tread 2",
+        "expected": 2.9,
+        "visible": 2.9000000953674316
+      },
+      {
+        "name": "short tread 3",
+        "expected": 3.05,
+        "visible": 3.049999952316284
+      },
+      {
+        "name": "short tread 4",
+        "expected": 3.2,
+        "visible": 3.200000047683716
+      },
+      {
+        "name": "short tread 5",
+        "expected": 3.35,
+        "visible": 3.3499999046325684
+      },
+      {
+        "name": "short tread 6",
+        "expected": 3.5,
+        "visible": 3.5
+      },
+      {
+        "name": "short tread 7",
+        "expected": 3.65,
+        "visible": 3.6500000953674316
+      },
+      {
+        "name": "short tread 8",
+        "expected": 3.8,
+        "visible": 3.799999952316284
+      },
+      {
+        "name": "short tread 9",
+        "expected": 3.95,
+        "visible": 3.950000047683716
+      },
+      {
+        "name": "short tread 10",
+        "expected": 4.1,
+        "visible": 4.099999904632568
+      },
+      {
+        "name": "upper-to-lower tread 0",
+        "expected": 1.8,
+        "visible": 1.7999999523162842
+      },
+      {
+        "name": "upper-to-lower tread 1",
+        "expected": 1.65,
+        "visible": 1.649999976158142
+      },
+      {
+        "name": "upper-to-lower tread 2",
+        "expected": 1.5,
+        "visible": 1.5
+      },
+      {
+        "name": "upper-to-lower tread 3",
+        "expected": 1.35,
+        "visible": 1.350000023841858
+      },
+      {
+        "name": "upper-to-lower tread 4",
+        "expected": 1.2,
+        "visible": 1.2000000476837158
+      },
+      {
+        "name": "upper-to-lower tread 5",
+        "expected": 1.05,
+        "visible": 1.0499999523162842
+      },
+      {
+        "name": "upper-to-lower tread 6",
+        "expected": 0.9,
+        "visible": 0.8999999761581421
+      },
+      {
+        "name": "upper-to-lower tread 7",
+        "expected": 0.75,
+        "visible": 0.75
+      },
+      {
+        "name": "upper-to-lower tread 8",
+        "expected": 0.5999999999999999,
+        "visible": 0.6000000238418579
+      },
+      {
+        "name": "upper-to-lower tread 9",
+        "expected": 0.44999999999999996,
+        "visible": 0.44999998807907104
+      },
+      {
+        "name": "upper-to-lower tread 10",
+        "expected": 0.30000000000000004,
+        "visible": 0.30000001192092896
+      },
+      {
+        "name": "lower-mid tread 0",
+        "expected": 0.15,
+        "visible": 0.15000000596046448
+      }
+    ],
+    "ctOpenSky": [
+      {
+        "player": 1,
+        "expected": 0.05,
+        "firstSurface": 0.05000000074505806
+      },
+      {
+        "player": 2,
+        "expected": 0.05,
+        "firstSurface": 0.05000000074505806
+      },
+      {
+        "player": 3,
+        "expected": 0.05,
+        "firstSurface": 0.05000000074505806
+      },
+      {
+        "player": 4,
+        "expected": 0.05,
+        "firstSurface": 0.05000000074505806
+      },
+      {
+        "player": 5,
+        "expected": 0.05,
+        "firstSurface": 0.05000000074505806
+      }
+    ],
+    "stairFlights": 3,
+    "stairTreads": 23
+  },
+  "footContact": {
+    "result": "passed",
+    "maxContactError": 1.3877787807814457e-16,
+    "contacts": 1271,
+    "flights": [
+      {
+        "id": "short",
+        "plantedFootSamples": 447
+      },
+      {
+        "id": "upper-to-lower",
+        "plantedFootSamples": 381
+      },
+      {
+        "id": "lower-mid",
+        "plantedFootSamples": 443
+      }
+    ]
+  },
   "oldManagerAndBattleUI": true,
   "cssSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
   "mobileLandscapeBrowserEmulation": {
@@ -501,104 +379,23 @@
     "bodyH": 390
   },
   "physicalDeviceTested": false,
+  "cameraMinimumVerticalFieldMetres": {
+    "playerLandscape": 22,
+    "autoLandscape": 28,
+    "narrowViewportWider": true
+  },
   "c4SingleHeldPlacedAndOfflineResume": true,
-  "old20Through23CurrentRoundRestartsWithRoundScoreFunds": true,
+  "old20Through25CurrentRoundRestartsWithRoundScoreFunds": true,
+  "current26UpperFloorSaveResumes": true,
   "noSourceGameMediaRequests": true,
   "sourceMapImageBundled": false,
   "referenceRadarViewedAsGuide": true,
   "mainNavigationImported": false,
   "roofRouteInspection": true,
-  "roofTrianglesHidden": 25741,
-  "dynamicPlayerAndAutoRetained": true,
-  "westOcean": "Animated vertex waves, Fresnel tint, sun specular, moving foam and nearshore alpha.",
+  "roofTrianglesHidden": 25743,
   "rootCareerAndCachesPreserved": true,
   "previousAPKUnchanged": true,
   "betaSaveKey": "arena-career-original20",
   "pageErrors": [],
-  "httpErrors": [],
-  "elevation": {
-    "result": "passed",
-    "heightRange": [
-      -0.85,
-      4.25
-    ],
-    "siteHeights": {
-      "A": 4.25,
-      "B": 1.05,
-      "Short": 2.6,
-      "lowerTunnel": -0.85
-    },
-    "flights": [
-      {
-        "id": "short-south",
-        "steps": 17,
-        "min": 0.05,
-        "max": 2.45,
-        "pathPoints": 1
-      },
-      {
-        "id": "ct-short",
-        "steps": 17,
-        "min": 0.05,
-        "max": 2.45,
-        "pathPoints": 1
-      },
-      {
-        "id": "a-short",
-        "steps": 11,
-        "min": 2.6,
-        "max": 4.1,
-        "pathPoints": 1
-      },
-      {
-        "id": "upper-to-lower",
-        "steps": 17,
-        "min": -0.6941176470588235,
-        "max": 1.8,
-        "pathPoints": 1
-      },
-      {
-        "id": "lower-mid",
-        "steps": 6,
-        "min": -0.85,
-        "max": -0.09999999999999998,
-        "pathPoints": 1
-      }
-    ],
-    "steps": 68,
-    "retainingFaceRicochet": true,
-    "lowTunnelGrenadeRestY": -0.7449997896797761,
-    "raisedGroundStopsBulletRay": true,
-    "old24ActiveClockScoreFundsAndPlantedC4Preserved": true
-  },
-  "rigFootContact": {
-    "result": "passed",
-    "maxContactError": 1.3877787807814457e-16,
-    "contacts": 1868,
-    "flights": [
-      {
-        "id": "short-south",
-        "plantedFootSamples": 433
-      },
-      {
-        "id": "ct-short",
-        "plantedFootSamples": 347
-      },
-      {
-        "id": "a-short",
-        "plantedFootSamples": 378
-      },
-      {
-        "id": "upper-to-lower",
-        "plantedFootSamples": 346
-      },
-      {
-        "id": "lower-mid",
-        "plantedFootSamples": 364
-      }
-    ]
-  },
-  "renderedStairFlightCount": 5,
-  "renderedTreadCount": 68,
-  "old24ActiveClockRoundScoreFundsAndPlantedC4Preserved": true
+  "httpErrors": []
 }

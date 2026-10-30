@@ -1,5 +1,5 @@
 {
-  "version": "elevation25",
+  "version": "ct26",
   "date": "2026-10-31",
   "scope": "One authored Sahil map, full old club manager and battle HUD, separate career; root11 maps unchanged",
   "media": "No source-game exported media or navigation loaded. Original ARENA geometry, texture generation, analytic operators and effects. Existing original anime atlas and30 authored audio cues are shared parent assets.",
@@ -13,27 +13,30 @@
     "height": 120,
     "mainIrregularGroups": 15,
     "contextBuildings": 14,
-    "coveredInteriors": 3,
+    "coveredInteriors": 4,
     "playableOutlineVertices": 54,
     "routes": 6,
     "siteHeights": {
       "A": 4.25,
-      "Short": 2.6,
-      "B": 1.05,
+      "ShortDeck": 4.25,
+      "ShortApproach": 2.6,
+      "B": 1.8,
+      "T": 3.2,
+      "CT": 0.05,
       "upperTunnel": 1.8,
-      "lowerTunnel": -0.85
+      "lowerTunnel": 0.15
     },
     "referenceGuide": "Dust II radar viewed for landmark and lane arrangement; hand-authored percentage-coordinate outlines; radar/nav/mesh not shipped",
     "oneToOneRecreation": false,
-    "stairFlights": 5,
-    "stairTreads": 68
+    "stairFlights": 3,
+    "stairTreads": 23
   },
   "c4": "State-driven single held/placed model; completion clears carrier and plant timer.",
   "ui": "Same original club manager and match HUD; compiled CSS unchanged.",
-  "storage": "Beta namespace retained; old20\u201323 rounds restart with round/score/funds preserved; old24 active clock/round/C4 are preserved and actors/placed C4 are resampled to new heights. Current25 resumes normally. Root save untouched.",
-  "architecture": "Fifteen irregular polygon building groups, shared triangulated convex collision, closed facades and roofs, enclosed A/B, three covered tunnel regions, 14 context buildings.",
-  "navigation": "Shared authored world-metre footprint data, height-safe paths, explicit role-based route queues; no exported nav.",
-  "camera": "Damped oblique player/auto tracking with velocity lead, transfer zoom, bounded travel and low-FPS substeps; MSAA alpha-to-coverage occluder reveal with clean edge fallback.",
+  "storage": "Beta namespace retained; old20\u201325 current round restarts preserving round, score and funds. Current26 resumes normally. Root career and caches unchanged.",
+  "architecture": "Fifteen polygon building groups, fourteen context buildings, four covered interiors, shared four double-door/leaf openings and ten flanking walls, single L-shaped Short bridge deck with four columns.",
+  "navigation": "Authored cached two-layer metre grid, height-aware collision and sampled path smoothing, separate low CT street and raised Short crossing; no exported navigation.",
+  "camera": "Separate oblique damped player/auto tracking. Minimum vertical field 22/28 m in landscape, wider in narrow viewports; minimum applied to old camera seeds.",
   "water": "West coast outside playfield: animated vertex waves, Fresnel tint, specular highlights, foam and nearshore transparency.",
-  "elevation": "One shared metre-coordinate floor definition: exact stair boundaries, horizontal treads, closed vertical risers/retaining faces and a continuous Long ramp. Navigation, IK, grenade sweeps and low bullet rays use this floor."
+  "elevation": "Shared metre floor definitions, 23 visible treads in three flights, CT A ramp, raised Short deck above CT street, matching visual and ballistic bridge slabs; actor-height hints for foot IK."
 }
