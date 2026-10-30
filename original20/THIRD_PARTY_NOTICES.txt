@@ -116,5 +116,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-Map media provenance: This beta references the user-exported Counter-Strike 2 Dust II visual, collision and navigation from existing parent site assets. These are source-game assets, not original ARENA map media. No legal clearance claim is made.
