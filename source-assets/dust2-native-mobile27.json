@@ -1,0 +1,12 @@
+{
+  "result": "passed",
+  "beforeTriangles": 1890136,
+  "afterTriangles": 1010490,
+  "bytes": 27551744,
+  "sha256": "35e992534079c7b8ef92e17121e2cc1024912e2e189c314e96ca9633fbc74869",
+  "nativeTransformRetained": true,
+  "materialTexturesNotResized": true,
+  "sourceOriginalUnchanged": true,
+  "maxRelativeSimplificationError": 0.001,
+  "lockedBorders": false
+}
