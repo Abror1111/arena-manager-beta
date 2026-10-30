@@ -1,10 +1,21 @@
 {
-  "version": "motion20",
+  "version": "motion21",
   "date": "2026-10-30",
   "scope": "One authored Sahil map, full old club manager and battle HUD, separate career; root11 maps unchanged",
   "media": "No source-game exported media or navigation loaded. Original ARENA geometry, texture generation, analytic operators and effects. Existing original anime atlas and30 authored audio cues are shared parent assets.",
-  "motion": "20-joint rigid analytic IK, planted world-space stance anchors, eased turning and weapon-ready transitions. Not mocap.",
+  "motion": "20-joint analytic rig; terrain-aware stance IK, acceleration/braking, aim anticipation, authored cubic action keyframes and equipment recovery; not mocap.",
   "uiCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
   "saveKey": "arena-career-original20",
-  "legalClearanceClaim": false
+  "legalClearanceClaim": false,
+  "map": {
+    "name": "Sahil",
+    "width": 84,
+    "height": 56,
+    "areaVsPrevious": 1.96,
+    "authoredBuildingsIncludingTower": 21,
+    "sourceGameExportedInputs": 0
+  },
+  "c4": "State-driven single held/placed model; completion clears carrier and plant timer.",
+  "ui": "Same original club manager and match HUD; compiled CSS unchanged.",
+  "storage": "Original20 beta save retained; old smaller-map rounds migrate safely. Root legacy career untouched."
 }

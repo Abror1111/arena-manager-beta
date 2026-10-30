@@ -1,19 +1,23 @@
-# ARENA manager original20 — old interface, original media test
+# ARENA motion21 — expanded Sahil, gulls, roofs and C4 fix
 
-Full existing club manager and old match HUD, with identical compiled CSS SHA256 2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a. Manager menus, anime portraits, careers, tactical Match engine, round rules and economy remain. UI asset references and audio/map labels differ to fit original content.
+The full old club-manager UI and battle HUD are preserved. Compiled CSS is byte-identical to the main game: 2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a. This is an isolated ONE-map original-media beta at /original20/?v=motion21. Main root game, existing 11 source maps, root saved career and previous APK are untouched.
 
-This isolated beta includes ONE author-designed Sahil map (15 architecture masses, asymmetric paths, raised A terrace with steps). It is not the rebuilt 11-map release and does not claim to reproduce CS2. The existing root game and 11 source maps are untouched. Separate arena-career-original20 save and audio upload DB prevent loading or overwriting the legacy career or CS2 audio pack.
+## Changed behavior
 
-Operators are original detailed rigid articulated models, 20 transform joints and analytic limb IK. World-anchored stance feet, longer step cadence, smooth yaw, acceleration weight shift, low-ready walk/run, aim, reload, objective, grenade follow-through, pistol, sniper and knife handling. Not skeletal mocap or CS2-equivalent animation.
+Sahil expands from 60×40 to 84×56 metres: 1.4× each axis, 1.96× area. Same authored footprints drive geometry and navigation; a covered connector, additional houses, street lanes, barriers and stepped A site shape the routes. All ten spawns can reach both sites. 21 building masses including the tower, not eleven remade maps or a 1:1 CS2 map.
 
-No CS2 exported model/texture/audio/VFX/icon media is loaded. Geometry, textures, effects and nav are authored programmatically. Shared ../ui15/anime-player-portraits.png and ../audio/<sha256>.(wav|mp3) are existing original ARENA files and remain required. The 30-clip bank includes 26 effects/ambience and four music cues. Browser caching validates shared audio by size/hash. This is an asset-provenance statement, not legal clearance.
+Roofs have real perimeter parapet/coping, access hatches, tanks, ventilation, satellite dishes or gable tiles, ridge caps and gutters. Removed the extra solid cap that covered the parapets and the old overlapping pyramid roof. Focused camera cutaway still reveals the selected player. Nine original white gulls now have bodies, necks, heads, eyes, yellow bills, forked tails and independently hinged wings with flap/glide phases.
 
-## Build
+Movement adds acceleration/braking, target-aware body rotation, pelvis weight transfer, gaze anticipation, terrain-aware foot IK, equipment draw/recovery and authored cubic hand-pose tracks for throwing and planting. Still a detailed rigid 20-joint analytic rig, not mocap, not a CS2 animation import, and not a claim of AAA parity.
 
-Install Node dependencies with npm install. npm test runs operator constraints and planted-foot slip tests. npm run build outputs dist; set ARENA_MANAGER_OUT to override. Serve this directory under /original20/ with original ARENA portrait and audio files in the parent paths above; their source metadata is in src/studio-audio.json. Source media/nav loaders are disabled for this map.
+C4 plant completion clears the carrier and plant animation timer in both AI paths. The renderer shows held equipment only during actual live planting by the current carrier. A stale plant timer cannot display another bomb after planting, death or save restore. Only the placed bomb remains.
 
-Service worker caches only this beta shell and shared portrait, preserves root caches, and audio uses a validated shared cache. Reload offline then use the existing Resume match action.
+Existing original20 beta career namespace is retained. A saved active round from the smaller map restarts at the same round number, with score and funds retained, so players cannot resume inside a new building. Original21 snapshots resume normally including planted C4. Root legacy career and caches remain isolated.
 
-## Verification
+## Build and assets
 
-Browser engine tests cover full old UI → 3D match, player/auto camera, independent saved career, audio readiness, cache isolation and offline match resume. Layout tested in 23 viewports across 10 manager screens. No physical-device performance certification. See validation.json. Third-party license texts: public/THIRD_PARTY_NOTICES.txt.
+Node: npm install, npm test, npm run build. Optional ARENA_MANAGER_OUT sets output folder; ARENA_MODULE_RECEIPT sets module receipt. Serve the build at /original20/. Original ARENA ../ui15/anime-player-portraits.png and the 30 author-created ../audio/<hash>.(wav|mp3) cues remain shared parent dependencies (src/studio-audio.json). No source-game exported geometry, texture, animation, navigation, VFX, sound or icon files are loaded. This is provenance information, not legal clearance.
+
+The scoped service worker preserves root caches. A versioned preview and new shell cache avoid loading the old district artwork. Archive contains all build-reachable sources, worker sources and tests; third-party license texts are in public/THIRD_PARTY_NOTICES.txt.
+
+Verification includes path reachability, rig constraints/foot contact, six roof variants, gull anatomy/pose, actual tactical-AI C4 completion and render visibility, earlier beta snapshot migration, mobile landscape emulation and offline resume. Physical-device performance has not been measured. See validation.json and verification/.

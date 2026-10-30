@@ -1,51 +1,47 @@
 {
   "result": "passed",
+  "version": "motion21",
   "date": "2026-10-30",
-  "oldClubManagerAndBattleHUD": true,
-  "compiledCSSUnchanged": true,
-  "cssSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
-  "scope": "Isolated one-map original Sahil beta. Existing root club manager and 11 source maps unchanged.",
-  "managerSourceFilesPreserved": 869,
-  "originalMaps": 1,
-  "layoutViewports": 23,
-  "managerScreenChecks": 230,
-  "spawnSiteRoutes": 20,
-  "rigNodes": 20,
-  "operatorTriangles": 30816,
-  "motionCases": 10,
-  "plantedFootChecks": [
-    {
-      "name": "forward",
-      "maxSlip": 2.7755575615628914e-17,
-      "plantedSamples": 429
-    },
-    {
-      "name": "strafe",
-      "maxSlip": 5.551115123125783e-17,
-      "plantedSamples": 429
-    },
-    {
-      "name": "backward",
-      "maxSlip": 2.7755575615628914e-17,
-      "plantedSamples": 429
-    },
-    {
-      "name": "run",
-      "maxSlip": 5.551115123125783e-17,
-      "plantedSamples": 307
-    }
+  "oneMap": "Sahil",
+  "mapMetres": [
+    84,
+    56
   ],
-  "playerAndAutoCamera": true,
-  "offlineMatchResume": true,
-  "ownSaveKey": "arena-career-original20",
-  "legacyCareerAndRootCachesPreserved": true,
-  "audioEffectsReady": 26,
-  "authoredAudioTotal": 30,
-  "noSourceMediaRequests": true,
+  "previousMapMetres": [
+    60,
+    40
+  ],
+  "axisScale": 1.4,
+  "areaRatio": 1.96,
+  "buildingMassesIncludingTower": 21,
+  "allSpawnToBothSitesRoutes": 20,
+  "coveredConnector": true,
+  "gulls": 9,
+  "gullAnatomy": "White body, neck, head, eyes, bill, forked tail and two-stage articulated wings",
+  "roofVariants": 6,
+  "c4ActualAIPlantCompletion": true,
+  "heldC4WhilePlanting": 1,
+  "placedC4WhilePlanting": 0,
+  "heldC4AfterPlanting": 0,
+  "placedC4AfterPlanting": 1,
+  "stalePlantTimerCannotDuplicateC4": true,
+  "offlinePlantedC4Resumes": true,
+  "oldSmallerMapSnapshotScoreAndFundsPreserved": true,
+  "originalBetaSaveKey": "arena-career-original20",
+  "rootCareerAndCachesUnchanged": true,
+  "oldManagerAndBattleUI": true,
+  "cssSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
+  "rigNodes": 20,
+  "originalOperatorTriangles": 30816,
+  "unevenGroundFootSamples": 421,
+  "equipmentRecoveryGripTested": true,
+  "naturalTacticalAIRunsOnMobileEmulator": true,
+  "mobileLandscapeNoPageOverflow": true,
+  "noSourceGameMediaRequests": true,
   "pageErrors": 0,
   "httpErrors": 0,
-  "oldAPKUnchanged": true,
+  "root11MapsAndOldAPKUnchanged": true,
   "physicalDeviceTested": false,
-  "notMocap": true,
-  "noLegalClearanceClaim": true
+  "animation": "Original rigid analytic IK plus layered authored keyframes; not mocap",
+  "scope": "Isolated original Sahil beta, not a replacement for the existing 11-map root game."
 }
