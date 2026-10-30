@@ -1,374 +1,741 @@
 {
   "result": "passed",
-  "version": "ct26",
+  "version": "measured27",
   "date": "2026-10-31",
-  "scope": "One Sahil map only: CT open street, A/Mid/B/Short route and gate correction, layered Short crossing and comfortable camera. Authored reference-inspired approximation, not a complete 1:1 source map. Root eleven-map release unchanged.",
+  "scope": "Dust II/Sahil only: replace approximate core by user source visual, collision and nav at native uniform scale. Root eleven-map release unchanged. Not a newly authored original map; exact spawn entities not supplied.",
   "layout": {
-    "saveMigration": {
-      "current26UpperFloorResumes": true,
-      "old25RoundScoreAndMoneyPreserved": true
-    },
     "result": "passed",
-    "ctOpenStreet": {
-      "x": 68.39999999999999,
-      "z": 25.2,
-      "y": 0.05
-    },
-    "tStreetRetained": true,
+    "metresPerSourceUnit": 0.0254,
+    "mapSize": [
+      114.44224,
+      114.44224
+    ],
+    "triangles": 229653,
+    "navPolygons": 2242,
     "spawnSitePaths": 20,
-    "routes": [
+    "actualTravels": [
       {
-        "id": "A LONG",
-        "metres": 135
+        "side": "T",
+        "target": "A",
+        "start": {
+          "id": 0,
+          "team": 0,
+          "name": "ACE",
+          "skill": 73,
+          "money": 0,
+          "kills": 0,
+          "deaths": 0,
+          "weapon": "glock",
+          "alive": true,
+          "role": "Kapitan",
+          "experienceXP": 0,
+          "experienceMatches": 20,
+          "side": "T",
+          "hp": 100,
+          "blind": 0,
+          "reload": 0,
+          "cooldown": 0.08340452741831542,
+          "angle": 0,
+          "path": [],
+          "goal": null,
+          "repath": 0,
+          "safeRoute": false,
+          "walk": 0,
+          "moving": false,
+          "plant": 0,
+          "throwCD": 5.801628590486944,
+          "targetId": null,
+          "acquire": 0,
+          "x": 43.834101,
+          "z": 102.358749,
+          "y": 7.636192217499477,
+          "armor": 0,
+          "helmet": false,
+          "kit": false,
+          "grenades": {
+            "he": 1,
+            "smoke": 1,
+            "flash": 1,
+            "fire": 0
+          },
+          "purchaseSpent": 800,
+          "giftFrom": null,
+          "ammo": 20,
+          "reserve": 120,
+          "brain": {
+            "state": "setup",
+            "think": 0.021059744944795965,
+            "burstLeft": 0,
+            "burstPause": 0,
+            "spray": 0,
+            "cover": null,
+            "coverUntil": 0,
+            "rallyUntil": 0,
+            "memory": null,
+            "staging": {
+              "x": 58.8264,
+              "z": 101.054002,
+              "y": 5.638
+            },
+            "anchor": {
+              "x": 89.2302,
+              "z": 21.98685,
+              "y": 7.9748
+            },
+            "postPlant": null,
+            "escape": null,
+            "squadRole": "captain",
+            "lane": 1,
+            "defendSite": 0,
+            "entryDelay": 1.3,
+            "experience": 54,
+            "evade": null,
+            "evadeUntil": 0,
+            "hazardKey": "",
+            "waitTime": 0,
+            "passUntil": 0,
+            "motion": {
+              "x": 43.834101,
+              "z": 102.358749,
+              "since": 0.03333333333333333,
+              "activeAt": 45.69999999999997,
+              "repairs": 0
+            },
+            "avoid": [],
+            "routeVia": null,
+            "viaCleared": true,
+            "lastAdvance": 0
+          }
+        },
+        "end": {
+          "x": 91.68908856225542,
+          "z": 20.159918670773166,
+          "y": 7.093176221525104
+        },
+        "remaining": 0.35465016382077
       },
       {
-        "id": "A SHORT",
-        "metres": 134
+        "side": "T",
+        "target": "B",
+        "start": {
+          "id": 0,
+          "team": 0,
+          "name": "ACE",
+          "skill": 73,
+          "money": 0,
+          "kills": 0,
+          "deaths": 0,
+          "weapon": "glock",
+          "alive": true,
+          "role": "Kapitan",
+          "experienceXP": 0,
+          "experienceMatches": 20,
+          "side": "T",
+          "hp": 100,
+          "blind": 0,
+          "reload": 0,
+          "cooldown": 0.08340452741831542,
+          "angle": 0,
+          "path": [],
+          "goal": null,
+          "repath": 0,
+          "safeRoute": false,
+          "walk": 0,
+          "moving": false,
+          "plant": 0,
+          "throwCD": 5.801628590486944,
+          "targetId": null,
+          "acquire": 0,
+          "x": 43.834101,
+          "z": 102.358749,
+          "y": 7.636192217499477,
+          "armor": 0,
+          "helmet": false,
+          "kit": false,
+          "grenades": {
+            "he": 1,
+            "smoke": 1,
+            "flash": 1,
+            "fire": 0
+          },
+          "purchaseSpent": 800,
+          "giftFrom": null,
+          "ammo": 20,
+          "reserve": 120,
+          "brain": {
+            "state": "setup",
+            "think": 0.021059744944795965,
+            "burstLeft": 0,
+            "burstPause": 0,
+            "spray": 0,
+            "cover": null,
+            "coverUntil": 0,
+            "rallyUntil": 0,
+            "memory": null,
+            "staging": {
+              "x": 58.8264,
+              "z": 101.054002,
+              "y": 5.638
+            },
+            "anchor": {
+              "x": 89.2302,
+              "z": 21.98685,
+              "y": 7.9748
+            },
+            "postPlant": null,
+            "escape": null,
+            "squadRole": "captain",
+            "lane": 1,
+            "defendSite": 0,
+            "entryDelay": 1.3,
+            "experience": 54,
+            "evade": null,
+            "evadeUntil": 0,
+            "hazardKey": "",
+            "waitTime": 0,
+            "passUntil": 0,
+            "motion": {
+              "x": 43.834101,
+              "z": 102.358749,
+              "since": 0.03333333333333333,
+              "activeAt": 43.26666666666677,
+              "repairs": 0
+            },
+            "avoid": [],
+            "routeVia": null,
+            "viaCleared": true,
+            "lastAdvance": 0
+          }
+        },
+        "end": {
+          "x": 23.56227959591934,
+          "z": 14.340420148480446,
+          "y": 4.80578257270999
+        },
+        "remaining": 0.32050974372572455
       },
       {
-        "id": "B TUNNEL",
-        "metres": 121
+        "side": "CT",
+        "target": "A",
+        "start": {
+          "id": 0,
+          "team": 0,
+          "name": "ACE",
+          "skill": 73,
+          "money": 0,
+          "kills": 0,
+          "deaths": 0,
+          "weapon": "usp",
+          "alive": true,
+          "role": "Kapitan",
+          "experienceXP": 0,
+          "experienceMatches": 20,
+          "side": "CT",
+          "hp": 100,
+          "blind": 0,
+          "reload": 0,
+          "cooldown": 0.08340452741831542,
+          "angle": 0,
+          "path": [],
+          "goal": null,
+          "repath": 0,
+          "safeRoute": false,
+          "walk": 0,
+          "moving": false,
+          "plant": 0,
+          "throwCD": 5.801628590486944,
+          "targetId": null,
+          "acquire": 0,
+          "x": 60.826599,
+          "z": 27.4066,
+          "y": 1.4221867244312532,
+          "armor": 0,
+          "helmet": false,
+          "kit": false,
+          "grenades": {
+            "he": 1,
+            "smoke": 1,
+            "flash": 1,
+            "fire": 0
+          },
+          "purchaseSpent": 800,
+          "giftFrom": null,
+          "ammo": 12,
+          "reserve": 24,
+          "brain": {
+            "state": "setup",
+            "think": 0.021059744944795965,
+            "burstLeft": 0,
+            "burstPause": 0,
+            "spray": 0,
+            "cover": null,
+            "coverUntil": 0,
+            "rallyUntil": 0,
+            "memory": null,
+            "staging": {
+              "x": 52.5018,
+              "z": 41.287802,
+              "y": 1.5232
+            },
+            "anchor": {
+              "x": 89.2302,
+              "z": 21.98685,
+              "y": 7.9748
+            },
+            "postPlant": null,
+            "escape": null,
+            "squadRole": "captain",
+            "lane": 1,
+            "defendSite": 0,
+            "entryDelay": 1.3,
+            "experience": 54,
+            "evade": null,
+            "evadeUntil": 0,
+            "hazardKey": "",
+            "waitTime": 0,
+            "passUntil": 0,
+            "motion": {
+              "x": 60.826599,
+              "z": 27.4066,
+              "since": 0.03333333333333333,
+              "activeAt": 18.2333333333334,
+              "repairs": 0
+            },
+            "avoid": [],
+            "routeVia": null,
+            "viaCleared": true,
+            "lastAdvance": 0
+          }
+        },
+        "end": {
+          "x": 91.95743737617296,
+          "z": 19.99293269597488,
+          "y": 7.091855680655154
+        },
+        "remaining": 0.313011342632293
       },
       {
-        "id": "B MID",
-        "metres": 124
-      },
-      {
-        "id": "CT A",
-        "metres": 39
-      },
-      {
-        "id": "CT B",
-        "metres": 54
+        "side": "CT",
+        "target": "B",
+        "start": {
+          "id": 0,
+          "team": 0,
+          "name": "ACE",
+          "skill": 73,
+          "money": 0,
+          "kills": 0,
+          "deaths": 0,
+          "weapon": "usp",
+          "alive": true,
+          "role": "Kapitan",
+          "experienceXP": 0,
+          "experienceMatches": 20,
+          "side": "CT",
+          "hp": 100,
+          "blind": 0,
+          "reload": 0,
+          "cooldown": 0.08340452741831542,
+          "angle": 0,
+          "path": [],
+          "goal": null,
+          "repath": 0,
+          "safeRoute": false,
+          "walk": 0,
+          "moving": false,
+          "plant": 0,
+          "throwCD": 5.801628590486944,
+          "targetId": null,
+          "acquire": 0,
+          "x": 60.826599,
+          "z": 27.4066,
+          "y": 1.4221867244312532,
+          "armor": 0,
+          "helmet": false,
+          "kit": false,
+          "grenades": {
+            "he": 1,
+            "smoke": 1,
+            "flash": 1,
+            "fire": 0
+          },
+          "purchaseSpent": 800,
+          "giftFrom": null,
+          "ammo": 12,
+          "reserve": 24,
+          "brain": {
+            "state": "setup",
+            "think": 0.021059744944795965,
+            "burstLeft": 0,
+            "burstPause": 0,
+            "spray": 0,
+            "cover": null,
+            "coverUntil": 0,
+            "rallyUntil": 0,
+            "memory": null,
+            "staging": {
+              "x": 52.5018,
+              "z": 41.287802,
+              "y": 1.5232
+            },
+            "anchor": {
+              "x": 89.2302,
+              "z": 21.98685,
+              "y": 7.9748
+            },
+            "postPlant": null,
+            "escape": null,
+            "squadRole": "captain",
+            "lane": 1,
+            "defendSite": 0,
+            "entryDelay": 1.3,
+            "experience": 54,
+            "evade": null,
+            "evadeUntil": 0,
+            "hazardKey": "",
+            "waitTime": 0,
+            "passUntil": 0,
+            "motion": {
+              "x": 60.826599,
+              "z": 27.4066,
+              "since": 0.03333333333333333,
+              "activeAt": 15.766666666666621,
+              "repairs": 0
+            },
+            "avoid": [],
+            "routeVia": null,
+            "viaCleared": true,
+            "lastAdvance": 0
+          }
+        },
+        "end": {
+          "x": 24.270887837574275,
+          "z": 14.251401327771976,
+          "y": 4.826932581023444
+        },
+        "remaining": 0.3955804622654163
       }
     ],
-    "doors": [
+    "measuredFloors": [
       {
-        "id": "MID",
-        "plan": [
-          46.2,
-          36.2
-        ]
+        "x": 91.706598,
+        "z": 19.805701,
+        "navY": 7.174598,
+        "meshY": 7.08829316503523
       },
       {
-        "id": "B",
-        "plan": [
-          25,
-          23
-        ]
+        "x": 23.876,
+        "z": 14.2748,
+        "navY": 4.909934,
+        "meshY": 4.809539875964437
       },
       {
-        "id": "LONG IN",
-        "plan": [
-          69,
-          65.5
-        ]
+        "x": 43.834101,
+        "z": 102.358749,
+        "navY": 7.797,
+        "meshY": 7.636192217499477
       },
       {
-        "id": "LONG OUT",
-        "plan": [
-          72,
-          54.8
-        ]
+        "x": 60.826599,
+        "z": 27.4066,
+        "navY": 1.4978,
+        "meshY": 1.4221867244312532
+      },
+      {
+        "x": 43.834101,
+        "z": 102.358749,
+        "navY": 7.797,
+        "meshY": 7.636192217499477
+      },
+      {
+        "x": 46.1518,
+        "z": 101.739802,
+        "navY": 7.8224,
+        "meshY": 7.6455997744268265
+      },
+      {
+        "x": 43.157851,
+        "z": 99.80615,
+        "navY": 7.9494,
+        "meshY": 7.872547235345004
+      },
+      {
+        "x": 44.196,
+        "z": 105.4354,
+        "navY": 7.8732,
+        "meshY": 7.69802889055369
+      },
+      {
+        "x": 41.0464,
+        "z": 100.8888,
+        "navY": 7.8732,
+        "meshY": 7.710490041097713
+      },
+      {
+        "x": 60.826599,
+        "z": 27.4066,
+        "navY": 1.4978,
+        "meshY": 1.4221867244312532
+      },
+      {
+        "x": 60.979101,
+        "z": 26.139851,
+        "navY": 1.4978,
+        "meshY": 1.3918637059618573
+      },
+      {
+        "x": 59.829598,
+        "z": 26.3906,
+        "navY": 1.506334,
+        "meshY": 1.4338093625110662
+      },
+      {
+        "x": 59.617051,
+        "z": 28.597149,
+        "navY": 1.5486,
+        "meshY": 1.4583367405817587
+      },
+      {
+        "x": 60.5282,
+        "z": 29.248202,
+        "navY": 1.557134,
+        "meshY": 1.4805334920167503
       }
     ],
-    "flankingWallSegments": 10,
-    "upperAndLowerCrossingLevels": [
-      0.05,
-      4.25
-    ],
-    "noFloorTeleport": true,
-    "bridgeStopsShots": true,
-    "rampOrStairsNeededToChangeLevels": true,
-    "camera": [
-      {
-        "mode": "player",
-        "aspect": 2.16,
-        "span": 11.000241953072804
-      },
-      {
-        "mode": "player",
-        "aspect": 1,
-        "span": 12.000274649433996
-      },
-      {
-        "mode": "player",
-        "aspect": 0.46,
-        "span": 24.000486521854498
-      },
-      {
-        "mode": "auto",
-        "aspect": 2.16,
-        "span": 14.000340042156378
-      },
-      {
-        "mode": "auto",
-        "aspect": 1,
-        "span": 14.000340042156378
-      },
-      {
-        "mode": "auto",
-        "aspect": 0.46,
-        "span": 24.000486521854498
-      }
-    ],
-    "actualAgentTraversals": [
-      {
-        "route": "A SHORT",
-        "lowest": 2.323174231528475,
-        "highest": 4.25,
-        "samples": 1452
-      },
-      {
-        "route": "CT A",
-        "lowest": 0.05,
-        "highest": 4.25,
-        "samples": 436
-      },
-      {
-        "route": "A LONG",
-        "lowest": 3.2,
-        "highest": 4.25,
-        "samples": 1453
-      }
-    ],
-    "fullRounds": [
+    "rounds": [
       {
         "strategy": "a",
-        "shots": 330,
-        "bomb": "exploded",
-        "reason": "C4 portladi"
+        "shots": 203,
+        "bomb": "dropped",
+        "reason": "Hujumchilar yo\u2018q qilindi"
       },
       {
         "strategy": "b",
-        "shots": 282,
+        "shots": 200,
         "bomb": "exploded",
         "reason": "C4 portladi"
       }
-    ]
+    ],
+    "longDoorCorridor": {
+      "waypointSourceIds": [
+        128,
+        252,
+        302,
+        342,
+        371
+      ],
+      "steps": 1468,
+      "wallCrossings": 0
+    },
+    "old26ScoreAndMoneyPreserved": true
   },
-  "renderedFloors": {
+  "measurements": {
+    "source": "User-supplied Dust II collision and navigation; release 2000933",
+    "width": 114.44224,
+    "height": 114.44224,
+    "metresPerSourceUnit": 0.0254,
+    "verticalOffset": 0.20240000000000002,
+    "sites": [
+      {
+        "x": 91.706598,
+        "z": 19.805701,
+        "y": 7.174598,
+        "label": "A"
+      },
+      {
+        "x": 23.876,
+        "z": 14.2748,
+        "y": 4.909934,
+        "label": "B"
+      }
+    ],
+    "spawns": [
+      {
+        "x": 43.834101,
+        "z": 102.358749,
+        "y": 7.797
+      },
+      {
+        "x": 60.826599,
+        "z": 27.4066,
+        "y": 1.4978
+      }
+    ],
+    "metadataCTMarker": {
+      "x": 65.103451,
+      "z": 23.81565,
+      "y": 4.0124
+    },
+    "structure": {
+      "url": "../cs2/dust2.cmesh",
+      "bytes": 1509427,
+      "sha256": "4581718aca653e6f578063fb91d93d5e5c31302f4adeb253fbc3677c5e78af3d",
+      "triangles": 229653,
+      "sourceSHA256": "4581718aca653e6f578063fb91d93d5e5c31302f4adeb253fbc3677c5e78af3d",
+      "decodeScale": 2.032,
+      "decodeOffset": 0.20240000000000002
+    },
+    "visual": {
+      "url": "../visuals/dust2/mobile.glb",
+      "bytes": 38266876,
+      "sha256": "dcb806df8bed30e2b90edf6791af7d4de4e3cbe20d3c8eba4c61e6c048198c58",
+      "nativeTransform": {
+        "rotateY": 1.5707963267948966,
+        "offsetX": 62.8904,
+        "offsetZ": 82.2706,
+        "offsetY": 4.6728
+      },
+      "source": "User-exported Source2Viewer visual; existing optimized source asset; no atlas/texture repacking"
+    },
+    "referenceNavSHA256": "72d0765026d68f3061c4150168fbfa02f2e43fa3733d8249d06e6bb512a9daef",
+    "selectedCTStreetSourceArea": 1258
+  },
+  "renderedFloorAlignment": {
     "result": "passed",
     "cases": [
       {
-        "name": "B site",
-        "expected": 1.8,
-        "visible": 1.825
+        "name": "A",
+        "x": 91.706598,
+        "z": 19.805701,
+        "collisionFloor": 7.08829316503523,
+        "visualFloor": 7.0773519260453135,
+        "error": 0.010941238989916613
       },
       {
-        "name": "A site",
-        "expected": 4.25,
-        "visible": 4.275
+        "name": "B",
+        "x": 23.876,
+        "z": 14.2748,
+        "collisionFloor": 4.809539875964437,
+        "visualFloor": 4.810105179926672,
+        "error": 0.0005653039622348643
       },
       {
         "name": "T street",
-        "expected": 3.2,
-        "visible": 3.200000047683716
+        "x": 43.834101,
+        "z": 102.358749,
+        "collisionFloor": 7.636192217499477,
+        "visualFloor": 7.652496228343112,
+        "error": 0.01630401084363431
       },
       {
-        "name": "Below Short crossing",
-        "expected": 0.05,
-        "visible": 0.05000000074505806
+        "name": "CT street",
+        "x": 60.826599,
+        "z": 27.4066,
+        "collisionFloor": 1.4221867244312532,
+        "visualFloor": 1.4218163538264044,
+        "error": 0.0003703706048487909
       },
       {
-        "name": "Short bridge deck",
-        "expected": 4.25,
-        "visible": 4.25
+        "name": "CT 0",
+        "x": 60.826599,
+        "z": 27.4066,
+        "collisionFloor": 1.4221867244312532,
+        "visualFloor": 1.4218163538264044,
+        "error": 0.0003703706048487909
       },
       {
-        "name": "CT A ramp",
-        "expected": 2.4499999999999997,
-        "visible": 2.449993991851806
+        "name": "CT 1",
+        "x": 60.979101,
+        "z": 26.139851,
+        "collisionFloor": 1.3918637059618573,
+        "visualFloor": 1.375357666413044,
+        "error": 0.016506039548813245
       },
       {
-        "name": "Short stairs",
-        "expected": 3.5,
-        "visible": 3.5
+        "name": "CT 2",
+        "x": 59.829598,
+        "z": 26.3906,
+        "collisionFloor": 1.4338093625110662,
+        "visualFloor": 1.4136157163047338,
+        "error": 0.02019364620633235
       },
       {
-        "name": "Mid gate",
-        "expected": 0.05,
-        "visible": 0.07000000029802322
+        "name": "CT 3",
+        "x": 59.617051,
+        "z": 28.597149,
+        "collisionFloor": 1.4583367405817587,
+        "visualFloor": 1.497872950234009,
+        "error": 0.03953620965225024
       },
       {
-        "name": "B gate",
-        "expected": 1.8,
-        "visible": 1.8200000524520874
+        "name": "CT 4",
+        "x": 60.5282,
+        "z": 29.248202,
+        "collisionFloor": 1.4805334920167503,
+        "visualFloor": 1.4959442560821623,
+        "error": 0.015410764065411975
       },
       {
-        "name": "Long chamber",
-        "expected": 3.2,
-        "visible": 3.200000047683716
+        "name": "Source polygon 128",
+        "x": 78.809901,
+        "z": 76.841299,
+        "collisionFloor": 4.645325656807141,
+        "visualFloor": 4.650010217611488,
+        "error": 0.004684560804347093
       },
       {
-        "name": "Long exit",
-        "expected": 3.2,
-        "visible": 3.200000047683716
+        "name": "Source polygon 252",
+        "x": 79.591002,
+        "z": 72.898,
+        "collisionFloor": 4.693612759008905,
+        "visualFloor": 4.692410719149677,
+        "error": 0.0012020398592280657
       },
       {
-        "name": "short tread 0",
-        "expected": 2.6,
-        "visible": 2.5999999046325684
+        "name": "Source polygon 302",
+        "x": 77.819301,
+        "z": 65.935149,
+        "collisionFloor": 4.69915877634333,
+        "visualFloor": 4.70016274633833,
+        "error": 0.0010039699950006309
       },
       {
-        "name": "short tread 1",
-        "expected": 2.75,
-        "visible": 2.75
+        "name": "Source polygon 342",
+        "x": 78.092198,
+        "z": 63.9826,
+        "collisionFloor": 4.696680216461239,
+        "visualFloor": 4.696824536425064,
+        "error": 0.00014431996382491263
       },
       {
-        "name": "short tread 2",
-        "expected": 2.9,
-        "visible": 2.9000000953674316
+        "name": "Source polygon 371",
+        "x": 77.48585,
+        "z": 62.14425,
+        "collisionFloor": 4.69771824166085,
+        "visualFloor": 4.700619756459187,
+        "error": 0.0029015147983377787
       },
       {
-        "name": "short tread 3",
-        "expected": 3.05,
-        "visible": 3.049999952316284
+        "name": "Source polygon 1785",
+        "x": 77.3684,
+        "z": 16.243402,
+        "collisionFloor": 7.096471392443875,
+        "visualFloor": 7.0757306425646735,
+        "error": 0.02074074987920138
       },
       {
-        "name": "short tread 4",
-        "expected": 3.2,
-        "visible": 3.200000047683716
-      },
-      {
-        "name": "short tread 5",
-        "expected": 3.35,
-        "visible": 3.3499999046325684
-      },
-      {
-        "name": "short tread 6",
-        "expected": 3.5,
-        "visible": 3.5
-      },
-      {
-        "name": "short tread 7",
-        "expected": 3.65,
-        "visible": 3.6500000953674316
-      },
-      {
-        "name": "short tread 8",
-        "expected": 3.8,
-        "visible": 3.799999952316284
-      },
-      {
-        "name": "short tread 9",
-        "expected": 3.95,
-        "visible": 3.950000047683716
-      },
-      {
-        "name": "short tread 10",
-        "expected": 4.1,
-        "visible": 4.099999904632568
-      },
-      {
-        "name": "upper-to-lower tread 0",
-        "expected": 1.8,
-        "visible": 1.7999999523162842
-      },
-      {
-        "name": "upper-to-lower tread 1",
-        "expected": 1.65,
-        "visible": 1.649999976158142
-      },
-      {
-        "name": "upper-to-lower tread 2",
-        "expected": 1.5,
-        "visible": 1.5
-      },
-      {
-        "name": "upper-to-lower tread 3",
-        "expected": 1.35,
-        "visible": 1.350000023841858
-      },
-      {
-        "name": "upper-to-lower tread 4",
-        "expected": 1.2,
-        "visible": 1.2000000476837158
-      },
-      {
-        "name": "upper-to-lower tread 5",
-        "expected": 1.05,
-        "visible": 1.0499999523162842
-      },
-      {
-        "name": "upper-to-lower tread 6",
-        "expected": 0.9,
-        "visible": 0.8999999761581421
-      },
-      {
-        "name": "upper-to-lower tread 7",
-        "expected": 0.75,
-        "visible": 0.75
-      },
-      {
-        "name": "upper-to-lower tread 8",
-        "expected": 0.5999999999999999,
-        "visible": 0.6000000238418579
-      },
-      {
-        "name": "upper-to-lower tread 9",
-        "expected": 0.44999999999999996,
-        "visible": 0.44999998807907104
-      },
-      {
-        "name": "upper-to-lower tread 10",
-        "expected": 0.30000000000000004,
-        "visible": 0.30000001192092896
-      },
-      {
-        "name": "lower-mid tread 0",
-        "expected": 0.15,
-        "visible": 0.15000000596046448
+        "name": "Source polygon 2064",
+        "x": 16.891,
+        "z": 19.1516,
+        "collisionFloor": 5.432701194408768,
+        "visualFloor": 5.433211498312977,
+        "error": 0.0005103039042086976
       }
     ],
-    "ctOpenSky": [
-      {
-        "player": 1,
-        "expected": 0.05,
-        "firstSurface": 0.05000000074505806
-      },
-      {
-        "player": 2,
-        "expected": 0.05,
-        "firstSurface": 0.05000000074505806
-      },
-      {
-        "player": 3,
-        "expected": 0.05,
-        "firstSurface": 0.05000000074505806
-      },
-      {
-        "player": 4,
-        "expected": 0.05,
-        "firstSurface": 0.05000000074505806
-      },
-      {
-        "player": 5,
-        "expected": 0.05,
-        "firstSurface": 0.05000000074505806
-      }
-    ],
-    "stairFlights": 3,
-    "stairTreads": 23
-  },
-  "footContact": {
-    "result": "passed",
-    "maxContactError": 1.3877787807814457e-16,
-    "contacts": 1271,
-    "flights": [
-      {
-        "id": "short",
-        "plantedFootSamples": 447
-      },
-      {
-        "id": "upper-to-lower",
-        "plantedFootSamples": 381
-      },
-      {
-        "id": "lower-mid",
-        "plantedFootSamples": 443
-      }
-    ]
+    "sourceVisualTriangles": 1010490,
+    "physicsTriangles": 229653,
+    "sourceRootTransform": {
+      "position": [
+        5.6692800000000005,
+        4.6728,
+        25.049480000000003
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "yaw": 1.5707963267948966
+    }
   },
   "oldManagerAndBattleUI": true,
   "cssSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
@@ -379,23 +746,37 @@
     "bodyH": 390
   },
   "physicalDeviceTested": false,
-  "cameraMinimumVerticalFieldMetres": {
-    "playerLandscape": 22,
-    "autoLandscape": 28,
-    "narrowViewportWider": true
-  },
   "c4SingleHeldPlacedAndOfflineResume": true,
-  "old20Through25CurrentRoundRestartsWithRoundScoreFunds": true,
-  "current26UpperFloorSaveResumes": true,
-  "noSourceGameMediaRequests": true,
-  "sourceMapImageBundled": false,
-  "referenceRadarViewedAsGuide": true,
-  "mainNavigationImported": false,
-  "roofRouteInspection": true,
-  "roofTrianglesHidden": 25743,
+  "old20Through26CurrentRoundRestartsWithRoundScoreFunds": true,
+  "nativeAssetsCachedAndOfflineResumed": true,
+  "nativeVisualAssetReused": true,
+  "nativeTexturesReused": true,
+  "sourceUnitsMetres": 0.0254,
+  "CTMarkerCorrectedToAdjacentStreet": true,
+  "selectedCTStreetSourceArea": 1258,
+  "formerHandPlacedCoreWallsRemoved": true,
+  "longDoorWallCrossings": 0,
   "rootCareerAndCachesPreserved": true,
   "previousAPKUnchanged": true,
   "betaSaveKey": "arena-career-original20",
   "pageErrors": [],
-  "httpErrors": []
+  "httpErrors": [],
+  "sourceArchivePublishedSeparatelyToKeepPagesWithin1GiB": true,
+  "visualOptimization": {
+    "result": "passed",
+    "beforeTriangles": 1890136,
+    "afterTriangles": 1010490,
+    "bytes": 27551744,
+    "sha256": "35e992534079c7b8ef92e17121e2cc1024912e2e189c314e96ca9633fbc74869",
+    "nativeTransformRetained": true,
+    "materialTexturesNotResized": true,
+    "sourceOriginalUnchanged": true,
+    "maxRelativeSimplificationError": 0.001,
+    "lockedBorders": false,
+    "originalImageCount": 243,
+    "optimizedImageCount": 243,
+    "allTextureImageBytesIdentical": true,
+    "remoteAssetSHA256Verified": true
+  },
+  "browserAssetTransport": "Immutable raw asset supplied from downloaded, SHA-verified bytes in browser fixtures; raw HTTPS and CORS verified separately."
 }
