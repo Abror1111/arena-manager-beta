@@ -1,5 +1,5 @@
 {
-  "version": "architecture22",
+  "version": "dynamics23",
   "date": "2026-10-30",
   "scope": "One authored Sahil map, full old club manager and battle HUD, separate career; root11 maps unchanged",
   "media": "No source-game exported media or navigation loaded. Original ARENA geometry, texture generation, analytic operators and effects. Existing original anime atlas and30 authored audio cues are shared parent assets.",
@@ -24,7 +24,8 @@
   },
   "c4": "State-driven single held/placed model; completion clears carrier and plant timer.",
   "ui": "Same original club manager and match HUD; compiled CSS unchanged.",
-  "storage": "Original20 beta namespace retained; old20/21 active rounds migrate with score/funds. Root career untouched.",
-  "architecture": "Original authored coastal tactical town inspired by the long/mid/short/tunnel/site structure of competitive tactical shooters; not a 1:1 CS2 map.",
-  "navigation": "Shared authored world-metre footprint data, height-safe paths, explicit role-based route queues; no exported nav."
+  "storage": "Original20 beta namespace retained; old20/21 active rounds restart preserving score/funds; old22 active round/clock/C4 migrate in place. Root career untouched.",
+  "architecture": "Original authored coastal tactical town inspired by the long/mid/short/tunnel/site structure of competitive tactical shooters; not a 1:1 CS2 map. Twelve shared rounded/chamfered footprints, bevelled coping, six generated normal maps, solid northern A ramp and lower tunnel backplate.",
+  "navigation": "Shared authored world-metre footprint data, height-safe paths, explicit role-based route queues; no exported nav.",
+  "camera": "Damped oblique player/auto tracking with velocity lead, transfer zoom, bounded travel and low-FPS substeps; MSAA alpha-to-coverage occluder reveal with clean edge fallback."
 }

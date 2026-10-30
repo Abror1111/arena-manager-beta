@@ -1,6 +1,6 @@
 {
   "result": "passed",
-  "version": "architecture22",
+  "version": "dynamics23",
   "date": "2026-10-30",
   "oneAuthoredMap": "Sahil",
   "mapMetres": [
@@ -31,7 +31,7 @@
     },
     {
       "name": "A SHORT",
-      "metres": 103
+      "metres": 102
     },
     {
       "name": "B TUNNEL",
@@ -39,7 +39,7 @@
     },
     {
       "name": "B MID",
-      "metres": 112
+      "metres": 111
     },
     {
       "name": "CT A",
@@ -68,7 +68,7 @@
     }
   ],
   "fullAndRoutesRoofViews": true,
-  "roofTrianglesHiddenInRoutes": 34584,
+  "roofTrianglesHiddenInRoutes": 42912,
   "c4SingleHeldPlacedRetained": true,
   "offlinePlantedC4Resumes": true,
   "old20And21RoundScoreAndFundsPreserved": true,
@@ -91,16 +91,16 @@
       "progress": [
         7,
         2,
-        6,
+        7,
         2,
-        3,
+        2,
         5,
         8,
         5,
         4,
         8
       ],
-      "alive": 9
+      "alive": 8
     },
     {
       "strategy": "b",
@@ -112,9 +112,9 @@
         "CT B"
       ],
       "progress": [
-        4,
-        4,
         3,
+        5,
+        4,
         4,
         4,
         5,
@@ -123,7 +123,7 @@
         5,
         7
       ],
-      "alive": 10
+      "alive": 8
     }
   ],
   "mobileBrowserEmulation": true,
@@ -134,5 +134,43 @@
   "sourceGameExportedInputs": 0,
   "root11MapsAndOldAPKUnchanged": true,
   "physicalDeviceTested": false,
-  "scope": "One independently authored tactical Sahil map, inspired by competitive shooter lane/site architecture, not a 1:1 CS2 recreation."
+  "scope": "One independently authored tactical Sahil map, inspired by competitive shooter lane/site architecture, not a 1:1 CS2 recreation.",
+  "cornerTreatments": 12,
+  "roundedCorners": 4,
+  "chamferedCorners": 8,
+  "visualCollisionFootprintsAgree": true,
+  "smoothRampSamples": 79,
+  "rampGrenadeRicochet": true,
+  "boundedCameraPanMetresPerSecond": 42,
+  "lowFPSCameraCatchup": true,
+  "camera30vs60Difference": 2.4711457497817303e-10,
+  "movingFollow30vs60Difference": 0.023966803655065518,
+  "old22ActiveRoundC4Migration": true,
+  "normalSurfaceKinds": 6,
+  "batteryDisablesRelief": true,
+  "renderedFloorVsNav": [
+    {
+      "name": "B tunnel",
+      "expected": -0.75,
+      "visible": -0.7300000190734863
+    },
+    {
+      "name": "A ramp",
+      "expected": 1.25,
+      "visible": 1.250000024214387
+    },
+    {
+      "name": "A site",
+      "expected": 2.45,
+      "visible": 2.475
+    },
+    {
+      "name": "B site",
+      "expected": 0.65,
+      "visible": 0.675
+    }
+  ],
+  "observerFade": "alpha-to-coverage",
+  "cameraFixture": "Paused real engine: observer transitions between tunnel/ramp and a two-player shot fixture; no claims of live tournament play.",
+  "mapAreaChangedSince22": false
 }
