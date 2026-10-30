@@ -1,6 +1,6 @@
 {
-  "version": "coastal24",
-  "date": "2026-10-30",
+  "version": "elevation25",
+  "date": "2026-10-31",
   "scope": "One authored Sahil map, full old club manager and battle HUD, separate career; root11 maps unchanged",
   "media": "No source-game exported media or navigation loaded. Original ARENA geometry, texture generation, analytic operators and effects. Existing original anime atlas and30 authored audio cues are shared parent assets.",
   "motion": "20-joint analytic rig; terrain-aware stance IK, acceleration/braking, aim anticipation, authored cubic action keyframes and equipment recovery; not mocap.",
@@ -17,17 +17,23 @@
     "playableOutlineVertices": 54,
     "routes": 6,
     "siteHeights": {
-      "A": 2.45,
-      "B": 0.65
+      "A": 4.25,
+      "Short": 2.6,
+      "B": 1.05,
+      "upperTunnel": 1.8,
+      "lowerTunnel": -0.85
     },
     "referenceGuide": "Dust II radar viewed for landmark and lane arrangement; hand-authored percentage-coordinate outlines; radar/nav/mesh not shipped",
-    "oneToOneRecreation": false
+    "oneToOneRecreation": false,
+    "stairFlights": 5,
+    "stairTreads": 68
   },
   "c4": "State-driven single held/placed model; completion clears carrier and plant timer.",
   "ui": "Same original club manager and match HUD; compiled CSS unchanged.",
-  "storage": "Beta namespace retained. Old20\u201323 active round restarts preserving round/score/funds on the changed plan; current24 resumes, including C4. Root save untouched.",
+  "storage": "Beta namespace retained; old20\u201323 rounds restart with round/score/funds preserved; old24 active clock/round/C4 are preserved and actors/placed C4 are resampled to new heights. Current25 resumes normally. Root save untouched.",
   "architecture": "Fifteen irregular polygon building groups, shared triangulated convex collision, closed facades and roofs, enclosed A/B, three covered tunnel regions, 14 context buildings.",
   "navigation": "Shared authored world-metre footprint data, height-safe paths, explicit role-based route queues; no exported nav.",
   "camera": "Damped oblique player/auto tracking with velocity lead, transfer zoom, bounded travel and low-FPS substeps; MSAA alpha-to-coverage occluder reveal with clean edge fallback.",
-  "water": "West coast outside playfield: animated vertex waves, Fresnel tint, specular highlights, foam and nearshore transparency."
+  "water": "West coast outside playfield: animated vertex waves, Fresnel tint, specular highlights, foam and nearshore transparency.",
+  "elevation": "One shared metre-coordinate floor definition: exact stair boundaries, horizontal treads, closed vertical risers/retaining faces and a continuous Long ramp. Navigation, IK, grenade sweeps and low bullet rays use this floor."
 }
