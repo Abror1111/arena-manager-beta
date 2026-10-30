@@ -1,5 +1,5 @@
 {
-  "version": "dynamics23",
+  "version": "coastal24",
   "date": "2026-10-30",
   "scope": "One authored Sahil map, full old club manager and battle HUD, separate career; root11 maps unchanged",
   "media": "No source-game exported media or navigation loaded. Original ARENA geometry, texture generation, analytic operators and effects. Existing original anime atlas and30 authored audio cues are shared parent assets.",
@@ -10,22 +10,24 @@
   "map": {
     "name": "Sahil",
     "width": 120,
-    "height": 88,
-    "areaVsPrevious": 2.2448979591836733,
-    "playableBuildingMasses": 38,
-    "contextBuildings": 13,
-    "indoorFloorRegions": 3,
-    "heightRange": [
-      -0.75,
-      2.45
-    ],
-    "authoredTacticalRoutes": 6,
-    "sourceGameExportedInputs": 0
+    "height": 120,
+    "mainIrregularGroups": 15,
+    "contextBuildings": 14,
+    "coveredInteriors": 3,
+    "playableOutlineVertices": 54,
+    "routes": 6,
+    "siteHeights": {
+      "A": 2.45,
+      "B": 0.65
+    },
+    "referenceGuide": "Dust II radar viewed for landmark and lane arrangement; hand-authored percentage-coordinate outlines; radar/nav/mesh not shipped",
+    "oneToOneRecreation": false
   },
   "c4": "State-driven single held/placed model; completion clears carrier and plant timer.",
   "ui": "Same original club manager and match HUD; compiled CSS unchanged.",
-  "storage": "Original20 beta namespace retained; old20/21 active rounds restart preserving score/funds; old22 active round/clock/C4 migrate in place. Root career untouched.",
-  "architecture": "Original authored coastal tactical town inspired by the long/mid/short/tunnel/site structure of competitive tactical shooters; not a 1:1 CS2 map. Twelve shared rounded/chamfered footprints, bevelled coping, six generated normal maps, solid northern A ramp and lower tunnel backplate.",
+  "storage": "Beta namespace retained. Old20\u201323 active round restarts preserving round/score/funds on the changed plan; current24 resumes, including C4. Root save untouched.",
+  "architecture": "Fifteen irregular polygon building groups, shared triangulated convex collision, closed facades and roofs, enclosed A/B, three covered tunnel regions, 14 context buildings.",
   "navigation": "Shared authored world-metre footprint data, height-safe paths, explicit role-based route queues; no exported nav.",
-  "camera": "Damped oblique player/auto tracking with velocity lead, transfer zoom, bounded travel and low-FPS substeps; MSAA alpha-to-coverage occluder reveal with clean edge fallback."
+  "camera": "Damped oblique player/auto tracking with velocity lead, transfer zoom, bounded travel and low-FPS substeps; MSAA alpha-to-coverage occluder reveal with clean edge fallback.",
+  "water": "West coast outside playfield: animated vertex waves, Fresnel tint, specular highlights, foam and nearshore transparency."
 }

@@ -1,176 +1,159 @@
 {
   "result": "passed",
-  "version": "dynamics23",
+  "version": "coastal24",
   "date": "2026-10-30",
-  "oneAuthoredMap": "Sahil",
-  "mapMetres": [
-    120,
-    88
-  ],
-  "previousMapMetres": [
-    84,
-    56
-  ],
-  "areaRatio": 2.2448979591836733,
-  "playfieldBuildingMasses": 38,
-  "contextBuildingMasses": 13,
-  "interiorFloorRegions": 3,
-  "heightRange": [
-    -0.75,
-    2.45
-  ],
-  "siteHeights": {
-    "A": 2.45,
-    "B": 0.65
+  "scope": "Sahil only: hand-authored Dust II-inspired lane and landmark arrangement with an exterior west coast; not a complete 1:1 source map. Root eleven-map game unchanged.",
+  "layout": {
+    "result": "passed",
+    "mapMetres": [
+      120,
+      120
+    ],
+    "landmarkOrder": "B northwest, A northeast, CT north-centre, T south",
+    "irregularBuildingGroups": 15,
+    "outlineVertices": 54,
+    "spawnSitePaths": 20,
+    "routes": [
+      {
+        "id": "A LONG",
+        "metres": 136
+      },
+      {
+        "id": "A SHORT",
+        "metres": 130
+      },
+      {
+        "id": "B TUNNEL",
+        "metres": 122
+      },
+      {
+        "id": "B MID",
+        "metres": 126
+      },
+      {
+        "id": "CT A",
+        "metres": 33
+      },
+      {
+        "id": "CT B",
+        "metres": 51
+      }
+    ],
+    "siteHeights": {
+      "A": 2.4499999999999997,
+      "B": 0.65
+    },
+    "grenades": [
+      {
+        "floor": 2.4499999999999997,
+        "restY": 2.5549999999999997
+      },
+      {
+        "floor": 0.65,
+        "restY": 0.755
+      },
+      {
+        "floor": 0.9500000000000001,
+        "restY": 1.055
+      }
+    ],
+    "rounds": [
+      {
+        "strategy": "a",
+        "moved": 10,
+        "alive": 10,
+        "phase": "live"
+      },
+      {
+        "strategy": "b",
+        "moved": 10,
+        "alive": 10,
+        "phase": "live"
+      },
+      {
+        "strategy": "balanced",
+        "moved": 10,
+        "alive": 10,
+        "phase": "live"
+      }
+    ],
+    "fullRounds": [
+      {
+        "strategy": "a",
+        "shots": 325,
+        "bomb": "dropped",
+        "reason": "Hujumchilar yo\u2018q qilindi"
+      },
+      {
+        "strategy": "b",
+        "shots": 236,
+        "bomb": "exploded",
+        "reason": "C4 portladi"
+      }
+    ],
+    "c4SinglePlacement": true,
+    "old20Through23ScoreAndFundsPreserved": true,
+    "sourceGameNavOrMediaLoaded": false
   },
-  "allSpawnToBothSitesRoutes": 20,
-  "tacticalRoutes": [
-    {
-      "name": "A LONG",
-      "metres": 90
-    },
-    {
-      "name": "A SHORT",
-      "metres": 102
-    },
-    {
-      "name": "B TUNNEL",
-      "metres": 73
-    },
-    {
-      "name": "B MID",
-      "metres": 111
-    },
-    {
-      "name": "CT A",
-      "metres": 67
-    },
-    {
-      "name": "CT B",
-      "metres": 86
-    }
-  ],
-  "roleBasedLaneAssignment": true,
-  "waypointProgressSaved": true,
-  "cliffWalkRejected": true,
-  "heightAwareBulletCover": true,
-  "tunnelAndMarketCeilingGrenadeCollision": true,
-  "grenadeFloorCases": [
-    {
-      "floor": 2.45,
-      "restY": 2.555,
-      "bounces": 2
-    },
-    {
-      "floor": -0.75,
-      "restY": -0.6449999999999999,
-      "bounces": 2
-    }
-  ],
-  "fullAndRoutesRoofViews": true,
-  "roofTrianglesHiddenInRoutes": 42912,
-  "c4SingleHeldPlacedRetained": true,
-  "offlinePlantedC4Resumes": true,
-  "old20And21RoundScoreAndFundsPreserved": true,
-  "oldManagerAndBattleUI": true,
-  "cssSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
-  "rootCareerAndCachesPreserved": true,
-  "betaSaveKey": "arena-career-original20",
-  "originalOperators": 10,
-  "gulls": 9,
-  "two40SecondAIStrategyCases": [
-    {
-      "strategy": "a",
-      "phase": "live",
-      "assignedRoutes": [
-        "A SHORT",
-        "A LONG",
-        "CT A",
-        "CT B"
-      ],
-      "progress": [
-        7,
-        2,
-        7,
-        2,
-        2,
-        5,
-        8,
-        5,
-        4,
-        8
-      ],
-      "alive": 8
-    },
-    {
-      "strategy": "b",
-      "phase": "live",
-      "assignedRoutes": [
-        "B MID",
-        "B TUNNEL",
-        "CT A",
-        "CT B"
-      ],
-      "progress": [
-        3,
-        5,
-        4,
-        4,
-        4,
-        5,
-        7,
-        5,
-        5,
-        7
-      ],
-      "alive": 8
-    }
-  ],
-  "mobileBrowserEmulation": true,
-  "mobileLandscapeNoPageOverflow": true,
-  "pageErrors": 0,
-  "httpErrors": 0,
-  "noSourceGameMediaRequests": true,
-  "sourceGameExportedInputs": 0,
-  "root11MapsAndOldAPKUnchanged": true,
-  "physicalDeviceTested": false,
-  "scope": "One independently authored tactical Sahil map, inspired by competitive shooter lane/site architecture, not a 1:1 CS2 recreation.",
-  "cornerTreatments": 12,
-  "roundedCorners": 4,
-  "chamferedCorners": 8,
-  "visualCollisionFootprintsAgree": true,
-  "smoothRampSamples": 79,
-  "rampGrenadeRicochet": true,
-  "boundedCameraPanMetresPerSecond": 42,
-  "lowFPSCameraCatchup": true,
-  "camera30vs60Difference": 2.4711457497817303e-10,
-  "movingFollow30vs60Difference": 0.023966803655065518,
-  "old22ActiveRoundC4Migration": true,
-  "normalSurfaceKinds": 6,
-  "batteryDisablesRelief": true,
-  "renderedFloorVsNav": [
-    {
-      "name": "B tunnel",
-      "expected": -0.75,
-      "visible": -0.7300000190734863
-    },
-    {
-      "name": "A ramp",
-      "expected": 1.25,
-      "visible": 1.250000024214387
-    },
-    {
-      "name": "A site",
-      "expected": 2.45,
-      "visible": 2.475
-    },
+  "renderedFloors": [
     {
       "name": "B site",
       "expected": 0.65,
       "visible": 0.675
+    },
+    {
+      "name": "A site",
+      "expected": 2.4499999999999997,
+      "visible": 2.4749999999999996
+    },
+    {
+      "name": "T spawn",
+      "expected": 1.35,
+      "visible": 1.3320000171661377
+    },
+    {
+      "name": "CT spawn",
+      "expected": 0.33746355685131196,
+      "visible": 0.37108804440690013
+    },
+    {
+      "name": "Upper B tunnel",
+      "expected": 0.9500000000000001,
+      "visible": 0.9319999814033508
+    },
+    {
+      "name": "Short",
+      "expected": 1.466228399699474,
+      "visible": 1.444785284996033
+    },
+    {
+      "name": "Long ramp",
+      "expected": 0.3655522163786628,
+      "visible": 0.38516579242527516
     }
   ],
-  "observerFade": "alpha-to-coverage",
-  "cameraFixture": "Paused real engine: observer transitions between tunnel/ramp and a two-player shot fixture; no claims of live tournament play.",
-  "mapAreaChangedSince22": false
+  "oldManagerAndBattleUI": true,
+  "cssSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
+  "mobileLandscapeBrowserEmulation": {
+    "w": 844,
+    "h": 390,
+    "bodyW": 844,
+    "bodyH": 390
+  },
+  "physicalDeviceTested": false,
+  "c4SingleHeldPlacedAndOfflineResume": true,
+  "old20Through23CurrentRoundRestartsWithRoundScoreFunds": true,
+  "noSourceGameMediaRequests": true,
+  "sourceMapImageBundled": false,
+  "referenceRadarViewedAsGuide": true,
+  "mainNavigationImported": false,
+  "roofRouteInspection": true,
+  "roofTrianglesHidden": 25741,
+  "dynamicPlayerAndAutoRetained": true,
+  "westOcean": "Animated vertex waves, Fresnel tint, sun specular, moving foam and nearshore alpha.",
+  "rootCareerAndCachesPreserved": true,
+  "previousAPKUnchanged": true,
+  "betaSaveKey": "arena-career-original20",
+  "pageErrors": [],
+  "httpErrors": []
 }
