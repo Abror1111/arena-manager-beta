@@ -1,24 +1,167 @@
 {
   "result": "passed",
-  "version": "authored28",
-  "correction": "Remove wrongly introduced source-game map/media import and restore authored26 baseline. Not a new elevation/layout fix or legal clearance.",
-  "noSourceGameMediaRequests": true,
-  "noImportedMapOrNavModule": true,
+  "version": "design29",
+  "scope": "One newly authored Sahil geometry and game C4 engineering update",
+  "privateReferenceAnalysis": {
+    "result": "passed",
+    "purpose": "Private engineering reference analysis only. No exported mesh/texture/nav or raster samples are included in authored29 release.",
+    "metresPerSourceUnit": 0.0254,
+    "gridSpacingMetres": 1,
+    "gridQueries": 77976,
+    "walkableLayerSamples": 5022,
+    "routeSpacingMetres": 0.1,
+    "routeSamples": 3940,
+    "sourceCollisionTriangles": 229653,
+    "landmarks": [
+      {
+        "name": "A",
+        "physicalY": 7.08829316503523,
+        "navY": 7.174598
+      },
+      {
+        "name": "B",
+        "physicalY": 4.809539875964437,
+        "navY": 4.909934
+      },
+      {
+        "name": "T street",
+        "physicalY": 7.636192217499477,
+        "navY": 7.797
+      },
+      {
+        "name": "CT street",
+        "physicalY": 1.4221867244312532,
+        "navY": 1.4978
+      }
+    ],
+    "profiles": [
+      {
+        "from": "T",
+        "to": "A",
+        "samples": 1448,
+        "min": 4.555368825059288,
+        "max": 7.898836065133068
+      },
+      {
+        "from": "T",
+        "to": "B",
+        "samples": 1378,
+        "min": 4.499898095842815,
+        "max": 8.732035799028951
+      },
+      {
+        "from": "CT",
+        "to": "A",
+        "samples": 600,
+        "min": 1.3925715067856381,
+        "max": 7.888784677734357
+      },
+      {
+        "from": "CT",
+        "to": "B",
+        "samples": 514,
+        "min": 1.4221867244312532,
+        "max": 7.921758260797229
+      }
+    ]
+  },
+  "layout": {
+    "result": "passed",
+    "authoredGeometryOnly": true,
+    "levels": {
+      "A": 6.1,
+      "B": 3.8,
+      "T": 6.6,
+      "CT": 0.4
+    },
+    "stairFlights": 3,
+    "stairTreads": 58,
+    "spawnSitePaths": 20,
+    "routes": [
+      {
+        "route": "A LONG",
+        "metres": 126
+      },
+      {
+        "route": "A SHORT",
+        "metres": 127
+      },
+      {
+        "route": "B TUNNEL",
+        "metres": 118
+      },
+      {
+        "route": "B MID",
+        "metres": 114
+      },
+      {
+        "route": "CT A",
+        "metres": 48
+      },
+      {
+        "route": "CT B",
+        "metres": 49
+      },
+      {
+        "route": "LOWER LINK",
+        "metres": 44
+      }
+    ],
+    "actualActorTravels": [
+      "A SHORT",
+      "CT A",
+      "A LONG",
+      "LOWER LINK"
+    ],
+    "gateCount": 4,
+    "adjoiningWalls": 13,
+    "C4": {
+      "damageRadius": 48,
+      "waveRadius": 62,
+      "safeDistance": 54,
+      "coreRadius": 9,
+      "peakDamage": 520,
+      "waveSpeed": 36,
+      "waveLife": 2.3
+    },
+    "rounds": [
+      {
+        "strategy": "a",
+        "shots": 286,
+        "reason": "C4 portladi"
+      },
+      {
+        "strategy": "b",
+        "shots": 302,
+        "reason": "C4 portladi"
+      }
+    ]
+  },
+  "props": {
+    "result": "passed",
+    "actualAuthoredCrates": 12,
+    "peakLift": 1.4502351481566,
+    "brokenCoverRemoved": true,
+    "landsOnCurrentFloor": true,
+    "saveAndRoundReset": true
+  },
   "oldManagerAndBattleUI": true,
   "cssSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
-  "measured27SaveMigrationTested": true,
-  "old28And26Resumes": true,
-  "accidentalMeasured27CacheRemoved": true,
-  "rootCareerAndCachesPreserved": true,
+  "noImportedMapOrNavModule": true,
+  "noSourceGameMediaRequests": true,
+  "currentAndOldSaveMigrationTested": true,
   "mobileLandscapeBrowserEmulation": {
     "w": 844,
     "h": 390,
     "bodyW": 844,
     "bodyH": 390
   },
-  "C4AndOfflineResume": true,
+  "C4PlantAndOfflineResume": true,
+  "wave62MetresRendered": true,
+  "autoAndPinnedPlayerCamerasSeparate": true,
+  "rootCareerAndCachesPreserved": true,
   "legalClearanceClaim": false,
-  "remainingRightsWork": "Reference-inspired layout still needs independent design and review; old root demos/exports/history/APK not purged.",
+  "allElevenMapsRemade": false,
   "pageErrors": [],
   "httpErrors": []
 }

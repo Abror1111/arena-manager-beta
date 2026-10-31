@@ -1,7 +1,7 @@
 {
-  "version": "authored28",
+  "version": "design29",
   "date": "2026-10-31",
-  "scope": "Restore authored Sahil runtime after incorrect direct source-model import; one-map rollback, not legal clearance",
+  "scope": "One authored Sahil map: measured reference elevation study followed by original geometry, reachable lower return, physical arched doors, stepped circulation and larger game C4 effects.",
   "media": "No source-game exported media or navigation is loaded by this beta. Authored ARENA geometry, materials, operators, effects, atlas and shared audio retained.",
   "motion": "20-joint analytic rig; terrain-aware stance IK, acceleration/braking, aim anticipation, authored cubic action keyframes and equipment recovery; not mocap.",
   "uiCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
@@ -13,32 +13,37 @@
     "height": 120,
     "mainIrregularGroups": 15,
     "contextBuildings": 14,
-    "coveredInteriors": 4,
+    "coveredInteriors": 5,
     "playableOutlineVertices": 54,
-    "routes": 6,
+    "routes": 7,
     "siteHeights": {
-      "A": 4.25,
-      "ShortDeck": 4.25,
-      "ShortApproach": 2.6,
-      "B": 1.8,
-      "T": 3.2,
-      "CT": 0.05,
-      "upperTunnel": 1.8,
-      "lowerTunnel": 0.15
+      "A": 6.1,
+      "ShortDeck": 6.1,
+      "ShortApproach": 4.2,
+      "B": 3.8,
+      "T": 6.6,
+      "CT": 0.4,
+      "upperTunnel": 3.9,
+      "lowerTunnel": 0.65
     },
-    "referenceGuide": "Dust II radar viewed for landmark and lane arrangement; hand-authored percentage-coordinate outlines; radar/nav/mesh not shipped",
+    "referenceGuide": "Private offline source-collision elevation study: 77,976 grid queries at 1m and 3,940 route samples at 0.1m. Only summary counts and scalar elevation ranges recorded; source vertices, navigation and materials excluded from release.",
     "oneToOneRecreation": false,
     "stairFlights": 3,
-    "stairTreads": 23,
-    "remainingLayoutIssue": "Restored hand-authored reference-inspired plan. Direct asset loading removal does not clear all rights questions; an independently designed plan and review remain necessary."
+    "stairTreads": 58,
+    "remainingLayoutIssue": "Own hand-authored reference-inspired tactical plan; not a 1:1 reconstruction or legal clearance. Independent spatial design/review remains a separate release task."
   },
-  "c4": "State-driven single held/placed model; completion clears carrier and plant timer.",
+  "c4": {
+    "damageRadiusMetres": 48,
+    "visibleWaveRadiusMetres": 62,
+    "cover": "Three physical body exposure rays; blocked blast damage reduced to 12%; 3D distance and quadratic falloff. Immediate damage approximation.",
+    "outroSeconds": 5,
+    "props": "Twelve actual authored crate objects: mass-weighted impulse, solid collisions, settling on current floor, scattered planks, live cover removal and save restore."
+  },
   "ui": "Same original club manager and match HUD; compiled CSS unchanged.",
-  "storage": "Old20\u201325 and measured27 rounds restart preserving score, round and money; authored26/28 resume. Remove only accidental measured27 asset cache; preserve root career/cache.",
-  "architecture": "Fifteen polygon building groups, fourteen context buildings, four covered interiors, shared four double-door/leaf openings and ten flanking walls, single L-shaped Short bridge deck with four columns.",
+  "storage": "Old20\u201328 active rounds restart once, preserving score, round, player statistics and money. Current29 snapshots including moved/broken map props resume. Root career/cache preserved.",
+  "architecture": "Polygonal closed foundations and roof parapets, chamfered Long vestibule, four curved-profile hinged double doors and arch frames, thirteen connecting wall sections, lower-return vaulted frames, two octagonal observatory domes and shared visual/physical stair guards.",
   "navigation": "Authored cached two-layer metre grid, height-aware collision and sampled path smoothing, separate low CT street and raised Short crossing; no exported navigation.",
   "camera": "Separate oblique damped player/auto tracking. Minimum vertical field 22/28 m in landscape, wider in narrow viewports; minimum applied to old camera seeds.",
   "water": "West coast outside playfield: animated vertex waves, Fresnel tint, specular highlights, foam and nearshore transparency.",
-  "elevation": "Shared metre floor definitions, 23 visible treads in three flights, CT A ramp, raised Short deck above CT street, matching visual and ballistic bridge slabs; actor-height hints for foot IK.",
-  "correction": "Restore authored26 after wrong direct CS2 import; not a new elevation/layout fix."
+  "elevation": "Shared authored levels, 58 stair treads with rise <=17cm and run >=28cm, CT A and Long ramps, upper Short deck over graded CT street, terrain foundations closed down to surrounding apron."
 }
