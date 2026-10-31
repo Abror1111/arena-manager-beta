@@ -1,0 +1,363 @@
+{
+  "result": "passed",
+  "selectableMaps": 11,
+  "distinctSourceGeometry": 10,
+  "sourceGeometryReused": true,
+  "newBombSites": 22,
+  "spawnSitePaths": 220,
+  "maps": [
+    {
+      "id": "dust2",
+      "sourceGeometry": "dcb806df8bed30e2b90edf6791af7d4de4e3cbe20d3c8eba4c61e6c048198c58",
+      "sites": [
+        {
+          "x": 48.7062,
+          "z": 3.3813,
+          "y": 3.7667,
+          "area": 2173,
+          "label": "A"
+        },
+        {
+          "x": 6.0687,
+          "z": 17.1281,
+          "y": 2.3333,
+          "area": 1816,
+          "label": "B"
+        }
+      ],
+      "floors": [
+        {
+          "label": "A",
+          "movedMetres": 14.850884513794387,
+          "floorErrorMetres": 0.15928988611176173
+        },
+        {
+          "label": "B",
+          "movedMetres": 23.552853382215236,
+          "floorErrorMetres": 0.24910683228395697
+        }
+      ]
+    },
+    {
+      "id": "mirage",
+      "sourceGeometry": "e273d62242e1ba76fc4183312c08ee853fdb428862e3ca8b76f35ad8bc577185",
+      "sites": [
+        {
+          "x": 27.5656,
+          "z": 39.3781,
+          "y": 2.5625,
+          "area": 1325,
+          "label": "A"
+        },
+        {
+          "x": 16.3016,
+          "z": 26.7546,
+          "y": 2.55,
+          "area": 1720,
+          "label": "B"
+        }
+      ],
+      "floors": [
+        {
+          "label": "A",
+          "movedMetres": 24.490850357678728,
+          "floorErrorMetres": 0.09222602399402972
+        },
+        {
+          "label": "B",
+          "movedMetres": 18.204742082590894,
+          "floorErrorMetres": 0.10160020320040604
+        }
+      ]
+    },
+    {
+      "id": "inferno",
+      "sourceGeometry": "ca3c0b3800964427bfece7c6c6b8f323edf85a42087bdb5f9aa70c68c5392e98",
+      "sites": [
+        {
+          "x": 55.1187,
+          "z": 34.0984,
+          "y": 3.2,
+          "area": 1849,
+          "label": "A"
+        },
+        {
+          "x": 48.4656,
+          "z": 15.8031,
+          "y": 2.725,
+          "area": 2435,
+          "label": "B"
+        }
+      ],
+      "floors": [
+        {
+          "label": "A",
+          "movedMetres": 19.151738847867346,
+          "floorErrorMetres": 0.14083803177359053
+        },
+        {
+          "label": "B",
+          "movedMetres": 37.45902584598455,
+          "floorErrorMetres": 0.15194065993402348
+        }
+      ]
+    },
+    {
+      "id": "nuke",
+      "sourceGeometry": "2d6f766280425a6a2b9252b1ddaea9d3e8a5f87a197313cdbc47cfce7a301f1c",
+      "sites": [
+        {
+          "x": 59.0063,
+          "z": 52.7875,
+          "y": 4.65,
+          "area": 1988,
+          "label": "A"
+        },
+        {
+          "x": 51.1594,
+          "z": 41.3781,
+          "y": 0.925,
+          "area": 526,
+          "label": "B"
+        }
+      ],
+      "floors": [
+        {
+          "label": "A",
+          "movedMetres": 20.89009613869324,
+          "floorErrorMetres": 0.1016003969874158
+        },
+        {
+          "label": "B",
+          "movedMetres": 17.274025700046394,
+          "floorErrorMetres": 0.1111966906477229
+        }
+      ]
+    },
+    {
+      "id": "train",
+      "sourceGeometry": "7b0270d5d2b599008651d87a29d646f0772ea0fb7cf2ced3d9c778717c5d555d",
+      "sites": [
+        {
+          "x": 35.9469,
+          "z": 22.4031,
+          "y": 1.75,
+          "area": 259,
+          "label": "A"
+        },
+        {
+          "x": 33.2094,
+          "z": 33.7516,
+          "y": 1.75,
+          "area": 337,
+          "label": "B"
+        }
+      ],
+      "floors": [
+        {
+          "label": "A",
+          "movedMetres": 16.613305617621446,
+          "floorErrorMetres": 0.10160010630690207
+        },
+        {
+          "label": "B",
+          "movedMetres": 18.470393039494823,
+          "floorErrorMetres": 0.10160010630690207
+        }
+      ]
+    },
+    {
+      "id": "ancient",
+      "sourceGeometry": "0a9e959de285e07b66435d9912eb5e65a7b7c9d8a670c50a114712cefc56567c",
+      "sites": [
+        {
+          "x": 13.6555,
+          "z": 13.2622,
+          "y": 2.8875,
+          "area": 1695,
+          "label": "A"
+        },
+        {
+          "x": 44.9937,
+          "z": 16.7778,
+          "y": 3.6625,
+          "area": 478,
+          "label": "B"
+        }
+      ],
+      "floors": [
+        {
+          "label": "A",
+          "movedMetres": 14.138993726765463,
+          "floorErrorMetres": 0.07815745269475666
+        },
+        {
+          "label": "B",
+          "movedMetres": 21.478049673735025,
+          "floorErrorMetres": 0.08401172776855846
+        }
+      ]
+    },
+    {
+      "id": "ancient-night",
+      "sourceGeometry": "0a9e959de285e07b66435d9912eb5e65a7b7c9d8a670c50a114712cefc56567c",
+      "sites": [
+        {
+          "x": 14.5625,
+          "z": 13.1638,
+          "y": 2.8958,
+          "area": 1668,
+          "label": "A"
+        },
+        {
+          "x": 44.9937,
+          "z": 16.7778,
+          "y": 3.6625,
+          "area": 480,
+          "label": "B"
+        }
+      ],
+      "floors": [
+        {
+          "label": "A",
+          "movedMetres": 12.606587818376372,
+          "floorErrorMetres": 0.09513453688388974
+        },
+        {
+          "label": "B",
+          "movedMetres": 21.478049673735025,
+          "floorErrorMetres": 0.08401172776855846
+        }
+      ]
+    },
+    {
+      "id": "anubis",
+      "sourceGeometry": "7e4059ab80c0abe303ceeaa00619b02a17e5602e51122df65f634346e7a7050b",
+      "sites": [
+        {
+          "x": 38.5564,
+          "z": 7.6,
+          "y": 0.5,
+          "area": 2378,
+          "label": "A"
+        },
+        {
+          "x": 16.5564,
+          "z": 40.9688,
+          "y": 2.425,
+          "area": 1121,
+          "label": "B"
+        }
+      ],
+      "floors": [
+        {
+          "label": "A",
+          "movedMetres": 25.71918295417184,
+          "floorErrorMetres": 0.3993101059869065
+        },
+        {
+          "label": "B",
+          "movedMetres": 21.65420995504938,
+          "floorErrorMetres": 0.07911907009090682
+        }
+      ]
+    },
+    {
+      "id": "overpass",
+      "sourceGeometry": "785fc044b1811010ad2455204f7ede4b0f2cf41de7bd13a484f3af641f29c357",
+      "sites": [
+        {
+          "x": 27.7711,
+          "z": 18.8469,
+          "y": 5.7938,
+          "area": 1985,
+          "label": "A"
+        },
+        {
+          "x": 41.9875,
+          "z": 32.2625,
+          "y": 0.6,
+          "area": 919,
+          "label": "B"
+        }
+      ],
+      "floors": [
+        {
+          "label": "A",
+          "movedMetres": 13.846724996758057,
+          "floorErrorMetres": 0.2319928904622133
+        },
+        {
+          "label": "B",
+          "movedMetres": 24.137866092249183,
+          "floorErrorMetres": 0.11877892909223843
+        }
+      ]
+    },
+    {
+      "id": "vertigo",
+      "sourceGeometry": "c282b53ff98c4b4207279494a1276302b63638ac6f67f2731c033ba1175b489b",
+      "sites": [
+        {
+          "x": 27.2875,
+          "z": 25.6562,
+          "y": 3.65,
+          "area": 903,
+          "label": "A"
+        },
+        {
+          "x": 16.5188,
+          "z": 22.7,
+          "y": 3.65,
+          "area": 1575,
+          "label": "B"
+        }
+      ],
+      "floors": [
+        {
+          "label": "A",
+          "movedMetres": 19.658631037159264,
+          "floorErrorMetres": 0.1016003969874149
+        },
+        {
+          "label": "B",
+          "movedMetres": 23.70849453725069,
+          "floorErrorMetres": 0.1016003969874149
+        }
+      ]
+    },
+    {
+      "id": "cache",
+      "sourceGeometry": "00e1eeb1e826c48446fa9d4223f47d804c6e0bd14908b04446d6430e75dbc1bf",
+      "sites": [
+        {
+          "x": 33.65,
+          "z": 20.95,
+          "y": 1.5,
+          "area": 1664,
+          "label": "A"
+        },
+        {
+          "x": 35.8875,
+          "z": 52.5937,
+          "y": 0.3667,
+          "area": 880,
+          "label": "B"
+        }
+      ],
+      "floors": [
+        {
+          "label": "A",
+          "movedMetres": 23.09405389830351,
+          "floorErrorMetres": 0.10160010630690207
+        },
+        {
+          "label": "B",
+          "movedMetres": 24.41749813027491,
+          "floorErrorMetres": 0.11012283042594563
+        }
+      ]
+    }
+  ],
+  "legalClearanceClaim": false
+}
