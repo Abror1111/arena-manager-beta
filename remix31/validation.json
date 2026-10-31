@@ -1,0 +1,648 @@
+{
+  "result": "passed",
+  "version": "remix31",
+  "sourceGeometryReused": true,
+  "selectableMaps": 11,
+  "distinctSourceGeometry": 10,
+  "newBombSites": 22,
+  "spawnSitePaths": 220,
+  "newStandardMaterials": {
+    "dust2": 278,
+    "mirage": 288,
+    "inferno": 270,
+    "nuke": 234,
+    "train": 273,
+    "ancient": 115,
+    "ancient-night": 116,
+    "anubis": 218,
+    "overpass": 349,
+    "vertigo": 165,
+    "cache": 168
+  },
+  "newTextureCounts": {
+    "dust2": 13,
+    "mirage": 13,
+    "inferno": 13,
+    "nuke": 11,
+    "train": 13,
+    "ancient": 13,
+    "ancient-night": 13,
+    "anubis": 13,
+    "overpass": 13,
+    "vertigo": 12,
+    "cache": 13
+  },
+  "siteChanges": {
+    "dust2": {
+      "originalSites": [
+        {
+          "x": 45.1312,
+          "z": 9.7469,
+          "y": 3.4312,
+          "area": 1785,
+          "label": "A"
+        },
+        {
+          "x": 11.75,
+          "z": 7.025,
+          "y": 2.3167,
+          "area": 2064,
+          "label": "B"
+        }
+      ],
+      "sites": [
+        {
+          "x": 48.7062,
+          "z": 3.3813,
+          "y": 3.7667,
+          "area": 2173,
+          "label": "A"
+        },
+        {
+          "x": 6.0687,
+          "z": 17.1281,
+          "y": 2.3333,
+          "area": 1816,
+          "label": "B"
+        }
+      ],
+      "metrics": [
+        {
+          "t": 82.03775518296884,
+          "ct": 55.743569774481905,
+          "move": 14.850884513794387,
+          "score": 3.009596249034878
+        },
+        {
+          "t": 73.85594029918231,
+          "ct": 53.33232719893305,
+          "move": 23.552853382215236,
+          "score": 0.1889229349159045
+        }
+      ],
+      "rotationMetres": 65.53511506436854
+    },
+    "mirage": {
+      "originalSites": [
+        {
+          "x": 35.4125,
+          "z": 48.5249,
+          "y": 2.4,
+          "area": 2071,
+          "label": "A"
+        },
+        {
+          "x": 14.6656,
+          "z": 17.9468,
+          "y": 2.65,
+          "area": 1837,
+          "label": "B"
+        }
+      ],
+      "sites": [
+        {
+          "x": 27.5656,
+          "z": 39.3781,
+          "y": 2.5625,
+          "area": 1325,
+          "label": "A"
+        },
+        {
+          "x": 16.3016,
+          "z": 26.7546,
+          "y": 2.55,
+          "area": 1720,
+          "label": "B"
+        }
+      ],
+      "metrics": [
+        {
+          "t": 70.30508193669475,
+          "ct": 47.119283440588106,
+          "move": 24.490850357678728,
+          "score": 1.5676335108918362
+        },
+        {
+          "t": 58.02418009028458,
+          "ct": 42.854729759533406,
+          "move": 18.204742082590894,
+          "score": 1.6444163341040916
+        }
+      ],
+      "rotationMetres": 32.9362364992447
+    },
+    "inferno": {
+      "originalSites": [
+        {
+          "x": 50.3688,
+          "z": 42.2375,
+          "y": 3.0417,
+          "area": 1439,
+          "label": "A"
+        },
+        {
+          "x": 30.1062,
+          "z": 14.2625,
+          "y": 3.35,
+          "area": 2055,
+          "label": "B"
+        }
+      ],
+      "sites": [
+        {
+          "x": 55.1187,
+          "z": 34.0984,
+          "y": 3.2,
+          "area": 1849,
+          "label": "A"
+        },
+        {
+          "x": 48.4656,
+          "z": 15.8031,
+          "y": 2.725,
+          "area": 2435,
+          "label": "B"
+        }
+      ],
+      "metrics": [
+        {
+          "t": 39.53614605978117,
+          "ct": 31.098403459315282,
+          "move": 19.151738847867346,
+          "score": 2.560022737275193
+        },
+        {
+          "t": 39.53614605978117,
+          "ct": 26.65216681906234,
+          "move": 37.45902584598455,
+          "score": 4.715840016521918
+        }
+      ],
+      "rotationMetres": 51.44440557671224
+    },
+    "nuke": {
+      "originalSites": [
+        {
+          "x": 51.6375,
+          "z": 45.6188,
+          "y": 4.65,
+          "area": 798,
+          "label": "A"
+        },
+        {
+          "x": 51.8125,
+          "z": 49.825,
+          "y": 0.225,
+          "area": 1461,
+          "label": "B"
+        }
+      ],
+      "sites": [
+        {
+          "x": 59.0063,
+          "z": 52.7875,
+          "y": 4.65,
+          "area": 1988,
+          "label": "A"
+        },
+        {
+          "x": 51.1594,
+          "z": 41.3781,
+          "y": 0.925,
+          "area": 526,
+          "label": "B"
+        }
+      ],
+      "metrics": [
+        {
+          "t": 61.00325509984707,
+          "ct": 44.525293517485316,
+          "move": 20.89009613869324,
+          "score": 0.7646894758287965
+        },
+        {
+          "t": 53.36824066486696,
+          "ct": 62.11647097636837,
+          "move": 17.274025700046394,
+          "score": 12.08562227888348
+        }
+      ],
+      "rotationMetres": 47.57821237197691
+    },
+    "train": {
+      "originalSites": [
+        {
+          "x": 27.9125,
+          "z": 23.9172,
+          "y": 1.75,
+          "area": 31,
+          "label": "A"
+        },
+        {
+          "x": 29.3562,
+          "z": 41.95,
+          "y": 1,
+          "area": 1169,
+          "label": "B"
+        }
+      ],
+      "sites": [
+        {
+          "x": 35.9469,
+          "z": 22.4031,
+          "y": 1.75,
+          "area": 259,
+          "label": "A"
+        },
+        {
+          "x": 33.2094,
+          "z": 33.7516,
+          "y": 1.75,
+          "area": 337,
+          "label": "B"
+        }
+      ],
+      "metrics": [
+        {
+          "t": 50.32555244526171,
+          "ct": 37.08275726496219,
+          "move": 16.613305617621446,
+          "score": 2.001251928383261
+        },
+        {
+          "t": 50.32555244526171,
+          "ct": 39.03954132615874,
+          "move": 18.470393039494823,
+          "score": 2.4701604392864107
+        }
+      ],
+      "rotationMetres": 31.96804521415207
+    },
+    "ancient": {
+      "originalSites": [
+        {
+          "x": 19.9156,
+          "z": 16.2997,
+          "y": 2.9125,
+          "area": 913,
+          "label": "A"
+        },
+        {
+          "x": 48.6406,
+          "z": 26.6966,
+          "y": 3.8625,
+          "area": 397,
+          "label": "B"
+        }
+      ],
+      "sites": [
+        {
+          "x": 13.6555,
+          "z": 13.2622,
+          "y": 2.8875,
+          "area": 1695,
+          "label": "A"
+        },
+        {
+          "x": 44.9937,
+          "z": 16.7778,
+          "y": 3.6625,
+          "area": 478,
+          "label": "B"
+        }
+      ],
+      "metrics": [
+        {
+          "t": 51.77727350313585,
+          "ct": 42.05987557353754,
+          "move": 14.138993726765463,
+          "score": 4.431006085080653
+        },
+        {
+          "t": 59.706242124334125,
+          "ct": 41.09750573070685,
+          "move": 21.478049673735025,
+          "score": 1.1406045267429423
+        }
+      ],
+      "rotationMetres": 59.54474652155669
+    },
+    "ancient-night": {
+      "originalSites": [
+        {
+          "x": 19.9156,
+          "z": 16.2997,
+          "y": 2.9125,
+          "area": 918,
+          "label": "A"
+        },
+        {
+          "x": 48.6406,
+          "z": 26.6966,
+          "y": 3.8625,
+          "area": 397,
+          "label": "B"
+        }
+      ],
+      "sites": [
+        {
+          "x": 14.5625,
+          "z": 13.1638,
+          "y": 2.8958,
+          "area": 1668,
+          "label": "A"
+        },
+        {
+          "x": 44.9937,
+          "z": 16.7778,
+          "y": 3.6625,
+          "area": 480,
+          "label": "B"
+        }
+      ],
+      "metrics": [
+        {
+          "t": 51.77727350313585,
+          "ct": 39.996666710396916,
+          "move": 12.606587818376372,
+          "score": 3.8577610926718418
+        },
+        {
+          "t": 59.36268265282499,
+          "ct": 41.09750573070685,
+          "move": 21.478049673735025,
+          "score": 1.0449962752611057
+        }
+      ],
+      "rotationMetres": 55.509402423753876
+    },
+    "anubis": {
+      "originalSites": [
+        {
+          "x": 48.5798,
+          "z": 15.2922,
+          "y": 1.25,
+          "area": 2180,
+          "label": "A"
+        },
+        {
+          "x": 21.6689,
+          "z": 31.6188,
+          "y": 2.375,
+          "area": 891,
+          "label": "B"
+        }
+      ],
+      "sites": [
+        {
+          "x": 38.5564,
+          "z": 7.6,
+          "y": 0.5,
+          "area": 2378,
+          "label": "A"
+        },
+        {
+          "x": 16.5564,
+          "z": 40.9688,
+          "y": 2.425,
+          "area": 1121,
+          "label": "B"
+        }
+      ],
+      "metrics": [
+        {
+          "t": 50.027200013358275,
+          "ct": 36.08409533688435,
+          "move": 25.71918295417184,
+          "score": 0.7107443395835942
+        },
+        {
+          "t": 59.95409725904829,
+          "ct": 46.22697002424769,
+          "move": 21.65420995504938,
+          "score": 1.561392649320048
+        }
+      ],
+      "rotationMetres": 53.6323403031871
+    },
+    "overpass": {
+      "originalSites": [
+        {
+          "x": 32.0906,
+          "z": 13.5922,
+          "y": 6.2,
+          "area": 1658,
+          "label": "A"
+        },
+        {
+          "x": 45.7812,
+          "z": 21.0438,
+          "y": 1.525,
+          "area": 521,
+          "label": "B"
+        }
+      ],
+      "sites": [
+        {
+          "x": 27.7711,
+          "z": 18.8469,
+          "y": 5.7938,
+          "area": 1985,
+          "label": "A"
+        },
+        {
+          "x": 41.9875,
+          "z": 32.2625,
+          "y": 0.6,
+          "area": 919,
+          "label": "B"
+        }
+      ],
+      "metrics": [
+        {
+          "t": 45.18314927582626,
+          "ct": 32.560069264971084,
+          "move": 13.846724996758057,
+          "score": 2.303298735248853
+        },
+        {
+          "t": 55.9347359401884,
+          "ct": 49.210340278775845,
+          "move": 24.137866092249183,
+          "score": 4.119220116491743
+        }
+      ],
+      "rotationMetres": 48.69120986853503
+    },
+    "vertigo": {
+      "originalSites": [
+        {
+          "x": 35.9125,
+          "z": 29.9938,
+          "y": 4.275,
+          "area": 1171,
+          "label": "A"
+        },
+        {
+          "x": 12.2594,
+          "z": 11.8406,
+          "y": 3.9,
+          "area": 1981,
+          "label": "B"
+        }
+      ],
+      "sites": [
+        {
+          "x": 27.2875,
+          "z": 25.6562,
+          "y": 3.65,
+          "area": 903,
+          "label": "A"
+        },
+        {
+          "x": 16.5188,
+          "z": 22.7,
+          "y": 3.65,
+          "area": 1575,
+          "label": "B"
+        }
+      ],
+      "metrics": [
+        {
+          "t": 46.73734789820105,
+          "ct": 37.18624798073774,
+          "move": 19.658631037159264,
+          "score": 2.6507764421030604
+        },
+        {
+          "t": 65.64742242861675,
+          "ct": 48.03144263175087,
+          "move": 23.70849453725069,
+          "score": 0.456908626868862
+        }
+      ],
+      "rotationMetres": 44.085765180807705
+    },
+    "cache": {
+      "originalSites": [
+        {
+          "x": 22.4614,
+          "z": 18.9672,
+          "y": 1.275,
+          "area": 1619,
+          "label": "A"
+        },
+        {
+          "x": 24.525,
+          "z": 56.4562,
+          "y": 0.975,
+          "area": 949,
+          "label": "B"
+        }
+      ],
+      "sites": [
+        {
+          "x": 33.65,
+          "z": 20.95,
+          "y": 1.5,
+          "area": 1664,
+          "label": "A"
+        },
+        {
+          "x": 35.8875,
+          "z": 52.5937,
+          "y": 0.3667,
+          "area": 880,
+          "label": "B"
+        }
+      ],
+      "metrics": [
+        {
+          "t": 73.47752584170436,
+          "ct": 45.32515675492566,
+          "move": 23.09405389830351,
+          "score": 2.4989354807316664
+        },
+        {
+          "t": 63.30249842930837,
+          "ct": 44.32496449302892,
+          "move": 24.41749813027491,
+          "score": 0.8293640791398209
+        }
+      ],
+      "rotationMetres": 49.65232324152888
+    }
+  },
+  "legalClearanceClaim": false,
+  "sourceEmbeddedTexturesStillInGLB": true,
+  "geometryCourtyardsMoved": false,
+  "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
+  "phoneEmulation": {
+    "w": 844,
+    "h": 390,
+    "bodyW": 844,
+    "bodyH": 390
+  },
+  "offlineNativeC4Resume": true,
+  "oldCareerAndCachePreserved": true,
+  "new2DRadarWithoutOldMarkers": true,
+  "C4": {
+    "result": "passed",
+    "C4DamageAt30Metres": 110.76923076923079,
+    "damageAt45Metres": 3.0769230769230727,
+    "noDamageAt48Metres": true,
+    "sourceScaleConversion": true,
+    "legacySaveMigration": true,
+    "rounds": [
+      {
+        "map": "dust2",
+        "strategy": "a",
+        "shots": 266,
+        "result": "C4 portladi"
+      },
+      {
+        "map": "nuke",
+        "strategy": "b",
+        "shots": 213,
+        "result": "Himoyachilar yo\u2018q qilindi"
+      }
+    ]
+  },
+  "packedCode": {
+    "assets": [
+      "assets/audio-pack-worker-D9xylAYG.js",
+      "assets/main-Pxra9FRm.js.bin",
+      "assets/native-data31-CUOX1azu.js"
+    ],
+    "shared": [
+      "../original20/assets/index-CVBt3UIp.css",
+      "../ui15/anime-player-portraits.png",
+      "../approved14/previews/ancient-night.webp",
+      "../approved14/previews/train.webp",
+      "../approved14/previews/ancient.webp",
+      "../approved14/previews/overpass.webp",
+      "../approved14/previews/cache.webp",
+      "../approved14/previews/inferno.webp",
+      "../approved14/previews/vertigo.webp",
+      "../approved14/previews/anubis.webp",
+      "../approved14/previews/nuke.webp",
+      "../approved14/previews/dust2.webp",
+      "../approved14/previews/mirage.webp"
+    ],
+    "mainUncompressedSHA256": "3e8d099faefdc1a970452050d2fb9ee1b6627e5ddf71fb8adad9ec5a31ed45ba",
+    "packedSHA256": "b2ee17dab9c563e81c4b4e35d0ee1e02370b48750948bb463b86f353d4b0c14b",
+    "css": "Same preserved original20 compiled CSS"
+  },
+  "metadata": {
+    "commit": "1328ccfee5fb63cf2a64bc19414228ebb0d47a8b",
+    "branch": "arena-remix31-data",
+    "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/1328ccfee5fb63cf2a64bc19414228ebb0d47a8b/native-data31.json.gz",
+    "sha256": "b9beda0a9b4242edb25902dfd10e5c4eba03920a60f4bbecc5e1d32a6ae51f51",
+    "finalSitesCommit": "bd02c9bc0129a6235533cf445a010c24151ca4f0",
+    "finalSitesURL": "https://github.com/Abror1111/arena-manager-beta/raw/bd02c9bc0129a6235533cf445a010c24151ca4f0/sites31.json",
+    "authoredHarbourBackupURL": "https://github.com/Abror1111/arena-manager-beta/raw/bd02c9bc0129a6235533cf445a010c24151ca4f0/ARENA-harbour30-preserved-source.zip"
+  },
+  "errors": [],
+  "httpErrors": [],
+  "directPagesHTTPVerified": false
+}

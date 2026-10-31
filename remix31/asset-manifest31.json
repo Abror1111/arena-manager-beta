@@ -1,0 +1,25 @@
+{
+  "assets": [
+    "assets/audio-pack-worker-D9xylAYG.js",
+    "assets/main-Pxra9FRm.js.bin",
+    "assets/native-data31-CUOX1azu.js"
+  ],
+  "shared": [
+    "../original20/assets/index-CVBt3UIp.css",
+    "../ui15/anime-player-portraits.png",
+    "../approved14/previews/ancient-night.webp",
+    "../approved14/previews/train.webp",
+    "../approved14/previews/ancient.webp",
+    "../approved14/previews/overpass.webp",
+    "../approved14/previews/cache.webp",
+    "../approved14/previews/inferno.webp",
+    "../approved14/previews/vertigo.webp",
+    "../approved14/previews/anubis.webp",
+    "../approved14/previews/nuke.webp",
+    "../approved14/previews/dust2.webp",
+    "../approved14/previews/mirage.webp"
+  ],
+  "mainUncompressedSHA256": "3e8d099faefdc1a970452050d2fb9ee1b6627e5ddf71fb8adad9ec5a31ed45ba",
+  "packedSHA256": "b2ee17dab9c563e81c4b4e35d0ee1e02370b48750948bb463b86f353d4b0c14b",
+  "css": "Same preserved original20 compiled CSS"
+}

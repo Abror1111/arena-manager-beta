@@ -1,0 +1,26 @@
+{
+  "version": "remix31",
+  "direction": "User explicitly selected original11 source-map remix after independently authored harbour30 work.",
+  "legalClearanceClaim": false,
+  "sourceGeometryReused": true,
+  "originalEmbeddedImagesStillInGLB": true,
+  "visibleStandardTextures": "ARENA procedural replacements",
+  "selectableMaps": 11,
+  "distinctSourceGeometries": 10,
+  "newPlantZones": 22,
+  "courtyardGeometryTransplanted": false,
+  "sourceData": {
+    "commit": "1328ccfee5fb63cf2a64bc19414228ebb0d47a8b",
+    "branch": "arena-remix31-data",
+    "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/1328ccfee5fb63cf2a64bc19414228ebb0d47a8b/native-data31.json.gz",
+    "sha256": "b9beda0a9b4242edb25902dfd10e5c4eba03920a60f4bbecc5e1d32a6ae51f51",
+    "finalSitesCommit": "bd02c9bc0129a6235533cf445a010c24151ca4f0",
+    "finalSitesURL": "https://github.com/Abror1111/arena-manager-beta/raw/bd02c9bc0129a6235533cf445a010c24151ca4f0/sites31.json",
+    "authoredHarbourBackupURL": "https://github.com/Abror1111/arena-manager-beta/raw/bd02c9bc0129a6235533cf445a010c24151ca4f0/ARENA-harbour30-preserved-source.zip"
+  },
+  "siteChanges": "src/sites31.json; navigation and collision checked",
+  "saveKey": "arena-career-remix31",
+  "oldUI": "Preserved shared compiled original20 CSS",
+  "rootAndAuthoredBeta": "Unchanged; source assets and old archives retained",
+  "authoredHarbourBackup": "arena-remix31-data branch / ARENA-harbour30-preserved-source.zip"
+}
