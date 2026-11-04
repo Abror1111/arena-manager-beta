@@ -1,4 +1,14 @@
-# ARENA walls33 — full architecture during battles
+# ARENA neon34 — cyberpunk anime map skin
+
+Version34 applies original ARENA cyberpunk-anime surfaces to all11 selectable map entries. Each has its own wall/roof/metal/neon palette; hard panel graphics, sparse emissive circuits, ink accents and gently banded lighting replace the visible standard surfaces. Color/emission tiles are512px with mipmaps and anisotropic filtering;256px relief is subtle. Natural surrounding terrain uses a separate quiet material, and the existing water remains. No external franchise art, logos, sounds or fonts were added for this skin.
+
+Small authored3D modifications add chamfered rooftop cooling units, radiating fan grilles, isolators, ducts, receiver masts and original ARENA signs. Anchors are measured on actual flat source triangles, with complete plinth support inside each triangle's inscribed circle; walkable nav area bounds and nearby plant zones are excluded. Up to32 kits are merged into at most5 draw batches, about79k extra triangles at full count. This is decorative architecture, not a rebuilt layout or new collision geometry. Major paths,22 A/B points, combat, save namespace and old UI stay intact. Full battle walls from33 remain. No blur/bloom pass or actual-device FPS claim.
+
+Surface styling does not clear rights in the reused source geometry. Existing source GLBs and embedded images remain unchanged; the following base provenance notes still apply. Eleven entries include Ancient Night sharing Ancient geometry. New34 checks/evidence are in verification34/, prior verification folders are inherited evidence.
+
+Verified34: all11 map renders passed with512px color/emission atlases, 32 supported roof kits and5 batches per map (78596 added triangles). No shader/page/HTTP errors. Source33-to34 upgrade retained active C4, score, round and funds;844x390 fit and fully offline native C4 resume passed. Roof/nav/plant/slope and cloned-hook unit checks passed.
+
+Inherited version33 notes:
 
 Version33 disables automatic route and floor cutaways in battles for all11 map entries. Source mesh and shadow materials have no battle clipping planes; route-mask shaders and mask downloads are not attached in a battle. Auto/player cameras, including lower-floor tracking and saved/manual floor settings, preserve the full map. The existing observer silhouettes and labels help track occluded players without erasing walls. Explicit route/floor inspection tools remain in the separate map explorer. No map geometry, combat, economy, saved games or UI styling changed. Uses loader33.js with31/32 aliases and shell-v3 to update existing cached installs.
 
@@ -26,5 +36,5 @@ Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-
 
 The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
 
-Version33 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/f47857908d85bc57c2c50a2631c3c6f5c86b0f20/ARENA-walls33-source.zip
-SHA256: 04a39f577cc0128a6348f167220a3e0b23a14a1c6c9780bf3a78f466b872aa00
+Version34 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/d7e03d590f7fcb459c40dad1a8457d95a4898d52/ARENA-neon34-source.zip
+SHA256: 7b5d36b80ea5285d698da77365149a0739025fd9bf8f6b3714ea7f013ba28bea

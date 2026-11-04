@@ -1,16 +1,139 @@
 {
   "result": "passed",
-  "version": "walls33",
-  "base": "tactics32",
+  "version": "neon34",
+  "base": "walls33",
   "geometryVersion": "remix31",
   "selectableMaps": 11,
   "distinctSourceGeometry": 10,
   "sourceGeometryReused": true,
   "legalClearanceClaim": false,
-  "change": "Disable automatic battle route/floor clipping in both surface and shadow materials; full architecture in every battle camera; explorer manual tools retained",
-  "geometryAndOldUIUnchanged": true,
+  "change": "Original ARENA cyberpunk-anime material profiles, ink/lighting treatment, supported roof cooling/telemetry/sign kits; core source architecture/nav/collision and old UI retained",
+  "maps": [
+    {
+      "id": "dust2",
+      "materials": 278,
+      "textures": 22,
+      "kits": 32,
+      "signs": 11,
+      "addedTriangles": 78596,
+      "addedBatches": 5,
+      "fullArchitecture": true
+    },
+    {
+      "id": "mirage",
+      "materials": 301,
+      "textures": 22,
+      "kits": 32,
+      "signs": 11,
+      "addedTriangles": 78596,
+      "addedBatches": 5,
+      "fullArchitecture": true
+    },
+    {
+      "id": "inferno",
+      "materials": 273,
+      "textures": 22,
+      "kits": 32,
+      "signs": 11,
+      "addedTriangles": 78596,
+      "addedBatches": 5,
+      "fullArchitecture": true
+    },
+    {
+      "id": "nuke",
+      "materials": 236,
+      "textures": 19,
+      "kits": 32,
+      "signs": 11,
+      "addedTriangles": 78596,
+      "addedBatches": 5,
+      "fullArchitecture": true
+    },
+    {
+      "id": "train",
+      "materials": 275,
+      "textures": 22,
+      "kits": 32,
+      "signs": 11,
+      "addedTriangles": 78596,
+      "addedBatches": 5,
+      "fullArchitecture": true
+    },
+    {
+      "id": "ancient",
+      "materials": 119,
+      "textures": 22,
+      "kits": 32,
+      "signs": 11,
+      "addedTriangles": 78596,
+      "addedBatches": 5,
+      "fullArchitecture": true
+    },
+    {
+      "id": "ancient-night",
+      "materials": 120,
+      "textures": 22,
+      "kits": 32,
+      "signs": 11,
+      "addedTriangles": 78596,
+      "addedBatches": 5,
+      "fullArchitecture": true
+    },
+    {
+      "id": "anubis",
+      "materials": 224,
+      "textures": 22,
+      "kits": 32,
+      "signs": 11,
+      "addedTriangles": 78596,
+      "addedBatches": 5,
+      "fullArchitecture": true
+    },
+    {
+      "id": "overpass",
+      "materials": 353,
+      "textures": 22,
+      "kits": 32,
+      "signs": 11,
+      "addedTriangles": 78596,
+      "addedBatches": 5,
+      "fullArchitecture": true
+    },
+    {
+      "id": "vertigo",
+      "materials": 165,
+      "textures": 21,
+      "kits": 32,
+      "signs": 11,
+      "addedTriangles": 78596,
+      "addedBatches": 5,
+      "fullArchitecture": true
+    },
+    {
+      "id": "cache",
+      "materials": 171,
+      "textures": 22,
+      "kits": 32,
+      "signs": 11,
+      "addedTriangles": 78596,
+      "addedBatches": 5,
+      "fullArchitecture": true
+    }
+  ],
+  "mapErrors": [],
+  "mapHTTPErrors": [],
+  "shaderErrors": [],
+  "unitChecks": {
+    "result": "passed",
+    "profiles": 11,
+    "groundedSupportCircle": true,
+    "walkableFloorClear": true,
+    "plantClearance": true,
+    "slopedRoofRejected": true,
+    "clonedShaderHookIdempotent": true
+  },
   "browser": {
-    "published32To33Upgrade": true,
+    "published33To34Upgrade": true,
     "activeC4ScoreRoundFundsPreserved": true,
     "phoneEmulation": {
       "w": 844,
@@ -18,6 +141,7 @@
       "bodyW": 844,
       "bodyH": 390
     },
+    "offlineCyberKits": 32,
     "offlineFullArchitecture": true,
     "nativeMetadataRequests": 1,
     "oldCareerAndCachePreserved": {
@@ -29,49 +153,19 @@
     "errors": [],
     "httpErrors": []
   },
-  "Nuke": {
-    "result": "passed",
-    "actor": {
-      "y": 1.85,
-      "lowerClip": 3.583
-    },
-    "records": [
-      {
-        "camera": "player",
-        "roofMode": "full-source",
-        "clipHeight": "1000",
-        "sourceTriangles": "2167901"
-      },
-      {
-        "camera": "auto",
-        "roofMode": "full-source",
-        "clipHeight": "1000",
-        "sourceTriangles": "2167901"
-      },
-      {
-        "camera": "static",
-        "roofMode": "full-source",
-        "clipHeight": "1000",
-        "sourceTriangles": "2167901"
-      }
-    ],
-    "manualLowerStillFull": true,
-    "routeShaders": 0,
-    "errors": [],
-    "bad": []
-  },
   "sourceArchive": {
-    "archive": "ARENA-walls33-source.zip",
-    "sha256": "04a39f577cc0128a6348f167220a3e0b23a14a1c6c9780bf3a78f466b872aa00",
-    "bytes": 10878804,
-    "files": 199,
-    "branch": "arena-walls33-source",
-    "commit": "f47857908d85bc57c2c50a2631c3c6f5c86b0f20",
-    "url": "https://github.com/Abror1111/arena-manager-beta/raw/f47857908d85bc57c2c50a2631c3c6f5c86b0f20/ARENA-walls33-source.zip",
+    "archive": "ARENA-neon34-source.zip",
+    "sha256": "7b5d36b80ea5285d698da77365149a0739025fd9bf8f6b3714ea7f013ba28bea",
+    "bytes": 25638711,
+    "files": 225,
+    "branch": "arena-neon34-source",
+    "commit": "d7e03d590f7fcb459c40dad1a8457d95a4898d52",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/d7e03d590f7fcb459c40dad1a8457d95a4898d52/ARENA-neon34-source.zip",
     "reproducibleBuild": true
   },
   "archiveBuildByteIdentical": true,
   "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
   "directPagesHTTPVerified": false,
+  "physicalDeviceFPSMeasured": false,
   "APKUnchanged": true
 }
