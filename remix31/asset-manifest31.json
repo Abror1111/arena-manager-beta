@@ -1,7 +1,7 @@
 {
   "assets": [
     "assets/audio-pack-worker-D9xylAYG.js",
-    "assets/main-C6-YuiPj.js.bin",
+    "assets/main-C8IvjjtV.js.bin",
     "assets/native-data31-CUOX1azu.js"
   ],
   "shared": [
@@ -19,7 +19,7 @@
     "../approved14/previews/dust2.webp",
     "../approved14/previews/mirage.webp"
   ],
-  "mainUncompressedSHA256": "b0710de71a732e8fa1e9af8bb85160e5170e25d992e8bbb89fe83f1b04b6f6f5",
-  "packedSHA256": "81acbbc45fa5ca9a5d024f608bff98b4ab8f4333b2c3bc6d9e02aeb0e356517f",
+  "mainUncompressedSHA256": "1e968ca3251f0e4b9e0adfcc37a518f757e167f02e32744cb2efe88a5e45cbd0",
+  "packedSHA256": "8ee0f9839768def5deddab61062d5c86042e0cc45a1b81b5c49b987fbacfac4e",
   "css": "Same preserved original20 compiled CSS"
 }

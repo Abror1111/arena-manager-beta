@@ -1,5 +1,5 @@
 {
-  "version": "neon34",
+  "version": "holo35",
   "direction": "User explicitly selected original11 source-map remix after independently authored harbour30 work.",
   "legalClearanceClaim": false,
   "sourceGeometryReused": true,
@@ -30,8 +30,8 @@
     "Physical source-scale danger memory and camera spring",
     "Preserved UI, maps, save namespace and ongoing C4 state"
   ],
-  "shellCache": "arena-remix31-shell-v4",
-  "loader": "loader34.js with loader31/32/33 compatibility aliases",
+  "shellCache": "arena-remix31-shell-v5",
+  "loader": "loader35.js with31/32/33/34 compatibility aliases",
   "trainedModelClaim": false,
   "changes33": [
     "Battle source and shadow materials have no route/floor clipping",
@@ -47,5 +47,14 @@
     "Full battle walls and old UI retained; authored decoration only, no relocation of core buildings/nav/collision"
   ],
   "franchiseAssetsUsedForNewSkin": false,
-  "coreSourceGeometryStillReused": true
+  "coreSourceGeometryStillReused": true,
+  "changes35": [
+    "Cyber megacity paving, stronger facade emission and procedural twilight sky",
+    "Grounded multilevel outer towers, surface-mounted3D facade hardware and roof terminal spires",
+    "Four outward/upward score faces sharing one live canvas texture; actual team score, round, phase, clock and C4 time",
+    "Twelve double-sided public holographic advertisements and four authored animated18-bone3D human holograms per map",
+    "Holograms drawn in existing dynamic pass; two instanced projector batches in static world; score updates do not invalidate static map",
+    "Existing full battle walls, source layout/collision, old UI and save namespace retained"
+  ],
+  "newFranchiseAssetsUsed": false
 }

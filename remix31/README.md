@@ -1,4 +1,12 @@
-# ARENA neon34 — cyberpunk anime map skin
+# ARENA holo35 — megacity and live holographic arena
+
+Version35 expands all11 selectable map entries into a stronger original ARENA cyberpunk megacity: technical paving over the exterior terrain, brighter facade circuits, tapered multilevel tower buildings with side wings/crowns outside the play bounds, hardware mounted on actual vertical source surfaces, roof terminal spires and a procedural twilight sky. Existing water/wind behavior and old club/battle UI remain. This is an additive visual conversion of the current source-map remix, not a core route/collision rebuild or a rights clearance.
+
+A floating stadium-style scoreboard has four outward/upward faces with one shared768x256 canvas. It reads actual team names, score, round, phase and remaining clock (C4 timer while planted). In map inspection it explicitly displays preview dashes rather than fabricated match scores. The texture is repainted only when content changes, independently of the cached static map. Public advertising holograms use one shared1024x512 atlas; four original18-bone humanoid holograms use shared skinned geometry, capsule/lathed anatomy, articulated waving/head motion, scan lines and rim light. They are ambient projections, separate from the ten match agents. Respect reduced motion. Physical projectors are instanced into two static batches; all translucent holograms render against the cached map depth. No bloom/blur pass or bank of point lights.
+
+Towers use the real exterior ground sampler and a buried stepped foundation, outside the entire play rectangle; wall devices use measured triangle support circles. Existing roof kits keep their conservative nav/plant clearance. New holographic figures and panels have no collision. Full battle walls remain intact in static/auto/player views; only explicit explorer route/floor tools hide decorations. Career/save key and map revision stay arena-career-remix31 / arena-remix31. No new APK and no physical-device FPS claim. Verified35: all11 megacity renders passed, with4 score faces,4 humanoids and12 public ads each. Isolated four-cardinal-angle screenshots confirm the rendered score canvas. Published34-to35 live-C4 upgrade and controlled7:5-to8:5/C4 clock probe passed, then original match was restored;844x390 fit and offline resume passed. Unit tests cover face normals, real score/clock, texture repainting, weighted human geometry, wall support and grounded outer foundations. No shader/page/HTTP errors. New35 evidence is separated in verification35/; earlier folders are inherited.
+
+Inherited34 notes:
 
 Version34 applies original ARENA cyberpunk-anime surfaces to all11 selectable map entries. Each has its own wall/roof/metal/neon palette; hard panel graphics, sparse emissive circuits, ink accents and gently banded lighting replace the visible standard surfaces. Color/emission tiles are512px with mipmaps and anisotropic filtering;256px relief is subtle. Natural surrounding terrain uses a separate quiet material, and the existing water remains. No external franchise art, logos, sounds or fonts were added for this skin.
 
@@ -36,5 +44,5 @@ Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-
 
 The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
 
-Version34 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/d7e03d590f7fcb459c40dad1a8457d95a4898d52/ARENA-neon34-source.zip
-SHA256: 7b5d36b80ea5285d698da77365149a0739025fd9bf8f6b3714ea7f013ba28bea
+Version35 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/66ddbe84ac612c62f46545b9d95b6cae6571389b/ARENA-holo35-source.zip
+SHA256: c80f5b319a6b827b4599801e196fe4fe5803e113963fab2b4e49d50af01fcfd5
