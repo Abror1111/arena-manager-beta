@@ -1,5 +1,5 @@
 {
-  "version": "remix31",
+  "version": "tactics32",
   "direction": "User explicitly selected original11 source-map remix after independently authored harbour30 work.",
   "legalClearanceClaim": false,
   "sourceGeometryReused": true,
@@ -22,5 +22,15 @@
   "saveKey": "arena-career-remix31",
   "oldUI": "Preserved shared compiled original20 CSS",
   "rootAndAuthoredBeta": "Unchanged; source assets and old archives retained",
-  "authoredHarbourBackup": "arena-remix31-data branch / ARENA-harbour30-preserved-source.zip"
+  "authoredHarbourBackup": "arena-remix31-data branch / ARENA-harbour30-preserved-source.zip",
+  "baseGeometryVersion": "remix31",
+  "changes32": [
+    "Nav-distance CT defuser selection with kit, floor and active progress",
+    "Reachable stable save goals and actual travel ETA; farthest-reachable fallback on compact maps",
+    "Physical source-scale danger memory and camera spring",
+    "Preserved UI, maps, save namespace and ongoing C4 state"
+  ],
+  "shellCache": "arena-remix31-shell-v2",
+  "loader": "loader32.js with loader31.js compatibility alias",
+  "trainedModelClaim": false
 }
