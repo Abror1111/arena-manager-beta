@@ -1,5 +1,5 @@
 {
-  "version": "tactics32",
+  "version": "walls33",
   "direction": "User explicitly selected original11 source-map remix after independently authored harbour30 work.",
   "legalClearanceClaim": false,
   "sourceGeometryReused": true,
@@ -30,7 +30,13 @@
     "Physical source-scale danger memory and camera spring",
     "Preserved UI, maps, save namespace and ongoing C4 state"
   ],
-  "shellCache": "arena-remix31-shell-v2",
-  "loader": "loader32.js with loader31.js compatibility alias",
-  "trainedModelClaim": false
+  "shellCache": "arena-remix31-shell-v3",
+  "loader": "loader33.js with loader31.js and loader32.js compatibility aliases",
+  "trainedModelClaim": false,
+  "changes33": [
+    "Battle source and shadow materials have no route/floor clipping",
+    "No battle route-mask loading or shader injection",
+    "Auto/player/manual lower-floor battle views preserve the full source model",
+    "Explicit explorer route/floor controls retained"
+  ]
 }

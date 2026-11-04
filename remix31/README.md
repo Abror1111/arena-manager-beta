@@ -1,4 +1,10 @@
-# ARENA tactics32 — original11 source-map preview
+# ARENA walls33 — full architecture during battles
+
+Version33 disables automatic route and floor cutaways in battles for all11 map entries. Source mesh and shadow materials have no battle clipping planes; route-mask shaders and mask downloads are not attached in a battle. Auto/player cameras, including lower-floor tracking and saved/manual floor settings, preserve the full map. The existing observer silhouettes and labels help track occluded players without erasing walls. Explicit route/floor inspection tools remain in the separate map explorer. No map geometry, combat, economy, saved games or UI styling changed. Uses loader33.js with31/32 aliases and shell-v3 to update existing cached installs.
+
+Version33 browser checks passed: published32-to33 upgrade with current C4/score/round/funds intact, no route-cut shaders, full geometry after offline resume, and844x390 mobile fit. Nuke lower-floor player/auto/static views and explicit lower-floor setting kept full-source mode and clipHeight1000; no route-mask downloads or page/HTTP errors.
+
+The following describes the inherited version32 base:
 
 Version 32 continues the existing 11-map remix without changing its maps, 22 relocated sites, old UI, damage or economy. CT defuser selection now compares actual navigation travel, floors and 5/10-second kit time; an active defuser retains progress. Save decisions use reachable escape routes and retain a stable destination. On compact maps a fully safe destination can be unavailable: choose the farthest reachable point instead of teleporting or promising survival. The danger-memory radius and floor separation now use source-map metres. Existing failed-round plan switching is retained and regression-tested; this is tactical game logic, not a trained model.
 
@@ -20,5 +26,5 @@ Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-
 
 The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
 
-Reproducible source archive: https://github.com/Abror1111/arena-manager-beta/raw/b371f596bd889123db7ecb922b1ade48fd1127d7/ARENA-tactics32-source.zip
-SHA256: c9437285eb4334242e4e6ac3853f088dbd0a847b54d0fc020861b3d56a35b15a
+Version33 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/f47857908d85bc57c2c50a2631c3c6f5c86b0f20/ARENA-walls33-source.zip
+SHA256: 04a39f577cc0128a6348f167220a3e0b23a14a1c6c9780bf3a78f466b872aa00

@@ -1,74 +1,16 @@
 {
   "result": "passed",
-  "version": "tactics32",
+  "version": "walls33",
+  "base": "tactics32",
   "geometryVersion": "remix31",
-  "sourceGeometryReused": true,
-  "legalClearanceClaim": false,
   "selectableMaps": 11,
   "distinctSourceGeometry": 10,
-  "newBombSites": 22,
-  "allSpawnSitePaths": 220,
-  "mapsAndTextureChangesThisRelease": false,
-  "baseRenderEvidence": "Inherited version31 checks in source archive verification/; no new11-map render claim",
-  "tactics": {
-    "result": "passed",
-    "navAwareDefuser": true,
-    "activeDefuserProgressPreserved": true,
-    "safeEscapes": [
-      {
-        "id": "dust2",
-        "walkMetres": 60.01253829778472,
-        "seconds": 17.14643951365278,
-        "outsideSafetyMargin": true
-      },
-      {
-        "id": "nuke",
-        "walkMetres": 49.34143410155334,
-        "seconds": 14.097552600443812,
-        "outsideSafetyMargin": true
-      },
-      {
-        "id": "inferno",
-        "walkMetres": 56.42825857747142,
-        "seconds": 16.122359593563264,
-        "outsideSafetyMargin": true
-      },
-      {
-        "id": "vertigo",
-        "walkMetres": 62.88323409529698,
-        "seconds": 17.966638312941996,
-        "outsideSafetyMargin": false
-      }
-    ],
-    "scaledDangerMemory": true,
-    "changedPlanAfterLoss": true,
-    "cameraMaxPanMetresPerSecond": 42.000000000000064,
-    "cameraScaleInvariant": true
-  },
-  "combat": {
-    "result": "passed",
-    "C4DamageAt30Metres": 110.76923076923079,
-    "damageAt45Metres": 3.0769230769230727,
-    "noDamageAt48Metres": true,
-    "sourceScaleConversion": true,
-    "legacySaveMigration": true,
-    "rounds": [
-      {
-        "map": "dust2",
-        "strategy": "a",
-        "shots": 216,
-        "result": "C4 zararsizlantirildi"
-      },
-      {
-        "map": "nuke",
-        "strategy": "b",
-        "shots": 250,
-        "result": "C4 portladi"
-      }
-    ]
-  },
+  "sourceGeometryReused": true,
+  "legalClearanceClaim": false,
+  "change": "Disable automatic battle route/floor clipping in both surface and shadow materials; full architecture in every battle camera; explorer manual tools retained",
+  "geometryAndOldUIUnchanged": true,
   "browser": {
-    "published31To32Upgrade": true,
+    "published32To33Upgrade": true,
     "activeC4ScoreRoundFundsPreserved": true,
     "phoneEmulation": {
       "w": 844,
@@ -76,55 +18,57 @@
       "bodyW": 844,
       "bodyH": 390
     },
-    "oldCareerAndCache": {
+    "offlineFullArchitecture": true,
+    "nativeMetadataRequests": 1,
+    "oldCareerAndCachePreserved": {
       "old": "authored-beta-protected",
       "root": "root-protected",
       "own": true,
       "cache": "preserved"
     },
-    "autoAndSelectedPlayerCamera": true,
-    "offlineC4Resume": true,
-    "offlineInterceptionDisabled": true,
-    "nativeMetadataRequests": 1,
-    "fixture": "Actual tactical AI C4 planting at relocated native site; other agents frozen and distant inside map bounds.",
     "errors": [],
     "httpErrors": []
   },
-  "packedCode": {
-    "assets": [
-      "assets/audio-pack-worker-D9xylAYG.js",
-      "assets/main-CaZaed6J.js.bin",
-      "assets/native-data31-CUOX1azu.js"
+  "Nuke": {
+    "result": "passed",
+    "actor": {
+      "y": 1.85,
+      "lowerClip": 3.583
+    },
+    "records": [
+      {
+        "camera": "player",
+        "roofMode": "full-source",
+        "clipHeight": "1000",
+        "sourceTriangles": "2167901"
+      },
+      {
+        "camera": "auto",
+        "roofMode": "full-source",
+        "clipHeight": "1000",
+        "sourceTriangles": "2167901"
+      },
+      {
+        "camera": "static",
+        "roofMode": "full-source",
+        "clipHeight": "1000",
+        "sourceTriangles": "2167901"
+      }
     ],
-    "shared": [
-      "../original20/assets/index-CVBt3UIp.css",
-      "../ui15/anime-player-portraits.png",
-      "../approved14/previews/ancient-night.webp",
-      "../approved14/previews/train.webp",
-      "../approved14/previews/ancient.webp",
-      "../approved14/previews/overpass.webp",
-      "../approved14/previews/cache.webp",
-      "../approved14/previews/inferno.webp",
-      "../approved14/previews/vertigo.webp",
-      "../approved14/previews/anubis.webp",
-      "../approved14/previews/nuke.webp",
-      "../approved14/previews/dust2.webp",
-      "../approved14/previews/mirage.webp"
-    ],
-    "mainUncompressedSHA256": "b77f386d44fcfb9dfa87a8e5f3f12b0328832532fa88ee6b6d1819775f4e8f59",
-    "packedSHA256": "33a94828454edcd90492fa2000a177b8571d5da14d1b02973f6d079f9433ab74",
-    "css": "Same preserved original20 compiled CSS"
+    "manualLowerStillFull": true,
+    "routeShaders": 0,
+    "errors": [],
+    "bad": []
   },
   "sourceArchive": {
-    "archive": "ARENA-tactics32-source.zip",
-    "sha256": "c9437285eb4334242e4e6ac3853f088dbd0a847b54d0fc020861b3d56a35b15a",
-    "bytes": 6068346,
-    "files": 190,
-    "branch": "arena-tactics32-source",
-    "commit": "b371f596bd889123db7ecb922b1ade48fd1127d7",
-    "url": "https://github.com/Abror1111/arena-manager-beta/raw/b371f596bd889123db7ecb922b1ade48fd1127d7/ARENA-tactics32-source.zip",
-    "reproducibleBuild": true,
-    "allNodeTestsPassed": true
+    "archive": "ARENA-walls33-source.zip",
+    "sha256": "04a39f577cc0128a6348f167220a3e0b23a14a1c6c9780bf3a78f466b872aa00",
+    "bytes": 10878804,
+    "files": 199,
+    "branch": "arena-walls33-source",
+    "commit": "f47857908d85bc57c2c50a2631c3c6f5c86b0f20",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/f47857908d85bc57c2c50a2631c3c6f5c86b0f20/ARENA-walls33-source.zip",
+    "reproducibleBuild": true
   },
   "archiveBuildByteIdentical": true,
   "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
