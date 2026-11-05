@@ -1,3 +1,9 @@
+# ARENA smooth36 — battle performance fixes
+
+Exact collision acceleration and bounded nav shortcut caching reduce measured simulation stalls. Full source geometry, 11 entries, holographic scoreboards/people, existing UI, old save keys and map downloads are preserved. Distant actors use fewer subpixel bevels with the same materials/rig; close detail remains available. Hidden equipment is not submitted. Static map shadows no longer regenerate on every desktop camera frame.
+
+Verification36 contains before/after host profiles, exact ray parity, deterministic trace comparison and browser upgrade/offline checks. No physical-device FPS or new APK claim. Source geometry licensing status is unchanged.
+
 # ARENA holo35 — megacity and live holographic arena
 
 Version35 expands all11 selectable map entries into a stronger original ARENA cyberpunk megacity: technical paving over the exterior terrain, brighter facade circuits, tapered multilevel tower buildings with side wings/crowns outside the play bounds, hardware mounted on actual vertical source surfaces, roof terminal spires and a procedural twilight sky. Existing water/wind behavior and old club/battle UI remain. This is an additive visual conversion of the current source-map remix, not a core route/collision rebuild or a rights clearance.
@@ -44,5 +50,5 @@ Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-
 
 The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
 
-Version35 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/66ddbe84ac612c62f46545b9d95b6cae6571389b/ARENA-holo35-source.zip
-SHA256: c80f5b319a6b827b4599801e196fe4fe5803e113963fab2b4e49d50af01fcfd5
+Version36 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/da705435e4f20cb4e2e115a83351037d5c10e272/ARENA-smooth36-source.zip
+SHA256: 65d7b6599fb723a7101111f996690f3e8e8350dbf102e02caaba3396e2a0bb36
