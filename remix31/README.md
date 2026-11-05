@@ -1,3 +1,9 @@
+# ARENA holo38 — holographic garden and clear street layouts
+
+Trees use cyan/magenta holographic scanline materials. Broad yellow architecture and yellow patches are reduced. New generated towers/service modules/terminals move from guessed roof/facade attachment points into measured empty ground volumes, checked against rendered source shells as well as collision geometry and authored exterior buildings. Ground support feet close terrain gaps. Unsafe64 facade attachments removed. Decoration counts adapt to available space rather than stacking duplicate projectors. Four score faces remain.22 original detailed lane dividers share geometry with collision and a prevalidated navigation manifest;44 actual walking detours and220 objective paths pass. Existing UI, full source architecture, economy and save namespace remain. Only old actors/dropped C4 embedded in a divider need local position repair. Source geometry rights status unchanged; no franchise artwork added.
+
+Verification38 includes all11 browser views, actual37-to38 C4 upgrade/offline/phone checks and walking/occupancy tests. No deviceFPS or new APK claim. Complete older37 source/images: https://github.com/Abror1111/arena-manager-beta/raw/7c0b1055ee300fec41643ca0ca6b5e9fc9573231/ARENA-color37-source.zip . Historical screenshots are referenced there rather than duplicated.
+
 # ARENA color37 — brighter neon-city palette
 
 All11 map entries now use a brighter original yellow/cyan/magenta palette inspired by neon anime city color language. Warm gold/cream walls, cool steel roofs, medium blue ground and softer blue-violet shadows replace the black-heavy base. Signs use yellow with dark lettering. Sky and deep shade retain readable detail. Existing UI, source geometry, walls, sites, careers, holograms, cameras and36 performance work are preserved. No new effects passes or geometry.
@@ -58,5 +64,6 @@ Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-
 
 The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
 
-Version37 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/7c0b1055ee300fec41643ca0ca6b5e9fc9573231/ARENA-color37-source.zip
-SHA256: 5586a5e6c0561ec1e0bff4033cecb7bdf0f6afac3bb31b690202ddf577be14d9
+Version38 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/ec6a64f673696eb557939726c6fbc3f9b6fe140a/ARENA-holo38-source.zip
+SHA256: 9b42083d9e917d9ad2b26effa4f4f7f4387e9ad6f8be9f4736da5491eec57736
+Final deployment receipt is kept in the arena-holo38-source branch publication38.json; local overlay storage was full.

@@ -1,227 +1,201 @@
 {
   "result": "passed",
-  "version": "color37",
-  "base": "smooth36",
-  "palette": "sunlit-neon-city37",
-  "scope": "Original acid-yellow/cyan/magenta artwork, brighter warm walls/steel roofs/ground/sky, softer blue-violet shadows; no new geometry or render passes",
+  "version": "holo38",
+  "base": "color37",
+  "palette": "holo-garden38",
   "summary": {
     "result": "passed",
-    "maps": 11,
-    "geometry": [
+    "maps": [
       {
         "id": "dust2",
-        "sourceTriangles": "1885054",
-        "cityTriangles": "58168",
-        "unchangedGeometryAndSites": true
+        "towers": 12,
+        "groundServiceModules": 16,
+        "groundTerminals": 6,
+        "holoPeople": 4,
+        "holoAds": 12,
+        "holographicPlantMeshes": 15,
+        "streetDividers": 2,
+        "renderedOccupancyCells": 14028,
+        "rejectedPlacementCandidates": 1260,
+        "reservedVolumes": 38,
+        "pairwiseVolumesSeparated": true,
+        "fullArchitecture": true
       },
       {
         "id": "mirage",
-        "sourceTriangles": "835215",
-        "cityTriangles": "58168",
-        "unchangedGeometryAndSites": true
+        "towers": 12,
+        "groundServiceModules": 16,
+        "groundTerminals": 5,
+        "holoPeople": 4,
+        "holoAds": 12,
+        "holographicPlantMeshes": 23,
+        "streetDividers": 2,
+        "renderedOccupancyCells": 9375,
+        "rejectedPlacementCandidates": 418,
+        "reservedVolumes": 37,
+        "pairwiseVolumesSeparated": true,
+        "fullArchitecture": true
       },
       {
         "id": "inferno",
-        "sourceTriangles": "2818874",
-        "cityTriangles": "58168",
-        "unchangedGeometryAndSites": true
+        "towers": 11,
+        "groundServiceModules": 16,
+        "groundTerminals": 6,
+        "holoPeople": 4,
+        "holoAds": 12,
+        "holographicPlantMeshes": 20,
+        "streetDividers": 2,
+        "renderedOccupancyCells": 9778,
+        "rejectedPlacementCandidates": 875,
+        "reservedVolumes": 37,
+        "pairwiseVolumesSeparated": true,
+        "fullArchitecture": true
       },
       {
         "id": "nuke",
-        "sourceTriangles": "2167901",
-        "cityTriangles": "58168",
-        "unchangedGeometryAndSites": true
+        "towers": 8,
+        "groundServiceModules": 9,
+        "groundTerminals": 3,
+        "holoPeople": 2,
+        "holoAds": 9,
+        "holographicPlantMeshes": 9,
+        "streetDividers": 2,
+        "renderedOccupancyCells": 30296,
+        "rejectedPlacementCandidates": 2108,
+        "reservedVolumes": 22,
+        "pairwiseVolumesSeparated": true,
+        "fullArchitecture": true
       },
       {
         "id": "train",
-        "sourceTriangles": "2967031",
-        "cityTriangles": "58168",
-        "unchangedGeometryAndSites": true
+        "towers": 8,
+        "groundServiceModules": 15,
+        "groundTerminals": 6,
+        "holoPeople": 3,
+        "holoAds": 12,
+        "holographicPlantMeshes": 8,
+        "streetDividers": 2,
+        "renderedOccupancyCells": 11574,
+        "rejectedPlacementCandidates": 1838,
+        "reservedVolumes": 32,
+        "pairwiseVolumesSeparated": true,
+        "fullArchitecture": true
       },
       {
         "id": "ancient",
-        "sourceTriangles": "2583838",
-        "cityTriangles": "58168",
-        "unchangedGeometryAndSites": true
+        "towers": 7,
+        "groundServiceModules": 15,
+        "groundTerminals": 6,
+        "holoPeople": 2,
+        "holoAds": 12,
+        "holographicPlantMeshes": 13,
+        "streetDividers": 2,
+        "renderedOccupancyCells": 17156,
+        "rejectedPlacementCandidates": 2217,
+        "reservedVolumes": 30,
+        "pairwiseVolumesSeparated": true,
+        "fullArchitecture": true
       },
       {
         "id": "ancient-night",
-        "sourceTriangles": "2583838",
-        "cityTriangles": "58168",
-        "unchangedGeometryAndSites": true
+        "towers": 7,
+        "groundServiceModules": 15,
+        "groundTerminals": 6,
+        "holoPeople": 2,
+        "holoAds": 12,
+        "holographicPlantMeshes": 13,
+        "streetDividers": 2,
+        "renderedOccupancyCells": 17156,
+        "rejectedPlacementCandidates": 2217,
+        "reservedVolumes": 30,
+        "pairwiseVolumesSeparated": true,
+        "fullArchitecture": true
       },
       {
         "id": "anubis",
-        "sourceTriangles": "1750527",
-        "cityTriangles": "58168",
-        "unchangedGeometryAndSites": true
+        "towers": 12,
+        "groundServiceModules": 15,
+        "groundTerminals": 5,
+        "holoPeople": 4,
+        "holoAds": 12,
+        "holographicPlantMeshes": 10,
+        "streetDividers": 2,
+        "renderedOccupancyCells": 11930,
+        "rejectedPlacementCandidates": 721,
+        "reservedVolumes": 36,
+        "pairwiseVolumesSeparated": true,
+        "fullArchitecture": true
       },
       {
         "id": "overpass",
-        "sourceTriangles": "2214911",
-        "cityTriangles": "58168",
-        "unchangedGeometryAndSites": true
+        "towers": 12,
+        "groundServiceModules": 16,
+        "groundTerminals": 6,
+        "holoPeople": 3,
+        "holoAds": 12,
+        "holographicPlantMeshes": 21,
+        "streetDividers": 2,
+        "renderedOccupancyCells": 13376,
+        "rejectedPlacementCandidates": 806,
+        "reservedVolumes": 37,
+        "pairwiseVolumesSeparated": true,
+        "fullArchitecture": true
       },
       {
         "id": "vertigo",
-        "sourceTriangles": "1099643",
-        "cityTriangles": "58168",
-        "unchangedGeometryAndSites": true
+        "towers": 12,
+        "groundServiceModules": 16,
+        "groundTerminals": 6,
+        "holoPeople": 4,
+        "holoAds": 12,
+        "holographicPlantMeshes": 0,
+        "streetDividers": 2,
+        "renderedOccupancyCells": 3264,
+        "rejectedPlacementCandidates": 69,
+        "reservedVolumes": 38,
+        "pairwiseVolumesSeparated": true,
+        "fullArchitecture": true
       },
       {
         "id": "cache",
-        "sourceTriangles": "2037641",
-        "cityTriangles": "58168",
-        "unchangedGeometryAndSites": true
+        "towers": 12,
+        "groundServiceModules": 16,
+        "groundTerminals": 6,
+        "holoPeople": 4,
+        "holoAds": 12,
+        "holographicPlantMeshes": 17,
+        "streetDividers": 2,
+        "renderedOccupancyCells": 7055,
+        "rejectedPlacementCandidates": 224,
+        "reservedVolumes": 38,
+        "pairwiseVolumesSeparated": true,
+        "fullArchitecture": true
       }
     ],
-    "screenshotColors": [
-      {
-        "id": "dust2",
-        "before": {
-          "meanSRGBLuma": 66.4,
-          "fractionBelow55": 0.4751
-        },
-        "after": {
-          "meanSRGBLuma": 156.36,
-          "fractionBelow55": 0.0014
-        }
-      },
-      {
-        "id": "mirage",
-        "before": {
-          "meanSRGBLuma": 71.71,
-          "fractionBelow55": 0.4683
-        },
-        "after": {
-          "meanSRGBLuma": 166.58,
-          "fractionBelow55": 0.0015
-        }
-      },
-      {
-        "id": "inferno",
-        "before": {
-          "meanSRGBLuma": 58.64,
-          "fractionBelow55": 0.5538
-        },
-        "after": {
-          "meanSRGBLuma": 155.48,
-          "fractionBelow55": 0.002
-        }
-      },
-      {
-        "id": "nuke",
-        "before": {
-          "meanSRGBLuma": 84.11,
-          "fractionBelow55": 0.3137
-        },
-        "after": {
-          "meanSRGBLuma": 170.2,
-          "fractionBelow55": 0.0008
-        }
-      },
-      {
-        "id": "train",
-        "before": {
-          "meanSRGBLuma": 59.68,
-          "fractionBelow55": 0.5821
-        },
-        "after": {
-          "meanSRGBLuma": 157.27,
-          "fractionBelow55": 0.0013
-        }
-      },
-      {
-        "id": "ancient",
-        "before": {
-          "meanSRGBLuma": 66.35,
-          "fractionBelow55": 0.4787
-        },
-        "after": {
-          "meanSRGBLuma": 146.8,
-          "fractionBelow55": 0.0117
-        }
-      },
-      {
-        "id": "ancient-night",
-        "before": {
-          "meanSRGBLuma": 52.4,
-          "fractionBelow55": 0.5902
-        },
-        "after": {
-          "meanSRGBLuma": 137.1,
-          "fractionBelow55": 0.0121
-        }
-      },
-      {
-        "id": "anubis",
-        "before": {
-          "meanSRGBLuma": 103.75,
-          "fractionBelow55": 0.263
-        },
-        "after": {
-          "meanSRGBLuma": 176.4,
-          "fractionBelow55": 0.0006
-        }
-      },
-      {
-        "id": "overpass",
-        "before": {
-          "meanSRGBLuma": 59.55,
-          "fractionBelow55": 0.5669
-        },
-        "after": {
-          "meanSRGBLuma": 161.73,
-          "fractionBelow55": 0.0013
-        }
-      },
-      {
-        "id": "vertigo",
-        "before": {
-          "meanSRGBLuma": 86.44,
-          "fractionBelow55": 0.2395
-        },
-        "after": {
-          "meanSRGBLuma": 166.08,
-          "fractionBelow55": 0.0001
-        }
-      },
-      {
-        "id": "cache",
-        "before": {
-          "meanSRGBLuma": 79.78,
-          "fractionBelow55": 0.409
-        },
-        "after": {
-          "meanSRGBLuma": 173.11,
-          "fractionBelow55": 0.0005
-        }
-      }
-    ],
-    "screenshotScope": "Explorer1100x740, crop0,115,1100,640 excludes UI. Descriptive brightness comparison to visually identical35 palette (36 retained35 appearance); moving clouds/water are not pixel-exact. No gameplay/device-FPS claim.",
-    "newGeometryOrPostProcessingPasses": 0,
-    "unchangedGameplayFiles": {
-      "src/collision-bvh36.js": "e3bd68cfce4124aeda55d5e12aae10028472c8281934ac8d915a1bee443484aa",
-      "src/world-collision.js": "addc1be6451e197f9f7226bc1d2f897176841ddd701ff813e947fac61a5c041b",
-      "src/reference-nav.js": "aacce705a8513a82c4c80a6600db8faa01762b416a20ab9cb06e7c26bcea13ee",
-      "src/operators.js": "6b0f5f654e81e8b0657789a036590758d6fb05bd4221bd7fb86caac55417996e",
-      "src/units.js": "de6d72cf7a7c0bab0b7f1a605bf73c1d83f263cca323334da44d532f8548d9b7",
-      "src/engine.js": "2f07b4500eb3c887650f0ae09c573b18a6c97d2a8badcb9695c1536125f4eaa7",
-      "src/Battle.jsx": "9f658cc808af2721d8f337dc2b06681c241ad5b4c9b3f1dfdf057ebb5b9e4a0f",
-      "src/main.jsx": "e1d175be2f20169dee0f506bb5a8ebd55e6b1321394463f5c659409a85e9bff7",
-      "src/objective-tactics32.js": "6ef2f177770939544ad12707c207519119238a7e859c296dbf1edc8e6941fa82",
-      "src/tactical-ai.js": "4bfd0677245afc3d6b7122a195e11ff19bfc158384c8a264064eba76e293f257",
-      "data/native-data31.json.gz": "b9beda0a9b4242edb25902dfd10e5c4eba03920a60f4bbecc5e1d32a6ae51f51"
-    },
-    "actual36To37CareerUpgrade": true,
-    "offlineResume": true,
-    "oldUIStyleCSS": "../original20/assets/index-CVBt3UIp.css"
+    "directedActualWalks": 44,
+    "spawnSitePathsWithoutNewSolidCrossings": 220,
+    "originalVisualGeometryReused": true,
+    "newCollisionFaces": 24,
+    "streetLayoutPrevalidatedAtAuthoringTime": true,
+    "singleSourceStreetGeometryAndNav": true,
+    "ordinaryGroundModelRoofAttachmentsRemoved": true,
+    "legacyFacadeHardwareRemoved": true,
+    "yellowReduced": true,
+    "treeEffect": "Original cyan/magenta shared tint/pulse and scanline cutout; no bloom/new tree meshes; static native trees stay cached and existing wind foliage animates",
+    "placements": "Rendered-source occupancy columns, native collision rays, authored room/district footprints, pairwise reserved volumes, grounded support feet",
+    "saveMigration": "Only saved actors/dropped C4 embedded in a new divider are moved to nearby valid floor; score/funds/timer preserved",
+    "geometryRevision": "arena-remix31",
+    "oldUIAndCSSPreserved": true,
+    "nativeMetadataRequests": 1,
+    "physicalDeviceFPSMeasured": false,
+    "directPagesHTTPVerified": false,
+    "APKUnchanged": true
   },
   "mapErrors": [],
   "mapHTTPErrors": [],
   "shaderErrors": [],
   "browser": {
-    "published36To37Upgrade": true,
+    "published37To38Upgrade": true,
     "activeC4ScoreRoundFundsPreserved": true,
     "phoneEmulation": {
       "w": 844,
@@ -229,7 +203,7 @@
       "bodyW": 844,
       "bodyH": 390
     },
-    "offlinePalette": "sunlit-neon-city37",
+    "offlinePalette": "holo-garden38",
     "offlineFullArchitecture": true,
     "nativeMetadataRequests": 1,
     "oldCareerAndCachePreserved": {
@@ -242,19 +216,18 @@
     "httpErrors": []
   },
   "sourceArchive": {
-    "archive": "ARENA-color37-source.zip",
-    "sha256": "5586a5e6c0561ec1e0bff4033cecb7bdf0f6afac3bb31b690202ddf577be14d9",
-    "bytes": 17727148,
-    "files": 273,
-    "historicalProofImagesReferencedInsteadOfDuplicated": 44,
-    "branch": "arena-color37-source",
-    "commit": "7c0b1055ee300fec41643ca0ca6b5e9fc9573231",
-    "url": "https://github.com/Abror1111/arena-manager-beta/raw/7c0b1055ee300fec41643ca0ca6b5e9fc9573231/ARENA-color37-source.zip",
+    "archive": "ARENA-holo38-source.zip",
+    "sha256": "9b42083d9e917d9ad2b26effa4f4f7f4387e9ad6f8be9f4736da5491eec57736",
+    "bytes": 16386685,
+    "files": 308,
+    "branch": "arena-holo38-source",
+    "commit": "ec6a64f673696eb557939726c6fbc3f9b6fe140a",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/ec6a64f673696eb557939726c6fbc3f9b6fe140a/ARENA-holo38-source.zip",
     "reproducibleBuild": true
   },
   "archiveBuildByteIdentical": true,
   "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
-  "priorPerformanceValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/298fef8c924f3c081c177968d4f5e84e900a5cd8/remix31/validation.json",
+  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/6da9c6daf045eaa60155d0080b29ea0f15dfe07d/remix31/validation.json",
   "geometryVersion": "remix31",
   "selectableMaps": 11,
   "distinctSourceGeometry": 10,
