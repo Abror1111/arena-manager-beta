@@ -1,3 +1,11 @@
+# ARENA color37 — brighter neon-city palette
+
+All11 map entries now use a brighter original yellow/cyan/magenta palette inspired by neon anime city color language. Warm gold/cream walls, cool steel roofs, medium blue ground and softer blue-violet shadows replace the black-heavy base. Signs use yellow with dark lettering. Sky and deep shade retain readable detail. Existing UI, source geometry, walls, sites, careers, holograms, cameras and36 performance work are preserved. No new effects passes or geometry.
+
+Verification37 contains all11 browser screenshots, descriptive before/after crop brightness measurements and actual36-to37 native-C4 upgrade/offline checks. Source geometry licensing status is unchanged; no franchise textures, artwork or logos added.
+
+Prior36 complete source/proof archive: https://github.com/Abror1111/arena-manager-beta/raw/da705435e4f20cb4e2e115a83351037d5c10e272/ARENA-smooth36-source.zip (SHA256 65d7b6599fb723a7101111f996690f3e8e8350dbf102e02caaba3396e2a0bb36). Historical screenshots are retained there, not duplicated in this ZIP.
+
 # ARENA smooth36 — battle performance fixes
 
 Exact collision acceleration and bounded nav shortcut caching reduce measured simulation stalls. Full source geometry, 11 entries, holographic scoreboards/people, existing UI, old save keys and map downloads are preserved. Distant actors use fewer subpixel bevels with the same materials/rig; close detail remains available. Hidden equipment is not submitted. Static map shadows no longer regenerate on every desktop camera frame.
@@ -50,5 +58,5 @@ Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-
 
 The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
 
-Version36 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/da705435e4f20cb4e2e115a83351037d5c10e272/ARENA-smooth36-source.zip
-SHA256: 65d7b6599fb723a7101111f996690f3e8e8350dbf102e02caaba3396e2a0bb36
+Version37 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/7c0b1055ee300fec41643ca0ca6b5e9fc9573231/ARENA-color37-source.zip
+SHA256: 5586a5e6c0561ec1e0bff4033cecb7bdf0f6afac3bb31b690202ddf577be14d9
