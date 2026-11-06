@@ -1,0 +1,101 @@
+{
+  "dust2": {
+    "url": "covers39/dust2.jpg",
+    "bytes": 131355,
+    "sha256": "6df90a7a64659f751e466206cbfe2e53a95e75929aa0325693263cd2824d3ff5",
+    "width": 1200,
+    "height": 750,
+    "sourceVersion": "holo38",
+    "mime": "image/jpeg"
+  },
+  "mirage": {
+    "url": "covers39/mirage.jpg",
+    "bytes": 216482,
+    "sha256": "7275eee7b0a8e72309c51fa8226b72efe197d9dff088784a3644eac64cc6d338",
+    "width": 1200,
+    "height": 750,
+    "sourceVersion": "holo38",
+    "mime": "image/jpeg"
+  },
+  "inferno": {
+    "url": "covers39/inferno.jpg",
+    "bytes": 200336,
+    "sha256": "ec88eaaa96949ec3c339db7972fef8577252703118b0ac53d08a3709e0df4d25",
+    "width": 1200,
+    "height": 750,
+    "sourceVersion": "holo38",
+    "mime": "image/jpeg"
+  },
+  "nuke": {
+    "url": "covers39/nuke.jpg",
+    "bytes": 229485,
+    "sha256": "d6d529047ee45dd3915b667f31aa54b02b389a73e39eb2127bff2ed0122ca25c",
+    "width": 1200,
+    "height": 750,
+    "sourceVersion": "holo38",
+    "mime": "image/jpeg"
+  },
+  "train": {
+    "url": "covers39/train.jpg",
+    "bytes": 217144,
+    "sha256": "3c3235f9f6a7b3772da7f1ba0c09b45ea60d70543146f128a0445f47a13e7199",
+    "width": 1200,
+    "height": 750,
+    "sourceVersion": "holo38",
+    "mime": "image/jpeg"
+  },
+  "ancient": {
+    "url": "covers39/ancient.jpg",
+    "bytes": 192998,
+    "sha256": "06aeebe2527a6973b04bbdb195f572b4195e792beeea8eac5b99ace2405e0cf5",
+    "width": 1200,
+    "height": 750,
+    "sourceVersion": "holo38",
+    "mime": "image/jpeg"
+  },
+  "ancient-night": {
+    "url": "covers39/ancient-night.jpg",
+    "bytes": 214048,
+    "sha256": "28fc610c476bc922da95cfabc205f2427bcdeaa427d2eac4bd2a8990d2c69d9e",
+    "width": 1200,
+    "height": 750,
+    "sourceVersion": "holo38",
+    "mime": "image/jpeg"
+  },
+  "anubis": {
+    "url": "covers39/anubis.jpg",
+    "bytes": 144690,
+    "sha256": "2a9845439ba5f9f51e52ebc0e806a58bf9336ab543dc6cdea21189502e803c7c",
+    "width": 1200,
+    "height": 750,
+    "sourceVersion": "holo38",
+    "mime": "image/jpeg"
+  },
+  "overpass": {
+    "url": "covers39/overpass.jpg",
+    "bytes": 172310,
+    "sha256": "47fdbb053587b82bc483eb53ee933ec169aa4d6ab2d5f173e69fbc1fa99d8f0f",
+    "width": 1200,
+    "height": 750,
+    "sourceVersion": "holo38",
+    "mime": "image/jpeg"
+  },
+  "vertigo": {
+    "url": "covers39/vertigo.jpg",
+    "bytes": 256447,
+    "sha256": "1aaf0a5d7ae2ea0a42869589fc95ea78853ee2e755d43bbface0ff93d5cc336d",
+    "width": 1200,
+    "height": 750,
+    "sourceVersion": "holo38",
+    "mime": "image/jpeg"
+  },
+  "cache": {
+    "url": "covers39/cache.jpg",
+    "bytes": 191432,
+    "sha256": "3f0f1b3956ab24df35b7c135eeb603c1cff837d4175f027a18b4fd5d8122847b",
+    "width": 1200,
+    "height": 750,
+    "sourceVersion": "holo38",
+    "mime": "image/jpeg"
+  }
+}
