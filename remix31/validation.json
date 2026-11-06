@@ -1,429 +1,1085 @@
 {
   "result": "passed",
-  "version": "music40",
-  "base": "covers39",
+  "version": "sites41",
+  "base": "music40",
   "selectableMaps": 11,
-  "mapNames": {
-    "dust2": {
-      "previous": "Dust II",
-      "name": "Sandrift"
-    },
-    "mirage": {
-      "previous": "Mirage",
-      "name": "Sunveil"
-    },
-    "inferno": {
-      "previous": "Inferno",
-      "name": "Ember Quarter"
-    },
-    "nuke": {
-      "previous": "Nuke",
-      "name": "Reactor"
-    },
-    "train": {
-      "previous": "Train",
-      "name": "Railworks"
-    },
-    "ancient": {
-      "previous": "Ancient",
-      "name": "Relic Grove"
-    },
-    "ancient-night": {
-      "previous": "Ancient Night",
-      "name": "Relic Afterdark"
-    },
-    "anubis": {
-      "previous": "Anubis",
-      "name": "Sunken Court"
-    },
-    "overpass": {
-      "previous": "Overpass",
-      "name": "Canal Crossing"
-    },
-    "vertigo": {
-      "previous": "Vertigo",
-      "name": "Skyline"
-    },
-    "cache": {
-      "previous": "Cache",
-      "name": "Iron Depot"
-    }
+  "siteChanges": {
+    "revision": "arena-sites41",
+    "basedOnCommit": "7c5cc2baea371961e95ec7fe3c7961930b28dd1f",
+    "description": "Only swap names of existing relocated31 objectives; original native site coordinates retained as provenance",
+    "maps": [
+      {
+        "id": "dust2",
+        "name": "Sandrift",
+        "before": [
+          {
+            "x": 48.7062,
+            "z": 3.3813,
+            "y": 3.7667,
+            "area": 2173,
+            "label": "A"
+          },
+          {
+            "x": 6.0687,
+            "z": 17.1281,
+            "y": 2.3333,
+            "area": 1816,
+            "label": "B"
+          }
+        ],
+        "after": [
+          {
+            "x": 6.0687,
+            "z": 17.1281,
+            "y": 2.3333,
+            "area": 1816,
+            "label": "A"
+          },
+          {
+            "x": 48.7062,
+            "z": 3.3813,
+            "y": 3.7667,
+            "area": 2173,
+            "label": "B"
+          }
+        ]
+      },
+      {
+        "id": "mirage",
+        "name": "Sunveil",
+        "before": [
+          {
+            "x": 27.5656,
+            "z": 39.3781,
+            "y": 2.5625,
+            "area": 1325,
+            "label": "A"
+          },
+          {
+            "x": 16.3016,
+            "z": 26.7546,
+            "y": 2.55,
+            "area": 1720,
+            "label": "B"
+          }
+        ],
+        "after": [
+          {
+            "x": 16.3016,
+            "z": 26.7546,
+            "y": 2.55,
+            "area": 1720,
+            "label": "A"
+          },
+          {
+            "x": 27.5656,
+            "z": 39.3781,
+            "y": 2.5625,
+            "area": 1325,
+            "label": "B"
+          }
+        ]
+      },
+      {
+        "id": "inferno",
+        "name": "Ember Quarter",
+        "before": [
+          {
+            "x": 55.1187,
+            "z": 34.0984,
+            "y": 3.2,
+            "area": 1849,
+            "label": "A"
+          },
+          {
+            "x": 48.4656,
+            "z": 15.8031,
+            "y": 2.725,
+            "area": 2435,
+            "label": "B"
+          }
+        ],
+        "after": [
+          {
+            "x": 48.4656,
+            "z": 15.8031,
+            "y": 2.725,
+            "area": 2435,
+            "label": "A"
+          },
+          {
+            "x": 55.1187,
+            "z": 34.0984,
+            "y": 3.2,
+            "area": 1849,
+            "label": "B"
+          }
+        ]
+      },
+      {
+        "id": "nuke",
+        "name": "Reactor",
+        "before": [
+          {
+            "x": 59.0063,
+            "z": 52.7875,
+            "y": 4.65,
+            "area": 1988,
+            "label": "A"
+          },
+          {
+            "x": 51.1594,
+            "z": 41.3781,
+            "y": 0.925,
+            "area": 526,
+            "label": "B"
+          }
+        ],
+        "after": [
+          {
+            "x": 51.1594,
+            "z": 41.3781,
+            "y": 0.925,
+            "area": 526,
+            "label": "A"
+          },
+          {
+            "x": 59.0063,
+            "z": 52.7875,
+            "y": 4.65,
+            "area": 1988,
+            "label": "B"
+          }
+        ]
+      },
+      {
+        "id": "train",
+        "name": "Railworks",
+        "before": [
+          {
+            "x": 35.9469,
+            "z": 22.4031,
+            "y": 1.75,
+            "area": 259,
+            "label": "A"
+          },
+          {
+            "x": 33.2094,
+            "z": 33.7516,
+            "y": 1.75,
+            "area": 337,
+            "label": "B"
+          }
+        ],
+        "after": [
+          {
+            "x": 33.2094,
+            "z": 33.7516,
+            "y": 1.75,
+            "area": 337,
+            "label": "A"
+          },
+          {
+            "x": 35.9469,
+            "z": 22.4031,
+            "y": 1.75,
+            "area": 259,
+            "label": "B"
+          }
+        ]
+      },
+      {
+        "id": "ancient",
+        "name": "Relic Grove",
+        "before": [
+          {
+            "x": 13.6555,
+            "z": 13.2622,
+            "y": 2.8875,
+            "area": 1695,
+            "label": "A"
+          },
+          {
+            "x": 44.9937,
+            "z": 16.7778,
+            "y": 3.6625,
+            "area": 478,
+            "label": "B"
+          }
+        ],
+        "after": [
+          {
+            "x": 44.9937,
+            "z": 16.7778,
+            "y": 3.6625,
+            "area": 478,
+            "label": "A"
+          },
+          {
+            "x": 13.6555,
+            "z": 13.2622,
+            "y": 2.8875,
+            "area": 1695,
+            "label": "B"
+          }
+        ]
+      },
+      {
+        "id": "ancient-night",
+        "name": "Relic Afterdark",
+        "before": [
+          {
+            "x": 14.5625,
+            "z": 13.1638,
+            "y": 2.8958,
+            "area": 1668,
+            "label": "A"
+          },
+          {
+            "x": 44.9937,
+            "z": 16.7778,
+            "y": 3.6625,
+            "area": 480,
+            "label": "B"
+          }
+        ],
+        "after": [
+          {
+            "x": 44.9937,
+            "z": 16.7778,
+            "y": 3.6625,
+            "area": 480,
+            "label": "A"
+          },
+          {
+            "x": 14.5625,
+            "z": 13.1638,
+            "y": 2.8958,
+            "area": 1668,
+            "label": "B"
+          }
+        ]
+      },
+      {
+        "id": "anubis",
+        "name": "Sunken Court",
+        "before": [
+          {
+            "x": 38.5564,
+            "z": 7.6,
+            "y": 0.5,
+            "area": 2378,
+            "label": "A"
+          },
+          {
+            "x": 16.5564,
+            "z": 40.9688,
+            "y": 2.425,
+            "area": 1121,
+            "label": "B"
+          }
+        ],
+        "after": [
+          {
+            "x": 16.5564,
+            "z": 40.9688,
+            "y": 2.425,
+            "area": 1121,
+            "label": "A"
+          },
+          {
+            "x": 38.5564,
+            "z": 7.6,
+            "y": 0.5,
+            "area": 2378,
+            "label": "B"
+          }
+        ]
+      },
+      {
+        "id": "overpass",
+        "name": "Canal Crossing",
+        "before": [
+          {
+            "x": 27.7711,
+            "z": 18.8469,
+            "y": 5.7938,
+            "area": 1985,
+            "label": "A"
+          },
+          {
+            "x": 41.9875,
+            "z": 32.2625,
+            "y": 0.6,
+            "area": 919,
+            "label": "B"
+          }
+        ],
+        "after": [
+          {
+            "x": 41.9875,
+            "z": 32.2625,
+            "y": 0.6,
+            "area": 919,
+            "label": "A"
+          },
+          {
+            "x": 27.7711,
+            "z": 18.8469,
+            "y": 5.7938,
+            "area": 1985,
+            "label": "B"
+          }
+        ]
+      },
+      {
+        "id": "vertigo",
+        "name": "Skyline",
+        "before": [
+          {
+            "x": 27.2875,
+            "z": 25.6562,
+            "y": 3.65,
+            "area": 903,
+            "label": "A"
+          },
+          {
+            "x": 16.5188,
+            "z": 22.7,
+            "y": 3.65,
+            "area": 1575,
+            "label": "B"
+          }
+        ],
+        "after": [
+          {
+            "x": 16.5188,
+            "z": 22.7,
+            "y": 3.65,
+            "area": 1575,
+            "label": "A"
+          },
+          {
+            "x": 27.2875,
+            "z": 25.6562,
+            "y": 3.65,
+            "area": 903,
+            "label": "B"
+          }
+        ]
+      },
+      {
+        "id": "cache",
+        "name": "Iron Depot",
+        "before": [
+          {
+            "x": 33.65,
+            "z": 20.95,
+            "y": 1.5,
+            "area": 1664,
+            "label": "A"
+          },
+          {
+            "x": 35.8875,
+            "z": 52.5937,
+            "y": 0.3667,
+            "area": 880,
+            "label": "B"
+          }
+        ],
+        "after": [
+          {
+            "x": 35.8875,
+            "z": 52.5937,
+            "y": 0.3667,
+            "area": 880,
+            "label": "A"
+          },
+          {
+            "x": 33.65,
+            "z": 20.95,
+            "y": 1.5,
+            "area": 1664,
+            "label": "B"
+          }
+        ]
+      }
+    ]
   },
-  "musicArtifact": {
-    "branch": "arena-music40-assets",
-    "commit": "503ddf64917c741af47d83842b624baa9a819fa2",
-    "prefix": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/503ddf64917c741af47d83842b624baa9a819fa2/music40/",
-    "tracks": [
+  "siteChecks": {
+    "result": "passed",
+    "selectableMaps": 11,
+    "spawnSiteRoutes": 220,
+    "actualCarrierPlantBranches": 22,
+    "maps": [
       {
-        "key": "music:menu",
-        "url": "audio/e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b.mp3",
-        "bytes": 1359568,
-        "sha256": "e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b",
-        "duration": 71.11111111111111,
-        "origin": "arena-original",
-        "pack": "arena-music40",
-        "title": "Glass Horizon",
-        "bpm": 108,
-        "source": {
-          "author": "ARENA original procedural score40",
-          "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
-          "seed": 401,
-          "license": "Project-authored composition; no third-party media grant implied"
-        }
+        "id": "dust2",
+        "name": "Sandrift",
+        "sites": [
+          {
+            "x": 6.0687,
+            "z": 17.1281,
+            "y": 2.3333,
+            "area": 1816,
+            "label": "A"
+          },
+          {
+            "x": 48.7062,
+            "z": 3.3813,
+            "y": 3.7667,
+            "area": 2173,
+            "label": "B"
+          }
+        ],
+        "navHashUnchanged": true,
+        "sourceGeometryUnchanged": true,
+        "streetModelsUnchanged": true,
+        "spawnPositionsUnchanged": true,
+        "floor": [
+          {
+            "label": "A",
+            "height": 2.3333
+          },
+          {
+            "label": "B",
+            "height": 3.7667
+          }
+        ],
+        "plantA": true,
+        "plantB": true
       },
       {
-        "key": "music:match",
-        "url": "audio/0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2.mp3",
-        "bytes": 1302127,
-        "sha256": "0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2",
-        "duration": 66.20689655172414,
-        "origin": "arena-original",
-        "pack": "arena-music40",
-        "title": "Vector Pursuit",
-        "bpm": 116,
-        "source": {
-          "author": "ARENA original procedural score40",
-          "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
-          "seed": 402,
-          "license": "Project-authored composition; no third-party media grant implied"
-        }
+        "id": "mirage",
+        "name": "Sunveil",
+        "sites": [
+          {
+            "x": 16.3016,
+            "z": 26.7546,
+            "y": 2.55,
+            "area": 1720,
+            "label": "A"
+          },
+          {
+            "x": 27.5656,
+            "z": 39.3781,
+            "y": 2.5625,
+            "area": 1325,
+            "label": "B"
+          }
+        ],
+        "navHashUnchanged": true,
+        "sourceGeometryUnchanged": true,
+        "streetModelsUnchanged": true,
+        "spawnPositionsUnchanged": true,
+        "floor": [
+          {
+            "label": "A",
+            "height": 2.55
+          },
+          {
+            "label": "B",
+            "height": 2.5625
+          }
+        ],
+        "plantA": true,
+        "plantB": true
       },
       {
-        "key": "music:win",
-        "url": "audio/f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1.mp3",
-        "bytes": 118783,
-        "sha256": "f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1",
-        "duration": 6.0,
-        "origin": "arena-original",
-        "pack": "arena-music40",
-        "title": "Signal Ascending",
-        "bpm": 120,
-        "source": {
-          "author": "ARENA original procedural score40",
-          "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
-          "seed": 403,
-          "license": "Project-authored composition; no third-party media grant implied"
-        }
+        "id": "inferno",
+        "name": "Ember Quarter",
+        "sites": [
+          {
+            "x": 48.4656,
+            "z": 15.8031,
+            "y": 2.725,
+            "area": 2435,
+            "label": "A"
+          },
+          {
+            "x": 55.1187,
+            "z": 34.0984,
+            "y": 3.2,
+            "area": 1849,
+            "label": "B"
+          }
+        ],
+        "navHashUnchanged": true,
+        "sourceGeometryUnchanged": true,
+        "streetModelsUnchanged": true,
+        "spawnPositionsUnchanged": true,
+        "floor": [
+          {
+            "label": "A",
+            "height": 2.725
+          },
+          {
+            "label": "B",
+            "height": 3.2
+          }
+        ],
+        "plantA": true,
+        "plantB": true
       },
       {
-        "key": "music:loss",
-        "url": "audio/381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022.mp3",
-        "bytes": 116626,
-        "sha256": "381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022",
-        "duration": 7.5,
-        "origin": "arena-original",
-        "pack": "arena-music40",
-        "title": "After the Static",
-        "bpm": 96,
-        "source": {
-          "author": "ARENA original procedural score40",
-          "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
-          "seed": 404,
-          "license": "Project-authored composition; no third-party media grant implied"
-        }
+        "id": "nuke",
+        "name": "Reactor",
+        "sites": [
+          {
+            "x": 51.1594,
+            "z": 41.3781,
+            "y": 0.925,
+            "area": 526,
+            "label": "A"
+          },
+          {
+            "x": 59.0063,
+            "z": 52.7875,
+            "y": 4.65,
+            "area": 1988,
+            "label": "B"
+          }
+        ],
+        "navHashUnchanged": true,
+        "sourceGeometryUnchanged": true,
+        "streetModelsUnchanged": true,
+        "spawnPositionsUnchanged": true,
+        "floor": [
+          {
+            "label": "A",
+            "height": 0.925
+          },
+          {
+            "label": "B",
+            "height": 4.65
+          }
+        ],
+        "plantA": true,
+        "plantB": true
       },
       {
-        "key": "music:planted",
-        "url": "audio/962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725.mp3",
-        "bytes": 615307,
-        "sha256": "962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725",
-        "duration": 32.0,
-        "origin": "arena-original",
-        "pack": "arena-music40",
-        "title": "Critical Circuit",
-        "bpm": 120,
-        "source": {
-          "author": "ARENA original procedural score40",
-          "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
-          "seed": 405,
-          "license": "Project-authored composition; no third-party media grant implied"
-        }
+        "id": "train",
+        "name": "Railworks",
+        "sites": [
+          {
+            "x": 33.2094,
+            "z": 33.7516,
+            "y": 1.75,
+            "area": 337,
+            "label": "A"
+          },
+          {
+            "x": 35.9469,
+            "z": 22.4031,
+            "y": 1.75,
+            "area": 259,
+            "label": "B"
+          }
+        ],
+        "navHashUnchanged": true,
+        "sourceGeometryUnchanged": true,
+        "streetModelsUnchanged": true,
+        "spawnPositionsUnchanged": true,
+        "floor": [
+          {
+            "label": "A",
+            "height": 1.75
+          },
+          {
+            "label": "B",
+            "height": 1.75
+          }
+        ],
+        "plantA": true,
+        "plantB": true
       },
       {
-        "key": "music:countdown",
-        "url": "audio/8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce.mp3",
-        "bytes": 202136,
-        "sha256": "8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce",
-        "duration": 10.0,
-        "origin": "arena-original",
-        "pack": "arena-music40",
-        "title": "Last Ten",
-        "bpm": 120,
-        "source": {
-          "author": "ARENA original procedural score40",
-          "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
-          "seed": 406,
-          "license": "Project-authored composition; no third-party media grant implied"
-        }
+        "id": "ancient",
+        "name": "Relic Grove",
+        "sites": [
+          {
+            "x": 44.9937,
+            "z": 16.7778,
+            "y": 3.6625,
+            "area": 478,
+            "label": "A"
+          },
+          {
+            "x": 13.6555,
+            "z": 13.2622,
+            "y": 2.8875,
+            "area": 1695,
+            "label": "B"
+          }
+        ],
+        "navHashUnchanged": true,
+        "sourceGeometryUnchanged": true,
+        "streetModelsUnchanged": true,
+        "spawnPositionsUnchanged": true,
+        "floor": [
+          {
+            "label": "A",
+            "height": 3.6625
+          },
+          {
+            "label": "B",
+            "height": 2.8875
+          }
+        ],
+        "plantA": true,
+        "plantB": true
+      },
+      {
+        "id": "ancient-night",
+        "name": "Relic Afterdark",
+        "sites": [
+          {
+            "x": 44.9937,
+            "z": 16.7778,
+            "y": 3.6625,
+            "area": 480,
+            "label": "A"
+          },
+          {
+            "x": 14.5625,
+            "z": 13.1638,
+            "y": 2.8958,
+            "area": 1668,
+            "label": "B"
+          }
+        ],
+        "navHashUnchanged": true,
+        "sourceGeometryUnchanged": true,
+        "streetModelsUnchanged": true,
+        "spawnPositionsUnchanged": true,
+        "floor": [
+          {
+            "label": "A",
+            "height": 3.6625
+          },
+          {
+            "label": "B",
+            "height": 2.8958
+          }
+        ],
+        "plantA": true,
+        "plantB": true
+      },
+      {
+        "id": "anubis",
+        "name": "Sunken Court",
+        "sites": [
+          {
+            "x": 16.5564,
+            "z": 40.9688,
+            "y": 2.425,
+            "area": 1121,
+            "label": "A"
+          },
+          {
+            "x": 38.5564,
+            "z": 7.6,
+            "y": 0.5,
+            "area": 2378,
+            "label": "B"
+          }
+        ],
+        "navHashUnchanged": true,
+        "sourceGeometryUnchanged": true,
+        "streetModelsUnchanged": true,
+        "spawnPositionsUnchanged": true,
+        "floor": [
+          {
+            "label": "A",
+            "height": 2.425
+          },
+          {
+            "label": "B",
+            "height": 0.5
+          }
+        ],
+        "plantA": true,
+        "plantB": true
+      },
+      {
+        "id": "overpass",
+        "name": "Canal Crossing",
+        "sites": [
+          {
+            "x": 41.9875,
+            "z": 32.2625,
+            "y": 0.6,
+            "area": 919,
+            "label": "A"
+          },
+          {
+            "x": 27.7711,
+            "z": 18.8469,
+            "y": 5.7938,
+            "area": 1985,
+            "label": "B"
+          }
+        ],
+        "navHashUnchanged": true,
+        "sourceGeometryUnchanged": true,
+        "streetModelsUnchanged": true,
+        "spawnPositionsUnchanged": true,
+        "floor": [
+          {
+            "label": "A",
+            "height": 0.6
+          },
+          {
+            "label": "B",
+            "height": 5.7938
+          }
+        ],
+        "plantA": true,
+        "plantB": true
+      },
+      {
+        "id": "vertigo",
+        "name": "Skyline",
+        "sites": [
+          {
+            "x": 16.5188,
+            "z": 22.7,
+            "y": 3.65,
+            "area": 1575,
+            "label": "A"
+          },
+          {
+            "x": 27.2875,
+            "z": 25.6562,
+            "y": 3.65,
+            "area": 903,
+            "label": "B"
+          }
+        ],
+        "navHashUnchanged": true,
+        "sourceGeometryUnchanged": true,
+        "streetModelsUnchanged": true,
+        "spawnPositionsUnchanged": true,
+        "floor": [
+          {
+            "label": "A",
+            "height": 3.65
+          },
+          {
+            "label": "B",
+            "height": 3.65
+          }
+        ],
+        "plantA": true,
+        "plantB": true
+      },
+      {
+        "id": "cache",
+        "name": "Iron Depot",
+        "sites": [
+          {
+            "x": 35.8875,
+            "z": 52.5937,
+            "y": 0.3667,
+            "area": 880,
+            "label": "A"
+          },
+          {
+            "x": 33.65,
+            "z": 20.95,
+            "y": 1.5,
+            "area": 1664,
+            "label": "B"
+          }
+        ],
+        "navHashUnchanged": true,
+        "sourceGeometryUnchanged": true,
+        "streetModelsUnchanged": true,
+        "spawnPositionsUnchanged": true,
+        "floor": [
+          {
+            "label": "A",
+            "height": 0.3667
+          },
+          {
+            "label": "B",
+            "height": 1.5
+          }
+        ],
+        "plantA": true,
+        "plantB": true
       }
     ],
-    "bytes": 3714547,
-    "sourceGeneratorSHA256": "06666c94dd268ac3a5b73ffed9f6eb01f8e9c323fe61b4db11e3f156563a1367",
-    "externalSamples": [],
-    "externalMelodyInputs": []
-  },
-  "audioQuality": {
-    "result": "passed",
-    "tracks": [
+    "migrations": [
       {
-        "key": "music:menu",
-        "title": "Glass Horizon",
-        "duration": 71.11111111111111,
-        "encodedDuration": 71.157551,
-        "codec": "mp3",
-        "sampleRate": 44100,
-        "channels": 2,
-        "integratedLUFS": -16.9,
-        "truePeakDBFS": -3.4,
-        "remoteSHA256Verified": true,
-        "sha256": "e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b"
+        "map": "dust2",
+        "mode": "planted",
+        "coordinatesAndC4ProgressPreserved": true,
+        "physicalPlanPreserved": true,
+        "scoreFundsAndRandomStatePreserved": true,
+        "idempotent": true
       },
       {
-        "key": "music:match",
-        "title": "Vector Pursuit",
-        "duration": 66.20689655172414,
-        "encodedDuration": 66.246531,
-        "codec": "mp3",
-        "sampleRate": 44100,
-        "channels": 2,
-        "integratedLUFS": -17.7,
-        "truePeakDBFS": -3.4,
-        "remoteSHA256Verified": true,
-        "sha256": "0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2"
-      },
-      {
-        "key": "music:win",
-        "title": "Signal Ascending",
-        "duration": 6.0,
-        "encodedDuration": 6.034286,
-        "codec": "mp3",
-        "sampleRate": 44100,
-        "channels": 2,
-        "integratedLUFS": -16.7,
-        "truePeakDBFS": -3.3,
-        "remoteSHA256Verified": true,
-        "sha256": "f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1"
-      },
-      {
-        "key": "music:loss",
-        "title": "After the Static",
-        "duration": 7.5,
-        "encodedDuration": 7.549388,
-        "codec": "mp3",
-        "sampleRate": 44100,
-        "channels": 2,
-        "integratedLUFS": -16.4,
-        "truePeakDBFS": -5.0,
-        "remoteSHA256Verified": true,
-        "sha256": "381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022"
-      },
-      {
-        "key": "music:planted",
-        "title": "Critical Circuit",
-        "duration": 32.0,
-        "encodedDuration": 32.026122,
-        "codec": "mp3",
-        "sampleRate": 44100,
-        "channels": 2,
-        "integratedLUFS": -17.9,
-        "truePeakDBFS": -3.9,
-        "remoteSHA256Verified": true,
-        "sha256": "962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725"
-      },
-      {
-        "key": "music:countdown",
-        "title": "Last Ten",
-        "duration": 10.0,
-        "encodedDuration": 10.03102,
-        "codec": "mp3",
-        "sampleRate": 44100,
-        "channels": 2,
-        "integratedLUFS": -17.1,
-        "truePeakDBFS": -2.9,
-        "remoteSHA256Verified": true,
-        "sha256": "8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce"
+        "map": "nuke",
+        "mode": "partial-plant",
+        "coordinatesAndC4ProgressPreserved": true,
+        "physicalPlanPreserved": true,
+        "scoreFundsAndRandomStatePreserved": true,
+        "idempotent": true
       }
     ],
-    "externalSampleInputs": [],
-    "externalMelodyInputs": []
+    "layoutScope": "Only A/B names/order swapped at existing relocated sites. Original CS2 paths/geometries retained; rights not cleared."
   },
-  "scope": {
+  "spawnSitePaths": 220,
+  "combatRegression": {
     "result": "passed",
-    "all26EffectsUnchanged": true,
-    "mapDefinitionsOnlyDisplayNamesChanged": true,
-    "stableMapIDs": [
-      "dust2",
-      "mirage",
-      "inferno",
-      "nuke",
-      "train",
-      "ancient",
-      "ancient-night",
-      "anubis",
-      "overpass",
-      "vertigo",
-      "cache"
-    ],
-    "sourceGeometryRightsUnchanged": true
+    "C4DamageAt30Metres": 110.76923076923079,
+    "damageAt45Metres": 3.0769230769230727,
+    "noDamageAt48Metres": true,
+    "sourceScaleConversion": true,
+    "legacySaveMigration": true,
+    "rounds": [
+      {
+        "map": "dust2",
+        "strategy": "a",
+        "shots": 160,
+        "result": "C4 portladi"
+      },
+      {
+        "map": "nuke",
+        "strategy": "b",
+        "shots": 208,
+        "result": "C4 zararsizlantirildi"
+      }
+    ]
   },
   "browser": {
     "result": "passed",
-    "matchBefore": {
-      "mapID": "dust2",
-      "score": [
-        3,
-        2
+    "before": {
+      "core": {
+        "mapID": "dust2",
+        "score": [
+          3,
+          2
+        ],
+        "round": 6,
+        "money": [
+          0,
+          150,
+          0,
+          150,
+          0,
+          0,
+          150,
+          0,
+          150,
+          0
+        ],
+        "phase": "live",
+        "bomb": {
+          "state": "planted",
+          "timer": 25,
+          "x": 48.7062,
+          "y": 3.7667,
+          "z": 3.3813,
+          "progress": 0
+        }
+      },
+      "strategy": "a",
+      "sites": [
+        {
+          "x": 48.7062,
+          "z": 3.3813,
+          "y": 3.7667,
+          "area": 2173,
+          "label": "A"
+        },
+        {
+          "x": 6.0687,
+          "z": 17.1281,
+          "y": 2.3333,
+          "area": 1816,
+          "label": "B"
+        }
       ],
-      "round": 6,
-      "money": [
-        0,
-        150,
-        0,
-        150,
-        0,
-        0,
-        150,
-        0,
-        150,
-        0
+      "plans": [
+        {
+          "x": 48.7062,
+          "y": 3.7667,
+          "z": 3.3813
+        },
+        {
+          "x": 6.0687,
+          "y": 2.3333,
+          "z": 17.1281
+        }
       ],
-      "bomb": {
-        "state": "planted",
-        "timer": 25,
+      "siteRevision": null
+    },
+    "after": {
+      "core": {
+        "mapID": "dust2",
+        "score": [
+          3,
+          2
+        ],
+        "round": 6,
+        "money": [
+          0,
+          150,
+          0,
+          150,
+          0,
+          0,
+          150,
+          0,
+          150,
+          0
+        ],
+        "phase": "live",
+        "bomb": {
+          "state": "planted",
+          "timer": 25,
+          "x": 48.7062,
+          "y": 3.7667,
+          "z": 3.3813,
+          "progress": 0
+        }
+      },
+      "strategy": "b",
+      "sites": [
+        {
+          "x": 6.0687,
+          "z": 17.1281,
+          "y": 2.3333,
+          "area": 1816,
+          "label": "A"
+        },
+        {
+          "x": 48.7062,
+          "z": 3.3813,
+          "y": 3.7667,
+          "area": 2173,
+          "label": "B"
+        }
+      ],
+      "plans": [
+        {
+          "x": 48.7062,
+          "y": 3.7667,
+          "z": 3.3813
+        },
+        {
+          "x": 6.0687,
+          "y": 2.3333,
+          "z": 17.1281
+        }
+      ],
+      "siteRevision": "arena-sites41"
+    },
+    "offline": {
+      "core": {
+        "mapID": "dust2",
+        "score": [
+          3,
+          2
+        ],
+        "round": 6,
+        "money": [
+          0,
+          150,
+          0,
+          150,
+          0,
+          0,
+          150,
+          0,
+          150,
+          0
+        ],
+        "phase": "live",
+        "bomb": {
+          "state": "planted",
+          "timer": 25,
+          "x": 48.7062,
+          "y": 3.7667,
+          "z": 3.3813,
+          "progress": 0
+        }
+      },
+      "strategy": "b",
+      "sites": [
+        {
+          "x": 6.0687,
+          "z": 17.1281,
+          "y": 2.3333,
+          "area": 1816,
+          "label": "A"
+        },
+        {
+          "x": 48.7062,
+          "z": 3.3813,
+          "y": 3.7667,
+          "area": 2173,
+          "label": "B"
+        }
+      ],
+      "plans": [
+        {
+          "x": 48.7062,
+          "y": 3.7667,
+          "z": 3.3813
+        },
+        {
+          "x": 6.0687,
+          "y": 2.3333,
+          "z": 17.1281
+        }
+      ],
+      "siteRevision": "arena-sites41"
+    },
+    "markers": [
+      {
+        "label": "A",
+        "x": 6.0687,
+        "y": 2.3333,
+        "z": 17.1281
+      },
+      {
+        "label": "B",
         "x": 48.7062,
         "y": 3.7667,
         "z": 3.3813
       }
-    },
-    "matchAfter": {
-      "mapID": "dust2",
-      "score": [
-        3,
-        2
-      ],
-      "round": 6,
-      "money": [
-        0,
-        150,
-        0,
-        150,
-        0,
-        0,
-        150,
-        0,
-        150,
-        0
-      ],
-      "bomb": {
-        "state": "planted",
-        "timer": 25,
+    ],
+    "painted": [
+      {
+        "label": "A",
+        "x": 6.0687,
+        "z": 17.1281
+      },
+      {
+        "label": "B",
         "x": 48.7062,
-        "y": 3.7667,
         "z": 3.3813
       }
+    ],
+    "explorerFocus": [
+      {
+        "label": "A",
+        "correctPhysicalPoint": true
+      },
+      {
+        "label": "B",
+        "correctPhysicalPoint": true
+      }
+    ],
+    "phoneFit": {
+      "w": 844,
+      "h": 390,
+      "sw": 844,
+      "sh": 390
     },
-    "mobileFits": [
-      {
-        "w": 844,
-        "h": 390,
-        "sw": 844,
-        "sh": 390,
-        "overflow": "0"
-      },
-      {
-        "w": 390,
-        "h": 844,
-        "sw": 390,
-        "sh": 844,
-        "overflow": "0"
-      },
-      {
-        "w": 768,
-        "h": 1024,
-        "sw": 768,
-        "sh": 1024,
-        "overflow": "0"
-      }
-    ],
-    "onlineMusic": [
-      {
-        "key": "music:menu",
-        "sha256": "e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b",
-        "duration": 71.11111111111111,
-        "channels": 2
-      },
-      {
-        "key": "music:match",
-        "sha256": "0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2",
-        "duration": 66.20689342403628,
-        "channels": 2
-      },
-      {
-        "key": "music:win",
-        "sha256": "f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1",
-        "duration": 6,
-        "channels": 2
-      },
-      {
-        "key": "music:loss",
-        "sha256": "381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022",
-        "duration": 7.5,
-        "channels": 2
-      },
-      {
-        "key": "music:planted",
-        "sha256": "962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725",
-        "duration": 32,
-        "channels": 2
-      },
-      {
-        "key": "music:countdown",
-        "sha256": "8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce",
-        "duration": 10,
-        "channels": 2
-      }
-    ],
-    "offlineMusic": [
-      {
-        "key": "music:menu",
-        "sha256": "e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b",
-        "duration": 71.11111111111111,
-        "channels": 2
-      },
-      {
-        "key": "music:match",
-        "sha256": "0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2",
-        "duration": 66.20689342403628,
-        "channels": 2
-      },
-      {
-        "key": "music:win",
-        "sha256": "f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1",
-        "duration": 6,
-        "channels": 2
-      },
-      {
-        "key": "music:loss",
-        "sha256": "381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022",
-        "duration": 7.5,
-        "channels": 2
-      },
-      {
-        "key": "music:planted",
-        "sha256": "962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725",
-        "duration": 32,
-        "channels": 2
-      },
-      {
-        "key": "music:countdown",
-        "sha256": "8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce",
-        "duration": 10,
-        "channels": 2
-      }
-    ],
-    "onceOnlyMusicDownloads": 6,
-    "allMusicCached": true,
-    "oldCareersAndCache": {
+    "oldCareerAndCache": {
       "career": "protected-old-career",
       "cache": "preserved"
     },
@@ -431,19 +1087,20 @@
     "bad": []
   },
   "sourceArchive": {
-    "archive": "ARENA-music40-source.zip",
-    "sha256": "3d28cacc8753bd8d0792ae836a9afe8b254337ce18d8ede7bd31b5aa27f14b7d",
-    "bytes": 7677045,
-    "files": 350,
-    "branch": "arena-music40-source",
-    "commit": "cf171148f4b4ebfba9a9dfc30f7834470d18cf07",
-    "url": "https://github.com/Abror1111/arena-manager-beta/raw/cf171148f4b4ebfba9a9dfc30f7834470d18cf07/ARENA-music40-source.zip",
+    "archive": "ARENA-sites41-source.zip",
+    "sha256": "469f06340b1feb05d1f30311178c2320fe19c1e6cf0b936b3575d4602602a177",
+    "bytes": 5535098,
+    "files": 364,
+    "branch": "arena-sites41-source",
+    "commit": "2c1ec303a7e44db74c76c7a438580f4198b91087",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/2c1ec303a7e44db74c76c7a438580f4198b91087/ARENA-sites41-source.zip",
     "reproducibleBuild": true
   },
   "archiveBuildByteIdentical": true,
   "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
-  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/bab822dadce01a633d5aac1849699bf82af6a706/remix31/validation.json",
-  "currentCoversUnchanged": true,
+  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/7c5cc2baea371961e95ec7fe3c7961930b28dd1f/remix31/validation.json",
+  "geometryPathsStreetModelsAndSpawnsUnchanged": true,
+  "mapNamesMusicAndCoversUnchanged": true,
   "oldUILayoutPreserved": true,
   "mapModelsStillSourceDerived": true,
   "legalClearanceClaim": false,

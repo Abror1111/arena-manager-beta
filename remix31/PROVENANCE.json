@@ -1,5 +1,5 @@
 {
-  "version": "music40",
+  "version": "sites41",
   "direction": "User explicitly selected original11 source-map remix after independently authored harbour30 work.",
   "legalClearanceClaim": false,
   "sourceGeometryReused": true,
@@ -30,8 +30,8 @@
     "Physical source-scale danger memory and camera spring",
     "Preserved UI, maps, save namespace and ongoing C4 state"
   ],
-  "shellCache": "arena-remix31-shell-v10",
-  "loader": "loader40.js with31\u201339 compatibility aliases",
+  "shellCache": "arena-remix31-shell-v11",
+  "loader": "loader41.js with31\u201340 compatibility aliases",
   "trainedModelClaim": false,
   "changes33": [
     "Battle source and shadow materials have no route/floor clipping",
@@ -64,5 +64,12 @@
     "Corrected stale source-audio claims in settings and included the vendored Meshoptimizer MIT notice"
   ],
   "mapNameChanges": "data/map-renames40.json",
-  "originalMusicProvenance": "data/music40-provenance.json"
+  "originalMusicProvenance": "data/music40-provenance.json",
+  "changes41": [
+    "Existing A/B objective positions exchange names on all11 selectable maps; no new relocation",
+    "Stable map IDs, native geometry/navigation, street dividers, scenery, spawns, old UI, current covers and music40 preserved",
+    "Legacy unfinished remix matches keep physical plans and bomb progress; strategy labels/site indices/history swap exactly once using explicit snapshot siteRevision marker",
+    "This gameplay change does not confer source-map redistribution rights"
+  ],
+  "siteNameRevision": "arena-sites41"
 }

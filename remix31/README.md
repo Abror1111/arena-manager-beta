@@ -1,3 +1,11 @@
+# ARENA sites41 — exchange A/B names at existing objectives
+
+2026-11-07, Asia/Tashkent. All11 selectable maps use newA at the previous relocatedB coordinate, and newB at previous relocatedA. This does not restore originalCS2 bombsites or add a new physical relocation. Exact native geometry, collision, navigation, street dividers, scenery, spawn positions, old UI/CSS, map names40, cover artwork39 and original music40 remain. The change is functional: A/B commands, planting logic,3D ground/DOM markers,2D map labels and explorer focus use the new symbols. This gameplay edit does not grant source-map redistribution rights.
+
+Existing unfinished remix31 matches retain physical plans and C4 position/progress/timer. A one-time snapshot siteRevision migrates old strategy letters, team site indices, defence indices and learned site history; no teleport, round reset or fund/score reset. New41 snapshots do not remigrate on repeated restore/offline reload.
+
+Verification41 includes actual old40 engine save fixtures, all11 same-nav/geometry/spawn hashes,220 spawn→site paths,22 actual tactical-AI carrier planting branches, physical source-floor checks and combat/C4 regression. Browser verifies real40→41 plantedC4 migration,3D+2D matching objective coordinates, explorer A/B focus,844x390 fit, offline no-double-swap and old careers/caches. No newAPK/FPS/rights-clearance claim. Previous40 source and music generation evidence: https://github.com/Abror1111/arena-manager-beta/raw/cf171148f4b4ebfba9a9dfc30f7834470d18cf07/ARENA-music40-source.zip .
+
 # ARENA music40 — new map display names and original score
 
 2026-11-07, Asia/Tashkent. Six new layered electronic compositions: Glass Horizon(menu),Vector Pursuit(match),Signal Ascending(win),After the Static(loss),Critical Circuit(planted),Last Ten(countdown). Original note scores, oscillators, synthesized percussion, delay and room DSP; no external media samples or imported melodies. Original generator, note events, MP3s and measured quality are included in verification40. Existing26 sound effects unchanged. New music is pinned SHA-verified, warmed after audio unlock and cached once for offline use. MP3 stereo44.1kHz for broad browser compatibility; no large PCM arrays in runtime music playback.
@@ -90,7 +98,6 @@ Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-
 
 The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
 
-Version40 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/cf171148f4b4ebfba9a9dfc30f7834470d18cf07/ARENA-music40-source.zip
-SHA256: 3d28cacc8753bd8d0792ae836a9afe8b254337ce18d8ede7bd31b5aa27f14b7d
-Original music artifact: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/503ddf64917c741af47d83842b624baa9a819fa2/music40/
-Final receipt: arena-music40-source/publication40.json.
+Version41 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/2c1ec303a7e44db74c76c7a438580f4198b91087/ARENA-sites41-source.zip
+SHA256: 469f06340b1feb05d1f30311178c2320fe19c1e6cf0b936b3575d4602602a177
+Final receipt: arena-sites41-source/publication41.json.
