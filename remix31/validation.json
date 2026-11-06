@@ -1,130 +1,275 @@
 {
   "result": "passed",
-  "version": "covers39",
-  "base": "holo38",
+  "version": "music40",
+  "base": "covers39",
   "selectableMaps": 11,
-  "actualRenderedCoverCount": 11,
-  "fullImageDimensions": [
-    1200,
-    750
-  ],
-  "embeddedPreviewDimensions": [
-    240,
-    150
-  ],
-  "imageArtifact": {
-    "branch": "arena-covers39-images",
-    "commit": "a396b2f8aca9a467bcc2bc93e623f42fba01a67c",
-    "prefix": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/",
-    "images": {
-      "dust2": {
-        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/dust2.jpg",
-        "bytes": 131355,
-        "sha256": "6df90a7a64659f751e466206cbfe2e53a95e75929aa0325693263cd2824d3ff5",
-        "width": 1200,
-        "height": 750,
-        "sourceVersion": "holo38",
-        "mime": "image/jpeg"
-      },
-      "mirage": {
-        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/mirage.jpg",
-        "bytes": 216482,
-        "sha256": "7275eee7b0a8e72309c51fa8226b72efe197d9dff088784a3644eac64cc6d338",
-        "width": 1200,
-        "height": 750,
-        "sourceVersion": "holo38",
-        "mime": "image/jpeg"
-      },
-      "inferno": {
-        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/inferno.jpg",
-        "bytes": 200336,
-        "sha256": "ec88eaaa96949ec3c339db7972fef8577252703118b0ac53d08a3709e0df4d25",
-        "width": 1200,
-        "height": 750,
-        "sourceVersion": "holo38",
-        "mime": "image/jpeg"
-      },
-      "nuke": {
-        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/nuke.jpg",
-        "bytes": 229485,
-        "sha256": "d6d529047ee45dd3915b667f31aa54b02b389a73e39eb2127bff2ed0122ca25c",
-        "width": 1200,
-        "height": 750,
-        "sourceVersion": "holo38",
-        "mime": "image/jpeg"
-      },
-      "train": {
-        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/train.jpg",
-        "bytes": 217144,
-        "sha256": "3c3235f9f6a7b3772da7f1ba0c09b45ea60d70543146f128a0445f47a13e7199",
-        "width": 1200,
-        "height": 750,
-        "sourceVersion": "holo38",
-        "mime": "image/jpeg"
-      },
-      "ancient": {
-        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/ancient.jpg",
-        "bytes": 192998,
-        "sha256": "06aeebe2527a6973b04bbdb195f572b4195e792beeea8eac5b99ace2405e0cf5",
-        "width": 1200,
-        "height": 750,
-        "sourceVersion": "holo38",
-        "mime": "image/jpeg"
-      },
-      "ancient-night": {
-        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/ancient-night.jpg",
-        "bytes": 214048,
-        "sha256": "28fc610c476bc922da95cfabc205f2427bcdeaa427d2eac4bd2a8990d2c69d9e",
-        "width": 1200,
-        "height": 750,
-        "sourceVersion": "holo38",
-        "mime": "image/jpeg"
-      },
-      "anubis": {
-        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/anubis.jpg",
-        "bytes": 144690,
-        "sha256": "2a9845439ba5f9f51e52ebc0e806a58bf9336ab543dc6cdea21189502e803c7c",
-        "width": 1200,
-        "height": 750,
-        "sourceVersion": "holo38",
-        "mime": "image/jpeg"
-      },
-      "overpass": {
-        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/overpass.jpg",
-        "bytes": 172310,
-        "sha256": "47fdbb053587b82bc483eb53ee933ec169aa4d6ab2d5f173e69fbc1fa99d8f0f",
-        "width": 1200,
-        "height": 750,
-        "sourceVersion": "holo38",
-        "mime": "image/jpeg"
-      },
-      "vertigo": {
-        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/vertigo.jpg",
-        "bytes": 256447,
-        "sha256": "1aaf0a5d7ae2ea0a42869589fc95ea78853ee2e755d43bbface0ff93d5cc336d",
-        "width": 1200,
-        "height": 750,
-        "sourceVersion": "holo38",
-        "mime": "image/jpeg"
-      },
-      "cache": {
-        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/cache.jpg",
-        "bytes": 191432,
-        "sha256": "3f0f1b3956ab24df35b7c135eeb603c1cff837d4175f027a18b4fd5d8122847b",
-        "width": 1200,
-        "height": 750,
-        "sourceVersion": "holo38",
-        "mime": "image/jpeg"
-      }
+  "mapNames": {
+    "dust2": {
+      "previous": "Dust II",
+      "name": "Sandrift"
     },
-    "fallbackEncodedBytes": 56301,
-    "totalFullBytes": 2166727,
-    "fullCount": 11,
-    "embeddedPreviewCount": 11
+    "mirage": {
+      "previous": "Mirage",
+      "name": "Sunveil"
+    },
+    "inferno": {
+      "previous": "Inferno",
+      "name": "Ember Quarter"
+    },
+    "nuke": {
+      "previous": "Nuke",
+      "name": "Reactor"
+    },
+    "train": {
+      "previous": "Train",
+      "name": "Railworks"
+    },
+    "ancient": {
+      "previous": "Ancient",
+      "name": "Relic Grove"
+    },
+    "ancient-night": {
+      "previous": "Ancient Night",
+      "name": "Relic Afterdark"
+    },
+    "anubis": {
+      "previous": "Anubis",
+      "name": "Sunken Court"
+    },
+    "overpass": {
+      "previous": "Overpass",
+      "name": "Canal Crossing"
+    },
+    "vertigo": {
+      "previous": "Vertigo",
+      "name": "Skyline"
+    },
+    "cache": {
+      "previous": "Cache",
+      "name": "Iron Depot"
+    }
+  },
+  "musicArtifact": {
+    "branch": "arena-music40-assets",
+    "commit": "503ddf64917c741af47d83842b624baa9a819fa2",
+    "prefix": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/503ddf64917c741af47d83842b624baa9a819fa2/music40/",
+    "tracks": [
+      {
+        "key": "music:menu",
+        "url": "audio/e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b.mp3",
+        "bytes": 1359568,
+        "sha256": "e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b",
+        "duration": 71.11111111111111,
+        "origin": "arena-original",
+        "pack": "arena-music40",
+        "title": "Glass Horizon",
+        "bpm": 108,
+        "source": {
+          "author": "ARENA original procedural score40",
+          "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
+          "seed": 401,
+          "license": "Project-authored composition; no third-party media grant implied"
+        }
+      },
+      {
+        "key": "music:match",
+        "url": "audio/0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2.mp3",
+        "bytes": 1302127,
+        "sha256": "0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2",
+        "duration": 66.20689655172414,
+        "origin": "arena-original",
+        "pack": "arena-music40",
+        "title": "Vector Pursuit",
+        "bpm": 116,
+        "source": {
+          "author": "ARENA original procedural score40",
+          "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
+          "seed": 402,
+          "license": "Project-authored composition; no third-party media grant implied"
+        }
+      },
+      {
+        "key": "music:win",
+        "url": "audio/f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1.mp3",
+        "bytes": 118783,
+        "sha256": "f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1",
+        "duration": 6.0,
+        "origin": "arena-original",
+        "pack": "arena-music40",
+        "title": "Signal Ascending",
+        "bpm": 120,
+        "source": {
+          "author": "ARENA original procedural score40",
+          "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
+          "seed": 403,
+          "license": "Project-authored composition; no third-party media grant implied"
+        }
+      },
+      {
+        "key": "music:loss",
+        "url": "audio/381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022.mp3",
+        "bytes": 116626,
+        "sha256": "381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022",
+        "duration": 7.5,
+        "origin": "arena-original",
+        "pack": "arena-music40",
+        "title": "After the Static",
+        "bpm": 96,
+        "source": {
+          "author": "ARENA original procedural score40",
+          "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
+          "seed": 404,
+          "license": "Project-authored composition; no third-party media grant implied"
+        }
+      },
+      {
+        "key": "music:planted",
+        "url": "audio/962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725.mp3",
+        "bytes": 615307,
+        "sha256": "962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725",
+        "duration": 32.0,
+        "origin": "arena-original",
+        "pack": "arena-music40",
+        "title": "Critical Circuit",
+        "bpm": 120,
+        "source": {
+          "author": "ARENA original procedural score40",
+          "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
+          "seed": 405,
+          "license": "Project-authored composition; no third-party media grant implied"
+        }
+      },
+      {
+        "key": "music:countdown",
+        "url": "audio/8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce.mp3",
+        "bytes": 202136,
+        "sha256": "8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce",
+        "duration": 10.0,
+        "origin": "arena-original",
+        "pack": "arena-music40",
+        "title": "Last Ten",
+        "bpm": 120,
+        "source": {
+          "author": "ARENA original procedural score40",
+          "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
+          "seed": 406,
+          "license": "Project-authored composition; no third-party media grant implied"
+        }
+      }
+    ],
+    "bytes": 3714547,
+    "sourceGeneratorSHA256": "06666c94dd268ac3a5b73ffed9f6eb01f8e9c323fe61b4db11e3f156563a1367",
+    "externalSamples": [],
+    "externalMelodyInputs": []
+  },
+  "audioQuality": {
+    "result": "passed",
+    "tracks": [
+      {
+        "key": "music:menu",
+        "title": "Glass Horizon",
+        "duration": 71.11111111111111,
+        "encodedDuration": 71.157551,
+        "codec": "mp3",
+        "sampleRate": 44100,
+        "channels": 2,
+        "integratedLUFS": -16.9,
+        "truePeakDBFS": -3.4,
+        "remoteSHA256Verified": true,
+        "sha256": "e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b"
+      },
+      {
+        "key": "music:match",
+        "title": "Vector Pursuit",
+        "duration": 66.20689655172414,
+        "encodedDuration": 66.246531,
+        "codec": "mp3",
+        "sampleRate": 44100,
+        "channels": 2,
+        "integratedLUFS": -17.7,
+        "truePeakDBFS": -3.4,
+        "remoteSHA256Verified": true,
+        "sha256": "0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2"
+      },
+      {
+        "key": "music:win",
+        "title": "Signal Ascending",
+        "duration": 6.0,
+        "encodedDuration": 6.034286,
+        "codec": "mp3",
+        "sampleRate": 44100,
+        "channels": 2,
+        "integratedLUFS": -16.7,
+        "truePeakDBFS": -3.3,
+        "remoteSHA256Verified": true,
+        "sha256": "f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1"
+      },
+      {
+        "key": "music:loss",
+        "title": "After the Static",
+        "duration": 7.5,
+        "encodedDuration": 7.549388,
+        "codec": "mp3",
+        "sampleRate": 44100,
+        "channels": 2,
+        "integratedLUFS": -16.4,
+        "truePeakDBFS": -5.0,
+        "remoteSHA256Verified": true,
+        "sha256": "381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022"
+      },
+      {
+        "key": "music:planted",
+        "title": "Critical Circuit",
+        "duration": 32.0,
+        "encodedDuration": 32.026122,
+        "codec": "mp3",
+        "sampleRate": 44100,
+        "channels": 2,
+        "integratedLUFS": -17.9,
+        "truePeakDBFS": -3.9,
+        "remoteSHA256Verified": true,
+        "sha256": "962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725"
+      },
+      {
+        "key": "music:countdown",
+        "title": "Last Ten",
+        "duration": 10.0,
+        "encodedDuration": 10.03102,
+        "codec": "mp3",
+        "sampleRate": 44100,
+        "channels": 2,
+        "integratedLUFS": -17.1,
+        "truePeakDBFS": -2.9,
+        "remoteSHA256Verified": true,
+        "sha256": "8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce"
+      }
+    ],
+    "externalSampleInputs": [],
+    "externalMelodyInputs": []
+  },
+  "scope": {
+    "result": "passed",
+    "all26EffectsUnchanged": true,
+    "mapDefinitionsOnlyDisplayNamesChanged": true,
+    "stableMapIDs": [
+      "dust2",
+      "mirage",
+      "inferno",
+      "nuke",
+      "train",
+      "ancient",
+      "ancient-night",
+      "anubis",
+      "overpass",
+      "vertigo",
+      "cache"
+    ],
+    "sourceGeometryRightsUnchanged": true
   },
   "browser": {
     "result": "passed",
     "matchBefore": {
+      "mapID": "dust2",
       "score": [
         3,
         2
@@ -151,6 +296,7 @@
       }
     },
     "matchAfter": {
+      "mapID": "dust2",
       "score": [
         3,
         2
@@ -176,47 +322,130 @@
         "z": 3.3813
       }
     },
-    "launchAndTacticsNewImages": true,
-    "battleLoading": [
+    "mobileFits": [
       {
-        "id": "dust2",
-        "version": "39",
-        "quality": "full"
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390,
+        "overflow": "0"
+      },
+      {
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844,
+        "overflow": "0"
+      },
+      {
+        "w": 768,
+        "h": 1024,
+        "sw": 768,
+        "sh": 1024,
+        "overflow": "0"
       }
     ],
-    "phoneFit": {
-      "w": 844,
-      "h": 390,
-      "sw": 844,
-      "sh": 390,
-      "overflow": "0"
-    },
-    "allElevenFullResolutionOffline": true,
-    "oldImagesRequestedBy39": 0,
-    "fullCoverDownloads": 11,
-    "protection": {
-      "root": "protected-root",
-      "old": "protected-old-career",
+    "onlineMusic": [
+      {
+        "key": "music:menu",
+        "sha256": "e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b",
+        "duration": 71.11111111111111,
+        "channels": 2
+      },
+      {
+        "key": "music:match",
+        "sha256": "0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2",
+        "duration": 66.20689342403628,
+        "channels": 2
+      },
+      {
+        "key": "music:win",
+        "sha256": "f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1",
+        "duration": 6,
+        "channels": 2
+      },
+      {
+        "key": "music:loss",
+        "sha256": "381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022",
+        "duration": 7.5,
+        "channels": 2
+      },
+      {
+        "key": "music:planted",
+        "sha256": "962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725",
+        "duration": 32,
+        "channels": 2
+      },
+      {
+        "key": "music:countdown",
+        "sha256": "8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce",
+        "duration": 10,
+        "channels": 2
+      }
+    ],
+    "offlineMusic": [
+      {
+        "key": "music:menu",
+        "sha256": "e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b",
+        "duration": 71.11111111111111,
+        "channels": 2
+      },
+      {
+        "key": "music:match",
+        "sha256": "0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2",
+        "duration": 66.20689342403628,
+        "channels": 2
+      },
+      {
+        "key": "music:win",
+        "sha256": "f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1",
+        "duration": 6,
+        "channels": 2
+      },
+      {
+        "key": "music:loss",
+        "sha256": "381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022",
+        "duration": 7.5,
+        "channels": 2
+      },
+      {
+        "key": "music:planted",
+        "sha256": "962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725",
+        "duration": 32,
+        "channels": 2
+      },
+      {
+        "key": "music:countdown",
+        "sha256": "8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce",
+        "duration": 10,
+        "channels": 2
+      }
+    ],
+    "onceOnlyMusicDownloads": 6,
+    "allMusicCached": true,
+    "oldCareersAndCache": {
+      "career": "protected-old-career",
       "cache": "preserved"
     },
     "errors": [],
     "bad": []
   },
   "sourceArchive": {
-    "archive": "ARENA-covers39-source.zip",
-    "sha256": "54d2ebfd9dd656a55ce3fe1114327d3a3d171aff9d3c94d17b5c588cb7ea79e5",
-    "bytes": 7090124,
+    "archive": "ARENA-music40-source.zip",
+    "sha256": "3d28cacc8753bd8d0792ae836a9afe8b254337ce18d8ede7bd31b5aa27f14b7d",
+    "bytes": 7677045,
     "files": 350,
-    "branch": "arena-covers39-source",
-    "commit": "34c727f02e8d95b244bdf172318ac3eed2ba86fa",
-    "url": "https://github.com/Abror1111/arena-manager-beta/raw/34c727f02e8d95b244bdf172318ac3eed2ba86fa/ARENA-covers39-source.zip",
+    "branch": "arena-music40-source",
+    "commit": "cf171148f4b4ebfba9a9dfc30f7834470d18cf07",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/cf171148f4b4ebfba9a9dfc30f7834470d18cf07/ARENA-music40-source.zip",
     "reproducibleBuild": true
   },
   "archiveBuildByteIdentical": true,
   "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
-  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/562c86d3f5572862837ed875a4db78e03e25e2a2/remix31/validation.json",
-  "geometryUnchangedFrom38": true,
+  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/bab822dadce01a633d5aac1849699bf82af6a706/remix31/validation.json",
+  "currentCoversUnchanged": true,
   "oldUILayoutPreserved": true,
+  "mapModelsStillSourceDerived": true,
   "legalClearanceClaim": false,
   "directPagesHTTPVerified": false,
   "physicalDeviceFPSMeasured": false,

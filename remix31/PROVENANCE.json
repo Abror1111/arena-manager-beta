@@ -1,5 +1,5 @@
 {
-  "version": "holo35",
+  "version": "music40",
   "direction": "User explicitly selected original11 source-map remix after independently authored harbour30 work.",
   "legalClearanceClaim": false,
   "sourceGeometryReused": true,
@@ -30,8 +30,8 @@
     "Physical source-scale danger memory and camera spring",
     "Preserved UI, maps, save namespace and ongoing C4 state"
   ],
-  "shellCache": "arena-remix31-shell-v5",
-  "loader": "loader35.js with31/32/33/34 compatibility aliases",
+  "shellCache": "arena-remix31-shell-v10",
+  "loader": "loader40.js with31\u201339 compatibility aliases",
   "trainedModelClaim": false,
   "changes33": [
     "Battle source and shadow materials have no route/floor clipping",
@@ -56,5 +56,13 @@
     "Holograms drawn in existing dynamic pass; two instanced projector batches in static world; score updates do not invalidate static map",
     "Existing full battle walls, source layout/collision, old UI and save namespace retained"
   ],
-  "newFranchiseAssetsUsed": false
+  "newFranchiseAssetsUsed": false,
+  "changes40": [
+    "Eleven display map names changed; stable IDs, source geometry, collision/navigation, bombsites, saves, old UI layout and current covers unchanged",
+    "Six newly synthesized original electronic compositions, all oscillator/percussion/note-score sources recorded; no external samples or source-game music inputs",
+    "Original music bytes are pinned SHA-verified assets, warmed after user audio unlock and cached for offline reuse",
+    "Corrected stale source-audio claims in settings and included the vendored Meshoptimizer MIT notice"
+  ],
+  "mapNameChanges": "data/map-renames40.json",
+  "originalMusicProvenance": "data/music40-provenance.json"
 }

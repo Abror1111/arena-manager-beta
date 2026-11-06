@@ -1,3 +1,25 @@
+# ARENA music40 — new map display names and original score
+
+2026-11-07, Asia/Tashkent. Six new layered electronic compositions: Glass Horizon(menu),Vector Pursuit(match),Signal Ascending(win),After the Static(loss),Critical Circuit(planted),Last Ten(countdown). Original note scores, oscillators, synthesized percussion, delay and room DSP; no external media samples or imported melodies. Original generator, note events, MP3s and measured quality are included in verification40. Existing26 sound effects unchanged. New music is pinned SHA-verified, warmed after audio unlock and cached once for offline use. MP3 stereo44.1kHz for broad browser compatibility; no large PCM arrays in runtime music playback.
+
+| Previous display name | New display name |
+|---|---|
+| Dust II | Sandrift |
+| Mirage | Sunveil |
+| Inferno | Ember Quarter |
+| Nuke | Reactor |
+| Train | Railworks |
+| Ancient | Relic Grove |
+| Ancient Night | Relic Afterdark |
+| Anubis | Sunken Court |
+| Overpass | Canal Crossing |
+| Vertigo | Skyline |
+| Cache | Iron Depot |
+
+Only display names change: stable map IDs, source geometry, collision/navigation, bombsites, saved careers, existing UI/CSS and current screenshot covers remain. New labels do not confer source-map redistribution rights. This is not a rights-cleared release; existing exports/oldAPK remain separate. Corrected stale default-CS2 audio claims in settings. Added the vendored Meshoptimizer MIT text. No newAPK or measured physical-deviceFPS claim.
+
+Prior complete covers39 source/evidence: https://github.com/Abror1111/arena-manager-beta/raw/34c727f02e8d95b244bdf172318ac3eed2ba86fa/ARENA-covers39-source.zip . Older rendered screenshot proof remains there.
+
 # ARENA covers39 — current eleven-map gallery and loading artwork
 
 All map artwork comes from the actual holo38 WebGL renderer with its current layout, cyan/magenta foliage and scenery. Launch, map library, tactics, explorer loading and battle loading share the same per-map artwork.1200x750 JPEGs are SHA-verified and cached once; embedded240x150 current-map fallbacks are available immediately/offline. No geometry, mechanics, UI layout or compiled CSS change. Full image assets use a separate immutable artifact branch to keep previous projects untouched and the Pages tree below its size limit. Source geometry rights status remains unchanged.
@@ -68,7 +90,7 @@ Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-
 
 The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
 
-Version39 source: https://github.com/Abror1111/arena-manager-beta/raw/34c727f02e8d95b244bdf172318ac3eed2ba86fa/ARENA-covers39-source.zip
-SHA256: 54d2ebfd9dd656a55ce3fe1114327d3a3d171aff9d3c94d17b5c588cb7ea79e5
-Image artifact: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/
-Final receipt: arena-covers39-source/publication39.json.
+Version40 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/cf171148f4b4ebfba9a9dfc30f7834470d18cf07/ARENA-music40-source.zip
+SHA256: 3d28cacc8753bd8d0792ae836a9afe8b254337ce18d8ede7bd31b5aa27f14b7d
+Original music artifact: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/503ddf64917c741af47d83842b624baa9a819fa2/music40/
+Final receipt: arena-music40-source/publication40.json.
