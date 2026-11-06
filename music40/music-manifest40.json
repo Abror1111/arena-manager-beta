@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "assetType": "arena-runtime-audio",
+  "source": {
+    "type": "ARENA original score40",
+    "externalSamples": [],
+    "externalMelodyInputs": [],
+    "generatorSHA256": "06666c94dd268ac3a5b73ffed9f6eb01f8e9c323fe61b4db11e3f156563a1367"
+  },
+  "clips": [
+    {
+      "key": "music:menu",
+      "url": "audio/e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b.mp3",
+      "bytes": 1359568,
+      "sha256": "e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b",
+      "duration": 71.11111111111111,
+      "origin": "arena-original",
+      "pack": "arena-music40",
+      "title": "Glass Horizon",
+      "bpm": 108,
+      "source": {
+        "author": "ARENA original procedural score40",
+        "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
+        "seed": 401,
+        "license": "Project-authored composition; no third-party media grant implied"
+      }
+    },
+    {
+      "key": "music:match",
+      "url": "audio/0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2.mp3",
+      "bytes": 1302127,
+      "sha256": "0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2",
+      "duration": 66.20689655172414,
+      "origin": "arena-original",
+      "pack": "arena-music40",
+      "title": "Vector Pursuit",
+      "bpm": 116,
+      "source": {
+        "author": "ARENA original procedural score40",
+        "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
+        "seed": 402,
+        "license": "Project-authored composition; no third-party media grant implied"
+      }
+    },
+    {
+      "key": "music:win",
+      "url": "audio/f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1.mp3",
+      "bytes": 118783,
+      "sha256": "f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1",
+      "duration": 6.0,
+      "origin": "arena-original",
+      "pack": "arena-music40",
+      "title": "Signal Ascending",
+      "bpm": 120,
+      "source": {
+        "author": "ARENA original procedural score40",
+        "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
+        "seed": 403,
+        "license": "Project-authored composition; no third-party media grant implied"
+      }
+    },
+    {
+      "key": "music:loss",
+      "url": "audio/381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022.mp3",
+      "bytes": 116626,
+      "sha256": "381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022",
+      "duration": 7.5,
+      "origin": "arena-original",
+      "pack": "arena-music40",
+      "title": "After the Static",
+      "bpm": 96,
+      "source": {
+        "author": "ARENA original procedural score40",
+        "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
+        "seed": 404,
+        "license": "Project-authored composition; no third-party media grant implied"
+      }
+    },
+    {
+      "key": "music:planted",
+      "url": "audio/962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725.mp3",
+      "bytes": 615307,
+      "sha256": "962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725",
+      "duration": 32.0,
+      "origin": "arena-original",
+      "pack": "arena-music40",
+      "title": "Critical Circuit",
+      "bpm": 120,
+      "source": {
+        "author": "ARENA original procedural score40",
+        "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
+        "seed": 405,
+        "license": "Project-authored composition; no third-party media grant implied"
+      }
+    },
+    {
+      "key": "music:countdown",
+      "url": "audio/8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce.mp3",
+      "bytes": 202136,
+      "sha256": "8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce",
+      "duration": 10.0,
+      "origin": "arena-original",
+      "pack": "arena-music40",
+      "title": "Last Ten",
+      "bpm": 120,
+      "source": {
+        "author": "ARENA original procedural score40",
+        "method": "New note score, synthesized oscillators/percussion and original DSP; no external samples or source-game recordings",
+        "seed": 406,
+        "license": "Project-authored composition; no third-party media grant implied"
+      }
+    }
+  ]
+}
