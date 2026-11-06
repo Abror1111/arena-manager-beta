@@ -1,3 +1,7 @@
+# ARENA covers39 — current eleven-map gallery and loading artwork
+
+All map artwork comes from the actual holo38 WebGL renderer with its current layout, cyan/magenta foliage and scenery. Launch, map library, tactics, explorer loading and battle loading share the same per-map artwork.1200x750 JPEGs are SHA-verified and cached once; embedded240x150 current-map fallbacks are available immediately/offline. No geometry, mechanics, UI layout or compiled CSS change. Full image assets use a separate immutable artifact branch to keep previous projects untouched and the Pages tree below its size limit. Source geometry rights status remains unchanged.
+
 # ARENA holo38 — holographic garden and clear street layouts
 
 Trees use cyan/magenta holographic scanline materials. Broad yellow architecture and yellow patches are reduced. New generated towers/service modules/terminals move from guessed roof/facade attachment points into measured empty ground volumes, checked against rendered source shells as well as collision geometry and authored exterior buildings. Ground support feet close terrain gaps. Unsafe64 facade attachments removed. Decoration counts adapt to available space rather than stacking duplicate projectors. Four score faces remain.22 original detailed lane dividers share geometry with collision and a prevalidated navigation manifest;44 actual walking detours and220 objective paths pass. Existing UI, full source architecture, economy and save namespace remain. Only old actors/dropped C4 embedded in a divider need local position repair. Source geometry rights status unchanged; no franchise artwork added.
@@ -64,6 +68,7 @@ Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-
 
 The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
 
-Version38 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/ec6a64f673696eb557939726c6fbc3f9b6fe140a/ARENA-holo38-source.zip
-SHA256: 9b42083d9e917d9ad2b26effa4f4f7f4387e9ad6f8be9f4736da5491eec57736
-Final deployment receipt is kept in the arena-holo38-source branch publication38.json; local overlay storage was full.
+Version39 source: https://github.com/Abror1111/arena-manager-beta/raw/34c727f02e8d95b244bdf172318ac3eed2ba86fa/ARENA-covers39-source.zip
+SHA256: 54d2ebfd9dd656a55ce3fe1114327d3a3d171aff9d3c94d17b5c588cb7ea79e5
+Image artifact: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/a396b2f8aca9a467bcc2bc93e623f42fba01a67c/covers39/
+Final receipt: arena-covers39-source/publication39.json.
