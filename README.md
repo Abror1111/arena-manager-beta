@@ -1,0 +1,1 @@
+ARENA Manager 1.48 Android preview. Same preview application ID and signing certificate as1.47; install over it. Sandrift3D and all11simulation maps/audio bundled; other3D initial download. No real billing/ads. Physical device install not tested. Export/import backup from old app. APK SHA and limits in apk48.json. Private signing key excluded.
