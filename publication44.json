@@ -1,0 +1,518 @@
+{
+  "version": "portraits44",
+  "date": "2026-11-07",
+  "timezone": "Asia/Tashkent",
+  "url": "https://abror1111.github.io/arena-manager-beta/remix31/?v=44",
+  "commit": "e62ffdd872e5594c2a2016b51bf8c9036e7f0cae",
+  "baseline": "159a2d80a37e00a5775ebae9be4bd7ad69199bf6",
+  "actions": {
+    "branch": "main",
+    "runId": "42352976456",
+    "runUrl": "https://github.com/Abror1111/arena-manager-beta/actions/runs/42352976456",
+    "commit": "e62ffdd872e5594c2a2016b51bf8c9036e7f0cae",
+    "status": "Success",
+    "verification": "Public run Status Success and exact full commit SHA"
+  },
+  "sourceArchive": {
+    "archive": "ARENA-portraits44-source.zip",
+    "sha256": "93020b57ee59560e69b129e1ee021fbf575473123a146d80104d879eb4ed2751",
+    "bytes": 11207896,
+    "files": 425,
+    "branch": "arena-portraits44-source",
+    "commit": "ef0b8eede0934afa2814d2b351597a0c37caa78c",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/ef0b8eede0934afa2814d2b351597a0c37caa78c/ARENA-portraits44-source.zip",
+    "reproducibleBuild": true
+  },
+  "artPublication": {
+    "branch": "arena-portraits44-art",
+    "commit": "4fc1c9fbe933dec9f82ca605c9aebf82e32da346",
+    "prefix": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/4fc1c9fbe933dec9f82ca605c9aebf82e32da346/portraits44/",
+    "manifest": [
+      {
+        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/4fc1c9fbe933dec9f82ca605c9aebf82e32da346/portraits44/portraits44-a.webp",
+        "bytes": 424208,
+        "sha256": "99b5ba74e304a042f66e0f444157b6aa4e8212bc97507f44d840bfe53c16ac15",
+        "width": 1254,
+        "height": 1254,
+        "rows": 6,
+        "columns": 6
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/4fc1c9fbe933dec9f82ca605c9aebf82e32da346/portraits44/portraits44-b.webp",
+        "bytes": 396016,
+        "sha256": "4c889926b50a0c5d22192a250fe138345b77bd60baddbbc64cf7676b31fcfc78",
+        "width": 1254,
+        "height": 1254,
+        "rows": 6,
+        "columns": 6
+      }
+    ],
+    "metadata": {
+      "version": "portraits44",
+      "format": "two6x6sheets",
+      "count": 72,
+      "style": "Original anime adult esports cast",
+      "creationTool": "image_gen.imagegen",
+      "sourceImages": [
+        "exec-0eaba1dd-aff4-4e8e-ad98-1b0759bcf410.png",
+        "exec-be266713-2dcf-444f-96cc-70e8ebb9aea8.png"
+      ],
+      "intent": "Each grid tile a distinct person with different facial structure, hair silhouette, age, skin tone and accessories. Not recolors of the old16faces. Original full PNGs retained; WebP88 quality runtime sheets and288x288 WebP55 embedded fallbacks.",
+      "files": {
+        "portraits44-a-preview.webp": {
+          "bytes": 20526,
+          "sha256": "2247cdeb4743ec1e4e6e726a47a7326cdaf57da9fc72d6456c65b30c9be694d4"
+        },
+        "portraits44-a.png": {
+          "bytes": 3082728,
+          "sha256": "ea251dbcde8364d67fcedfdfdc8197f127eb04e42805d8c28e169e6e45c7cc8c"
+        },
+        "portraits44-a.webp": {
+          "bytes": 424208,
+          "sha256": "99b5ba74e304a042f66e0f444157b6aa4e8212bc97507f44d840bfe53c16ac15"
+        },
+        "portraits44-b-preview.webp": {
+          "bytes": 19636,
+          "sha256": "536a976538a6e7d003bba1d69690360ec1a0efabbe59548b7d1fb3c4d80a2c56"
+        },
+        "portraits44-b.png": {
+          "bytes": 2974375,
+          "sha256": "bffafb438460b0e621f5d78d8d19109a2b7a1a648cc18d46bd794409e1ee5185"
+        },
+        "portraits44-b.webp": {
+          "bytes": 396016,
+          "sha256": "4c889926b50a0c5d22192a250fe138345b77bd60baddbbc64cf7676b31fcfc78"
+        }
+      }
+    }
+  },
+  "sourceAndWebFilesRemoteHashVerified": true,
+  "verifiedWebFiles": 27,
+  "archiveRebuildByteIdentical": true,
+  "validation": {
+    "result": "passed",
+    "version": "portraits44",
+    "baseCommit": "159a2d80a37e00a5775ebae9be4bd7ad69199bf6",
+    "newGeneratedAnimePortraits": 72,
+    "atlasSheets": 2,
+    "clubFaceSlots": 47,
+    "namedOpponentFaces": 25,
+    "portraitNodeTests": 7,
+    "academyAndEconomicNodeTests": 31,
+    "all38NodeTestsPassed": true,
+    "browser": {
+      "result": "passed",
+      "freshZeroPlayers": true,
+      "fivePaidTransfers": true,
+      "interruptedRecruitmentResumed": true,
+      "mandatoryTrainingRestTacticsRewardShop": true,
+      "actualBattleRendered": true,
+      "practiceSettlement": "deterministic test outcome",
+      "onceOnly400XP": true,
+      "marketOffersRemaining": 31,
+      "levelLocks": true,
+      "fits": [
+        {
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflow": "0"
+        },
+        {
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflow": "0"
+        },
+        {
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "overflow": "0"
+        },
+        {
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflow": "0"
+        }
+      ],
+      "battleAvatars": [
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        }
+      ],
+      "uniqueTransferFaces": 31,
+      "battleFacesMatchRoster": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "offlineFullPortraits": true,
+      "menuAvatarSize": {
+        "w": 84,
+        "h": 96
+      },
+      "squadSize": {
+        "w": 84,
+        "h": 96
+      },
+      "offlinePreserved": true,
+      "errors": []
+    },
+    "legacyClubBrowser": {
+      "result": "passed",
+      "legacyMigration": {
+        "from": 1,
+        "to": 2,
+        "walletAndLedgerPreserved": true
+      },
+      "shopPurchaseAndFreeEquip": true,
+      "collectorClaim": true,
+      "baseUpgrade": true,
+      "transferBuyAndSale": true,
+      "fits": [
+        {
+          "size": {
+            "width": 844,
+            "height": 390
+          },
+          "screen": "shop",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "size": {
+            "width": 844,
+            "height": 390
+          },
+          "screen": "finance",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 844,
+            "height": 390
+          },
+          "screen": "training",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 844,
+            "height": 390
+          },
+          "screen": "transfers",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "size": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": "shop",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "size": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": "finance",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": "training",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": "transfers",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "size": {
+            "width": 768,
+            "height": 1024
+          },
+          "screen": "shop",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024
+        },
+        {
+          "size": {
+            "width": 768,
+            "height": 1024
+          },
+          "screen": "finance",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 768,
+            "height": 1024
+          },
+          "screen": "training",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 768,
+            "height": 1024
+          },
+          "screen": "transfers",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024
+        },
+        {
+          "size": {
+            "width": 540,
+            "height": 720
+          },
+          "screen": "shop",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "size": {
+            "width": 540,
+            "height": 720
+          },
+          "screen": "finance",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 540,
+            "height": 720
+          },
+          "screen": "training",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 540,
+            "height": 720
+          },
+          "screen": "transfers",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        }
+      ],
+      "offlineSavePreserved": true,
+      "errors": []
+    },
+    "artPublication": {
+      "branch": "arena-portraits44-art",
+      "commit": "4fc1c9fbe933dec9f82ca605c9aebf82e32da346",
+      "prefix": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/4fc1c9fbe933dec9f82ca605c9aebf82e32da346/portraits44/",
+      "manifest": [
+        {
+          "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/4fc1c9fbe933dec9f82ca605c9aebf82e32da346/portraits44/portraits44-a.webp",
+          "bytes": 424208,
+          "sha256": "99b5ba74e304a042f66e0f444157b6aa4e8212bc97507f44d840bfe53c16ac15",
+          "width": 1254,
+          "height": 1254,
+          "rows": 6,
+          "columns": 6
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/4fc1c9fbe933dec9f82ca605c9aebf82e32da346/portraits44/portraits44-b.webp",
+          "bytes": 396016,
+          "sha256": "4c889926b50a0c5d22192a250fe138345b77bd60baddbbc64cf7676b31fcfc78",
+          "width": 1254,
+          "height": 1254,
+          "rows": 6,
+          "columns": 6
+        }
+      ],
+      "metadata": {
+        "version": "portraits44",
+        "format": "two6x6sheets",
+        "count": 72,
+        "style": "Original anime adult esports cast",
+        "creationTool": "image_gen.imagegen",
+        "sourceImages": [
+          "exec-0eaba1dd-aff4-4e8e-ad98-1b0759bcf410.png",
+          "exec-be266713-2dcf-444f-96cc-70e8ebb9aea8.png"
+        ],
+        "intent": "Each grid tile a distinct person with different facial structure, hair silhouette, age, skin tone and accessories. Not recolors of the old16faces. Original full PNGs retained; WebP88 quality runtime sheets and288x288 WebP55 embedded fallbacks.",
+        "files": {
+          "portraits44-a-preview.webp": {
+            "bytes": 20526,
+            "sha256": "2247cdeb4743ec1e4e6e726a47a7326cdaf57da9fc72d6456c65b30c9be694d4"
+          },
+          "portraits44-a.png": {
+            "bytes": 3082728,
+            "sha256": "ea251dbcde8364d67fcedfdfdc8197f127eb04e42805d8c28e169e6e45c7cc8c"
+          },
+          "portraits44-a.webp": {
+            "bytes": 424208,
+            "sha256": "99b5ba74e304a042f66e0f444157b6aa4e8212bc97507f44d840bfe53c16ac15"
+          },
+          "portraits44-b-preview.webp": {
+            "bytes": 19636,
+            "sha256": "536a976538a6e7d003bba1d69690360ec1a0efabbe59548b7d1fb3c4d80a2c56"
+          },
+          "portraits44-b.png": {
+            "bytes": 2974375,
+            "sha256": "bffafb438460b0e621f5d78d8d19109a2b7a1a648cc18d46bd794409e1ee5185"
+          },
+          "portraits44-b.webp": {
+            "bytes": 396016,
+            "sha256": "4c889926b50a0c5d22192a250fe138345b77bd60baddbbc64cf7676b31fcfc78"
+          }
+        }
+      }
+    },
+    "uniqueArtTileSignatures": 72,
+    "sourceArchive": {
+      "archive": "ARENA-portraits44-source.zip",
+      "sha256": "93020b57ee59560e69b129e1ee021fbf575473123a146d80104d879eb4ed2751",
+      "bytes": 11207896,
+      "files": 425,
+      "branch": "arena-portraits44-source",
+      "commit": "ef0b8eede0934afa2814d2b351597a0c37caa78c",
+      "url": "https://github.com/Abror1111/arena-manager-beta/raw/ef0b8eede0934afa2814d2b351597a0c37caa78c/ARENA-portraits44-source.zip",
+      "reproducibleBuild": true
+    },
+    "archiveBuildByteIdentical": true,
+    "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
+    "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/159a2d80a37e00a5775ebae9be4bd7ad69199bf6/remix31/validation.json",
+    "geometryPathsStreetModelsSpawnsMusicAndCoversUnchanged": true,
+    "layoutAndPortraitSizesUnchangedFrom43": true,
+    "onlyVisualSaveMetadataAdded": true,
+    "currencySkillsAndPendingMatchStatePreserved": true,
+    "realMoneyPaymentsAdded": false,
+    "serverAuthoritativeCurrency": false,
+    "legalClearanceClaim": false,
+    "directPagesHTTPVerified": false,
+    "physicalDeviceFPSMeasured": false,
+    "APKUnchanged": true
+  },
+  "protectedRootAuthoredAnd209ParentFilesMatched": true,
+  "productionBotUnchanged": true,
+  "publicBytes": 1073719082,
+  "headroom": 22742,
+  "notes": [
+    "User reported player portraits look the same. Old16tile atlas contained visibly similar faces and was reused modulo16 across36offers.44replaces PlayerAvatar artwork with72newly generated original anime tiles, two6x6sheets; both visually inspected and all72tile pixel signatures distinct.",
+    "Full-quality1254x1254WebP atlases pinned to arena-portraits44-art commit4fc1c9fbe933dec9f82ca605c9aebf82e32da346; exact bytes/SHA and PNG originals recorded in source archive. Small288x288WebP sheets embedded as immediate/offline fallbacks. Full art uses existing verified asset cache, loaded once per sheet and reused by36cards.",
+    "47portrait slots for roster/transfer players,25reserved for named opponents. Each player gets persistent portrait44 and each seasonal market gets36stable portrait indices excluding retained roster faces. Bought player keeps its offered face. Old saves add visual metadata only; old multi-season collisions are separated. New-season mixed roster recruits remain distinct.",
+    "React provider maps saved roster IDs to face slots in menu, battle panels and3Dworld labels. Enemy IDs such as enemy-0 are disambiguated by player name, so different opponents do not share the same slot face. Menu/squad/camera images remain consistent. Existing43portrait size and battle panel layout preserved.",
+    "38Node tests (7portrait,7academy,24economy) pass. Browser verifies31remaining market faces are unique and fully loaded, five battle faces match saved roster indices,10landscapeavatars visible, old84x96menu sizes and four viewport fits. Full quality portrait restore passes offline with routes removed. Separate legacy club shop/facility/transfer/offline workflow passes. Actual3D rendered; test uses deterministic practice outcome, no physical-deviceFPS claim.",
+    "Currency, skills, existing pending match snapshot, maps, geometry, audio/music/covers and shared UI/CSS remain unchanged. Working production bot and209parent source files preserved;28protected published hashes match. One elite economic test fixture strips inherited portrait metadata when cloning artificial players, so its bankroll assertion remains unchanged.",
+    "No newAPK, real-money integration, server-security or source-map legal-clearance claim. New art/style is fictional original anime; no existing franchise character or real-person photo input used. Existing old16atlas stays physically preserved for old pages.",
+    "Overlay disk full. Work in RAM /dev/shm/arena-manager-portraits44, build /dev/shm/arena-manager-portraits44-web, Git /dev/shm/arena-pages32, evidence /dev/shm/arena-portraits44-tests. Durable ZIP/receipt on arena-portraits44-source and original art on arena-portraits44-art. Do not delete user assets or advance persistent old Git refs to RAM-only objects. GitHub/raw allowed, direct github.io blocked; exact Pages action Success verifies publication."
+  ]
+}
