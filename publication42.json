@@ -1,0 +1,278 @@
+{
+  "version": "economy42",
+  "date": "2026-11-07",
+  "timezone": "Asia/Tashkent",
+  "url": "https://abror1111.github.io/arena-manager-beta/remix31/?v=42",
+  "commit": "8076b124c38860a8c2ff127051e127c6e0aaf9cb",
+  "baseline": "400308f9145dc92d75f2685dde1ca22ecf8903bf",
+  "actions": {
+    "branch": "main",
+    "runId": "42322080361",
+    "runUrl": "https://github.com/Abror1111/arena-manager-beta/actions/runs/42322080361",
+    "commit": "8076b124c38860a8c2ff127051e127c6e0aaf9cb",
+    "status": "Success",
+    "verification": "Public run Status Success and exact full commit SHA"
+  },
+  "sourceArchive": {
+    "archive": "ARENA-economy42-source.zip",
+    "sha256": "760b786a5969bf6d61efd921d9d788750f856305f39c1f1571343d4ad39c0c93",
+    "bytes": 3313266,
+    "files": 378,
+    "branch": "arena-economy42-source",
+    "commit": "b0fefeb22477752fd74393b0ca08b2de2465f3e7",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/b0fefeb22477752fd74393b0ca08b2de2465f3e7/ARENA-economy42-source.zip",
+    "reproducibleBuild": true
+  },
+  "sourceAndWebFilesRemoteHashVerified": true,
+  "verifiedWebFiles": 24,
+  "archiveRebuildByteIdentical": true,
+  "validation": {
+    "result": "passed",
+    "version": "economy42",
+    "baseCommit": "400308f9145dc92d75f2685dde1ca22ecf8903bf",
+    "financeVersion": 2,
+    "economicNodeTests": 24,
+    "fullInheritedRegressionPassed": true,
+    "shopItems": 12,
+    "oneTimeCollectorReward": 500,
+    "legacySaveWalletOwnershipAndLedgerPreserved": true,
+    "automaticPayoutsShowActualCredits": true,
+    "manualOverflowAtomic": true,
+    "transferOffersPersistAfterHistoryEviction": true,
+    "browser": {
+      "result": "passed",
+      "legacyMigration": {
+        "from": 1,
+        "to": 2,
+        "walletAndLedgerPreserved": true
+      },
+      "shopPurchaseAndFreeEquip": true,
+      "collectorClaim": true,
+      "baseUpgrade": true,
+      "transferBuyAndSale": true,
+      "fits": [
+        {
+          "size": {
+            "width": 844,
+            "height": 390
+          },
+          "screen": "shop",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "size": {
+            "width": 844,
+            "height": 390
+          },
+          "screen": "finance",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 844,
+            "height": 390
+          },
+          "screen": "training",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 844,
+            "height": 390
+          },
+          "screen": "transfers",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "size": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": "shop",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "size": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": "finance",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": "training",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": "transfers",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "size": {
+            "width": 768,
+            "height": 1024
+          },
+          "screen": "shop",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024
+        },
+        {
+          "size": {
+            "width": 768,
+            "height": 1024
+          },
+          "screen": "finance",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 768,
+            "height": 1024
+          },
+          "screen": "training",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 768,
+            "height": 1024
+          },
+          "screen": "transfers",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024
+        },
+        {
+          "size": {
+            "width": 540,
+            "height": 720
+          },
+          "screen": "shop",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "size": {
+            "width": 540,
+            "height": 720
+          },
+          "screen": "finance",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 540,
+            "height": 720
+          },
+          "screen": "training",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 540,
+            "height": 720
+          },
+          "screen": "transfers",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        }
+      ],
+      "offlineSavePreserved": true,
+      "errors": []
+    },
+    "sourceArchive": {
+      "archive": "ARENA-economy42-source.zip",
+      "sha256": "760b786a5969bf6d61efd921d9d788750f856305f39c1f1571343d4ad39c0c93",
+      "bytes": 3313266,
+      "files": 378,
+      "branch": "arena-economy42-source",
+      "commit": "b0fefeb22477752fd74393b0ca08b2de2465f3e7",
+      "url": "https://github.com/Abror1111/arena-manager-beta/raw/b0fefeb22477752fd74393b0ca08b2de2465f3e7/ARENA-economy42-source.zip",
+      "reproducibleBuild": true
+    },
+    "archiveBuildByteIdentical": true,
+    "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
+    "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/400308f9145dc92d75f2685dde1ca22ecf8903bf/remix31/validation.json",
+    "geometryPathsStreetModelsSpawnsMusicAndCoversUnchanged": true,
+    "oldUILayoutPreserved": true,
+    "offlineCoinsOnly": true,
+    "realMoneyPaymentsAdded": false,
+    "serverAuthoritativeCurrency": false,
+    "legalClearanceClaim": false,
+    "directPagesHTTPVerified": false,
+    "physicalDeviceFPSMeasured": false,
+    "APKUnchanged": true
+  },
+  "protectedRootAuthoredAnd209ParentFilesMatched": true,
+  "productionBotUnchanged": true,
+  "publicBytes": 1073657953,
+  "headroom": 83871,
+  "notes": [
+    "User requested remaining shop and economic systems. Twelve fixed-price cosmetics including three original SVG crests, ownership filters, one-time collector reward, free equip and before/after purchase wallet confirmation. Cosmetics never change combat skills.",
+    "Finance v1 migrates to v2 without grants, ownership/ledger changes or match resets. Opening+income-expenses and ledger anchor/window both reconcile. Manual sale/objective overflow rejects atomically. Automatic capped match/season payout receipts show actual credited amounts and shortfall.",
+    "Persistent current-season market acquisition IDs prevent reselling/rebuying the same offer when history rolls off. Next-season names rotate, current owned names excluded. Transfer confirmation shows wallet/payroll before-after. Training quotes show actual gain at potential cap; facility upgrade requires concrete price confirmation. Sponsor expiry gets news/home notice.",
+    "24 deterministic economic Node tests and full inherited npm map/AI/C4/music regressions pass. Browser actual41 career migration, purchases/free equip/filter, collector claim, facility upgrade, transfer buy+sale, four phone/tablet sizes, no document/deck overflow and offline saved state pass. No physical-device performance measurement.",
+    "Existing eleven maps/sites41/name40/music40/covers39 and compiled shared original20 UI CSS preserved. Protected28 published files,209parent source files and working bot clean. Offline virtual currency remains client editable; no real-money payments, cashout, server-authoritative anti-cheat, newAPK or rights clearance claim.",
+    "Overlay disk full. Work is in RAM source /dev/shm/arena-manager-economy42, web /dev/shm/arena-manager-economy42-web, Git /dev/shm/arena-pages32, evidence /dev/shm/arena-economy42-tests. Durable sourceZIP and receipt on arena-economy42-source branch. Protected reference /workspace/shared/arena-tactics32-publication.json. Do not delete user assets or move persistent old Git refs to RAM-only objects. GitHub/raw allowed, direct github.io blocked; exact Pages action success verifies publication.",
+    "Initial commentary about bench match experience was incorrect and explicitly corrected; existing bench logic was preserved and tested. No bench implementation change."
+  ]
+}
