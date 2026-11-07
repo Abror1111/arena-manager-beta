@@ -1,0 +1,18 @@
+{
+  "result": "passed",
+  "applicationId": "uz.arena.manager.preview",
+  "versionCode": 151,
+  "versionName": "1.51-beta",
+  "bytes": 69674759,
+  "sha256": "02e25e035450e31de15014e5a1a7a7b56c3d41076499dab9aefe9a008dafd33b",
+  "zipCRCValid": true,
+  "bundledAssetHashesVerified": 100,
+  "signedDebugPreview": true,
+  "separateApplicationFromOldBeta": true,
+  "physicalDeviceInstalled": false,
+  "paidBillingAndAdsEnabled": false,
+  "firstMapBundled": true,
+  "other3DMapsNeedFirstDownload": true,
+  "nativeDirectoryEntryResolved": true,
+  "sameApplicationAndCertificateAs50": true
+}
