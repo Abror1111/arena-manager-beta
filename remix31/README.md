@@ -1,3 +1,15 @@
+# ARENA commerce45 — Android monetization TEST preview
+
+User selected Android GooglePlay+AdMob. Public web store remains explicitly TEST ONLY: no money charges, real ads, real subscriptions or server wallet. The core offline career is not ready to act as a real-money authority. No live service credentials or merchant accounts are bound.
+
+Expanded six-tab shop adds current market-player contracts with test stars/video tickets;3star packs;2thirty-day nonrenewing test passes with daily tickets;3portrait frames and roster +24energy recovery. Test resources separate from club coins, though test recruits/recovery change offline squad. Level/8player capacity/pending-game rules remain. Fixed offers, no random loot.18second original portrait montage is explicitly a demo video, not an ad. Early close earns nothing, local sandbox limit3videos/UTCday. Stars/tickets/frames/test receipts and test subscription survive save/load. Never migrate test balances into real paid account balances.
+
+android45 is a compiled integration library (AAR, not APK) using Billing8.0.0, MobileAds24.6.0 and UMP3.2.0. It queries localized Play details, handles purchase/pending/cancel/restore, monthly subscription base plans and account IDs, requests consent before ads, and waits for trusted Backend verification. Host Activity/backend integration remains. Server45 verifies Play status/account/expiry and raw AdMob ECDSA/SSV context; SQLite atomically deduplicates purchase/ad grants and enforces challenge/day limits. These are source foundations, not deployed HTTP services. Accounts/auth/recovery/HTTPS hosting, authoritative ownership migration, consume/ack jobs, refunds/voided/RTDN and internal Play testing remain prerequisites. See ANDROID-MONETIZATION45.md and native/server READMEs. Do not put credentials in web code/chat.
+
+51Node tests, browser local-test workflows and actual18second video plus offline/four viewport checks pass. Android AAR compiles against actual SDK dependencies; not exercised on physical device. Existing portrait44 assets, maps/music/old core UI and saved clubs preserved. Real-money activation still blocked by external setup and remaining host/lifecycle integration. No new gameAPK or source-map rights clearance claim.
+
+Previous44 source: https://github.com/Abror1111/arena-manager-beta/raw/ef0b8eede0934afa2814d2b351597a0c37caa78c/ARENA-portraits44-source.zip
+
 # ARENA portraits44 — distinct anime players
 
 72newly generated original adult anime esports portraits replace the old16face atlas. Two6x6sheets,1254x1254 each,209x209per character. Full-quality WebP atlases are immutable SHA-verified assets from arena-portraits44-art;288x288small atlas fallbacks are embedded for first-load/offline failure. Runtime downloads total about802KiB and use existing verified cache. Both source PNGs retained in art44/ with creation provenance.
@@ -130,6 +142,6 @@ Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-
 
 The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
 
-Version44 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/ef0b8eede0934afa2814d2b351597a0c37caa78c/ARENA-portraits44-source.zip
-SHA256: 93020b57ee59560e69b129e1ee021fbf575473123a146d80104d879eb4ed2751
-Final receipt: arena-portraits44-source/publication44.json.
+Version45 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/f488910babcf7219b91680ad586be60fb43e435a/ARENA-commerce45-source.zip
+SHA256: 7f8cf2613328025e83f6966980f70da70445cf373af0aa64a41fddf05fe55cda
+Final receipt: arena-commerce45-source/publication45.json.

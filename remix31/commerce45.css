@@ -1,0 +1,27 @@
+
+.commerce-tabs45{overflow-x:auto;flex:none;scrollbar-width:none;white-space:nowrap;max-width:100%}
+.commerce-tabs45 button{flex:none!important;padding:10px 14px;white-space:nowrap}
+.commerce-status45{display:flex;justify-content:space-between;gap:12px;font-size:12px;padding:10px 4px;color:#d9c08b;flex:none}
+.commerce-status45>span:last-child{font-size:10px;letter-spacing:1px}
+.commerce-banner45{border:1px solid #bca47855;background:linear-gradient(110deg,#8f77391c,#274c5d28);padding:14px 16px;border-radius:12px;margin:0 0 14px}
+.commerce-banner45 strong{color:#ddc38b;font-size:11px;letter-spacing:1px}
+.commerce-banner45 p{color:#a9bdca;font-size:12px;line-height:1.6;margin:6px 0}
+.commerce-grid45{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:14px;padding-bottom:18px}
+.commerce-card45{padding:18px;display:flex;flex-direction:column;gap:10px;border:1px solid #a8bfd522;border-radius:14px;background:linear-gradient(140deg,#203440,#142631)}
+.commerce-card45 h2{font-size:19px;margin:0;letter-spacing:.2px}
+.commerce-card45 p{font-size:12px;line-height:1.7;color:#b4c7d3;margin:0}
+.commerce-card45>small{font-size:10px;color:#8da7b8;line-height:1.6}
+.commerce-art45{height:100px;display:grid;place-items:center;font-size:48px;color:#e0c089;background:radial-gradient(ellipse,#9f855923,transparent 70%)}
+.commerce-price45{font-size:23px;color:#e3c48a;margin:3px 0}
+.commerce-price45 small{font-size:11px;color:#a6bdcc;font-weight:400}
+.commerce-player45{width:84px;height:96px;overflow:hidden;border-radius:9px}
+.commerce-history45{border-top:1px solid #ffffff16;padding:15px 4px;font-size:11px;color:#a7bdcb}
+.commerce-history45 p{padding:6px 0;margin:0}
+.commerce-video45 video{display:block;width:100%;max-height:190px;aspect-ratio:16/9;object-fit:contain;background:#07121b;border-radius:8px}
+.player-photo[data-frame=cyan]{box-shadow:inset 0 0 0 2px #7bc9ed}
+.player-photo[data-frame=violet]{box-shadow:inset 0 0 0 2px #bc96ed}
+.player-photo[data-frame=gold]{box-shadow:inset 0 0 0 2px #dfc389}
+@media(max-height:450px){.commerce-video45 video{max-height:130px}.commerce-card45{padding:14px}.commerce-art45{height:96px}.commerce-banner45{padding:10px 12px}}
+
+
+.commerce-video45{position:relative}.commerce-video45>button{position:absolute;bottom:8px;right:8px;padding:7px 12px;font-size:11px;box-shadow:0 3px 15px #0008}

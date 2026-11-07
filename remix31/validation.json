@@ -1,125 +1,182 @@
 {
   "result": "passed",
-  "version": "portraits44",
-  "baseCommit": "159a2d80a37e00a5775ebae9be4bd7ad69199bf6",
-  "newGeneratedAnimePortraits": 72,
-  "atlasSheets": 2,
-  "clubFaceSlots": 47,
-  "namedOpponentFaces": 25,
-  "portraitNodeTests": 7,
-  "academyAndEconomicNodeTests": 31,
-  "all38NodeTestsPassed": true,
+  "version": "commerce45",
+  "baseCommit": "e62ffdd872e5594c2a2016b51bf8c9036e7f0cae",
+  "platformSelected": "Android GooglePlay+AdMob",
+  "liveCheckoutEnabled": false,
+  "realMoneyCharged": false,
+  "realAdRequestsEnabled": false,
+  "publicMode": "explicit offline TEST only",
+  "nodeTestsPassed": 51,
+  "android": {
+    "result": "passed",
+    "task": ":commerce:assembleDebug",
+    "artifact": "commerce-debug.aar",
+    "bytes": 15492,
+    "sha256": "5768b01ec401218564d2b84d15c1970300d4255f7b3e726a963591a73353e54b",
+    "billing": "8.0.0",
+    "ads": "24.6.0",
+    "ump": "3.2.0",
+    "installableAPK": false,
+    "liveBackendConfigured": false,
+    "physicalDeviceTested": false
+  },
   "browser": {
     "result": "passed",
-    "freshZeroPlayers": true,
-    "fivePaidTransfers": true,
-    "interruptedRecruitmentResumed": true,
-    "mandatoryTrainingRestTacticsRewardShop": true,
-    "actualBattleRendered": true,
-    "practiceSettlement": "deterministic test outcome",
-    "onceOnly400XP": true,
-    "marketOffersRemaining": 31,
-    "levelLocks": true,
+    "explicitTestOnly": true,
+    "realMoneyCharged": false,
+    "oldClubCoinsPreserved": true,
+    "canceledPurchaseNoGrant": true,
+    "starPack": true,
+    "playerContract": true,
+    "frameStarsAndTickets": true,
+    "recovery": true,
+    "premiumActivationDailyAndCancel": true,
+    "earlyVideoCloseNoReward": true,
+    "actual18secondVideoReward": true,
+    "offlineVideoAndSave": true,
     "fits": [
       {
+        "tab": "Market",
         "w": 844,
         "h": 390,
         "sw": 844,
-        "sh": 390,
-        "overflow": "0"
+        "sh": 390
       },
       {
+        "tab": "Video",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390
+      },
+      {
+        "tab": "Premium",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390
+      },
+      {
+        "tab": "O\u2018yinchilar",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390
+      },
+      {
+        "tab": "Emblemalar",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390
+      },
+      {
+        "tab": "Market",
         "w": 390,
         "h": 844,
         "sw": 390,
-        "sh": 844,
-        "overflow": "0"
+        "sh": 844
       },
       {
+        "tab": "Video",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844
+      },
+      {
+        "tab": "Premium",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844
+      },
+      {
+        "tab": "O\u2018yinchilar",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844
+      },
+      {
+        "tab": "Emblemalar",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844
+      },
+      {
+        "tab": "Market",
         "w": 768,
         "h": 1024,
         "sw": 768,
-        "sh": 1024,
-        "overflow": "0"
+        "sh": 1024
       },
       {
+        "tab": "Video",
+        "w": 768,
+        "h": 1024,
+        "sw": 768,
+        "sh": 1024
+      },
+      {
+        "tab": "Premium",
+        "w": 768,
+        "h": 1024,
+        "sw": 768,
+        "sh": 1024
+      },
+      {
+        "tab": "O\u2018yinchilar",
+        "w": 768,
+        "h": 1024,
+        "sw": 768,
+        "sh": 1024
+      },
+      {
+        "tab": "Emblemalar",
+        "w": 768,
+        "h": 1024,
+        "sw": 768,
+        "sh": 1024
+      },
+      {
+        "tab": "Market",
         "w": 540,
         "h": 720,
         "sw": 540,
-        "sh": 720,
-        "overflow": "0"
+        "sh": 720
+      },
+      {
+        "tab": "Video",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720
+      },
+      {
+        "tab": "Premium",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720
+      },
+      {
+        "tab": "O\u2018yinchilar",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720
+      },
+      {
+        "tab": "Emblemalar",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720
       }
     ],
-    "battleAvatars": [
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      }
-    ],
-    "uniqueTransferFaces": 31,
-    "battleFacesMatchRoster": [
-      "12",
-      "13",
-      "14",
-      "15",
-      "16"
-    ],
-    "offlineFullPortraits": true,
-    "menuAvatarSize": {
-      "w": 84,
-      "h": 96
-    },
-    "squadSize": {
-      "w": 84,
-      "h": 96
-    },
-    "offlinePreserved": true,
     "errors": []
   },
   "legacyClubBrowser": {
@@ -322,89 +379,41 @@
     "offlineSavePreserved": true,
     "errors": []
   },
-  "artPublication": {
-    "branch": "arena-portraits44-art",
-    "commit": "4fc1c9fbe933dec9f82ca605c9aebf82e32da346",
-    "prefix": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/4fc1c9fbe933dec9f82ca605c9aebf82e32da346/portraits44/",
-    "manifest": [
-      {
-        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/4fc1c9fbe933dec9f82ca605c9aebf82e32da346/portraits44/portraits44-a.webp",
-        "bytes": 424208,
-        "sha256": "99b5ba74e304a042f66e0f444157b6aa4e8212bc97507f44d840bfe53c16ac15",
-        "width": 1254,
-        "height": 1254,
-        "rows": 6,
-        "columns": 6
-      },
-      {
-        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/4fc1c9fbe933dec9f82ca605c9aebf82e32da346/portraits44/portraits44-b.webp",
-        "bytes": 396016,
-        "sha256": "4c889926b50a0c5d22192a250fe138345b77bd60baddbbc64cf7676b31fcfc78",
-        "width": 1254,
-        "height": 1254,
-        "rows": 6,
-        "columns": 6
-      }
-    ],
-    "metadata": {
-      "version": "portraits44",
-      "format": "two6x6sheets",
-      "count": 72,
-      "style": "Original anime adult esports cast",
-      "creationTool": "image_gen.imagegen",
-      "sourceImages": [
-        "exec-0eaba1dd-aff4-4e8e-ad98-1b0759bcf410.png",
-        "exec-be266713-2dcf-444f-96cc-70e8ebb9aea8.png"
-      ],
-      "intent": "Each grid tile a distinct person with different facial structure, hair silhouette, age, skin tone and accessories. Not recolors of the old16faces. Original full PNGs retained; WebP88 quality runtime sheets and288x288 WebP55 embedded fallbacks.",
-      "files": {
-        "portraits44-a-preview.webp": {
-          "bytes": 20526,
-          "sha256": "2247cdeb4743ec1e4e6e726a47a7326cdaf57da9fc72d6456c65b30c9be694d4"
-        },
-        "portraits44-a.png": {
-          "bytes": 3082728,
-          "sha256": "ea251dbcde8364d67fcedfdfdc8197f127eb04e42805d8c28e169e6e45c7cc8c"
-        },
-        "portraits44-a.webp": {
-          "bytes": 424208,
-          "sha256": "99b5ba74e304a042f66e0f444157b6aa4e8212bc97507f44d840bfe53c16ac15"
-        },
-        "portraits44-b-preview.webp": {
-          "bytes": 19636,
-          "sha256": "536a976538a6e7d003bba1d69690360ec1a0efabbe59548b7d1fb3c4d80a2c56"
-        },
-        "portraits44-b.png": {
-          "bytes": 2974375,
-          "sha256": "bffafb438460b0e621f5d78d8d19109a2b7a1a648cc18d46bd794409e1ee5185"
-        },
-        "portraits44-b.webp": {
-          "bytes": 396016,
-          "sha256": "4c889926b50a0c5d22192a250fe138345b77bd60baddbbc64cf7676b31fcfc78"
-        }
-      }
+  "demoVideo": {
+    "branch": "arena-commerce45-media",
+    "commit": "53ed9a93bb03a840d09fb9c62dc4f37fef4ec797",
+    "prefix": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/53ed9a93bb03a840d09fb9c62dc4f37fef4ec797/media45/",
+    "entry": {
+      "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/53ed9a93bb03a840d09fb9c62dc4f37fef4ec797/media45/reward-demo45.webm",
+      "bytes": 255798,
+      "sha256": "f254ef50587f1275c642cf015182872324899b98d4143f5aad1c23156911aeca",
+      "duration": 18,
+      "kind": "original-demo-video",
+      "advertising": false,
+      "source": "Original generated portrait44 atlasA, FFmpeg zoom/title animation, no ad network or paid impressions."
     }
   },
-  "uniqueArtTileSignatures": 72,
   "sourceArchive": {
-    "archive": "ARENA-portraits44-source.zip",
-    "sha256": "93020b57ee59560e69b129e1ee021fbf575473123a146d80104d879eb4ed2751",
-    "bytes": 11207896,
-    "files": 425,
-    "branch": "arena-portraits44-source",
-    "commit": "ef0b8eede0934afa2814d2b351597a0c37caa78c",
-    "url": "https://github.com/Abror1111/arena-manager-beta/raw/ef0b8eede0934afa2814d2b351597a0c37caa78c/ARENA-portraits44-source.zip",
+    "archive": "ARENA-commerce45-source.zip",
+    "sha256": "7f8cf2613328025e83f6966980f70da70445cf373af0aa64a41fddf05fe55cda",
+    "bytes": 11159507,
+    "files": 462,
+    "branch": "arena-commerce45-source",
+    "commit": "f488910babcf7219b91680ad586be60fb43e435a",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/f488910babcf7219b91680ad586be60fb43e435a/ARENA-commerce45-source.zip",
     "reproducibleBuild": true
   },
   "archiveBuildByteIdentical": true,
   "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
-  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/159a2d80a37e00a5775ebae9be4bd7ad69199bf6/remix31/validation.json",
-  "geometryPathsStreetModelsSpawnsMusicAndCoversUnchanged": true,
-  "layoutAndPortraitSizesUnchangedFrom43": true,
-  "onlyVisualSaveMetadataAdded": true,
-  "currencySkillsAndPendingMatchStatePreserved": true,
-  "realMoneyPaymentsAdded": false,
-  "serverAuthoritativeCurrency": false,
+  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/e62ffdd872e5594c2a2016b51bf8c9036e7f0cae/remix31/validation.json",
+  "mapsMusicPortraitArtAndExistingClubCoinsPreserved": true,
+  "realPaymentIntegrationRemaining": [
+    "hosted authenticated account/ownership server",
+    "PlayConsole/AdMob product and app configuration",
+    "native host/backend integration",
+    "consume/ack/refund/voided/RTDN lifecycle",
+    "Play internal-track/device purchase and SSV tests"
+  ],
   "legalClearanceClaim": false,
   "directPagesHTTPVerified": false,
   "physicalDeviceFPSMeasured": false,

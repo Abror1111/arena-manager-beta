@@ -1,5 +1,5 @@
 {
-  "version": "portraits44",
+  "version": "commerce45",
   "direction": "User explicitly selected original11 source-map remix after independently authored harbour30 work.",
   "legalClearanceClaim": false,
   "sourceGeometryReused": true,
@@ -89,5 +89,11 @@
     "47club/transfer slots and25opponent slots; persistent per-roster/per-season visual indices avoid collisions among36offers and retained squad, including legacy same-index multi-season recruits",
     "Player portrait provider preserves matching face in transfer/squad, battle panels and world labels; enemy slot IDs disambiguated using player names",
     "Visual-only save metadata added; currency/skills/saved match state/geometry/audio/UI layout unchanged; verified asset cache and shellv14 for loader44"
+  ],
+  "changes45": [
+    "Expanded shop with star-funded/video-ticket player contracts, three test star packs, two30day test subscription plans with daily bonuses, portrait frames and roster energy recovery",
+    "Explicit optional TEST-only local commerce ledger; no real money charged, no real AdMob requests, no live account or billing enabled; old club wallet remains separate",
+    "18second original demo video from generated portrait artwork, verified asset cache; early-close/pause/seek guards and3/day local test ticket limit",
+    "Google Play/AdMob Android SDK library compiles toAAR; separate server verifier/SQLite receipt foundation tested, but hosting/auth/ack/refund/RTDN/ownership migration and app integration remain prerequisites to real launch"
   ]
 }
