@@ -1,14 +1,14 @@
 {
   "assets": [
     "assets/audio-pack-worker-D9xylAYG.js",
-    "assets/main-CzyAUyCP.js.bin",
+    "assets/main-BuNjZ1jT.js.bin",
     "assets/native-data31-CUOX1azu.js"
   ],
   "shared": [
     "../original20/assets/index-CVBt3UIp.css",
     "../ui15/anime-player-portraits.png"
   ],
-  "mainUncompressedSHA256": "29b258c6f0e2b8f632f88af9399800afcfbe75f6f2df51ff14a7d7815b18659c",
-  "packedSHA256": "9b794890b609c8c2736774a3a08aa708da93f0d04df893ecd1a9c38697f04a58",
+  "mainUncompressedSHA256": "f11c556e2092d963eb8f05942a31ada9d5af476f7f1f148c22222d93f5061224",
+  "packedSHA256": "25822bcfa2e55a694b3f6a97a44bf5e5969a1d20c3e23d4aa525c4a81500d989",
   "css": "Same preserved original20 compiled CSS"
 }

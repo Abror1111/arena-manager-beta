@@ -1,7 +1,8 @@
-# ARENA Manager1.49
+# ARENA Manager1.50
 
-5distinct club skins across the game;8original transparent portrait frames shared by collection/squad/battle;9department illustrations;36distinct weapon icons.10screens,launch/tutorial/dialogs/loading/HUD restyled.71Node tests,50viewport fits,48SWupgrade/offline and extractedAPK checks pass.
-Source: https://github.com/Abror1111/arena-manager-beta/raw/55387a4e0ecd518ef2c28bd3bef3af2377adc95d/ARENA-visual49-source.zip
-Android149: https://github.com/Abror1111/arena-manager-beta/raw/c1e4a78016918a2c28e2c312891fea6538581c96/ARENA-Manager-1.49-preview.apk
-Full evidence and provenance: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/arena-visual49-source/publication49.json
-Preview: other3Dmaps need firstdownload; no physicalAndroidFPS/livebilling/rights-clearance claim.
+Proportional portraits/frames and consistent avatar sizes; licensed Manrope variable font; refined typography,colors,contrast,focus/touchstates across all10screens.71Node tests,50viewportfits,portraitgeometry/5themecontrast,49SWupgrade/offline and extractedAPK checks pass.
+Source: https://github.com/Abror1111/arena-manager-beta/raw/81151e84c67dad300ce7698788606b5c9e49bef3/ARENA-polish50-source.zip
+Android150: https://github.com/Abror1111/arena-manager-beta/raw/6d6e51c562b94ffc75020dc7f1673c93b86675c2/ARENA-Manager-1.50-preview.apk
+Full evidence/history: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/arena-polish50-source/publication50.json
+Font license: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/5fbbaf50f878f7db38ee4fae672ddafbbdea2357/art50/OFL.txt
+Preview: other3Dmaps needfirstdownload; no physicalAndroidFPS/livebilling/rights-clearanceclaim.
