@@ -6,7 +6,7 @@ The club shop now opens on a coherent Supply market: original SVG product illust
 
 Player contracts retain level/8player restrictions and now show consistent original anime portraits, OVR,3 skill bars, role, potential, salary and prices. Name search, role/open-only filters and price/rating sorting work. Club/Pro passes still last10completedofficialseries and use earned stars. Six reward goals and existing themes/emblems remain available. TEST laboratory stays temporary and isolated.
 
-65Node tests pass including4new bundle/migration/atomicity/frame tests and61existing, plus preserved custom regression scripts. Browser checks cancellation, fixed bundle ownership/ledger, mobile checkout,8frames/exchange, player filters/unlocks/contracts, pass/goal/old theme purchases, five viewport sizes280–1024px and offline persistence. No frame-rate claim. Source ZIP web rebuild is byte-identical.
+65Node tests pass including4new bundle/migration/atomicity/frame tests and61existing, plus preserved custom regression scripts. Browser checks cancellation, fixed bundle ownership/ledger, mobile checkout,8frames/exchange, player filters/unlocks/contracts, pass/goal/old theme purchases, five viewport sizes280–1024px and offline persistence. Actual46ServiceWorker→47 upgrade verifies the new design on first navigation while the old worker still controls, then cached offline after activation. Versioned shopCSS and fresh install fetches prevent stale shell files. No frame-rate claim. Source ZIP web rebuild is byte-identical.
 
 Node22+/Python3: install exact package.json dependencies, `npm test`; build with `ARENA_MANAGER_OUT=/tmp/arena47-web npm run build` then `python pack-web31.py /tmp/arena47-web`. Serve at /arena-manager-beta/remix31/ with existing shared root assets. No new heavyweight art downloads: product graphics are inline SVG and portraits reuse verified original atlases.
 
@@ -14,7 +14,7 @@ Android Preview1.47 uses the same application ID/signing certificate as1.46 and 
 
 PlayConsole/AdMob are deferred by user. No real payment/ad activation, commercial-release readiness or source-map rights clearance claim. Case bot and parent sources remain untouched. Prior46 source and receipt: https://github.com/Abror1111/arena-manager-beta/tree/arena-career46-source .
 
-Source: https://github.com/Abror1111/arena-manager-beta/raw/0fe7b07357db89bc9eaf8a630527af34cc40df27/ARENA-market47-source.zip
-SHA256: c2e6ea08b0642ab1cfae82ec45154714c55a68b57cadc29263fa254a3aae5f27
+Source: https://github.com/Abror1111/arena-manager-beta/raw/c0981556d3feb169eefc504a24adec8dc6b6a4e1/ARENA-market47-source.zip
+SHA256: 6a635113a6daa42ce4e4d8240b954ed15c06dfb61c85fc61fb36e43a666c7cda
 Receipt: arena-market47-source/publication47.json
-APK: https://github.com/Abror1111/arena-manager-beta/raw/51469bdbf10603d531d16ae1a9608feaafd3c1b4/ARENA-Manager-1.47-preview.apk
+APK: https://github.com/Abror1111/arena-manager-beta/raw/3758a613ff2e3dc506ff67c6ea73e90af97ff09d/ARENA-Manager-1.47-preview.apk

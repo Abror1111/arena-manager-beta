@@ -106,6 +106,7 @@
     "Shop-only Supply redesign with original inlineSVG art, wallet/categories, responsive cards and explicit preview/ownership/checkout states",
     "3fixed one-time clubcoin bundles,8permanent portrait frames; atomic ledger/migration/export protections; no real purchases or random loot",
     "Anime player contract cards with role/OVR/skills/salary; search/role/open-only/sort; pass/goals and previous theme/crest shop preserved",
-    "65Node tests and5viewport/offline/mobilecheckout checks; signed Androidpreview1.47 shares1.46certificate; no physicaldeviceclaim"
+    "65Node tests and5viewport/offline/mobilecheckout checks; signed Androidpreview1.47 shares1.46certificate; no physicaldeviceclaim",
+    "Versioned shop CSS and fresh shell install fetches prevent stale46cache on first navigation and preserve offline upgrade; actual46ServiceWorker migration verified"
   ]
 }
