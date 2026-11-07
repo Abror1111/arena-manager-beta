@@ -1,22 +1,128 @@
 {
   "result": "passed",
-  "version": "academy43",
-  "baseCommit": "8076b124c38860a8c2ff127051e127c6e0aaf9cb",
-  "financeVersion": 2,
-  "academyNodeTests": 7,
-  "economicNodeTests": 24,
-  "fullInheritedRegressionPassed": true,
-  "marketOffers": 36,
-  "levelThresholds": [
-    1,
-    2,
-    4,
-    7,
-    10
-  ],
-  "tutorialSteps": 9,
-  "tutorialFreshOnly": true,
-  "oldClubBrowser": {
+  "version": "portraits44",
+  "baseCommit": "159a2d80a37e00a5775ebae9be4bd7ad69199bf6",
+  "newGeneratedAnimePortraits": 72,
+  "atlasSheets": 2,
+  "clubFaceSlots": 47,
+  "namedOpponentFaces": 25,
+  "portraitNodeTests": 7,
+  "academyAndEconomicNodeTests": 31,
+  "all38NodeTestsPassed": true,
+  "browser": {
+    "result": "passed",
+    "freshZeroPlayers": true,
+    "fivePaidTransfers": true,
+    "interruptedRecruitmentResumed": true,
+    "mandatoryTrainingRestTacticsRewardShop": true,
+    "actualBattleRendered": true,
+    "practiceSettlement": "deterministic test outcome",
+    "onceOnly400XP": true,
+    "marketOffersRemaining": 31,
+    "levelLocks": true,
+    "fits": [
+      {
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390,
+        "overflow": "0"
+      },
+      {
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844,
+        "overflow": "0"
+      },
+      {
+        "w": 768,
+        "h": 1024,
+        "sw": 768,
+        "sh": 1024,
+        "overflow": "0"
+      },
+      {
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720,
+        "overflow": "0"
+      }
+    ],
+    "battleAvatars": [
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      }
+    ],
+    "uniqueTransferFaces": 31,
+    "battleFacesMatchRoster": [
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "offlineFullPortraits": true,
+    "menuAvatarSize": {
+      "w": 84,
+      "h": 96
+    },
+    "squadSize": {
+      "w": 84,
+      "h": 96
+    },
+    "offlinePreserved": true,
+    "errors": []
+  },
+  "legacyClubBrowser": {
     "result": "passed",
     "legacyMigration": {
       "from": 1,
@@ -216,133 +322,87 @@
     "offlineSavePreserved": true,
     "errors": []
   },
-  "shopItems": 12,
-  "oneTimeCollectorReward": 500,
-  "legacySaveWalletOwnershipAndLedgerPreserved": true,
-  "automaticPayoutsShowActualCredits": true,
-  "manualOverflowAtomic": true,
-  "transferOffersPersistAfterHistoryEviction": true,
-  "browser": {
-    "result": "passed",
-    "freshZeroPlayers": true,
-    "fivePaidTransfers": true,
-    "interruptedRecruitmentResumed": true,
-    "mandatoryTrainingRestTacticsRewardShop": true,
-    "actualBattleRendered": true,
-    "practiceSettlement": "deterministic test outcome",
-    "onceOnly400XP": true,
-    "marketOffersRemaining": 31,
-    "levelLocks": true,
-    "fits": [
+  "artPublication": {
+    "branch": "arena-portraits44-art",
+    "commit": "4fc1c9fbe933dec9f82ca605c9aebf82e32da346",
+    "prefix": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/4fc1c9fbe933dec9f82ca605c9aebf82e32da346/portraits44/",
+    "manifest": [
       {
-        "w": 844,
-        "h": 390,
-        "sw": 844,
-        "sh": 390,
-        "overflow": "0"
+        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/4fc1c9fbe933dec9f82ca605c9aebf82e32da346/portraits44/portraits44-a.webp",
+        "bytes": 424208,
+        "sha256": "99b5ba74e304a042f66e0f444157b6aa4e8212bc97507f44d840bfe53c16ac15",
+        "width": 1254,
+        "height": 1254,
+        "rows": 6,
+        "columns": 6
       },
       {
-        "w": 390,
-        "h": 844,
-        "sw": 390,
-        "sh": 844,
-        "overflow": "0"
-      },
-      {
-        "w": 768,
-        "h": 1024,
-        "sw": 768,
-        "sh": 1024,
-        "overflow": "0"
-      },
-      {
-        "w": 540,
-        "h": 720,
-        "sw": 540,
-        "sh": 720,
-        "overflow": "0"
+        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/4fc1c9fbe933dec9f82ca605c9aebf82e32da346/portraits44/portraits44-b.webp",
+        "bytes": 396016,
+        "sha256": "4c889926b50a0c5d22192a250fe138345b77bd60baddbbc64cf7676b31fcfc78",
+        "width": 1254,
+        "height": 1254,
+        "rows": 6,
+        "columns": 6
       }
     ],
-    "battleAvatars": [
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
-      },
-      {
-        "w": 29,
-        "h": 35.09375,
-        "display": "block"
+    "metadata": {
+      "version": "portraits44",
+      "format": "two6x6sheets",
+      "count": 72,
+      "style": "Original anime adult esports cast",
+      "creationTool": "image_gen.imagegen",
+      "sourceImages": [
+        "exec-0eaba1dd-aff4-4e8e-ad98-1b0759bcf410.png",
+        "exec-be266713-2dcf-444f-96cc-70e8ebb9aea8.png"
+      ],
+      "intent": "Each grid tile a distinct person with different facial structure, hair silhouette, age, skin tone and accessories. Not recolors of the old16faces. Original full PNGs retained; WebP88 quality runtime sheets and288x288 WebP55 embedded fallbacks.",
+      "files": {
+        "portraits44-a-preview.webp": {
+          "bytes": 20526,
+          "sha256": "2247cdeb4743ec1e4e6e726a47a7326cdaf57da9fc72d6456c65b30c9be694d4"
+        },
+        "portraits44-a.png": {
+          "bytes": 3082728,
+          "sha256": "ea251dbcde8364d67fcedfdfdc8197f127eb04e42805d8c28e169e6e45c7cc8c"
+        },
+        "portraits44-a.webp": {
+          "bytes": 424208,
+          "sha256": "99b5ba74e304a042f66e0f444157b6aa4e8212bc97507f44d840bfe53c16ac15"
+        },
+        "portraits44-b-preview.webp": {
+          "bytes": 19636,
+          "sha256": "536a976538a6e7d003bba1d69690360ec1a0efabbe59548b7d1fb3c4d80a2c56"
+        },
+        "portraits44-b.png": {
+          "bytes": 2974375,
+          "sha256": "bffafb438460b0e621f5d78d8d19109a2b7a1a648cc18d46bd794409e1ee5185"
+        },
+        "portraits44-b.webp": {
+          "bytes": 396016,
+          "sha256": "4c889926b50a0c5d22192a250fe138345b77bd60baddbbc64cf7676b31fcfc78"
+        }
       }
-    ],
-    "menuAvatarSize": {
-      "w": 84,
-      "h": 96
-    },
-    "squadSize": {
-      "w": 84,
-      "h": 96
-    },
-    "offlinePreserved": true,
-    "errors": []
+    }
   },
+  "uniqueArtTileSignatures": 72,
   "sourceArchive": {
-    "archive": "ARENA-academy43-source.zip",
-    "sha256": "6a12e9d61a9cc722ed1af5673f9748c0677fdc5af96927051af2b938fc6f6262",
-    "bytes": 4300661,
-    "files": 397,
-    "branch": "arena-academy43-source",
-    "commit": "9d235ebd12ac3305b08a1923a2368673f657c4f2",
-    "url": "https://github.com/Abror1111/arena-manager-beta/raw/9d235ebd12ac3305b08a1923a2368673f657c4f2/ARENA-academy43-source.zip",
+    "archive": "ARENA-portraits44-source.zip",
+    "sha256": "93020b57ee59560e69b129e1ee021fbf575473123a146d80104d879eb4ed2751",
+    "bytes": 11207896,
+    "files": 425,
+    "branch": "arena-portraits44-source",
+    "commit": "ef0b8eede0934afa2814d2b351597a0c37caa78c",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/ef0b8eede0934afa2814d2b351597a0c37caa78c/ARENA-portraits44-source.zip",
     "reproducibleBuild": true
   },
   "archiveBuildByteIdentical": true,
   "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
-  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/8076b124c38860a8c2ff127051e127c6e0aaf9cb/remix31/validation.json",
+  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/159a2d80a37e00a5775ebae9be4bd7ad69199bf6/remix31/validation.json",
   "geometryPathsStreetModelsSpawnsMusicAndCoversUnchanged": true,
-  "oldUIStructureAndSharedCSSPreserved": true,
-  "scopedPortraitAndAcademyCSSAdded": true,
-  "offlineCoinsOnly": true,
+  "layoutAndPortraitSizesUnchangedFrom43": true,
+  "onlyVisualSaveMetadataAdded": true,
+  "currencySkillsAndPendingMatchStatePreserved": true,
   "realMoneyPaymentsAdded": false,
   "serverAuthoritativeCurrency": false,
   "legalClearanceClaim": false,

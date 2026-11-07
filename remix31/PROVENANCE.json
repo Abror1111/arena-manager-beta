@@ -1,5 +1,5 @@
 {
-  "version": "academy43",
+  "version": "portraits44",
   "direction": "User explicitly selected original11 source-map remix after independently authored harbour30 work.",
   "legalClearanceClaim": false,
   "sourceGeometryReused": true,
@@ -83,5 +83,11 @@
     "36 stable season offers with level1/2/4/7/10 unlocks enforced on purchase and visible in transfer UI; existing first6offer generation retained",
     "Compact consistent anime menu portraits and visible fitted landscape battle sides; stable profile ID shared across menus/world labels/battle; original shared UI stylesheet retained with scoped academy43 addon",
     "Offline shellv13 caches the new stylesheet and loader43; incomplete recruitment and tutorial save/load validated"
+  ],
+  "changes44": [
+    "72 newly generated original anime portrait tiles in two6x6atlases replace old16repeating faces; fullWebP runtime files pinned to art branch, low-resolution previews embedded for immediate/offline fallback",
+    "47club/transfer slots and25opponent slots; persistent per-roster/per-season visual indices avoid collisions among36offers and retained squad, including legacy same-index multi-season recruits",
+    "Player portrait provider preserves matching face in transfer/squad, battle panels and world labels; enemy slot IDs disambiguated using player names",
+    "Visual-only save metadata added; currency/skills/saved match state/geometry/audio/UI layout unchanged; verified asset cache and shellv14 for loader44"
   ]
 }

@@ -1,3 +1,13 @@
+# ARENA portraits44 — distinct anime players
+
+72newly generated original adult anime esports portraits replace the old16face atlas. Two6x6sheets,1254x1254 each,209x209per character. Full-quality WebP atlases are immutable SHA-verified assets from arena-portraits44-art;288x288small atlas fallbacks are embedded for first-load/offline failure. Runtime downloads total about802KiB and use existing verified cache. Both source PNGs retained in art44/ with creation provenance.
+
+Slots0–46 serve club/transfer players and47–71 the25named opponents. Every roster member and each of36market offers gets a persistent visual index. New-season offer allocation excludes retained roster faces, with current-season bought profiles retaining their purchased face. Old saves gain only portrait metadata; old multi-season16face collisions resolve to free slots. Opponent slot IDs are disambiguated by name. React portrait context uses saved profile ID in all menu/battle/world-label locations, keeping old pending match snapshots unchanged.
+
+38economic/academy/portrait Node tests and fresh+legacy browser tests pass. Verification44 records four viewport layouts,31remaining market-face identities, saved roster/battle equality, unique first5faces, actual3D render and full-quality offline restoration. UI size/style from43 stays, maps/audio/game state/coin balance unchanged. Existing16face artwork remains physically preserved for old pages, but44 PlayerAvatar no longer references it. No newAPK, real-money feature or source-map rights clearance.
+
+Previous43 source: https://github.com/Abror1111/arena-manager-beta/raw/9d235ebd12ac3305b08a1923a2368673f657c4f2/ARENA-academy43-source.zip
+
 # ARENA academy43 — first-club tutorial and level-gated transfers
 
 Fresh browser storage starts with zero players and12,000club coins. Nine saved tutorial steps teach five paid800–1000coin novice recruits, active lineup, training, rest, tactical choice, scout objective, fixed-price cosmetic purchase and one full nonforfeit practice match. A once-only400XP completion award unlocks level2offers. Existing saved clubs and unfinished matches are not reset or forced into the guide. createCareer() remains the established-club compatibility/test constructor; loadCareer fresh fallback uses createNewCareer().
@@ -120,6 +130,6 @@ Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-
 
 The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
 
-Version43 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/9d235ebd12ac3305b08a1923a2368673f657c4f2/ARENA-academy43-source.zip
-SHA256: 6a12e9d61a9cc722ed1af5673f9748c0677fdc5af96927051af2b938fc6f6262
-Final receipt: arena-academy43-source/publication43.json.
+Version44 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/ef0b8eede0934afa2814d2b351597a0c37caa78c/ARENA-portraits44-source.zip
+SHA256: 93020b57ee59560e69b129e1ee021fbf575473123a146d80104d879eb4ed2751
+Final receipt: arena-portraits44-source/publication44.json.
