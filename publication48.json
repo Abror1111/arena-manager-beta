@@ -1,0 +1,721 @@
+{
+  "version": "missions48",
+  "date": "2026-11-07",
+  "timezone": "Asia/Tashkent",
+  "url": "https://abror1111.github.io/arena-manager-beta/remix31/?v=48",
+  "commit": "e89156afdb5a580ff8f180bd31c57021ab163387",
+  "baseline": "17bbb679d62cab9165af4b7ffbdc0d91af13c210",
+  "actions": {
+    "branch": "main",
+    "runId": "42395787288",
+    "runUrl": "https://github.com/Abror1111/arena-manager-beta/actions/runs/42395787288",
+    "commit": "e89156afdb5a580ff8f180bd31c57021ab163387",
+    "status": "Success",
+    "verification": "Public run Status Success and exact full commit SHA"
+  },
+  "sourceArchive": {
+    "archive": "ARENA-missions48-source.zip",
+    "sha256": "858df82923dc79f0b62631037dce5c99ddf20b8f4259008709bcdba43e55666d",
+    "bytes": 19129669,
+    "files": 574,
+    "branch": "arena-missions48-source",
+    "commit": "2c9781d7b9cbe3df8b76d4349d16189a0d41ed09",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/2c9781d7b9cbe3df8b76d4349d16189a0d41ed09/ARENA-missions48-source.zip",
+    "reproducibleBuild": true
+  },
+  "androidAPK": {
+    "result": "passed",
+    "applicationId": "uz.arena.manager.preview",
+    "versionCode": 148,
+    "versionName": "1.48-beta",
+    "bytes": 67795016,
+    "sha256": "acf0d95908e5cdbc170f646530e9092b1b7342e63e0a190ced559fb4dcad0326",
+    "zipCRCValid": true,
+    "bundledAssetHashesVerified": 92,
+    "signedDebugPreview": true,
+    "separateApplicationFromOldBeta": true,
+    "physicalDeviceInstalled": false,
+    "paidBillingAndAdsEnabled": false,
+    "firstMapBundled": true,
+    "other3DMapsNeedFirstDownload": true,
+    "nativeDirectoryEntryResolved": true,
+    "sameApplicationAndCertificateAs47": true,
+    "branch": "arena-missions48-android",
+    "commit": "e4f85823d2752a9a076512998c830a037e3efff6",
+    "file": "ARENA-Manager-1.48-preview.apk",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/e4f85823d2752a9a076512998c830a037e3efff6/ARENA-Manager-1.48-preview.apk"
+  },
+  "artPublication": {
+    "branch": "arena-missions48-art",
+    "commit": "5c89ad30d021a7a7a6b6ab4bb097d67e734b3e79",
+    "prefix": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/5c89ad30d021a7a7a6b6ab4bb097d67e734b3e79/art48/",
+    "manifest": {
+      "products": {
+        "bytes": 288392,
+        "sha256": "67ebd2c568b02f64f664410295b02b721aec4bc3dd2a949e94a84cf2bc128bc7",
+        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/5c89ad30d021a7a7a6b6ab4bb097d67e734b3e79/art48/products48.webp",
+        "cols": 3,
+        "rows": 2
+      },
+      "emblems": {
+        "bytes": 368862,
+        "sha256": "f2c3a1aea28fc51e2a032123c180f9fbb1ade30cb5e50d85b5e50f2569d8ce62",
+        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/5c89ad30d021a7a7a6b6ab4bb097d67e734b3e79/art48/emblems48.webp",
+        "cols": 3,
+        "rows": 3
+      }
+    },
+    "provenance": {
+      "creationTool": "image_gen.imagegen",
+      "date": "2026-11-07",
+      "design": "Original detailed stylized esports product and emblem atlases, generated for this game; no borrowed brand/team logos",
+      "productsGrid": [
+        3,
+        2
+      ],
+      "emblemsGrid": [
+        3,
+        3
+      ],
+      "runtimeEncoding": "WebP without visual content changes",
+      "originalsRetained": true,
+      "files": {
+        "emblems48.webp": {
+          "bytes": 368862,
+          "sha256": "f2c3a1aea28fc51e2a032123c180f9fbb1ade30cb5e50d85b5e50f2569d8ce62"
+        },
+        "products48.webp": {
+          "bytes": 288392,
+          "sha256": "67ebd2c568b02f64f664410295b02b721aec4bc3dd2a949e94a84cf2bc128bc7"
+        },
+        "emblems48-original.png": {
+          "bytes": 2695520,
+          "sha256": "8a8713f978706b4fbcd81b92e0aafc43c84ff7b528b85ba9175edffb097cce2c"
+        },
+        "products48-original.png": {
+          "bytes": 2336941,
+          "sha256": "50b78c6f0f86384b79489962f435f263baed36a6f0f347f3c46af1acd139a733"
+        }
+      }
+    }
+  },
+  "sourceWebAPKAndArtRemoteHashVerified": true,
+  "verifiedWebFiles": 32,
+  "archiveRebuildByteIdentical": true,
+  "validation": {
+    "result": "passed",
+    "version": "missions48",
+    "baseCommit": "17bbb679d62cab9165af4b7ffbdc0d91af13c210",
+    "nodeTestsPassed": 71,
+    "browser": {
+      "result": "passed",
+      "legacy47PassWalletAndCountPreserved": true,
+      "normalMissions": 12,
+      "premiumMissions": 6,
+      "normalMilestoneClaimOnce": true,
+      "premiumClaimsAndBulk": true,
+      "oldTrainingAndWinsNotRetroGranted": true,
+      "originalProductAndEmblemArtRendered": true,
+      "nineCrests": true,
+      "mobileFoxPurchaseAndApply": true,
+      "offlineArtRewardsAndWalletPreserved": true,
+      "fits": [
+        {
+          "tab": "Market",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Klub vazifalari/",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Pass operatsiyasi/",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Market",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Klub vazifalari/",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Pass operatsiyasi/",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Market",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Klub vazifalari/",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Pass operatsiyasi/",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Market",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Klub vazifalari/",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Pass operatsiyasi/",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Market",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Klub vazifalari/",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Pass operatsiyasi/",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        }
+      ],
+      "errors": [],
+      "missing": []
+    },
+    "existingMarketBrowser": {
+      "result": "passed",
+      "legacy46MigratedNoWalletGrant": true,
+      "marketCatalog": 15,
+      "frames": 8,
+      "fixedBundleCancelAtomicAndOnce": true,
+      "mobileBundleConfirmation": true,
+      "frameBuyEquip": true,
+      "starExchange": true,
+      "playersSearchRoleSortUnlockContract": true,
+      "earnedPass": true,
+      "goalClaim": true,
+      "oldThemeShopStillWorks": true,
+      "offlineOwnershipAndWalletRetained": true,
+      "fits": [
+        {
+          "tab": "Market",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Market",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Market",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Market",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Market",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        }
+      ],
+      "errors": [],
+      "missing": []
+    },
+    "upgrade": {
+      "result": "passed",
+      "previous47ServiceWorkerActuallyInstalled": true,
+      "newCSSStyledOnFirstNavigationWhileOldWorkerStillControls": true,
+      "earnedWalletPreserved": true,
+      "newVersionedStylesCachedAndOffline": true,
+      "errors": []
+    },
+    "art": {
+      "branch": "arena-missions48-art",
+      "commit": "5c89ad30d021a7a7a6b6ab4bb097d67e734b3e79",
+      "prefix": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/5c89ad30d021a7a7a6b6ab4bb097d67e734b3e79/art48/",
+      "manifest": {
+        "products": {
+          "bytes": 288392,
+          "sha256": "67ebd2c568b02f64f664410295b02b721aec4bc3dd2a949e94a84cf2bc128bc7",
+          "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/5c89ad30d021a7a7a6b6ab4bb097d67e734b3e79/art48/products48.webp",
+          "cols": 3,
+          "rows": 2
+        },
+        "emblems": {
+          "bytes": 368862,
+          "sha256": "f2c3a1aea28fc51e2a032123c180f9fbb1ade30cb5e50d85b5e50f2569d8ce62",
+          "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/5c89ad30d021a7a7a6b6ab4bb097d67e734b3e79/art48/emblems48.webp",
+          "cols": 3,
+          "rows": 3
+        }
+      },
+      "provenance": {
+        "creationTool": "image_gen.imagegen",
+        "date": "2026-11-07",
+        "design": "Original detailed stylized esports product and emblem atlases, generated for this game; no borrowed brand/team logos",
+        "productsGrid": [
+          3,
+          2
+        ],
+        "emblemsGrid": [
+          3,
+          3
+        ],
+        "runtimeEncoding": "WebP without visual content changes",
+        "originalsRetained": true,
+        "files": {
+          "emblems48.webp": {
+            "bytes": 368862,
+            "sha256": "f2c3a1aea28fc51e2a032123c180f9fbb1ade30cb5e50d85b5e50f2569d8ce62"
+          },
+          "products48.webp": {
+            "bytes": 288392,
+            "sha256": "67ebd2c568b02f64f664410295b02b721aec4bc3dd2a949e94a84cf2bc128bc7"
+          },
+          "emblems48-original.png": {
+            "bytes": 2695520,
+            "sha256": "8a8713f978706b4fbcd81b92e0aafc43c84ff7b528b85ba9175edffb097cce2c"
+          },
+          "products48-original.png": {
+            "bytes": 2336941,
+            "sha256": "50b78c6f0f86384b79489962f435f263baed36a6f0f347f3c46af1acd139a733"
+          }
+        }
+      }
+    },
+    "androidAPK": {
+      "result": "passed",
+      "applicationId": "uz.arena.manager.preview",
+      "versionCode": 148,
+      "versionName": "1.48-beta",
+      "bytes": 67795016,
+      "sha256": "acf0d95908e5cdbc170f646530e9092b1b7342e63e0a190ced559fb4dcad0326",
+      "zipCRCValid": true,
+      "bundledAssetHashesVerified": 92,
+      "signedDebugPreview": true,
+      "separateApplicationFromOldBeta": true,
+      "physicalDeviceInstalled": false,
+      "paidBillingAndAdsEnabled": false,
+      "firstMapBundled": true,
+      "other3DMapsNeedFirstDownload": true,
+      "nativeDirectoryEntryResolved": true,
+      "sameApplicationAndCertificateAs47": true,
+      "branch": "arena-missions48-android",
+      "commit": "e4f85823d2752a9a076512998c830a037e3efff6",
+      "file": "ARENA-Manager-1.48-preview.apk",
+      "url": "https://github.com/Abror1111/arena-manager-beta/raw/e4f85823d2752a9a076512998c830a037e3efff6/ARENA-Manager-1.48-preview.apk"
+    },
+    "apkAssetBrowser": {
+      "result": "passed",
+      "testType": "Chromium simulation using actual extracted APK assets; not a physical APK installation",
+      "offlineFreshTutorialZeroPlayers": true,
+      "nativeImportAndExportBridgeUI": true,
+      "legacyMigration": true,
+      "offlineSandrift3DRendered": true,
+      "offlineNewMarketPurchase": true,
+      "originalArtAndMissionTabsBundled": true,
+      "checkpointAndReloadResume": true,
+      "servedFiles": [
+        "arena-manager-beta/remix31/index.html",
+        "arena-manager-beta/remix31/academy43.css",
+        "arena-manager-beta/remix31/loader48.js",
+        "arena-manager-beta/original20/assets/index-CVBt3UIp.css",
+        "arena-manager-beta/remix31/commerce45.css",
+        "arena-manager-beta/remix31/assets/native-data31-CUOX1azu.js",
+        "embedded/b9beda0a9b4242edb25902dfd10e5c4eba03920a60f4bbecc5e1d32a6ae51f51.dat",
+        "arena-manager-beta/remix31/assets/main-Bu3pehDJ.js.bin",
+        "embedded/6df90a7a64659f751e466206cbfe2e53a95e75929aa0325693263cd2824d3ff5.jpg",
+        "embedded/f2c3a1aea28fc51e2a032123c180f9fbb1ade30cb5e50d85b5e50f2569d8ce62.webp",
+        "embedded/f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1.mp3",
+        "embedded/381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022.mp3",
+        "embedded/8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce.mp3",
+        "embedded/962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725.mp3",
+        "embedded/0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2.mp3",
+        "embedded/e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b.mp3",
+        "embedded/99b5ba74e304a042f66e0f444157b6aa4e8212bc97507f44d840bfe53c16ac15.webp",
+        "embedded/67ebd2c568b02f64f664410295b02b721aec4bc3dd2a949e94a84cf2bc128bc7.webp",
+        "embedded/4c889926b50a0c5d22192a250fe138345b77bd60baddbbc64cf7676b31fcfc78.webp",
+        "arena-manager-beta/audio/9b01bf657b888bbdfac14a3bf7d01274c05749cf3b19534248d3767ae35d83fa.wav",
+        "arena-manager-beta/audio/68f7e11d8121975ca700692a3a2652290a448f4985bf30702418051fb1530812.wav",
+        "arena-manager-beta/audio/443a95419e8e8c111c9d4eeda3e6ad049e9fd7e0949cc99d88fcac1b71dc72b3.wav",
+        "arena-manager-beta/cs2/dust2.cmesh",
+        "arena-manager-beta/audio/fa945af9ca02e5d7d7a8d342698c2a8262e5d031d4417c473359cda8c016b4e0.wav",
+        "arena-manager-beta/audio/bfdcbe658f829d88ad5d35ed42991b6f2ec39ddbfa2e0fd67f0c0dbedb7d9440.wav",
+        "arena-manager-beta/audio/72955f8ee28d66bcaaa8241e92d89520806f0107e2eb6cb20b5f93f1baf329df.wav",
+        "arena-manager-beta/audio/f2558ccaef61952ad3afa7451e9fc5fec775eb1a5aa931992ff9ba705434a020.wav",
+        "arena-manager-beta/audio/9d491a4a3dcaa913da1a3ecde901701615aef03ccf9af3abba23c217e1c87941.wav",
+        "arena-manager-beta/audio/43607b49e153341994ba10f4b2bc58e37c6cdc267824216338644c70b3cc3c52.wav",
+        "arena-manager-beta/audio/beccb0d8eb069419cdf14751652086e1bba4778791eaeb184f76a8c429f3da3c.wav",
+        "arena-manager-beta/audio/355c7893abfac0c9de3ae49a7cd8a10d3f824792e45bd60a480ea6ed05817738.wav",
+        "arena-manager-beta/audio/69f4fe2974147c0607e4fabcb023f269fe41529ca02db2668d7d6afa09091ac8.wav",
+        "arena-manager-beta/audio/1987c0ccb88b6e800f0869c1bddf4ed9cf0eddd4d369398fda5894e05dcbbd81.wav",
+        "arena-manager-beta/audio/2584f5e4427123f6681d40d5157463990328eb09e1b9f64032d13dde3b6d8184.wav",
+        "arena-manager-beta/audio/9b7d7139035e37f2fd4fc63d8fec3b884ff76a2cfb39d9133813d6e9ac032c64.wav",
+        "arena-manager-beta/audio/01399a62eb50d54d367045cd1d6c5203ea83ab011c33175cffc0cde50248c263.wav",
+        "arena-manager-beta/visuals/dust2/mobile.glb",
+        "arena-manager-beta/audio/1963c68a6dde787d3fda1f7bef1f1614bdfe66f35cc30cc9ec8a61c9af2a50ae.wav",
+        "arena-manager-beta/audio/156fc5054e8717671651c97b0c5c334b0cb40f7e01c9605c596ec8df1a91e44e.wav",
+        "arena-manager-beta/audio/f101227fdbb87be55d42b254c6e6830c5f0a6dc5c33eaa45535cae675d1b898f.wav",
+        "arena-manager-beta/audio/3a2d3f37c5a8aa31c36a9382af41e000144293a23d6368fda20c06da5128be57.wav",
+        "arena-manager-beta/audio/73135705c8f822573165fadbe2fb1b1e508c72bb8072f732d029b8c4fc5e0d4b.wav",
+        "arena-manager-beta/audio/e6aaa7431eecfa19dac76187c3749d50769cad1e08759e48f3da9bcec4ab0c31.wav",
+        "arena-manager-beta/audio/59321e5a3d5617a7d86f517f060e46f516c414ef7a4ff373666a006260ce4266.wav",
+        "arena-manager-beta/audio/c62e09520aead058dc8ce9e9192830f3f88a29bb2844aa93fd53302415a66a6c.wav",
+        "arena-manager-beta/audio/cea961e91440fab85fd012e01a8aa818d2a6fbe2d74e1cc54990ca1240fec9ea.wav",
+        "arena-manager-beta/audio/fe501899392b4d626a94c27eb48bab6400c9634dd8332940bbcaaafd00412925.wav",
+        "embedded/a78d83a3879f53bfbbb0cb1737fe35426eb09129129b2095b6494232b0b0c352.glb"
+      ],
+      "missing": [],
+      "errors": []
+    },
+    "sourceArchive": {
+      "archive": "ARENA-missions48-source.zip",
+      "sha256": "858df82923dc79f0b62631037dce5c99ddf20b8f4259008709bcdba43e55666d",
+      "bytes": 19129669,
+      "files": 574,
+      "branch": "arena-missions48-source",
+      "commit": "2c9781d7b9cbe3df8b76d4349d16189a0d41ed09",
+      "url": "https://github.com/Abror1111/arena-manager-beta/raw/2c9781d7b9cbe3df8b76d4349d16189a0d41ed09/ARENA-missions48-source.zip",
+      "reproducibleBuild": true
+    },
+    "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
+    "mapsCombatAudioPortraitFacesPreserved": true,
+    "directPagesHTTPVerified": false,
+    "physicalDeviceFPSMeasured": false,
+    "legalClearanceClaim": false,
+    "realBillingAndAdsEnabled": false
+  },
+  "protected28PublishedAnd209ParentFilesMatched": true,
+  "productionBotUnchanged": true,
+  "publicBytes": 1073729733,
+  "headroom": 12091,
+  "npmTestScriptCompleted": true,
+  "notes": [
+    "User requested detailed professional premium/normal tasks, emblems and all drawn store objects. Two new original image_gen atlases provide6detailed stylized game props and9metal/enamel crests. Original PNGs retained; runtime657254bytes WebP pinned/SHAverified/cached, logical sprite crops remove adjacent-row bleed. No new GPU animation loop.",
+    "12standard missions retain6old once-only goals and add6lifetime milestones. Six premium missions per earned Club/ProPass operation count1/3/5/10officialseries,3wins,5actualtraining; total25stars14tickets ifallcompleted. No real money checkout/adactivation. Unique serial/claims/ledger keys prevent replay. BO3 counts once after series; practice/forfeit excluded.",
+    "Existing47activepass migration preserves wallet/ownership and known completed10-remaining count; old wins/training not guessed or retro-granted. Completed premium rewards remain claimable after expiry. Ready rewards must be collected before newpass operation. Normal claims persist forclub lifetime. Full-wallet orinvalidstate failure leaves original save unchanged.",
+    "Emblems use richer original artwork across existing ClubBadge surfaces. Fox/dragon crests cost9800/12000coins and follow existing one-time/equip/collector rules. Existing7identities and ownership preserved, total9crests/14legacyshopitems. Ornamented frame previews and art checkout added; purchase summary adapts horizontally. CoreUI/maps/combat/audio/portraitfaces retained.",
+    "71Node tests (6new+65existing) and full custom regression chain pass. New tests cover47migration, post-activation actualtraining/official/BO3, expiry/claims/serials, freegoals/newcrests, corruptstate and valid near-fullwallet atomicity. Browser12+6missions/progress/filters/claims/bulk, nonretroactive stats,9richcrests/mobilepurchase,5viewports/offlineartwallet and existingmarketregression pass. Actual47ServiceWorker\u219248 first-navigation styledstate and offline aftershell19 pass.",
+    "AndroidPreview148 sharesID/certificate with147. Build/signature/package/ZIPCRC and92bundledassetsha pass. Actual extractedAPK assets tested offlineChromium for fresh tutorial/import/export/originalart/12+6missiontabs/newmarketpurchase/3DSandrift/checkpointresume. This is not physicalAndroid installation or FPSmeasurement. Private signingkey excluded.",
+    "Sandrift3D/all11simulation/collision/audio/portraits and2artatlases bundled. Other3Dworlds needinitialInternetdownload/cache. SourceZIP includes generatedoriginalPNG/artprovenance but excludes generatedAPKassets/caches/privatekeys; pinnedAPKrestorehelper provided. Web rebuild fromZIP byte-identical.",
+    "Current published README/provenance/validation compacted with immutable links to prior complete history and current fullsource/receipt to stay underPages1GiB. No gameassets deleted. Protected28published+209parent+productioncasebot preserved. Main changes onlyremix31/original18redirect. No commercialproductionreadiness, source-maprights-clearance, livebilling/ads or physicalperformance claim.",
+    "RAMsource /dev/shm/arena-manager-missions48; web -web; evidence /dev/shm/arena-missions48-tests; Git /dev/shm/arena-pages32. Overlayfull; keep userassets and oldpersistentGit refs intact. Use inheritedproxy/TLS. Directgithub.io blocked; exactPagesSuccess confirmsdeployment. Accounts remain deferred byuser."
+  ]
+}
