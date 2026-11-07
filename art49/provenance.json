@@ -1,0 +1,45 @@
+{
+  "creationTool": "image_gen.imagegen",
+  "date": "2026-11-07",
+  "design": "Original club environments, transparent portrait frames and unique department illustration atlases; no copied brands or team art",
+  "themesGrid": [
+    3,
+    2
+  ],
+  "framesGrid": [
+    3,
+    3
+  ],
+  "sectionsGrid": [
+    3,
+    3
+  ],
+  "runtimeEncoding": "WebP without visual content changes",
+  "originalsRetained": true,
+  "files": {
+    "sections49.webp": {
+      "bytes": 485796,
+      "sha256": "8a83dff957aa8a2608be693464c544d599c2b5ceb57793a066524a5b670140c5"
+    },
+    "frames49.webp": {
+      "bytes": 796922,
+      "sha256": "b8b455540e6ea1e296dae5e8301c1f01106891e541f747dde223da3f302bc0d5"
+    },
+    "themes49.webp": {
+      "bytes": 554334,
+      "sha256": "1d93d117bebd1ed4e32abd1d88123580c6fdf6c820a5c04981146e97af682928"
+    },
+    "sections49-original.png": {
+      "bytes": 3100307,
+      "sha256": "aba93b0023f0cb32f495d797bffc4ebe1da47f143743c818b84b4074b1cc2feb"
+    },
+    "frames49-original.png": {
+      "bytes": 2489102,
+      "sha256": "beb92d1005c49b384696216038ef6704906be9181125f560d265c56c9784455d"
+    },
+    "themes49-original.png": {
+      "bytes": 3262715,
+      "sha256": "7737f8f349a8ae6b315ede544c433e8b06a8482a43fefa28f1b44c1a0254e02b"
+    }
+  }
+}
