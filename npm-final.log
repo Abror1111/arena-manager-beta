@@ -1,0 +1,214 @@
+
+> arena-manager-career46@1.46.0-beta test
+> node --test tests/career46.test.mjs && node --test tests/commerce45.test.mjs tests/platform45.test.mjs && node --test tests/portraits44.test.mjs && node --test tests/academy43.test.mjs && node --test tests/economy42.test.mjs && node tests/sites41.mjs && node tests/music40.mjs && node tests/street38.mjs && node tests/walk38.mjs && node tests/migration38.mjs && node tests/smooth36.mjs && node tests/holo35.mjs && node tests/neon34.mjs && node tests/tactics32.mjs && node tests/remix31.mjs && node tests/combat31.mjs
+
+✔ new offline store starts at zero and sandbox balances never become earned currency (3.120325ms)
+✔ official result awards earned stars/tickets once; practice and forfeits do not (526.871556ms)
+✔ coin exchange and one-time missions are atomic and maintain both ledgers (1.21721ms)
+✔ club pass lasts ten completed series only and expiry retains its permanent frame (194.67342ms)
+✔ earned contracts use same level/capacity/identity and cannot mint resale profits (2.120575ms)
+✔ ticket purchases, frame re-equip and full-energy recovery preserve funds on failure (1.082135ms)
+✔ season outcomes, next season, export/import and primary backup recovery keep earned funds (486.377216ms)
+✔ rollover preserves currency conservation and corrupt wallets are rejected (3.617206ms)
+✔ BO3 rewards and pass usage settle once after final map (941.05497ms)
+✔ C4 final round must finish its five second outro before career rewards (13.02348ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2353.164244
+✔ commerce defaults do not modify old saves and live checkout stays disabled (3.62655ms)
+✔ test packs credit only test stars, transaction replay is rejected and saves persist (2.758107ms)
+✔ star recruits retain portraits and level/capacity rules without charging club coins (1.936165ms)
+✔ video proof must be complete, grants once and daily limit is three (1.013602ms)
+✔ video tickets can recruit through normal market constraints (1.250119ms)
+✔ test subscription expires and has one daily bonus with no auto renewal (0.820029ms)
+✔ frames are bought once and free to equip; recovery is capped and cannot waste funds (0.845157ms)
+✔ invalid saves and failed purchases never mutate balances (193.234266ms)
+✔ Play grants only verified purchased account-bound products; rejects pending/canceled/quantity and missing auth (1.492905ms)
+✔ subscription provider expiry controls entitlement including canceled but paid-through period (0.505904ms)
+✔ AdMob verifies raw ECDSA signature, account, challenge and signed-field boundary (3.953123ms)
+✔ SQLite purchase receipts grant once and prevent cross-account replay (1.951689ms)
+✔ SQLite SSV challenge, duplicate callbacks and three-per-day reward cap are atomic (0.841342ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 383.974182
+✔ all36offers and6starters use unique portraits, separate from25opponents (2.460127ms)
+✔ buying preserves offer faces and current mapping across save reload and sale (4.046404ms)
+✔ future seasons assign36distinct faces without duplicating retained roster faces (455.267089ms)
+✔ old43career gains visual metadata without changing wallet, skills or saved match (19.669621ms)
+✔ the same enemy slot resolves different opponents by name, invalid atlas indices reject (1.132411ms)
+✔ retained and newly recruited players in different seasons never share a face (43.10991ms)
+✔ legacy players from different seasons with the same old16face are separated on import (0.877105ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 694.636987
+✔ fresh storage is empty, numeric and enters persisted tutorial (4.172655ms)
+✔ five paid affordable novices are required and auto-selected; interrupted purchases persist (4.972835ms)
+✔ tutorial cannot skip training, rest, tactics, reward or shop (6.514985ms)
+✔ practice completion unlocks full club once, forfeit does not complete guide (376.705308ms)
+✔ 36 offers unlock by level and locked buys cannot change coins or roster (1.397001ms)
+✔ legacy42 career remains fully playable with owned items and current match intact (6.82932ms)
+✔ malformed empty saves and tutorial stages are rejected (0.842724ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 563.425925
+✔ legacy wallet and in-flight match migrate without a grant or state reset (186.441842ms)
+✔ all existing spending and sale paths reconcile the same wallet (1.678346ms)
+✔ official result itemizes sponsor, fan sales, full roster salary and net (116.062496ms)
+✔ eight elite players at zero funds can finish a defeat without debt (112.087659ms)
+✔ practice allowance never refreshes on rest, reload or forfeit (475.649146ms)
+✔ sponsor contracts cannot be signed for repeated free money or swapped early (292.839713ms)
+✔ cosmetics have fixed prices, charge once, equip for free and do not change squad strength (0.982344ms)
+✔ failed purchases, active matches and premature rewards do not mutate the save (7.450528ms)
+✔ objective claims are one-time across save/load and season changes (92.99484ms)
+✔ replaying a completed result into another new match is rejected (97.024218ms)
+✔ BO3 settles once per series, never once per map (892.010687ms)
+✔ forfeiting every fixture cannot mint season prizes or reputation (40.973002ms)
+✔ history stays bounded without losing the wallet reconciliation (19.23847ms)
+✔ malformed imported money, ledger, owned catalog and result display data are rejected (94.467185ms)
+✔ a capped wallet does not lose coins after a completed win (87.209037ms)
+✔ playing one game then forfeiting the rest only pays a proportional season prize (119.8823ms)
+✔ v1 ledger migrates without changing money, ownership, sponsor or active match (9.504753ms)
+✔ manual overflow never consumes a player or objective; spending permits full reward (1.397141ms)
+✔ capped result components equal actual ledger, including season prize (117.355762ms)
+✔ transfer acquisition survives history eviction and rotates next-season names (36.743612ms)
+✔ catalog filters can use quotes, new crests are owned once and collector is one-time (1.038639ms)
+✔ training and transfer quotes exactly match transactions and full-roster payroll (1.169908ms)
+✔ lifetime totals and persistent purchase state reject malformed imports (0.95313ms)
+✔ bench profiles do not receive match experience or lose energy (86.490743ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3066.32548
+dust2 A/B swapped, floors/paths and both real AI plant branches passed
+mirage A/B swapped, floors/paths and both real AI plant branches passed
+inferno A/B swapped, floors/paths and both real AI plant branches passed
+nuke A/B swapped, floors/paths and both real AI plant branches passed
+train A/B swapped, floors/paths and both real AI plant branches passed
+ancient A/B swapped, floors/paths and both real AI plant branches passed
+ancient-night A/B swapped, floors/paths and both real AI plant branches passed
+anubis A/B swapped, floors/paths and both real AI plant branches passed
+overpass A/B swapped, floors/paths and both real AI plant branches passed
+vertigo A/B swapped, floors/paths and both real AI plant branches passed
+cache A/B swapped, floors/paths and both real AI plant branches passed
+{"result":"passed","maps":11,"routes":220,"plants":22,"migrations":[{"map":"dust2","mode":"planted","coordinatesAndC4ProgressPreserved":true,"physicalPlanPreserved":true,"scoreFundsAndRandomStatePreserved":true,"idempotent":true},{"map":"nuke","mode":"partial-plant","coordinatesAndC4ProgressPreserved":true,"physicalPlanPreserved":true,"scoreFundsAndRandomStatePreserved":true,"idempotent":true}]}
+{"result":"passed","sixOriginalTracks":true,"gestureRequired":true,"allCueTransitions":true,"hiddenAndDisabledPause":true,"volumeZero":true,"blobCleanup":true,"staleDownloadCannotOverrideNewCue":true}
+{"map":"dust2","count":2,"paths":20,"crossings":0,"unreachable":0,"examples":[]}
+{"map":"mirage","count":2,"paths":20,"crossings":0,"unreachable":0,"examples":[]}
+{"map":"inferno","count":2,"paths":20,"crossings":0,"unreachable":0,"examples":[]}
+{"map":"nuke","count":2,"paths":20,"crossings":0,"unreachable":0,"examples":[]}
+{"map":"train","count":2,"paths":20,"crossings":0,"unreachable":0,"examples":[]}
+{"map":"ancient","count":2,"paths":20,"crossings":0,"unreachable":0,"examples":[]}
+{"map":"ancient-night","count":2,"paths":20,"crossings":0,"unreachable":0,"examples":[]}
+{"map":"anubis","count":2,"paths":20,"crossings":0,"unreachable":0,"examples":[]}
+{"map":"overpass","count":2,"paths":20,"crossings":0,"unreachable":0,"examples":[]}
+{"map":"vertigo","count":2,"paths":20,"crossings":0,"unreachable":0,"examples":[]}
+{"map":"cache","count":2,"paths":20,"crossings":0,"unreachable":0,"examples":[]}
+dust2 both-way actual movement passed
+mirage both-way actual movement passed
+inferno both-way actual movement passed
+nuke both-way actual movement passed
+train both-way actual movement passed
+ancient both-way actual movement passed
+ancient-night both-way actual movement passed
+anubis both-way actual movement passed
+overpass both-way actual movement passed
+vertigo both-way actual movement passed
+cache both-way actual movement passed
+{"result":"passed","actualDirectedDetours":44,"noAgentInsideNewCover":true}
+{"result":"passed","savedPlayerAndDroppedBombUnembedded":true,"scoreAndFundsPreserved":true,"visualOnlyModelInteriorDetected":true,"backWallDetected":true,"emptyVolumeAccepted":true}
+{"result":"passed","exactCollisionParityQueries":5106,"realMaps":["dust2","inferno","nuke"],"movedBrokenProps":true,"verticalAndZeroLength":true,"fullOperatorTriangles":30816,"distantOperatorTriangles":13500,"fullBatchTriangles":59624,"distantBatchTriangles":26112,"sameRigAndMaterials":true,"detailHysteresis":true,"hiddenWeaponsNotSubmitted":true,"deadGhostsNotSubmitted":true,"cleanup":true}
+{"result":"passed","fourOutwardUpwardFaces":true,"actualMatchScoreClockC4":true,"previewHasNoFakeScore":true,"textureRepaintOnlyOnChange":true,"skinnedHumanGeometry":true,"groundedTowersOutsidePlay":true,"surfaceMountedFacades":true,"cleanup":true}
+{"result":"passed","profiles":11,"groundedSupportCircle":true,"walkableFloorClear":true,"plantClearance":true,"slopedRoofRejected":true,"clonedShaderHookIdempotent":true}
+{
+  "result": "passed",
+  "navAwareDefuser": true,
+  "activeDefuserProgressPreserved": true,
+  "safeEscapes": [
+    {
+      "id": "dust2",
+      "walkMetres": 49.659299747805136,
+      "seconds": 14.188371356515754,
+      "outsideSafetyMargin": true
+    },
+    {
+      "id": "nuke",
+      "walkMetres": 54.299978870870866,
+      "seconds": 15.514279677391677,
+      "outsideSafetyMargin": true
+    },
+    {
+      "id": "inferno",
+      "walkMetres": 51.41058126982901,
+      "seconds": 14.688737505665431,
+      "outsideSafetyMargin": true
+    },
+    {
+      "id": "vertigo",
+      "walkMetres": 62.50834389043133,
+      "seconds": 17.859526825837523,
+      "outsideSafetyMargin": true
+    }
+  ],
+  "scaledDangerMemory": true,
+  "changedPlanAfterLoss": true,
+  "cameraMaxPanMetresPerSecond": 42.000000000000064,
+  "cameraScaleInvariant": true
+}
+dust2 paths and physical sites passed
+mirage paths and physical sites passed
+inferno paths and physical sites passed
+nuke paths and physical sites passed
+train paths and physical sites passed
+ancient paths and physical sites passed
+ancient-night paths and physical sites passed
+anubis paths and physical sites passed
+overpass paths and physical sites passed
+vertigo paths and physical sites passed
+cache paths and physical sites passed
+{"result":"passed","spawnSitePaths":220,"newBombSites":22}
+{
+  "result": "passed",
+  "C4DamageAt30Metres": 110.76923076923079,
+  "damageAt45Metres": 3.0769230769230727,
+  "noDamageAt48Metres": true,
+  "sourceScaleConversion": true,
+  "legacySaveMigration": true,
+  "rounds": [
+    {
+      "map": "dust2",
+      "strategy": "a",
+      "shots": 160,
+      "result": "C4 portladi"
+    },
+    {
+      "map": "nuke",
+      "strategy": "b",
+      "shots": 208,
+      "result": "C4 zararsizlantirildi"
+    }
+  ]
+}

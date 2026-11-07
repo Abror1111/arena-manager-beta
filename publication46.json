@@ -1,0 +1,299 @@
+{
+  "version": "career46",
+  "date": "2026-11-07",
+  "timezone": "Etc/UTC",
+  "url": "https://abror1111.github.io/arena-manager-beta/remix31/?v=46",
+  "commit": "d40e8c9ef2db672ba7f6f4ecc2e0d9ce585946c9",
+  "baseline": "fd35f9ae327ca3477f6d55c6acf3b07cc3e95df4",
+  "actions": {
+    "branch": "main",
+    "runId": "42388166137",
+    "runUrl": "https://github.com/Abror1111/arena-manager-beta/actions/runs/42388166137",
+    "commit": "d40e8c9ef2db672ba7f6f4ecc2e0d9ce585946c9",
+    "status": "Success",
+    "verification": "Public run Status Success and exact full commit SHA"
+  },
+  "sourceArchive": {
+    "archive": "ARENA-career46-source.zip",
+    "sha256": "c0e6c92f54a17ba9b5f2109b9b5c3b038ede96957e639cb6eb4f0b3d1738b803",
+    "bytes": 11422795,
+    "files": 500,
+    "branch": "arena-career46-source",
+    "commit": "d3854fe895aaf07f36e06559f1c76580ff98b0ef",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/d3854fe895aaf07f36e06559f1c76580ff98b0ef/ARENA-career46-source.zip",
+    "reproducibleBuild": true
+  },
+  "androidAPK": {
+    "result": "passed",
+    "applicationId": "uz.arena.manager.preview",
+    "versionCode": 146,
+    "versionName": "1.46-beta",
+    "bytes": 68562162,
+    "sha256": "afc2f1f7d5be2752e4c721e464fc26e85770bf455e81f569a8e1264aaf7b3c91",
+    "zipCRCValid": true,
+    "bundledAssetHashesVerified": 89,
+    "signedDebugPreview": true,
+    "separateApplicationFromOldBeta": true,
+    "physicalDeviceInstalled": false,
+    "paidBillingAndAdsEnabled": false,
+    "firstMapBundled": true,
+    "other3DMapsNeedFirstDownload": true,
+    "nativeDirectoryEntryResolved": true,
+    "branch": "arena-career46-android",
+    "commit": "6163102ead3be38662c2c88b9416fb67b4b71593",
+    "file": "ARENA-Manager-1.46-preview.apk",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/6163102ead3be38662c2c88b9416fb67b4b71593/ARENA-Manager-1.46-preview.apk"
+  },
+  "sourceWebAndAPKRemoteHashVerified": true,
+  "verifiedWebFiles": 30,
+  "archiveRebuildByteIdentical": true,
+  "validation": {
+    "result": "passed",
+    "version": "career46",
+    "baseCommit": "fd35f9ae327ca3477f6d55c6acf3b07cc3e95df4",
+    "nodeTestsPassed": 61,
+    "earnedOfflineEconomy": true,
+    "laboratoryIsolatedFromMainSave": true,
+    "realMoneyCharged": false,
+    "realAdRequestsEnabled": false,
+    "androidAPK": {
+      "result": "passed",
+      "applicationId": "uz.arena.manager.preview",
+      "versionCode": 146,
+      "versionName": "1.46-beta",
+      "bytes": 68562162,
+      "sha256": "afc2f1f7d5be2752e4c721e464fc26e85770bf455e81f569a8e1264aaf7b3c91",
+      "zipCRCValid": true,
+      "bundledAssetHashesVerified": 89,
+      "signedDebugPreview": true,
+      "separateApplicationFromOldBeta": true,
+      "physicalDeviceInstalled": false,
+      "paidBillingAndAdsEnabled": false,
+      "firstMapBundled": true,
+      "other3DMapsNeedFirstDownload": true,
+      "nativeDirectoryEntryResolved": true,
+      "branch": "arena-career46-android",
+      "commit": "6163102ead3be38662c2c88b9416fb67b4b71593",
+      "file": "ARENA-Manager-1.46-preview.apk",
+      "url": "https://github.com/Abror1111/arena-manager-beta/raw/6163102ead3be38662c2c88b9416fb67b4b71593/ARENA-Manager-1.46-preview.apk"
+    },
+    "apkAssetBrowser": {
+      "result": "passed",
+      "testType": "Chromium simulation using actual extracted APK assets; not a physical APK installation",
+      "offlineFreshTutorialZeroPlayers": true,
+      "nativeImportAndExportBridgeUI": true,
+      "legacyMigration": true,
+      "offlineSandrift3DRendered": true,
+      "checkpointAndReloadResume": true,
+      "missing": [],
+      "errors": []
+    },
+    "browser": {
+      "result": "passed",
+      "legacyTestWalletNotSpendable": true,
+      "goalsExchangeContractFrameRecovery": true,
+      "earnedPassActivationAndOfficialAward": true,
+      "sandboxChangesNeverSaved": true,
+      "sandboxResetsOnReopen": true,
+      "actual3DBattleRendered": true,
+      "browserOutcome": "deterministic result fixture; separate11actualAI matches audited",
+      "offlineMainCareerPreserved": true,
+      "fits": [
+        {
+          "tab": "Market",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Market",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Market",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024
+        },
+        {
+          "tab": "Market",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        }
+      ],
+      "errors": []
+    },
+    "actualAI": {
+      "maps": 11,
+      "completed": 11,
+      "rounds": 229,
+      "shots": 23497,
+      "plants": 117,
+      "outcomesForced": false,
+      "dt": 0.1
+    },
+    "sourceArchive": {
+      "archive": "ARENA-career46-source.zip",
+      "sha256": "c0e6c92f54a17ba9b5f2109b9b5c3b038ede96957e639cb6eb4f0b3d1738b803",
+      "bytes": 11422795,
+      "files": 500,
+      "branch": "arena-career46-source",
+      "commit": "d3854fe895aaf07f36e06559f1c76580ff98b0ef",
+      "url": "https://github.com/Abror1111/arena-manager-beta/raw/d3854fe895aaf07f36e06559f1c76580ff98b0ef/ARENA-career46-source.zip",
+      "reproducibleBuild": true
+    },
+    "archiveBuildByteIdentical": true,
+    "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
+    "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/fd35f9ae327ca3477f6d55c6acf3b07cc3e95df4/remix31/validation.json",
+    "mapsMusicPortraitArtAndExistingClubCoinsPreserved": true,
+    "monetizationAccountsDeferredByUser": true,
+    "legalClearanceClaim": false,
+    "directPagesHTTPVerified": false,
+    "physicalDeviceFPSMeasured": false
+  },
+  "protectedRootAuthoredAnd209ParentFilesMatched": true,
+  "productionBotUnchanged": true,
+  "publicBytes": 1073707756,
+  "headroom": 34068,
+  "notes": [
+    "User has no PlayConsole/AdMob accounts and explicitly defers them; priority is playable game now. Live monetization remains disabled.",
+    "Earned offline stars/tickets from actual official series, one-time goals and proportional season results. Fixed coin exchanges, player contracts, frames, recovery and10official-series earned Club/Pro passes. Practice/forfeits do not grant earned match rewards. No recurring payment.",
+    "Old45TEST balances are excluded from earned currency; cosmetic frames preserved. Settings laboratory runs a separate temporary demo club; transactions and video demonstrations never write main save and reset when reopened. Old offline career and checkpoint migration retained.",
+    "61Node tests pass; full npm test script also completes if recorded in npm-final.log. All11actual unforced AI match simulations reach matchend,229rounds/23497shots/117plants including overtime; functional audit dt0.1, not balance/FPS proof. Separate browser outcome fixture tests career reward integration.",
+    "Browser legacyimport/exchanges/goals/pass/contracts/frame/recovery, testlab isolation/reset,4viewport shop fitting, actual3Drender and offlinecareer retention pass.",
+    "Separate signed installable Android preview application uz.arena.manager.preview146. Sandrift3D+all11simulation/collision+audio/music/covers/portraits bundled; other3D worlds needfirstInternetdownload/cache. Secure virtualHTTPSrouting, serviceworker assetrouting, nativeSAFbackup/cutouts/back/pause; .gz preserved as.dat to prevent AAPTdecompression. Native directory entry resolves to index.html.",
+    "Android Gradle35build/apksigner/packagepermission/ZIPCRC and89bundled assethashes pass. Extracted actual APK assets tested offline in Chromium: fresh0player tutorial, nativebridge export/import UI, legacy migration,3DSandrift, checkpoint/reload/resume. This is not physicaldeviceAPKinstallation or FPSmeasurement. Previewdevelopmentkey excluded from source; separateapp avoids overwriting olderbeta.",
+    "Maps/geometry/audio/portrait art/coreUI retained. Protected28published+209parent files and workingcasebot preserved. No source-maprights clearance, fullproductionrelease, financialserverauthority or livebilling/ad claim.",
+    "RAM workspace: /dev/shm/arena-manager-career46, web /dev/shm/arena-manager-career46-web, evidence /dev/shm/arena-career46-tests, Git /dev/shm/arena-pages32. Overlayfull; no userassets deleted. Source andAPKpublished on separate branches to preserve Pages1GiBbudget. Directgithub.io blocked by enforcednetworkpolicy; exactPagesActionsSuccess confirms deployment. Keep inheritedproxy/TLS; no RAM-only refs in oldpersistentGit."
+  ],
+  "deploymentRetry": {
+    "firstCommit": "cca013264c71824589636ddde5663cc801b6dcf9",
+    "firstRun": "42360946716",
+    "status": "Failure",
+    "job": "128369198471",
+    "cause": "Deploy to GitHub Pages: Timeout reached, aborting!",
+    "jobDuration": "10m22s",
+    "retryCommit": "d40e8c9ef2db672ba7f6f4ecc2e0d9ce585946c9",
+    "sameTree": true
+  },
+  "npmTestScriptCompleted": true
+}
