@@ -1,3 +1,13 @@
+# ARENA economy42 — club shop and balanced accounting
+
+2026-11-07, Asia/Tashkent. Twelve fixed-price cosmetic items, collection filters, original SVG crests, free re-equip, clear before/after purchase and transfer payroll previews. One-time collector objective, actual training gain, facility confirmation and expired-sponsor notice. No cosmetic combat advantage. Existing virtual club coins remain separate from round dollars.
+
+Financev1 saves migrate to version2 without changing money, ledger, ownership, sponsor or unfinished matches. Opening+income−expenses equals wallet; ledger window reconciles separately. Manual sale/reward overflow rejects transaction without consuming a player or claim. Capped automatic payouts report actual received components and uncredited amount; season prize is also actual. Purchased market offers cannot reappear merely because history100 rolled off.
+
+Existing eleven maps, sites41 migration, names40, music40, covers39, old compiled UI CSS, protected production bot and parent source remain unchanged. No new APK, real-money payments or server-secure economy claim. Source-map rights remain as prior; finance work does not clear those rights. Verification42 records economic and browser checks.
+
+Previous41 source: https://github.com/Abror1111/arena-manager-beta/raw/2c1ec303a7e44db74c76c7a438580f4198b91087/ARENA-sites41-source.zip
+
 # ARENA sites41 — exchange A/B names at existing objectives
 
 2026-11-07, Asia/Tashkent. All11 selectable maps use newA at the previous relocatedB coordinate, and newB at previous relocatedA. This does not restore originalCS2 bombsites or add a new physical relocation. Exact native geometry, collision, navigation, street dividers, scenery, spawn positions, old UI/CSS, map names40, cover artwork39 and original music40 remain. The change is functional: A/B commands, planting logic,3D ground/DOM markers,2D map labels and explorer focus use the new symbols. This gameplay edit does not grant source-map redistribution rights.
@@ -98,6 +108,6 @@ Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-
 
 The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
 
-Version41 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/2c1ec303a7e44db74c76c7a438580f4198b91087/ARENA-sites41-source.zip
-SHA256: 469f06340b1feb05d1f30311178c2320fe19c1e6cf0b936b3575d4602602a177
-Final receipt: arena-sites41-source/publication41.json.
+Version42 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/b0fefeb22477752fd74393b0ca08b2de2465f3e7/ARENA-economy42-source.zip
+SHA256: 760b786a5969bf6d61efd921d9d788750f856305f39c1f1571343d4ad39c0c93
+Final receipt: arena-economy42-source/publication42.json.

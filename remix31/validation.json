@@ -1,1108 +1,234 @@
 {
   "result": "passed",
-  "version": "sites41",
-  "base": "music40",
-  "selectableMaps": 11,
-  "siteChanges": {
-    "revision": "arena-sites41",
-    "basedOnCommit": "7c5cc2baea371961e95ec7fe3c7961930b28dd1f",
-    "description": "Only swap names of existing relocated31 objectives; original native site coordinates retained as provenance",
-    "maps": [
-      {
-        "id": "dust2",
-        "name": "Sandrift",
-        "before": [
-          {
-            "x": 48.7062,
-            "z": 3.3813,
-            "y": 3.7667,
-            "area": 2173,
-            "label": "A"
-          },
-          {
-            "x": 6.0687,
-            "z": 17.1281,
-            "y": 2.3333,
-            "area": 1816,
-            "label": "B"
-          }
-        ],
-        "after": [
-          {
-            "x": 6.0687,
-            "z": 17.1281,
-            "y": 2.3333,
-            "area": 1816,
-            "label": "A"
-          },
-          {
-            "x": 48.7062,
-            "z": 3.3813,
-            "y": 3.7667,
-            "area": 2173,
-            "label": "B"
-          }
-        ]
-      },
-      {
-        "id": "mirage",
-        "name": "Sunveil",
-        "before": [
-          {
-            "x": 27.5656,
-            "z": 39.3781,
-            "y": 2.5625,
-            "area": 1325,
-            "label": "A"
-          },
-          {
-            "x": 16.3016,
-            "z": 26.7546,
-            "y": 2.55,
-            "area": 1720,
-            "label": "B"
-          }
-        ],
-        "after": [
-          {
-            "x": 16.3016,
-            "z": 26.7546,
-            "y": 2.55,
-            "area": 1720,
-            "label": "A"
-          },
-          {
-            "x": 27.5656,
-            "z": 39.3781,
-            "y": 2.5625,
-            "area": 1325,
-            "label": "B"
-          }
-        ]
-      },
-      {
-        "id": "inferno",
-        "name": "Ember Quarter",
-        "before": [
-          {
-            "x": 55.1187,
-            "z": 34.0984,
-            "y": 3.2,
-            "area": 1849,
-            "label": "A"
-          },
-          {
-            "x": 48.4656,
-            "z": 15.8031,
-            "y": 2.725,
-            "area": 2435,
-            "label": "B"
-          }
-        ],
-        "after": [
-          {
-            "x": 48.4656,
-            "z": 15.8031,
-            "y": 2.725,
-            "area": 2435,
-            "label": "A"
-          },
-          {
-            "x": 55.1187,
-            "z": 34.0984,
-            "y": 3.2,
-            "area": 1849,
-            "label": "B"
-          }
-        ]
-      },
-      {
-        "id": "nuke",
-        "name": "Reactor",
-        "before": [
-          {
-            "x": 59.0063,
-            "z": 52.7875,
-            "y": 4.65,
-            "area": 1988,
-            "label": "A"
-          },
-          {
-            "x": 51.1594,
-            "z": 41.3781,
-            "y": 0.925,
-            "area": 526,
-            "label": "B"
-          }
-        ],
-        "after": [
-          {
-            "x": 51.1594,
-            "z": 41.3781,
-            "y": 0.925,
-            "area": 526,
-            "label": "A"
-          },
-          {
-            "x": 59.0063,
-            "z": 52.7875,
-            "y": 4.65,
-            "area": 1988,
-            "label": "B"
-          }
-        ]
-      },
-      {
-        "id": "train",
-        "name": "Railworks",
-        "before": [
-          {
-            "x": 35.9469,
-            "z": 22.4031,
-            "y": 1.75,
-            "area": 259,
-            "label": "A"
-          },
-          {
-            "x": 33.2094,
-            "z": 33.7516,
-            "y": 1.75,
-            "area": 337,
-            "label": "B"
-          }
-        ],
-        "after": [
-          {
-            "x": 33.2094,
-            "z": 33.7516,
-            "y": 1.75,
-            "area": 337,
-            "label": "A"
-          },
-          {
-            "x": 35.9469,
-            "z": 22.4031,
-            "y": 1.75,
-            "area": 259,
-            "label": "B"
-          }
-        ]
-      },
-      {
-        "id": "ancient",
-        "name": "Relic Grove",
-        "before": [
-          {
-            "x": 13.6555,
-            "z": 13.2622,
-            "y": 2.8875,
-            "area": 1695,
-            "label": "A"
-          },
-          {
-            "x": 44.9937,
-            "z": 16.7778,
-            "y": 3.6625,
-            "area": 478,
-            "label": "B"
-          }
-        ],
-        "after": [
-          {
-            "x": 44.9937,
-            "z": 16.7778,
-            "y": 3.6625,
-            "area": 478,
-            "label": "A"
-          },
-          {
-            "x": 13.6555,
-            "z": 13.2622,
-            "y": 2.8875,
-            "area": 1695,
-            "label": "B"
-          }
-        ]
-      },
-      {
-        "id": "ancient-night",
-        "name": "Relic Afterdark",
-        "before": [
-          {
-            "x": 14.5625,
-            "z": 13.1638,
-            "y": 2.8958,
-            "area": 1668,
-            "label": "A"
-          },
-          {
-            "x": 44.9937,
-            "z": 16.7778,
-            "y": 3.6625,
-            "area": 480,
-            "label": "B"
-          }
-        ],
-        "after": [
-          {
-            "x": 44.9937,
-            "z": 16.7778,
-            "y": 3.6625,
-            "area": 480,
-            "label": "A"
-          },
-          {
-            "x": 14.5625,
-            "z": 13.1638,
-            "y": 2.8958,
-            "area": 1668,
-            "label": "B"
-          }
-        ]
-      },
-      {
-        "id": "anubis",
-        "name": "Sunken Court",
-        "before": [
-          {
-            "x": 38.5564,
-            "z": 7.6,
-            "y": 0.5,
-            "area": 2378,
-            "label": "A"
-          },
-          {
-            "x": 16.5564,
-            "z": 40.9688,
-            "y": 2.425,
-            "area": 1121,
-            "label": "B"
-          }
-        ],
-        "after": [
-          {
-            "x": 16.5564,
-            "z": 40.9688,
-            "y": 2.425,
-            "area": 1121,
-            "label": "A"
-          },
-          {
-            "x": 38.5564,
-            "z": 7.6,
-            "y": 0.5,
-            "area": 2378,
-            "label": "B"
-          }
-        ]
-      },
-      {
-        "id": "overpass",
-        "name": "Canal Crossing",
-        "before": [
-          {
-            "x": 27.7711,
-            "z": 18.8469,
-            "y": 5.7938,
-            "area": 1985,
-            "label": "A"
-          },
-          {
-            "x": 41.9875,
-            "z": 32.2625,
-            "y": 0.6,
-            "area": 919,
-            "label": "B"
-          }
-        ],
-        "after": [
-          {
-            "x": 41.9875,
-            "z": 32.2625,
-            "y": 0.6,
-            "area": 919,
-            "label": "A"
-          },
-          {
-            "x": 27.7711,
-            "z": 18.8469,
-            "y": 5.7938,
-            "area": 1985,
-            "label": "B"
-          }
-        ]
-      },
-      {
-        "id": "vertigo",
-        "name": "Skyline",
-        "before": [
-          {
-            "x": 27.2875,
-            "z": 25.6562,
-            "y": 3.65,
-            "area": 903,
-            "label": "A"
-          },
-          {
-            "x": 16.5188,
-            "z": 22.7,
-            "y": 3.65,
-            "area": 1575,
-            "label": "B"
-          }
-        ],
-        "after": [
-          {
-            "x": 16.5188,
-            "z": 22.7,
-            "y": 3.65,
-            "area": 1575,
-            "label": "A"
-          },
-          {
-            "x": 27.2875,
-            "z": 25.6562,
-            "y": 3.65,
-            "area": 903,
-            "label": "B"
-          }
-        ]
-      },
-      {
-        "id": "cache",
-        "name": "Iron Depot",
-        "before": [
-          {
-            "x": 33.65,
-            "z": 20.95,
-            "y": 1.5,
-            "area": 1664,
-            "label": "A"
-          },
-          {
-            "x": 35.8875,
-            "z": 52.5937,
-            "y": 0.3667,
-            "area": 880,
-            "label": "B"
-          }
-        ],
-        "after": [
-          {
-            "x": 35.8875,
-            "z": 52.5937,
-            "y": 0.3667,
-            "area": 880,
-            "label": "A"
-          },
-          {
-            "x": 33.65,
-            "z": 20.95,
-            "y": 1.5,
-            "area": 1664,
-            "label": "B"
-          }
-        ]
-      }
-    ]
-  },
-  "siteChecks": {
-    "result": "passed",
-    "selectableMaps": 11,
-    "spawnSiteRoutes": 220,
-    "actualCarrierPlantBranches": 22,
-    "maps": [
-      {
-        "id": "dust2",
-        "name": "Sandrift",
-        "sites": [
-          {
-            "x": 6.0687,
-            "z": 17.1281,
-            "y": 2.3333,
-            "area": 1816,
-            "label": "A"
-          },
-          {
-            "x": 48.7062,
-            "z": 3.3813,
-            "y": 3.7667,
-            "area": 2173,
-            "label": "B"
-          }
-        ],
-        "navHashUnchanged": true,
-        "sourceGeometryUnchanged": true,
-        "streetModelsUnchanged": true,
-        "spawnPositionsUnchanged": true,
-        "floor": [
-          {
-            "label": "A",
-            "height": 2.3333
-          },
-          {
-            "label": "B",
-            "height": 3.7667
-          }
-        ],
-        "plantA": true,
-        "plantB": true
-      },
-      {
-        "id": "mirage",
-        "name": "Sunveil",
-        "sites": [
-          {
-            "x": 16.3016,
-            "z": 26.7546,
-            "y": 2.55,
-            "area": 1720,
-            "label": "A"
-          },
-          {
-            "x": 27.5656,
-            "z": 39.3781,
-            "y": 2.5625,
-            "area": 1325,
-            "label": "B"
-          }
-        ],
-        "navHashUnchanged": true,
-        "sourceGeometryUnchanged": true,
-        "streetModelsUnchanged": true,
-        "spawnPositionsUnchanged": true,
-        "floor": [
-          {
-            "label": "A",
-            "height": 2.55
-          },
-          {
-            "label": "B",
-            "height": 2.5625
-          }
-        ],
-        "plantA": true,
-        "plantB": true
-      },
-      {
-        "id": "inferno",
-        "name": "Ember Quarter",
-        "sites": [
-          {
-            "x": 48.4656,
-            "z": 15.8031,
-            "y": 2.725,
-            "area": 2435,
-            "label": "A"
-          },
-          {
-            "x": 55.1187,
-            "z": 34.0984,
-            "y": 3.2,
-            "area": 1849,
-            "label": "B"
-          }
-        ],
-        "navHashUnchanged": true,
-        "sourceGeometryUnchanged": true,
-        "streetModelsUnchanged": true,
-        "spawnPositionsUnchanged": true,
-        "floor": [
-          {
-            "label": "A",
-            "height": 2.725
-          },
-          {
-            "label": "B",
-            "height": 3.2
-          }
-        ],
-        "plantA": true,
-        "plantB": true
-      },
-      {
-        "id": "nuke",
-        "name": "Reactor",
-        "sites": [
-          {
-            "x": 51.1594,
-            "z": 41.3781,
-            "y": 0.925,
-            "area": 526,
-            "label": "A"
-          },
-          {
-            "x": 59.0063,
-            "z": 52.7875,
-            "y": 4.65,
-            "area": 1988,
-            "label": "B"
-          }
-        ],
-        "navHashUnchanged": true,
-        "sourceGeometryUnchanged": true,
-        "streetModelsUnchanged": true,
-        "spawnPositionsUnchanged": true,
-        "floor": [
-          {
-            "label": "A",
-            "height": 0.925
-          },
-          {
-            "label": "B",
-            "height": 4.65
-          }
-        ],
-        "plantA": true,
-        "plantB": true
-      },
-      {
-        "id": "train",
-        "name": "Railworks",
-        "sites": [
-          {
-            "x": 33.2094,
-            "z": 33.7516,
-            "y": 1.75,
-            "area": 337,
-            "label": "A"
-          },
-          {
-            "x": 35.9469,
-            "z": 22.4031,
-            "y": 1.75,
-            "area": 259,
-            "label": "B"
-          }
-        ],
-        "navHashUnchanged": true,
-        "sourceGeometryUnchanged": true,
-        "streetModelsUnchanged": true,
-        "spawnPositionsUnchanged": true,
-        "floor": [
-          {
-            "label": "A",
-            "height": 1.75
-          },
-          {
-            "label": "B",
-            "height": 1.75
-          }
-        ],
-        "plantA": true,
-        "plantB": true
-      },
-      {
-        "id": "ancient",
-        "name": "Relic Grove",
-        "sites": [
-          {
-            "x": 44.9937,
-            "z": 16.7778,
-            "y": 3.6625,
-            "area": 478,
-            "label": "A"
-          },
-          {
-            "x": 13.6555,
-            "z": 13.2622,
-            "y": 2.8875,
-            "area": 1695,
-            "label": "B"
-          }
-        ],
-        "navHashUnchanged": true,
-        "sourceGeometryUnchanged": true,
-        "streetModelsUnchanged": true,
-        "spawnPositionsUnchanged": true,
-        "floor": [
-          {
-            "label": "A",
-            "height": 3.6625
-          },
-          {
-            "label": "B",
-            "height": 2.8875
-          }
-        ],
-        "plantA": true,
-        "plantB": true
-      },
-      {
-        "id": "ancient-night",
-        "name": "Relic Afterdark",
-        "sites": [
-          {
-            "x": 44.9937,
-            "z": 16.7778,
-            "y": 3.6625,
-            "area": 480,
-            "label": "A"
-          },
-          {
-            "x": 14.5625,
-            "z": 13.1638,
-            "y": 2.8958,
-            "area": 1668,
-            "label": "B"
-          }
-        ],
-        "navHashUnchanged": true,
-        "sourceGeometryUnchanged": true,
-        "streetModelsUnchanged": true,
-        "spawnPositionsUnchanged": true,
-        "floor": [
-          {
-            "label": "A",
-            "height": 3.6625
-          },
-          {
-            "label": "B",
-            "height": 2.8958
-          }
-        ],
-        "plantA": true,
-        "plantB": true
-      },
-      {
-        "id": "anubis",
-        "name": "Sunken Court",
-        "sites": [
-          {
-            "x": 16.5564,
-            "z": 40.9688,
-            "y": 2.425,
-            "area": 1121,
-            "label": "A"
-          },
-          {
-            "x": 38.5564,
-            "z": 7.6,
-            "y": 0.5,
-            "area": 2378,
-            "label": "B"
-          }
-        ],
-        "navHashUnchanged": true,
-        "sourceGeometryUnchanged": true,
-        "streetModelsUnchanged": true,
-        "spawnPositionsUnchanged": true,
-        "floor": [
-          {
-            "label": "A",
-            "height": 2.425
-          },
-          {
-            "label": "B",
-            "height": 0.5
-          }
-        ],
-        "plantA": true,
-        "plantB": true
-      },
-      {
-        "id": "overpass",
-        "name": "Canal Crossing",
-        "sites": [
-          {
-            "x": 41.9875,
-            "z": 32.2625,
-            "y": 0.6,
-            "area": 919,
-            "label": "A"
-          },
-          {
-            "x": 27.7711,
-            "z": 18.8469,
-            "y": 5.7938,
-            "area": 1985,
-            "label": "B"
-          }
-        ],
-        "navHashUnchanged": true,
-        "sourceGeometryUnchanged": true,
-        "streetModelsUnchanged": true,
-        "spawnPositionsUnchanged": true,
-        "floor": [
-          {
-            "label": "A",
-            "height": 0.6
-          },
-          {
-            "label": "B",
-            "height": 5.7938
-          }
-        ],
-        "plantA": true,
-        "plantB": true
-      },
-      {
-        "id": "vertigo",
-        "name": "Skyline",
-        "sites": [
-          {
-            "x": 16.5188,
-            "z": 22.7,
-            "y": 3.65,
-            "area": 1575,
-            "label": "A"
-          },
-          {
-            "x": 27.2875,
-            "z": 25.6562,
-            "y": 3.65,
-            "area": 903,
-            "label": "B"
-          }
-        ],
-        "navHashUnchanged": true,
-        "sourceGeometryUnchanged": true,
-        "streetModelsUnchanged": true,
-        "spawnPositionsUnchanged": true,
-        "floor": [
-          {
-            "label": "A",
-            "height": 3.65
-          },
-          {
-            "label": "B",
-            "height": 3.65
-          }
-        ],
-        "plantA": true,
-        "plantB": true
-      },
-      {
-        "id": "cache",
-        "name": "Iron Depot",
-        "sites": [
-          {
-            "x": 35.8875,
-            "z": 52.5937,
-            "y": 0.3667,
-            "area": 880,
-            "label": "A"
-          },
-          {
-            "x": 33.65,
-            "z": 20.95,
-            "y": 1.5,
-            "area": 1664,
-            "label": "B"
-          }
-        ],
-        "navHashUnchanged": true,
-        "sourceGeometryUnchanged": true,
-        "streetModelsUnchanged": true,
-        "spawnPositionsUnchanged": true,
-        "floor": [
-          {
-            "label": "A",
-            "height": 0.3667
-          },
-          {
-            "label": "B",
-            "height": 1.5
-          }
-        ],
-        "plantA": true,
-        "plantB": true
-      }
-    ],
-    "migrations": [
-      {
-        "map": "dust2",
-        "mode": "planted",
-        "coordinatesAndC4ProgressPreserved": true,
-        "physicalPlanPreserved": true,
-        "scoreFundsAndRandomStatePreserved": true,
-        "idempotent": true
-      },
-      {
-        "map": "nuke",
-        "mode": "partial-plant",
-        "coordinatesAndC4ProgressPreserved": true,
-        "physicalPlanPreserved": true,
-        "scoreFundsAndRandomStatePreserved": true,
-        "idempotent": true
-      }
-    ],
-    "layoutScope": "Only A/B names/order swapped at existing relocated sites. Original CS2 paths/geometries retained; rights not cleared."
-  },
-  "spawnSitePaths": 220,
-  "combatRegression": {
-    "result": "passed",
-    "C4DamageAt30Metres": 110.76923076923079,
-    "damageAt45Metres": 3.0769230769230727,
-    "noDamageAt48Metres": true,
-    "sourceScaleConversion": true,
-    "legacySaveMigration": true,
-    "rounds": [
-      {
-        "map": "dust2",
-        "strategy": "a",
-        "shots": 160,
-        "result": "C4 portladi"
-      },
-      {
-        "map": "nuke",
-        "strategy": "b",
-        "shots": 208,
-        "result": "C4 zararsizlantirildi"
-      }
-    ]
-  },
+  "version": "economy42",
+  "baseCommit": "400308f9145dc92d75f2685dde1ca22ecf8903bf",
+  "financeVersion": 2,
+  "economicNodeTests": 24,
+  "fullInheritedRegressionPassed": true,
+  "shopItems": 12,
+  "oneTimeCollectorReward": 500,
+  "legacySaveWalletOwnershipAndLedgerPreserved": true,
+  "automaticPayoutsShowActualCredits": true,
+  "manualOverflowAtomic": true,
+  "transferOffersPersistAfterHistoryEviction": true,
   "browser": {
     "result": "passed",
-    "before": {
-      "core": {
-        "mapID": "dust2",
-        "score": [
-          3,
-          2
-        ],
-        "round": 6,
-        "money": [
-          0,
-          150,
-          0,
-          150,
-          0,
-          0,
-          150,
-          0,
-          150,
-          0
-        ],
-        "phase": "live",
-        "bomb": {
-          "state": "planted",
-          "timer": 25,
-          "x": 48.7062,
-          "y": 3.7667,
-          "z": 3.3813,
-          "progress": 0
-        }
-      },
-      "strategy": "a",
-      "sites": [
-        {
-          "x": 48.7062,
-          "z": 3.3813,
-          "y": 3.7667,
-          "area": 2173,
-          "label": "A"
-        },
-        {
-          "x": 6.0687,
-          "z": 17.1281,
-          "y": 2.3333,
-          "area": 1816,
-          "label": "B"
-        }
-      ],
-      "plans": [
-        {
-          "x": 48.7062,
-          "y": 3.7667,
-          "z": 3.3813
-        },
-        {
-          "x": 6.0687,
-          "y": 2.3333,
-          "z": 17.1281
-        }
-      ],
-      "siteRevision": null
+    "legacyMigration": {
+      "from": 1,
+      "to": 2,
+      "walletAndLedgerPreserved": true
     },
-    "after": {
-      "core": {
-        "mapID": "dust2",
-        "score": [
-          3,
-          2
-        ],
-        "round": 6,
-        "money": [
-          0,
-          150,
-          0,
-          150,
-          0,
-          0,
-          150,
-          0,
-          150,
-          0
-        ],
-        "phase": "live",
-        "bomb": {
-          "state": "planted",
-          "timer": 25,
-          "x": 48.7062,
-          "y": 3.7667,
-          "z": 3.3813,
-          "progress": 0
-        }
-      },
-      "strategy": "b",
-      "sites": [
-        {
-          "x": 6.0687,
-          "z": 17.1281,
-          "y": 2.3333,
-          "area": 1816,
-          "label": "A"
-        },
-        {
-          "x": 48.7062,
-          "z": 3.3813,
-          "y": 3.7667,
-          "area": 2173,
-          "label": "B"
-        }
-      ],
-      "plans": [
-        {
-          "x": 48.7062,
-          "y": 3.7667,
-          "z": 3.3813
-        },
-        {
-          "x": 6.0687,
-          "y": 2.3333,
-          "z": 17.1281
-        }
-      ],
-      "siteRevision": "arena-sites41"
-    },
-    "offline": {
-      "core": {
-        "mapID": "dust2",
-        "score": [
-          3,
-          2
-        ],
-        "round": 6,
-        "money": [
-          0,
-          150,
-          0,
-          150,
-          0,
-          0,
-          150,
-          0,
-          150,
-          0
-        ],
-        "phase": "live",
-        "bomb": {
-          "state": "planted",
-          "timer": 25,
-          "x": 48.7062,
-          "y": 3.7667,
-          "z": 3.3813,
-          "progress": 0
-        }
-      },
-      "strategy": "b",
-      "sites": [
-        {
-          "x": 6.0687,
-          "z": 17.1281,
-          "y": 2.3333,
-          "area": 1816,
-          "label": "A"
-        },
-        {
-          "x": 48.7062,
-          "z": 3.3813,
-          "y": 3.7667,
-          "area": 2173,
-          "label": "B"
-        }
-      ],
-      "plans": [
-        {
-          "x": 48.7062,
-          "y": 3.7667,
-          "z": 3.3813
-        },
-        {
-          "x": 6.0687,
-          "y": 2.3333,
-          "z": 17.1281
-        }
-      ],
-      "siteRevision": "arena-sites41"
-    },
-    "markers": [
+    "shopPurchaseAndFreeEquip": true,
+    "collectorClaim": true,
+    "baseUpgrade": true,
+    "transferBuyAndSale": true,
+    "fits": [
       {
-        "label": "A",
-        "x": 6.0687,
-        "y": 2.3333,
-        "z": 17.1281
+        "size": {
+          "width": 844,
+          "height": 390
+        },
+        "screen": "shop",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390
       },
       {
-        "label": "B",
-        "x": 48.7062,
-        "y": 3.7667,
-        "z": 3.3813
+        "size": {
+          "width": 844,
+          "height": 390
+        },
+        "screen": "finance",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390,
+        "overflow": "0"
+      },
+      {
+        "size": {
+          "width": 844,
+          "height": 390
+        },
+        "screen": "training",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390,
+        "overflow": "0"
+      },
+      {
+        "size": {
+          "width": 844,
+          "height": 390
+        },
+        "screen": "transfers",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390
+      },
+      {
+        "size": {
+          "width": 390,
+          "height": 844
+        },
+        "screen": "shop",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844
+      },
+      {
+        "size": {
+          "width": 390,
+          "height": 844
+        },
+        "screen": "finance",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844,
+        "overflow": "0"
+      },
+      {
+        "size": {
+          "width": 390,
+          "height": 844
+        },
+        "screen": "training",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844,
+        "overflow": "0"
+      },
+      {
+        "size": {
+          "width": 390,
+          "height": 844
+        },
+        "screen": "transfers",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844
+      },
+      {
+        "size": {
+          "width": 768,
+          "height": 1024
+        },
+        "screen": "shop",
+        "w": 768,
+        "h": 1024,
+        "sw": 768,
+        "sh": 1024
+      },
+      {
+        "size": {
+          "width": 768,
+          "height": 1024
+        },
+        "screen": "finance",
+        "w": 768,
+        "h": 1024,
+        "sw": 768,
+        "sh": 1024,
+        "overflow": "0"
+      },
+      {
+        "size": {
+          "width": 768,
+          "height": 1024
+        },
+        "screen": "training",
+        "w": 768,
+        "h": 1024,
+        "sw": 768,
+        "sh": 1024,
+        "overflow": "0"
+      },
+      {
+        "size": {
+          "width": 768,
+          "height": 1024
+        },
+        "screen": "transfers",
+        "w": 768,
+        "h": 1024,
+        "sw": 768,
+        "sh": 1024
+      },
+      {
+        "size": {
+          "width": 540,
+          "height": 720
+        },
+        "screen": "shop",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720
+      },
+      {
+        "size": {
+          "width": 540,
+          "height": 720
+        },
+        "screen": "finance",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720,
+        "overflow": "0"
+      },
+      {
+        "size": {
+          "width": 540,
+          "height": 720
+        },
+        "screen": "training",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720,
+        "overflow": "0"
+      },
+      {
+        "size": {
+          "width": 540,
+          "height": 720
+        },
+        "screen": "transfers",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720
       }
     ],
-    "painted": [
-      {
-        "label": "A",
-        "x": 6.0687,
-        "z": 17.1281
-      },
-      {
-        "label": "B",
-        "x": 48.7062,
-        "z": 3.3813
-      }
-    ],
-    "explorerFocus": [
-      {
-        "label": "A",
-        "correctPhysicalPoint": true
-      },
-      {
-        "label": "B",
-        "correctPhysicalPoint": true
-      }
-    ],
-    "phoneFit": {
-      "w": 844,
-      "h": 390,
-      "sw": 844,
-      "sh": 390
-    },
-    "oldCareerAndCache": {
-      "career": "protected-old-career",
-      "cache": "preserved"
-    },
-    "errors": [],
-    "bad": []
+    "offlineSavePreserved": true,
+    "errors": []
   },
   "sourceArchive": {
-    "archive": "ARENA-sites41-source.zip",
-    "sha256": "469f06340b1feb05d1f30311178c2320fe19c1e6cf0b936b3575d4602602a177",
-    "bytes": 5535098,
-    "files": 364,
-    "branch": "arena-sites41-source",
-    "commit": "2c1ec303a7e44db74c76c7a438580f4198b91087",
-    "url": "https://github.com/Abror1111/arena-manager-beta/raw/2c1ec303a7e44db74c76c7a438580f4198b91087/ARENA-sites41-source.zip",
+    "archive": "ARENA-economy42-source.zip",
+    "sha256": "760b786a5969bf6d61efd921d9d788750f856305f39c1f1571343d4ad39c0c93",
+    "bytes": 3313266,
+    "files": 378,
+    "branch": "arena-economy42-source",
+    "commit": "b0fefeb22477752fd74393b0ca08b2de2465f3e7",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/b0fefeb22477752fd74393b0ca08b2de2465f3e7/ARENA-economy42-source.zip",
     "reproducibleBuild": true
   },
   "archiveBuildByteIdentical": true,
   "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
-  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/7c5cc2baea371961e95ec7fe3c7961930b28dd1f/remix31/validation.json",
-  "geometryPathsStreetModelsAndSpawnsUnchanged": true,
-  "mapNamesMusicAndCoversUnchanged": true,
+  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/400308f9145dc92d75f2685dde1ca22ecf8903bf/remix31/validation.json",
+  "geometryPathsStreetModelsSpawnsMusicAndCoversUnchanged": true,
   "oldUILayoutPreserved": true,
-  "mapModelsStillSourceDerived": true,
+  "offlineCoinsOnly": true,
+  "realMoneyPaymentsAdded": false,
+  "serverAuthoritativeCurrency": false,
   "legalClearanceClaim": false,
   "directPagesHTTPVerified": false,
   "physicalDeviceFPSMeasured": false,

@@ -1,5 +1,5 @@
 {
-  "version": "sites41",
+  "version": "economy42",
   "direction": "User explicitly selected original11 source-map remix after independently authored harbour30 work.",
   "legalClearanceClaim": false,
   "sourceGeometryReused": true,
@@ -71,5 +71,11 @@
     "Legacy unfinished remix matches keep physical plans and bomb progress; strategy labels/site indices/history swap exactly once using explicit snapshot siteRevision marker",
     "This gameplay change does not confer source-map redistribution rights"
   ],
-  "siteNameRevision": "arena-sites41"
+  "siteNameRevision": "arena-sites41",
+  "changes42": [
+    "Fixed-price12-item shop with collection filters and before/after purchase confirmation; three original SVG crests, free equip and one-time collector objective",
+    "One club wallet with validated opening/lifetime/ledger reconciliation; version1 saves migrate without currency or ownership grants",
+    "Actual capped match/season receipts, strict manual overflow protection and persistent per-season transfer acquisition tracking",
+    "Transfer before/after payroll, actual capped training gains, facility confirmation and sponsor-expiry notice"
+  ]
 }
