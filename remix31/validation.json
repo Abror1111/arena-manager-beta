@@ -1,19 +1,254 @@
 {
   "result": "passed",
-  "version": "career46",
-  "baseCommit": "fd35f9ae327ca3477f6d55c6acf3b07cc3e95df4",
-  "nodeTestsPassed": 61,
-  "earnedOfflineEconomy": true,
-  "laboratoryIsolatedFromMainSave": true,
+  "version": "market47",
+  "baseCommit": "d40e8c9ef2db672ba7f6f4ecc2e0d9ce585946c9",
+  "nodeTestsPassed": 65,
+  "npmTestScriptExitCode": 0,
+  "shopOnlyRedesign": true,
+  "newMarketOffers": 15,
+  "fixedOneTimeBundles": 3,
+  "portraitFrames": 8,
+  "originalInlineSVGArt": true,
+  "playerFilters": "name/role/open-only/rating/price",
+  "browser": {
+    "result": "passed",
+    "legacy46MigratedNoWalletGrant": true,
+    "marketCatalog": 15,
+    "frames": 8,
+    "fixedBundleCancelAtomicAndOnce": true,
+    "mobileBundleConfirmation": true,
+    "frameBuyEquip": true,
+    "starExchange": true,
+    "playersSearchRoleSortUnlockContract": true,
+    "earnedPass": true,
+    "goalClaim": true,
+    "oldThemeShopStillWorks": true,
+    "offlineOwnershipAndWalletRetained": true,
+    "fits": [
+      {
+        "tab": "Market",
+        "w": 280,
+        "h": 653,
+        "sw": 280,
+        "sh": 653
+      },
+      {
+        "tab": "O\u2018yinchilar",
+        "w": 280,
+        "h": 653,
+        "sw": 280,
+        "sh": 653
+      },
+      {
+        "tab": "Klub Pass",
+        "w": 280,
+        "h": 653,
+        "sw": 280,
+        "sh": 653
+      },
+      {
+        "tab": "Klub uslublari",
+        "w": 280,
+        "h": 653,
+        "sw": 280,
+        "sh": 653
+      },
+      {
+        "tab": "Emblemalar",
+        "w": 280,
+        "h": 653,
+        "sw": 280,
+        "sh": 653
+      },
+      {
+        "tab": "Vazifalar",
+        "w": 280,
+        "h": 653,
+        "sw": 280,
+        "sh": 653
+      },
+      {
+        "tab": "Market",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844
+      },
+      {
+        "tab": "O\u2018yinchilar",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844
+      },
+      {
+        "tab": "Klub Pass",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844
+      },
+      {
+        "tab": "Klub uslublari",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844
+      },
+      {
+        "tab": "Emblemalar",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844
+      },
+      {
+        "tab": "Vazifalar",
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844
+      },
+      {
+        "tab": "Market",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390
+      },
+      {
+        "tab": "O\u2018yinchilar",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390
+      },
+      {
+        "tab": "Klub Pass",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390
+      },
+      {
+        "tab": "Klub uslublari",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390
+      },
+      {
+        "tab": "Emblemalar",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390
+      },
+      {
+        "tab": "Vazifalar",
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390
+      },
+      {
+        "tab": "Market",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720
+      },
+      {
+        "tab": "O\u2018yinchilar",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720
+      },
+      {
+        "tab": "Klub Pass",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720
+      },
+      {
+        "tab": "Klub uslublari",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720
+      },
+      {
+        "tab": "Emblemalar",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720
+      },
+      {
+        "tab": "Vazifalar",
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720
+      },
+      {
+        "tab": "Market",
+        "w": 1024,
+        "h": 768,
+        "sw": 1024,
+        "sh": 768
+      },
+      {
+        "tab": "O\u2018yinchilar",
+        "w": 1024,
+        "h": 768,
+        "sw": 1024,
+        "sh": 768
+      },
+      {
+        "tab": "Klub Pass",
+        "w": 1024,
+        "h": 768,
+        "sw": 1024,
+        "sh": 768
+      },
+      {
+        "tab": "Klub uslublari",
+        "w": 1024,
+        "h": 768,
+        "sw": 1024,
+        "sh": 768
+      },
+      {
+        "tab": "Emblemalar",
+        "w": 1024,
+        "h": 768,
+        "sw": 1024,
+        "sh": 768
+      },
+      {
+        "tab": "Vazifalar",
+        "w": 1024,
+        "h": 768,
+        "sw": 1024,
+        "sh": 768
+      }
+    ],
+    "errors": [],
+    "missing": []
+  },
+  "earnedOfflineEconomyPreserved": true,
   "realMoneyCharged": false,
   "realAdRequestsEnabled": false,
   "androidAPK": {
     "result": "passed",
     "applicationId": "uz.arena.manager.preview",
-    "versionCode": 146,
-    "versionName": "1.46-beta",
-    "bytes": 68562162,
-    "sha256": "afc2f1f7d5be2752e4c721e464fc26e85770bf455e81f569a8e1264aaf7b3c91",
+    "versionCode": 147,
+    "versionName": "1.47-beta",
+    "bytes": 67135387,
+    "sha256": "9f64f050870b069125dc94b11b3d2816a6dc025dba628a35f55bb85346ce16f3",
     "zipCRCValid": true,
     "bundledAssetHashesVerified": 89,
     "signedDebugPreview": true,
@@ -23,10 +258,11 @@
     "firstMapBundled": true,
     "other3DMapsNeedFirstDownload": true,
     "nativeDirectoryEntryResolved": true,
-    "branch": "arena-career46-android",
-    "commit": "6163102ead3be38662c2c88b9416fb67b4b71593",
-    "file": "ARENA-Manager-1.46-preview.apk",
-    "url": "https://github.com/Abror1111/arena-manager-beta/raw/6163102ead3be38662c2c88b9416fb67b4b71593/ARENA-Manager-1.46-preview.apk"
+    "sameApplicationAndCertificateAs46": true,
+    "branch": "arena-market47-android",
+    "commit": "51469bdbf10603d531d16ae1a9608feaafd3c1b4",
+    "file": "ARENA-Manager-1.47-preview.apk",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/51469bdbf10603d531d16ae1a9608feaafd3c1b4/ARENA-Manager-1.47-preview.apk"
   },
   "apkAssetBrowser": {
     "result": "passed",
@@ -35,187 +271,25 @@
     "nativeImportAndExportBridgeUI": true,
     "legacyMigration": true,
     "offlineSandrift3DRendered": true,
+    "offlineNewMarketPurchase": true,
     "checkpointAndReloadResume": true,
     "missing": [],
     "errors": []
   },
-  "browser": {
-    "result": "passed",
-    "legacyTestWalletNotSpendable": true,
-    "goalsExchangeContractFrameRecovery": true,
-    "earnedPassActivationAndOfficialAward": true,
-    "sandboxChangesNeverSaved": true,
-    "sandboxResetsOnReopen": true,
-    "actual3DBattleRendered": true,
-    "browserOutcome": "deterministic result fixture; separate11actualAI matches audited",
-    "offlineMainCareerPreserved": true,
-    "fits": [
-      {
-        "tab": "Market",
-        "w": 844,
-        "h": 390,
-        "sw": 844,
-        "sh": 390
-      },
-      {
-        "tab": "Vazifalar",
-        "w": 844,
-        "h": 390,
-        "sw": 844,
-        "sh": 390
-      },
-      {
-        "tab": "Klub Pass",
-        "w": 844,
-        "h": 390,
-        "sw": 844,
-        "sh": 390
-      },
-      {
-        "tab": "O\u2018yinchilar",
-        "w": 844,
-        "h": 390,
-        "sw": 844,
-        "sh": 390
-      },
-      {
-        "tab": "Emblemalar",
-        "w": 844,
-        "h": 390,
-        "sw": 844,
-        "sh": 390
-      },
-      {
-        "tab": "Market",
-        "w": 390,
-        "h": 844,
-        "sw": 390,
-        "sh": 844
-      },
-      {
-        "tab": "Vazifalar",
-        "w": 390,
-        "h": 844,
-        "sw": 390,
-        "sh": 844
-      },
-      {
-        "tab": "Klub Pass",
-        "w": 390,
-        "h": 844,
-        "sw": 390,
-        "sh": 844
-      },
-      {
-        "tab": "O\u2018yinchilar",
-        "w": 390,
-        "h": 844,
-        "sw": 390,
-        "sh": 844
-      },
-      {
-        "tab": "Emblemalar",
-        "w": 390,
-        "h": 844,
-        "sw": 390,
-        "sh": 844
-      },
-      {
-        "tab": "Market",
-        "w": 768,
-        "h": 1024,
-        "sw": 768,
-        "sh": 1024
-      },
-      {
-        "tab": "Vazifalar",
-        "w": 768,
-        "h": 1024,
-        "sw": 768,
-        "sh": 1024
-      },
-      {
-        "tab": "Klub Pass",
-        "w": 768,
-        "h": 1024,
-        "sw": 768,
-        "sh": 1024
-      },
-      {
-        "tab": "O\u2018yinchilar",
-        "w": 768,
-        "h": 1024,
-        "sw": 768,
-        "sh": 1024
-      },
-      {
-        "tab": "Emblemalar",
-        "w": 768,
-        "h": 1024,
-        "sw": 768,
-        "sh": 1024
-      },
-      {
-        "tab": "Market",
-        "w": 540,
-        "h": 720,
-        "sw": 540,
-        "sh": 720
-      },
-      {
-        "tab": "Vazifalar",
-        "w": 540,
-        "h": 720,
-        "sw": 540,
-        "sh": 720
-      },
-      {
-        "tab": "Klub Pass",
-        "w": 540,
-        "h": 720,
-        "sw": 540,
-        "sh": 720
-      },
-      {
-        "tab": "O\u2018yinchilar",
-        "w": 540,
-        "h": 720,
-        "sw": 540,
-        "sh": 720
-      },
-      {
-        "tab": "Emblemalar",
-        "w": 540,
-        "h": 720,
-        "sw": 540,
-        "sh": 720
-      }
-    ],
-    "errors": []
-  },
-  "actualAI": {
-    "maps": 11,
-    "completed": 11,
-    "rounds": 229,
-    "shots": 23497,
-    "plants": 117,
-    "outcomesForced": false,
-    "dt": 0.1
-  },
   "sourceArchive": {
-    "archive": "ARENA-career46-source.zip",
-    "sha256": "c0e6c92f54a17ba9b5f2109b9b5c3b038ede96957e639cb6eb4f0b3d1738b803",
-    "bytes": 11422795,
-    "files": 500,
-    "branch": "arena-career46-source",
-    "commit": "d3854fe895aaf07f36e06559f1c76580ff98b0ef",
-    "url": "https://github.com/Abror1111/arena-manager-beta/raw/d3854fe895aaf07f36e06559f1c76580ff98b0ef/ARENA-career46-source.zip",
+    "archive": "ARENA-market47-source.zip",
+    "sha256": "c2e6ea08b0642ab1cfae82ec45154714c55a68b57cadc29263fa254a3aae5f27",
+    "bytes": 11749366,
+    "files": 528,
+    "branch": "arena-market47-source",
+    "commit": "0fe7b07357db89bc9eaf8a630527af34cc40df27",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/0fe7b07357db89bc9eaf8a630527af34cc40df27/ARENA-market47-source.zip",
     "reproducibleBuild": true
   },
   "archiveBuildByteIdentical": true,
   "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
-  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/fd35f9ae327ca3477f6d55c6acf3b07cc3e95df4/remix31/validation.json",
-  "mapsMusicPortraitArtAndExistingClubCoinsPreserved": true,
+  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/d40e8c9ef2db672ba7f6f4ecc2e0d9ce585946c9/remix31/validation.json",
+  "mapsCombatAudioPortraitArtAndCoreUIPreserved": true,
   "monetizationAccountsDeferredByUser": true,
   "legalClearanceClaim": false,
   "directPagesHTTPVerified": false,

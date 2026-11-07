@@ -1,26 +1,20 @@
-# ARENA Manager 1.46 beta
+# ARENA Manager 1.47 — Supply market
 
-Playable local career: saved nine-step beginner tutorial, transfers/lineup/training, league and BO3 playoffs, 5v5 simulation on 11 maps, match checkpoint/resume, season advancement and JSON backup.
+The club shop now opens on a coherent Supply market: original SVG product illustrations, three-currency wallet, grouped catalog, responsive product cards, clear checkout/ownership states and saved transaction history. All changes are scoped to the shop; existing club/battle UI and 11 maps are retained.
 
-## Earned economy
+15 market offers:3 fixed one-time bundles,3 coin→star exchanges,8 permanent portrait frames and roster recovery. Bundles show guaranteed stars/tickets/frame/energy before checkout, debit club coins atomically and cannot be bought again after export/import. Existing46 balances/ownership migrate without grants. Frames are cosmetics. Recovery caps at100. No random loot or real-money charges.
 
-Normal progression does not require Play Console or AdMob accounts. Completed official series award 3 stars +1 ticket for a win, 1+1 for a loss. Practice/forfeit do not award these currencies. Once-only goals and participation-scaled season rewards add resources. Fixed coin exchanges, player contracts, cosmetic frames and recovery use earned resources. Club/Pro passes cost earned stars and last 10 completed official series, not calendar days; no automatic renewal or charge. Transactions reconcile to a validated ledger; rewards deduplicate per series.
+Player contracts retain level/8player restrictions and now show consistent original anime portraits, OVR,3 skill bars, role, potential, salary and prices. Name search, role/open-only filters and price/rating sorting work. Club/Pro passes still last10completedofficialseries and use earned stars. Six reward goals and existing themes/emblems remain available. TEST laboratory stays temporary and isolated.
 
-Legacy commerce45 free TEST stars/tickets are not imported into earned balances. Cosmetic frame ownership is preserved. Settings → Laboratory runs the old purchase/ad demonstrations in a temporary club; closing/reopening resets it and never writes the main save. Existing old saves are preserved and migrated without free power grants.
+65Node tests pass including4new bundle/migration/atomicity/frame tests and61existing, plus preserved custom regression scripts. Browser checks cancellation, fixed bundle ownership/ledger, mobile checkout,8frames/exchange, player filters/unlocks/contracts, pass/goal/old theme purchases, five viewport sizes280–1024px and offline persistence. No frame-rate claim. Source ZIP web rebuild is byte-identical.
 
-## Run and build web
+Node22+/Python3: install exact package.json dependencies, `npm test`; build with `ARENA_MANAGER_OUT=/tmp/arena47-web npm run build` then `python pack-web31.py /tmp/arena47-web`. Serve at /arena-manager-beta/remix31/ with existing shared root assets. No new heavyweight art downloads: product graphics are inline SVG and portraits reuse verified original atlases.
 
-Node22+, Python3. Install the exact package.json dependencies. `npm test` runs current and prior regression suites. `ARENA_MANAGER_OUT=/tmp/arena46-web npm run build`, then `python pack-web31.py /tmp/arena46-web`. Serve under `/arena-manager-beta/remix31/` alongside the preserved shared CSS/portrait and map/audio assets. Remote immutable resources are SHA-verified and cached. The source ZIP excludes node_modules and generated builds. See verification46 for build/functional evidence.
+Android Preview1.47 uses the same application ID/signing certificate as1.46 and can update it. Sandrift3D/all11simulation/collisions/audio/portraits bundled; other3D worlds require first Internet download. See androidGame47/README.md. Generated assets/private signing keys/build caches are excluded from source. Native build/signature/89asset hashes and extracted-APK browser smoke are checked; no physical Android installation claim.
 
-## Android preview
+PlayConsole/AdMob are deferred by user. No real payment/ad activation, commercial-release readiness or source-map rights clearance claim. Case bot and parent sources remain untouched. Prior46 source and receipt: https://github.com/Abror1111/arena-manager-beta/tree/arena-career46-source .
 
-See androidGame46/README.md. This is an installable debug-signed preview, separate application ID from older beta. Sandrift 3D, all 11 simulation maps/collisions, covers/portraits/audio are bundled. Other 3D worlds require an initial Internet download. Existing club data can be moved using Settings → export/import backup. No live payment, advertisement, production signing or physical-device FPS claim.
-
-61 Node tests pass. All 11 actual AI simulations reach matchend (229 rounds, 23,497 shots, 117 plants, including overtime). Browser tests exercise legacy migration, earned purchases/pass/rewards, laboratory isolation, four viewport sizes and offline persistence. Extracted APK assets are additionally tested in offline Chromium; this does not substitute for Android device testing.
-
-Map/geometry/audio/portrait art and original core UI are preserved in this version. Original case bot and parent application untouched. Existing source-map licensing questions are not resolved by this release. Prior history and inactive monetization foundation: https://github.com/Abror1111/arena-manager-beta/tree/arena-commerce45-source . Google Play/AdMob accounts and remaining trusted server/lifecycle integration are deferred, as requested.
-
-Reproducible46 source: https://github.com/Abror1111/arena-manager-beta/raw/d3854fe895aaf07f36e06559f1c76580ff98b0ef/ARENA-career46-source.zip
-SHA256: c0e6c92f54a17ba9b5f2109b9b5c3b038ede96957e639cb6eb4f0b3d1738b803
-Final receipt: arena-career46-source/publication46.json.
-Android preview: https://github.com/Abror1111/arena-manager-beta/raw/6163102ead3be38662c2c88b9416fb67b4b71593/ARENA-Manager-1.46-preview.apk
+Source: https://github.com/Abror1111/arena-manager-beta/raw/0fe7b07357db89bc9eaf8a630527af34cc40df27/ARENA-market47-source.zip
+SHA256: c2e6ea08b0642ab1cfae82ec45154714c55a68b57cadc29263fa254a3aae5f27
+Receipt: arena-market47-source/publication47.json
+APK: https://github.com/Abror1111/arena-manager-beta/raw/51469bdbf10603d531d16ae1a9608feaafd3c1b4/ARENA-Manager-1.47-preview.apk
