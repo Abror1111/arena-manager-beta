@@ -1,0 +1,1822 @@
+{
+  "version": "visual49",
+  "date": "2026-11-07",
+  "timezone": "Asia/Tashkent",
+  "url": "https://abror1111.github.io/arena-manager-beta/remix31/?v=49",
+  "commit": "a80c6a52eb3a23041460868f43f3ad943eaefc1b",
+  "baseline": "e89156afdb5a580ff8f180bd31c57021ab163387",
+  "actions": {
+    "branch": "main",
+    "runId": "42401535330",
+    "runUrl": "https://github.com/Abror1111/arena-manager-beta/actions/runs/42401535330",
+    "commit": "a80c6a52eb3a23041460868f43f3ad943eaefc1b",
+    "status": "Success",
+    "verification": "Public run Status Success and exact full commit SHA"
+  },
+  "sourceArchive": {
+    "archive": "ARENA-visual49-source.zip",
+    "sha256": "c73aae8f14d6cf33f10a3a92825953db4d3b9b958ffa54e9a851868848171cca",
+    "bytes": 41913617,
+    "files": 643,
+    "branch": "arena-visual49-source",
+    "commit": "55387a4e0ecd518ef2c28bd3bef3af2377adc95d",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/55387a4e0ecd518ef2c28bd3bef3af2377adc95d/ARENA-visual49-source.zip",
+    "reproducibleBuild": true
+  },
+  "androidAPK": {
+    "result": "passed",
+    "applicationId": "uz.arena.manager.preview",
+    "versionCode": 149,
+    "versionName": "1.49-beta",
+    "bytes": 70364809,
+    "sha256": "5bb8f1976d7c02a14b2c48f7957233eea2c02385425a49f23cfa834226806fed",
+    "zipCRCValid": true,
+    "bundledAssetHashesVerified": 96,
+    "signedDebugPreview": true,
+    "separateApplicationFromOldBeta": true,
+    "physicalDeviceInstalled": false,
+    "paidBillingAndAdsEnabled": false,
+    "firstMapBundled": true,
+    "other3DMapsNeedFirstDownload": true,
+    "nativeDirectoryEntryResolved": true,
+    "sameApplicationAndCertificateAs48": true,
+    "branch": "arena-visual49-android",
+    "commit": "c1e4a78016918a2c28e2c312891fea6538581c96",
+    "file": "ARENA-Manager-1.49-preview.apk",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/c1e4a78016918a2c28e2c312891fea6538581c96/ARENA-Manager-1.49-preview.apk"
+  },
+  "artPublication": {
+    "branch": "arena-visual49-art",
+    "commit": "0b755c593226be24810d3f2608cdbd8814fccf2b",
+    "prefix": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/0b755c593226be24810d3f2608cdbd8814fccf2b/art49/",
+    "manifest": {
+      "themes": {
+        "bytes": 554334,
+        "sha256": "1d93d117bebd1ed4e32abd1d88123580c6fdf6c820a5c04981146e97af682928",
+        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/0b755c593226be24810d3f2608cdbd8814fccf2b/art49/themes49.webp",
+        "cols": 3,
+        "rows": 2,
+        "width": 1774,
+        "height": 887,
+        "rects": [
+          [
+            0,
+            0,
+            591,
+            443
+          ],
+          [
+            591,
+            0,
+            591,
+            443
+          ],
+          [
+            1182,
+            0,
+            592,
+            443
+          ],
+          [
+            0,
+            443,
+            591,
+            444
+          ],
+          [
+            591,
+            443,
+            591,
+            444
+          ],
+          [
+            1182,
+            443,
+            592,
+            444
+          ]
+        ]
+      },
+      "frames": {
+        "bytes": 796922,
+        "sha256": "b8b455540e6ea1e296dae5e8301c1f01106891e541f747dde223da3f302bc0d5",
+        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/0b755c593226be24810d3f2608cdbd8814fccf2b/art49/frames49.webp",
+        "cols": 3,
+        "rows": 3,
+        "width": 1122,
+        "height": 1402,
+        "rects": [
+          [
+            0,
+            0,
+            360,
+            446
+          ],
+          [
+            380,
+            0,
+            360,
+            447
+          ],
+          [
+            754,
+            0,
+            368,
+            450
+          ],
+          [
+            0,
+            449,
+            360,
+            439
+          ],
+          [
+            380,
+            444,
+            360,
+            451
+          ],
+          [
+            754,
+            449,
+            368,
+            443
+          ],
+          [
+            0,
+            894,
+            360,
+            508
+          ],
+          [
+            380,
+            896,
+            360,
+            506
+          ],
+          [
+            754,
+            894,
+            368,
+            508
+          ]
+        ]
+      },
+      "sections": {
+        "bytes": 485796,
+        "sha256": "8a83dff957aa8a2608be693464c544d599c2b5ceb57793a066524a5b670140c5",
+        "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/0b755c593226be24810d3f2608cdbd8814fccf2b/art49/sections49.webp",
+        "cols": 3,
+        "rows": 3,
+        "width": 1254,
+        "height": 1254,
+        "rects": [
+          [
+            0,
+            0,
+            418,
+            390
+          ],
+          [
+            418,
+            0,
+            418,
+            390
+          ],
+          [
+            836,
+            0,
+            418,
+            390
+          ],
+          [
+            0,
+            390,
+            418,
+            392
+          ],
+          [
+            418,
+            390,
+            418,
+            392
+          ],
+          [
+            836,
+            390,
+            418,
+            392
+          ],
+          [
+            0,
+            782,
+            418,
+            472
+          ],
+          [
+            418,
+            782,
+            418,
+            472
+          ],
+          [
+            836,
+            782,
+            418,
+            472
+          ]
+        ]
+      }
+    },
+    "provenance": {
+      "creationTool": "image_gen.imagegen",
+      "date": "2026-11-07",
+      "design": "Original club environments, transparent portrait frames and unique department illustration atlases; no copied brands or team art",
+      "themesGrid": [
+        3,
+        2
+      ],
+      "framesGrid": [
+        3,
+        3
+      ],
+      "sectionsGrid": [
+        3,
+        3
+      ],
+      "runtimeEncoding": "WebP without visual content changes",
+      "originalsRetained": true,
+      "files": {
+        "sections49.webp": {
+          "bytes": 485796,
+          "sha256": "8a83dff957aa8a2608be693464c544d599c2b5ceb57793a066524a5b670140c5"
+        },
+        "frames49.webp": {
+          "bytes": 796922,
+          "sha256": "b8b455540e6ea1e296dae5e8301c1f01106891e541f747dde223da3f302bc0d5"
+        },
+        "themes49.webp": {
+          "bytes": 554334,
+          "sha256": "1d93d117bebd1ed4e32abd1d88123580c6fdf6c820a5c04981146e97af682928"
+        },
+        "sections49-original.png": {
+          "bytes": 3100307,
+          "sha256": "aba93b0023f0cb32f495d797bffc4ebe1da47f143743c818b84b4074b1cc2feb"
+        },
+        "frames49-original.png": {
+          "bytes": 2489102,
+          "sha256": "beb92d1005c49b384696216038ef6704906be9181125f560d265c56c9784455d"
+        },
+        "themes49-original.png": {
+          "bytes": 3262715,
+          "sha256": "7737f8f349a8ae6b315ede544c433e8b06a8482a43fefa28f1b44c1a0254e02b"
+        }
+      }
+    }
+  },
+  "sourceWebAPKAndArtRemoteHashVerified": true,
+  "verifiedWebFiles": 33,
+  "archiveRebuildByteIdentical": true,
+  "validation": {
+    "result": "passed",
+    "version": "visual49",
+    "baseCommit": "e89156afdb5a580ff8f180bd31c57021ab163387",
+    "nodeTestsPassed": 71,
+    "browser": {
+      "result": "passed",
+      "allTenScreensRestyled": true,
+      "themes": [
+        {
+          "theme": "gold",
+          "radius": "15px",
+          "background": "radial-gradient(at 100% 0px, color(srgb 0.894118 0.784314 0.560784 / 0.12), rgba(0, 0, 0, 0) 65%), linear-gradient(145deg, rgb(38, 53, 67), rgb(24, 39, 55))",
+          "clip": "none",
+          "accent": "#e4c88f",
+          "pattern": "repeating-linear-gradient(135deg,#dcc08c04 0 1px,transparent 1px 17px)"
+        },
+        {
+          "theme": "azure",
+          "radius": "9px",
+          "background": "radial-gradient(at 100% 0px, color(srgb 0.607843 0.862745 0.952941 / 0.12), rgba(0, 0, 0, 0) 65%), linear-gradient(145deg, rgb(35, 66, 87), rgb(22, 47, 68))",
+          "clip": "none",
+          "accent": "#9bdcf3",
+          "pattern": "repeating-linear-gradient(0deg,#a2d5ef05 0 1px,transparent 1px 30px),repeating-linear-gradient(90deg,#a2d5ef05 0 1px,transparent 1px 30px)"
+        },
+        {
+          "theme": "crimson",
+          "radius": "5px",
+          "background": "radial-gradient(at 100% 0px, color(srgb 0.945098 0.643137 0.713726 / 0.12), rgba(0, 0, 0, 0) 65%), linear-gradient(145deg, rgb(60, 45, 62), rgb(39, 37, 54))",
+          "clip": "polygon(0px 0px, calc(100% - 8px) 0px, 100% 8px, 100% 100%, 8px 100%, 0px calc(100% - 8px))",
+          "accent": "#f1a4b6",
+          "pattern": "repeating-linear-gradient(135deg,#ef8f9a08 0 2px,transparent 2px 12px)"
+        },
+        {
+          "theme": "jade",
+          "radius": "21px",
+          "background": "radial-gradient(at 100% 0px, color(srgb 0.607843 0.878431 0.741176 / 0.12), rgba(0, 0, 0, 0) 65%), linear-gradient(145deg, rgb(36, 69, 62), rgb(24, 46, 48))",
+          "clip": "none",
+          "accent": "#9be0bd",
+          "pattern": "radial-gradient(ellipse at 8% 25%,#76d3ad0a 0 18%,transparent 19%),radial-gradient(ellipse at 95% 80%,#76d3ad07 0 28%,transparent 29%)"
+        },
+        {
+          "theme": "violet",
+          "radius": "17px",
+          "background": "radial-gradient(at 100% 0px, color(srgb 0.796078 0.717647 0.960784 / 0.12), rgba(0, 0, 0, 0) 65%), linear-gradient(145deg, rgb(53, 52, 81), rgb(37, 43, 69))",
+          "clip": "none",
+          "accent": "#cbb7f5",
+          "pattern": "radial-gradient(ellipse at 80% 20%,#a276d81a,transparent 55%),radial-gradient(#ccb4ec14 1px,transparent 1px)"
+        }
+      ],
+      "portraitFrames": [
+        {
+          "id": "cyan",
+          "model": "crystal"
+        },
+        {
+          "id": "violet",
+          "model": "crescent"
+        },
+        {
+          "id": "gold",
+          "model": "laurel"
+        },
+        {
+          "id": "jade",
+          "model": "vine"
+        },
+        {
+          "id": "ruby",
+          "model": "wings"
+        },
+        {
+          "id": "pearl",
+          "model": "orbit"
+        },
+        {
+          "id": "ember",
+          "model": "solar"
+        },
+        {
+          "id": "eclipse",
+          "model": "celestial"
+        }
+      ],
+      "eightDistinctPreviewFaces": true,
+      "freeFrameRemovalAndReequip": true,
+      "actualEquippedFramesInSquadAndBattle": true,
+      "all36DistinctWeaponProfiles": true,
+      "fits": [
+        {
+          "screen": "home",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "squad",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "training",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "transfers",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [],
+          "vertical": [
+            "transfers"
+          ]
+        },
+        {
+          "screen": "season",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "tactics",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "finance",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "shop",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [],
+          "vertical": [
+            "shop"
+          ]
+        },
+        {
+          "screen": "maps",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "settings",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "home",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "squad",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "training",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "transfers",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [],
+          "vertical": [
+            "transfers"
+          ]
+        },
+        {
+          "screen": "season",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "tactics",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "finance",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "shop",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [],
+          "vertical": [
+            "shop"
+          ]
+        },
+        {
+          "screen": "maps",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "settings",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "home",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "squad",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "training",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "transfers",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [],
+          "vertical": [
+            "transfers"
+          ]
+        },
+        {
+          "screen": "season",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "tactics",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "finance",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "shop",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [],
+          "vertical": [
+            "shop"
+          ]
+        },
+        {
+          "screen": "maps",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "settings",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "home",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "squad",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "training",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "transfers",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [],
+          "vertical": [
+            "transfers"
+          ]
+        },
+        {
+          "screen": "season",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "tactics",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "finance",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "shop",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [],
+          "vertical": [
+            "shop"
+          ]
+        },
+        {
+          "screen": "maps",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "settings",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "home",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "squad",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "training",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "transfers",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [],
+          "vertical": [
+            "transfers"
+          ]
+        },
+        {
+          "screen": "season",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "tactics",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "finance",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "shop",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [],
+          "vertical": [
+            "shop"
+          ]
+        },
+        {
+          "screen": "maps",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "settings",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        }
+      ],
+      "rosterAndCoinsUnchangedByVisualEquip": true,
+      "actual3DBattleReady": true,
+      "offlineStyleArtAndSavePreserved": true,
+      "errors": [],
+      "missing": []
+    },
+    "tutorial": {
+      "result": "passed",
+      "freshZeroPlayers": true,
+      "fivePaidTransfers": true,
+      "interruptedRecruitmentResumed": true,
+      "mandatoryTrainingRestTacticsRewardShop": true,
+      "actualBattleRendered": true,
+      "practiceSettlement": "deterministic test outcome",
+      "onceOnly400XP": true,
+      "marketOffersRemaining": 31,
+      "levelLocks": true,
+      "fits": [
+        {
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflow": "0"
+        },
+        {
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflow": "0"
+        },
+        {
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "overflow": "0"
+        },
+        {
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflow": "0"
+        }
+      ],
+      "battleAvatars": [
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        }
+      ],
+      "menuAvatarSize": {
+        "w": 84,
+        "h": 96
+      },
+      "squadSize": {
+        "w": 84,
+        "h": 96
+      },
+      "offlinePreserved": true,
+      "errors": []
+    },
+    "existingMarket": {
+      "result": "passed",
+      "legacy46MigratedNoWalletGrant": true,
+      "marketCatalog": 15,
+      "frames": 8,
+      "fixedBundleCancelAtomicAndOnce": true,
+      "mobileBundleConfirmation": true,
+      "frameBuyEquip": true,
+      "starExchange": true,
+      "playersSearchRoleSortUnlockContract": true,
+      "earnedPass": true,
+      "goalClaim": true,
+      "oldThemeShopStillWorks": true,
+      "offlineOwnershipAndWalletRetained": true,
+      "fits": [
+        {
+          "tab": "Market",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Market",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Market",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Market",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Market",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        }
+      ],
+      "errors": [],
+      "missing": []
+    },
+    "existingMissions": {
+      "result": "passed",
+      "legacy47PassWalletAndCountPreserved": true,
+      "normalMissions": 12,
+      "premiumMissions": 6,
+      "normalMilestoneClaimOnce": true,
+      "premiumClaimsAndBulk": true,
+      "oldTrainingAndWinsNotRetroGranted": true,
+      "originalProductAndEmblemArtRendered": true,
+      "nineCrests": true,
+      "mobileFoxPurchaseAndApply": true,
+      "offlineArtRewardsAndWalletPreserved": true,
+      "fits": [
+        {
+          "tab": "Market",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Klub vazifalari/",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Pass operatsiyasi/",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Market",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Klub vazifalari/",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Pass operatsiyasi/",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Market",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Klub vazifalari/",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Pass operatsiyasi/",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Market",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Klub vazifalari/",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Pass operatsiyasi/",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Market",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Klub vazifalari/",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Vazifalar",
+          "tier": "/Pass operatsiyasi/",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        }
+      ],
+      "errors": [],
+      "missing": []
+    },
+    "upgrade": {
+      "result": "passed",
+      "previous48ServiceWorkerActuallyInstalled": true,
+      "newCSSStyledOnFirstNavigationWhileOldWorkerStillControls": true,
+      "earnedWalletPreserved": true,
+      "newVisual49StyleAndFramesOnFirstNavigation": true,
+      "newVersionedStylesCachedAndOffline": true,
+      "errors": []
+    },
+    "art": {
+      "branch": "arena-visual49-art",
+      "commit": "0b755c593226be24810d3f2608cdbd8814fccf2b",
+      "prefix": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/0b755c593226be24810d3f2608cdbd8814fccf2b/art49/",
+      "manifest": {
+        "themes": {
+          "bytes": 554334,
+          "sha256": "1d93d117bebd1ed4e32abd1d88123580c6fdf6c820a5c04981146e97af682928",
+          "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/0b755c593226be24810d3f2608cdbd8814fccf2b/art49/themes49.webp",
+          "cols": 3,
+          "rows": 2,
+          "width": 1774,
+          "height": 887,
+          "rects": [
+            [
+              0,
+              0,
+              591,
+              443
+            ],
+            [
+              591,
+              0,
+              591,
+              443
+            ],
+            [
+              1182,
+              0,
+              592,
+              443
+            ],
+            [
+              0,
+              443,
+              591,
+              444
+            ],
+            [
+              591,
+              443,
+              591,
+              444
+            ],
+            [
+              1182,
+              443,
+              592,
+              444
+            ]
+          ]
+        },
+        "frames": {
+          "bytes": 796922,
+          "sha256": "b8b455540e6ea1e296dae5e8301c1f01106891e541f747dde223da3f302bc0d5",
+          "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/0b755c593226be24810d3f2608cdbd8814fccf2b/art49/frames49.webp",
+          "cols": 3,
+          "rows": 3,
+          "width": 1122,
+          "height": 1402,
+          "rects": [
+            [
+              0,
+              0,
+              360,
+              446
+            ],
+            [
+              380,
+              0,
+              360,
+              447
+            ],
+            [
+              754,
+              0,
+              368,
+              450
+            ],
+            [
+              0,
+              449,
+              360,
+              439
+            ],
+            [
+              380,
+              444,
+              360,
+              451
+            ],
+            [
+              754,
+              449,
+              368,
+              443
+            ],
+            [
+              0,
+              894,
+              360,
+              508
+            ],
+            [
+              380,
+              896,
+              360,
+              506
+            ],
+            [
+              754,
+              894,
+              368,
+              508
+            ]
+          ]
+        },
+        "sections": {
+          "bytes": 485796,
+          "sha256": "8a83dff957aa8a2608be693464c544d599c2b5ceb57793a066524a5b670140c5",
+          "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/0b755c593226be24810d3f2608cdbd8814fccf2b/art49/sections49.webp",
+          "cols": 3,
+          "rows": 3,
+          "width": 1254,
+          "height": 1254,
+          "rects": [
+            [
+              0,
+              0,
+              418,
+              390
+            ],
+            [
+              418,
+              0,
+              418,
+              390
+            ],
+            [
+              836,
+              0,
+              418,
+              390
+            ],
+            [
+              0,
+              390,
+              418,
+              392
+            ],
+            [
+              418,
+              390,
+              418,
+              392
+            ],
+            [
+              836,
+              390,
+              418,
+              392
+            ],
+            [
+              0,
+              782,
+              418,
+              472
+            ],
+            [
+              418,
+              782,
+              418,
+              472
+            ],
+            [
+              836,
+              782,
+              418,
+              472
+            ]
+          ]
+        }
+      },
+      "provenance": {
+        "creationTool": "image_gen.imagegen",
+        "date": "2026-11-07",
+        "design": "Original club environments, transparent portrait frames and unique department illustration atlases; no copied brands or team art",
+        "themesGrid": [
+          3,
+          2
+        ],
+        "framesGrid": [
+          3,
+          3
+        ],
+        "sectionsGrid": [
+          3,
+          3
+        ],
+        "runtimeEncoding": "WebP without visual content changes",
+        "originalsRetained": true,
+        "files": {
+          "sections49.webp": {
+            "bytes": 485796,
+            "sha256": "8a83dff957aa8a2608be693464c544d599c2b5ceb57793a066524a5b670140c5"
+          },
+          "frames49.webp": {
+            "bytes": 796922,
+            "sha256": "b8b455540e6ea1e296dae5e8301c1f01106891e541f747dde223da3f302bc0d5"
+          },
+          "themes49.webp": {
+            "bytes": 554334,
+            "sha256": "1d93d117bebd1ed4e32abd1d88123580c6fdf6c820a5c04981146e97af682928"
+          },
+          "sections49-original.png": {
+            "bytes": 3100307,
+            "sha256": "aba93b0023f0cb32f495d797bffc4ebe1da47f143743c818b84b4074b1cc2feb"
+          },
+          "frames49-original.png": {
+            "bytes": 2489102,
+            "sha256": "beb92d1005c49b384696216038ef6704906be9181125f560d265c56c9784455d"
+          },
+          "themes49-original.png": {
+            "bytes": 3262715,
+            "sha256": "7737f8f349a8ae6b315ede544c433e8b06a8482a43fefa28f1b44c1a0254e02b"
+          }
+        }
+      }
+    },
+    "androidAPK": {
+      "result": "passed",
+      "applicationId": "uz.arena.manager.preview",
+      "versionCode": 149,
+      "versionName": "1.49-beta",
+      "bytes": 70364809,
+      "sha256": "5bb8f1976d7c02a14b2c48f7957233eea2c02385425a49f23cfa834226806fed",
+      "zipCRCValid": true,
+      "bundledAssetHashesVerified": 96,
+      "signedDebugPreview": true,
+      "separateApplicationFromOldBeta": true,
+      "physicalDeviceInstalled": false,
+      "paidBillingAndAdsEnabled": false,
+      "firstMapBundled": true,
+      "other3DMapsNeedFirstDownload": true,
+      "nativeDirectoryEntryResolved": true,
+      "sameApplicationAndCertificateAs48": true,
+      "branch": "arena-visual49-android",
+      "commit": "c1e4a78016918a2c28e2c312891fea6538581c96",
+      "file": "ARENA-Manager-1.49-preview.apk",
+      "url": "https://github.com/Abror1111/arena-manager-beta/raw/c1e4a78016918a2c28e2c312891fea6538581c96/ARENA-Manager-1.49-preview.apk"
+    },
+    "apkAssetBrowser": {
+      "result": "passed",
+      "testType": "Chromium simulation using actual extracted APK assets; not a physical APK installation",
+      "offlineFreshTutorialZeroPlayers": true,
+      "nativeImportAndExportBridgeUI": true,
+      "legacyMigration": true,
+      "offlineSandrift3DRendered": true,
+      "offlineNewMarketPurchase": true,
+      "originalArtAndMissionTabsBundled": true,
+      "newThemeFrameAndSectionAtlasesOffline": true,
+      "checkpointAndReloadResume": true,
+      "servedFiles": [
+        "arena-manager-beta/remix31/index.html",
+        "arena-manager-beta/remix31/loader49.js",
+        "arena-manager-beta/original20/assets/index-CVBt3UIp.css",
+        "arena-manager-beta/remix31/academy43.css",
+        "arena-manager-beta/remix31/commerce45.css",
+        "arena-manager-beta/remix31/assets/native-data31-CUOX1azu.js",
+        "embedded/b9beda0a9b4242edb25902dfd10e5c4eba03920a60f4bbecc5e1d32a6ae51f51.dat",
+        "arena-manager-beta/remix31/assets/main-CzyAUyCP.js.bin",
+        "embedded/6df90a7a64659f751e466206cbfe2e53a95e75929aa0325693263cd2824d3ff5.jpg",
+        "embedded/f2c3a1aea28fc51e2a032123c180f9fbb1ade30cb5e50d85b5e50f2569d8ce62.webp",
+        "embedded/f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1.mp3",
+        "embedded/381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022.mp3",
+        "embedded/8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce.mp3",
+        "embedded/1d93d117bebd1ed4e32abd1d88123580c6fdf6c820a5c04981146e97af682928.webp",
+        "embedded/962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725.mp3",
+        "embedded/0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2.mp3",
+        "embedded/e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b.mp3",
+        "embedded/8a83dff957aa8a2608be693464c544d599c2b5ceb57793a066524a5b670140c5.webp",
+        "embedded/99b5ba74e304a042f66e0f444157b6aa4e8212bc97507f44d840bfe53c16ac15.webp",
+        "embedded/b8b455540e6ea1e296dae5e8301c1f01106891e541f747dde223da3f302bc0d5.webp",
+        "embedded/67ebd2c568b02f64f664410295b02b721aec4bc3dd2a949e94a84cf2bc128bc7.webp",
+        "embedded/4c889926b50a0c5d22192a250fe138345b77bd60baddbbc64cf7676b31fcfc78.webp",
+        "arena-manager-beta/cs2/dust2.cmesh",
+        "arena-manager-beta/audio/9b01bf657b888bbdfac14a3bf7d01274c05749cf3b19534248d3767ae35d83fa.wav",
+        "arena-manager-beta/audio/68f7e11d8121975ca700692a3a2652290a448f4985bf30702418051fb1530812.wav",
+        "arena-manager-beta/audio/443a95419e8e8c111c9d4eeda3e6ad049e9fd7e0949cc99d88fcac1b71dc72b3.wav",
+        "arena-manager-beta/audio/fa945af9ca02e5d7d7a8d342698c2a8262e5d031d4417c473359cda8c016b4e0.wav",
+        "arena-manager-beta/audio/bfdcbe658f829d88ad5d35ed42991b6f2ec39ddbfa2e0fd67f0c0dbedb7d9440.wav",
+        "arena-manager-beta/audio/72955f8ee28d66bcaaa8241e92d89520806f0107e2eb6cb20b5f93f1baf329df.wav",
+        "arena-manager-beta/audio/f2558ccaef61952ad3afa7451e9fc5fec775eb1a5aa931992ff9ba705434a020.wav",
+        "arena-manager-beta/audio/9d491a4a3dcaa913da1a3ecde901701615aef03ccf9af3abba23c217e1c87941.wav",
+        "arena-manager-beta/audio/43607b49e153341994ba10f4b2bc58e37c6cdc267824216338644c70b3cc3c52.wav",
+        "arena-manager-beta/audio/beccb0d8eb069419cdf14751652086e1bba4778791eaeb184f76a8c429f3da3c.wav",
+        "arena-manager-beta/audio/355c7893abfac0c9de3ae49a7cd8a10d3f824792e45bd60a480ea6ed05817738.wav",
+        "arena-manager-beta/audio/1987c0ccb88b6e800f0869c1bddf4ed9cf0eddd4d369398fda5894e05dcbbd81.wav",
+        "arena-manager-beta/audio/69f4fe2974147c0607e4fabcb023f269fe41529ca02db2668d7d6afa09091ac8.wav",
+        "arena-manager-beta/audio/2584f5e4427123f6681d40d5157463990328eb09e1b9f64032d13dde3b6d8184.wav",
+        "arena-manager-beta/audio/9b7d7139035e37f2fd4fc63d8fec3b884ff76a2cfb39d9133813d6e9ac032c64.wav",
+        "arena-manager-beta/audio/01399a62eb50d54d367045cd1d6c5203ea83ab011c33175cffc0cde50248c263.wav",
+        "arena-manager-beta/audio/1963c68a6dde787d3fda1f7bef1f1614bdfe66f35cc30cc9ec8a61c9af2a50ae.wav",
+        "arena-manager-beta/audio/156fc5054e8717671651c97b0c5c334b0cb40f7e01c9605c596ec8df1a91e44e.wav",
+        "arena-manager-beta/audio/f101227fdbb87be55d42b254c6e6830c5f0a6dc5c33eaa45535cae675d1b898f.wav",
+        "arena-manager-beta/visuals/dust2/mobile.glb",
+        "arena-manager-beta/audio/3a2d3f37c5a8aa31c36a9382af41e000144293a23d6368fda20c06da5128be57.wav",
+        "arena-manager-beta/audio/73135705c8f822573165fadbe2fb1b1e508c72bb8072f732d029b8c4fc5e0d4b.wav",
+        "arena-manager-beta/audio/e6aaa7431eecfa19dac76187c3749d50769cad1e08759e48f3da9bcec4ab0c31.wav",
+        "arena-manager-beta/audio/59321e5a3d5617a7d86f517f060e46f516c414ef7a4ff373666a006260ce4266.wav",
+        "arena-manager-beta/audio/c62e09520aead058dc8ce9e9192830f3f88a29bb2844aa93fd53302415a66a6c.wav",
+        "arena-manager-beta/audio/cea961e91440fab85fd012e01a8aa818d2a6fbe2d74e1cc54990ca1240fec9ea.wav",
+        "embedded/a78d83a3879f53bfbbb0cb1737fe35426eb09129129b2095b6494232b0b0c352.glb",
+        "arena-manager-beta/audio/fe501899392b4d626a94c27eb48bab6400c9634dd8332940bbcaaafd00412925.wav"
+      ],
+      "missing": [],
+      "errors": []
+    },
+    "sourceArchive": {
+      "archive": "ARENA-visual49-source.zip",
+      "sha256": "c73aae8f14d6cf33f10a3a92825953db4d3b9b958ffa54e9a851868848171cca",
+      "bytes": 41913617,
+      "files": 643,
+      "branch": "arena-visual49-source",
+      "commit": "55387a4e0ecd518ef2c28bd3bef3af2377adc95d",
+      "url": "https://github.com/Abror1111/arena-manager-beta/raw/55387a4e0ecd518ef2c28bd3bef3af2377adc95d/ARENA-visual49-source.zip",
+      "reproducibleBuild": true
+    },
+    "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
+    "mapsCombatAudioPortraitFacesPreserved": true,
+    "directPagesHTTPVerified": false,
+    "physicalDeviceFPSMeasured": false,
+    "legalClearanceClaim": false,
+    "realBillingAndAdsEnabled": false
+  },
+  "protected28PublishedAnd209ParentFilesMatched": true,
+  "productionBotUnchanged": true,
+  "publicBytes": 1073737420,
+  "headroom": 4404,
+  "npmTestScriptCompleted": true,
+  "notes": [
+    "Five truly different whole-app club skins: gold trophy headquarters, azure technology, crimson industrial, jade organic garden and violet observatory. Selected owned club theme controls actual background illustration, material pattern, corner geometry, surfaces, buttons, navigation, dialogs and battle HUD. Existing ownership, prices and free equip preserved.",
+    "Ten main screens plus launch/tutorial, purchase dialogs, maps/loading and battle arsenal receive coherent visual styling. Nine original department illustrations distinguish HQ/squad/training/scouting/trophies/tactics/finance/maps/settings; shop header uses existing original48 product art. Existing layout and horizontal adaptive paging retained. Vertical page overflow remains excluded outside shop and transfers.",
+    "Eight original transparent illustrated portrait frames have different silhouettes: crystal, crescent, laurel, vine, wings, orbit, solar and celestial. One PortraitFrame49 renderer is shared by collection, confirmation and actual menu/battle photos. Eight collection samples use distinct existing anime faces; real identity selection is unchanged. Free remove/re-equip control included; no clone-face grants or ownership changes.",
+    "Three new image_gen art atlases: themes554334bytes, transparent frames796922bytes, sections485796bytes; total1837052bytes runtime WebP. PNG originals/provenance retained in art49. Immutable SHA-verified cached URLs on arena-visual49-art. Logical crop rectangles prevent neighboring cell glow bleeding; transparency is preserved. No new rendering/animation loop.",
+    "All36weapons now have distinct original SVG silhouette/profile details across the existing WeaponIcon UI. Gameplay weapon definitions, actual maps/combat/audio and original72anime-face atlas are preserved; engine version label only changes. Existing mission/economy/tutorial/shop behavior remains validated.",
+    "71Node tests plus custom regression chain complete successfully. Browser checks10screens at280x653,390x844,844x390,540x720,1024x768 (50fits),5distinct skins/materials/radii,8matching actual frames and8sample faces, free removal/re-equip,36unique silhouettes, actual3Dbattle, offline images/style/save. Fresh9-step tutorial and prior market/missions browser regressions pass.",
+    "Actual48ServiceWorker installed before49: first49navigation uses inline49skin and frames while oldworker controls; earned wallet persists and new20shell works offline. Inline CSS is installed before React mounts; versioned shell fetches bypass stale canonical cache. No CSS-only initial flash regression.",
+    "AndroidPreview1.49/versionCode149 sharesID/certificate with1.48. Signed APK ZIPCRC/package/96assetSHA checks and extracted-actual-APK offline Chromium test pass (tutorial/import/export/newart/missions/market/Sandrift3D/checkpointresume). Physical Android install/FPS not measured. Sandrift3D/all11navigation/collisions/audio/portraits/art bundled; other3D worlds need firstInternetdownload/cache. No billing/ad activation.",
+    "Protected case bot,209parent source files and28protected published files unchanged. Main publication scope remains remix31 and original18 redirect. Full evidence/originals in source archive, prior history linked. No source-map rights clearance or commercial-production-readiness claim.",
+    "Mainchangesonlyremix31/original18redirect. Fullsourceincludesnewgeneratedoriginals/provenance/screenshots/testscriptsandAPKrestoremanifest. Privatekeys,APKgeneratedassets,cachesexcluded. MaincompacthistorylinksstayunderPages1GiB. Useinheritedproxy/TLS;directgithub.ioHTTPblocked,exactPagesSuccessverifiesdeployment. No livebilling/ads,physicaldeviceFPSorsource-maprights-clearanceclaim. RAMsource /dev/shm/arena-manager-visual49;web -web;evidence /dev/shm/arena-visual49-tests;Git /dev/shm/arena-pages32."
+  ]
+}
