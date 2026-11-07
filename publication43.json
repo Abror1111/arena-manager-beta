@@ -1,0 +1,394 @@
+{
+  "version": "academy43",
+  "date": "2026-11-07",
+  "timezone": "Asia/Tashkent",
+  "url": "https://abror1111.github.io/arena-manager-beta/remix31/?v=43",
+  "commit": "159a2d80a37e00a5775ebae9be4bd7ad69199bf6",
+  "baseline": "8076b124c38860a8c2ff127051e127c6e0aaf9cb",
+  "actions": {
+    "branch": "main",
+    "runId": "42349982129",
+    "runUrl": "https://github.com/Abror1111/arena-manager-beta/actions/runs/42349982129",
+    "commit": "159a2d80a37e00a5775ebae9be4bd7ad69199bf6",
+    "status": "Success",
+    "verification": "Public run Status Success and exact full commit SHA"
+  },
+  "sourceArchive": {
+    "archive": "ARENA-academy43-source.zip",
+    "sha256": "6a12e9d61a9cc722ed1af5673f9748c0677fdc5af96927051af2b938fc6f6262",
+    "bytes": 4300661,
+    "files": 397,
+    "branch": "arena-academy43-source",
+    "commit": "9d235ebd12ac3305b08a1923a2368673f657c4f2",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/9d235ebd12ac3305b08a1923a2368673f657c4f2/ARENA-academy43-source.zip",
+    "reproducibleBuild": true
+  },
+  "sourceAndWebFilesRemoteHashVerified": true,
+  "verifiedWebFiles": 26,
+  "archiveRebuildByteIdentical": true,
+  "validation": {
+    "result": "passed",
+    "version": "academy43",
+    "baseCommit": "8076b124c38860a8c2ff127051e127c6e0aaf9cb",
+    "financeVersion": 2,
+    "academyNodeTests": 7,
+    "economicNodeTests": 24,
+    "fullInheritedRegressionPassed": true,
+    "marketOffers": 36,
+    "levelThresholds": [
+      1,
+      2,
+      4,
+      7,
+      10
+    ],
+    "tutorialSteps": 9,
+    "tutorialFreshOnly": true,
+    "oldClubBrowser": {
+      "result": "passed",
+      "legacyMigration": {
+        "from": 1,
+        "to": 2,
+        "walletAndLedgerPreserved": true
+      },
+      "shopPurchaseAndFreeEquip": true,
+      "collectorClaim": true,
+      "baseUpgrade": true,
+      "transferBuyAndSale": true,
+      "fits": [
+        {
+          "size": {
+            "width": 844,
+            "height": 390
+          },
+          "screen": "shop",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "size": {
+            "width": 844,
+            "height": 390
+          },
+          "screen": "finance",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 844,
+            "height": 390
+          },
+          "screen": "training",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 844,
+            "height": 390
+          },
+          "screen": "transfers",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "size": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": "shop",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "size": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": "finance",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": "training",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 390,
+            "height": 844
+          },
+          "screen": "transfers",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "size": {
+            "width": 768,
+            "height": 1024
+          },
+          "screen": "shop",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024
+        },
+        {
+          "size": {
+            "width": 768,
+            "height": 1024
+          },
+          "screen": "finance",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 768,
+            "height": 1024
+          },
+          "screen": "training",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 768,
+            "height": 1024
+          },
+          "screen": "transfers",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024
+        },
+        {
+          "size": {
+            "width": 540,
+            "height": 720
+          },
+          "screen": "shop",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "size": {
+            "width": 540,
+            "height": 720
+          },
+          "screen": "finance",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 540,
+            "height": 720
+          },
+          "screen": "training",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflow": "0"
+        },
+        {
+          "size": {
+            "width": 540,
+            "height": 720
+          },
+          "screen": "transfers",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        }
+      ],
+      "offlineSavePreserved": true,
+      "errors": []
+    },
+    "shopItems": 12,
+    "oneTimeCollectorReward": 500,
+    "legacySaveWalletOwnershipAndLedgerPreserved": true,
+    "automaticPayoutsShowActualCredits": true,
+    "manualOverflowAtomic": true,
+    "transferOffersPersistAfterHistoryEviction": true,
+    "browser": {
+      "result": "passed",
+      "freshZeroPlayers": true,
+      "fivePaidTransfers": true,
+      "interruptedRecruitmentResumed": true,
+      "mandatoryTrainingRestTacticsRewardShop": true,
+      "actualBattleRendered": true,
+      "practiceSettlement": "deterministic test outcome",
+      "onceOnly400XP": true,
+      "marketOffersRemaining": 31,
+      "levelLocks": true,
+      "fits": [
+        {
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflow": "0"
+        },
+        {
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflow": "0"
+        },
+        {
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "overflow": "0"
+        },
+        {
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflow": "0"
+        }
+      ],
+      "battleAvatars": [
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        },
+        {
+          "w": 29,
+          "h": 35.09375,
+          "display": "block"
+        }
+      ],
+      "menuAvatarSize": {
+        "w": 84,
+        "h": 96
+      },
+      "squadSize": {
+        "w": 84,
+        "h": 96
+      },
+      "offlinePreserved": true,
+      "errors": []
+    },
+    "sourceArchive": {
+      "archive": "ARENA-academy43-source.zip",
+      "sha256": "6a12e9d61a9cc722ed1af5673f9748c0677fdc5af96927051af2b938fc6f6262",
+      "bytes": 4300661,
+      "files": 397,
+      "branch": "arena-academy43-source",
+      "commit": "9d235ebd12ac3305b08a1923a2368673f657c4f2",
+      "url": "https://github.com/Abror1111/arena-manager-beta/raw/9d235ebd12ac3305b08a1923a2368673f657c4f2/ARENA-academy43-source.zip",
+      "reproducibleBuild": true
+    },
+    "archiveBuildByteIdentical": true,
+    "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
+    "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/8076b124c38860a8c2ff127051e127c6e0aaf9cb/remix31/validation.json",
+    "geometryPathsStreetModelsSpawnsMusicAndCoversUnchanged": true,
+    "oldUIStructureAndSharedCSSPreserved": true,
+    "scopedPortraitAndAcademyCSSAdded": true,
+    "offlineCoinsOnly": true,
+    "realMoneyPaymentsAdded": false,
+    "serverAuthoritativeCurrency": false,
+    "legalClearanceClaim": false,
+    "directPagesHTTPVerified": false,
+    "physicalDeviceFPSMeasured": false,
+    "APKUnchanged": true
+  },
+  "protectedRootAuthoredAnd209ParentFilesMatched": true,
+  "productionBotUnchanged": true,
+  "publicBytes": 1073669273,
+  "headroom": 72551,
+  "notes": [
+    "User requested compact consistent player portraits, larger battle side images, expanded level-gated transfers, and mandatory novice onboarding starting with no players.",
+    "Fresh loadCareer fallback now creates an empty roster and lineup with12000coins and saved nine-step tutorial. Existing established createCareer API and old saves remain unchanged. Five paid800\u20131000coin novices auto-lineup; steps require real training, rest, tactical choice, scout claim, cosmetic purchase and completed nonforfeit practice. Final400XP is once-only. Settings and backup stay available.",
+    "Market36 offers preserve original6IDs/ratings and add30 profiles. Required levels1/2/4/7/10 enforced by buy API and visible UI locks. Acquired-ID validation expands to0\u201335. Actual prices, salary and finance42 ledger apply. Existing16-cell anime atlas is reused, not36new illustrations.",
+    "Menu portraits84x96; small phone summary68x78. Stable profile IDs select the same anime cell in menus, match panels and world labels. Wide screens show both five-player teams; landscape844x390 cards fit between top and bottom controls. Portrait and ultrashort phones retain the existing roster dialog. Original shared compiled stylesheet untouched, scoped academy43.css cached with shellv13.",
+    "Seven academy and24economic tests plus inherited full npm regressions pass. Fresh browser buys5with confirmations, reloads after2, completes all required actions, renders3D battle, saves deterministic practice-loss fixture and completes tutorial. Tests verify five unique initial anime cells, ten visible landscape portraits,36minus5remaining offers/level locks, menu and squad sizes, four viewport fits and offline state. Legacy-club browser separately verifies shop/free-equip/collector/facility/transfer buy-sale and offline.",
+    "No maps, geometry, navigation, source audio/music/covers, production bot or parent authored source changed.28protected published and209parent hashes match; bot clean. No newAPK, real-money payments, server-authoritative anti-cheat, source-map rights clearance or physical-deviceFPS claim.",
+    "Overlay disk full; work in RAM /dev/shm/arena-manager-academy43, web /dev/shm/arena-manager-academy43-web, Git /dev/shm/arena-pages32, evidence /dev/shm/arena-academy43-tests. Durable sourceZIP and receipt on arena-academy43-source branch. Do not delete user assets or advance persistent old Git refs to RAM-only objects. GitHub/raw allowed, direct github.io blocked; exact Pages success verifies publication."
+  ]
+}
