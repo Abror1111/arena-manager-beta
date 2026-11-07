@@ -1,0 +1,11 @@
+{
+  "font": {
+    "file": "manrope-latin-variable.woff2",
+    "bytes": 24836,
+    "sha256": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972"
+  },
+  "license": "SIL Open Font License1.1",
+  "upstream": "https://github.com/sharanda/manrope",
+  "source": "https://cdn.jsdelivr.net/fontsource/fonts/manrope:vf@latest/latin-wght-normal.woff2",
+  "changes": "Unmodified font binary; game UI CSS and frame composition are original authored code."
+}
