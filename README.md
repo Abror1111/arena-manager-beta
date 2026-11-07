@@ -2,8 +2,8 @@ ARENA Manager1.50 portrait and interface polish source
 
 {
   "archive": "ARENA-polish50-source.zip",
-  "sha256": "1f7f3b42051e25cea4ceb8b49a72e84b7f3704ae7da81676db43c9580270ecb9",
-  "bytes": 38946327,
+  "sha256": "cc288f60c460120cd6e9042165959346e9f1d6a8a15f84a39a22b84c9ac58965",
+  "bytes": 38948124,
   "files": 366
 }
 
