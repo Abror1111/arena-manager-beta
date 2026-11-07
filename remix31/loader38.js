@@ -1,1 +1,1 @@
-import './loader47.js';
+import './loader48.js';

@@ -1,20 +1,10 @@
-# ARENA Manager 1.47 — Supply market
+# ARENA Manager1.48
 
-The club shop now opens on a coherent Supply market: original SVG product illustrations, three-currency wallet, grouped catalog, responsive product cards, clear checkout/ownership states and saved transaction history. All changes are scoped to the shop; existing club/battle UI and 11 maps are retained.
+12standard and6earned-pass premium missions,9original illustrated emblems,6detailed product props and ornamental frames. Rewards/progress persist through migration/offline; premium pass uses game stars. No livebilling/ads enabled.71Node tests and mobile/offline/47upgrade browser checks pass.
 
-15 market offers:3 fixed one-time bundles,3 coin→star exchanges,8 permanent portrait frames and roster recovery. Bundles show guaranteed stars/tickets/frame/energy before checkout, debit club coins atomically and cannot be bought again after export/import. Existing46 balances/ownership migrate without grants. Frames are cosmetics. Recovery caps at100. No random loot or real-money charges.
-
-Player contracts retain level/8player restrictions and now show consistent original anime portraits, OVR,3 skill bars, role, potential, salary and prices. Name search, role/open-only filters and price/rating sorting work. Club/Pro passes still last10completedofficialseries and use earned stars. Six reward goals and existing themes/emblems remain available. TEST laboratory stays temporary and isolated.
-
-65Node tests pass including4new bundle/migration/atomicity/frame tests and61existing, plus preserved custom regression scripts. Browser checks cancellation, fixed bundle ownership/ledger, mobile checkout,8frames/exchange, player filters/unlocks/contracts, pass/goal/old theme purchases, five viewport sizes280–1024px and offline persistence. Actual46ServiceWorker→47 upgrade verifies the new design on first navigation while the old worker still controls, then cached offline after activation. Versioned shopCSS and fresh install fetches prevent stale shell files. No frame-rate claim. Source ZIP web rebuild is byte-identical.
-
-Node22+/Python3: install exact package.json dependencies, `npm test`; build with `ARENA_MANAGER_OUT=/tmp/arena47-web npm run build` then `python pack-web31.py /tmp/arena47-web`. Serve at /arena-manager-beta/remix31/ with existing shared root assets. No new heavyweight art downloads: product graphics are inline SVG and portraits reuse verified original atlases.
-
-Android Preview1.47 uses the same application ID/signing certificate as1.46 and can update it. Sandrift3D/all11simulation/collisions/audio/portraits bundled; other3D worlds require first Internet download. See androidGame47/README.md. Generated assets/private signing keys/build caches are excluded from source. Native build/signature/89asset hashes and extracted-APK browser smoke are checked; no physical Android installation claim.
-
-PlayConsole/AdMob are deferred by user. No real payment/ad activation, commercial-release readiness or source-map rights clearance claim. Case bot and parent sources remain untouched. Prior46 source and receipt: https://github.com/Abror1111/arena-manager-beta/tree/arena-career46-source .
-
-Source: https://github.com/Abror1111/arena-manager-beta/raw/c0981556d3feb169eefc504a24adec8dc6b6a4e1/ARENA-market47-source.zip
-SHA256: 6a635113a6daa42ce4e4d8240b954ed15c06dfb61c85fc61fb36e43a666c7cda
-Receipt: arena-market47-source/publication47.json
-APK: https://github.com/Abror1111/arena-manager-beta/raw/3758a613ff2e3dc506ff67c6ea73e90af97ff09d/ARENA-Manager-1.47-preview.apk
+Source and full design/provenance/tests: https://github.com/Abror1111/arena-manager-beta/raw/2c9781d7b9cbe3df8b76d4349d16189a0d41ed09/ARENA-missions48-source.zip
+SHA256: 858df82923dc79f0b62631037dce5c99ddf20b8f4259008709bcdba43e55666d
+Android Preview1.48 (sameID/certificate as1.47): https://github.com/Abror1111/arena-manager-beta/raw/e4f85823d2752a9a076512998c830a037e3efff6/ARENA-Manager-1.48-preview.apk
+Receipt: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/arena-missions48-source/publication48.json
+Historical provenance: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/17bbb679d62cab9165af4b7ffbdc0d91af13c210/remix31/PROVENANCE.json
+Other3Dmaps require firstdownload; no physicalAndroid/FPS or source-maprights-clearance claim.
