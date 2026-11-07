@@ -1,0 +1,22 @@
+/* Consistent compact anime portraits. The original shared UI stylesheet is preserved. */
+.career-app .career-portrait,.career-app .market-grid .career-portrait,.career-app .person-summary>.career-portrait,.academy-recruits .career-portrait{width:84px!important;min-width:84px!important;height:96px!important;flex:none;padding:0;border-radius:9px;margin:0;overflow:hidden}
+.career-app .market-grid .career-portrait{margin:10px auto 0!important}
+.career-portrait .player-art{transform:none!important;max-width:none!important;filter:saturate(.95) contrast(1.03)}
+.career-app .career-portrait>b{font-size:17px!important;top:6px!important;right:5px!important}
+.career-app .career-portrait>small{font-size:7px!important;right:4px!important;bottom:5px!important;padding:2px 3px!important}
+.career-app .market-grid .career-portrait>b{font-size:17px!important}
+.observer .team-panel .portrait{display:block!important;width:38px!important;min-width:38px!important;height:46px!important;flex:none}
+.observer .team-panel .player-card{min-height:54px}
+.observer .portrait .player-art,.observer-avatar .player-art{transform:none!important;max-width:none!important}
+.academy-heading h1{font-size:clamp(17px,2.2vw,26px)}
+.academy-tip{font-size:12px;line-height:1.6;color:#b2c2d0;margin:6px 0 16px;max-width:780px}
+.academy-recruits .player-profile p{font-size:11px;line-height:1.7;color:#b7c9d3;margin:8px 0}
+.academy-recruits .player-profile{padding:12px}
+.academy-recruits .profile-name{text-align:center}
+@media(max-width:600px),(max-height:450px){.observer .team-panel .portrait{width:29px!important;min-width:29px!important;height:36px!important}.observer .team-panel .player-card{min-height:43px}.career-app .person-summary>.career-portrait{width:68px!important;min-width:68px!important;height:78px!important}.academy-tip{font-size:11px}.academy-heading .tag-badge{font-size:10px}}
+/* Keep the familiar mobile roster dialog; expose compact teams beside wide battle views. */
+@media(min-width:700px){.observer>.team-panel{display:block;top:50%;bottom:auto;width:170px;transform:translateY(-50%);max-height:calc(100dvh - 150px);overflow:hidden}.observer>.team-0{left:8px}.observer>.team-1{right:8px}}
+@media(min-width:700px) and (max-height:500px){.observer>.team-panel{width:136px;max-height:calc(100dvh - 130px)}.observer .team-panel>header{font-size:10px;padding:5px 7px}.observer .team-panel .player-card{min-height:43px;padding:3px 4px;gap:4px}.observer .team-panel .player-info>strong{font-size:9px}.observer .team-panel .player-info>span,.observer .team-panel .player-info>span b{font-size:8px;line-height:1.2}.observer .team-panel .player-info>small{font-size:7px;line-height:1.2;gap:2px}.observer .team-panel .weapon-name{font-size:7px}.observer .team-panel .kd{font-size:7px}}
+.roster-team .portrait{width:39px;min-width:39px;height:48px}
+@media(min-width:700px) and (max-height:500px){.observer>.team-panel{display:flex;flex-direction:column;top:64px;bottom:70px;transform:none;max-height:none}.observer .team-panel>header{height:21px;min-height:21px;padding:3px 6px;flex:none}.observer .team-panel .team-economy{height:23px;min-height:23px;padding:3px 6px;font-size:9px;flex:none}.observer .team-panel .player-card{flex:1;min-height:0;padding:2px 4px;overflow:hidden}.observer .team-panel .portrait{height:clamp(28px,9dvh,36px)!important}.observer .team-panel .player-info>strong{line-height:1.1}.observer .team-panel .hp-bar{height:2px;margin-top:2px}}
+@media(min-width:700px) and (max-height:320px){.observer>.team-panel{display:none}}

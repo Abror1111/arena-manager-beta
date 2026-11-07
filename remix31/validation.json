@@ -1,17 +1,22 @@
 {
   "result": "passed",
-  "version": "economy42",
-  "baseCommit": "400308f9145dc92d75f2685dde1ca22ecf8903bf",
+  "version": "academy43",
+  "baseCommit": "8076b124c38860a8c2ff127051e127c6e0aaf9cb",
   "financeVersion": 2,
+  "academyNodeTests": 7,
   "economicNodeTests": 24,
   "fullInheritedRegressionPassed": true,
-  "shopItems": 12,
-  "oneTimeCollectorReward": 500,
-  "legacySaveWalletOwnershipAndLedgerPreserved": true,
-  "automaticPayoutsShowActualCredits": true,
-  "manualOverflowAtomic": true,
-  "transferOffersPersistAfterHistoryEviction": true,
-  "browser": {
+  "marketOffers": 36,
+  "levelThresholds": [
+    1,
+    2,
+    4,
+    7,
+    10
+  ],
+  "tutorialSteps": 9,
+  "tutorialFreshOnly": true,
+  "oldClubBrowser": {
     "result": "passed",
     "legacyMigration": {
       "from": 1,
@@ -211,21 +216,132 @@
     "offlineSavePreserved": true,
     "errors": []
   },
+  "shopItems": 12,
+  "oneTimeCollectorReward": 500,
+  "legacySaveWalletOwnershipAndLedgerPreserved": true,
+  "automaticPayoutsShowActualCredits": true,
+  "manualOverflowAtomic": true,
+  "transferOffersPersistAfterHistoryEviction": true,
+  "browser": {
+    "result": "passed",
+    "freshZeroPlayers": true,
+    "fivePaidTransfers": true,
+    "interruptedRecruitmentResumed": true,
+    "mandatoryTrainingRestTacticsRewardShop": true,
+    "actualBattleRendered": true,
+    "practiceSettlement": "deterministic test outcome",
+    "onceOnly400XP": true,
+    "marketOffersRemaining": 31,
+    "levelLocks": true,
+    "fits": [
+      {
+        "w": 844,
+        "h": 390,
+        "sw": 844,
+        "sh": 390,
+        "overflow": "0"
+      },
+      {
+        "w": 390,
+        "h": 844,
+        "sw": 390,
+        "sh": 844,
+        "overflow": "0"
+      },
+      {
+        "w": 768,
+        "h": 1024,
+        "sw": 768,
+        "sh": 1024,
+        "overflow": "0"
+      },
+      {
+        "w": 540,
+        "h": 720,
+        "sw": 540,
+        "sh": 720,
+        "overflow": "0"
+      }
+    ],
+    "battleAvatars": [
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      },
+      {
+        "w": 29,
+        "h": 35.09375,
+        "display": "block"
+      }
+    ],
+    "menuAvatarSize": {
+      "w": 84,
+      "h": 96
+    },
+    "squadSize": {
+      "w": 84,
+      "h": 96
+    },
+    "offlinePreserved": true,
+    "errors": []
+  },
   "sourceArchive": {
-    "archive": "ARENA-economy42-source.zip",
-    "sha256": "760b786a5969bf6d61efd921d9d788750f856305f39c1f1571343d4ad39c0c93",
-    "bytes": 3313266,
-    "files": 378,
-    "branch": "arena-economy42-source",
-    "commit": "b0fefeb22477752fd74393b0ca08b2de2465f3e7",
-    "url": "https://github.com/Abror1111/arena-manager-beta/raw/b0fefeb22477752fd74393b0ca08b2de2465f3e7/ARENA-economy42-source.zip",
+    "archive": "ARENA-academy43-source.zip",
+    "sha256": "6a12e9d61a9cc722ed1af5673f9748c0677fdc5af96927051af2b938fc6f6262",
+    "bytes": 4300661,
+    "files": 397,
+    "branch": "arena-academy43-source",
+    "commit": "9d235ebd12ac3305b08a1923a2368673f657c4f2",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/9d235ebd12ac3305b08a1923a2368673f657c4f2/ARENA-academy43-source.zip",
     "reproducibleBuild": true
   },
   "archiveBuildByteIdentical": true,
   "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
-  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/400308f9145dc92d75f2685dde1ca22ecf8903bf/remix31/validation.json",
+  "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/8076b124c38860a8c2ff127051e127c6e0aaf9cb/remix31/validation.json",
   "geometryPathsStreetModelsSpawnsMusicAndCoversUnchanged": true,
-  "oldUILayoutPreserved": true,
+  "oldUIStructureAndSharedCSSPreserved": true,
+  "scopedPortraitAndAcademyCSSAdded": true,
   "offlineCoinsOnly": true,
   "realMoneyPaymentsAdded": false,
   "serverAuthoritativeCurrency": false,

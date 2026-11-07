@@ -1,3 +1,15 @@
+# ARENA academy43 — first-club tutorial and level-gated transfers
+
+Fresh browser storage starts with zero players and12,000club coins. Nine saved tutorial steps teach five paid800–1000coin novice recruits, active lineup, training, rest, tactical choice, scout objective, fixed-price cosmetic purchase and one full nonforfeit practice match. A once-only400XP completion award unlocks level2offers. Existing saved clubs and unfinished matches are not reset or forced into the guide. createCareer() remains the established-club compatibility/test constructor; loadCareer fresh fallback uses createNewCareer().
+
+36season transfer offers have level1/2/4/7/10 requirements enforced in buyPlayer and quotes. Stable old6IDs/ratings remain, with30additional profiles. Finite-market tracking supports indices0–35. Stronger unlocked players still require the displayed coin price. Purchases use existing finance accounting.
+
+Menu portraits are compact84x96 (small-person-summary68x78 on phones), and profile identity matches across transfer/squad/battle/world labels. Existing16cell anime atlas is reused, so36market offers do not imply36unique illustrations. Wide battle views expose both teams with all5rows visible; portrait/ultrashort phones retain existing rosterdialog. Shared original20 CSS remains unchanged; scoped academy43.css is appended and cached in shellv13. Maps, geometry, audio, economy42 and old UI structure remain. Source map rights unchanged.
+
+Verification43 includes7academy+24economic tests, inherited npm regressions, actual fresh-guide and legacy-club browser paths. Browser battle outcome is a deterministic test fixture after actual3D rendering, not a physical-deviceFPS benchmark. No newAPK or real-money payments.
+
+Previous42 source: https://github.com/Abror1111/arena-manager-beta/raw/b0fefeb22477752fd74393b0ca08b2de2465f3e7/ARENA-economy42-source.zip
+
 # ARENA economy42 — club shop and balanced accounting
 
 2026-11-07, Asia/Tashkent. Twelve fixed-price cosmetic items, collection filters, original SVG crests, free re-equip, clear before/after purchase and transfer payroll previews. One-time collector objective, actual training gain, facility confirmation and expired-sponsor notice. No cosmetic combat advantage. Existing virtual club coins remain separate from round dollars.
@@ -108,6 +120,6 @@ Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-
 
 The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
 
-Version42 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/b0fefeb22477752fd74393b0ca08b2de2465f3e7/ARENA-economy42-source.zip
-SHA256: 760b786a5969bf6d61efd921d9d788750f856305f39c1f1571343d4ad39c0c93
-Final receipt: arena-economy42-source/publication42.json.
+Version43 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/9d235ebd12ac3305b08a1923a2368673f657c4f2/ARENA-academy43-source.zip
+SHA256: 6a12e9d61a9cc722ed1af5673f9748c0677fdc5af96927051af2b938fc6f6262
+Final receipt: arena-academy43-source/publication43.json.
