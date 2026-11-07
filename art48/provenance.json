@@ -1,0 +1,33 @@
+{
+  "creationTool": "image_gen.imagegen",
+  "date": "2026-11-07",
+  "design": "Original detailed stylized esports product and emblem atlases, generated for this game; no borrowed brand/team logos",
+  "productsGrid": [
+    3,
+    2
+  ],
+  "emblemsGrid": [
+    3,
+    3
+  ],
+  "runtimeEncoding": "WebP without visual content changes",
+  "originalsRetained": true,
+  "files": {
+    "emblems48.webp": {
+      "bytes": 368862,
+      "sha256": "f2c3a1aea28fc51e2a032123c180f9fbb1ade30cb5e50d85b5e50f2569d8ce62"
+    },
+    "products48.webp": {
+      "bytes": 288392,
+      "sha256": "67ebd2c568b02f64f664410295b02b721aec4bc3dd2a949e94a84cf2bc128bc7"
+    },
+    "emblems48-original.png": {
+      "bytes": 2695520,
+      "sha256": "8a8713f978706b4fbcd81b92e0aafc43c84ff7b528b85ba9175edffb097cce2c"
+    },
+    "products48-original.png": {
+      "bytes": 2336941,
+      "sha256": "50b78c6f0f86384b79489962f435f263baed36a6f0f347f3c46af1acd139a733"
+    }
+  }
+}
