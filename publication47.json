@@ -1,0 +1,379 @@
+{
+  "version": "market47",
+  "date": "2026-11-07",
+  "timezone": "Asia/Tashkent",
+  "url": "https://abror1111.github.io/arena-manager-beta/remix31/?v=47",
+  "commit": "17bbb679d62cab9165af4b7ffbdc0d91af13c210",
+  "baseline": "380a2e64aa4565e2c83db8f92c87439c0c16a3e8",
+  "actions": {
+    "branch": "main",
+    "runId": "42390965627",
+    "runUrl": "https://github.com/Abror1111/arena-manager-beta/actions/runs/42390965627",
+    "commit": "17bbb679d62cab9165af4b7ffbdc0d91af13c210",
+    "status": "Success",
+    "verification": "Public run Status Success and exact full commit SHA"
+  },
+  "sourceArchive": {
+    "archive": "ARENA-market47-source.zip",
+    "sha256": "6a635113a6daa42ce4e4d8240b954ed15c06dfb61c85fc61fb36e43a666c7cda",
+    "bytes": 11752394,
+    "files": 529,
+    "branch": "arena-market47-source",
+    "commit": "c0981556d3feb169eefc504a24adec8dc6b6a4e1",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/c0981556d3feb169eefc504a24adec8dc6b6a4e1/ARENA-market47-source.zip",
+    "reproducibleBuild": true
+  },
+  "androidAPK": {
+    "result": "passed",
+    "applicationId": "uz.arena.manager.preview",
+    "versionCode": 147,
+    "versionName": "1.47-beta",
+    "bytes": 67135387,
+    "sha256": "597c7aaeeb11671fb4c2aedcaa13cfb1fa4ada5aebc28de6168790900d9500a7",
+    "zipCRCValid": true,
+    "bundledAssetHashesVerified": 89,
+    "signedDebugPreview": true,
+    "separateApplicationFromOldBeta": true,
+    "physicalDeviceInstalled": false,
+    "paidBillingAndAdsEnabled": false,
+    "firstMapBundled": true,
+    "other3DMapsNeedFirstDownload": true,
+    "nativeDirectoryEntryResolved": true,
+    "sameApplicationAndCertificateAs46": true,
+    "branch": "arena-market47-android",
+    "commit": "3758a613ff2e3dc506ff67c6ea73e90af97ff09d",
+    "file": "ARENA-Manager-1.47-preview.apk",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/3758a613ff2e3dc506ff67c6ea73e90af97ff09d/ARENA-Manager-1.47-preview.apk"
+  },
+  "sourceWebAndAPKRemoteHashVerified": true,
+  "verifiedWebFiles": 31,
+  "archiveRebuildByteIdentical": true,
+  "validation": {
+    "result": "passed",
+    "version": "market47",
+    "baseCommit": "380a2e64aa4565e2c83db8f92c87439c0c16a3e8",
+    "nodeTestsPassed": 65,
+    "npmTestScriptExitCode": 0,
+    "shopOnlyRedesign": true,
+    "newMarketOffers": 15,
+    "fixedOneTimeBundles": 3,
+    "portraitFrames": 8,
+    "originalInlineSVGArt": true,
+    "playerFilters": "name/role/open-only/rating/price",
+    "real46ServiceWorkerUpgrade": {
+      "result": "passed",
+      "previous46ServiceWorkerActuallyInstalled": true,
+      "newCSSStyledOnFirstNavigationWhileOldWorkerStillControls": true,
+      "earnedWalletPreserved": true,
+      "newVersionedStylesCachedAndOffline": true,
+      "errors": []
+    },
+    "browser": {
+      "result": "passed",
+      "legacy46MigratedNoWalletGrant": true,
+      "marketCatalog": 15,
+      "frames": 8,
+      "fixedBundleCancelAtomicAndOnce": true,
+      "mobileBundleConfirmation": true,
+      "frameBuyEquip": true,
+      "starExchange": true,
+      "playersSearchRoleSortUnlockContract": true,
+      "earnedPass": true,
+      "goalClaim": true,
+      "oldThemeShopStillWorks": true,
+      "offlineOwnershipAndWalletRetained": true,
+      "fits": [
+        {
+          "tab": "Market",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        },
+        {
+          "tab": "Market",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        },
+        {
+          "tab": "Market",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        },
+        {
+          "tab": "Market",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720
+        },
+        {
+          "tab": "Market",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "O\u2018yinchilar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Klub Pass",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Klub uslublari",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Emblemalar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        },
+        {
+          "tab": "Vazifalar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768
+        }
+      ],
+      "errors": [],
+      "missing": []
+    },
+    "earnedOfflineEconomyPreserved": true,
+    "realMoneyCharged": false,
+    "realAdRequestsEnabled": false,
+    "androidAPK": {
+      "result": "passed",
+      "applicationId": "uz.arena.manager.preview",
+      "versionCode": 147,
+      "versionName": "1.47-beta",
+      "bytes": 67135387,
+      "sha256": "597c7aaeeb11671fb4c2aedcaa13cfb1fa4ada5aebc28de6168790900d9500a7",
+      "zipCRCValid": true,
+      "bundledAssetHashesVerified": 89,
+      "signedDebugPreview": true,
+      "separateApplicationFromOldBeta": true,
+      "physicalDeviceInstalled": false,
+      "paidBillingAndAdsEnabled": false,
+      "firstMapBundled": true,
+      "other3DMapsNeedFirstDownload": true,
+      "nativeDirectoryEntryResolved": true,
+      "sameApplicationAndCertificateAs46": true,
+      "branch": "arena-market47-android",
+      "commit": "3758a613ff2e3dc506ff67c6ea73e90af97ff09d",
+      "file": "ARENA-Manager-1.47-preview.apk",
+      "url": "https://github.com/Abror1111/arena-manager-beta/raw/3758a613ff2e3dc506ff67c6ea73e90af97ff09d/ARENA-Manager-1.47-preview.apk"
+    },
+    "apkAssetBrowser": {
+      "result": "passed",
+      "testType": "Chromium simulation using actual extracted APK assets; not a physical APK installation",
+      "offlineFreshTutorialZeroPlayers": true,
+      "nativeImportAndExportBridgeUI": true,
+      "legacyMigration": true,
+      "offlineSandrift3DRendered": true,
+      "offlineNewMarketPurchase": true,
+      "checkpointAndReloadResume": true,
+      "missing": [],
+      "errors": []
+    },
+    "sourceArchive": {
+      "archive": "ARENA-market47-source.zip",
+      "sha256": "6a635113a6daa42ce4e4d8240b954ed15c06dfb61c85fc61fb36e43a666c7cda",
+      "bytes": 11752394,
+      "files": 529,
+      "branch": "arena-market47-source",
+      "commit": "c0981556d3feb169eefc504a24adec8dc6b6a4e1",
+      "url": "https://github.com/Abror1111/arena-manager-beta/raw/c0981556d3feb169eefc504a24adec8dc6b6a4e1/ARENA-market47-source.zip",
+      "reproducibleBuild": true
+    },
+    "archiveBuildByteIdentical": true,
+    "oldUICompiledCSSSHA256": "2953bdfcbc0385d887037eb3871bd4685e45e95faf775e844f0065d8e547111a",
+    "previousValidation": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/380a2e64aa4565e2c83db8f92c87439c0c16a3e8/remix31/validation.json",
+    "mapsCombatAudioPortraitArtAndCoreUIPreserved": true,
+    "monetizationAccountsDeferredByUser": true,
+    "legalClearanceClaim": false,
+    "directPagesHTTPVerified": false,
+    "physicalDeviceFPSMeasured": false
+  },
+  "protected28PublishedAnd209ParentFilesMatched": true,
+  "productionBotUnchanged": true,
+  "publicBytes": 1073730366,
+  "headroom": 11458,
+  "npmTestScriptCompleted": true,
+  "actual46ServiceWorkerUpgrade": {
+    "result": "passed",
+    "previous46ServiceWorkerActuallyInstalled": true,
+    "newCSSStyledOnFirstNavigationWhileOldWorkerStillControls": true,
+    "earnedWalletPreserved": true,
+    "newVersionedStylesCachedAndOffline": true,
+    "errors": []
+  },
+  "notes": [
+    "User requested a beautiful high-quality filled market. Supply47 redesign is scoped to shop; default opens Market. New wallet, responsive cards, categories, inline original SVG illustrations, clear ownership and before/after checkout. Coreclub/battleUI/map geometry/audio/portraitart preserved.",
+    "15marketoffers:3fixed one-time coin bundles with guaranteed displayed stars/tickets/frame/energy,3coin-star exchanges,8permanent cosmetic frames and roster recovery. Atomic independent coin/star ledger writes, corrupt/duplicate ownership validation, no resell/randomloot. Existing46save migration grants no currency. Earned pass/goal rules remain.",
+    "Anime player contract cards show OVR/role/3skillbars/potential/matches/salary and two currencies. Name search, role, unlocked-only and rating/price ordering work. Level and8playercap enforced. Previous theme/crest shop and separate temporary TESTlaboratory remain. No livepayment/ads enabled.",
+    "65Node tests plus preserved custom regression scripts pass. Four new tests cover46migration and invalidownership, exact once-only bundles through export/import, atomic insufficientfunds/pending/tutorial/overflow failures, all8frame purchase/equip/import. Browser validates15offers, cancel/nocharge, kits/frames/exchange, playerfilters/unlock/contract, pass/goal/legacytheme,5viewports280x653/390x844/844x390/540x720/1024x768 across6tabs, mobileconfirmation and offlineownership.",
+    "Android Preview1.47 compiled/signed with same applicationID/certificate as1.46; upgrade retains localstorage. FinalAPK ZIPCRC/89bundledsha/packagepermissions/signature verified. Extracted finalAPK actualassets tested offlineChromium: tutorial0roster/import/export/newmarketbundle/3DSandrift/checkpointresume. This is not physicalAndroidinstallation or FPSmeasurement.",
+    "Sandrift3D/all11simulationcollisions/audio/music/portraits/covers bundled; other3D worlds require initialInternetdownload/cache. Private signingkey excluded. SourceZIP excludes generatedAndroidassets; hash-pinned restore tool provided. Byte-identical web rebuild from archive passes.",
+    "Workingcasebot/protected28published/209parentfiles preserved. Main scope remix31+original18redirectonly. No legalclearance, commercialproductionreadiness, realbilling/ads or deviceperformance claim.",
+    "RAM paths /dev/shm/arena-manager-market47, -web, evidence /dev/shm/arena-market47-tests, Git /dev/shm/arena-pages32. Overlayfull, no userassetsdeleted. Source/APKbranches separate from nearly1GiBPages tree. Directgithub.io blocked by enforcednetworkpolicy; exactPagesSuccess confirmsdeployment. Preserve inheritedproxy/TLS; no oldpersistentGitrefs to RAM-onlyobjects."
+  ]
+}
