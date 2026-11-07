@@ -1,0 +1,38 @@
+{
+  "version": "portraits44",
+  "format": "two6x6sheets",
+  "count": 72,
+  "style": "Original anime adult esports cast",
+  "creationTool": "image_gen.imagegen",
+  "sourceImages": [
+    "exec-0eaba1dd-aff4-4e8e-ad98-1b0759bcf410.png",
+    "exec-be266713-2dcf-444f-96cc-70e8ebb9aea8.png"
+  ],
+  "intent": "Each grid tile a distinct person with different facial structure, hair silhouette, age, skin tone and accessories. Not recolors of the old16faces. Original full PNGs retained; WebP88 quality runtime sheets and288x288 WebP55 embedded fallbacks.",
+  "files": {
+    "portraits44-a-preview.webp": {
+      "bytes": 20526,
+      "sha256": "2247cdeb4743ec1e4e6e726a47a7326cdaf57da9fc72d6456c65b30c9be694d4"
+    },
+    "portraits44-a.png": {
+      "bytes": 3082728,
+      "sha256": "ea251dbcde8364d67fcedfdfdc8197f127eb04e42805d8c28e169e6e45c7cc8c"
+    },
+    "portraits44-a.webp": {
+      "bytes": 424208,
+      "sha256": "99b5ba74e304a042f66e0f444157b6aa4e8212bc97507f44d840bfe53c16ac15"
+    },
+    "portraits44-b-preview.webp": {
+      "bytes": 19636,
+      "sha256": "536a976538a6e7d003bba1d69690360ec1a0efabbe59548b7d1fb3c4d80a2c56"
+    },
+    "portraits44-b.png": {
+      "bytes": 2974375,
+      "sha256": "bffafb438460b0e621f5d78d8d19109a2b7a1a648cc18d46bd794409e1ee5185"
+    },
+    "portraits44-b.webp": {
+      "bytes": 396016,
+      "sha256": "4c889926b50a0c5d22192a250fe138345b77bd60baddbbc64cf7676b31fcfc78"
+    }
+  }
+}
