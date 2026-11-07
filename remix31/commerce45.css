@@ -25,3 +25,5 @@
 
 
 .commerce-video45{position:relative}.commerce-video45>button{position:absolute;bottom:8px;right:8px;padding:7px 12px;font-size:11px;box-shadow:0 3px 15px #0008}
+
+.store-lab46{grid-template-columns:1fr!important}.store-lab46 .career-content{grid-column:1 / -1!important;grid-row:2}.store-lab46 .career-header{grid-column:1 / -1}.store-lab46 .career-footer{grid-column:1 / -1}

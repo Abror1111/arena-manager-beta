@@ -1,147 +1,26 @@
-# ARENA commerce45 — Android monetization TEST preview
+# ARENA Manager 1.46 beta
 
-User selected Android GooglePlay+AdMob. Public web store remains explicitly TEST ONLY: no money charges, real ads, real subscriptions or server wallet. The core offline career is not ready to act as a real-money authority. No live service credentials or merchant accounts are bound.
+Playable local career: saved nine-step beginner tutorial, transfers/lineup/training, league and BO3 playoffs, 5v5 simulation on 11 maps, match checkpoint/resume, season advancement and JSON backup.
 
-Expanded six-tab shop adds current market-player contracts with test stars/video tickets;3star packs;2thirty-day nonrenewing test passes with daily tickets;3portrait frames and roster +24energy recovery. Test resources separate from club coins, though test recruits/recovery change offline squad. Level/8player capacity/pending-game rules remain. Fixed offers, no random loot.18second original portrait montage is explicitly a demo video, not an ad. Early close earns nothing, local sandbox limit3videos/UTCday. Stars/tickets/frames/test receipts and test subscription survive save/load. Never migrate test balances into real paid account balances.
+## Earned economy
 
-android45 is a compiled integration library (AAR, not APK) using Billing8.0.0, MobileAds24.6.0 and UMP3.2.0. It queries localized Play details, handles purchase/pending/cancel/restore, monthly subscription base plans and account IDs, requests consent before ads, and waits for trusted Backend verification. Host Activity/backend integration remains. Server45 verifies Play status/account/expiry and raw AdMob ECDSA/SSV context; SQLite atomically deduplicates purchase/ad grants and enforces challenge/day limits. These are source foundations, not deployed HTTP services. Accounts/auth/recovery/HTTPS hosting, authoritative ownership migration, consume/ack jobs, refunds/voided/RTDN and internal Play testing remain prerequisites. See ANDROID-MONETIZATION45.md and native/server READMEs. Do not put credentials in web code/chat.
+Normal progression does not require Play Console or AdMob accounts. Completed official series award 3 stars +1 ticket for a win, 1+1 for a loss. Practice/forfeit do not award these currencies. Once-only goals and participation-scaled season rewards add resources. Fixed coin exchanges, player contracts, cosmetic frames and recovery use earned resources. Club/Pro passes cost earned stars and last 10 completed official series, not calendar days; no automatic renewal or charge. Transactions reconcile to a validated ledger; rewards deduplicate per series.
 
-51Node tests, browser local-test workflows and actual18second video plus offline/four viewport checks pass. Android AAR compiles against actual SDK dependencies; not exercised on physical device. Existing portrait44 assets, maps/music/old core UI and saved clubs preserved. Real-money activation still blocked by external setup and remaining host/lifecycle integration. No new gameAPK or source-map rights clearance claim.
+Legacy commerce45 free TEST stars/tickets are not imported into earned balances. Cosmetic frame ownership is preserved. Settings → Laboratory runs the old purchase/ad demonstrations in a temporary club; closing/reopening resets it and never writes the main save. Existing old saves are preserved and migrated without free power grants.
 
-Previous44 source: https://github.com/Abror1111/arena-manager-beta/raw/ef0b8eede0934afa2814d2b351597a0c37caa78c/ARENA-portraits44-source.zip
+## Run and build web
 
-# ARENA portraits44 — distinct anime players
+Node22+, Python3. Install the exact package.json dependencies. `npm test` runs current and prior regression suites. `ARENA_MANAGER_OUT=/tmp/arena46-web npm run build`, then `python pack-web31.py /tmp/arena46-web`. Serve under `/arena-manager-beta/remix31/` alongside the preserved shared CSS/portrait and map/audio assets. Remote immutable resources are SHA-verified and cached. The source ZIP excludes node_modules and generated builds. See verification46 for build/functional evidence.
 
-72newly generated original adult anime esports portraits replace the old16face atlas. Two6x6sheets,1254x1254 each,209x209per character. Full-quality WebP atlases are immutable SHA-verified assets from arena-portraits44-art;288x288small atlas fallbacks are embedded for first-load/offline failure. Runtime downloads total about802KiB and use existing verified cache. Both source PNGs retained in art44/ with creation provenance.
+## Android preview
 
-Slots0–46 serve club/transfer players and47–71 the25named opponents. Every roster member and each of36market offers gets a persistent visual index. New-season offer allocation excludes retained roster faces, with current-season bought profiles retaining their purchased face. Old saves gain only portrait metadata; old multi-season16face collisions resolve to free slots. Opponent slot IDs are disambiguated by name. React portrait context uses saved profile ID in all menu/battle/world-label locations, keeping old pending match snapshots unchanged.
+See androidGame46/README.md. This is an installable debug-signed preview, separate application ID from older beta. Sandrift 3D, all 11 simulation maps/collisions, covers/portraits/audio are bundled. Other 3D worlds require an initial Internet download. Existing club data can be moved using Settings → export/import backup. No live payment, advertisement, production signing or physical-device FPS claim.
 
-38economic/academy/portrait Node tests and fresh+legacy browser tests pass. Verification44 records four viewport layouts,31remaining market-face identities, saved roster/battle equality, unique first5faces, actual3D render and full-quality offline restoration. UI size/style from43 stays, maps/audio/game state/coin balance unchanged. Existing16face artwork remains physically preserved for old pages, but44 PlayerAvatar no longer references it. No newAPK, real-money feature or source-map rights clearance.
+61 Node tests pass. All 11 actual AI simulations reach matchend (229 rounds, 23,497 shots, 117 plants, including overtime). Browser tests exercise legacy migration, earned purchases/pass/rewards, laboratory isolation, four viewport sizes and offline persistence. Extracted APK assets are additionally tested in offline Chromium; this does not substitute for Android device testing.
 
-Previous43 source: https://github.com/Abror1111/arena-manager-beta/raw/9d235ebd12ac3305b08a1923a2368673f657c4f2/ARENA-academy43-source.zip
+Map/geometry/audio/portrait art and original core UI are preserved in this version. Original case bot and parent application untouched. Existing source-map licensing questions are not resolved by this release. Prior history and inactive monetization foundation: https://github.com/Abror1111/arena-manager-beta/tree/arena-commerce45-source . Google Play/AdMob accounts and remaining trusted server/lifecycle integration are deferred, as requested.
 
-# ARENA academy43 — first-club tutorial and level-gated transfers
-
-Fresh browser storage starts with zero players and12,000club coins. Nine saved tutorial steps teach five paid800–1000coin novice recruits, active lineup, training, rest, tactical choice, scout objective, fixed-price cosmetic purchase and one full nonforfeit practice match. A once-only400XP completion award unlocks level2offers. Existing saved clubs and unfinished matches are not reset or forced into the guide. createCareer() remains the established-club compatibility/test constructor; loadCareer fresh fallback uses createNewCareer().
-
-36season transfer offers have level1/2/4/7/10 requirements enforced in buyPlayer and quotes. Stable old6IDs/ratings remain, with30additional profiles. Finite-market tracking supports indices0–35. Stronger unlocked players still require the displayed coin price. Purchases use existing finance accounting.
-
-Menu portraits are compact84x96 (small-person-summary68x78 on phones), and profile identity matches across transfer/squad/battle/world labels. Existing16cell anime atlas is reused, so36market offers do not imply36unique illustrations. Wide battle views expose both teams with all5rows visible; portrait/ultrashort phones retain existing rosterdialog. Shared original20 CSS remains unchanged; scoped academy43.css is appended and cached in shellv13. Maps, geometry, audio, economy42 and old UI structure remain. Source map rights unchanged.
-
-Verification43 includes7academy+24economic tests, inherited npm regressions, actual fresh-guide and legacy-club browser paths. Browser battle outcome is a deterministic test fixture after actual3D rendering, not a physical-deviceFPS benchmark. No newAPK or real-money payments.
-
-Previous42 source: https://github.com/Abror1111/arena-manager-beta/raw/b0fefeb22477752fd74393b0ca08b2de2465f3e7/ARENA-economy42-source.zip
-
-# ARENA economy42 — club shop and balanced accounting
-
-2026-11-07, Asia/Tashkent. Twelve fixed-price cosmetic items, collection filters, original SVG crests, free re-equip, clear before/after purchase and transfer payroll previews. One-time collector objective, actual training gain, facility confirmation and expired-sponsor notice. No cosmetic combat advantage. Existing virtual club coins remain separate from round dollars.
-
-Financev1 saves migrate to version2 without changing money, ledger, ownership, sponsor or unfinished matches. Opening+income−expenses equals wallet; ledger window reconciles separately. Manual sale/reward overflow rejects transaction without consuming a player or claim. Capped automatic payouts report actual received components and uncredited amount; season prize is also actual. Purchased market offers cannot reappear merely because history100 rolled off.
-
-Existing eleven maps, sites41 migration, names40, music40, covers39, old compiled UI CSS, protected production bot and parent source remain unchanged. No new APK, real-money payments or server-secure economy claim. Source-map rights remain as prior; finance work does not clear those rights. Verification42 records economic and browser checks.
-
-Previous41 source: https://github.com/Abror1111/arena-manager-beta/raw/2c1ec303a7e44db74c76c7a438580f4198b91087/ARENA-sites41-source.zip
-
-# ARENA sites41 — exchange A/B names at existing objectives
-
-2026-11-07, Asia/Tashkent. All11 selectable maps use newA at the previous relocatedB coordinate, and newB at previous relocatedA. This does not restore originalCS2 bombsites or add a new physical relocation. Exact native geometry, collision, navigation, street dividers, scenery, spawn positions, old UI/CSS, map names40, cover artwork39 and original music40 remain. The change is functional: A/B commands, planting logic,3D ground/DOM markers,2D map labels and explorer focus use the new symbols. This gameplay edit does not grant source-map redistribution rights.
-
-Existing unfinished remix31 matches retain physical plans and C4 position/progress/timer. A one-time snapshot siteRevision migrates old strategy letters, team site indices, defence indices and learned site history; no teleport, round reset or fund/score reset. New41 snapshots do not remigrate on repeated restore/offline reload.
-
-Verification41 includes actual old40 engine save fixtures, all11 same-nav/geometry/spawn hashes,220 spawn→site paths,22 actual tactical-AI carrier planting branches, physical source-floor checks and combat/C4 regression. Browser verifies real40→41 plantedC4 migration,3D+2D matching objective coordinates, explorer A/B focus,844x390 fit, offline no-double-swap and old careers/caches. No newAPK/FPS/rights-clearance claim. Previous40 source and music generation evidence: https://github.com/Abror1111/arena-manager-beta/raw/cf171148f4b4ebfba9a9dfc30f7834470d18cf07/ARENA-music40-source.zip .
-
-# ARENA music40 — new map display names and original score
-
-2026-11-07, Asia/Tashkent. Six new layered electronic compositions: Glass Horizon(menu),Vector Pursuit(match),Signal Ascending(win),After the Static(loss),Critical Circuit(planted),Last Ten(countdown). Original note scores, oscillators, synthesized percussion, delay and room DSP; no external media samples or imported melodies. Original generator, note events, MP3s and measured quality are included in verification40. Existing26 sound effects unchanged. New music is pinned SHA-verified, warmed after audio unlock and cached once for offline use. MP3 stereo44.1kHz for broad browser compatibility; no large PCM arrays in runtime music playback.
-
-| Previous display name | New display name |
-|---|---|
-| Dust II | Sandrift |
-| Mirage | Sunveil |
-| Inferno | Ember Quarter |
-| Nuke | Reactor |
-| Train | Railworks |
-| Ancient | Relic Grove |
-| Ancient Night | Relic Afterdark |
-| Anubis | Sunken Court |
-| Overpass | Canal Crossing |
-| Vertigo | Skyline |
-| Cache | Iron Depot |
-
-Only display names change: stable map IDs, source geometry, collision/navigation, bombsites, saved careers, existing UI/CSS and current screenshot covers remain. New labels do not confer source-map redistribution rights. This is not a rights-cleared release; existing exports/oldAPK remain separate. Corrected stale default-CS2 audio claims in settings. Added the vendored Meshoptimizer MIT text. No newAPK or measured physical-deviceFPS claim.
-
-Prior complete covers39 source/evidence: https://github.com/Abror1111/arena-manager-beta/raw/34c727f02e8d95b244bdf172318ac3eed2ba86fa/ARENA-covers39-source.zip . Older rendered screenshot proof remains there.
-
-# ARENA covers39 — current eleven-map gallery and loading artwork
-
-All map artwork comes from the actual holo38 WebGL renderer with its current layout, cyan/magenta foliage and scenery. Launch, map library, tactics, explorer loading and battle loading share the same per-map artwork.1200x750 JPEGs are SHA-verified and cached once; embedded240x150 current-map fallbacks are available immediately/offline. No geometry, mechanics, UI layout or compiled CSS change. Full image assets use a separate immutable artifact branch to keep previous projects untouched and the Pages tree below its size limit. Source geometry rights status remains unchanged.
-
-# ARENA holo38 — holographic garden and clear street layouts
-
-Trees use cyan/magenta holographic scanline materials. Broad yellow architecture and yellow patches are reduced. New generated towers/service modules/terminals move from guessed roof/facade attachment points into measured empty ground volumes, checked against rendered source shells as well as collision geometry and authored exterior buildings. Ground support feet close terrain gaps. Unsafe64 facade attachments removed. Decoration counts adapt to available space rather than stacking duplicate projectors. Four score faces remain.22 original detailed lane dividers share geometry with collision and a prevalidated navigation manifest;44 actual walking detours and220 objective paths pass. Existing UI, full source architecture, economy and save namespace remain. Only old actors/dropped C4 embedded in a divider need local position repair. Source geometry rights status unchanged; no franchise artwork added.
-
-Verification38 includes all11 browser views, actual37-to38 C4 upgrade/offline/phone checks and walking/occupancy tests. No deviceFPS or new APK claim. Complete older37 source/images: https://github.com/Abror1111/arena-manager-beta/raw/7c0b1055ee300fec41643ca0ca6b5e9fc9573231/ARENA-color37-source.zip . Historical screenshots are referenced there rather than duplicated.
-
-# ARENA color37 — brighter neon-city palette
-
-All11 map entries now use a brighter original yellow/cyan/magenta palette inspired by neon anime city color language. Warm gold/cream walls, cool steel roofs, medium blue ground and softer blue-violet shadows replace the black-heavy base. Signs use yellow with dark lettering. Sky and deep shade retain readable detail. Existing UI, source geometry, walls, sites, careers, holograms, cameras and36 performance work are preserved. No new effects passes or geometry.
-
-Verification37 contains all11 browser screenshots, descriptive before/after crop brightness measurements and actual36-to37 native-C4 upgrade/offline checks. Source geometry licensing status is unchanged; no franchise textures, artwork or logos added.
-
-Prior36 complete source/proof archive: https://github.com/Abror1111/arena-manager-beta/raw/da705435e4f20cb4e2e115a83351037d5c10e272/ARENA-smooth36-source.zip (SHA256 65d7b6599fb723a7101111f996690f3e8e8350dbf102e02caaba3396e2a0bb36). Historical screenshots are retained there, not duplicated in this ZIP.
-
-# ARENA smooth36 — battle performance fixes
-
-Exact collision acceleration and bounded nav shortcut caching reduce measured simulation stalls. Full source geometry, 11 entries, holographic scoreboards/people, existing UI, old save keys and map downloads are preserved. Distant actors use fewer subpixel bevels with the same materials/rig; close detail remains available. Hidden equipment is not submitted. Static map shadows no longer regenerate on every desktop camera frame.
-
-Verification36 contains before/after host profiles, exact ray parity, deterministic trace comparison and browser upgrade/offline checks. No physical-device FPS or new APK claim. Source geometry licensing status is unchanged.
-
-# ARENA holo35 — megacity and live holographic arena
-
-Version35 expands all11 selectable map entries into a stronger original ARENA cyberpunk megacity: technical paving over the exterior terrain, brighter facade circuits, tapered multilevel tower buildings with side wings/crowns outside the play bounds, hardware mounted on actual vertical source surfaces, roof terminal spires and a procedural twilight sky. Existing water/wind behavior and old club/battle UI remain. This is an additive visual conversion of the current source-map remix, not a core route/collision rebuild or a rights clearance.
-
-A floating stadium-style scoreboard has four outward/upward faces with one shared768x256 canvas. It reads actual team names, score, round, phase and remaining clock (C4 timer while planted). In map inspection it explicitly displays preview dashes rather than fabricated match scores. The texture is repainted only when content changes, independently of the cached static map. Public advertising holograms use one shared1024x512 atlas; four original18-bone humanoid holograms use shared skinned geometry, capsule/lathed anatomy, articulated waving/head motion, scan lines and rim light. They are ambient projections, separate from the ten match agents. Respect reduced motion. Physical projectors are instanced into two static batches; all translucent holograms render against the cached map depth. No bloom/blur pass or bank of point lights.
-
-Towers use the real exterior ground sampler and a buried stepped foundation, outside the entire play rectangle; wall devices use measured triangle support circles. Existing roof kits keep their conservative nav/plant clearance. New holographic figures and panels have no collision. Full battle walls remain intact in static/auto/player views; only explicit explorer route/floor tools hide decorations. Career/save key and map revision stay arena-career-remix31 / arena-remix31. No new APK and no physical-device FPS claim. Verified35: all11 megacity renders passed, with4 score faces,4 humanoids and12 public ads each. Isolated four-cardinal-angle screenshots confirm the rendered score canvas. Published34-to35 live-C4 upgrade and controlled7:5-to8:5/C4 clock probe passed, then original match was restored;844x390 fit and offline resume passed. Unit tests cover face normals, real score/clock, texture repainting, weighted human geometry, wall support and grounded outer foundations. No shader/page/HTTP errors. New35 evidence is separated in verification35/; earlier folders are inherited.
-
-Inherited34 notes:
-
-Version34 applies original ARENA cyberpunk-anime surfaces to all11 selectable map entries. Each has its own wall/roof/metal/neon palette; hard panel graphics, sparse emissive circuits, ink accents and gently banded lighting replace the visible standard surfaces. Color/emission tiles are512px with mipmaps and anisotropic filtering;256px relief is subtle. Natural surrounding terrain uses a separate quiet material, and the existing water remains. No external franchise art, logos, sounds or fonts were added for this skin.
-
-Small authored3D modifications add chamfered rooftop cooling units, radiating fan grilles, isolators, ducts, receiver masts and original ARENA signs. Anchors are measured on actual flat source triangles, with complete plinth support inside each triangle's inscribed circle; walkable nav area bounds and nearby plant zones are excluded. Up to32 kits are merged into at most5 draw batches, about79k extra triangles at full count. This is decorative architecture, not a rebuilt layout or new collision geometry. Major paths,22 A/B points, combat, save namespace and old UI stay intact. Full battle walls from33 remain. No blur/bloom pass or actual-device FPS claim.
-
-Surface styling does not clear rights in the reused source geometry. Existing source GLBs and embedded images remain unchanged; the following base provenance notes still apply. Eleven entries include Ancient Night sharing Ancient geometry. New34 checks/evidence are in verification34/, prior verification folders are inherited evidence.
-
-Verified34: all11 map renders passed with512px color/emission atlases, 32 supported roof kits and5 batches per map (78596 added triangles). No shader/page/HTTP errors. Source33-to34 upgrade retained active C4, score, round and funds;844x390 fit and fully offline native C4 resume passed. Roof/nav/plant/slope and cloned-hook unit checks passed.
-
-Inherited version33 notes:
-
-Version33 disables automatic route and floor cutaways in battles for all11 map entries. Source mesh and shadow materials have no battle clipping planes; route-mask shaders and mask downloads are not attached in a battle. Auto/player cameras, including lower-floor tracking and saved/manual floor settings, preserve the full map. The existing observer silhouettes and labels help track occluded players without erasing walls. Explicit route/floor inspection tools remain in the separate map explorer. No map geometry, combat, economy, saved games or UI styling changed. Uses loader33.js with31/32 aliases and shell-v3 to update existing cached installs.
-
-Version33 browser checks passed: published32-to33 upgrade with current C4/score/round/funds intact, no route-cut shaders, full geometry after offline resume, and844x390 mobile fit. Nuke lower-floor player/auto/static views and explicit lower-floor setting kept full-source mode and clipHeight1000; no route-mask downloads or page/HTTP errors.
-
-The following describes the inherited version32 base:
-
-Version 32 continues the existing 11-map remix without changing its maps, 22 relocated sites, old UI, damage or economy. CT defuser selection now compares actual navigation travel, floors and 5/10-second kit time; an active defuser retains progress. Save decisions use reachable escape routes and retain a stable destination. On compact maps a fully safe destination can be unavailable: choose the farthest reachable point instead of teleporting or promising survival. The danger-memory radius and floor separation now use source-map metres. Existing failed-round plan switching is retained and regression-tested; this is tactical game logic, not a trained model.
-
-Separate auto-action and selected-player cameras now run the cinematic spring in physical metres, with a comfortable minimum view span. Static/explorer cameras and old compiled UI CSS are preserved. Current remix31 saves resume in place, including an active planted C4, score and funds. Geometry revision and save namespace deliberately remain arena-remix31 / arena-career-remix31.
-
-The shell cache advances to arena-remix31-shell-v2. New HTML uses loader32.js; loader31.js remains a forwarding alias for old cached HTML. Browser testing upgraded a real31 shell to 32, then resumed the planted C4 fully offline on an 844x390 emulated phone; metadata was fetched once, old career/cache sentinels survived, and no page/HTTP errors occurred. Pure-node checks cover lower-floor defuser rejection, kit/progress, reachable fixed escape routes, source-scale danger memory, camera scale invariance, existing post-loss adaptation, 220 spawn/site paths, and completed Dust2/Nuke rounds. Version 31's 11-map material/render checks remain base evidence;32 did not rerender or remake all maps. No physical-device performance claim or new APK.
-
-The user explicitly changed direction and requested the11 existing source-map entries with relocated A/B plant zones and replacement textures. This preview reuses the supplied CS2 visual geometry, source collision and navigation. It is NOT an independently rebuilt map or legal clearance. Site relocation and texture changes do not remove rights questions concerning original geometry. Source GLBs also still contain their original embedded images, even though visible standard surface materials are replaced at runtime. Further distribution/release needs a separate rights assessment.
-
-11 selectable entries: Dust II, Mirage, Inferno, Nuke, Train, Ancient, Ancient Night, Anubis, Overpass, Vertigo and Cache. Ancient Night shares Ancient geometry:10 distinct source geometries plus a lighting variant.22 new plant points use source navigation, with12–40m shifts, standing-area clearance, spawn/site routes and source-collision floor checks. Old source markings/overlay materials are suppressed where identified. New 3D site pads and HUD coordinates follow the new points; the2D tactical view draws navigation with only current site markers. Buildings/route architecture remain the original source arrangement; this is a gameplay site relocation, not a physical transplantation of whole courtyard models. Further match balance testing is needed.
-
-Opaque standard materials receive original ARENA procedural plaster, masonry, paving, roof tile, wood or metal color/normal tiles, with per-map palettes, variation and anisotropic filtering. Foliage uses an authored alpha texture; glass remains translucent. Existing source surroundings/lighting/water behavior retained. Original authored operators/equipment/VFX/audio and original club/battle UI remain; shared compiled original20 CSS is used verbatim. Source Nav and mesh floors differ slightly; cached per-polygon visual contact offsets align operators, site pads and placed C4 to the collision surface without altering navigation. Five-second C4 outro,48m game damage/62m visual-wave radii converted by source playerScale.
-
-Separate save: arena-career-remix31. Existing arena-career-original20 and root career are preserved. Legacy native-map snapshots restart their current round once, preserving score, round, kills/deaths and money. Current remix31 resumes. The authored Sahil beta remains under /original20/. The interrupted original harbour30 design is preserved on the data artifact branch as ARENA-harbour30-preserved-source.zip.
-
-Build: npm install; npm test; ARENA_MANAGER_OUT=/path/to/web npm run build; python pack-web31.py /path/to/web. Node tests use the included data pack (ARENA_DATA31 can override it). Source collisions are read from ARENA_SOURCE_ASSETS or the original workspace asset directory; if absent they are fetched through curl from the pinned existing public commit and SHA256-checked. Browser scripts document their fixture server and workspace paths.
-
-Deployment shares ../original20/assets/index-CVBt3UIp.css, ../ui15/anime-player-portraits.png and the existing source /visuals, /cs2, /terrain, /source-shells, /approved14 and context artifacts. Native metadata is a pinned SHA-checked gzip pack fetched once and cached separately. The main code is gzip-packed into a .bin asset to stay within the existing Pages storage budget. loader32.js verifies its SHA256, decompresses with bundled fflate and imports our own code through a blob module. It rewrites only the module's own static dependency URL and import.meta URL; it does not execute user-provided scripts. New page CSP allows blob modules; root/old beta CSP is unchanged. The service worker caches the packed code, loader, dependencies, shared CSS and previews. Bump its cache version for future releases.
-
-The root game, production bot, existing source assets, old source archives and APK are unchanged. This is a web test preview; no new APK was built. Browser verification uses software Chromium with allowed GitHub raw responses mirrored through verified HTTPS curl, not physical-device FPS measurement or direct Pages HTTP verification.
-
-Version45 reproducible source: https://github.com/Abror1111/arena-manager-beta/raw/f488910babcf7219b91680ad586be60fb43e435a/ARENA-commerce45-source.zip
-SHA256: 7f8cf2613328025e83f6966980f70da70445cf373af0aa64a41fddf05fe55cda
-Final receipt: arena-commerce45-source/publication45.json.
+Reproducible46 source: https://github.com/Abror1111/arena-manager-beta/raw/d3854fe895aaf07f36e06559f1c76580ff98b0ef/ARENA-career46-source.zip
+SHA256: c0e6c92f54a17ba9b5f2109b9b5c3b038ede96957e639cb6eb4f0b3d1738b803
+Final receipt: arena-career46-source/publication46.json.
+Android preview: https://github.com/Abror1111/arena-manager-beta/raw/6163102ead3be38662c2c88b9416fb67b4b71593/ARENA-Manager-1.46-preview.apk
