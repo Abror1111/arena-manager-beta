@@ -1,8 +1,7 @@
-# ARENA Manager1.50
+# ARENA Manager1.51
 
-Proportional portraits/frames and consistent avatar sizes; licensed Manrope variable font; refined typography,colors,contrast,focus/touchstates across all10screens.71Node tests,50viewportfits,portraitgeometry/5themecontrast,49SWupgrade/offline and extractedAPK checks pass.
-Source: https://github.com/Abror1111/arena-manager-beta/raw/81151e84c67dad300ce7698788606b5c9e49bef3/ARENA-polish50-source.zip
-Android150: https://github.com/Abror1111/arena-manager-beta/raw/6d6e51c562b94ffc75020dc7f1673c93b86675c2/ARENA-Manager-1.50-preview.apk
-Full evidence/history: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/arena-polish50-source/publication50.json
-Font license: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/5fbbaf50f878f7db38ee4fae672ddafbbdea2357/art50/OFL.txt
-Preview: other3Dmaps needfirstdownload; no physicalAndroidFPS/livebilling/rights-clearanceclaim.
+Text stays inside headings,badges,navigation,buttons,price rows and theme previews.235normal/enlarged125% textstates pass;71Node tests,50mainviewport fits,actual3Dbattle,tutorial,50SWupgrade/offline and extractedAPK checks pass.
+Source: https://github.com/Abror1111/arena-manager-beta/raw/19473ca0fbfd864ebc5b46dcd47ddf92ee62585b/ARENA-fit51-source.zip
+Android151: https://github.com/Abror1111/arena-manager-beta/raw/b814f292ddf22ed110744853b841e1204eafc698/ARENA-Manager-1.51-preview.apk
+Full evidence/history: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/arena-fit51-source/publication51.json
+Preview: other3Dmaps needfirstdownload; no physicalAndroidFPS/livebilling/maprights-clearanceclaim.
