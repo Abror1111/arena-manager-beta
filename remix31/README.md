@@ -1,7 +1,5 @@
-# ARENA Manager1.52
+# ARENA1.53 — Required first-play guide
 
-Compact phone, landscape, iPad and Fold interface; practical first-play spotlight over actual controls. Guide progress persists; returning clubs can replay in a separate memory-only practice club via Help.77Node tests,210touch layout states,75enlarged text states,56panels,actual3D,51SWupgrade/offline/cache repair and extractedAPKoffline checks.
-Source: https://github.com/Abror1111/arena-manager-beta/raw/598d55b74dbd51337379a9b688012533f282a308/ARENA-mobile52-source.zip
-Android152: https://github.com/Abror1111/arena-manager-beta/raw/cece30e16bbc5b9d2f2e9f6e16c9aa0b1c6d9e47/ARENA-Manager-1.52-preview.apk
-Full evidence/history: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/arena-mobile52-source/publication52.json
-Preview: other3Dmaps needfirstdownload; no physical-deviceFPS/livebilling/legal-clearanceclaim.
+All first-run stages must be completed. Hiding the coach is disabled for real unfinished clubs; Settings remain accessible. Actual practice and all coached battle controls gate completion. Older paused guides resume without charging/rewarding again; already completed/legacy clubs stay unchanged. Optional Help replay stays dismissible.82Node tests, portrait/landscape full practical guide, returning-club replay and52worker upgrade/offline pass. Source: https://github.com/Abror1111/arena-manager-beta/raw/5a33153602693633dcf1fee79bd724322af80681/ARENA-required53-source.zip
+Full evidence: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/arena-required53-source/publication53.json
+APK1.52 is unchanged by this web-only release.

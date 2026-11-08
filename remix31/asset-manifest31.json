@@ -7,12 +7,12 @@
     "../original20/assets/index-CVBt3UIp.css",
     "../ui15/anime-player-portraits.png"
   ],
-  "mainUncompressedSHA256": "4d4c454a1cea78e003a85c630b97594574db9429e03a9784dfe874de88e7b3b1",
-  "packedSHA256": "968296e8a9979051ba3b5f4639d41e8e69540c372288f87d8aa5998678f4d4ac",
+  "mainUncompressedSHA256": "bc45b736429d5a3b2db1e0602c2e9c5142b7adf392ab9d61263d960ba4b6eef9",
+  "packedSHA256": "e3a7a1eda20032da45ed15a75a3e3fdef584a5922c6dd06ddda13f755c09ffe1",
   "css": "Preserved original20CSS plus compiled app visual layers",
   "runtime": {
-    "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/3d81974cb9dc6de7004a871b7162e924bc925d59/runtime52.bin",
-    "bytes": 735163,
-    "sha256": "968296e8a9979051ba3b5f4639d41e8e69540c372288f87d8aa5998678f4d4ac"
+    "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/ad0fcd8391cef91d120504f2e44d807128f5ca60/runtime53.bin",
+    "bytes": 735531,
+    "sha256": "e3a7a1eda20032da45ed15a75a3e3fdef584a5922c6dd06ddda13f755c09ffe1"
   }
 }
