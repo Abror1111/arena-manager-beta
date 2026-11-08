@@ -1,1 +1,1 @@
-ARENA1.54 reproducible gzip runtime, SHA256 verified by loader. Confirmed New Game restart. Full source in arena-required53-source.
+ARENA1.54 reproducible gzip runtime. Loader verifies SHA256 before execution/cache reuse. New Game confirmed restart. Full source and evidence in arena-newgame54-source. Runtime binary is unchanged by this documentation correction.
