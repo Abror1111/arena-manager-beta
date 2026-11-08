@@ -1,0 +1,395 @@
+{
+  "file": "ARENA-Manager-1.57-landscape-beta.apk",
+  "bytes": 69215453,
+  "sha256": "f52606c0429a7d43730541a40158bf43887f69912a624e901e99c833725fc679",
+  "applicationId": "uz.arena.manager.securebeta",
+  "versionCode": 157,
+  "versionName": "1.57-beta",
+  "updatesVersion156": true,
+  "minSdk": 26,
+  "targetSdk": 35,
+  "R8Release": true,
+  "physicalAndroidInstalled": false,
+  "sensorLandscape": true,
+  "sameSignerAs156": true,
+  "result": "passed",
+  "bundledHashesChecked": 107,
+  "zipCRCValid": true,
+  "v2AndV3SignatureValid": true,
+  "certificateSHA256": "2454aa778f1a47b7c30a1bbb5aee7e356e67686541827ab8bec846029ad2493d",
+  "onlyInternetPermission": true,
+  "debugCleartextBackupDisabled": true,
+  "R8ClassNamesObfuscated": true,
+  "noSigningMaterialOrSourceMaps": true,
+  "nativeBridgeAnnotationsRetained": true,
+  "debugGameHookRemoved": true,
+  "date": "2026-11-09",
+  "timezone": "Asia/Tashkent",
+  "nodeTestsPassed": 98,
+  "layout": {
+    "viewports": 12,
+    "coreScreenStates": 240,
+    "battleAndPanelsStates": 90,
+    "launchNewGameAndResultStates": 84,
+    "keyboardStates": 8,
+    "normalAnd125PercentFont": true,
+    "allChecksPassed": true
+  },
+  "nativeJVMSafeInsets": "SafeFrameTest57 PASS: both notch sides, visible system bars, gesture gutters, keyboard, tablet",
+  "nativeJVMSecurity": "NativeSecurityTest PASS: URL boundaries, AES256-GCM roundtrip/random IV/tamper/wrong key/AAD",
+  "mandatoryGuide": {
+    "result": "passed",
+    "mandatoryCoachWithoutHideButton": true,
+    "settingsUtilityAndReturn": true,
+    "actualPaidFiveTransfers": true,
+    "starterSpent": 4400,
+    "partialRecruitmentReload": true,
+    "realMenuNavigation": true,
+    "realTargetClicksThroughSpotlight": true,
+    "dialogTopLayerCoach": true,
+    "realTrainingRestPlanRewardAndCosmetic": true,
+    "battleHoldAndManualPlay": true,
+    "cameraAutoPlayerStrategySpeedLearnt": true,
+    "checkpointReload": true,
+    "practiceSettlement": "externally generated Match.restore/endRound result fixture after actual controls/play; no production debug hook",
+    "onceOnly400XP": true,
+    "trace": [
+      {
+        "id": "name",
+        "step": 0
+      },
+      {
+        "id": "name",
+        "step": 0
+      },
+      {
+        "id": "menu",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "menu",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "nav-squad",
+        "step": 2
+      },
+      {
+        "id": "inspect",
+        "step": 2
+      },
+      {
+        "id": "skills-next",
+        "step": 2
+      },
+      {
+        "id": "menu",
+        "step": 3
+      },
+      {
+        "id": "nav-training",
+        "step": 3
+      },
+      {
+        "id": "nav-training",
+        "step": 3
+      },
+      {
+        "id": "train-player",
+        "step": 3
+      },
+      {
+        "id": "train-skill",
+        "step": 3
+      },
+      {
+        "id": "train",
+        "step": 3
+      },
+      {
+        "id": "rest",
+        "step": 4
+      },
+      {
+        "id": "nav-tactics",
+        "step": 5
+      },
+      {
+        "id": "map",
+        "step": 5
+      },
+      {
+        "id": "plan",
+        "step": 5
+      },
+      {
+        "id": "menu",
+        "step": 6
+      },
+      {
+        "id": "nav-finance",
+        "step": 6
+      },
+      {
+        "id": "nav-finance",
+        "step": 6
+      },
+      {
+        "id": "reward",
+        "step": 6
+      },
+      {
+        "id": "menu",
+        "step": 7
+      },
+      {
+        "id": "nav-shop",
+        "step": 7
+      },
+      {
+        "id": "nav-shop",
+        "step": 7
+      },
+      {
+        "id": "crest-tab",
+        "step": 7
+      },
+      {
+        "id": "crest",
+        "step": 7
+      },
+      {
+        "id": "crest-confirm",
+        "step": 7
+      },
+      {
+        "id": "nav-tactics",
+        "step": 8
+      },
+      {
+        "id": "practice",
+        "step": 8
+      },
+      {
+        "id": "nav-tactics",
+        "step": 8
+      },
+      {
+        "id": "practice",
+        "step": 8
+      },
+      {
+        "id": "pause",
+        "step": 8
+      },
+      {
+        "id": "pause",
+        "step": 8
+      },
+      {
+        "id": "camera",
+        "step": 8
+      },
+      {
+        "id": "auto",
+        "step": 8
+      },
+      {
+        "id": "camera-close",
+        "step": 8
+      },
+      {
+        "id": "roster",
+        "step": 8
+      },
+      {
+        "id": "follow",
+        "step": 8
+      },
+      {
+        "id": "commands",
+        "step": 8
+      },
+      {
+        "id": "order",
+        "step": 8
+      },
+      {
+        "id": "commands-close",
+        "step": 8
+      },
+      {
+        "id": "speed",
+        "step": 8
+      },
+      {
+        "id": "play",
+        "step": 8
+      },
+      {
+        "id": "save-result",
+        "step": 8
+      },
+      {
+        "id": "nav-home",
+        "step": 8
+      },
+      {
+        "id": "finish",
+        "step": 8
+      }
+    ],
+    "errors": [],
+    "missing": []
+  },
+  "browser": {
+    "result": "passed",
+    "testType": "Actual extracted signed APK assets in Chromium; native vault API contract mock, not Android installation/Keystore integration",
+    "apkSHA256": "f52606c0429a7d43730541a40158bf43887f69912a624e901e99c833725fc679",
+    "controlledAutoRoundCheckboxAtResult": true,
+    "checks": [
+      "offline fresh mandatory tutorial, actual paid recruitment, vault contract writes and reload, no production career localStorage keys",
+      "recorded old prop save recovery, real save button vault rejection/retry, exactly one persisted result and reload; debug game hook absent",
+      "actual extracted APK Sandrift3D and source collision fully offline, saved planted bomb detonates with full-frame camera, checkpoints/resume through vault contract"
+    ],
+    "served": [
+      "arena-manager-beta/remix31/index.html",
+      "arena-manager-beta/remix31/loader57.js",
+      "arena-manager-beta/remix31/academy43.css",
+      "arena-manager-beta/remix31/commerce45.css",
+      "arena-manager-beta/remix31/assets/main-DuzoO-9b.css",
+      "arena-manager-beta/remix31/assets/native-data31-CUOX1azu.js",
+      "embedded/b9beda0a9b4242edb25902dfd10e5c4eba03920a60f4bbecc5e1d32a6ae51f51.dat",
+      "arena-manager-beta/remix31/assets/main-9Gdp-eXb.js.bin",
+      "embedded/a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972.woff2",
+      "embedded/6df90a7a64659f751e466206cbfe2e53a95e75929aa0325693263cd2824d3ff5.jpg",
+      "embedded/f2c3a1aea28fc51e2a032123c180f9fbb1ade30cb5e50d85b5e50f2569d8ce62.webp",
+      "embedded/1d93d117bebd1ed4e32abd1d88123580c6fdf6c820a5c04981146e97af682928.webp",
+      "embedded/e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b.mp3",
+      "embedded/f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1.mp3",
+      "embedded/381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022.mp3",
+      "embedded/8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce.mp3",
+      "embedded/962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725.mp3",
+      "embedded/0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2.mp3",
+      "embedded/8a83dff957aa8a2608be693464c544d599c2b5ceb57793a066524a5b670140c5.webp",
+      "embedded/99b5ba74e304a042f66e0f444157b6aa4e8212bc97507f44d840bfe53c16ac15.webp",
+      "embedded/4c889926b50a0c5d22192a250fe138345b77bd60baddbbc64cf7676b31fcfc78.webp",
+      "embedded/7275eee7b0a8e72309c51fa8226b72efe197d9dff088784a3644eac64cc6d338.jpg",
+      "arena-manager-beta/cs2/mirage.cmesh",
+      "arena-manager-beta/audio/9b01bf657b888bbdfac14a3bf7d01274c05749cf3b19534248d3767ae35d83fa.wav",
+      "arena-manager-beta/audio/68f7e11d8121975ca700692a3a2652290a448f4985bf30702418051fb1530812.wav",
+      "arena-manager-beta/audio/443a95419e8e8c111c9d4eeda3e6ad049e9fd7e0949cc99d88fcac1b71dc72b3.wav",
+      "arena-manager-beta/audio/fa945af9ca02e5d7d7a8d342698c2a8262e5d031d4417c473359cda8c016b4e0.wav",
+      "arena-manager-beta/audio/bfdcbe658f829d88ad5d35ed42991b6f2ec39ddbfa2e0fd67f0c0dbedb7d9440.wav",
+      "arena-manager-beta/audio/72955f8ee28d66bcaaa8241e92d89520806f0107e2eb6cb20b5f93f1baf329df.wav",
+      "arena-manager-beta/audio/f2558ccaef61952ad3afa7451e9fc5fec775eb1a5aa931992ff9ba705434a020.wav",
+      "arena-manager-beta/audio/9d491a4a3dcaa913da1a3ecde901701615aef03ccf9af3abba23c217e1c87941.wav",
+      "arena-manager-beta/audio/43607b49e153341994ba10f4b2bc58e37c6cdc267824216338644c70b3cc3c52.wav",
+      "arena-manager-beta/audio/beccb0d8eb069419cdf14751652086e1bba4778791eaeb184f76a8c429f3da3c.wav",
+      "arena-manager-beta/audio/355c7893abfac0c9de3ae49a7cd8a10d3f824792e45bd60a480ea6ed05817738.wav",
+      "arena-manager-beta/audio/1987c0ccb88b6e800f0869c1bddf4ed9cf0eddd4d369398fda5894e05dcbbd81.wav",
+      "arena-manager-beta/audio/69f4fe2974147c0607e4fabcb023f269fe41529ca02db2668d7d6afa09091ac8.wav",
+      "arena-manager-beta/audio/2584f5e4427123f6681d40d5157463990328eb09e1b9f64032d13dde3b6d8184.wav",
+      "arena-manager-beta/audio/9b7d7139035e37f2fd4fc63d8fec3b884ff76a2cfb39d9133813d6e9ac032c64.wav",
+      "arena-manager-beta/audio/01399a62eb50d54d367045cd1d6c5203ea83ab011c33175cffc0cde50248c263.wav",
+      "arena-manager-beta/audio/1963c68a6dde787d3fda1f7bef1f1614bdfe66f35cc30cc9ec8a61c9af2a50ae.wav",
+      "arena-manager-beta/audio/156fc5054e8717671651c97b0c5c334b0cb40f7e01c9605c596ec8df1a91e44e.wav",
+      "arena-manager-beta/audio/f101227fdbb87be55d42b254c6e6830c5f0a6dc5c33eaa45535cae675d1b898f.wav",
+      "arena-manager-beta/audio/3a2d3f37c5a8aa31c36a9382af41e000144293a23d6368fda20c06da5128be57.wav",
+      "arena-manager-beta/audio/73135705c8f822573165fadbe2fb1b1e508c72bb8072f732d029b8c4fc5e0d4b.wav",
+      "arena-manager-beta/audio/e6aaa7431eecfa19dac76187c3749d50769cad1e08759e48f3da9bcec4ab0c31.wav",
+      "arena-manager-beta/audio/59321e5a3d5617a7d86f517f060e46f516c414ef7a4ff373666a006260ce4266.wav",
+      "arena-manager-beta/audio/c62e09520aead058dc8ce9e9192830f3f88a29bb2844aa93fd53302415a66a6c.wav",
+      "arena-manager-beta/audio/cea961e91440fab85fd012e01a8aa818d2a6fbe2d74e1cc54990ca1240fec9ea.wav",
+      "arena-manager-beta/audio/fe501899392b4d626a94c27eb48bab6400c9634dd8332940bbcaaafd00412925.wav",
+      "arena-manager-beta/cs2/dust2.cmesh",
+      "arena-manager-beta/visuals/dust2/mobile.glb",
+      "embedded/a78d83a3879f53bfbbb0cb1737fe35426eb09129129b2095b6494232b0b0c352.glb"
+    ],
+    "errors": [],
+    "missing": []
+  },
+  "webPlainStorageAndOrientation": {
+    "result": "passed",
+    "actualRemoteRuntime": true,
+    "portraitOrientationButton": true,
+    "landscapeResponsive": true,
+    "plainWebCareerPersistence": true,
+    "noNativeBridgeOrDebugGameHook": true,
+    "errors": []
+  },
+  "webWorkerUpgrade": {
+    "result": "passed",
+    "actualPrevious55Worker26Installed": true,
+    "firstNavigationUnderOldWorkerLoads57": true,
+    "recordedBad54PropSaveRecoversAndSettles": true,
+    "newWorker28OfflineLaunchAndCareer": true,
+    "errors": []
+  },
+  "AndroidKeyStoreDeviceIntegrationTested": false,
+  "newSourcePubliclyPublished": false,
+  "privateKeysPublished": false,
+  "notes": [
+    "Install over1.56 without uninstalling to retain the same-package encrypted club storage; same signing certificate and vault alias/context.",
+    "sensorLandscape supports both landscape directions; native parent reserves cutout/system-bar/gesture/IME margins.",
+    "Actual compiled source CSS is bundled; compact phone landscape now includes larger phone viewports instead of incorrect tablet layout.",
+    "Browser viewport and native-vault contract mock tests are not physical phone/emulator/AndroidKeyStore integration certification.",
+    "Existing gameplay/maps/audio retained. Client APK/runtime/assets remain extractable; no unbreakability guarantee. Other3Dmaps need their first download."
+  ]
+}
