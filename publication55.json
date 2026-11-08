@@ -1,0 +1,5576 @@
+{
+  "baseline": "78290ed0a6461b298c57e66e55a06cd7258ad9a2",
+  "url": "https://abror1111.github.io/arena-manager-beta/remix31/?v=55",
+  "publicBytes": 1073016848,
+  "headroom": 724976,
+  "protectedPublished": 28,
+  "protectedParent": 209,
+  "productionBotUnchanged": true,
+  "validation": {
+    "result": "passed",
+    "version": "combat55",
+    "nodeTestsPassed": 93,
+    "maps": 11,
+    "fullAIMatches": 11,
+    "rounds": 221,
+    "C4Detonations": 70,
+    "invalidCheckpoints": 0,
+    "careerSettlements": 11,
+    "resultLayoutStates": 24,
+    "viewportSizes": 12,
+    "normalAnd125PercentFont": true,
+    "actualLegacySaveRepairAndRetryUI": true,
+    "C4FirstRenderedFrameAndFullRadius3D": true,
+    "allObserverModes": true,
+    "mandatoryGuideComplete": true,
+    "previousWorkerUpgradeOffline": true,
+    "webOnlyRelease": true,
+    "APKUpdated": false,
+    "APKVersion": 152,
+    "physicalDeviceInstalled": false,
+    "directPagesHTTPVerified": false,
+    "fullEvidence": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/arena-combat55-source/publication55.json",
+    "sourceRebuildByteIdentical": true
+  },
+  "sourceArchive": {
+    "file": "ARENA-combat55-source.zip",
+    "bytes": 43714792,
+    "sha256": "77eec20f2130e370e4b7181dccbf399f0573d1b60739b1adca5b44bf9ff163f0",
+    "files": 529,
+    "branch": "arena-combat55-source",
+    "commit": "f38c7cf09d4d52f49698433479e6b26c1edf5cbb",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/f38c7cf09d4d52f49698433479e6b26c1edf5cbb/ARENA-combat55-source.zip",
+    "reproducibleBuild": true
+  },
+  "runtime": {
+    "file": "runtime55.bin",
+    "bytes": 740494,
+    "sha256": "fa0d018ca0988d0b8af850298fb3412977566a5f34d9c79a005da4d21080b523",
+    "branch": "arena-combat55-runtime",
+    "commit": "9c3ee2e86f3009d6d366d9925cad8cdcce2edfda",
+    "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/9c3ee2e86f3009d6d366d9925cad8cdcce2edfda/runtime55.bin"
+  },
+  "previousAPKVersion": 152,
+  "APKUpdated": false,
+  "date": "2026-11-09",
+  "timezone": "Asia/Tashkent",
+  "commit": "1e2044ad544d8bea1e7efbfaa2d329a1de397126",
+  "actions": {
+    "branch": "main",
+    "runId": "42515342628",
+    "runUrl": "https://github.com/Abror1111/arena-manager-beta/actions/runs/42515342628",
+    "commit": "1e2044ad544d8bea1e7efbfaa2d329a1de397126",
+    "status": "Success",
+    "verification": "Public run Status Success and exact full commit SHA"
+  },
+  "remoteVerification": {
+    "result": "passed",
+    "commit": "1e2044ad544d8bea1e7efbfaa2d329a1de397126",
+    "webFiles": {
+      "remix31/loader55.js": "a2dd210b60d2f7f1b8792873f7962ae204e883543b1686381b5450ae4e761287",
+      "remix31/loader54.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader53.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/validation.json": "984ba0797818fd30628c03a130221f446f61f156faabc3a6bf70ca4019d311d4",
+      "remix31/service-worker.js": "fa19d3f8a6fc529dfb97d11a65fa17c0a146d7b218f09462228f3ab27b32694b",
+      "remix31/loader52.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader51.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader50.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader49.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader48.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader47.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader46.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader45.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader44.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader43.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader42.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader41.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader40.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader39.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader38.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader37.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader36.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader35.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader34.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader33.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader32.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/loader31.js": "dabf08e6d270fd4fb33b745f18b3a196742833dd95eab5f1abfba88c9dccc974",
+      "remix31/index.html": "7b379e8dab4e049928b882d7fe1b2250597a17a6203052051398505ab14c1508",
+      "remix31/commerce45.css": "e0c53d05e929576c8c85aa3a633e51c79089cef9f5854cac46756617b04c39a7",
+      "remix31/asset-manifest31.json": "9e767b801b396a2333f55e12c87ffa1815609affe24d159756203eda91870c0b",
+      "remix31/academy43.css": "43113a28694ae50b856949503e634ec7d49a96c8f67db87a06cae3ad546fb318",
+      "remix31/THIRD_PARTY_NOTICES.txt": "3dc5c0a5f380b86471b03f644fcae7754248218e7862e064d234c0c6bff138cc",
+      "remix31/README.md": "0e138db59b09e8b0eeef6689767fbaabca4b454a4c672c1109013c66f58df52c",
+      "remix31/PROVENANCE.json": "f39f238253b1738e6aa36bca070109d7ec4252e030eb288ed117ed6a4476a2d9",
+      "remix31/ORIGINAL-DESIGN-NEXT.md": "41fb28cabce01cafe154e2a0a4adb145014bbda15b4564e874192f761d447cf0",
+      "remix31/assets/native-data31-CUOX1azu.js": "75a52358899fca3d05e4b69451fe42e494556111465bd68905b3abb2359ed853",
+      "remix31/assets/audio-pack-worker-D9xylAYG.js": "7a6810256326ac056a7eb916291372d0122d8e581b1105bb649989130b6ab9af",
+      "original18/index.html": "7b2401125da63a06f573b86a36b09edf4fe79faf4e5e21308133240655a7501a"
+    },
+    "sourceAndRuntimeRemotelyHashVerified": true,
+    "TLSVerified": true
+  },
+  "nodeTestsPassed": 93,
+  "webOnlyRelease": true,
+  "sourceRebuildByteIdentical": true,
+  "resultAndRoundBrowser": {
+    "result": "passed",
+    "checks": [
+      "real result button repairs legacy live props, quota error is visible and retry persists once",
+      "two consecutive rounds each wait full five-second timer, no stale-zero skip",
+      "auto off and pause hold current round",
+      "4x C4 real UI preserves full outro then separate five-second automatic-round timer"
+    ],
+    "states": [
+      {
+        "w": 280,
+        "h": 653,
+        "k": 1,
+        "r": {
+          "x": 23,
+          "y": 590,
+          "width": 234,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        }
+      },
+      {
+        "w": 280,
+        "h": 653,
+        "k": 1.25,
+        "r": {
+          "x": 23,
+          "y": 590,
+          "width": 234,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653
+        }
+      },
+      {
+        "w": 320,
+        "h": 568,
+        "k": 1,
+        "r": {
+          "x": 23,
+          "y": 505,
+          "width": 274,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568
+        }
+      },
+      {
+        "w": 320,
+        "h": 568,
+        "k": 1.25,
+        "r": {
+          "x": 23,
+          "y": 505,
+          "width": 274,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568
+        }
+      },
+      {
+        "w": 390,
+        "h": 844,
+        "k": 1,
+        "r": {
+          "x": 23,
+          "y": 781,
+          "width": 344,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        }
+      },
+      {
+        "w": 390,
+        "h": 844,
+        "k": 1.25,
+        "r": {
+          "x": 23,
+          "y": 781,
+          "width": 344,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844
+        }
+      },
+      {
+        "w": 568,
+        "h": 320,
+        "k": 1,
+        "r": {
+          "x": 19,
+          "y": 260,
+          "width": 522,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320
+        }
+      },
+      {
+        "w": 568,
+        "h": 320,
+        "k": 1.25,
+        "r": {
+          "x": 19,
+          "y": 260,
+          "width": 522,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320
+        }
+      },
+      {
+        "w": 667,
+        "h": 375,
+        "k": 1,
+        "r": {
+          "x": 19,
+          "y": 315,
+          "width": 621,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375
+        }
+      },
+      {
+        "w": 667,
+        "h": 375,
+        "k": 1.25,
+        "r": {
+          "x": 19,
+          "y": 315,
+          "width": 621,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375
+        }
+      },
+      {
+        "w": 844,
+        "h": 390,
+        "k": 1,
+        "r": {
+          "x": 19,
+          "y": 330,
+          "width": 798,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        }
+      },
+      {
+        "w": 844,
+        "h": 390,
+        "k": 1.25,
+        "r": {
+          "x": 19,
+          "y": 330,
+          "width": 798,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390
+        }
+      },
+      {
+        "w": 720,
+        "h": 540,
+        "k": 1,
+        "r": {
+          "x": 23,
+          "y": 477,
+          "width": 674,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540
+        }
+      },
+      {
+        "w": 720,
+        "h": 540,
+        "k": 1.25,
+        "r": {
+          "x": 23,
+          "y": 477,
+          "width": 674,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540
+        }
+      },
+      {
+        "w": 768,
+        "h": 1024,
+        "k": 1,
+        "r": {
+          "x": 23,
+          "y": 961,
+          "width": 722,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024
+        }
+      },
+      {
+        "w": 768,
+        "h": 1024,
+        "k": 1.25,
+        "r": {
+          "x": 23,
+          "y": 961,
+          "width": 722,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024
+        }
+      },
+      {
+        "w": 884,
+        "h": 1104,
+        "k": 1,
+        "r": {
+          "x": 23,
+          "y": 1041,
+          "width": 838,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104
+        }
+      },
+      {
+        "w": 884,
+        "h": 1104,
+        "k": 1.25,
+        "r": {
+          "x": 23,
+          "y": 1041,
+          "width": 838,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104
+        }
+      },
+      {
+        "w": 1104,
+        "h": 884,
+        "k": 1,
+        "r": {
+          "x": 107,
+          "y": 821,
+          "width": 890,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884
+        }
+      },
+      {
+        "w": 1104,
+        "h": 884,
+        "k": 1.25,
+        "r": {
+          "x": 107,
+          "y": 821,
+          "width": 890,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884
+        }
+      },
+      {
+        "w": 1180,
+        "h": 820,
+        "k": 1,
+        "r": {
+          "x": 145,
+          "y": 757,
+          "width": 890,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820
+        }
+      },
+      {
+        "w": 1180,
+        "h": 820,
+        "k": 1.25,
+        "r": {
+          "x": 145,
+          "y": 757,
+          "width": 890,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820
+        }
+      },
+      {
+        "w": 1280,
+        "h": 850,
+        "k": 1,
+        "r": {
+          "x": 195,
+          "y": 787,
+          "width": 890,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 1280,
+          "h": 850,
+          "sw": 1280,
+          "sh": 850
+        }
+      },
+      {
+        "w": 1280,
+        "h": 850,
+        "k": 1.25,
+        "r": {
+          "x": 195,
+          "y": 787,
+          "width": 890,
+          "height": 44
+        },
+        "bad": [],
+        "fit": {
+          "w": 1280,
+          "h": 850,
+          "sw": 1280,
+          "sh": 850
+        }
+      }
+    ],
+    "errors": []
+  },
+  "C4RenderBrowser": {
+    "result": "passed",
+    "actual3DSourceMap": true,
+    "controlledBombAndStationaryPlayers": true,
+    "realCameraButtons": true,
+    "speed": 4,
+    "records": [
+      {
+        "frames": [
+          {
+            "time": 17416.70000000298,
+            "outro": 0,
+            "phase": "live",
+            "round": 1,
+            "radius": 0,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-countdown",
+            "gpu": 446,
+            "follow": "auto"
+          },
+          {
+            "time": 17450.80000000447,
+            "outro": 0,
+            "phase": "live",
+            "round": 1,
+            "radius": 0,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-countdown",
+            "gpu": 446,
+            "follow": "auto"
+          },
+          {
+            "time": 17677.70000000298,
+            "outro": 0,
+            "phase": "live",
+            "round": 1,
+            "radius": 0,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-countdown",
+            "gpu": 446,
+            "follow": "auto"
+          },
+          {
+            "time": 21178.20000000298,
+            "outro": 0,
+            "phase": "live",
+            "round": 1,
+            "radius": 0,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-countdown",
+            "gpu": 446,
+            "follow": "auto"
+          },
+          {
+            "time": 24760.30000000447,
+            "outro": 0,
+            "phase": "live",
+            "round": 1,
+            "radius": 0,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-countdown",
+            "gpu": 446,
+            "follow": "auto"
+          },
+          {
+            "time": 28308,
+            "outro": 0,
+            "phase": "live",
+            "round": 1,
+            "radius": 0,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-countdown",
+            "gpu": 446,
+            "follow": "auto"
+          },
+          {
+            "time": 39543.80000000447,
+            "outro": 5,
+            "phase": "roundend",
+            "round": 1,
+            "e": 0,
+            "radius": 0,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 469,
+            "follow": "auto"
+          },
+          {
+            "time": 39568.20000000298,
+            "outro": 4.933333333333334,
+            "phase": "roundend",
+            "round": 1,
+            "e": 0.06666666666666667,
+            "radius": 2.4,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 39881.5,
+            "outro": 4.866666666666667,
+            "phase": "roundend",
+            "round": 1,
+            "e": 0.13333333333333333,
+            "radius": 4.8,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 40093.30000000447,
+            "outro": 4.7666666666666675,
+            "phase": "roundend",
+            "round": 1,
+            "e": 0.2333333333333333,
+            "radius": 8.4,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 40175.39999999851,
+            "outro": 4.700000000000001,
+            "phase": "roundend",
+            "round": 1,
+            "e": 0.3,
+            "radius": 10.8,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 40327.39999999851,
+            "outro": 4.600000000000001,
+            "phase": "roundend",
+            "round": 1,
+            "e": 0.39999999999999997,
+            "radius": 14.4,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 40482.5,
+            "outro": 4.533333333333335,
+            "phase": "roundend",
+            "round": 1,
+            "e": 0.4666666666666666,
+            "radius": 16.8,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 40657.30000000447,
+            "outro": 4.466666666666669,
+            "phase": "roundend",
+            "round": 1,
+            "e": 0.5333333333333333,
+            "radius": 19.2,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 40804.5,
+            "outro": 4.366666666666669,
+            "phase": "roundend",
+            "round": 1,
+            "e": 0.6333333333333333,
+            "radius": 22.8,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 40959.30000000447,
+            "outro": 4.3000000000000025,
+            "phase": "roundend",
+            "round": 1,
+            "e": 0.7,
+            "radius": 25.2,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 41130.30000000447,
+            "outro": 4.200000000000003,
+            "phase": "roundend",
+            "round": 1,
+            "e": 0.7999999999999999,
+            "radius": 28.8,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 41285.39999999851,
+            "outro": 4.133333333333336,
+            "phase": "roundend",
+            "round": 1,
+            "e": 0.8666666666666666,
+            "radius": 31.2,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 41421.20000000298,
+            "outro": 4.06666666666667,
+            "phase": "roundend",
+            "round": 1,
+            "e": 0.9333333333333332,
+            "radius": 33.6,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 41552.39999999851,
+            "outro": 3.9666666666666703,
+            "phase": "roundend",
+            "round": 1,
+            "e": 1.0333333333333332,
+            "radius": 37.2,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 41710.60000000149,
+            "outro": 3.900000000000004,
+            "phase": "roundend",
+            "round": 1,
+            "e": 1.1,
+            "radius": 39.6,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 41856.60000000149,
+            "outro": 3.8000000000000043,
+            "phase": "roundend",
+            "round": 1,
+            "e": 1.2000000000000004,
+            "radius": 43.2,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 42011.39999999851,
+            "outro": 3.733333333333338,
+            "phase": "roundend",
+            "round": 1,
+            "e": 1.2666666666666673,
+            "radius": 45.6,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 42238.70000000298,
+            "outro": 3.6666666666666714,
+            "phase": "roundend",
+            "round": 1,
+            "e": 1.3333333333333341,
+            "radius": 48,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 42400.30000000447,
+            "outro": 3.5666666666666718,
+            "phase": "roundend",
+            "round": 1,
+            "e": 1.4333333333333345,
+            "radius": 51.6,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 42537.20000000298,
+            "outro": 3.5000000000000053,
+            "phase": "roundend",
+            "round": 1,
+            "e": 1.5000000000000013,
+            "radius": 54,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 42704.10000000149,
+            "outro": 3.4000000000000057,
+            "phase": "roundend",
+            "round": 1,
+            "e": 1.6000000000000016,
+            "radius": 57.6,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 42856.10000000149,
+            "outro": 3.3333333333333393,
+            "phase": "roundend",
+            "round": 1,
+            "e": 1.6666666666666685,
+            "radius": 60,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 43016.80000000447,
+            "outro": 3.266666666666673,
+            "phase": "roundend",
+            "round": 1,
+            "e": 1.7333333333333354,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 43205.60000000149,
+            "outro": 3.166666666666673,
+            "phase": "roundend",
+            "round": 1,
+            "e": 1.8333333333333357,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 43685.60000000149,
+            "outro": 3.1000000000000068,
+            "phase": "roundend",
+            "round": 1,
+            "e": 1.9000000000000026,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 43841.60000000149,
+            "outro": 3.000000000000007,
+            "phase": "roundend",
+            "round": 1,
+            "e": 2.0000000000000027,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 44000.80000000447,
+            "outro": 2.9333333333333407,
+            "phase": "roundend",
+            "round": 1,
+            "e": 2.066666666666669,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 44185.60000000149,
+            "outro": 2.8666666666666742,
+            "phase": "roundend",
+            "round": 1,
+            "e": 2.1333333333333355,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 44336.30000000447,
+            "outro": 2.7666666666666746,
+            "phase": "roundend",
+            "round": 1,
+            "e": 2.233333333333335,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 44510.80000000447,
+            "outro": 2.700000000000008,
+            "phase": "roundend",
+            "round": 1,
+            "e": 2.3000000000000016,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 44650.70000000298,
+            "outro": 2.6000000000000085,
+            "phase": "roundend",
+            "round": 1,
+            "e": 2.4000000000000012,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 44811.39999999851,
+            "outro": 2.533333333333342,
+            "phase": "roundend",
+            "round": 1,
+            "e": 2.4666666666666677,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 44960.5,
+            "outro": 2.4666666666666757,
+            "phase": "roundend",
+            "round": 1,
+            "e": 2.533333333333334,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 45130.39999999851,
+            "outro": 2.366666666666676,
+            "phase": "roundend",
+            "round": 1,
+            "e": 2.6333333333333337,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 45310.5,
+            "outro": 2.3000000000000096,
+            "phase": "roundend",
+            "round": 1,
+            "e": 2.7,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 45481.70000000298,
+            "outro": 2.20000000000001,
+            "phase": "roundend",
+            "round": 1,
+            "e": 2.8,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 45644.70000000298,
+            "outro": 2.1333333333333435,
+            "phase": "roundend",
+            "round": 1,
+            "e": 2.8666666666666663,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 45820.39999999851,
+            "outro": 2.066666666666677,
+            "phase": "roundend",
+            "round": 1,
+            "e": 2.9333333333333327,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 45992.5,
+            "outro": 1.9666666666666772,
+            "phase": "roundend",
+            "round": 1,
+            "e": 3.0333333333333323,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 46186.10000000149,
+            "outro": 1.9000000000000103,
+            "phase": "roundend",
+            "round": 1,
+            "e": 3.0999999999999988,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 46342.89999999851,
+            "outro": 1.80000000000001,
+            "phase": "roundend",
+            "round": 1,
+            "e": 3.1999999999999984,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 46510.39999999851,
+            "outro": 1.7333333333333432,
+            "phase": "roundend",
+            "round": 1,
+            "e": 3.266666666666665,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 46653.39999999851,
+            "outro": 1.6666666666666763,
+            "phase": "roundend",
+            "round": 1,
+            "e": 3.3333333333333313,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 46813.5,
+            "outro": 1.566666666666676,
+            "phase": "roundend",
+            "round": 1,
+            "e": 3.433333333333331,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 46977.80000000447,
+            "outro": 1.500000000000009,
+            "phase": "roundend",
+            "round": 1,
+            "e": 3.4999999999999973,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 47146.39999999851,
+            "outro": 1.4000000000000088,
+            "phase": "roundend",
+            "round": 1,
+            "e": 3.599999999999997,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 47309.39999999851,
+            "outro": 1.333333333333342,
+            "phase": "roundend",
+            "round": 1,
+            "e": 3.6666666666666634,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 47461.5,
+            "outro": 1.266666666666675,
+            "phase": "roundend",
+            "round": 1,
+            "e": 3.73333333333333,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 47638.10000000149,
+            "outro": 1.1666666666666747,
+            "phase": "roundend",
+            "round": 1,
+            "e": 3.8333333333333295,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 47803.60000000149,
+            "outro": 1.1000000000000079,
+            "phase": "roundend",
+            "round": 1,
+            "e": 3.899999999999996,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 47957.70000000298,
+            "outro": 1.0000000000000075,
+            "phase": "roundend",
+            "round": 1,
+            "e": 3.9999999999999956,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 48114,
+            "outro": 0.9333333333333409,
+            "phase": "roundend",
+            "round": 1,
+            "e": 4.066666666666662,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 48258.10000000149,
+            "outro": 0.8666666666666742,
+            "phase": "roundend",
+            "round": 1,
+            "e": 4.133333333333328,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 48426.80000000447,
+            "outro": 0.7666666666666743,
+            "phase": "roundend",
+            "round": 1,
+            "e": 4.233333333333328,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 48593.80000000447,
+            "outro": 0.7000000000000076,
+            "phase": "roundend",
+            "round": 1,
+            "e": 4.2999999999999945,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 48763,
+            "outro": 0.6000000000000076,
+            "phase": "roundend",
+            "round": 1,
+            "e": 4.399999999999994,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 48895.80000000447,
+            "outro": 0.533333333333341,
+            "phase": "roundend",
+            "round": 1,
+            "e": 4.466666666666661,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 49031.5,
+            "outro": 0.46666666666667433,
+            "phase": "roundend",
+            "round": 1,
+            "e": 4.533333333333327,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 49181.89999999851,
+            "outro": 0.36666666666667436,
+            "phase": "roundend",
+            "round": 1,
+            "e": 4.633333333333327,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 49323.70000000298,
+            "outro": 0.3000000000000077,
+            "phase": "roundend",
+            "round": 1,
+            "e": 4.699999999999993,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 49488.39999999851,
+            "outro": 0.20000000000000773,
+            "phase": "roundend",
+            "round": 1,
+            "e": 4.799999999999993,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 49643.89999999851,
+            "outro": 0.13333333333334108,
+            "phase": "roundend",
+            "round": 1,
+            "e": 4.866666666666659,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 49796.80000000447,
+            "outro": 0.06666666666667442,
+            "phase": "roundend",
+            "round": 1,
+            "e": 4.933333333333326,
+            "radius": 62,
+            "fits": "true",
+            "camera": "static",
+            "focus": "c4-blast",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 49937.39999999851,
+            "outro": 0,
+            "phase": "roundend",
+            "round": 1,
+            "radius": 0,
+            "fits": "false",
+            "camera": "static",
+            "focus": "overview",
+            "gpu": 472,
+            "follow": "auto"
+          },
+          {
+            "time": 50109.89999999851,
+            "outro": 0,
+            "phase": "roundend",
+            "round": 1,
+            "radius": 0,
+            "fits": "false",
+            "camera": "static",
+            "focus": "overview",
+            "gpu": 472,
+            "follow": "auto"
+          }
+        ],
+        "blast": {
+          "version": 1,
+          "damageRadius": 48,
+          "waveRadius": 62,
+          "hits": [
+            {
+              "id": 0,
+              "team": 0,
+              "name": "ACE",
+              "distance": 0.9999999999999994,
+              "hpBefore": 100,
+              "hpAfter": 0,
+              "lost": 100,
+              "killed": true
+            },
+            {
+              "id": 1,
+              "team": 0,
+              "name": "NOVA",
+              "distance": 0.9999999999999994,
+              "hpBefore": 100,
+              "hpAfter": 0,
+              "lost": 100,
+              "killed": true
+            }
+          ],
+          "props": 6
+        },
+        "score": [
+          1,
+          0
+        ],
+        "dimension": "3d",
+        "mode": "static",
+        "wallAfterDetonation": 10575
+      },
+      {
+        "frames": [
+          {
+            "time": 117894.80000000447,
+            "outro": 0,
+            "phase": "live",
+            "round": 2,
+            "radius": 0,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-countdown",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 123607.60000000149,
+            "outro": 0,
+            "phase": "live",
+            "round": 2,
+            "radius": 0,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-countdown",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 127411.20000000298,
+            "outro": 0,
+            "phase": "live",
+            "round": 2,
+            "radius": 0,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-countdown",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 130965,
+            "outro": 0,
+            "phase": "live",
+            "round": 2,
+            "radius": 0,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-countdown",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 134327.5,
+            "outro": 5,
+            "phase": "roundend",
+            "round": 2,
+            "e": 0,
+            "radius": 0,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 137883.20000000298,
+            "outro": 4.933333333333334,
+            "phase": "roundend",
+            "round": 2,
+            "e": 0.06666666666666667,
+            "radius": 2.4,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 141183.80000000447,
+            "outro": 4.866666666666667,
+            "phase": "roundend",
+            "round": 2,
+            "e": 0.13333333333333333,
+            "radius": 4.8,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 144578.5,
+            "outro": 4.7666666666666675,
+            "phase": "roundend",
+            "round": 2,
+            "e": 0.2333333333333333,
+            "radius": 8.4,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 145115.5,
+            "outro": 4.700000000000001,
+            "phase": "roundend",
+            "round": 2,
+            "e": 0.3,
+            "radius": 10.8,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 145320.20000000298,
+            "outro": 4.600000000000001,
+            "phase": "roundend",
+            "round": 2,
+            "e": 0.39999999999999997,
+            "radius": 14.4,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 145492.1000000015,
+            "outro": 4.533333333333335,
+            "phase": "roundend",
+            "round": 2,
+            "e": 0.4666666666666666,
+            "radius": 16.8,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 145649.6000000015,
+            "outro": 4.466666666666669,
+            "phase": "roundend",
+            "round": 2,
+            "e": 0.5333333333333333,
+            "radius": 19.2,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 145824.70000000298,
+            "outro": 4.366666666666669,
+            "phase": "roundend",
+            "round": 2,
+            "e": 0.6333333333333333,
+            "radius": 22.8,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 146023.8999999985,
+            "outro": 4.3000000000000025,
+            "phase": "roundend",
+            "round": 2,
+            "e": 0.7,
+            "radius": 25.2,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 146219.20000000298,
+            "outro": 4.200000000000003,
+            "phase": "roundend",
+            "round": 2,
+            "e": 0.7999999999999999,
+            "radius": 28.8,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 146530.20000000298,
+            "outro": 4.133333333333336,
+            "phase": "roundend",
+            "round": 2,
+            "e": 0.8666666666666666,
+            "radius": 31.2,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 146694.3999999985,
+            "outro": 4.06666666666667,
+            "phase": "roundend",
+            "round": 2,
+            "e": 0.9333333333333332,
+            "radius": 33.6,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 146844.5,
+            "outro": 3.9666666666666703,
+            "phase": "roundend",
+            "round": 2,
+            "e": 1.0333333333333332,
+            "radius": 37.2,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 147030,
+            "outro": 3.900000000000004,
+            "phase": "roundend",
+            "round": 2,
+            "e": 1.1,
+            "radius": 39.6,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 147228.70000000298,
+            "outro": 3.8000000000000043,
+            "phase": "roundend",
+            "round": 2,
+            "e": 1.2000000000000004,
+            "radius": 43.2,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 147409.1000000015,
+            "outro": 3.733333333333338,
+            "phase": "roundend",
+            "round": 2,
+            "e": 1.2666666666666673,
+            "radius": 45.6,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 147561.30000000447,
+            "outro": 3.6666666666666714,
+            "phase": "roundend",
+            "round": 2,
+            "e": 1.3333333333333341,
+            "radius": 48,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 147729.30000000447,
+            "outro": 3.5666666666666718,
+            "phase": "roundend",
+            "round": 2,
+            "e": 1.4333333333333345,
+            "radius": 51.6,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 147888.3999999985,
+            "outro": 3.5000000000000053,
+            "phase": "roundend",
+            "round": 2,
+            "e": 1.5000000000000013,
+            "radius": 54,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 148043.20000000298,
+            "outro": 3.4000000000000057,
+            "phase": "roundend",
+            "round": 2,
+            "e": 1.6000000000000016,
+            "radius": 57.6,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 148240.1000000015,
+            "outro": 3.3333333333333393,
+            "phase": "roundend",
+            "round": 2,
+            "e": 1.6666666666666685,
+            "radius": 60,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 148412.8999999985,
+            "outro": 3.266666666666673,
+            "phase": "roundend",
+            "round": 2,
+            "e": 1.7333333333333354,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 148591.1000000015,
+            "outro": 3.166666666666673,
+            "phase": "roundend",
+            "round": 2,
+            "e": 1.8333333333333357,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 148742.3999999985,
+            "outro": 3.1000000000000068,
+            "phase": "roundend",
+            "round": 2,
+            "e": 1.9000000000000026,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 148943.70000000298,
+            "outro": 3.000000000000007,
+            "phase": "roundend",
+            "round": 2,
+            "e": 2.0000000000000027,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 149126.5,
+            "outro": 2.9333333333333407,
+            "phase": "roundend",
+            "round": 2,
+            "e": 2.066666666666669,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 149298.70000000298,
+            "outro": 2.8666666666666742,
+            "phase": "roundend",
+            "round": 2,
+            "e": 2.1333333333333355,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 149445,
+            "outro": 2.7666666666666746,
+            "phase": "roundend",
+            "round": 2,
+            "e": 2.233333333333335,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 149619.1000000015,
+            "outro": 2.700000000000008,
+            "phase": "roundend",
+            "round": 2,
+            "e": 2.3000000000000016,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 149797.5,
+            "outro": 2.6000000000000085,
+            "phase": "roundend",
+            "round": 2,
+            "e": 2.4000000000000012,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 149984.80000000447,
+            "outro": 2.533333333333342,
+            "phase": "roundend",
+            "round": 2,
+            "e": 2.4666666666666677,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 150155.80000000447,
+            "outro": 2.4666666666666757,
+            "phase": "roundend",
+            "round": 2,
+            "e": 2.533333333333334,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 150338.20000000298,
+            "outro": 2.366666666666676,
+            "phase": "roundend",
+            "round": 2,
+            "e": 2.6333333333333337,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 150513.8999999985,
+            "outro": 2.3000000000000096,
+            "phase": "roundend",
+            "round": 2,
+            "e": 2.7,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 150678.30000000447,
+            "outro": 2.20000000000001,
+            "phase": "roundend",
+            "round": 2,
+            "e": 2.8,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 150830.1000000015,
+            "outro": 2.1333333333333435,
+            "phase": "roundend",
+            "round": 2,
+            "e": 2.8666666666666663,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 151000.6000000015,
+            "outro": 2.066666666666677,
+            "phase": "roundend",
+            "round": 2,
+            "e": 2.9333333333333327,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 151153.30000000447,
+            "outro": 1.9666666666666772,
+            "phase": "roundend",
+            "round": 2,
+            "e": 3.0333333333333323,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 151320.8999999985,
+            "outro": 1.9000000000000103,
+            "phase": "roundend",
+            "round": 2,
+            "e": 3.0999999999999988,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 151466.80000000447,
+            "outro": 1.80000000000001,
+            "phase": "roundend",
+            "round": 2,
+            "e": 3.1999999999999984,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 151653.80000000447,
+            "outro": 1.7333333333333432,
+            "phase": "roundend",
+            "round": 2,
+            "e": 3.266666666666665,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 151823.5,
+            "outro": 1.6666666666666763,
+            "phase": "roundend",
+            "round": 2,
+            "e": 3.3333333333333313,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 151996.70000000298,
+            "outro": 1.566666666666676,
+            "phase": "roundend",
+            "round": 2,
+            "e": 3.433333333333331,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 152159.8999999985,
+            "outro": 1.500000000000009,
+            "phase": "roundend",
+            "round": 2,
+            "e": 3.4999999999999973,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 152320.3999999985,
+            "outro": 1.4000000000000088,
+            "phase": "roundend",
+            "round": 2,
+            "e": 3.599999999999997,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 152481.30000000447,
+            "outro": 1.333333333333342,
+            "phase": "roundend",
+            "round": 2,
+            "e": 3.6666666666666634,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 152650.3999999985,
+            "outro": 1.266666666666675,
+            "phase": "roundend",
+            "round": 2,
+            "e": 3.73333333333333,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 152837.70000000298,
+            "outro": 1.1666666666666747,
+            "phase": "roundend",
+            "round": 2,
+            "e": 3.8333333333333295,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 153018.20000000298,
+            "outro": 1.1000000000000079,
+            "phase": "roundend",
+            "round": 2,
+            "e": 3.899999999999996,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 153184.30000000447,
+            "outro": 1.0000000000000075,
+            "phase": "roundend",
+            "round": 2,
+            "e": 3.9999999999999956,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 153377.1000000015,
+            "outro": 0.9333333333333409,
+            "phase": "roundend",
+            "round": 2,
+            "e": 4.066666666666662,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 153536,
+            "outro": 0.8666666666666742,
+            "phase": "roundend",
+            "round": 2,
+            "e": 4.133333333333328,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 153719.70000000298,
+            "outro": 0.7666666666666743,
+            "phase": "roundend",
+            "round": 2,
+            "e": 4.233333333333328,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 153898,
+            "outro": 0.7000000000000076,
+            "phase": "roundend",
+            "round": 2,
+            "e": 4.2999999999999945,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 154079.8999999985,
+            "outro": 0.6000000000000076,
+            "phase": "roundend",
+            "round": 2,
+            "e": 4.399999999999994,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 154253.6000000015,
+            "outro": 0.533333333333341,
+            "phase": "roundend",
+            "round": 2,
+            "e": 4.466666666666661,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 154431.80000000447,
+            "outro": 0.46666666666667433,
+            "phase": "roundend",
+            "round": 2,
+            "e": 4.533333333333327,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 154595.80000000447,
+            "outro": 0.36666666666667436,
+            "phase": "roundend",
+            "round": 2,
+            "e": 4.633333333333327,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 154779.3999999985,
+            "outro": 0.3000000000000077,
+            "phase": "roundend",
+            "round": 2,
+            "e": 4.699999999999993,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 154947.6000000015,
+            "outro": 0.20000000000000773,
+            "phase": "roundend",
+            "round": 2,
+            "e": 4.799999999999993,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 155124,
+            "outro": 0.13333333333334108,
+            "phase": "roundend",
+            "round": 2,
+            "e": 4.866666666666659,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 155291.70000000298,
+            "outro": 0.06666666666667442,
+            "phase": "roundend",
+            "round": 2,
+            "e": 4.933333333333326,
+            "radius": 62,
+            "fits": "true",
+            "camera": "auto",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 155444.5,
+            "outro": 0,
+            "phase": "roundend",
+            "round": 2,
+            "radius": 0,
+            "fits": "false",
+            "camera": "auto",
+            "focus": "combat",
+            "gpu": 483,
+            "follow": "auto"
+          },
+          {
+            "time": 155635.20000000298,
+            "outro": 0,
+            "phase": "roundend",
+            "round": 2,
+            "radius": 0,
+            "fits": "false",
+            "camera": "auto",
+            "focus": "combat",
+            "gpu": 483,
+            "follow": "auto"
+          }
+        ],
+        "blast": {
+          "version": 1,
+          "damageRadius": 48,
+          "waveRadius": 62,
+          "hits": [
+            {
+              "id": 0,
+              "team": 0,
+              "name": "ACE",
+              "distance": 0.9999999999999994,
+              "hpBefore": 100,
+              "hpAfter": 0,
+              "lost": 100,
+              "killed": true
+            },
+            {
+              "id": 1,
+              "team": 0,
+              "name": "NOVA",
+              "distance": 0.9999999999999994,
+              "hpBefore": 100,
+              "hpAfter": 0,
+              "lost": 100,
+              "killed": true
+            }
+          ],
+          "props": 6
+        },
+        "score": [
+          2,
+          0
+        ],
+        "dimension": "3d",
+        "mode": "auto",
+        "wallAfterDetonation": 21320
+      },
+      {
+        "frames": [
+          {
+            "time": 211128.80000000447,
+            "outro": 0,
+            "phase": "live",
+            "round": 3,
+            "radius": 0,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-countdown",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 213727.6000000015,
+            "outro": 0,
+            "phase": "live",
+            "round": 3,
+            "radius": 0,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-countdown",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 215461.8999999985,
+            "outro": 0,
+            "phase": "live",
+            "round": 3,
+            "radius": 0,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-countdown",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 218578.8999999985,
+            "outro": 0,
+            "phase": "live",
+            "round": 3,
+            "radius": 0,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-countdown",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 221782.20000000298,
+            "outro": 5,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0,
+            "radius": 0,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 225067.5,
+            "outro": 4.933333333333334,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0.06666666666666667,
+            "radius": 2.4,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 228419.3999999985,
+            "outro": 4.866666666666667,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0.13333333333333333,
+            "radius": 4.8,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 231699.3999999985,
+            "outro": 4.7666666666666675,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0.2333333333333333,
+            "radius": 8.4,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 232202.8999999985,
+            "outro": 4.700000000000001,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0.3,
+            "radius": 10.8,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 232490.70000000298,
+            "outro": 4.600000000000001,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0.39999999999999997,
+            "radius": 14.4,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 232552.30000000447,
+            "outro": 4.566666666666668,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0.4333333333333333,
+            "radius": 15.6,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 232738,
+            "outro": 4.500000000000002,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0.49999999999999994,
+            "radius": 18,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 232932.5,
+            "outro": 4.400000000000002,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0.6,
+            "radius": 21.6,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 233119.1000000015,
+            "outro": 4.333333333333336,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0.6666666666666666,
+            "radius": 24,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 233294.20000000298,
+            "outro": 4.233333333333336,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0.7666666666666666,
+            "radius": 27.6,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 233477.30000000447,
+            "outro": 4.16666666666667,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0.8333333333333333,
+            "radius": 30,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 233633.70000000298,
+            "outro": 4.100000000000003,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0.8999999999999999,
+            "radius": 32.4,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 233805.30000000447,
+            "outro": 4.0000000000000036,
+            "phase": "roundend",
+            "round": 3,
+            "e": 0.9999999999999999,
+            "radius": 36,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 233985.5,
+            "outro": 3.933333333333337,
+            "phase": "roundend",
+            "round": 3,
+            "e": 1.0666666666666667,
+            "radius": 38.4,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 234164.3999999985,
+            "outro": 3.8333333333333375,
+            "phase": "roundend",
+            "round": 3,
+            "e": 1.166666666666667,
+            "radius": 42,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 234392.1000000015,
+            "outro": 3.766666666666671,
+            "phase": "roundend",
+            "round": 3,
+            "e": 1.2333333333333338,
+            "radius": 44.4,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 234593.30000000447,
+            "outro": 3.7000000000000046,
+            "phase": "roundend",
+            "round": 3,
+            "e": 1.3000000000000007,
+            "radius": 46.8,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 234824.20000000298,
+            "outro": 3.600000000000005,
+            "phase": "roundend",
+            "round": 3,
+            "e": 1.400000000000001,
+            "radius": 50.4,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 235014.5,
+            "outro": 3.5333333333333385,
+            "phase": "roundend",
+            "round": 3,
+            "e": 1.466666666666668,
+            "radius": 52.8,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 235210.8999999985,
+            "outro": 3.433333333333339,
+            "phase": "roundend",
+            "round": 3,
+            "e": 1.5666666666666682,
+            "radius": 56.4,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 235390.3999999985,
+            "outro": 3.3666666666666725,
+            "phase": "roundend",
+            "round": 3,
+            "e": 1.633333333333335,
+            "radius": 58.8,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 235556.5,
+            "outro": 3.300000000000006,
+            "phase": "roundend",
+            "round": 3,
+            "e": 1.700000000000002,
+            "radius": 61.2,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 235732.70000000298,
+            "outro": 3.2000000000000064,
+            "phase": "roundend",
+            "round": 3,
+            "e": 1.8000000000000023,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 236110.5,
+            "outro": 3.13333333333334,
+            "phase": "roundend",
+            "round": 3,
+            "e": 1.8666666666666691,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 236311.30000000447,
+            "outro": 3.0333333333333403,
+            "phase": "roundend",
+            "round": 3,
+            "e": 1.9666666666666694,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 236520.8999999985,
+            "outro": 2.966666666666674,
+            "phase": "roundend",
+            "round": 3,
+            "e": 2.033333333333336,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 236721.20000000298,
+            "outro": 2.9000000000000075,
+            "phase": "roundend",
+            "round": 3,
+            "e": 2.1000000000000023,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 236901.3999999985,
+            "outro": 2.800000000000008,
+            "phase": "roundend",
+            "round": 3,
+            "e": 2.200000000000002,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 237107.5,
+            "outro": 2.7333333333333414,
+            "phase": "roundend",
+            "round": 3,
+            "e": 2.2666666666666684,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 237286.6000000015,
+            "outro": 2.6333333333333417,
+            "phase": "roundend",
+            "round": 3,
+            "e": 2.366666666666668,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 237482.8999999985,
+            "outro": 2.5666666666666753,
+            "phase": "roundend",
+            "round": 3,
+            "e": 2.4333333333333345,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 237635.80000000447,
+            "outro": 2.500000000000009,
+            "phase": "roundend",
+            "round": 3,
+            "e": 2.500000000000001,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 237805,
+            "outro": 2.4000000000000092,
+            "phase": "roundend",
+            "round": 3,
+            "e": 2.6000000000000005,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 237984.6000000015,
+            "outro": 2.333333333333343,
+            "phase": "roundend",
+            "round": 3,
+            "e": 2.666666666666667,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 238159.80000000447,
+            "outro": 2.233333333333343,
+            "phase": "roundend",
+            "round": 3,
+            "e": 2.7666666666666666,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 238347.5,
+            "outro": 2.1666666666666767,
+            "phase": "roundend",
+            "round": 3,
+            "e": 2.833333333333333,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 238532.20000000298,
+            "outro": 2.1000000000000103,
+            "phase": "roundend",
+            "round": 3,
+            "e": 2.8999999999999995,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 238707.30000000447,
+            "outro": 2.0000000000000107,
+            "phase": "roundend",
+            "round": 3,
+            "e": 2.999999999999999,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 238881.80000000447,
+            "outro": 1.9333333333333438,
+            "phase": "roundend",
+            "round": 3,
+            "e": 3.0666666666666655,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 239049.1000000015,
+            "outro": 1.8333333333333435,
+            "phase": "roundend",
+            "round": 3,
+            "e": 3.166666666666665,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 239240.30000000447,
+            "outro": 1.7666666666666766,
+            "phase": "roundend",
+            "round": 3,
+            "e": 3.2333333333333316,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 239425.30000000447,
+            "outro": 1.7000000000000097,
+            "phase": "roundend",
+            "round": 3,
+            "e": 3.299999999999998,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 239607.3999999985,
+            "outro": 1.6000000000000094,
+            "phase": "roundend",
+            "round": 3,
+            "e": 3.3999999999999977,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 239783.1000000015,
+            "outro": 1.5333333333333425,
+            "phase": "roundend",
+            "round": 3,
+            "e": 3.466666666666664,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 239942.70000000298,
+            "outro": 1.4333333333333422,
+            "phase": "roundend",
+            "round": 3,
+            "e": 3.5666666666666638,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 240119.20000000298,
+            "outro": 1.3666666666666754,
+            "phase": "roundend",
+            "round": 3,
+            "e": 3.63333333333333,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 240328.3999999985,
+            "outro": 1.3000000000000085,
+            "phase": "roundend",
+            "round": 3,
+            "e": 3.6999999999999966,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 240498.1000000015,
+            "outro": 1.2000000000000082,
+            "phase": "roundend",
+            "round": 3,
+            "e": 3.7999999999999963,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 240678.80000000447,
+            "outro": 1.1333333333333413,
+            "phase": "roundend",
+            "round": 3,
+            "e": 3.8666666666666627,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 240854.5,
+            "outro": 1.033333333333341,
+            "phase": "roundend",
+            "round": 3,
+            "e": 3.9666666666666623,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 241043.6000000015,
+            "outro": 0.9666666666666742,
+            "phase": "roundend",
+            "round": 3,
+            "e": 4.033333333333329,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 241232.30000000447,
+            "outro": 0.9000000000000076,
+            "phase": "roundend",
+            "round": 3,
+            "e": 4.099999999999995,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 241405.1000000015,
+            "outro": 0.8000000000000076,
+            "phase": "roundend",
+            "round": 3,
+            "e": 4.199999999999995,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 241560.70000000298,
+            "outro": 0.7333333333333409,
+            "phase": "roundend",
+            "round": 3,
+            "e": 4.266666666666661,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 241750.8999999985,
+            "outro": 0.633333333333341,
+            "phase": "roundend",
+            "round": 3,
+            "e": 4.366666666666661,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 241921.70000000298,
+            "outro": 0.5666666666666743,
+            "phase": "roundend",
+            "round": 3,
+            "e": 4.433333333333327,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 242120.20000000298,
+            "outro": 0.5000000000000077,
+            "phase": "roundend",
+            "round": 3,
+            "e": 4.499999999999994,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 242306.30000000447,
+            "outro": 0.4000000000000077,
+            "phase": "roundend",
+            "round": 3,
+            "e": 4.599999999999993,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 242491,
+            "outro": 0.33333333333334103,
+            "phase": "roundend",
+            "round": 3,
+            "e": 4.66666666666666,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 242661,
+            "outro": 0.23333333333334105,
+            "phase": "roundend",
+            "round": 3,
+            "e": 4.7666666666666595,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 242847.30000000447,
+            "outro": 0.1666666666666744,
+            "phase": "roundend",
+            "round": 3,
+            "e": 4.833333333333326,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 243032.1000000015,
+            "outro": 0.10000000000000775,
+            "phase": "roundend",
+            "round": 3,
+            "e": 4.899999999999992,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 243222.80000000447,
+            "outro": 0,
+            "phase": "roundend",
+            "round": 3,
+            "e": 4.999999999999992,
+            "radius": 62,
+            "fits": "true",
+            "camera": "player",
+            "focus": "c4-blast",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 243428.80000000447,
+            "outro": 0,
+            "phase": "roundend",
+            "round": 3,
+            "radius": 0,
+            "fits": "false",
+            "camera": "player",
+            "focus": "player",
+            "gpu": 483,
+            "follow": "0"
+          },
+          {
+            "time": 243643.8999999985,
+            "outro": 0,
+            "phase": "roundend",
+            "round": 3,
+            "radius": 0,
+            "fits": "false",
+            "camera": "player",
+            "focus": "player",
+            "gpu": 483,
+            "follow": "0"
+          }
+        ],
+        "blast": {
+          "version": 1,
+          "damageRadius": 48,
+          "waveRadius": 62,
+          "hits": [
+            {
+              "id": 0,
+              "team": 0,
+              "name": "ACE",
+              "distance": 0.9999999999999994,
+              "hpBefore": 100,
+              "hpAfter": 0,
+              "lost": 100,
+              "killed": true
+            },
+            {
+              "id": 1,
+              "team": 0,
+              "name": "NOVA",
+              "distance": 0.9999999999999994,
+              "hpBefore": 100,
+              "hpAfter": 0,
+              "lost": 100,
+              "killed": true
+            }
+          ],
+          "props": 6
+        },
+        "score": [
+          3,
+          0
+        ],
+        "dimension": "3d",
+        "mode": "player",
+        "wallAfterDetonation": 21949
+      }
+    ],
+    "errors": []
+  },
+  "fullAIMapAudit": [
+    {
+      "map": "dust2",
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed": 102.59999999999674,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 282
+        },
+        {
+          "round": 2,
+          "elapsed": 81.5666666666646,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 148
+        },
+        {
+          "round": 3,
+          "elapsed": 80.89999999999797,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 224
+        },
+        {
+          "round": 4,
+          "elapsed": 86.53333333333099,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 242
+        },
+        {
+          "round": 5,
+          "elapsed": 64.86666666666555,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 229
+        },
+        {
+          "round": 6,
+          "elapsed": 78.73333333333143,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 287
+        },
+        {
+          "round": 7,
+          "elapsed": 78.23333333333146,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 212
+        },
+        {
+          "round": 8,
+          "elapsed": 90.39999999999743,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 288
+        },
+        {
+          "round": 9,
+          "elapsed": 87.03333333333096,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 248
+        },
+        {
+          "round": 10,
+          "elapsed": 134.33333333332828,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 182
+        },
+        {
+          "round": 11,
+          "elapsed": 79.93333333333136,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 172
+        },
+        {
+          "round": 12,
+          "elapsed": 96.16666666666377,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 194
+        },
+        {
+          "round": 13,
+          "elapsed": 124.06666666666219,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 188
+        },
+        {
+          "round": 14,
+          "elapsed": 114.66666666666272,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 136
+        },
+        {
+          "round": 15,
+          "elapsed": 75.23333333333163,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 0
+        },
+        {
+          "round": 16,
+          "elapsed": 80.09999999999802,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 0
+        },
+        {
+          "round": 17,
+          "elapsed": 84.09999999999779,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 0
+        },
+        {
+          "round": 18,
+          "elapsed": 75.29999999999829,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 0
+        },
+        {
+          "round": 19,
+          "elapsed": 76.46666666666489,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 0
+        },
+        {
+          "round": 20,
+          "elapsed": 80.13333333333135,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 0
+        },
+        {
+          "round": 21,
+          "elapsed": 101.86666666666345,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 74
+        },
+        {
+          "round": 22,
+          "elapsed": 76.03333333333158,
+          "reason": "C4 portladi",
+          "phase": "matchend",
+          "bomb": "exploded",
+          "shots": 0
+        }
+      ],
+      "invalid": [],
+      "settled": true,
+      "score": [
+        9,
+        13
+      ]
+    },
+    {
+      "map": "inferno",
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed": 76.16666666666491,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 205
+        },
+        {
+          "round": 2,
+          "elapsed": 51.199999999999655,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 168
+        },
+        {
+          "round": 3,
+          "elapsed": 52.69999999999957,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 113
+        },
+        {
+          "round": 4,
+          "elapsed": 65.43333333333219,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 243
+        },
+        {
+          "round": 5,
+          "elapsed": 59.69999999999917,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 183
+        },
+        {
+          "round": 6,
+          "elapsed": 50.3999999999997,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 165
+        },
+        {
+          "round": 7,
+          "elapsed": 78.93333333333142,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 125
+        },
+        {
+          "round": 8,
+          "elapsed": 51.09999999999966,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 109
+        },
+        {
+          "round": 9,
+          "elapsed": 45.23333333333333,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 177
+        },
+        {
+          "round": 10,
+          "elapsed": 49.566666666666414,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 93
+        },
+        {
+          "round": 11,
+          "elapsed": 43.300000000000104,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 128
+        },
+        {
+          "round": 12,
+          "elapsed": 69.53333333333195,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 113
+        },
+        {
+          "round": 13,
+          "elapsed": 75.93333333333159,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 170
+        },
+        {
+          "round": 14,
+          "elapsed": 51.79999999999962,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 135
+        },
+        {
+          "round": 15,
+          "elapsed": 79.79999999999804,
+          "reason": "C4 portladi",
+          "phase": "matchend",
+          "bomb": "exploded",
+          "shots": 236
+        }
+      ],
+      "invalid": [],
+      "settled": true,
+      "score": [
+        2,
+        13
+      ]
+    },
+    {
+      "map": "mirage",
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed": 115.03333333332937,
+          "reason": "Vaqt tugadi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 132
+        },
+        {
+          "round": 2,
+          "elapsed": 67.39999999999874,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 195
+        },
+        {
+          "round": 3,
+          "elapsed": 64.26666666666559,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 205
+        },
+        {
+          "round": 4,
+          "elapsed": 81.19999999999796,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 311
+        },
+        {
+          "round": 5,
+          "elapsed": 88.1333333333309,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 271
+        },
+        {
+          "round": 6,
+          "elapsed": 67.06666666666543,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 287
+        },
+        {
+          "round": 7,
+          "elapsed": 81.46666666666461,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 232
+        },
+        {
+          "round": 8,
+          "elapsed": 55.99999999999938,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 225
+        },
+        {
+          "round": 9,
+          "elapsed": 40.800000000000246,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "carried",
+          "shots": 135
+        },
+        {
+          "round": 10,
+          "elapsed": 65.63333333333217,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 212
+        },
+        {
+          "round": 11,
+          "elapsed": 87.16666666666428,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 194
+        },
+        {
+          "round": 12,
+          "elapsed": 54.86666666666611,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "carried",
+          "shots": 229
+        },
+        {
+          "round": 13,
+          "elapsed": 94.09999999999722,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 224
+        },
+        {
+          "round": 14,
+          "elapsed": 74.33333333333168,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 182
+        },
+        {
+          "round": 15,
+          "elapsed": 88.86666666666419,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 239
+        },
+        {
+          "round": 16,
+          "elapsed": 76.19999999999824,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "carried",
+          "shots": 239
+        },
+        {
+          "round": 17,
+          "elapsed": 77.99999999999814,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 163
+        },
+        {
+          "round": 18,
+          "elapsed": 83.93333333333113,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 176
+        },
+        {
+          "round": 19,
+          "elapsed": 83.93333333333113,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 74
+        },
+        {
+          "round": 20,
+          "elapsed": 75.03333333333164,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "matchend",
+          "bomb": "planted",
+          "shots": 223
+        }
+      ],
+      "invalid": [],
+      "settled": true,
+      "score": [
+        7,
+        13
+      ]
+    },
+    {
+      "map": "nuke",
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed": 97.56666666666369,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 258
+        },
+        {
+          "round": 2,
+          "elapsed": 65.46666666666552,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 221
+        },
+        {
+          "round": 3,
+          "elapsed": 58.09999999999926,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 126
+        },
+        {
+          "round": 4,
+          "elapsed": 84.96666666666441,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 268
+        },
+        {
+          "round": 5,
+          "elapsed": 74.29999999999835,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 127
+        },
+        {
+          "round": 6,
+          "elapsed": 106.76666666666317,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 222
+        },
+        {
+          "round": 7,
+          "elapsed": 85.83333333333103,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 165
+        },
+        {
+          "round": 8,
+          "elapsed": 85.03333333333107,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 189
+        },
+        {
+          "round": 9,
+          "elapsed": 82.96666666666452,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 161
+        },
+        {
+          "round": 10,
+          "elapsed": 69.73333333333194,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 141
+        },
+        {
+          "round": 11,
+          "elapsed": 104.29999999999664,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 194
+        },
+        {
+          "round": 12,
+          "elapsed": 75.86666666666493,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 133
+        },
+        {
+          "round": 13,
+          "elapsed": 86.09999999999768,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 252
+        },
+        {
+          "round": 14,
+          "elapsed": 96.53333333333042,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 171
+        },
+        {
+          "round": 15,
+          "elapsed": 90.4666666666641,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 232
+        },
+        {
+          "round": 16,
+          "elapsed": 89.9333333333308,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 152
+        },
+        {
+          "round": 17,
+          "elapsed": 89.59999999999748,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 178
+        },
+        {
+          "round": 18,
+          "elapsed": 89.39999999999749,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 176
+        },
+        {
+          "round": 19,
+          "elapsed": 74.23333333333169,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 123
+        },
+        {
+          "round": 20,
+          "elapsed": 87.43333333333094,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 187
+        },
+        {
+          "round": 21,
+          "elapsed": 82.53333333333121,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 164
+        },
+        {
+          "round": 22,
+          "elapsed": 86.93333333333096,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "matchend",
+          "bomb": "planted",
+          "shots": 159
+        }
+      ],
+      "invalid": [],
+      "settled": true,
+      "score": [
+        9,
+        13
+      ]
+    },
+    {
+      "map": "ancient",
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed": 113.69999999999611,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 206
+        },
+        {
+          "round": 2,
+          "elapsed": 65.89999999999883,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 217
+        },
+        {
+          "round": 3,
+          "elapsed": 75.0999999999983,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 188
+        },
+        {
+          "round": 4,
+          "elapsed": 113.49999999999612,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 210
+        },
+        {
+          "round": 5,
+          "elapsed": 84.29999999999778,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 209
+        },
+        {
+          "round": 6,
+          "elapsed": 84.03333333333113,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 261
+        },
+        {
+          "round": 7,
+          "elapsed": 102.33333333333009,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 276
+        },
+        {
+          "round": 8,
+          "elapsed": 97.09999999999705,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 272
+        },
+        {
+          "round": 9,
+          "elapsed": 79.83333333333137,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 255
+        },
+        {
+          "round": 10,
+          "elapsed": 88.06666666666423,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 280
+        },
+        {
+          "round": 11,
+          "elapsed": 87.66666666666426,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 179
+        },
+        {
+          "round": 12,
+          "elapsed": 82.69999999999787,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 240
+        },
+        {
+          "round": 13,
+          "elapsed": 91.86666666666402,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 205
+        },
+        {
+          "round": 14,
+          "elapsed": 90.69999999999742,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 126
+        },
+        {
+          "round": 15,
+          "elapsed": 97.76666666666368,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 188
+        },
+        {
+          "round": 16,
+          "elapsed": 100.9666666666635,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 174
+        },
+        {
+          "round": 17,
+          "elapsed": 105.5333333333299,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 112
+        },
+        {
+          "round": 18,
+          "elapsed": 92.166666666664,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 194
+        },
+        {
+          "round": 19,
+          "elapsed": 99.43333333333025,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 160
+        },
+        {
+          "round": 20,
+          "elapsed": 91.23333333333072,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "matchend",
+          "bomb": "defused",
+          "shots": 124
+        }
+      ],
+      "invalid": [],
+      "settled": true,
+      "score": [
+        13,
+        7
+      ]
+    },
+    {
+      "map": "anubis",
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed": 94.23333333333055,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 238
+        },
+        {
+          "round": 2,
+          "elapsed": 76.73333333333154,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 158
+        },
+        {
+          "round": 3,
+          "elapsed": 79.7666666666647,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 240
+        },
+        {
+          "round": 4,
+          "elapsed": 74.39999999999834,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 146
+        },
+        {
+          "round": 5,
+          "elapsed": 74.76666666666499,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 208
+        },
+        {
+          "round": 6,
+          "elapsed": 84.5333333333311,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 180
+        },
+        {
+          "round": 7,
+          "elapsed": 74.83333333333165,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 132
+        },
+        {
+          "round": 8,
+          "elapsed": 76.39999999999823,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 154
+        },
+        {
+          "round": 9,
+          "elapsed": 77.13333333333152,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 226
+        },
+        {
+          "round": 10,
+          "elapsed": 73.13333333333175,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 193
+        },
+        {
+          "round": 11,
+          "elapsed": 77.46666666666484,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 236
+        },
+        {
+          "round": 12,
+          "elapsed": 78.99999999999808,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 314
+        },
+        {
+          "round": 13,
+          "elapsed": 101.79999999999679,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 136
+        },
+        {
+          "round": 14,
+          "elapsed": 96.46666666666376,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 116
+        },
+        {
+          "round": 15,
+          "elapsed": 87.9333333333309,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 134
+        },
+        {
+          "round": 16,
+          "elapsed": 107.36666666666314,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 144
+        },
+        {
+          "round": 17,
+          "elapsed": 81.79999999999792,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 210
+        },
+        {
+          "round": 18,
+          "elapsed": 98.23333333333032,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 349
+        },
+        {
+          "round": 19,
+          "elapsed": 88.43333333333088,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 100
+        },
+        {
+          "round": 20,
+          "elapsed": 87.96666666666424,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 88
+        },
+        {
+          "round": 21,
+          "elapsed": 86.79999999999764,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 126
+        },
+        {
+          "round": 22,
+          "elapsed": 95.43333333333048,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 116
+        },
+        {
+          "round": 23,
+          "elapsed": 83.06666666666452,
+          "reason": "C4 portladi",
+          "phase": "matchend",
+          "bomb": "exploded",
+          "shots": 80
+        }
+      ],
+      "invalid": [],
+      "settled": true,
+      "score": [
+        10,
+        13
+      ]
+    },
+    {
+      "map": "overpass",
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed": 100.89999999999684,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 268
+        },
+        {
+          "round": 2,
+          "elapsed": 77.86666666666481,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 211
+        },
+        {
+          "round": 3,
+          "elapsed": 91.79999999999735,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 284
+        },
+        {
+          "round": 4,
+          "elapsed": 75.43333333333162,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 219
+        },
+        {
+          "round": 5,
+          "elapsed": 92.59999999999731,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 300
+        },
+        {
+          "round": 6,
+          "elapsed": 80.69999999999798,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 262
+        },
+        {
+          "round": 7,
+          "elapsed": 78.53333333333144,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 257
+        },
+        {
+          "round": 8,
+          "elapsed": 89.69999999999747,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 244
+        },
+        {
+          "round": 9,
+          "elapsed": 85.66666666666437,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 272
+        },
+        {
+          "round": 10,
+          "elapsed": 106.03333333332988,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 262
+        },
+        {
+          "round": 11,
+          "elapsed": 66.96666666666543,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 181
+        },
+        {
+          "round": 12,
+          "elapsed": 65.53333333333218,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 209
+        },
+        {
+          "round": 13,
+          "elapsed": 88.86666666666419,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 148
+        },
+        {
+          "round": 14,
+          "elapsed": 95.59999999999714,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 120
+        },
+        {
+          "round": 15,
+          "elapsed": 87.09999999999762,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 166
+        },
+        {
+          "round": 16,
+          "elapsed": 84.73333333333109,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 134
+        },
+        {
+          "round": 17,
+          "elapsed": 90.06666666666412,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 62
+        },
+        {
+          "round": 18,
+          "elapsed": 84.39999999999777,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 108
+        },
+        {
+          "round": 19,
+          "elapsed": 89.36666666666416,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 134
+        },
+        {
+          "round": 20,
+          "elapsed": 85.23333333333106,
+          "reason": "C4 portladi",
+          "phase": "matchend",
+          "bomb": "exploded",
+          "shots": 115
+        }
+      ],
+      "invalid": [],
+      "settled": true,
+      "score": [
+        7,
+        13
+      ]
+    },
+    {
+      "map": "vertigo",
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed": 90.09999999999745,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 232
+        },
+        {
+          "round": 2,
+          "elapsed": 41.80000000000019,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 135
+        },
+        {
+          "round": 3,
+          "elapsed": 89.13333333333084,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 282
+        },
+        {
+          "round": 4,
+          "elapsed": 64.36666666666558,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 227
+        },
+        {
+          "round": 5,
+          "elapsed": 80.13333333333135,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 236
+        },
+        {
+          "round": 6,
+          "elapsed": 59.26666666666586,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 200
+        },
+        {
+          "round": 7,
+          "elapsed": 77.29999999999818,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 218
+        },
+        {
+          "round": 8,
+          "elapsed": 73.89999999999837,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 278
+        },
+        {
+          "round": 9,
+          "elapsed": 56.73333333333267,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 208
+        },
+        {
+          "round": 10,
+          "elapsed": 62.099999999999035,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 168
+        },
+        {
+          "round": 11,
+          "elapsed": 65.89999999999883,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 192
+        },
+        {
+          "round": 12,
+          "elapsed": 90.63333333333075,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 184
+        },
+        {
+          "round": 13,
+          "elapsed": 78.5999999999981,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 234
+        },
+        {
+          "round": 14,
+          "elapsed": 46.29999999999993,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 199
+        },
+        {
+          "round": 15,
+          "elapsed": 71.26666666666519,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 321
+        },
+        {
+          "round": 16,
+          "elapsed": 115.03333333332937,
+          "reason": "Vaqt tugadi",
+          "phase": "roundend",
+          "bomb": "carried",
+          "shots": 102
+        },
+        {
+          "round": 17,
+          "elapsed": 93.19999999999727,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 269
+        },
+        {
+          "round": 18,
+          "elapsed": 115.03333333332937,
+          "reason": "Vaqt tugadi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 142
+        },
+        {
+          "round": 19,
+          "elapsed": 87.69999999999759,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "matchend",
+          "bomb": "dropped",
+          "shots": 215
+        }
+      ],
+      "invalid": [],
+      "settled": true,
+      "score": [
+        13,
+        6
+      ]
+    },
+    {
+      "map": "train",
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed": 80.53333333333133,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 280
+        },
+        {
+          "round": 2,
+          "elapsed": 45.56666666666664,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 180
+        },
+        {
+          "round": 3,
+          "elapsed": 93.69999999999725,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 276
+        },
+        {
+          "round": 4,
+          "elapsed": 67.4666666666654,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 170
+        },
+        {
+          "round": 5,
+          "elapsed": 65.29999999999886,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 219
+        },
+        {
+          "round": 6,
+          "elapsed": 83.63333333333115,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 238
+        },
+        {
+          "round": 7,
+          "elapsed": 62.96666666666565,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "carried",
+          "shots": 293
+        },
+        {
+          "round": 8,
+          "elapsed": 61.89999999999905,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 243
+        },
+        {
+          "round": 9,
+          "elapsed": 57.59999999999929,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 269
+        },
+        {
+          "round": 10,
+          "elapsed": 83.49999999999783,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 331
+        },
+        {
+          "round": 11,
+          "elapsed": 52.53333333333291,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "carried",
+          "shots": 289
+        },
+        {
+          "round": 12,
+          "elapsed": 46.96666666666656,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 241
+        },
+        {
+          "round": 13,
+          "elapsed": 87.46666666666427,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 246
+        },
+        {
+          "round": 14,
+          "elapsed": 79.09999999999808,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 191
+        },
+        {
+          "round": 15,
+          "elapsed": 63.39999999999896,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 215
+        },
+        {
+          "round": 16,
+          "elapsed": 70.39999999999857,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 136
+        },
+        {
+          "round": 17,
+          "elapsed": 94.69999999999719,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 168
+        },
+        {
+          "round": 18,
+          "elapsed": 89.09999999999751,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 232
+        },
+        {
+          "round": 19,
+          "elapsed": 85.6999999999977,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 260
+        },
+        {
+          "round": 20,
+          "elapsed": 68.1999999999987,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 237
+        },
+        {
+          "round": 21,
+          "elapsed": 61.96666666666571,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "matchend",
+          "bomb": "planted",
+          "shots": 221
+        }
+      ],
+      "invalid": [],
+      "settled": true,
+      "score": [
+        8,
+        13
+      ]
+    },
+    {
+      "map": "cache",
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed": 79.66666666666471,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 200
+        },
+        {
+          "round": 2,
+          "elapsed": 37.533333333333765,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 149
+        },
+        {
+          "round": 3,
+          "elapsed": 75.49999999999828,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 272
+        },
+        {
+          "round": 4,
+          "elapsed": 38.13333333333373,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 81
+        },
+        {
+          "round": 5,
+          "elapsed": 33.73333333333398,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 123
+        },
+        {
+          "round": 6,
+          "elapsed": 72.56666666666511,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 136
+        },
+        {
+          "round": 7,
+          "elapsed": 36.20000000000051,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 125
+        },
+        {
+          "round": 8,
+          "elapsed": 79.73333333333137,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 156
+        },
+        {
+          "round": 9,
+          "elapsed": 71.19999999999852,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 194
+        },
+        {
+          "round": 10,
+          "elapsed": 69.93333333333193,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 278
+        },
+        {
+          "round": 11,
+          "elapsed": 64.56666666666557,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 262
+        },
+        {
+          "round": 12,
+          "elapsed": 75.7333333333316,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 188
+        },
+        {
+          "round": 13,
+          "elapsed": 106.56666666666318,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 212
+        },
+        {
+          "round": 14,
+          "elapsed": 89.43333333333082,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 149
+        },
+        {
+          "round": 15,
+          "elapsed": 87.09999999999762,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 265
+        },
+        {
+          "round": 16,
+          "elapsed": 89.13333333333084,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 256
+        },
+        {
+          "round": 17,
+          "elapsed": 71.83333333333182,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 171
+        },
+        {
+          "round": 18,
+          "elapsed": 70.89999999999854,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 180
+        },
+        {
+          "round": 19,
+          "elapsed": 55.29999999999942,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "matchend",
+          "bomb": "planted",
+          "shots": 131
+        }
+      ],
+      "invalid": [],
+      "settled": true,
+      "score": [
+        6,
+        13
+      ]
+    },
+    {
+      "map": "ancient-night",
+      "rounds": [
+        {
+          "round": 1,
+          "elapsed": 126.1999999999954,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 246
+        },
+        {
+          "round": 2,
+          "elapsed": 71.86666666666515,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 247
+        },
+        {
+          "round": 3,
+          "elapsed": 97.66666666666369,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 224
+        },
+        {
+          "round": 4,
+          "elapsed": 86.79999999999764,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 274
+        },
+        {
+          "round": 5,
+          "elapsed": 92.76666666666397,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 198
+        },
+        {
+          "round": 6,
+          "elapsed": 87.13333333333095,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 260
+        },
+        {
+          "round": 7,
+          "elapsed": 89.06666666666418,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 244
+        },
+        {
+          "round": 8,
+          "elapsed": 54.86666666666611,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 177
+        },
+        {
+          "round": 9,
+          "elapsed": 68.23333333333203,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 137
+        },
+        {
+          "round": 10,
+          "elapsed": 88.6666666666642,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 200
+        },
+        {
+          "round": 11,
+          "elapsed": 89.49999999999748,
+          "reason": "C4 portladi",
+          "phase": "roundend",
+          "bomb": "exploded",
+          "shots": 148
+        },
+        {
+          "round": 12,
+          "elapsed": 91.06666666666406,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 227
+        },
+        {
+          "round": 13,
+          "elapsed": 112.7333333333295,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 276
+        },
+        {
+          "round": 14,
+          "elapsed": 36.633333333333816,
+          "reason": "Hujumchilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "dropped",
+          "shots": 177
+        },
+        {
+          "round": 15,
+          "elapsed": 80.03333333333136,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 220
+        },
+        {
+          "round": 16,
+          "elapsed": 82.99999999999785,
+          "reason": "Himoyachilar yo\u2018q qilindi",
+          "phase": "roundend",
+          "bomb": "planted",
+          "shots": 238
+        },
+        {
+          "round": 17,
+          "elapsed": 90.13333333333078,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 186
+        },
+        {
+          "round": 18,
+          "elapsed": 101.0666666666635,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 124
+        },
+        {
+          "round": 19,
+          "elapsed": 83.63333333333115,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "roundend",
+          "bomb": "defused",
+          "shots": 146
+        },
+        {
+          "round": 20,
+          "elapsed": 86.66666666666431,
+          "reason": "C4 zararsizlantirildi",
+          "phase": "matchend",
+          "bomb": "defused",
+          "shots": 150
+        }
+      ],
+      "invalid": [],
+      "settled": true,
+      "score": [
+        13,
+        7
+      ]
+    }
+  ],
+  "mandatoryGuide": {
+    "result": "passed",
+    "mandatoryCoachWithoutHideButton": true,
+    "settingsUtilityAndReturn": true,
+    "actualPaidFiveTransfers": true,
+    "starterSpent": 4400,
+    "partialRecruitmentReload": true,
+    "realMenuNavigation": true,
+    "realTargetClicksThroughSpotlight": true,
+    "dialogTopLayerCoach": true,
+    "realTrainingRestPlanRewardAndCosmetic": true,
+    "battleHoldAndManualPlay": true,
+    "cameraAutoPlayerStrategySpeedLearnt": true,
+    "checkpointReload": true,
+    "practiceSettlement": "deterministic result fixture after actual controls/play",
+    "onceOnly400XP": true,
+    "trace": [
+      {
+        "id": "name",
+        "step": 0
+      },
+      {
+        "id": "name",
+        "step": 0
+      },
+      {
+        "id": "menu",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "menu",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "nav-squad",
+        "step": 2
+      },
+      {
+        "id": "inspect",
+        "step": 2
+      },
+      {
+        "id": "skills-next",
+        "step": 2
+      },
+      {
+        "id": "menu",
+        "step": 3
+      },
+      {
+        "id": "nav-training",
+        "step": 3
+      },
+      {
+        "id": "nav-training",
+        "step": 3
+      },
+      {
+        "id": "train-player",
+        "step": 3
+      },
+      {
+        "id": "train-skill",
+        "step": 3
+      },
+      {
+        "id": "train",
+        "step": 3
+      },
+      {
+        "id": "rest",
+        "step": 4
+      },
+      {
+        "id": "nav-tactics",
+        "step": 5
+      },
+      {
+        "id": "map",
+        "step": 5
+      },
+      {
+        "id": "plan",
+        "step": 5
+      },
+      {
+        "id": "menu",
+        "step": 6
+      },
+      {
+        "id": "nav-finance",
+        "step": 6
+      },
+      {
+        "id": "nav-finance",
+        "step": 6
+      },
+      {
+        "id": "reward",
+        "step": 6
+      },
+      {
+        "id": "menu",
+        "step": 7
+      },
+      {
+        "id": "nav-shop",
+        "step": 7
+      },
+      {
+        "id": "nav-shop",
+        "step": 7
+      },
+      {
+        "id": "crest-tab",
+        "step": 7
+      },
+      {
+        "id": "crest",
+        "step": 7
+      },
+      {
+        "id": "crest-confirm",
+        "step": 7
+      },
+      {
+        "id": "nav-tactics",
+        "step": 8
+      },
+      {
+        "id": "practice",
+        "step": 8
+      },
+      {
+        "id": "nav-tactics",
+        "step": 8
+      },
+      {
+        "id": "practice",
+        "step": 8
+      },
+      {
+        "id": "pause",
+        "step": 8
+      },
+      {
+        "id": "pause",
+        "step": 8
+      },
+      {
+        "id": "camera",
+        "step": 8
+      },
+      {
+        "id": "auto",
+        "step": 8
+      },
+      {
+        "id": "camera-close",
+        "step": 8
+      },
+      {
+        "id": "roster",
+        "step": 8
+      },
+      {
+        "id": "follow",
+        "step": 8
+      },
+      {
+        "id": "commands",
+        "step": 8
+      },
+      {
+        "id": "order",
+        "step": 8
+      },
+      {
+        "id": "commands-close",
+        "step": 8
+      },
+      {
+        "id": "speed",
+        "step": 8
+      },
+      {
+        "id": "play",
+        "step": 8
+      },
+      {
+        "id": "save-result",
+        "step": 8
+      },
+      {
+        "id": "nav-home",
+        "step": 8
+      },
+      {
+        "id": "finish",
+        "step": 8
+      }
+    ],
+    "errors": [],
+    "missing": []
+  },
+  "actual54WorkerUpgradeOffline": {
+    "result": "passed",
+    "actualPrevious54Worker25Installed": true,
+    "firstNavigationUnderOldWorkerLoads55": true,
+    "recordedBad54PropSaveRecoversAndSettles": true,
+    "newWorker26OfflineLaunchAndCareer": true,
+    "errors": []
+  },
+  "changes": [
+    "Persistent-first result saving with an always-visible footer action, visible errors and retry. No reward replay. Fix missing-ground movable props falling to y=-100; migrate only the exact recorded settled sentinel. Other save validation remains strict.",
+    "Present age-zero C4 flash before fast-forward can consume further ticks. Preserve a full five-second normal-speed outro and separate round-keyed five-second auto-round timer. Pause/auto-off hold the timer. Explain valid early round ends without detonation.",
+    "All observer modes temporarily frame the full scaled48game-metre damage area/62game-metre visual wave. Reuse/dispose ground-ripple and boundary buffers. Record actual victim distance/HP loss/deaths/prop count. Freeze the blast camera during the outro so static-world render caching remains effective; return to the chosen camera/player afterward.",
+    "Use the same experience/energy/morale combat profiles for both squads, practice rival near actual effective strength, new-club official ladder that increases by season, and existing legacy ladder unchanged. Show actual pending snapshot ratings for resumed matches. Scale shot acquisition/ranges/falloff/knife distance to map metres. Existing economy prices/rewards unchanged.",
+    "93Node tests; combat31/tactics32integration; actualsourcecollision11mapAI audit:221rounds/70detonations/11validatedcareer settlements, no invalid checkpoints in that run. Real save/quota retry, consecutive auto timers and4xC4outro browser checks;24normal/125font result states over12viewports; full mandatory guide. Controlled3Dsource-map render and previous-worker/offline checks are recorded inverification55.",
+    "Web/source-only1.55. Existing1.52APK unchanged because its private signing key is unavailable after prior ephemeral reset; no replacement certificate or physical-install/FPS claim. Source-derived map geometry/materials still require a rights plan; this change is not legal clearance."
+  ],
+  "directPagesHTTPVerified": false,
+  "physicalDeviceInstalled": false,
+  "notes": [
+    "Only remix31 and original18redirect changed on main;28published and209parent protected hashes match; working case bot unchanged.",
+    "93Node tests pass.11full actual source collision AI matches:221rounds70C4detonations11validated final settlements, no invalid checkpoints in this seeded run. Not a proof of all balance scenarios or absence of every possible bug.",
+    "Actual recorded fallen-prop y=-100 Mirage/Overpass snapshots restore; other malformed states remain invalid. Real result button quota failure leaves completed match available and retry saves once.24normal/125font result/footer states over12viewports, successive5secondauto timers/pause/auto-off/4xC4then5secondtimer pass.",
+    "3D uses actual38MBmobileDust2sourceGLB and originalARENAagents with controlled stationary players/bomb countdown. Per-render observation confirms age-zero first frame and full62mfront in static/auto/player modes;5simulation-secondoutro and48mHP loss report; selected mode returns. SwiftShader is slower than real time; not a physical-device or measuredFPS claim.",
+    "Damage is applied at detonation; subsequent62mwave is visual.48/62 are virtual gameplay constants. All CT eliminated can correctly end a planted round before detonation; now explained.",
+    "54SW25\u219255SW26 first-navigation upgrade repairs a recorded bad save, settles it and opens savedcareer offline after real controllerchange.",
+    "ZIP reconstruction produces byte-identical published web assets and pinnedruntime SHA; remote38webfiles/sourceZIP/runtime all TLS+SHA verified. GitHub Pages ActionsStatusSuccess tied to fullmainSHA; directgithub.io HTTP blocked in this environment.",
+    "Web/source updated only. Existing1.52APK unchanged; its private signing key was lost after an earlier ephemeral reset. No replacement certificate. Real billing/ads still need accounts/server; source-derived geometry/materials are not newly rights-cleared."
+  ]
+}
