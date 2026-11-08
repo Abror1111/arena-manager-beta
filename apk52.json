@@ -1,0 +1,12 @@
+{
+  "result": "passed",
+  "applicationId": "uz.arena.manager.preview",
+  "versionCode": 152,
+  "versionName": "1.52-beta",
+  "orientation": "fullUser",
+  "physicalDeviceInstalled": false,
+  "bundledAssetHashesVerified": 101,
+  "bytes": 70421887,
+  "sha256": "ac17ab286b68c7f67f8fb1444220c795a203ee094bd335f07d016b8af77639ec",
+  "nativeDirectoryEntryResolved": true
+}
