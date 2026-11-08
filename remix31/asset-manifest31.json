@@ -1,18 +1,19 @@
 {
   "assets": [
     "assets/audio-pack-worker-D9xylAYG.js",
+    "assets/main-DuzoO-9b.css",
     "assets/native-data31-CUOX1azu.js"
   ],
   "shared": [
     "../original20/assets/index-CVBt3UIp.css",
     "../ui15/anime-player-portraits.png"
   ],
-  "mainUncompressedSHA256": "78d07e62d69b04b59aa359c47480ab1e839b6f400c83e8f0b2658066ff3385f3",
-  "packedSHA256": "fa0d018ca0988d0b8af850298fb3412977566a5f34d9c79a005da4d21080b523",
-  "css": "Preserved original20CSS plus compiled app visual layers",
+  "mainUncompressedSHA256": "fd27ea0938747c91f999a6c63aef9cd33fa8a351fd301a371dec5d4f6be4590a",
+  "packedSHA256": "f239a6594c4cde4edc6461cbf63d636ea741705c17961641eddfd53050c85739",
+  "css": "main-DuzoO-9b.css",
   "runtime": {
-    "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/9c3ee2e86f3009d6d366d9925cad8cdcce2edfda/runtime55.bin",
-    "bytes": 740494,
-    "sha256": "fa0d018ca0988d0b8af850298fb3412977566a5f34d9c79a005da4d21080b523"
+    "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/f1c8c41c869cfd325ed9f3ad377f9af7aa27de79/runtime57.bin",
+    "bytes": 744550,
+    "sha256": "f239a6594c4cde4edc6461cbf63d636ea741705c17961641eddfd53050c85739"
   }
 }
