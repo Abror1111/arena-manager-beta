@@ -1,7 +1,7 @@
 {
   "file": "runtime52.bin",
-  "bytes": 735156,
-  "sha256": "b349e79b1393521517fd1aef9fde0a05cab3ed18ba31060add76e5399f755aab",
+  "bytes": 735163,
+  "sha256": "968296e8a9979051ba3b5f4639d41e8e69540c372288f87d8aa5998678f4d4ac",
   "compression": "gzip",
   "immutable": true
 }
