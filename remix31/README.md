@@ -1,5 +1,6 @@
-# ARENA1.53 — Required first-play guide
+# ARENA1.54 — New Game
 
-All first-run stages must be completed. Hiding the coach is disabled for real unfinished clubs; Settings remain accessible. Actual practice and all coached battle controls gate completion. Older paused guides resume without charging/rewarding again; already completed/legacy clubs stay unchanged. Optional Help replay stays dismissible.82Node tests, portrait/landscape full practical guide, returning-club replay and52worker upgrade/offline pass. Source: https://github.com/Abror1111/arena-manager-beta/raw/5a33153602693633dcf1fee79bd724322af80681/ARENA-required53-source.zip
-Full evidence: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/arena-required53-source/publication53.json
+New Game is available on the opening screen and in Settings. Confirmation resets club progress/pending match to an empty mandatory tutorial with12000coins. Cancel/Escape leave the old club unchanged. An importable previous-club snapshot is saved before replacing the primary save and remains downloadable in Settings. Storage errors preserve the current club. Graphics quality, audio settings and asset caches remain.86Node tests,90normal/enlarged UI states across15viewports,quota failure and53SWupgrade/offline pass.
+Source: https://github.com/Abror1111/arena-manager-beta/raw/96789537e6cb004a11689966c6b9a8464a6b4266/ARENA-newgame54-source.zip
+Full evidence: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/arena-newgame54-source/publication54.json
 APK1.52 is unchanged by this web-only release.
