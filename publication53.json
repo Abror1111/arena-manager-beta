@@ -1,0 +1,679 @@
+{
+  "baseline": "bafa57e55a27e8be538abd705f7ef48d8c8ac761",
+  "url": "https://abror1111.github.io/arena-manager-beta/remix31/?v=53",
+  "publicBytes": 1073016046,
+  "headroom": 725778,
+  "protectedPublished": 28,
+  "protectedParent": 209,
+  "productionBotUnchanged": true,
+  "validation": {
+    "result": "passed",
+    "version": "required53",
+    "nodeTestsPassed": 82,
+    "freshGuidePortraitAndLandscape": true,
+    "requiredControlsAndNoHide": true,
+    "completedClubsAndReplayPreserved": true,
+    "paused52GuideMigrationAndOfflineUpgrade": true,
+    "sourceRebuildByteIdentical": true,
+    "fullEvidence": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/arena-required53-source/publication53.json",
+    "webOnlyRelease": true,
+    "APKVersion": 152,
+    "physicalDeviceInstalled": false,
+    "directPagesHTTPVerified": false
+  },
+  "sourceArchive": {
+    "file": "ARENA-required53-source.zip",
+    "bytes": 41146716,
+    "sha256": "25f0a473121a33b484c868ddfbbd67937e4563f369587e606f4db530cfab43e5",
+    "files": 450,
+    "branch": "arena-required53-source",
+    "commit": "5a33153602693633dcf1fee79bd724322af80681",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/5a33153602693633dcf1fee79bd724322af80681/ARENA-required53-source.zip",
+    "reproducibleBuild": true
+  },
+  "runtime": {
+    "file": "runtime53.bin",
+    "bytes": 735531,
+    "sha256": "e3a7a1eda20032da45ed15a75a3e3fdef584a5922c6dd06ddda13f755c09ffe1",
+    "branch": "arena-required53-runtime",
+    "commit": "ad0fcd8391cef91d120504f2e44d807128f5ca60",
+    "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/ad0fcd8391cef91d120504f2e44d807128f5ca60/runtime53.bin"
+  },
+  "previousAPKVersion": 152,
+  "APKUpdated": false,
+  "date": "2026-11-08",
+  "timezone": "Asia/Tashkent",
+  "commit": "75ae1aa0be93f68a695e0785405421f12d00f931",
+  "actions": {
+    "branch": "main",
+    "runId": "42501229407",
+    "runUrl": "https://github.com/Abror1111/arena-manager-beta/actions/runs/42501229407",
+    "commit": "75ae1aa0be93f68a695e0785405421f12d00f931",
+    "status": "Success",
+    "verification": "Public run Status Success and exact full commit SHA"
+  },
+  "remoteVerification": {
+    "result": "passed",
+    "commit": "75ae1aa0be93f68a695e0785405421f12d00f931",
+    "webFiles": {
+      "remix31/loader53.js": "bd7f5fdddfa52c4eb7928e239028ed93026fd59a16c747fd53e3c1cd25efea3d",
+      "remix31/validation.json": "012063935559c6dae6628f09e8550f5b3f3c3c293f33cfe98ce9c1de2f8d3e16",
+      "remix31/service-worker.js": "150bd4efc29972b0031d172b7129ba3be34098b75373905da9cdbaf95bfa7641",
+      "remix31/loader52.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader51.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader50.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader49.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader48.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader47.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader46.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader45.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader44.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader43.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader42.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader41.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader40.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader39.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader38.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader37.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader36.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader35.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader34.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader33.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader32.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/loader31.js": "88f219e48bd24abff13cd5a2088e136d23153007fc175a9bb6616f162f47c8b3",
+      "remix31/index.html": "c7081d4f7fc15905c2c20e2271c181e0e2dd7674a90cbc4c23367ed59952de5a",
+      "remix31/commerce45.css": "e0c53d05e929576c8c85aa3a633e51c79089cef9f5854cac46756617b04c39a7",
+      "remix31/asset-manifest31.json": "b615997f769ed36726145e36113ae9a0c517641e8c3debe37b5faf4461289fd8",
+      "remix31/academy43.css": "43113a28694ae50b856949503e634ec7d49a96c8f67db87a06cae3ad546fb318",
+      "remix31/THIRD_PARTY_NOTICES.txt": "3dc5c0a5f380b86471b03f644fcae7754248218e7862e064d234c0c6bff138cc",
+      "remix31/README.md": "78f8464ebacf46550f3c3e380c69cd59ff4ebd4cde21588b95c7091b95e46b0f",
+      "remix31/PROVENANCE.json": "615225af8bb240878699ec1ccb376559ce2d01505c7d3750e931bfdc43e18cd4",
+      "remix31/ORIGINAL-DESIGN-NEXT.md": "41fb28cabce01cafe154e2a0a4adb145014bbda15b4564e874192f761d447cf0",
+      "remix31/assets/native-data31-CUOX1azu.js": "75a52358899fca3d05e4b69451fe42e494556111465bd68905b3abb2359ed853",
+      "remix31/assets/audio-pack-worker-D9xylAYG.js": "7a6810256326ac056a7eb916291372d0122d8e581b1105bb649989130b6ab9af",
+      "original18/index.html": "058b2f5ed3284a0b04c42babdaa219f127c06616dde59040e27b4afb57c0c34c"
+    },
+    "sourceAndRuntimeRemotelyHashVerified": true,
+    "TLSVerified": true
+  },
+  "nodeTestsPassed": 82,
+  "webOnlyRelease": true,
+  "APKSigningKeyAvailableInCurrentRuntime": false,
+  "sourceRebuildByteIdentical": true,
+  "tutorialBrowser": {
+    "result": "passed",
+    "mandatoryCoachWithoutHideButton": true,
+    "settingsUtilityAndReturn": true,
+    "actualPaidFiveTransfers": true,
+    "starterSpent": 4400,
+    "partialRecruitmentReload": true,
+    "realMenuNavigation": true,
+    "realTargetClicksThroughSpotlight": true,
+    "dialogTopLayerCoach": true,
+    "realTrainingRestPlanRewardAndCosmetic": true,
+    "battleHoldAndManualPlay": true,
+    "cameraAutoPlayerStrategySpeedLearnt": true,
+    "checkpointReload": true,
+    "practiceSettlement": "deterministic result fixture after actual controls/play",
+    "onceOnly400XP": true,
+    "trace": [
+      {
+        "id": "name",
+        "step": 0
+      },
+      {
+        "id": "name",
+        "step": 0
+      },
+      {
+        "id": "menu",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "menu",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "nav-squad",
+        "step": 2
+      },
+      {
+        "id": "inspect",
+        "step": 2
+      },
+      {
+        "id": "skills-next",
+        "step": 2
+      },
+      {
+        "id": "menu",
+        "step": 3
+      },
+      {
+        "id": "nav-training",
+        "step": 3
+      },
+      {
+        "id": "nav-training",
+        "step": 3
+      },
+      {
+        "id": "train-player",
+        "step": 3
+      },
+      {
+        "id": "train-skill",
+        "step": 3
+      },
+      {
+        "id": "train",
+        "step": 3
+      },
+      {
+        "id": "rest",
+        "step": 4
+      },
+      {
+        "id": "nav-tactics",
+        "step": 5
+      },
+      {
+        "id": "map",
+        "step": 5
+      },
+      {
+        "id": "plan",
+        "step": 5
+      },
+      {
+        "id": "menu",
+        "step": 6
+      },
+      {
+        "id": "nav-finance",
+        "step": 6
+      },
+      {
+        "id": "nav-finance",
+        "step": 6
+      },
+      {
+        "id": "reward",
+        "step": 6
+      },
+      {
+        "id": "menu",
+        "step": 7
+      },
+      {
+        "id": "nav-shop",
+        "step": 7
+      },
+      {
+        "id": "nav-shop",
+        "step": 7
+      },
+      {
+        "id": "crest-tab",
+        "step": 7
+      },
+      {
+        "id": "crest",
+        "step": 7
+      },
+      {
+        "id": "crest-confirm",
+        "step": 7
+      },
+      {
+        "id": "nav-tactics",
+        "step": 8
+      },
+      {
+        "id": "practice",
+        "step": 8
+      },
+      {
+        "id": "nav-tactics",
+        "step": 8
+      },
+      {
+        "id": "practice",
+        "step": 8
+      },
+      {
+        "id": "pause",
+        "step": 8
+      },
+      {
+        "id": "pause",
+        "step": 8
+      },
+      {
+        "id": "camera",
+        "step": 8
+      },
+      {
+        "id": "auto",
+        "step": 8
+      },
+      {
+        "id": "camera-close",
+        "step": 8
+      },
+      {
+        "id": "roster",
+        "step": 8
+      },
+      {
+        "id": "follow",
+        "step": 8
+      },
+      {
+        "id": "commands",
+        "step": 8
+      },
+      {
+        "id": "order",
+        "step": 8
+      },
+      {
+        "id": "commands-close",
+        "step": 8
+      },
+      {
+        "id": "speed",
+        "step": 8
+      },
+      {
+        "id": "play",
+        "step": 8
+      },
+      {
+        "id": "save-result",
+        "step": 8
+      },
+      {
+        "id": "nav-home",
+        "step": 8
+      },
+      {
+        "id": "finish",
+        "step": 8
+      }
+    ],
+    "errors": [],
+    "missing": []
+  },
+  "landscapeTutorialBrowser": {
+    "result": "passed",
+    "mandatoryCoachWithoutHideButton": true,
+    "settingsUtilityAndReturn": true,
+    "actualPaidFiveTransfers": true,
+    "starterSpent": 4400,
+    "partialRecruitmentReload": true,
+    "realMenuNavigation": true,
+    "realTargetClicksThroughSpotlight": true,
+    "dialogTopLayerCoach": true,
+    "realTrainingRestPlanRewardAndCosmetic": true,
+    "battleHoldAndManualPlay": true,
+    "cameraAutoPlayerStrategySpeedLearnt": true,
+    "checkpointReload": true,
+    "practiceSettlement": "deterministic result fixture after actual controls/play",
+    "onceOnly400XP": true,
+    "trace": [
+      {
+        "id": "name",
+        "step": 0
+      },
+      {
+        "id": "name",
+        "step": 0
+      },
+      {
+        "id": "menu",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "menu",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "nav-transfers",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "recruit",
+        "step": 1
+      },
+      {
+        "id": "buy-confirm",
+        "step": 1
+      },
+      {
+        "id": "nav-squad",
+        "step": 2
+      },
+      {
+        "id": "inspect",
+        "step": 2
+      },
+      {
+        "id": "skills-next",
+        "step": 2
+      },
+      {
+        "id": "menu",
+        "step": 3
+      },
+      {
+        "id": "nav-training",
+        "step": 3
+      },
+      {
+        "id": "nav-training",
+        "step": 3
+      },
+      {
+        "id": "train-player",
+        "step": 3
+      },
+      {
+        "id": "train-skill",
+        "step": 3
+      },
+      {
+        "id": "train",
+        "step": 3
+      },
+      {
+        "id": "rest",
+        "step": 4
+      },
+      {
+        "id": "nav-tactics",
+        "step": 5
+      },
+      {
+        "id": "map",
+        "step": 5
+      },
+      {
+        "id": "plan",
+        "step": 5
+      },
+      {
+        "id": "menu",
+        "step": 6
+      },
+      {
+        "id": "nav-finance",
+        "step": 6
+      },
+      {
+        "id": "nav-finance",
+        "step": 6
+      },
+      {
+        "id": "reward",
+        "step": 6
+      },
+      {
+        "id": "menu",
+        "step": 7
+      },
+      {
+        "id": "nav-shop",
+        "step": 7
+      },
+      {
+        "id": "nav-shop",
+        "step": 7
+      },
+      {
+        "id": "crest-tab",
+        "step": 7
+      },
+      {
+        "id": "crest",
+        "step": 7
+      },
+      {
+        "id": "crest-confirm",
+        "step": 7
+      },
+      {
+        "id": "nav-tactics",
+        "step": 8
+      },
+      {
+        "id": "practice",
+        "step": 8
+      },
+      {
+        "id": "nav-tactics",
+        "step": 8
+      },
+      {
+        "id": "practice",
+        "step": 8
+      },
+      {
+        "id": "pause",
+        "step": 8
+      },
+      {
+        "id": "pause",
+        "step": 8
+      },
+      {
+        "id": "camera",
+        "step": 8
+      },
+      {
+        "id": "auto",
+        "step": 8
+      },
+      {
+        "id": "camera-close",
+        "step": 8
+      },
+      {
+        "id": "roster",
+        "step": 8
+      },
+      {
+        "id": "follow",
+        "step": 8
+      },
+      {
+        "id": "commands",
+        "step": 8
+      },
+      {
+        "id": "order",
+        "step": 8
+      },
+      {
+        "id": "commands-close",
+        "step": 8
+      },
+      {
+        "id": "speed",
+        "step": 8
+      },
+      {
+        "id": "play",
+        "step": 8
+      },
+      {
+        "id": "save-result",
+        "step": 8
+      },
+      {
+        "id": "nav-home",
+        "step": 8
+      },
+      {
+        "id": "finish",
+        "step": 8
+      }
+    ],
+    "errors": [],
+    "missing": []
+  },
+  "returningClubReplay": {
+    "result": "passed",
+    "existingClubNeverForced": true,
+    "realDemoPurchase": true,
+    "memoryOnlyReplay": true,
+    "realSaveByteUnchanged": true,
+    "spotlightAcrossLiveResize": [
+      [
+        280,
+        653
+      ],
+      [
+        667,
+        375
+      ],
+      [
+        884,
+        1104
+      ],
+      [
+        1180,
+        820
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "returnAndReloadPreserved": true,
+    "errors": []
+  },
+  "actual52WorkerUpgradeOffline": {
+    "result": "passed",
+    "actualPrevious52Worker23Installed": true,
+    "newRequiredGuideOnFirstNavigationUnderOldWorker": true,
+    "previousPausedGuideResumedAutomatically": true,
+    "noWalletRosterXPGrantOrCharge": true,
+    "worker24AndOfflineReloadPassed": true,
+    "errors": []
+  },
+  "changes": [
+    "Mandatory first-run onboarding: persisted required53 marker for unfinished real clubs; the coach cannot be paused or hidden. Settings remain accessible from its gear control without completing or skipping the guide. Optional isolated Help replay stays dismissible.",
+    "Stage advancement additionally requires roster inspection, both training selections, rest acknowledgement, map/strategy acknowledgement and every actual battle control. Normal tutorial gates still require five paid recruits, real training/rest, objective/cosmetic actions and a settled non-forfeit practice; completion remains once-only400XP.",
+    "Migration resumes older paused onboarding and recognizes real training/practice already completed before this requirement; it never spends/grants funds. Completed clubs and legacy clubs without onboarding remain unchanged. Geometry, art, audio, battle simulation and economy are preserved apart from tutorial gates and display version1.53.",
+    "This release updates the web game and source. The1.52 APK remains unchanged; its signing key was in the previous ephemeral runtime and is unavailable after environment restart. No replacement certificate is published under the existing application ID."
+  ],
+  "directPagesHTTPVerified": false,
+  "physicalDeviceInstalled": false,
+  "notes": [
+    "Website and source updated; existing1.52APK was not modified or re-signed with a replacement certificate.",
+    "Only remix31 and original18redirect changed on main. Protected28published hashes and209parent hashes matched; original bot unchanged.",
+    "Full first-play tests use actual buttons and real economic actions, then a deterministic completed match fixture after exercising battle controls.",
+    "A service-worker controllerchange is awaited before the offline assertion; mere cache-key presence does not prove client control."
+  ]
+}
