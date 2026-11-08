@@ -1,0 +1,1 @@
+ARENA1.54 web source: confirmed New Game with recoverable old club snapshot and required fresh tutorial.86Node tests,90normal/enlarged launch and dialog states,quota failure,53SWupgrade/offline. APK1.52 unchanged. No signing key or generated APKassets included. See verification54.
