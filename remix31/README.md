@@ -1,7 +1,7 @@
-# ARENA Manager1.51
+# ARENA Manager1.52
 
-Text stays inside headings,badges,navigation,buttons,price rows and theme previews.235normal/enlarged125% textstates pass;71Node tests,50mainviewport fits,actual3Dbattle,tutorial,50SWupgrade/offline and extractedAPK checks pass.
-Source: https://github.com/Abror1111/arena-manager-beta/raw/19473ca0fbfd864ebc5b46dcd47ddf92ee62585b/ARENA-fit51-source.zip
-Android151: https://github.com/Abror1111/arena-manager-beta/raw/b814f292ddf22ed110744853b841e1204eafc698/ARENA-Manager-1.51-preview.apk
-Full evidence/history: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/arena-fit51-source/publication51.json
-Preview: other3Dmaps needfirstdownload; no physicalAndroidFPS/livebilling/maprights-clearanceclaim.
+Compact phone, landscape, iPad and Fold interface; practical first-play spotlight over actual controls. Guide progress persists; returning clubs can replay in a separate memory-only practice club via Help.77Node tests,210touch layout states,75enlarged text states,56panels,actual3D,51SWupgrade/offline/cache repair and extractedAPKoffline checks.
+Source: https://github.com/Abror1111/arena-manager-beta/raw/598d55b74dbd51337379a9b688012533f282a308/ARENA-mobile52-source.zip
+Android152: https://github.com/Abror1111/arena-manager-beta/raw/cece30e16bbc5b9d2f2e9f6e16c9aa0b1c6d9e47/ARENA-Manager-1.52-preview.apk
+Full evidence/history: https://raw.githubusercontent.com/Abror1111/arena-manager-beta/arena-mobile52-source/publication52.json
+Preview: other3Dmaps needfirstdownload; no physical-deviceFPS/livebilling/legal-clearanceclaim.
