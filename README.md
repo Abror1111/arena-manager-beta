@@ -1,0 +1,1 @@
+ARENA Manager1.52 compressed runtime. Built from arena-mobile52-source. SHA256 is verified before execution and before cache reuse. This branch only holds the reproducible runtime binary; Pages shell remains on main.
