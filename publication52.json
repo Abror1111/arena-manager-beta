@@ -1,0 +1,4787 @@
+{
+  "version": "mobile52",
+  "date": "2026-11-08",
+  "timezone": "Asia/Tashkent",
+  "url": "https://abror1111.github.io/arena-manager-beta/remix31/?v=52",
+  "commit": "bafa57e55a27e8be538abd705f7ef48d8c8ac761",
+  "baseline": "9cd62dff096ab4681ccbd29950692c664b452340",
+  "actions": {
+    "branch": "main",
+    "runId": "42447319511",
+    "runUrl": "https://github.com/Abror1111/arena-manager-beta/actions/runs/42447319511",
+    "commit": "bafa57e55a27e8be538abd705f7ef48d8c8ac761",
+    "status": "Success",
+    "verification": "Public run Status Success and exact full commit SHA"
+  },
+  "sourceArchive": {
+    "archive": "ARENA-mobile52-source.zip",
+    "sha256": "3cca6a24d5c2b2839f0e67b3fa09b438a2035864b353dd478a1f213b77923c41",
+    "bytes": 39483875,
+    "files": 413,
+    "branch": "arena-mobile52-source",
+    "commit": "598d55b74dbd51337379a9b688012533f282a308",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/598d55b74dbd51337379a9b688012533f282a308/ARENA-mobile52-source.zip",
+    "reproducibleBuild": true
+  },
+  "androidAPK": {
+    "result": "passed",
+    "applicationId": "uz.arena.manager.preview",
+    "versionCode": 152,
+    "versionName": "1.52-beta",
+    "orientation": "fullUser",
+    "physicalDeviceInstalled": false,
+    "bundledAssetHashesVerified": 101,
+    "bytes": 70421887,
+    "sha256": "ac17ab286b68c7f67f8fb1444220c795a203ee094bd335f07d016b8af77639ec",
+    "nativeDirectoryEntryResolved": true,
+    "branch": "arena-mobile52-android",
+    "commit": "cece30e16bbc5b9d2f2e9f6e16c9aa0b1c6d9e47",
+    "file": "ARENA-Manager-1.52-preview.apk",
+    "url": "https://github.com/Abror1111/arena-manager-beta/raw/cece30e16bbc5b9d2f2e9f6e16c9aa0b1c6d9e47/ARENA-Manager-1.52-preview.apk"
+  },
+  "runtimePublication": {
+    "file": "runtime52.bin",
+    "bytes": 735163,
+    "sha256": "968296e8a9979051ba3b5f4639d41e8e69540c372288f87d8aa5998678f4d4ac",
+    "compression": "gzip",
+    "immutable": true,
+    "branch": "arena-mobile52-runtime",
+    "commit": "3d81974cb9dc6de7004a871b7162e924bc925d59",
+    "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/3d81974cb9dc6de7004a871b7162e924bc925d59/runtime52.bin"
+  },
+  "sourceWebAPKRuntimeAndRetainedFontRemoteHashVerified": true,
+  "verifiedWebFiles": 35,
+  "archiveRebuildByteIdentical": true,
+  "validation": {
+    "browser": {
+      "result": "passed",
+      "allTenScreensRestyled": true,
+      "themes": [
+        {
+          "theme": "gold",
+          "radius": "15px",
+          "background": "radial-gradient(at 100% 0px, color(srgb 0.894118 0.784314 0.560784 / 0.12), rgba(0, 0, 0, 0) 65%), linear-gradient(145deg, rgb(38, 53, 67), rgb(24, 39, 55))",
+          "clip": "none",
+          "accent": "#e4c88f",
+          "pattern": "repeating-linear-gradient(135deg,#dcc08c04 0 1px,transparent 1px 17px)"
+        },
+        {
+          "theme": "azure",
+          "radius": "9px",
+          "background": "radial-gradient(at 100% 0px, color(srgb 0.607843 0.862745 0.952941 / 0.12), rgba(0, 0, 0, 0) 65%), linear-gradient(145deg, rgb(35, 66, 87), rgb(22, 47, 68))",
+          "clip": "none",
+          "accent": "#9bdcf3",
+          "pattern": "repeating-linear-gradient(0deg,#a2d5ef05 0 1px,transparent 1px 30px),repeating-linear-gradient(90deg,#a2d5ef05 0 1px,transparent 1px 30px)"
+        },
+        {
+          "theme": "crimson",
+          "radius": "5px",
+          "background": "radial-gradient(at 100% 0px, color(srgb 0.945098 0.643137 0.713726 / 0.12), rgba(0, 0, 0, 0) 65%), linear-gradient(145deg, rgb(60, 45, 62), rgb(39, 37, 54))",
+          "clip": "polygon(0px 0px, calc(100% - 8px) 0px, 100% 8px, 100% 100%, 8px 100%, 0px calc(100% - 8px))",
+          "accent": "#f1a4b6",
+          "pattern": "repeating-linear-gradient(135deg,#ef8f9a08 0 2px,transparent 2px 12px)"
+        },
+        {
+          "theme": "jade",
+          "radius": "21px",
+          "background": "radial-gradient(at 100% 0px, color(srgb 0.607843 0.878431 0.741176 / 0.12), rgba(0, 0, 0, 0) 65%), linear-gradient(145deg, rgb(36, 69, 62), rgb(24, 46, 48))",
+          "clip": "none",
+          "accent": "#9be0bd",
+          "pattern": "radial-gradient(ellipse at 8% 25%,#76d3ad0a 0 18%,transparent 19%),radial-gradient(ellipse at 95% 80%,#76d3ad07 0 28%,transparent 29%)"
+        },
+        {
+          "theme": "violet",
+          "radius": "17px",
+          "background": "radial-gradient(at 100% 0px, color(srgb 0.796078 0.717647 0.960784 / 0.12), rgba(0, 0, 0, 0) 65%), linear-gradient(145deg, rgb(53, 52, 81), rgb(37, 43, 69))",
+          "clip": "none",
+          "accent": "#cbb7f5",
+          "pattern": "radial-gradient(ellipse at 80% 20%,#a276d81a,transparent 55%),radial-gradient(#ccb4ec14 1px,transparent 1px)"
+        }
+      ],
+      "portraitFrames": [
+        {
+          "id": "cyan",
+          "model": "crystal"
+        },
+        {
+          "id": "violet",
+          "model": "crescent"
+        },
+        {
+          "id": "gold",
+          "model": "laurel"
+        },
+        {
+          "id": "jade",
+          "model": "vine"
+        },
+        {
+          "id": "ruby",
+          "model": "wings"
+        },
+        {
+          "id": "pearl",
+          "model": "orbit"
+        },
+        {
+          "id": "ember",
+          "model": "solar"
+        },
+        {
+          "id": "eclipse",
+          "model": "celestial"
+        }
+      ],
+      "eightDistinctPreviewFaces": true,
+      "freeFrameRemovalAndReequip": true,
+      "actualEquippedFramesInSquadAndBattle": true,
+      "all36DistinctWeaponProfiles": true,
+      "fits": [
+        {
+          "screen": "home",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "squad",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "training",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "transfers",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [],
+          "vertical": [
+            "transfers"
+          ]
+        },
+        {
+          "screen": "season",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "tactics",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "finance",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "shop",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [],
+          "vertical": [
+            "shop"
+          ]
+        },
+        {
+          "screen": "maps",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "settings",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "home",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "squad",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "training",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "transfers",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [],
+          "vertical": [
+            "transfers"
+          ]
+        },
+        {
+          "screen": "season",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "tactics",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "finance",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "shop",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [],
+          "vertical": [
+            "shop"
+          ]
+        },
+        {
+          "screen": "maps",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "settings",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "home",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "squad",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "training",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "transfers",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [],
+          "vertical": [
+            "transfers"
+          ]
+        },
+        {
+          "screen": "season",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "tactics",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "finance",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "shop",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [],
+          "vertical": [
+            "shop"
+          ]
+        },
+        {
+          "screen": "maps",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "settings",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "home",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "squad",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "training",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "transfers",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [],
+          "vertical": [
+            "transfers"
+          ]
+        },
+        {
+          "screen": "season",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "tactics",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "finance",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "shop",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [],
+          "vertical": [
+            "shop"
+          ]
+        },
+        {
+          "screen": "maps",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "settings",
+          "w": 540,
+          "h": 720,
+          "sw": 540,
+          "sh": 720,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "home",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "squad",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "training",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "transfers",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [],
+          "vertical": [
+            "transfers"
+          ]
+        },
+        {
+          "screen": "season",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "tactics",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "finance",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "shop",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [],
+          "vertical": [
+            "shop"
+          ]
+        },
+        {
+          "screen": "maps",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        },
+        {
+          "screen": "settings",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "overflows": [
+            0
+          ],
+          "vertical": []
+        }
+      ],
+      "rosterAndCoinsUnchangedByVisualEquip": true,
+      "actual3DBattleReady": true,
+      "offlineStyleArtAndSavePreserved": true,
+      "errors": [],
+      "missing": []
+    },
+    "guide": {
+      "result": "passed",
+      "actualPaidFiveTransfers": true,
+      "starterSpent": 4400,
+      "partialRecruitmentReload": true,
+      "realMenuNavigation": true,
+      "realTargetClicksThroughSpotlight": true,
+      "dialogTopLayerCoach": true,
+      "realTrainingRestPlanRewardAndCosmetic": true,
+      "battleHoldAndManualPlay": true,
+      "cameraAutoPlayerStrategySpeedLearnt": true,
+      "checkpointReload": true,
+      "practiceSettlement": "deterministic result fixture after actual controls/play",
+      "onceOnly400XP": true,
+      "trace": [
+        {
+          "id": "name",
+          "step": 0
+        },
+        {
+          "id": "menu",
+          "step": 1
+        },
+        {
+          "id": "nav-transfers",
+          "step": 1
+        },
+        {
+          "id": "nav-transfers",
+          "step": 1
+        },
+        {
+          "id": "recruit",
+          "step": 1
+        },
+        {
+          "id": "buy-confirm",
+          "step": 1
+        },
+        {
+          "id": "recruit",
+          "step": 1
+        },
+        {
+          "id": "buy-confirm",
+          "step": 1
+        },
+        {
+          "id": "menu",
+          "step": 1
+        },
+        {
+          "id": "nav-transfers",
+          "step": 1
+        },
+        {
+          "id": "nav-transfers",
+          "step": 1
+        },
+        {
+          "id": "recruit",
+          "step": 1
+        },
+        {
+          "id": "buy-confirm",
+          "step": 1
+        },
+        {
+          "id": "recruit",
+          "step": 1
+        },
+        {
+          "id": "buy-confirm",
+          "step": 1
+        },
+        {
+          "id": "recruit",
+          "step": 1
+        },
+        {
+          "id": "buy-confirm",
+          "step": 1
+        },
+        {
+          "id": "nav-squad",
+          "step": 2
+        },
+        {
+          "id": "inspect",
+          "step": 2
+        },
+        {
+          "id": "skills-next",
+          "step": 2
+        },
+        {
+          "id": "menu",
+          "step": 3
+        },
+        {
+          "id": "nav-training",
+          "step": 3
+        },
+        {
+          "id": "nav-training",
+          "step": 3
+        },
+        {
+          "id": "train-player",
+          "step": 3
+        },
+        {
+          "id": "train-skill",
+          "step": 3
+        },
+        {
+          "id": "train",
+          "step": 3
+        },
+        {
+          "id": "rest",
+          "step": 4
+        },
+        {
+          "id": "nav-tactics",
+          "step": 5
+        },
+        {
+          "id": "map",
+          "step": 5
+        },
+        {
+          "id": "plan",
+          "step": 5
+        },
+        {
+          "id": "menu",
+          "step": 6
+        },
+        {
+          "id": "nav-finance",
+          "step": 6
+        },
+        {
+          "id": "nav-finance",
+          "step": 6
+        },
+        {
+          "id": "reward",
+          "step": 6
+        },
+        {
+          "id": "menu",
+          "step": 7
+        },
+        {
+          "id": "nav-shop",
+          "step": 7
+        },
+        {
+          "id": "nav-shop",
+          "step": 7
+        },
+        {
+          "id": "crest-tab",
+          "step": 7
+        },
+        {
+          "id": "crest",
+          "step": 7
+        },
+        {
+          "id": "crest-confirm",
+          "step": 7
+        },
+        {
+          "id": "nav-tactics",
+          "step": 8
+        },
+        {
+          "id": "practice",
+          "step": 8
+        },
+        {
+          "id": "nav-tactics",
+          "step": 8
+        },
+        {
+          "id": "practice",
+          "step": 8
+        },
+        {
+          "id": "pause",
+          "step": 8
+        },
+        {
+          "id": "pause",
+          "step": 8
+        },
+        {
+          "id": "camera",
+          "step": 8
+        },
+        {
+          "id": "auto",
+          "step": 8
+        },
+        {
+          "id": "camera-close",
+          "step": 8
+        },
+        {
+          "id": "roster",
+          "step": 8
+        },
+        {
+          "id": "follow",
+          "step": 8
+        },
+        {
+          "id": "commands",
+          "step": 8
+        },
+        {
+          "id": "order",
+          "step": 8
+        },
+        {
+          "id": "commands-close",
+          "step": 8
+        },
+        {
+          "id": "speed",
+          "step": 8
+        },
+        {
+          "id": "play",
+          "step": 8
+        },
+        {
+          "id": "save-result",
+          "step": 8
+        },
+        {
+          "id": "nav-home",
+          "step": 8
+        },
+        {
+          "id": "finish",
+          "step": 8
+        }
+      ],
+      "errors": [],
+      "missing": []
+    },
+    "devices": {
+      "result": "passed",
+      "states": 210,
+      "sizes": 14,
+      "records": [
+        {
+          "device": "cover",
+          "state": "home",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 402,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "squad",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 402,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "training",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 370,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "transfers",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "season",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 402,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "tactics",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 370,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "finance",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 402,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "shop",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "shop/O\u2018yinchilar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "shop/Klub Pass",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "shop/Klub uslublari",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "shop/Emblemalar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "shop/Vazifalar",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "maps",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 402,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "cover",
+          "state": "settings",
+          "w": 280,
+          "h": 653,
+          "sw": 280,
+          "sh": 653,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 402,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "home",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 317,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "squad",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 317,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "training",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 317,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "transfers",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "season",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 317,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "tactics",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 317,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "finance",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 317,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "shop",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "shop/O\u2018yinchilar",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "shop/Klub Pass",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "shop/Klub uslublari",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "shop/Emblemalar",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "shop/Vazifalar",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "maps",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 317,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "smallphone",
+          "state": "settings",
+          "w": 320,
+          "h": 568,
+          "sw": 320,
+          "sh": 568,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 317,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "home",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 593,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "squad",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 593,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "training",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 593,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "transfers",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "season",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 593,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "tactics",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 593,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "finance",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 593,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "shop",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "shop/O\u2018yinchilar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "shop/Klub Pass",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "shop/Klub uslublari",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "shop/Emblemalar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "shop/Vazifalar",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "maps",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 593,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "phone",
+          "state": "settings",
+          "w": 390,
+          "h": 844,
+          "sw": 390,
+          "sh": 844,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 593,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "home",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 229,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "squad",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 229,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "training",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 229,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "transfers",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "season",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 229,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "tactics",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 229,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "finance",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 229,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "shop",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "shop/O\u2018yinchilar",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "shop/Klub Pass",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "shop/Klub uslublari",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "shop/Emblemalar",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "shop/Vazifalar",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "maps",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 229,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone",
+          "state": "settings",
+          "w": 667,
+          "h": 375,
+          "sw": 667,
+          "sh": 375,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 229,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "home",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 244,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "squad",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 244,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "training",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 244,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "transfers",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "season",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 244,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "tactics",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 244,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "finance",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 244,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "shop",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "shop/O\u2018yinchilar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "shop/Klub Pass",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "shop/Klub uslublari",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "shop/Emblemalar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "shop/Vazifalar",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "maps",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 244,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "widephone-large",
+          "state": "settings",
+          "w": 844,
+          "h": 390,
+          "sw": 844,
+          "sh": 390,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 244,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "home",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 213,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "squad",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 213,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "training",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 213,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "transfers",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "season",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 213,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "tactics",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 213,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "finance",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 213,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "shop",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "shop/O\u2018yinchilar",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "shop/Klub Pass",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "shop/Klub uslublari",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "shop/Emblemalar",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "shop/Vazifalar",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "maps",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 213,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "shortphone",
+          "state": "settings",
+          "w": 568,
+          "h": 320,
+          "sw": 568,
+          "sh": 320,
+          "layout": "phone-wide",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 213,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "home",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 913,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "squad",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 913,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "training",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 913,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "transfers",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "season",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 913,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "tactics",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 913,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "finance",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 913,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "shop",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "shop/O\u2018yinchilar",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "shop/Klub Pass",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "shop/Klub uslublari",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "shop/Emblemalar",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "shop/Vazifalar",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "maps",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 913,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-open",
+          "state": "settings",
+          "w": 884,
+          "h": 1104,
+          "sw": 884,
+          "sh": 1104,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 913,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "home",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 693,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "squad",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 693,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "training",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 693,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "transfers",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "season",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 693,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "tactics",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 693,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "finance",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 693,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "shop",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "shop/O\u2018yinchilar",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "shop/Klub Pass",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "shop/Klub uslublari",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "shop/Emblemalar",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "shop/Vazifalar",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "maps",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 693,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "fold-wide",
+          "state": "settings",
+          "w": 1104,
+          "h": 884,
+          "sw": 1104,
+          "sh": 884,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 693,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "home",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 833,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "squad",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 833,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "training",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 833,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "transfers",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "season",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 833,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "tactics",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 833,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "finance",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 833,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "shop",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "shop/O\u2018yinchilar",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "shop/Klub Pass",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "shop/Klub uslublari",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "shop/Emblemalar",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "shop/Vazifalar",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "maps",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 833,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad",
+          "state": "settings",
+          "w": 768,
+          "h": 1024,
+          "sw": 768,
+          "sh": 1024,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 833,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "home",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 989,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "squad",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 989,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "training",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 989,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "transfers",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "season",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 989,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "tactics",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 989,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "finance",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 989,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "shop",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "shop/O\u2018yinchilar",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "shop/Klub Pass",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "shop/Klub uslublari",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "shop/Emblemalar",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "shop/Vazifalar",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "maps",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 989,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-air",
+          "state": "settings",
+          "w": 820,
+          "h": 1180,
+          "sw": 820,
+          "sh": 1180,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 989,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "home",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 629,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "squad",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 629,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "training",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 629,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "transfers",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "season",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 629,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "tactics",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 629,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "finance",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 629,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "shop",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "shop/O\u2018yinchilar",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "shop/Klub Pass",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "shop/Klub uslublari",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "shop/Emblemalar",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "shop/Vazifalar",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "maps",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 629,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-wide",
+          "state": "settings",
+          "w": 1180,
+          "h": 820,
+          "sw": 1180,
+          "sh": 820,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 629,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "home",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 577,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "squad",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 577,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "training",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 577,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "transfers",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "season",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 577,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "tactics",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 577,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "finance",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 577,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "shop",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "shop/O\u2018yinchilar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "shop/Klub Pass",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "shop/Klub uslublari",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "shop/Emblemalar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "shop/Vazifalar",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "maps",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 577,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "ipad-mini-wide",
+          "state": "settings",
+          "w": 1024,
+          "h": 768,
+          "sw": 1024,
+          "sh": 768,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 577,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "home",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 773,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "squad",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 773,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "training",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 773,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "transfers",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "season",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 773,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "tactics",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 773,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "finance",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 773,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "shop",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "shop/O\u2018yinchilar",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "shop/Klub Pass",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "shop/Klub uslublari",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "shop/Emblemalar",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "shop/Vazifalar",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "maps",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 773,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "split-view",
+          "state": "settings",
+          "w": 500,
+          "h": 1024,
+          "sw": 500,
+          "sh": 1024,
+          "layout": "phone",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 773,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "home",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 362,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "squad",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 362,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "training",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 362,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "transfers",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "transfers"
+          ],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "season",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 362,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "tactics",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 362,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "finance",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 362,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "shop",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "shop/O\u2018yinchilar",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "shop/Klub Pass",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "shop/Klub uslublari",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "shop/Emblemalar",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "shop/Vazifalar",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [],
+          "vertical": [
+            "shop"
+          ],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "maps",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 362,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        },
+        {
+          "device": "tablet-small",
+          "state": "settings",
+          "w": 720,
+          "h": 540,
+          "sw": 720,
+          "sh": 540,
+          "layout": "tablet",
+          "coarse": true,
+          "deck": [
+            {
+              "n": 0,
+              "h": 362,
+              "over": []
+            }
+          ],
+          "vertical": [],
+          "text": []
+        }
+      ],
+      "bad": [],
+      "errors": [],
+      "allTenMenuChoicesVisible": true,
+      "existingClubSaveUnchanged": true
+    },
+    "replay": {
+      "result": "passed",
+      "existingClubNeverForced": true,
+      "realDemoPurchase": true,
+      "memoryOnlyReplay": true,
+      "realSaveByteUnchanged": true,
+      "spotlightAcrossLiveResize": [
+        [
+          280,
+          653
+        ],
+        [
+          667,
+          375
+        ],
+        [
+          884,
+          1104
+        ],
+        [
+          1180,
+          820
+        ],
+        [
+          390,
+          844
+        ]
+      ],
+      "returnAndReloadPreserved": true,
+      "errors": []
+    },
+    "fold": {
+      "result": "passed",
+      "cdpRealSegmentMediaQuery": true,
+      "twentyPixelHingeAvoided": true,
+      "actualCoachNavPurchaseOnBothPanes": true,
+      "dialogInRightPane": true,
+      "liveRefoldReflow": true,
+      "fits": [
+        {
+          "s": ".career-header",
+          "l": 0,
+          "r": 432,
+          "t": 0,
+          "b": 54
+        },
+        {
+          "s": ".career-nav",
+          "l": 0,
+          "r": 432,
+          "t": 54,
+          "b": 1104
+        },
+        {
+          "s": ".career-content",
+          "l": 452,
+          "r": 884,
+          "t": 54,
+          "b": 1104
+        },
+        {
+          "s": ".guide52-bubble",
+          "l": 513,
+          "r": 823,
+          "t": 739.703125,
+          "b": 884.890625
+        },
+        {
+          "s": "[data-guide-active52=true]",
+          "l": 483,
+          "r": 853,
+          "t": 569.203125,
+          "b": 721.703125
+        }
+      ],
+      "errors": []
+    },
+    "keyboard": {
+      "result": "passed",
+      "typingViewportResizeSimulated": true,
+      "formAndSubmitStayVisible": true,
+      "singleSubmitWorks": true,
+      "layoutRestored": true,
+      "physicalKeyboardTested": false
+    },
+    "upgrade": {
+      "result": "passed",
+      "previous51ServiceWorkerActuallyInstalled": true,
+      "newCSSStyledOnFirstNavigationWhileOldWorkerStillControls": true,
+      "earnedWalletPreserved": true,
+      "newFit51StyleAndFramesOnFirstNavigation": true,
+      "newCompact52LayoutOnFirstNavigation": true,
+      "newVersionedStylesCachedAndOffline": true,
+      "runtimeCacheCorruptionRepaired": true,
+      "verifiedRuntimeRetainedOffline": true,
+      "errors": []
+    },
+    "apkAssetBrowser": {
+      "result": "passed",
+      "testType": "Chromium simulation using actual extracted APK assets; not a physical APK installation",
+      "offlineFreshTutorialZeroPlayers": true,
+      "nativeImportAndExportBridgeUI": true,
+      "legacyMigration": true,
+      "offlineSandrift3DRendered": true,
+      "offlineNewMarketPurchase": true,
+      "originalArtAndMissionTabsBundled": true,
+      "newThemeFrameAndSectionAtlasesOffline": true,
+      "newTypefaceAndPortraitCompositionOffline": true,
+      "checkpointAndReloadResume": true,
+      "servedFiles": [
+        "arena-manager-beta/remix31/index.html",
+        "arena-manager-beta/remix31/loader52.js",
+        "arena-manager-beta/original20/assets/index-CVBt3UIp.css",
+        "arena-manager-beta/remix31/academy43.css",
+        "arena-manager-beta/remix31/commerce45.css",
+        "arena-manager-beta/remix31/assets/native-data31-CUOX1azu.js",
+        "embedded/b9beda0a9b4242edb25902dfd10e5c4eba03920a60f4bbecc5e1d32a6ae51f51.dat",
+        "embedded/968296e8a9979051ba3b5f4639d41e8e69540c372288f87d8aa5998678f4d4ac.bin",
+        "embedded/a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972.woff2",
+        "embedded/6df90a7a64659f751e466206cbfe2e53a95e75929aa0325693263cd2824d3ff5.jpg",
+        "embedded/f2c3a1aea28fc51e2a032123c180f9fbb1ade30cb5e50d85b5e50f2569d8ce62.webp",
+        "embedded/1d93d117bebd1ed4e32abd1d88123580c6fdf6c820a5c04981146e97af682928.webp",
+        "embedded/f3c2601a5b65edeed3bf94eddfb7825af66502df98e5f8302079a32573cdfba1.mp3",
+        "embedded/381b7ac40799de43231fb68ac272d7d9d1e3d0a33e1984bf9358457ed1794022.mp3",
+        "embedded/8f360716d5bd48d7b5c8ce344a49c61231a58d826b2baa23d1b7b0a5e3366fce.mp3",
+        "embedded/962361873bfe7a0bdddcc09259a59e3aeeaebf9675d022bb3c547256e5ea9725.mp3",
+        "embedded/e2bba131c331c4fb08b7ab3ad1ba5033ce68749caa3dba0386fd815fb5e6004b.mp3",
+        "embedded/0fabb8dc7047e5da880b9215f0aef1eb1df7e38c82237db9c3c9e675484769e2.mp3",
+        "embedded/8a83dff957aa8a2608be693464c544d599c2b5ceb57793a066524a5b670140c5.webp",
+        "embedded/b8b455540e6ea1e296dae5e8301c1f01106891e541f747dde223da3f302bc0d5.webp",
+        "embedded/99b5ba74e304a042f66e0f444157b6aa4e8212bc97507f44d840bfe53c16ac15.webp",
+        "embedded/67ebd2c568b02f64f664410295b02b721aec4bc3dd2a949e94a84cf2bc128bc7.webp",
+        "embedded/4c889926b50a0c5d22192a250fe138345b77bd60baddbbc64cf7676b31fcfc78.webp",
+        "arena-manager-beta/cs2/dust2.cmesh",
+        "arena-manager-beta/audio/9b01bf657b888bbdfac14a3bf7d01274c05749cf3b19534248d3767ae35d83fa.wav",
+        "arena-manager-beta/audio/68f7e11d8121975ca700692a3a2652290a448f4985bf30702418051fb1530812.wav",
+        "arena-manager-beta/audio/443a95419e8e8c111c9d4eeda3e6ad049e9fd7e0949cc99d88fcac1b71dc72b3.wav",
+        "arena-manager-beta/audio/fa945af9ca02e5d7d7a8d342698c2a8262e5d031d4417c473359cda8c016b4e0.wav",
+        "arena-manager-beta/audio/bfdcbe658f829d88ad5d35ed42991b6f2ec39ddbfa2e0fd67f0c0dbedb7d9440.wav",
+        "arena-manager-beta/audio/72955f8ee28d66bcaaa8241e92d89520806f0107e2eb6cb20b5f93f1baf329df.wav",
+        "arena-manager-beta/audio/f2558ccaef61952ad3afa7451e9fc5fec775eb1a5aa931992ff9ba705434a020.wav",
+        "arena-manager-beta/audio/9d491a4a3dcaa913da1a3ecde901701615aef03ccf9af3abba23c217e1c87941.wav",
+        "arena-manager-beta/audio/43607b49e153341994ba10f4b2bc58e37c6cdc267824216338644c70b3cc3c52.wav",
+        "arena-manager-beta/visuals/dust2/mobile.glb",
+        "arena-manager-beta/audio/beccb0d8eb069419cdf14751652086e1bba4778791eaeb184f76a8c429f3da3c.wav",
+        "arena-manager-beta/audio/1987c0ccb88b6e800f0869c1bddf4ed9cf0eddd4d369398fda5894e05dcbbd81.wav",
+        "arena-manager-beta/audio/355c7893abfac0c9de3ae49a7cd8a10d3f824792e45bd60a480ea6ed05817738.wav",
+        "arena-manager-beta/audio/69f4fe2974147c0607e4fabcb023f269fe41529ca02db2668d7d6afa09091ac8.wav",
+        "arena-manager-beta/audio/2584f5e4427123f6681d40d5157463990328eb09e1b9f64032d13dde3b6d8184.wav",
+        "arena-manager-beta/audio/9b7d7139035e37f2fd4fc63d8fec3b884ff76a2cfb39d9133813d6e9ac032c64.wav",
+        "arena-manager-beta/audio/01399a62eb50d54d367045cd1d6c5203ea83ab011c33175cffc0cde50248c263.wav",
+        "arena-manager-beta/audio/1963c68a6dde787d3fda1f7bef1f1614bdfe66f35cc30cc9ec8a61c9af2a50ae.wav",
+        "arena-manager-beta/audio/156fc5054e8717671651c97b0c5c334b0cb40f7e01c9605c596ec8df1a91e44e.wav",
+        "arena-manager-beta/audio/f101227fdbb87be55d42b254c6e6830c5f0a6dc5c33eaa45535cae675d1b898f.wav",
+        "arena-manager-beta/audio/3a2d3f37c5a8aa31c36a9382af41e000144293a23d6368fda20c06da5128be57.wav",
+        "embedded/a78d83a3879f53bfbbb0cb1737fe35426eb09129129b2095b6494232b0b0c352.glb",
+        "arena-manager-beta/audio/73135705c8f822573165fadbe2fb1b1e508c72bb8072f732d029b8c4fc5e0d4b.wav",
+        "arena-manager-beta/audio/e6aaa7431eecfa19dac76187c3749d50769cad1e08759e48f3da9bcec4ab0c31.wav",
+        "arena-manager-beta/audio/59321e5a3d5617a7d86f517f060e46f516c414ef7a4ff373666a006260ce4266.wav",
+        "arena-manager-beta/audio/c62e09520aead058dc8ce9e9192830f3f88a29bb2844aa93fd53302415a66a6c.wav",
+        "arena-manager-beta/audio/cea961e91440fab85fd012e01a8aa818d2a6fbe2d74e1cc54990ca1240fec9ea.wav",
+        "arena-manager-beta/audio/fe501899392b4d626a94c27eb48bab6400c9634dd8332940bbcaaafd00412925.wav"
+      ],
+      "missing": [],
+      "errors": []
+    },
+    "result": "passed",
+    "version": "mobile52",
+    "nodeTestsPassed": 77,
+    "fullCustomSimulationChainRerun": false,
+    "androidAPK": {
+      "result": "passed",
+      "applicationId": "uz.arena.manager.preview",
+      "versionCode": 152,
+      "versionName": "1.52-beta",
+      "orientation": "fullUser",
+      "physicalDeviceInstalled": false,
+      "bundledAssetHashesVerified": 101,
+      "bytes": 70421887,
+      "sha256": "ac17ab286b68c7f67f8fb1444220c795a203ee094bd335f07d016b8af77639ec",
+      "nativeDirectoryEntryResolved": true,
+      "branch": "arena-mobile52-android",
+      "commit": "cece30e16bbc5b9d2f2e9f6e16c9aa0b1c6d9e47",
+      "file": "ARENA-Manager-1.52-preview.apk",
+      "url": "https://github.com/Abror1111/arena-manager-beta/raw/cece30e16bbc5b9d2f2e9f6e16c9aa0b1c6d9e47/ARENA-Manager-1.52-preview.apk"
+    },
+    "sourceArchive": {
+      "archive": "ARENA-mobile52-source.zip",
+      "sha256": "3cca6a24d5c2b2839f0e67b3fa09b438a2035864b353dd478a1f213b77923c41",
+      "bytes": 39483875,
+      "files": 413,
+      "branch": "arena-mobile52-source",
+      "commit": "598d55b74dbd51337379a9b688012533f282a308",
+      "url": "https://github.com/Abror1111/arena-manager-beta/raw/598d55b74dbd51337379a9b688012533f282a308/ARENA-mobile52-source.zip",
+      "reproducibleBuild": true
+    },
+    "runtime": {
+      "file": "runtime52.bin",
+      "bytes": 735163,
+      "sha256": "968296e8a9979051ba3b5f4639d41e8e69540c372288f87d8aa5998678f4d4ac",
+      "compression": "gzip",
+      "immutable": true,
+      "branch": "arena-mobile52-runtime",
+      "commit": "3d81974cb9dc6de7004a871b7162e924bc925d59",
+      "url": "https://raw.githubusercontent.com/Abror1111/arena-manager-beta/3d81974cb9dc6de7004a871b7162e924bc925d59/runtime52.bin"
+    },
+    "directPagesHTTPVerified": false,
+    "physicalDeviceFPSMeasured": false,
+    "legalClearanceClaim": false,
+    "realBillingAndAdsEnabled": false
+  },
+  "protected28PublishedAnd209ParentFilesMatched": true,
+  "productionBotUnchanged": true,
+  "publicBytes": 1073016429,
+  "headroom": 725395,
+  "nodeTestScriptCompleted": true,
+  "fullCustomSimulationChainRerun": false,
+  "notes": [
+    "Compact responsive shell for phones, landscape phones, coarse-pointer tablets, iPad, folded covers, unfolded Fold and split-screen. Five primary phone tabs, full static menu, tablet rail, safe areas, live reflow and viewport-segment hinge-aware controls. AdaptiveDeck retains one live DOM instance and horizontal pages; only shop and transfers have vertical lists.",
+    "Replace text-only onboarding presentation with a spotlight over actual controls, an original SVG hand and a brief contextual explanation. Real paid starter recruits, skills inspection, paid training, rest, chosen map and strategy, objective claim, confirmed cosmetic and practice all use existing career actions. Selection confirmation avoids moving native pickers while open. Actual pause, auto camera, individual follow, orders, speed and play are taught with held simulation.",
+    "Persist optional phase-scoped guide52 actions and pause state inside existing tutorial version1. Existing completed clubs are not forced into onboarding. Help offers an isolated memory-only practice club. Guided beginner financial guards prevent spending the starter budget on unrelated upgrades; normal and legacy clubs retain existing rules.",
+    "Tabbed battle roster exposes five full player cards per team on narrow screens; compact HUD and selectors retain real weapons, ammo and status. Simulation geometry, map art, combat, audio, currencies, billing state, portraits and themes remain from51; engine version label becomes1.52.",
+    "An immutable separately published compressed runtime keeps the main GitHub Pages tree under1GiB. Loader verifies SHA256, repairs corrupt runtime cache and supports cached offline launch. Android bundles the pinned runtime. Previous loader aliases are retained for service-worker upgrades.",
+    "Android preview152 keeps the existing package and signing certificate; fullUser orientation and adjustResize support portrait/landscape and keyboard. Browser viewport and extracted-asset checks do not claim physical-device installation, measured FPS or every hardware/browser combination. Other3Dmaps need their first download; no live billing, ads or legal-clearance claim.",
+    "Mainchangesonlyremix31/original18redirect. Fullsourceincludesalloriginalart/licensedfont/OFL/provenance/screenshots/testscriptsandAPKrestoremanifest. Privatekeys,APKgeneratedassets,cachesexcluded. MaincompacthistorylinksstayunderPages1GiB. Useinheritedproxy/TLS;directgithub.ioHTTPblocked,exactPagesSuccessverifiesdeployment. No livebilling/ads,physicaldeviceFPSorsource-maprights-clearanceclaim. RAMsource /dev/shm/arena-manager-mobile52;web -web;evidence /dev/shm/arena-mobile52-tests;Git /dev/shm/arena-pages32."
+  ]
+}
